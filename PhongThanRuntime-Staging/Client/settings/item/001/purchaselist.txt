@@ -1,0 +1,880 @@
+Name	Genre	DetailType	ParticularType	MaxPurchaseCount	Level
+#Thñy tinh	3	0	0	100	0
+#L­u huúnh	3	1	0	100	0
+#Linh chi	3	2	0	100	0
+#§ång thau	3	6	0	100	0
+#T¬ lôa	3	4	0	100	0
+#B× c¸ch	3	5	0	100	0
+#Long hån	3	7	0	100	0
+#Háa vò	3	8	0	100	0
+#Ngäc cèt	3	9	0	100	0
+#§o¶n KiÕm	3	10	0	100	0
+#M¶nh Gi¸p	3	11	0	100	0
+#MÆt Quû	3	12	0	100	0
+#B¨ng c¬	3	13	0	100	0
+#QuÎ Cµn	3	14	0	100	0
+#QuÎ Kh«n	3	15	0	100	0
+#QuÎ Kh¶m	3	16	0	100	0
+#QuÎ Ly	3	17	0	100	0
+#QuÎ CÊn	3	18	0	100	0
+#QuÎ §oµi	3	19	0	100	0
+#QuÎ Tèn	3	20	0	100	0
+#QuÎ ChÊn	3	21	0	100	0
+#§Þa t©m	3	22	0	100	0
+#Phong lÖ	3	23	0	100	0
+#Thñy hån	3	24	0	100	0
+#Háa linh	3	25	0	100	0
+#Tr­êng Sinh cèc	3	26	0	1	0
+#KÑo QuÕ hoa	3	27	0	1	0
+#Hång thñy tinh	3	28	0	100	0
+#B¸ L¹c Nh·n cÊp 1	3	29	0	10	0
+#B¸ L¹c Nh·n cÊp 2	3	30	0	10	0
+#B¸ L¹c Nh·n cÊp 3	3	31	0	10	0
+#B¸ L¹c Nh·n cÊp 4	3	32	0	10	0
+#B¸ L¹c Nh·n cÊp 5	3	33	0	10	0
+#S¸ch ch­ hÇu	3	40	0	1	0
+#Lam b¶o th¹ch	3	41	0	10	0
+#B¸ L¹c Nh·n cÊp 6	3	42	0	10	0
+#B¸ L¹c Nh·n cÊp 7	3	43	0	10	0
+#B¸ L¹c Nh·n cÊp 8	3	44	0	10	0
+#B¸ L¹c Nh·n cÊp 9	3	45	0	10	0
+#B¸ L¹c Nh·n cÊp 10	3	46	0	10	0
+#B¸ L¹c Nh·n cÊp 11	3	47	0	10	0
+#B¸ L¹c Nh·n cÊp 12	3	48	0	10	0
+#B¸ L¹c Nh·n cÊp 13	3	49	0	10	0
+#B¸ L¹c Nh·n cÊp 14	3	50	0	10	0
+#B¸ L¹c Nh·n cÊp 15	3	51	0	10	0
+#S¸ch ch­ hÇu (khëi)	3	58	0	1	0
+#S¸ch ch­ hÇu (thõa)	3	59	0	1	0
+#S¸ch ch­ hÇu (chuyÓn)	3	60	0	1	0
+#S¸ch ch­ hÇu (hîp)	3	61	0	1	0
+#Thæ linh phï	3	62	0	10	0
+#Thñy linh phï	3	63	0	10	0
+#Háa linh phï	3	64	0	10	0
+#Phong linh phï	3	65	0	10	0
+#M¶nh Hång thñy tinh	3	77	0	100	0
+#M¶nh Lam thñy tinh	3	78	0	100	0
+#Hång b¶o th¹ch	3	79	0	100	0
+#Lam thñy tinh	3	80	0	100	0
+#Qu¶ nh©n s©m	3	81	0	1	0
+#S¬n th¹ch	3	82	0	100	0
+#Ngäc tû	3	83	0	1	0
+#M¶nh tranh b¸t qu¸i	3	86	0	1	0
+#Tranh b¸t qu¸i	3	87	0	1	0
+#M¶nh Hoµng thñy tinh	3	88	0	100	0
+#Hoµng thñy tinh	3	89	0	100	0
+#Hoµng b¶o th¹ch	3	90	0	100	0
+#T­íng Qu©n lÖnh	3	100	0	250	0
+#KhÝ	3	101	0	1	0
+#Thñy	3	102	0	1	0
+#Lùc	3	103	0	1	0
+#Háa Vò	3	104	0	100	0
+#Ngäc Cèt	3	105	0	100	0
+#§o¶n KiÕm	3	106	0	100	0
+#M¶nh gi¸p	3	107	0	100	0
+#MÆt Quû	3	108	0	100	0
+#B¨ng C¬	3	109	0	100	0
+#§Þa T©m	3	110	0	100	0
+#Phong LÖ	3	111	0	100	0
+#Thñy Hån	3	112	0	100	0
+#Háa Linh	3	113	0	100	0
+#Thu thËp	3	114	0	100	0
+#Tø Tinh	3	115	0	100	0
+#§¹i ®Þa nh·n	3	116	0	100	0
+#Hoµn Quan nh·n	3	117	0	100	0
+#LiÖt DiÖm nh·n	3	118	0	100	0
+#Phong B¹o nh·n	3	119	0	100	0
+#Hçn §én	3	120	0	10	0
+#Khèn Kú	3	121	0	10	0
+#Thao ThiÕt	3	122	0	10	0
+#§µo C¬	3	123	0	10	0
+#Hoµn Nguyªn Th¹ch	3	136	0	100	0
+#Thøc ¨n cña gia sóc	3	137	0	100	0
+#Xa	3	142	0	100	0
+#Th¹ch	3	143	0	100	0
+#Hång	3	144	0	100	0
+#Thô	3	145	0	100	0
+#Tróc	3	146	0	100	0
+#H­¬ng	3	147	0	100	0
+#Bét m×	3	148	0	100	0
+#Bét g¹o	3	149	0	100	0
+#§Ëu xanh nghiÒn	3	150	0	100	0
+#H¹t quÕ	3	151	0	100	0
+#H¹t ®iÒu	3	152	0	100	0
+#Trøng gµ	3	153	0	100	0
+#L¸ Trµ xanh	3	154	0	100	0
+#Lß tinh luyÖn s¬ cÊp	3	155	0	100	0
+#Lß tinh luyÖn trung cÊp	3	156	0	100	0
+#Ên Ký quÎ Kh«n	3	157	0	1	0
+#Ên Ký quÎ Kh¶m	3	158	0	1	0
+#Ên Ký quÎ Ly	3	159	0	1	0
+#Ên Ký quÎ CÊn	3	160	0	1	0
+#Ên Ký quÎ §oµi	3	161	0	1	0
+#Ên Ký quÎ Tèn	3	162	0	1	0
+#Ên Ký quÎ ChÊn	3	163	0	1	0
+#G¹o nÕp	3	181	0	100	0
+#§Ëu Xanh	3	182	0	100	0
+#ThÞt mì	3	183	0	100	0
+#L¸ Chuèi	3	184	0	100	0
+#L¹t	3	185	0	100	0
+#Tr­ Thñ Th¸i B×nh TuÕ	3	186	0	1	0
+#Thö khiªn phó dô niªn	3	187	0	1	0
+#Tý niªn xu©n ®¸o hé	3	188	0	1	0
+#Thö tuÕ hû l©m m«n	3	189	0	1	0
+#Tý d¹ chung thanh h­ëng	3	190	0	1	0
+#Thö niªn b¸o tróc huyªn	3	191	0	1	0
+#Tam xu©n hoa vò nhuËn mËu tuÕ	3	192	0	1	0
+#ThËp øc thÇn ch©u kh¸nh tý niªn	3	193	0	1	0
+#Quèc th¸i b×nh an hîi tuÕ l¹c	3	194	0	1	0
+#L­¬ng phong tµi mËu tý xu©n h­ng	3	195	0	1	0
+#Tr­ niªn dÜ triÓn thiªn träng cÈm	3	196	0	1	0
+#Thö tuÕ t¸i ®¨ng b¸ch bé lÇu	3	197	0	1	0
+#Thö niªn ®¹i c¸t	3	198	0	1	0
+#Phæ thiªn ®ång kh¸nh	3	199	0	1	0
+#Tø t­îng tinh th¹ch	3	208	0	100	0
+#Dung tinh lé	3	209	0	100	0
+#Khª Th¹ch	3	231	0	100	0
+#M¶nh Lôc Thñy tinh	3	248	0	100	0
+#Lôc Thñy tinh	3	249	0	100	0
+#Lôc B¶o th¹ch	3	250	0	100	0
+#Lôc BÝch tû	3	251	0	100	0
+#Hoµng BÝch tû	3	252	0	100	0
+#XÝch Viªm to¸i ngäc (ch­a mµi)	3	253	0	100	0
+#XÝch Viªm Phµm ngäc (ch­a mµi)	3	254	0	1	0
+#XÝch Viªm L­¬ng Ngäc (ch­a mµi)	3	255	0	1	0
+#XÝch Viªm Danh Ngäc (ch­a mµi)	3	256	0	1	0
+#XÝch Viªm Ngäc Tinh (ch­a mµi)	3	257	0	1	0
+#XÝch Viªm Ngäc T©m (ch­a mµi)	3	258	0	1	0
+#XÝch Viªm Ngäc H«n (ch­a mµi)	3	259	0	1	0
+#Thanh Minh to¸i ngäc (ch­a mµi)	3	260	0	100	0
+#Thanh Minh Phµm ngäc (ch­a mµi)	3	261	0	1	0
+#Thanh Minh L­¬ng Ngäc (ch­a mµi)	3	262	0	1	0
+#Thanh Minh Danh Ngäc (ch­a mµi)	3	263	0	1	0
+#Thanh Minh Ngäc Tinh (ch­a mµi)	3	264	0	1	0
+#Thanh Minh Ngäc T©m (ch­a mµi)	3	265	0	1	0
+#Thanh Minh Ngäc Hån (ch­a mµi)	3	266	0	1	0
+#Tö Hµ to¸i ngäc (ch­a mµi)	3	267	0	100	0
+#Tö Hµ Phµm ngäc (ch­a mµi)	3	268	0	1	0
+#Tö Hµ L­¬ng Ngäc (ch­a mµi)	3	269	0	1	0
+#Tö Hµ Danh Ngäc (ch­a mµi)	3	270	0	1	0
+#Tö Hµ Ngäc Tinh (ch­a mµi)	3	271	0	1	0
+#Tö Hµ Ngäc T©m (ch­a mµi)	3	272	0	1	0
+#Tö Hµ Ngäc Hån (ch­a mµi)	3	273	0	1	0
+#BÝch Uyªn to¸i ngäc (ch­a mµi)	3	274	0	100	0
+#BÝch Uyªn Phµm ngäc (ch­a mµi)	3	275	0	1	0
+#BÝch Uyªn L­¬ng Ngäc (ch­a mµi)	3	276	0	1	0
+#BÝch Uyªn Danh Ngäc (ch­a mµi)	3	277	0	1	0
+#BÝch Uyªn Ngäc Tinh (ch­a mµi)	3	278	0	1	0
+#BÝch Uyªn Ngäc T©m (ch­a mµi)	3	279	0	1	0
+#BÝch Uyªn Ngäc Hån (ch­a mµi)	3	280	0	1	0
+#M¹n ®µ lµ hoa	3	311	0	100	0
+#M¹n ch©u sa hoa	3	312	0	100	0
+#Linh Quang B¶o KÝnh	3	359	0	1	0
+#Hçn §én B¶o KÝnh	3	360	0	1	0
+#BÊt Chu HuyÒn ThiÕt	3	361	0	100	0
+#BÊt Chu Tinh Cang	3	362	0	100	0
+#Vi Quang Qu¸i Phï (ch­a mµi)	3	374	0	1	0
+#Tinh Th¸i Qu¸i phï (ch­a mµi)	3	383	0	1	0
+#NguyÖt Hoa Qu¸i phï (ch­a mµi)	3	392	0	1	0
+#Kim ¤ Qu¸i phï (ch­a mµi)	3	401	0	1	0
+#Tranh Qu¸i Phï s¬ cÊp	3	410	0	100	0
+#HuyÒn Khung Lôc Tinh Th¹ch	3	411	0	100	0
+#Minh Quang Lôc Tinh Th¹ch	3	412	0	100	0
+#Thiªn Léc Lôc Tinh Th¹ch	3	413	0	100	0
+#Khu«n hé gi¸p	3	414	0	1	0
+#Khu«n phi phong	3	415	0	1	0
+#Thuèc nhém mµu xanh	3	416	0	10	0
+#Thuèc nhém mµu vµng	3	417	0	10	0
+#Hång tuyÕn	3	418	0	250	0
+#Thanh tuyÕn	3	419	0	250	0
+#B¹ch tuyÕn	3	420	0	250	0
+#H¾c tuyÕn	3	421	0	250	0
+#Hoµng tuyÕn	3	422	0	250	0
+#L¸ gãi b¸nh	3	423	0	100	0
+#G¹o nÕp	3	424	0	100	0
+#Hæ Ph¸ch Chi T©m	3	425	0	20	0
+#Hæ Ph¸ch Chi Hån	3	426	0	20	0
+#Dò T©m Th¶o	3	427	0	100	0
+#Tôc MÖnh Hoa	3	428	0	100	0
+#Th¸nh DiÖu Lôc Tinh Th¹ch	3	449	0	100	0
+#H­ Nghi Lôc Tinh Th¹ch	3	450	0	100	0
+#Loan Vò Lôc Tinh Th¹ch	3	451	0	100	0
+#ThÇn Hµnh Vò Ngoa	3	452	0	100	0
+#Ngäc §Ønh Kim Kh«i	3	453	0	100	0
+#T­¬ng Ngäc Cæn §¸i	3	454	0	100	0
+#§å My LÖ Hån	3	462	0	100	0
+#B¶o T¸ Tinh Hån 	3	473	0	10	0
+#B¶o T¸ Tinh Nguyªn	3	474	0	10	0
+#B¶o T¸ Tinh Nguyªn trang bÞ cao cÊp	3	475	0	1	0
+#BÝch L¹c	3	477	0	100	0
+#Hoµng TuyÒn	3	478	0	100	0
+#BÊt Chu HuyÒn Tinh	3	485	0	100	0
+#BÊt Chu Tinh Hån 	3	486	0	100	0
+#Néi ®¬n-Ch­ëng T©m L«i	3	487	0	1	0
+#Néi ®¬n-L­u Tinh Th¹ch	3	488	0	1	0
+#Néi ®¬n-B¨ng TuyÕt §¹n	3	489	0	1	0
+#Néi ®¬n-TÝch LÞch Háa	3	490	0	1	0
+#Néi ®¬n-Tinh Th«ng L«i HÖ	3	491	0	1	0
+#Néi ®¬n-Thiªn Phong §Þa NhÉn	3	492	0	1	0
+#Néi ®¬n-B¨ng C¬ TuyÕt Cèt	3	493	0	1	0
+#Néi ®¬n-Phong L©m Háa S¬n	3	494	0	1	0
+#Néi ®¬n-H¹n §Þa L«i	3	495	0	1	0
+#Néi ®¬n-Tinh Th«ng Thæ HÖ	3	496	0	1	0
+#Néi ®¬n-ThiÕt M· B¨ng Qua	3	497	0	1	0
+#Néi ®¬n-Tinh Th«ng Háa HÖ	3	498	0	1	0
+#Néi ®¬n-Phong V©n L«i §éng	3	499	0	1	0
+#Néi ®¬n-Ngò Nh¹c TriÒu T«ng	3	500	0	1	0
+#Néi ®¬n-Tinh Th«ng B¨ng HÖ	3	501	0	1	0
+#Néi ®¬n-ThËp Ph­¬ng LiÖt Háa	3	502	0	1	0
+#Néi ®¬n-L«i Phong Gi¸p	3	503	0	1	0
+#Néi ®¬n-Thiªn B¨ng §Þa LiÖt	3	504	0	1	0
+#Néi ®¬n-B¨ng Phong B¹o	3	505	0	1	0
+#Néi ®¬n-Chóc Dung Ch©n KhÝ	3	506	0	1	0
+#Néi ®¬n-L«i §éng Cöu Thiªn	3	507	0	1	0
+#Néi ®¬n-HuyÒn N÷ Bæ Thiªn	3	508	0	1	0
+#Néi ®¬n-B¨ng Phong V¹n Lý	3	509	0	1	0
+#Néi ®¬n-Tam Muéi Ch©n Háa	3	510	0	1	0
+#Néi ®¬n-TÕ HuyÕt Tr¶m	3	511	0	1	0
+#Néi ®¬n-L¨ng Ba Vi Bé	3	512	0	1	0
+#Néi ®¬n-Khai S¬n Tr¶m	3	513	0	1	0
+#Néi ®¬n-Håi Phong Tr¶m	3	514	0	1	0
+#Néi ®¬n-§iÖn Quang Tr¶m	3	515	0	1	0
+#Néi ®¬n-Hoµnh Kh«ng Tr¶m	3	516	0	1	0
+#Néi ®¬n-Tinh th«ng ®o¶n ®ao	3	517	0	1	0
+#Néi ®¬n-Tinh th«ng tr­êng ®ao	3	518	0	1	0
+#Néi ®¬n-Tam §Çu Lôc Thñ	3	519	0	1	0
+#Néi ®¬n-HuyÒn B¨ng Tr¶m	3	520	0	1	0
+#Néi ®¬n-Háa Quang Tr¶m	3	521	0	1	0
+#Néi ®¬n-Liªn Hoµn Tr¶m	3	522	0	1	0
+#Néi ®¬n-L¹c §Þa Tr¶m	3	523	0	1	0
+#Néi ®¬n-ThuÇn D­¬ng Hé ThÓ	3	524	0	1	0
+#Néi ®¬n-Thiªn Qu©n Tr¶m	3	525	0	1	0
+#Néi ®¬n-Khuynh Thµnh NhÊt KÝch	3	526	0	1	0
+#Néi ®¬n-Kim Cang Chó	3	527	0	1	0
+#Néi ®¬n-Th«i Th©n Chó	3	528	0	1	0
+#Néi ®¬n-Bæ T©m Chó	3	529	0	1	0
+#Néi ®¬n-C­êng C«ng Chó	3	530	0	1	0
+#Néi ®¬n-Ph¸ Gi¸p Chó	3	531	0	1	0
+#Néi ®¬n-Bå §Ò Chó	3	532	0	1	0
+#Néi ®¬n-Tr¶m T©m Chó	3	533	0	1	0
+#Néi ®¬n-TËt Phong Chó	3	534	0	1	0
+#Néi ®¬n-V¹n Cèt Toµn Kh«	3	535	0	1	0
+#Néi ®¬n-Lùc SÜ TÕ	3	536	0	1	0
+#Néi ®¬n-Tr­êng Cung TÕ	3	537	0	1	0
+#Néi ®¬n-Thiªn Vò TÕ	3	538	0	1	0
+#Néi ®¬n-Liªn Nâ TÕ	3	539	0	1	0
+#Néi ®¬n-Háa L«i TÕ	3	540	0	1	0
+#Néi ®¬n-To¸i Cèt TÕ	3	541	0	1	0
+#Néi ®¬n-L­u Tinh TÕ	3	542	0	1	0
+#Néi ®¬n-Truy Hån TÕ	3	543	0	1	0
+#Néi ®¬n-Phong QuyÓn Tµn V©n	3	544	0	1	0
+#BiÖn Thøc KÝnh	3	545	0	1	0
+#Ph¸ Thñy Hoµn	3	546	0	100	0
+#Ph¸ Thñy ThÊt Tinh Hoµn	3	547	0	100	0
+#CÊn Thæ Hoµn	3	548	0	100	0
+#CÊn Thæ ThËp Ph­¬ng Hoµn	3	549	0	100	0
+#Tèn Phong Hoµn	3	550	0	100	0
+#Tèn Phong B¸t VËn Hoµn	3	551	0	100	0
+#Ly Háa Hoµn	3	552	0	100	0
+#Ly Háa Cöu Cung Hoµn	3	553	0	100	0
+#Néi §¬n (thÊp)	3	554	0	100	0
+#Néi §¬n (trung)	3	555	0	100	0
+#Néi §¬n (cao)	3	556	0	100	0
+#§Þnh Hån Th¹ch	3	557	0	10	0
+#Kiªn Qu©n Phï	3	558	0	10	0
+#Lîi Binh Lôc	3	559	0	10	0
+#Ngù Long Phï	3	560	0	10	0
+#ChiÕn Long Lôc	3	561	0	10	0
+#Thiªn T­êng Phï	3	562	0	10	0
+#Thiªn Né Lôc	3	563	0	10	0
+#Ngò s¾c Kiªn Qu©n Phï	3	564	0	10	0
+#Ngò s¾c Lîi Binh Lôc	3	565	0	10	0
+#Ngò s¾c Ngù Long Phï	3	566	0	10	0
+#Ngò s¾c ChiÕn Long Lôc	3	567	0	10	0
+#Ngò s¾c Thiªn T­êng Phï	3	568	0	10	0
+#Ngò s¾c Thiªn Né Lôc	3	569	0	10	0
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 1	3	573	0	10	0
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 2	3	574	0	10	0
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 3	3	575	0	10	0
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 4	3	576	0	10	0
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 5	3	577	0	10	0
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 6	3	578	0	10	0
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 7	3	579	0	10	0
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 1	3	580	0	10	0
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 2	3	581	0	10	0
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 3	3	582	0	10	0
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 4	3	583	0	10	0
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 5	3	584	0	10	0
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 6	3	585	0	10	0
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 7	3	586	0	10	0
+#Hån Chó: Cuång T©m Tr¶m cÊp 1	3	587	0	10	0
+#Hån Chó: Cuång T©m Tr¶m cÊp 2	3	588	0	10	0
+#Hån Chó: Cuång T©m Tr¶m cÊp 3	3	589	0	10	0
+#Hån Chó: Cuång T©m Tr¶m cÊp 4	3	590	0	10	0
+#Hån Chó: Cuång T©m Tr¶m cÊp 5	3	591	0	10	0
+#Hån Chó: Cuång T©m Tr¶m cÊp 6	3	592	0	10	0
+#Hån Chó: Cuång T©m Tr¶m cÊp 7	3	593	0	10	0
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 1	3	594	0	10	0
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 2	3	595	0	10	0
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 3	3	596	0	10	0
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 4	3	597	0	10	0
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 5	3	598	0	10	0
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 6	3	599	0	10	0
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 7	3	600	0	10	0
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 1	3	601	0	10	0
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 2	3	602	0	10	0
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 3	3	603	0	10	0
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 4	3	604	0	10	0
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 5	3	605	0	10	0
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 6	3	606	0	10	0
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 7	3	607	0	10	0
+#Hån Chó: BÝch NguyÖt Tr¶m cÊp 1	3	608	0	10	0
+#Hån Chó: BÝch NguyÖt Tr¶m cÊp 2	3	609	0	10	0
+#Hån Chó: BÝch NguyÖt Tr¶m cÊp 3	3	610	0	10	0
+#Hån Chó: BÝch NguyÖt Tr¶m cÊp 4	3	611	0	10	0
+#Hån Chó: BÝch NguyÖt Tr¶m cÊp 5	3	612	0	10	0
+#Hån Chó: BÝch NguyÖt Tr¶m cÊp 6	3	613	0	10	0
+#Hån Chó: BÝch NguyÖt Tr¶m cÊp 7	3	614	0	10	0
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 1	3	615	0	10	0
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 2	3	616	0	10	0
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 3	3	617	0	10	0
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 4	3	618	0	10	0
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 5	3	619	0	10	0
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 6	3	620	0	10	0
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 7	3	621	0	10	0
+#Hån Chó: Phong L«i Hé ThÓ cÊp 1	3	622	0	10	0
+#Hån Chó: Phong L«i Hé ThÓ cÊp 2	3	623	0	10	0
+#Hån Chó: Phong L«i Hé ThÓ cÊp 3	3	624	0	10	0
+#Hån Chó: Phong L«i Hé ThÓ cÊp 4	3	625	0	10	0
+#Hån Chó: Phong L«i Hé ThÓ cÊp 5	3	626	0	10	0
+#Hån Chó: Phong L«i Hé ThÓ cÊp 6	3	627	0	10	0
+#Hån Chó: Phong L«i Hé ThÓ cÊp 7	3	628	0	10	0
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 1	3	629	0	10	0
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 2	3	630	0	10	0
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 3	3	631	0	10	0
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 4	3	632	0	10	0
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 5	3	633	0	10	0
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 6	3	634	0	10	0
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 7	3	635	0	10	0
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 1	3	636	0	10	0
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 2	3	637	0	10	0
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 3	3	638	0	10	0
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 4	3	639	0	10	0
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 5	3	640	0	10	0
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 6	3	641	0	10	0
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 7	3	642	0	10	0
+#Hån Chó: An Hån TÞnh Thæ cÊp 1	3	643	0	10	0
+#Hån Chó: An Hån TÞnh Thæ cÊp 2	3	644	0	10	0
+#Hån Chó: An Hån TÞnh Thæ cÊp 3	3	645	0	10	0
+#Hån Chó: An Hån TÞnh Thæ cÊp 4	3	646	0	10	0
+#Hån Chó: An Hån TÞnh Thæ cÊp 5	3	647	0	10	0
+#Hån Chó: An Hån TÞnh Thæ cÊp 6	3	648	0	10	0
+#Hån Chó: An Hån TÞnh Thæ cÊp 7	3	649	0	10	0
+#Hån Chó: §Þa Háa PhÇn Thiªn cÊp 1	3	650	0	10	0
+#Hån Chó: §Þa Háa PhÇn Thiªn cÊp 2	3	651	0	10	0
+#Hån Chó: §Þa Háa PhÇn Thiªn cÊp 3	3	652	0	10	0
+#Hån Chó: §Þa Háa PhÇn Thiªn cÊp 4	3	653	0	10	0
+#Hån Chó: §Þa Háa PhÇn Thiªn cÊp 5	3	654	0	10	0
+#Hån Chó: §Þa Háa PhÇn Thiªn cÊp 6	3	655	0	10	0
+#Hån Chó: §Þa Háa PhÇn Thiªn cÊp 7	3	656	0	10	0
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 1	3	657	0	10	0
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 2	3	658	0	10	0
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 3	3	659	0	10	0
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 4	3	660	0	10	0
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 5	3	661	0	10	0
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 6	3	662	0	10	0
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 7	3	663	0	10	0
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 1	3	664	0	10	0
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 2	3	665	0	10	0
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 3	3	666	0	10	0
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 4	3	667	0	10	0
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 5	3	668	0	10	0
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 6	3	669	0	10	0
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 7	3	670	0	10	0
+#Hån Chó: Thiªn Lý Truy Hån cÊp 1	3	671	0	10	0
+#Hån Chó: Thiªn Lý Truy Hån cÊp 2	3	672	0	10	0
+#Hån Chó: Thiªn Lý Truy Hån cÊp 3	3	673	0	10	0
+#Hån Chó: Thiªn Lý Truy Hån cÊp 4	3	674	0	10	0
+#Hån Chó: Thiªn Lý Truy Hån cÊp 5	3	675	0	10	0
+#Hån Chó: Thiªn Lý Truy Hån cÊp 6	3	676	0	10	0
+#Hån Chó: Thiªn Lý Truy Hån cÊp 7	3	677	0	10	0
+#Hån Chó: TÞch DiÖt Ch©n Háa cÊp 1	3	678	0	10	0
+#Hån Chó: TÞch DiÖt Ch©n Háa cÊp 2	3	679	0	10	0
+#Hån Chó: TÞch DiÖt Ch©n Háa cÊp 3	3	680	0	10	0
+#Hån Chó: TÞch DiÖt Ch©n Háa cÊp 4	3	681	0	10	0
+#Hån Chó: TÞch DiÖt Ch©n Háa cÊp 5	3	682	0	10	0
+#Hån Chó: TÞch DiÖt Ch©n Háa cÊp 6	3	683	0	10	0
+#Hån Chó: TÞch DiÖt Ch©n Háa cÊp 7	3	684	0	10	0
+#Hån Chó: PhÇn Háa §å §»ng cÊp 1	3	685	0	10	0
+#Hån Chó: PhÇn Háa §å §»ng cÊp 2	3	686	0	10	0
+#Hån Chó: PhÇn Háa §å §»ng cÊp 3	3	687	0	10	0
+#Hån Chó: PhÇn Háa §å §»ng cÊp 4	3	688	0	10	0
+#Hån Chó: PhÇn Háa §å §»ng cÊp 5	3	689	0	10	0
+#Hån Chó: PhÇn Háa §å §»ng cÊp 6	3	690	0	10	0
+#Hån Chó: PhÇn Háa §å §»ng cÊp 7	3	691	0	10	0
+#Hån Chó: Háa Tinh §äa L¹c cÊp 1	3	692	0	10	0
+#Hån Chó: Háa Tinh §äa L¹c cÊp 2	3	693	0	10	0
+#Hån Chó: Háa Tinh §äa L¹c cÊp 3	3	694	0	10	0
+#Hån Chó: Háa Tinh §äa L¹c cÊp 4	3	695	0	10	0
+#Hån Chó: Háa Tinh §äa L¹c cÊp 5	3	696	0	10	0
+#Hån Chó: Háa Tinh §äa L¹c cÊp 6	3	697	0	10	0
+#Hån Chó: Háa Tinh §äa L¹c cÊp 7	3	698	0	10	0
+#Hån Chó: Cuång §µo TÕ cÊp 1	3	699	0	10	0
+#Hån Chó: Cuång §µo TÕ cÊp 2	3	700	0	10	0
+#Hån Chó: Cuång §µo TÕ cÊp 3	3	701	0	10	0
+#Hån Chó: Cuång §µo TÕ cÊp 4	3	702	0	10	0
+#Hån Chó: Cuång §µo TÕ cÊp 5	3	703	0	10	0
+#Hån Chó: Cuång §µo TÕ cÊp 6	3	704	0	10	0
+#Hån Chó: Cuång §µo TÕ cÊp 7	3	705	0	10	0
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 1	3	706	0	10	0
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 2	3	707	0	10	0
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 3	3	708	0	10	0
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 4	3	709	0	10	0
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 5	3	710	0	10	0
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 6	3	711	0	10	0
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 7	3	712	0	10	0
+#Hån Chó: Ngù SËu B¹o Phong cÊp 1	3	713	0	10	0
+#Hån Chó: Ngù SËu B¹o Phong cÊp 2	3	714	0	10	0
+#Hån Chó: Ngù SËu B¹o Phong cÊp 3	3	715	0	10	0
+#Hån Chó: Ngù SËu B¹o Phong cÊp 4	3	716	0	10	0
+#Hån Chó: Ngù SËu B¹o Phong cÊp 5	3	717	0	10	0
+#Hån Chó: Ngù SËu B¹o Phong cÊp 6	3	718	0	10	0
+#Hån Chó: Ngù SËu B¹o Phong cÊp 7	3	719	0	10	0
+#Hån Chó: TuyÖt T©m Chó cÊp 1	3	720	0	10	0
+#Hån Chó: TuyÖt T©m Chó cÊp 2	3	721	0	10	0
+#Hån Chó: TuyÖt T©m Chó cÊp 3	3	722	0	10	0
+#Hån Chó: TuyÖt T©m Chó cÊp 4	3	723	0	10	0
+#Hån Chó: TuyÖt T©m Chó cÊp 5	3	724	0	10	0
+#Hån Chó: TuyÖt T©m Chó cÊp 6	3	725	0	10	0
+#Hån Chó: TuyÖt T©m Chó cÊp 7	3	726	0	10	0
+#Hån Chó: HoÆc T©m Chó cÊp 1	3	727	0	10	0
+#Hån Chó: HoÆc T©m Chó cÊp 2	3	728	0	10	0
+#Hån Chó: HoÆc T©m Chó cÊp 3	3	729	0	10	0
+#Hån Chó: HoÆc T©m Chó cÊp 4	3	730	0	10	0
+#Hån Chó: HoÆc T©m Chó cÊp 5	3	731	0	10	0
+#Hån Chó: HoÆc T©m Chó cÊp 6	3	732	0	10	0
+#Hån Chó: HoÆc T©m Chó cÊp 7	3	733	0	10	0
+#Hån Chó: Ph¸ Qu©n Chó cÊp 1	3	734	0	10	0
+#Hån Chó: Ph¸ Qu©n Chó cÊp 2	3	735	0	10	0
+#Hån Chó: Ph¸ Qu©n Chó cÊp 3	3	736	0	10	0
+#Hån Chó: Ph¸ Qu©n Chó cÊp 4	3	737	0	10	0
+#Hån Chó: Ph¸ Qu©n Chó cÊp 5	3	738	0	10	0
+#Hån Chó: Ph¸ Qu©n Chó cÊp 6	3	739	0	10	0
+#Hån Chó: Ph¸ Qu©n Chó cÊp 7	3	740	0	10	0
+#B¹ch Trµ	3	910	0	100	0
+#§Þa Hoµng	3	911	0	100	0
+#Huyªn th¶o	3	912	0	100	0
+#C¸t C¨n	3	913	0	100	0
+#Liªn KiÒu	3	914	0	100	0
+#L¹c Th¹ch §»ng	3	915	0	100	0
+#Tiªn H¹c Th¶o	3	916	0	100	0
+#B¹ch Phô Tö	3	917	0	100	0
+#Hµ Thñ ¤	3	918	0	100	0
+#MÆc Long Quy 	3	919	0	100	0
+#MÆc Long §¶m	3	920	0	100	0
+#Phôc ThÇn Tö	3	921	0	100	0
+#Tr­êng B¹ch S©m	3	922	0	100	0
+#Tiªn V©n L·o S©m	3	923	0	100	0
+#TuyÕt Chi Phôc Linh	3	924	0	100	0
+#Long HuyÕt Linh Chi	3	925	0	10	0
+#Cá 2 L¸ May M¾n	3	926	0	100	0
+#Cá 3 L¸ May M¾n	3	927	0	100	0
+#Hoµng ®ång	3	928	0	100	0
+#§ång ®á	3	929	0	100	0
+#XÝch ®ång	3	930	0	100	0
+#Hµn thiÕt	3	931	0	100	0
+#B¹ch kim	3	932	0	100	0
+#XÝch Kim	3	933	0	100	0
+#Kim C­¬ng Th¹ch	3	934	0	100	0
+#NguyÖt Quang Th¹ch	3	935	0	100	0
+#Nguyªn Linh Th¹ch	3	936	0	100	0
+#HuyÔn Hãa Th¹ch	3	937	0	10	0
+#LÞch Diªm	3	938	0	100	0
+#Th« Diªm	3	939	0	100	0
+#Thanh Diªm	3	940	0	100	0
+#Th¹ch Bèi Diªm	3	941	0	100	0
+#TuyÕt Sa Diªm	3	942	0	100	0
+#Kim H­¬ng Diªm	3	943	0	100	0
+#T«m xanh	3	944	0	100	0
+#T«m hïm	3	945	0	100	0
+#Ca diÕt	3	946	0	100	0
+#Hång Lý	3	947	0	100	0
+#C¸ ng¸t	3	948	0	100	0
+#Bµn §Çu Liªn	3	949	0	100	0
+#Kim Bang Lý	3	950	0	100	0
+#Ng©n TuyÕt B¹ng	3	951	0	100	0
+#CÈm V©n Ng­	3	952	0	100	0
+#Phi Ng©n TuyÕt Ng­	3	953	0	100	0
+#Tinh Ban §iªu Ng­	3	954	0	100	0
+#Cöu VÜ Long Ng­	3	955	0	100	0
+#B¹ch Trµ Tinh Hoa	3	956	0	100	0
+#§Þa Hoµng Tinh Hoa	3	957	0	100	0
+#Huyªn Th¶o Tinh Hoa	3	958	0	100	0
+#C¸t C¨n Tinh Hoa	3	959	0	100	0
+#Liªn KiÒu Tinh Hoa	3	960	0	100	0
+#L¹c Th¹ch §»ng Tinh Hoa	3	961	0	100	0
+#Tiªn H¹c Th¶o Tinh Hoa	3	962	0	100	0
+#B¹ch Phô Tö Tinh Hoa	3	963	0	100	0
+#Hµ Thñ ¤ Tinh Hoa	3	964	0	100	0
+#Tinh hoa MÆc Long Quy	3	965	0	100	0
+#MÆc Long §¶m Tinh Hoa	3	966	0	100	0
+#Phôc ThÇn Tö Tinh Hoa	3	967	0	100	0
+#Tr­êng B¹ch S©m Tinh Hoa	3	968	0	100	0
+#Tiªn V©n L·o S©m Tinh Hoa	3	969	0	100	0
+#TuyÕt Chi Phôc Linh Tinh Hoa	3	970	0	100	0
+#Long HuyÕt Linh Chi Tinh Hoa	3	971	0	100	0
+#ThÞt T«m xanh	3	972	0	100	0
+#ThÞt T«m hïm	3	973	0	100	0
+#ThÞt c¸ diÕc	3	974	0	100	0
+#ThÞt Hång Lý	3	975	0	100	0
+#ThÞt C¸ ng¸t	3	976	0	100	0
+#ThÞt Bµn §Çu Liªn	3	977	0	100	0
+#ThÞt Kim Bang Lý	3	978	0	100	0
+#ThÞt Ng©n TuyÕt B¹ng	3	979	0	100	0
+#ThÞt CÈm V©n Ng­	3	980	0	100	0
+#ThÞt Phi Ng©n TuyÕt Ng­	3	981	0	100	0
+#ThÞt Tinh Ban §iªu Ng­	3	982	0	100	0
+#ThÞt Cöu VÜ Long Ng­	3	983	0	100	0
+#Hoµng ®ång sa	3	984	0	100	0
+#Hoµng ®ång khèi	3	985	0	100	0
+#Hoµng ®ång ®Ünh	3	986	0	100	0
+#Tö ®ång sa	3	987	0	100	0
+#Tö ®ång khèi	3	988	0	100	0
+#Tö ®ång ®Ünh	3	989	0	100	0
+#XÝch ®ång sa	3	990	0	100	0
+#XÝch ®ång khèi	3	991	0	100	0
+#XÝch ®ång ®Ünh	3	992	0	100	0
+#HuyÒn ®ång	3	993	0	100	0
+#Ngäc Hµn thiÕt	3	994	0	100	0
+#Ng©n quang ®ång	3	995	0	100	0
+#XÝch v©n ®ång	3	996	0	100	0
+#V©n C­¬ng Kim	3	997	0	100	0
+#Tr¶m NguyÖt Kim	3	998	0	100	0
+#Nguyªn Linh Kim	3	999	0	100	0
+#HuyÒn Hoa Kim	3	1000	0	100	0
+#Hång Thñy Tinh Nguyªn Th¹ch	3	1001	0	100	0
+#Lôc Thñy Tinh Nguyªn Th¹ch	3	1002	0	100	0
+#Lam Thñy Tinh Nguyªn Th¹ch	3	1003	0	100	0
+#Hoµng thñy Tinh Nguyªn Th¹ch	3	1004	0	100	0
+#H¹t May M¾n	3	1006	0	10	0
+#§Þa Tøc	3	1009	0	100	0
+#Thñy Linh	3	1010	0	100	0
+#Tiªn Lé	3	1011	0	100	0
+#Bét Néi ®¬n	3	1012	0	100	0
+#Háa Ngäc Tñy	3	1045	0	100	0
+#B¨ng Ngäc Tñy	3	1046	0	100	0
+#Thæ Ngäc Tñy	3	1047	0	100	0
+#L«i Ngäc Tñy	3	1048	0	100	0
+#Kim Ngäc Tñy	3	1049	0	100	0
+#Thñ lÖnh §æng Thiªn Qu©n	3	1050	0	1	0
+#Th¹ch Méc	3	1051	0	10	0
+#Phông Vò	3	1052	0	10	0
+#Lam Thñy tinh ThÇn Hùu	3	1059	0	100	0
+#Lam B¶o Th¹ch ThÇn Hùu	3	1060	0	100	0
+#§å Phæ:Linh khÝ*L©m Binh Kh«i	6	1	188	1	1
+#§å Phæ:Linh khÝ*Cöu Cung qu¸n	6	1	189	1	1
+#§å Phæ:Linh khÝ*Hæ ®Çu trô	6	1	190	1	1
+#§å Phæ:NghÜa KhÝ*L©m Binh Kh«i	6	1	191	1	1
+#§å Phæ:NghÜa KhÝ*Cöu Cung qu¸n	6	1	192	1	1
+#§å Phæ:NghÜa KhÝ*Hæ ®Çu trô	6	1	193	1	1
+#§å Phæ:NghÜa KhÝ*L©m Binh yªu ®¸i	6	1	194	1	1
+#§å Phæ:NghÜa KhÝ*Cöu Cung c©n	6	1	195	1	1
+#§å Phæ:NghÜa KhÝ*Hæ ®Çu yªu ®¸i	6	1	196	1	1
+#§å Phæ:NghÜa khÝ*L©m Binh Yªu ®¸i	6	1	197	1	1
+#§å Phæ:NghÜa KhÝ*Cöu Cung C©n	6	1	198	1	1
+#§å Phæ:Linh KhÝ*Hæ §Çu Yªu ®¸i	6	1	199	1	1
+#§å Phæ:Linh KhÝ*L©m Binh ChiÕn Ngoa	6	1	200	1	1
+#§å Phæ:Linh KhÝ*Cöu Cung Lý	6	1	201	1	1
+#§å Phæ:Linh KhÝ*Hæ §Çu ngoa	6	1	202	1	1
+#§å Phæ:NghÜa KhÝ*L©m Binh ChiÕn Ngoa	6	1	203	1	1
+#§å Phæ:NghÜa KhÝ*Cöu Cung Lý	6	1	204	1	1
+#§å Phæ:NghÜa KhÝ*Hæ §Çu ngoa	6	1	205	1	1
+#§å Phæ:NghÜa KhÝ*L©m Binh phi phong	6	1	206	1	1
+#§å Phæ:NghÜa KhÝ*Cöu Cung lÖnh	6	1	207	1	1
+#§å Phæ:NghÜa KhÝ*Hæ ®Çu kÕt	6	1	208	1	1
+#§å Phæ:Linh KhÝ*L©m Binh Phi Phong	6	1	209	1	1
+#§å Phæ:Linh KhÝ*Cöu Cung LÖnh	6	1	210	1	1
+#§å Phæ:Linh KhÝ*Hæ §Çu KÕt	6	1	211	1	1
+#§å Phæ:Linh KhÝ*Thanh §ång L©m Binh Gi¸p	6	1	212	1	1
+#§å Phæ:Linh KhÝ*Cöu Cung §¹o Bµo	6	1	213	1	1
+#§å Phæ:Linh KhÝ*Hæ ®Çu Hé Gi¸p	6	1	214	1	1
+#§å Phæ:NghÜa KhÝ*Thanh §ång L©m Binh Gi¸p	6	1	215	1	1
+#§å Phæ:NghÜa KhÝ*Cöu Cung §¹o Bµo	6	1	216	1	1
+#§å Phæ:NghÜa KhÝ*Hæ ®Çu Hé Gi¸p	6	1	217	1	1
+#§å Phæ:Quy Nguyªn*Kú L©n Kh«i	6	1	218	1	1
+#§å Phæ:Quy Nguyªn*ChuÈn §Ò Qu¸n	6	1	219	1	1
+#§å Phæ:Quy Nguyªn*Kim Ng­u Trô	6	1	220	1	1
+#§å Phæ:Phôc ma*Kú L©n Kh«i	6	1	221	1	1
+#§å Phæ:Phôc ma*ChuÈn §Ò Qu¸n	6	1	222	1	1
+#§å Phæ:Phôc ma*Kim Ng­u Trô	6	1	223	1	1
+#§å Phæ:Hµo KiÖt*Kú L©n Kh«i	6	1	224	1	1
+#§å Phæ:Hµo KiÖt*ChuÈn §Ò Qu¸n	6	1	225	1	1
+#§å Phæ:Hµo KiÖt*Kim Ng­u Trô	6	1	226	1	1
+#§å Phæ:Quy Nguyªn*Kú L©n Yªu ®¸i	6	1	227	1	1
+#§å Phæ:Quy Nguyªn*ChuÈn §Ò C©n	6	1	228	1	1
+#§å Phæ:Quy Nguyªn*Kim Ng­u Yªu §¸i	6	1	229	1	1
+#§å Phæ:Phôc ma*Kú L©n yªu ®¸i	6	1	230	1	1
+#§å Phæ:Phôc ma*ChuÈn §Ò C©n	6	1	231	1	1
+#§å Phæ:Phôc ma*Kim Ng­u yªu ®¸i	6	1	232	1	1
+#§å Phæ:Hµo KiÖt*Kú L©n yªu ®¸i	6	1	233	1	1
+#§å Phæ:Hµo KiÖt*ChuÈn §Ò C©n	6	1	234	1	1
+#§å Phæ:Hµo KiÖt*Kim Ng­u yªu ®¸i	6	1	235	1	1
+#§å Phæ:Quy Nguyªn*Kú L©n ChiÕn Ngoa	6	1	236	1	1
+#§å Phæ:Quy Nguyªn*ChuÈn §Ò Lý	6	1	237	1	1
+#§å Phæ:Quy Nguyªn*Kim Ng­u Ngoa	6	1	238	1	1
+#§å Phæ:Phôc ma*Kú L©n ChiÕn Ngoa	6	1	239	1	1
+#§å Phæ:Phôc ma*ChuÈn §Ò Lý	6	1	240	1	1
+#§å Phæ:Phôc ma*Kim Ng­u Ngoa	6	1	241	1	1
+#§å Phæ:Hµo KiÖt*Kú L©n ChiÕn Ngoa	6	1	242	1	1
+#§å Phæ:Hµo KiÖt*ChuÈn §Ò Lý	6	1	243	1	1
+#§å Phæ:Hµo KiÖt*Kim Ng­u Ngoa	6	1	244	1	1
+#§å Phæ:Quy Nguyªn*Kú L©n Phi Phong	6	1	245	1	1
+#§å Phæ:Quy Nguyªn*ChuÈn §Ò LÖnh	6	1	246	1	1
+#§å Phæ:Quy Nguyªn*Kim Ng­u KÕt	6	1	247	1	1
+#§å Phæ:Phôc ma*Kú L©n phi phong	6	1	248	1	1
+#§å Phæ:Phôc ma*ChuÈn §Ò lÖnh	6	1	249	1	1
+#§å Phæ:Phôc ma*Kim Ng­u kÕt	6	1	250	1	1
+#§å Phæ:Hµo KiÖt*Kú L©n phi phong	6	1	251	1	1
+#§å Phæ:Hµo KiÖt*ChuÈn §Ò lÖnh	6	1	252	1	1
+#§å Phæ:Hµo KiÖt*Kim Ng­u kÕt	6	1	253	1	1
+#§å Phæ:Quy Nguyªn*HuyÒn ThiÕt Kú L©n Gi¸p	6	1	254	1	1
+#§å Phæ:Quy Nguyªn*ChuÈn §Ò ®¹o bµo	6	1	255	1	1
+#§å Phæ:Quy Nguyªn*Kim Ng­u Hé gi¸p	6	1	256	1	1
+#§å Phæ:Phôc ma*HuyÒn ThiÕt Kú L©n Gi¸p	6	1	257	1	1
+#§å Phæ:Phôc ma*ChuÈn §Ò ®¹o bµo	6	1	258	1	1
+#§å Phæ:Phôc ma*Kim Ng­u Hé gi¸p	6	1	259	1	1
+#§å Phæ:Hµo KiÖt*HuyÒn ThiÕt Kú L©n Gi¸p	6	1	260	1	1
+#§å Phæ:Hµo KiÖt*ChuÈn §Ò ®¹o bµo	6	1	261	1	1
+#§å Phæ:Hµo KiÖt*Kim Ng­u Hé gi¸p	6	1	262	1	1
+#§å phæ:Ph¸ Qu©n*Tr¶m Long Kh«i	6	1	278	1	1
+#§å phæ:Ph¸ Qu©n*Nguyªn Thñy Qu¸n	6	1	279	1	1
+#§å phæ:Ph¸ Qu©n*ThÇn ¦ng Trô	6	1	280	1	1
+#§å phæ:Ph¸ Qu©n*Tr¶m Long Yªu §¸i	6	1	281	1	1
+#§å phæ:Ph¸ Qu©n*Nguyªn thñy C©n	6	1	282	1	1
+#§å phæ:Ph¸ Qu©n*ThÇn ¦ng Yªu §¸i	6	1	283	1	1
+#§å phæ:Ph¸ Qu©n*Tr¶m Long chiÕn ngoa	6	1	284	1	1
+#§å phæ:Ph¸ Qu©n*Nguyªn Thñy Lý	6	1	285	1	1
+#§å phæ:Ph¸ Qu©n*ThÇn ¦ng Ngoa	6	1	286	1	1
+#§å phæ:Ph¸ Qu©n*Tr¶m Long phi phong	6	1	287	1	1
+#§å phæ:Ph¸ Qu©n*Nguyªn Thñy lÖnh	6	1	288	1	1
+#§å phæ:Ph¸ Qu©n*ThÇn ¦ng kÕt	6	1	289	1	1
+#§å phæ:Ph¸ Qu©n*Tr¶m Long Gi¸p	6	1	290	1	1
+#§å phæ:Ph¸ Qu©n*Nguyªn Thñy ®¹o bµo	6	1	291	1	1
+#§å phæ:Ph¸ Qu©n*ThÇn ¦ng Hé Gi¸p	6	1	292	1	1
+#§å phæ: Thiªn Tø*Tr¶m Long Kh«i	6	1	366	1	1
+#§å phæ: Thiªn Tø*Nguyªn Thñy qu¸n	6	1	367	1	1
+#§å phæ: Thiªn Tø*ThÇn ¦ng trô	6	1	368	1	1
+#§å phæ: Thiªn Tø*Tr¶m Long Yªu ®¸i	6	1	369	1	1
+#§å phæ: Thiªn Tø*Nguyªn Thñy C©n	6	1	370	1	1
+#§å phæ: Thiªn Tø*ThÇn ¦ng Yªu ®¸i	6	1	371	1	1
+#§å phæ: Thiªn Tø*Tr¶m Long ChiÕn Ngoa	6	1	372	1	1
+#§å phæ: Thiªn Tø*Nguyªn Thñy Lý	6	1	373	1	1
+#§å phæ: Thiªn Tø*ThÇn ¦ng Ngoa	6	1	374	1	1
+#§å phæ: Thiªn Tø*Tr¶m Long Phi phong	6	1	375	1	1
+#§å phæ: Thiªn Tø*Nguyªn Thñy lÖnh	6	1	376	1	1
+#§å phæ: Thiªn Tø*ThÇn ¦ng KÕt	6	1	377	1	1
+#§å phæ: Thiªn Tø*HuyÒn thiÕt Tr¶m Long gi¸p	6	1	378	1	1
+#§å phæ: Thiªn Tø*Nguyªn Thñy §¹o Bµo	6	1	379	1	1
+#§å phæ: Thiªn Tø*ThÇn ¦ng Hé Gi¸p	6	1	380	1	1
+#Thiªn Linh Th¹ch	6	1	587	250	1
+#Phèi ph­¬ng: TËt Phong §¬n	6	1	692	1	1
+#Phèi ph­¬ng: B¨ng T©m §¬n	6	1	693	1	1
+#Phèi ph­¬ng: Ph¸ ThuÉn §¬n	6	1	694	1	1
+#Phèi ph­¬ng: TuyÖt B¨ng §¬n	6	1	695	1	1
+#Phèi ph­¬ng: TËt §iÖn §¬n	6	1	696	1	1
+#Phèi ph­¬ng: Thanh Háa §¬n	6	1	697	1	1
+#Phèi ph­¬ng: Thæ ThuÉn §¬n	6	1	698	1	1
+#Phèi ph­¬ng: C¸nh Cùc Háa §µo Hoa	6	1	699	1	1
+#Phèi ph­¬ng: Cùc Kh«n Phï Dung §ç 	6	1	700	1	1
+#Phèi ph­¬ng: Cùc §iÖn Long Ch©u Bao	6	1	701	1	1
+#Phèi ph­¬ng: Cùc B¨ng Long §¶m Töu	6	1	702	1	1
+#Phèi ph­¬ng: Hîp thµnh m¶nh Hoµng thñy tinh	6	1	703	1	1
+#Phèi ph­¬ng: Tô L«i T¸n	6	1	719	1	1
+#Phèi ph­¬ng: Tô B¨ng T¸n	6	1	720	1	1
+#Phèi ph­¬ng: Tô Háa T¸n	6	1	721	1	1
+#Phèi ph­¬ng: Tô Thæ T¸n	6	1	722	1	1
+#Ch­ëng T©m L«i	7	0	3	1	0
+#L­u Tinh Th¹ch	7	1	4	1	0
+#B¨ng TuyÕt ®¹n	7	2	5	1	0
+#TÝch LÞch Háa	7	3	6	1	0
+#Tinh Th«ng L«i HÖ	7	4	7	1	0
+#Thiªn Phong §Þa NhËn	7	5	8	1	0
+#B¨ng C¬ TuyÕt Cèt	7	6	9	1	0
+#Phong l©m háa s¬n	7	7	10	1	0
+#H¹n §Þa L«i	7	8	11	1	0
+#Tinh Th«ng Thæ HÖ	7	9	12	1	0
+#ThiÕt M· B¨ng Qua	7	10	13	1	0
+#Tinh Th«ng Háa HÖ	7	11	14	1	0
+#Phong V©n L«i §éng	7	12	15	1	0
+#Ngò Nh¹c TriÒu T«ng	7	13	16	1	0
+#Tinh Th«ng B¨ng HÖ	7	14	17	1	0
+#ThËp Ph­¬ng LiÖt Háa	7	15	18	1	0
+#L«i Phong Gi¸p	7	16	19	1	0
+#Thiªn B¨ng ®Þa liÖt	7	17	20	1	0
+#B¨ng Phong B¹o	7	18	21	1	0
+#Chóc Dung Ch©n KhÝ	7	19	22	1	0
+#L«i §éng Cöu thiªn	7	20	23	1	0
+#HuyÒn N÷ Bæ Thiªn	7	21	24	1	0
+#B¨ng Phong V¹n Lý	7	22	25	1	0
+#Tam Muéi Ch©n Háa	7	23	26	1	0
+#TÕ HuyÕt tr¶m	7	24	27	1	0
+#L¨ng Ba Vi Bé	7	25	28	1	0
+#Khai s¬n tr¶m	7	26	29	1	0
+#Håi Phong Tr¶m	7	27	30	1	0
+#§iÖn Quang Tr¶m	7	28	31	1	0
+#Hoµnh Kh«ng Tr¶m	7	29	32	1	0
+#Tinh Th«ng §o¶n §ao	7	30	33	1	0
+#Tinh Th«ng Tr­êng §ao	7	31	34	1	0
+#Tam §Çu Lôc Thñ	7	32	35	1	0
+#HuyÒn B¨ng tr¶m	7	33	36	1	0
+#Háa Quang Tr¶m	7	34	37	1	0
+#Liªn Hoµn Tr¶m	7	35	38	1	0
+#L¹c §Þa Tr¶m	7	36	39	1	0
+#ThuÇn D­¬ng Hé ThÓ	7	37	40	1	0
+#Thiªn Qu©n Tr¶m	7	38	41	1	0
+#Khuynh Thµnh NhÊt KÝch	7	39	42	1	0
+#Kim Cang chó	7	40	43	1	0
+#Th«i Th©n Chó	7	41	44	1	0
+#Bæ T©m Chó	7	42	45	1	0
+#C­êng C«ng chó	7	43	46	1	0
+#Ph¸ Gi¸p chó	7	44	47	1	0
+#Bå §Ò chó	7	45	48	1	0
+#Tr¶m T©m Chó	7	46	49	1	0
+#TËt Phong chó	7	47	50	1	0
+#V¹n Cèt Toµn Kh«	7	48	51	1	0
+#Lùc SÜ tÕ	7	49	450	1	0
+#Tr­êng Cung tÕ	7	50	451	1	0
+#Thiªn Vò tÕ	7	51	452	1	0
+#Liªn Nç TÕ	7	52	453	1	0
+#Háa L«i TÕ	7	53	454	1	0
+#To¸i Cèt tÕ	7	54	455	1	0
+#L­u Tinh tÕ	7	55	456	1	0
+#Truy Hån tÕ	7	56	457	1	0
+#Phong QuyÓn Tµn V©n	7	57	458	1	0
+#Bµn Cæ khai thiªn	7	58	62	1	0
+#Ban M«n Léng Phñ	7	59	128	1	0
+#Doanh Tinh Linh-Th­êng	6	1	404	10	1
+#Doanh Tinh Linh-Tèt	6	1	405	10	1
+#H¹o NguyÖt Linh-Th­êng	6	1	406	10	1
+#H¹o NguyÖt Linh-Tèt	6	1	407	10	1
+#TiÓu Hång ®¬n	1	0	0	100	0
+#Trung Hång ®¬n	1	1	0	100	0
+#§¹i Hång ®¬n	1	2	0	100	0
+#TiÓu Hoµn ®¬n	1	3	0	100	0
+#Trung Hoµn ®¬n	1	4	0	100	0
+#§¹i Hoµn ®¬n	1	5	0	100	0
+#S« C« La	1	6	0	100	0
+#Bæ T©m ®¬n	1	19	0	100	0
+#Bæ T©m ®¬n (trung)	1	20	0	100	0
+#Bæ T©m ®¬n (®¹i)	1	21	0	100	0
+#Håi Nguyªn ®¬n	1	22	0	100	0
+#Håi Nguyªn ®¬n (trung)	1	23	0	100	0
+#Håi Nguyªn ®¬n (®¹i)	1	24	0	100	0
+#Bæ HuyÕt §¬n	1	25	0	100	0
+#Bæ ThÇn §¬n	1	26	0	100	0
+#ChØ HuyÕt Lé	8	905	0	100	1
+#Ých thÇn lé	8	906	0	100	1
+#Thiªn Lang §¬n	8	907	0	100	1
+#Chu T­íc §¬n	8	908	0	100	1
+#B¹ch Hæ §¬n	8	909	0	100	1
+#Thanh Long §¬n	8	910	0	100	1
+#HuyÒn Vò §¬n	8	911	0	100	1
+#Hé Sinh Lé	8	912	0	100	1
+#L¹c ThÇn Lé	8	913	0	100	1
+#Né Phong T¸n	8	914	0	100	1
+#Ngäc B¹ch T¸n	8	915	0	100	1
+#LÖ Ma T¸n	8	916	0	100	1
+#LiÖt B¹ch T¸n	8	917	0	100	1
+#DiÖu Sinh Lé	8	918	0	100	1
+#DiÖu ThÇn Lé	8	919	0	100	1
+#Dung B¨ng Hoµn	8	920	0	100	1
+#Ng­ng S­¬ng Hoµn	8	921	0	100	1
+#Chóc Dung ThÇn §¬n	8	922	0	100	1
+#LiÖt §iÖn ThÇn §¬n	8	923	0	100	1
+#HËu Thæ ThÇn §¬n	8	924	0	100	1
+#Céng C«ng ThÇn §¬n	8	925	0	100	1
+#Cöu ChuyÓn Hoµn MÖnh §¬n	8	926	1	100	1
+#Cöu ChuyÓn Hoµn ThÇn §¬n	8	927	1	100	1
+#ChØ HuyÕt Lé (Tinh)	8	928	0	100	1
+#Ých thÇn lé (Tinh)	8	929	0	100	1
+#Thiªn Lang §¬n (Tinh)	8	930	0	100	1
+#Chu T­íc §¬n (Tinh)	8	931	0	100	1
+#B¹ch Hæ §¬n (Tinh)	8	932	0	100	1
+#Thanh Long §¬n (Tinh)	8	933	0	100	1
+#HuyÒn Vò §¬n (Tinh)	8	934	0	100	1
+#Hé Sinh Lé (Tinh)	8	935	0	100	1
+#L¹c ThÇn Lé (Tinh)	8	936	0	100	1
+#Né Phong T¸n (Tinh)	8	937	0	100	1
+#Ngäc B¹ch T¸n (Tinh)	8	938	0	100	1
+#LÖ Ma T¸n (Tinh)	8	939	0	100	1
+#LiÖt B¹ch T¸n (Tinh)	8	940	0	100	1
+#DiÖu Sinh Lé (Tinh)	8	941	0	100	1
+#DiÖu ThÇn Lé (Tinh)	8	942	0	100	1
+#Dung B¨ng Hoµn (Tinh)	8	943	0	100	1
+#Ng­ng S­¬ng Hoµn (Tinh)	8	944	0	100	1
+#Chóc Dung ThÇn §¬n (Tinh)	8	945	0	100	1
+#LiÖt §iÖn ThÇn §¬n (Tinh)	8	946	0	100	1
+#HËu Thæ ThÇn §¬n (Tinh)	8	947	0	100	1
+#Céng C«ng ThÇn §¬n (Tinh)	8	948	0	100	1
+#Cöu ChuyÓn Hoµn MÖnh §¬n (Tinh)	8	949	1	100	1
+#Cöu ChuyÓn Hoµn ThÇn §¬n (Tinh)	8	950	1	100	1
+#T«m xµo	8	951	0	100	1
+#Canh su«ng	8	952	0	100	1
+#T«m kho	8	953	0	100	1
+#Canh c¸ diÕc	8	954	0	100	1
+#C¸ chÐp sèt chua ngät	8	955	0	100	1
+#C¸ viªn chiªn	8	956	0	100	1
+#C¸ ng¸t hÊp	8	957	0	100	1
+#§Çu c¸ hÊp tiªu	8	958	0	100	1
+#C¸ giÊm T©y Hå	8	959	0	100	1
+#Ng©n TuyÕt Bao	8	960	0	100	1
+#V­ît Vò M«n	8	961	0	100	1
+#Canh B¸ch Bæ	8	962	0	100	1
+#ThÇn Tiªn Thiªn Cöu SÝ	8	963	0	100	1
+#CÈm Y Du Long Bao 	8	964	0	100	1
+#§an Ch©u Phï Dung §ç 	8	965	0	100	1
+#Háa Vò §µo Hoa SÝ	8	966	0	100	1
+#B¨ng TrÊn Long §¶m Töu	8	967	0	100	1
+#Song Long Hý Ch©u Bao	8	968	0	100	1
+#T«m xµo (Tinh)	8	969	0	100	1
+#Canh su«ng (Tinh)	8	970	0	100	1
+#T«m kho (Tinh)	8	971	0	100	1
+#Canh c¸ diÕc (Tinh)	8	972	0	100	1
+#C¸ chÐp sèt chua ngät (Tinh)	8	973	0	100	1
+#C¸ viªn chiªn (Tinh)	8	974	0	100	1
+#C¸ ng¸t hÊp (Tinh)	8	975	0	100	1
+#§Çu c¸ hÊp tiªu (Tinh)	8	976	0	100	1
+#C¸ giÊm T©y Hå (Tinh)	8	977	0	100	1
+#Ng©n TuyÕt Bao (Tinh)	8	978	0	100	1
+#V­ît Vò M«n (Tinh)	8	979	0	100	1
+#Canh B¸ch Bæ (Tinh)	8	980	0	100	1
+#ThÇn Tiªn Thiªn Cöu SÝ (Tinh)	8	981	0	100	1
+#CÈm Y Du Long Bao (Tinh)	8	982	0	100	1
+#§an Ch©u Phï Dung §ç (Tinh)	8	983	0	100	1
+#Háa Vò §µo Hoa SÝ (Tinh)	8	984	0	100	1
+#B¨ng TrÊn Long §¶m Töu (Tinh)	8	985	0	100	1
+#Song Long Hý Ch©u Bao (Tinh)	8	986	0	100	1
+#TËt Phong §¬n	8	987	2	100	1
+#B¨ng T©m §¬n	8	988	2	100	1
+#Ph¸ ThuÉn §¬n	8	989	0	100	1
+#TuyÖt B¨ng §¬n	8	990	0	100	1
+#TËt §iÖn §¬n	8	991	0	100	1
+#Thanh Háa §¬n	8	992	0	100	1
+#Thæ ThuÉn §¬n	8	993	0	100	1
+#C¸nh Cùc Háa §µo Hoa	8	994	0	100	1
+#Cùc Kh«n Phï Dung §ç 	8	995	0	100	1
+#Cùc §iÖn Long Ch©u Bao	8	996	0	100	1
+#Cùc B¨ng Long §¶m Töu	8	997	0	100	1
+#TËt Phong §¬n (Tinh)	8	998	2	100	1
+#B¨ng T©m §¬n (Tinh)	8	999	2	100	1
+#Ph¸ ThuÉn §¬n (Tinh)	8	1000	0	100	1
+#TuyÖt B¨ng §¬n (Tinh)	8	1001	0	100	1
+#TËt §iÖn §¬n (Tinh)	8	1002	0	100	1
+#Thanh Háa §¬n (Tinh)	8	1003	0	100	1
+#Thæ ThuÉn §¬n (Tinh)	8	1004	0	100	1
+#C¸nh Cùc Háa §µo Hoa (Tinh)	8	1005	0	100	1
+#Cùc Kh«n Phï Dung §ç  (Tinh)	8	1006	0	100	1
+#Cùc §iÖn Long Ch©u Bao (Tinh)	8	1007	0	100	1
+#Cùc B¨ng Long §¶m Töu (Tinh)	8	1008	0	100	1
+#LiÔu méc	4	39	1	10	0
+#H¹t thÇn bÝ	4	48	0	10	0

@@ -1,0 +1,1714 @@
+module("RechargeEvent", package.seeall) -- Event tÝch luü n¹p thÎ
+require("common.luax")
+require("newserver.luax")
+
+G_PointUiOpenDay = { "2022-09-01 00:00:00", "2022-09-14 23:59:59" } -- Thêi gian hiÖn nót Ên
+G_PointActiveDay = { "2022-09-01 14:00:00", "2022-09-12 23:59:59" } -- Thêi gian b¸n gi¶m gi¸
+G_SaleActiveDay = { "2022-09-01 14:00:00", "2022-09-14 23:59:59" } -- Thêi gian ®æi th­ëng
+
+g_NewServerName = "TuyetLongLinh"
+g_InchargeTaskValue = 186
+g_BuyItemDay = 236
+g_DateFlag = 236
+tbl_NewServerNoItem = { "HuyÒn Th¸i Ngäc Tñy", "Tói quµ ®å phæ Ph¸ qu©n <LiÖt>", "Tói Ngäc T©m, Long Hån Ngäc Béi", "Tói TrÊn Hån Tinh Ph¸ch Chu T­íc", "LÔ bao 2022 §¹i C¸t", "LÔ bao 2022 H­ng V­îng" }
+g_BuyFushi = 200
+g_BuyFushiNew = 100
+
+G_GiftNewActiveDay = { "2016-05-20 10:00:00", "2016-05-31 23:59:59" }
+G_ZHZSActiveDay = { "2016-08-16 10:00:00", "2016-08-31 23:59:59" }
+G_GiftNewActiveDayTimes = 1
+
+TBL_PointLottery = {
+  [1] = {
+    name = "Vò khÝ cÊp 75",
+    point = 3,
+    firstPoint = -1,
+    numTask = 1153,
+    itemMax = -1,
+    itemNum = { -1, -1 },
+    notOpenServer = {},
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 90, 15, 40, 200 }, [2] = { 130, 10, 1240, 500 },
+      [3] = { 170, 10, 3240, 800 }, [4] = { 300, 1, 6440, 1000 },
+    },
+
+    item = { name = "R­¬ng Vò khÝ TruyÒn ThuyÕt cÊp 75", id = { 6, 1, 1305, 1, 0, 0, 0 }, idx = 0 },
+    otheritem = {
+
+      { idx = 1, rate = 6, newrate = 6, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 3, rate = 55, newrate = 55, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 4, rate = 75, newrate = 75, name = "S¸ch Ch­ HÇu (M¶nh)", isAnnounce = 1 },
+      { idx = 6, rate = 150, newrate = 150, name = " 100 v¹n b¹c", isAnnounce = 0 },
+      { idx = 11, rate = 169, newrate = 169, name = "Ngäc Thanh LÔ Bao", isAnnounce = 1 },
+      { idx = 6, rate = 150, newrate = 150, name = " 100 v¹n b¹c", isAnnounce = 1 },
+      { idx = 5, rate = 350, newrate = 350, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 9, rate = 1950, newrate = 1950, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 7, rate = 370, newrate = 370, name = "M¶nh Tö thuû tinh", isAnnounce = 1 },
+      { idx = 8, rate = 600, newrate = 600, name = "100 v¹n l­îng", isAnnounce = 1 },
+      { idx = 10, rate = 2000, newrate = 2000, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 4, rate = 75, newrate = 75, name = "S¸ch Ch­ HÇu (M¶nh)", isAnnounce = 1 },
+      { idx = 1, rate = 6, newrate = 6, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 3, rate = 55, newrate = 55, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 11, rate = 169, newrate = 169, name = "Ngäc Thanh LÔ Bao", isAnnounce = 1 },
+      { idx = -1, rate = 3800, newrate = 3800, name = "Kh«ng cã th­ëng", isAnnounce = 0 },
+
+      { idx = 2, rate = 10, newrate = 10, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 2, rate = 10, newrate = 10, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+    },
+  },
+  [2] = {
+    name = "Vò khÝ cÊp 85",
+    point = 7,
+    firstPoint = -1,
+    numTask = 1154,
+    itemMax = -1,
+    itemNum = { -1, -1 },
+    notOpenServer = {},
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 90, 15, 40, 200 }, [2] = { 140, 10, 1240, 500 },
+      [3] = { 170, 5, 3740, 800 }, [4] = { 300, 1, 8540, 1000 }
+    },
+
+    item = { name = "R­¬ng Vò khÝ TruyÒn ThuyÕt cÊp 85", id = { 6, 1, 1306, 1, 0, 0, 0 }, idx = 12 },
+    otheritem = {
+
+      { idx = 1, rate = 15, newrate = 15, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 13, rate = 350, newrate = 350, name = "200 v¹n ", isAnnounce = 1 },
+      { idx = 4, rate = 200, newrate = 200, name = "S¸ch Ch­ HÇu (M¶nh)", isAnnounce = 1 },
+      { idx = 3, rate = 190, newrate = 190, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 14, rate = 800, newrate = 800, name = "200 v¹n b¹c khãa", isAnnounce = 1 },
+      { idx = 16, rate = 430, newrate = 430, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 0 },
+      { idx = 7, rate = 500, newrate = 500, name = "M¶nh Tö thuû tinh", isAnnounce = 0 },
+      { idx = 5, rate = 500, newrate = 500, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 15, rate = 460, newrate = 460, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 17, rate = 1450, newrate = 1450, name = "Tói quµ truyÒn tèng Tø TiÓu", isAnnounce = 0 },
+      { idx = 9, rate = 2100, newrate = 2100, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 4, rate = 200, newrate = 200, name = "S¸ch Ch­ HÇu (M¶nh)", isAnnounce = 1 },
+      { idx = 10, rate = 2100, newrate = 2100, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 11, rate = 466, newrate = 466, name = "Ngäc Thanh LÔ Bao", isAnnounce = 1 },
+      { idx = 1, rate = 15, newrate = 15, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 3, rate = 190, newrate = 190, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+
+      { idx = 2, rate = 17, newrate = 17, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 2, rate = 17, newrate = 17, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+    },
+  },
+  [3] = {
+    name = "Vò khÝ cÊp 95",
+    point = 14,
+    firstPoint = -1,
+    numTask = 1155,
+    itemMax = -1,
+    itemNum = { -1, -1 },
+    notOpenServer = {},
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 100, 20, 10, 20 },
+      [2] = { 190, 15, 110, 80 },
+      [3] = { 270, 10, 410, 100 },
+      [4] = { 400, 1, 1210, 1000 },
+    },
+
+    item = { name = " R­¬ng Vò khÝ TruyÒn ThuyÕt cÊp 95", id = { 6, 1, 1307, 1, 0, 0, 0 }, idx = 18 },
+    otheritem = {
+      { idx = 3, rate = 350, newrate = 350, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 9, rate = 1667, newrate = 1667, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 20, rate = 50, newrate = 50, name = "Hoµng b¶o th¹ch", isAnnounce = 1 },
+      { idx = 16, rate = 450, newrate = 450, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 0 },
+      { idx = 4, rate = 700, newrate = 700, name = "S¸ch Ch­ HÇu (M¶nh)", isAnnounce = 1 },
+      { idx = 5, rate = 1000, newrate = 1000, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 21, rate = 400, newrate = 400, name = "400 v¹n b¹c", isAnnounce = 1 },
+      { idx = 3, rate = 350, newrate = 350, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 7, rate = 1000, newrate = 1000, name = "M¶nh Tö thuû tinh", isAnnounce = 1 },
+      { idx = 22, rate = 1400, newrate = 1400, name = "400 v¹n b¹c khãa", isAnnounce = 1 },
+      { idx = 15, rate = 420, newrate = 420, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 1, rate = 35, newrate = 35, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 1, rate = 35, newrate = 35, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 20, rate = 50, newrate = 50, name = "Hoµng b¶o th¹ch", isAnnounce = 1 },
+      { idx = 10, rate = 1670, newrate = 1670, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 11, rate = 303, newrate = 303, name = "Ngäc Thanh LÔ Bao", isAnnounce = 1 },
+
+      { idx = 19, rate = 10, newrate = 10, name = "5000 v¹n b¹c", isAnnounce = 1 },
+      { idx = 62, rate = 10, newrate = 10, name = "T­íng Qu©n LÖnh 10 c¸i", isAnnounce = 1 },
+      { idx = 2, rate = 100, newrate = 100, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+    },
+  },
+  [4] = {
+    name = "Vò khÝ Tiªn Ma cÊp 25",
+    point = 20,
+    firstPoint = -1,
+    numTask = 1835,
+    itemMax = -1,
+    itemNum = { -1, -1 },
+    notOpenServer = { g_NewServerName },
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 100, 20, 1, 20 }, [2] = { 190, 15, 110, 80 },
+      [3] = { 290, 10, 590, 200 }, [4] = { 400, 1, 2590, 1000 },
+    },
+    item = { name = "R­¬ng Vò khÝ Tiªn Ma cÊp 25", id = { 6, 1, 1308, 1, 0, 0, 0 }, idx = 23 },
+    otheritem = {
+
+      { idx = 16, rate = 470, newrate = 470, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 0 },
+      { idx = 25, rate = 10, newrate = 10, name = "8000 v¹n b¹c", isAnnounce = 1 },
+      { idx = 1, rate = 155, newrate = 155, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 15, rate = 510, newrate = 510, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 20, rate = 150, newrate = 150, name = "Hoµng b¶o th¹ch", isAnnounce = 1 },
+      { idx = 66, rate = 850, newrate = 850, name = "LÔ bao S¸ch Ch­ HÇu", isAnnounce = 1 },
+      { idx = 5, rate = 900, newrate = 900, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 76, rate = 50, newrate = 50, name = "KhÝ Linh Tinh Tóy", isAnnounce = 1 },
+      { idx = 21, rate = 400, newrate = 400, name = "400 v¹n b¹c", isAnnounce = 1 },
+      { idx = 3, rate = 870, newrate = 870, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 9, rate = 1420, newrate = 1420, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 7, rate = 1000, newrate = 1000, name = "M¶nh Tö thuû tinh", isAnnounce = 1 },
+      { idx = 22, rate = 1400, newrate = 1400, name = "400 v¹n b¹c khãa", isAnnounce = 1 },
+      { idx = 2, rate = 50, newrate = 50, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 10, rate = 1420, newrate = 1420, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 11, rate = 323, newrate = 323, name = "Ngäc Thanh LÔ Bao", isAnnounce = 1 },
+
+
+      { idx = 24, rate = 10, newrate = 10, name = "Tinh Th¸i Qu¸i Phï", isAnnounce = 1 },
+      { idx = 62, rate = 10, newrate = 10, name = "T­íng Qu©n LÖnh 10 c¸i", isAnnounce = 1 },
+      { idx = 27, rate = 2, newrate = 2, name = "Ngäc T©m (Ch­a mµi)", isAnnounce = 1 },
+    },
+  },
+  [5] = {
+    name = "Vò khÝ Tiªn Ma cÊp 55",
+    point = 30,
+    firstPoint = -1,
+    numTask = 1836,
+    itemMax = -1,
+    itemNum = { -1, -1 },
+    notOpenServer = { g_NewServerName },
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 100, 50, 1, 10 },
+      [2] = { 200, 25, 3, 20 },
+      [3] = { 275, 15, 110, 50 },
+      [4] = { 400, 1, 310, 1000 },
+    },
+
+    item = { name = "R­¬ng Vò khÝ Tiªn Ma cÊp 55", id = { 6, 1, 1309, 1, 0, 0, 0 }, idx = 28 },
+    otheritem = {
+
+      { idx = 29, rate = 10, newrate = 10, name = "1 øc", isAnnounce = 1 },
+      { idx = 1, rate = 313, newrate = 313, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 2, rate = 176, newrate = 176, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 9, rate = 660, newrate = 660, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 20, rate = 280, newrate = 280, name = "Hoµng b¶o th¹ch", isAnnounce = 1 },
+      { idx = 66, rate = 1000, newrate = 1000, name = "LÔ bao S¸ch Ch­ HÇu", isAnnounce = 1 },
+      { idx = 5, rate = 900, newrate = 900, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 10, rate = 660, newrate = 660, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 21, rate = 500, newrate = 500, name = "400 v¹n b¹c", isAnnounce = 1 },
+      { idx = 3, rate = 1600, newrate = 1600, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 7, rate = 1000, newrate = 1000, name = "M¶nh Tö thuû tinh", isAnnounce = 1 },
+      { idx = 76, rate = 10, newrate = 10, name = "KhÝ Linh Tinh Tóy", isAnnounce = 1 },
+      { idx = 15, rate = 525, newrate = 525, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 22, rate = 1400, newrate = 1400, name = "400 v¹n b¹c khãa", isAnnounce = 0 },
+      { idx = 16, rate = 525, newrate = 525, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 0 },
+      { idx = 11, rate = 412, newrate = 412, name = "Ngäc Thanh LÔ Bao", isAnnounce = 0 },
+
+      { idx = 24, rate = 15, newrate = 15, name = "Tinh Th¸i Qu¸i Phï", isAnnounce = 1 },
+      { idx = 62, rate = 11, newrate = 11, name = "T­íng Qu©n LÖnh 10 c¸i", isAnnounce = 1 },
+      { idx = 27, rate = 3, newrate = 3, name = "Ngäc T©m (Ch­a mµi)", isAnnounce = 1 },
+    },
+  },
+  [6] = {
+    name = "Vò khÝ HiÕm ThÕ",
+    point = 19,
+    firstPoint = -1,
+    numTask = 2037,
+    itemMax = 1,
+    itemNum = { 1975, 2 },
+    notOpenServer = { g_NewServerName },
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 100, 25, 50, 50 },
+      [2] = { 200, 20, 100, 50 },
+      [3] = { 275, 15, 500, 150 },
+      [4] = { 400, 1, 850, 1000 },
+    },
+
+    item = { name = "Tói quµ Vò khÝ Hoµng Kim", id = { 6, 1, 1337, 1, 0, 0, 0 }, idx = 36 },
+    otheritem = {
+
+      { idx = 25, rate = 10, newrate = 10, name = "8000 v¹n b¹c", isAnnounce = 1 },
+      { idx = 1, rate = 155, newrate = 155, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 9, rate = 1420, newrate = 1420, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 2, rate = 50, newrate = 50, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 20, rate = 120, newrate = 120, name = "Hoµng b¶o th¹ch", isAnnounce = 1 },
+      { idx = 15, rate = 510, newrate = 510, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 66, rate = 850, newrate = 850, name = "LÔ bao S¸ch Ch­ HÇu", isAnnounce = 1 },
+      { idx = 5, rate = 900, newrate = 900, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 21, rate = 400, newrate = 400, name = "400 v¹n b¹c", isAnnounce = 1 },
+      { idx = 3, rate = 900, newrate = 900, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 7, rate = 1000, newrate = 1000, name = "M¶nh Tö thuû tinh", isAnnounce = 1 },
+      { idx = 10, rate = 1420, newrate = 1420, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 76, rate = 50, newrate = 50, name = "KhÝ Linh Tinh Tóy", isAnnounce = 1 },
+      { idx = 16, rate = 470, newrate = 470, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 1 },
+      { idx = 22, rate = 1400, newrate = 1400, name = "400 v¹n b¹c khãa", isAnnounce = 1 },
+      { idx = 11, rate = 323, newrate = 323, name = "Ngäc Thanh LÔ Bao", isAnnounce = 1 },
+
+      { idx = 24, rate = 10, newrate = 10, name = "Tinh Th¸i Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 62, rate = 10, newrate = 10, name = "T­íng Qu©n LÖnh 10 c¸i", isAnnounce = 1 },
+      { idx = 27, rate = 2, newrate = 2, name = "Ngäc T©m (Ch­a mµi)", isAnnounce = 1 },
+    },
+  },
+  [7] = {
+    name = "Ph¸p b¶o (b¶n giíi h¹n)",
+    point = 12,
+    firstPoint = -1,
+    numTask = 1802,
+    itemMax = -1,
+    itemNum = { -1, -1 },
+    notOpenServer = {},
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 100, 20, 10, 20 },
+      [2] = { 190, 15, 110, 80 },
+      [3] = { 270, 10, 410, 100 },
+      [4] = { 400, 1, 1210, 1000 },
+    },
+
+    item = { name = "LÔ bao Ph¸p B¶o (b¶n giíi h¹n)", id = { 6, 1, 1526, 1, 0, 0, 0 }, idx = 73 },
+    otheritem = {
+
+      { idx = 1, rate = 30, newrate = 30, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 16, rate = 430, newrate = 430, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 0 },
+      { idx = 21, rate = 350, newrate = 350, name = "400 v¹n b¹c", isAnnounce = 1 },
+      { idx = 4, rate = 430, newrate = 430, name = "S¸ch Ch­ HÇu (M¶nh)", isAnnounce = 1 },
+      { idx = 3, rate = 325, newrate = 325, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 22, rate = 600, newrate = 600, name = "400 v¹n b¹c khãa", isAnnounce = 1 },
+      { idx = 15, rate = 430, newrate = 430, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 5, rate = 760, newrate = 760, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 7, rate = 745, newrate = 745, name = "M¶nh Tö thuû tinh", isAnnounce = 1 },
+      { idx = 31, rate = 55, newrate = 55, name = "Dung tinh lé", isAnnounce = 0 },
+      { idx = 9, rate = 2180, newrate = 2180, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 3, rate = 325, newrate = 325, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 1, rate = 30, newrate = 30, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 4, rate = 430, newrate = 430, name = "S¸ch Ch­ HÇu (M¶nh)", isAnnounce = 1 },
+      { idx = 10, rate = 2180, newrate = 2180, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 11, rate = 600, newrate = 600, name = "Ngäc Thanh LÔ Bao", isAnnounce = 0 },
+
+      { idx = 2, rate = 80, newrate = 80, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 19, rate = 10, newrate = 10, name = "5000 v¹n b¹c", isAnnounce = 1 },
+      { idx = 62, rate = 10, newrate = 10, name = "T­íng Qu©n LÖnh 10 c¸i", isAnnounce = 1 },
+    },
+  },
+  [8] = {
+    name = "S¸ch kü n¨ng ChuyÓn sinh",
+    point = 16,
+    firstPoint = -1,
+    numTask = 2163,
+    itemMax = -1,
+    itemNum = { -1, -1 },
+    notOpenServer = { g_NewServerName },
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 100, 20, 10, 20 },
+      [2] = { 190, 15, 110, 80 },
+      [3] = { 270, 10, 410, 100 },
+      [4] = { 400, 1, 1210, 1000 },
+    },
+
+    item = { name = "LÔ bao S¸ch kü n¨ng ChuyÓn sinh", id = { 6, 1, 1527, 1, 0, 0, 0 }, idx = 74 },
+    otheritem = {
+
+      { idx = 1, rate = 15, newrate = 15, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 13, rate = 350, newrate = 350, name = "200 v¹n ", isAnnounce = 1 },
+      { idx = 4, rate = 200, newrate = 200, name = "S¸ch Ch­ HÇu (M¶nh)", isAnnounce = 1 },
+      { idx = 3, rate = 190, newrate = 190, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 14, rate = 800, newrate = 800, name = "200 v¹n b¹c khãa", isAnnounce = 1 },
+      { idx = 16, rate = 430, newrate = 430, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 0 },
+      { idx = 7, rate = 500, newrate = 500, name = "M¶nh Tö thuû tinh", isAnnounce = 0 },
+      { idx = 5, rate = 500, newrate = 500, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 15, rate = 460, newrate = 460, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 17, rate = 1450, newrate = 1450, name = "Tói quµ truyÒn tèng Tø TiÓu", isAnnounce = 0 },
+      { idx = 9, rate = 2000, newrate = 2000, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 4, rate = 200, newrate = 200, name = "S¸ch Ch­ HÇu (M¶nh)", isAnnounce = 1 },
+      { idx = 10, rate = 2000, newrate = 2000, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 11, rate = 433, newrate = 433, name = "Ngäc Thanh LÔ Bao", isAnnounce = 1 },
+      { idx = 76, rate = 15, newrate = 15, name = "KhÝ Linh Tinh Tóy", isAnnounce = 1 },
+      { idx = 3, rate = 190, newrate = 190, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+
+      { idx = 2, rate = 17, newrate = 17, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 72, rate = 350, newrate = 350, name = "M¶nh s¸ch kü n¨ng ChuyÓn sinh", isAnnounce = 1 },
+    },
+  },
+  [9] = {
+    name = "Ph¸p b¶o Tiªn Ma",
+    point = 16,
+    firstPoint = -1,
+    numTask = 1922,
+    itemMax = -1,
+    itemNum = { -1, -1 },
+    notOpenServer = { g_NewServerName },
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 100, 20, 10, 10 },
+      [2] = { 190, 15, 60, 50 },
+      [3] = { 270, 10, 360, 100 },
+      [4] = { 400, 1, 1160, 1000 },
+    },
+
+    item = { name = "LÔ bao Ph¸p b¶o Kim S¬n (Tiªn Ma)", id = { 6, 1, 1312, 1, 0, 0, 0 }, idx = 33 },
+    otheritem = {
+
+      { idx = 1, rate = 50, newrate = 50, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 20, rate = 50, newrate = 50, name = "Hoµng b¶o th¹ch", isAnnounce = 1 },
+      { idx = 66, rate = 425, newrate = 425, name = "LÔ bao S¸ch Ch­ HÇu", isAnnounce = 1 },
+      { idx = 5, rate = 900, newrate = 900, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 16, rate = 550, newrate = 550, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 0 },
+      { idx = 15, rate = 550, newrate = 550, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 21, rate = 400, newrate = 400, name = "400 v¹n b¹c", isAnnounce = 1 },
+      { idx = 3, rate = 400, newrate = 400, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 7, rate = 800, newrate = 800, name = "M¶nh Tö thuû tinh", isAnnounce = 1 },
+      { idx = 22, rate = 1400, newrate = 1400, name = "400 v¹n b¹c khãa", isAnnounce = 1 },
+      { idx = 3, rate = 400, newrate = 400, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 9, rate = 1500, newrate = 1500, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 76, rate = 50, newrate = 50, name = "KhÝ Linh Tinh Tóy", isAnnounce = 1 },
+      { idx = 66, rate = 425, newrate = 425, name = "LÔ bao S¸ch Ch­ HÇu", isAnnounce = 1 },
+      { idx = 10, rate = 1500, newrate = 1500, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 11, rate = 500, newrate = 500, name = "Ngäc Thanh LÔ Bao", isAnnounce = 1 },
+
+      { idx = 2, rate = 80, newrate = 80, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 25, rate = 10, newrate = 10, name = "8000 v¹n b¹c", isAnnounce = 1 },
+      { idx = 62, rate = 10, newrate = 10, name = "T­íng Qu©n LÖnh 10 c¸i", isAnnounce = 1 },
+    },
+  },
+  [10] = {
+    name = "Hån Chó",
+    point = 28,
+    firstPoint = 14,
+    numTask = 1847,
+    itemMax = -1,
+    itemNum = { 1975, 3 },
+    notOpenServer = { g_NewServerName },
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 100, 25, 1, 10 },
+      [2] = { 200, 20, 5, 20 },
+      [3] = { 275, 15, 150, 100 },
+      [4] = { 400, 1, 650, 1000 },
+    },
+
+    item = { name = "LÔ bao Hån Chó cÊp 5", id = { 6, 1, 1311, 1, 0, 0, 0 }, idx = 32 },
+    otheritem = {
+
+      { idx = 25, rate = 15, newrate = 15, name = "8000 v¹n b¹c", isAnnounce = 1 },
+      { idx = 15, rate = 550, newrate = 550, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 1, rate = 150, newrate = 150, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 2, rate = 65, newrate = 65, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 20, rate = 120, newrate = 120, name = "Hoµng b¶o th¹ch", isAnnounce = 1 },
+      { idx = 9, rate = 915, newrate = 915, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 66, rate = 950, newrate = 950, name = "LÔ bao S¸ch Ch­ HÇu", isAnnounce = 1 },
+      { idx = 5, rate = 1100, newrate = 1100, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 21, rate = 500, newrate = 500, name = "400 v¹n b¹c", isAnnounce = 1 },
+      { idx = 3, rate = 1065, newrate = 1065, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 7, rate = 1100, newrate = 1100, name = "M¶nh Tö thuû tinh", isAnnounce = 1 },
+      { idx = 10, rate = 900, newrate = 900, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 76, rate = 65, newrate = 65, name = "KhÝ Linh Tinh Tóy", isAnnounce = 1 },
+      { idx = 16, rate = 550, newrate = 550, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 0 },
+      { idx = 22, rate = 1600, newrate = 1600, name = "400 v¹n b¹c khãa", isAnnounce = 1 },
+      { idx = 11, rate = 300, newrate = 300, name = "Ngäc Thanh LÔ Bao", isAnnounce = 1 },
+
+      { idx = 24, rate = 15, newrate = 15, name = "Tinh Th¸i Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 62, rate = 25, newrate = 25, name = "T­íng Qu©n LÖnh 10 c¸i", isAnnounce = 1 },
+      { idx = 27, rate = 15, newrate = 15, name = "Ngäc T©m (Ch­a mµi)", isAnnounce = 1 },
+    },
+  },
+  [11] = {
+    name = "Tr¨n PhÈm Th¹ch",
+    point = 21,
+    firstPoint = 14,
+    numTask = 1974,
+    itemMax = -1,
+    itemNum = { 1975, 1 },
+    notOpenServer = { g_NewServerName },
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 100, 50, 10, 10 },
+      [2] = { 200, 25, 30, 10 },
+      [3] = { 275, 15, 110, 100 },
+      [4] = { 400, 1, 610, 1000 },
+    },
+
+    item = { name = "Tr¨n PhÈm Th¹ch", id = { 3, 1197, 0, 0, 0, 0, 0 }, idx = 34 },
+    otheritem = {
+
+      { idx = 9, rate = 1420, newrate = 1420, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 25, rate = 10, newrate = 10, name = "8000 v¹n b¹c", isAnnounce = 1 },
+      { idx = 1, rate = 155, newrate = 155, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 2, rate = 50, newrate = 50, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 20, rate = 120, newrate = 120, name = "Hoµng b¶o th¹ch", isAnnounce = 1 },
+      { idx = 66, rate = 850, newrate = 850, name = "LÔ bao S¸ch Ch­ HÇu", isAnnounce = 1 },
+      { idx = 5, rate = 900, newrate = 900, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 21, rate = 400, newrate = 400, name = "400 v¹n b¹c", isAnnounce = 1 },
+      { idx = 16, rate = 470, newrate = 470, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 0 },
+      { idx = 3, rate = 900, newrate = 900, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 7, rate = 1000, newrate = 1000, name = "M¶nh Tö thuû tinh", isAnnounce = 1 },
+      { idx = 22, rate = 1400, newrate = 1400, name = "400 v¹n b¹c khãa", isAnnounce = 1 },
+      { idx = 15, rate = 510, newrate = 510, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 76, rate = 50, newrate = 50, name = "KhÝ Linh Tinh Tóy", isAnnounce = 1 },
+      { idx = 10, rate = 1420, newrate = 1420, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 11, rate = 324, newrate = 324, name = "Ngäc Thanh LÔ Bao", isAnnounce = 1 },
+
+      { idx = 24, rate = 10, newrate = 10, name = "Tinh Th¸i Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 62, rate = 10, newrate = 10, name = "T­íng Qu©n LÖnh 10 c¸i", isAnnounce = 1 },
+      { idx = 27, rate = 1, newrate = 1, name = "Ngäc T©m (Ch­a mµi)", isAnnounce = 1 },
+    },
+  },
+  [12] = {
+    name = "Th­îng Cæ Hån Ph¸ch ",
+    point = 20,
+    firstPoint = -1,
+    numTask = 1991,
+    itemMax = -1,
+    itemNum = { -1, -1 },
+    notOpenServer = { g_NewServerName },
+
+    data = {
+      [0] = { 0, 0, 0, 0 },
+      [1] = { 100, 25, 50, 50 },
+      [2] = { 200, 20, 100, 50 },
+      [3] = { 275, 15, 500, 150 },
+      [4] = { 400, 1, 850, 1000 },
+    },
+
+    item = { name = "Th­îng Cæ Hån Ph¸ch ", id = { 3, 1230, 0, 0, 0, 0, 0 }, idx = 35 },
+    otheritem = {
+
+      { idx = 29, rate = 15, newrate = 15, name = "1 øc", isAnnounce = 1 },
+      { idx = 1, rate = 313, newrate = 313, name = "Tö B¶o Th¹ch", isAnnounce = 1 },
+      { idx = 2, rate = 88, newrate = 88, name = "Vi Quang Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 20, rate = 280, newrate = 280, name = "Hoµng b¶o th¹ch", isAnnounce = 1 },
+      { idx = 66, rate = 1000, newrate = 1000, name = "LÔ bao S¸ch Ch­ HÇu", isAnnounce = 1 },
+      { idx = 9, rate = 660, newrate = 660, name = "Tói Thanh Lé (tiÓu)", isAnnounce = 0 },
+      { idx = 5, rate = 900, newrate = 900, name = "M¶nh Hoµng thñy tinh", isAnnounce = 1 },
+      { idx = 21, rate = 500, newrate = 500, name = "400 v¹n b¹c", isAnnounce = 1 },
+      { idx = 15, rate = 525, newrate = 525, name = "Tói B¶o H÷u Thanh Lé", isAnnounce = 0 },
+      { idx = 3, rate = 1600, newrate = 1600, name = "T­íng Qu©n LÖnh", isAnnounce = 1 },
+      { idx = 7, rate = 1000, newrate = 1000, name = "M¶nh Tö thuû tinh", isAnnounce = 1 },
+      { idx = 22, rate = 1400, newrate = 1400, name = "400 v¹n b¹c khãa", isAnnounce = 0 },
+      { idx = 76, rate = 88, newrate = 88, name = "KhÝ Linh Tinh Tóy", isAnnounce = 1 },
+      { idx = 16, rate = 525, newrate = 525, name = "Tói S¬n Thñy Ch©n KhÝ", isAnnounce = 0 },
+      { idx = 10, rate = 660, newrate = 660, name = "Tói Ch©n KhÝ (tiÓu)", isAnnounce = 0 },
+      { idx = 11, rate = 417, newrate = 417, name = "Ngäc Thanh LÔ Bao", isAnnounce = 0 },
+
+      { idx = 24, rate = 15, newrate = 15, name = "Tinh Th¸i Qu¸i Phï (ch­a mµi)", isAnnounce = 1 },
+      { idx = 62, rate = 11, newrate = 11, name = "T­íng Qu©n LÖnh 10 c¸i", isAnnounce = 1 },
+      { idx = 27, rate = 3, newrate = 3, name = "Ngäc T©m (Ch­a mµi)", isAnnounce = 1 },
+    },
+  },
+
+}
+
+tbl_PointItem = {
+  [50] = {
+    extPoint = 3,
+    name = "Quµ s¬ nhËp Phong ThÇn",
+    id = { 6, 1, 1075, 1, 0, 0 },
+    isNewServer = 1,
+    item1 = {
+      [1] = { id = { 8, 229, 0, 0, 0, 0, 0 }, name = "Thiªn H­¬ng", num = 1 },
+      [2] = { id = { 8, 1493, 2, 0, 0, 0, 1 }, name = "LuyÖn Hån Phï", num = 1 },
+      bag = 2,
+    },
+    item2 = {
+      [1] = { id = { 8, 229, 0, 0, 0, 0, 1 }, name = "Thiªn H­¬ng", num = 1 },
+      [2] = { id = { 6, 1, 1005, 0, 0, 0, 1 }, name = "Phï nhiÖm vô chñ ®Ò ngµy", num = 5 },
+      [3] = { id = { 6, 1, 1546, 0, 0, 0, 1 }, name = "Quµ M¸y chñ míi", num = 1 },
+
+      bag = 7,
+    },
+  },
+  [51] = {
+    extPoint = 4, name = "Tói quµ danh väng", id = { 6, 1, 1076, 1, 0, 0 },
+    isNewServer = 0,
+    item1 = {
+    },
+    item2 = {
+    },
+  },
+  [52] = {
+    extPoint = 5, name = "Tói quµ Thanh Danh Th­íc Khëi", id = { 6, 1, 1077, 1, 0, 0 },
+    isNewServer = 1,
+    item1 = {
+      [1] = { id = { 8, 1316, 4, 0, 0, 0, 1 }, name = "ThÎ Kim DËt", num = 1 },
+      [2] = { id = { 8, 374, 0, 0, 0, 0, 1 }, name = "Dao Tiªn t¸n", num = 1 },
+      [3] = { id = { 3, 100, 0, 0, 0, 0, 1 }, name = "T­íng Qu©n LÖnh", num = 2 },
+      [4] = { id = { 8, 191, 2, 0, 0, 0, 1 }, name = "TrÇm §iÖn", num = 1 },
+      [5] = { id = { 8, 507, 2, 0, 0, 0, 1 }, name = "Tinh th¹ch trung cÊp", num = 1 },
+      [6] = { id = { 6, 1, 1044, 1, 0, 0, 1 }, name = "M¶nh TruyÒn Thõa Th¹ch", num = 2 },
+      [7] = { id = { 6, 1, 1152, 1, 0, 0, 1 }, name = "ThÎ ®Æc quyÒn mua LuyÖn Hån Phï (30 ngµy)", num = 1 },
+
+      bag = 8
+    },
+    item2 = {
+      [1] = { id = { 3, 14, 0, 0, 0, 0, 1 }, name = "Thiªn Qu¸i", num = 1 },
+      [2] = { id = { 8, 1668, 2, 0, 0, 0, 1 }, name = "Tói L­¬ng Ngäc", num = 1 },
+
+      bag = 2
+    },
+  },
+  [53] = {
+    extPoint = 6, name = "Tói quµ Danh Vang Thiªn H¹", id = { 6, 1, 1078, 1, 0, 0 },
+    isNewServer = 1,
+    item1 = {
+      [1] = { id = { 8, 193, 5, 0, 0, 0, 1 }, name = "S¸ch Ch­ HÇu (M¶nh)", num = 2 },
+      [2] = { id = { 8, 1422, 5, 0, 0, 0, 1 }, name = "S¸ch Ch­ HÇu (Tµn trang)", num = 2 },
+      [3] = { id = { 3, 1150, 0, 0, 0, 0, 1 }, name = "Tö Thñy tinh", num = 1 },
+      [4] = { id = { 8, 1557, 2, 0, 0, 0, 1 }, name = "Tói quµ Thiªn Linh Th¹ch", num = 1 },
+      [5] = { id = { 3, 1242, 0, 0, 0, 0, 1 }, name = "KhÝ Linh Tinh Tóy", num = 5 },
+      [6] = { id = { 8, 1700, 2, 0, 0, 0, 1 }, name = "LuyÖn Ho¸ Phï (cao)", num = 1 },
+
+      bag = 6,
+
+      Select = { 1, 2 },
+    },
+    item2 = {
+      [1] = { id = { 8, 193, 5, 0, 0, 0, 1 }, name = "S¸ch Ch­ HÇu (M¶nh)", num = 2 },
+      [2] = { id = { 8, 1668, 2, 0, 0, 0, 1 }, name = "Tói L­¬ng Ngäc", num = 3 },
+      [3] = { id = { 6, 1, 1105, 1, 0, 0, 1 }, name = "ThÎ §Æc QuyÒn B¹ch Hæ", num = 1 },
+
+      bag = 6,
+    },
+  },
+  [54] = {
+    extPoint = 7, name = "LÔ bao Uy ChÊn B¸t Ph­¬ng", id = { 6, 1, 1114, 1, 0, 0 },
+    isNewServer = 1,
+    item1 = {
+      [1] = { id = { 6, 1, 1044, 1, 0, 0, 1 }, name = "M¶nh TruyÒn Thõa Th¹ch", num = 10 },
+      [2] = { id = { 3, 1267, 0, 0, 0, 0, 1 }, name = "ChÝ T«n Chi Hån", num = 10 },
+      [3] = { id = { 3, 1266, 0, 0, 0, 0, 1 }, name = "ChÝ T«n Chi Linh", num = 10 },
+      [4] = { id = { 8, 1447, 2, 0, 0, 0, 1 }, name = "Tói Quµ Danh Ngäc", num = 2 },
+
+      bag = 6,
+    },
+    item2 = {
+      [1] = { id = { 8, 1447, 2, 0, 0, 0, 1 }, name = "Tói Quµ Danh Ngäc", num = 1 },
+      [2] = { id = { 3, 14, 0, 0, 0, 0, 1 }, name = "Thiªn Qu¸i", num = 1 },
+      [3] = { id = { 176, 7200 }, name = "2h tr¹ng th¸i Tinh Qu©n Th¸i TuÕ", num = 1 },
+
+      bag = 2,
+    },
+  },
+  [55] = {
+    extPoint = 8, name = "Phong ThÇn LÔ Bao (Tr©n)", id = { 6, 1, 1199, 1, 0, 0 },
+    isNewServer = 1,
+    item1 = {
+      [1] = { id = { 3, 1195, 0, 0, 0, 0, 0 }, name = "TruyÒn Thõa Th¹ch", num = 1 },
+      [2] = { id = { 3, 1201, 0, 0, 0, 0, 1 }, name = "M¶nh Vò KhÝ HiÕm", num = 25 },
+
+      bag = 2,
+
+    },
+    item2 = {
+      [1] = { id = { 6, 1, 1046, 1, 0, 0, 1 }, name = "Tói quµ §å phæ Ph¸ Qu©n", num = 1 },
+      [2] = { id = { 6, 1, 1005, 0, 0, 0, 1 }, name = "Phï nhiÖm vô chñ ®Ò ngµy", num = 5 },
+      [3] = { id = { 175, 7200 }, name = "2h tr¹ng th¸i Tinh Qu©n Tö Vi", num = 1 },
+      bag = 6,
+    },
+
+  },
+}
+
+TBL_BuyItem = {
+  [37] = {
+    name = "LÔ bao Nh­ ý 2022", costid = 183, taskid = { 1910, 1 }, cleartask = { { 1910, 2 } },
+    tips = "TÝch lòy 6 ngµy nhËn ®­îc 10 c¸i T­íng Qu©n LÖnh, 6 côm §ång Thau, 6 tói Lôc §¹o Tø T­îng tuú chän, ph¸p b¶o. Vµ nhiÒu phÇn th­ëng bÊt ngê kh¸c!",
+  },
+  [38] = {
+    name = "LÔ bao 2022 §¹i C¸t", costid = 180, taskid = { 1910, 3 }, cleartask = { { 1910, 4 }, { 1911, 1 }, { 1911, 2 } },
+    tips = "TÝch lòy 11 ngµy nhËn ®­îc 24 c¸i T­íng Qu©n LÖnh, 11 côm §ång Thau, 11 tói Lôc §¹o Tø T­îng tuú chän, ph¸p b¶o. Vµ nhiÒu phÇn th­ëng bÊt ngê kh¸c!",
+  },
+  [39] = {
+    name = "LÔ bao 2022 H­ng V­îng", costid = 255, taskid = { 1992, 1 }, cleartask = { { 1992, 2 }, { 1911, 3 } },
+    tips = "TÝch lòy 11 ngµy nhËn ®­îc 36 c¸i T­íng Qu©n LÖnh, 11 côm §ång Thau, 11 tói Lôc §¹o Tø T­îng tuú chän, ph¸p b¶o. Vµ nhiÒu phÇn th­ëng bÊt ngê kh¸c!",
+  },
+  [67] = {
+    name = "LÔ bao Vò khÝ Tinh Hoa (cao)", costid = 271, taskid = { 2102, 1 }, cleartask = {},
+    tips = "Më lÔ bao cã thÓ nhËn ®­îc Vò khÝ Tinh Hoa (cao) vµ 1 TrÇm §iÖn. Vµ nhiÒu phÇn th­ëng bÊt ngê kh¸c!",
+  },
+  [68] = {
+    name = "LÔ bao Vò khÝ Tinh Nguyªn (cao)", costid = 190, taskid = { 2102, 2 }, cleartask = {},
+    tips = "Më lÔ bao cã thÓ nhËn ®­îc Vò khÝ Tinh Nguyªn (cao) vµ 1 TrÇm §iÖn. Vµ nhiÒu phÇn th­ëng bÊt ngê kh¸c!",
+  },
+  [69] = {
+    name = "LÔ bao Trang bÞ Tinh Hoa (cao)", costid = 272, taskid = { 2102, 3 }, cleartask = {},
+    tips = "Më lÔ bao cã thÓ nhËn ®­îc Trang bÞ Tinh Hoa (cao) vµ 1 TrÇm §iÖn. Vµ nhiÒu phÇn th­ëng bÊt ngê kh¸c!",
+  },
+  [70] = {
+    name = "LÔ bao Trang bÞ Tinh Nguyªn (cao)", costid = 191, taskid = { 2102, 4 }, cleartask = {},
+    tips = "Më lÔ bao cã thÓ nhËn ®­îc Trang bÞ Tinh Nguyªn (cao) vµ 1 TrÇm §iÖn. Vµ nhiÒu phÇn th­ëng bÊt ngê kh¸c!",
+  },
+  [71] = {
+    name = "Tu luyÖn Siªu C­êng (thÎ th¸ng)", costid = 274, taskid = { 2113, 2 }, cleartask = { { 2113, 1 } },
+    tips = "Më lÔ bao cã thÓ nhËn ®­îc nhiÒu M¶nh s¸ch Ch­ HÇu, Phï nhiÖm vô Chñ ®Ò ngµy, ®¹o cô nhiÖm vô!",
+  },
+  [75] = {
+    name = "LÔ bao LuyÖn Hãa", costid = 277, taskid = { 2169, 1 }, cleartask = {},
+    tips = "Më lÔ bao cã thÓ nhËn ®­îc KhÝ Linh Tinh Tóy, cßn cã c¬ héi nhËn LuyÖn Ho¸ Phï (cao), LuyÖn Hãa Høa Kh¶.",
+  },
+
+}
+
+TBL_FuHaoList = {
+  [42] = { name = "HuyÒn Th¸i Ngäc Tñy", point = 888, count = 10, task = { 1925, 3 }, bind = 0 },
+  [43] = { name = "LÔ bao §å Phæ LiÖt", point = 1588, count = 1, task = { 1982, 2 }, bind = 1 },
+  [44] = { name = "Ngäc Tinh", point = 2888, count = 1, task = { 1925, 2 }, bind = 1 },
+  [45] = { name = "Ngäc T©m Long Hån Ngäc béi", point = 4888, count = 1, task = { 1925, 1 }, bind = 1 },
+  [46] = { name = "TrÊn Hån Tinh Ph¸ch", point = 6888, count = 1, task = { 1982, 1 }, bind = 1 },
+  [47] = { name = "Tói quµ §å phæ Ph¸ Qu©n", point = 888, count = 1, task = { 1982, 3 }, bind = 1 },
+  [48] = { name = "Tói quµ §å phæ Ph¸ Qu©n", point = 1588, count = 1, task = { 1982, 4 }, bind = 1 },
+}
+
+ItemList = {
+  [1] = {
+
+    [1] = {
+      [1] = { Name = "Phï Th¹ch-§o¶n §ao cÊp 1(<c=water>Håi Phong Tr¶m<c>)", id = { 3, 1277, 0 }, Rate = 380 },
+      [2] = { Name = "Phï Th¹ch-Tr­êng §ao cÊp 1(<c=water>§iÖn Quang Tr¶m<c>)", id = { 3, 1326, 0 }, Rate = 350 },
+      [3] = { Name = "Phï Th¹ch-Tr­êng §ao cÊp 1(<c=water>Tam §Çu Lôc Thñ<c>)", id = { 3, 1340, 0 }, Rate = 270 },
+    },
+
+    [2] = {
+      [1] = { Name = "Phï Th¹ch-§o¶n §ao cÊp 1(<c=g>Tinh Th«ng §o¶n §ao<c>)", id = { 3, 1284, 0 }, Rate = 170 },
+      [2] = { Name = "Phï Th¹ch-Tr­êng §ao cÊp 1(<c=g>Tinh Th«ng Tr­êng §ao<c>)", id = { 3, 1333, 0 }, Rate = 200 },
+      [3] = { Name = "Phï Th¹ch-Tr­êng §ao cÊp 1(<c=g>L¹c §Þa Tr¶m)<c>", id = { 3, 1347, 0 }, Rate = 300 },
+      [4] = { Name = "Phï Th¹ch-§o¶n §ao cÊp 1(<c=g>Liªn Hoµn Tr¶m)<c>", id = { 3, 1291, 0 }, Rate = 330 },
+    },
+
+    [3] = {
+      [1] = { Name = "Phï Th¹ch-§o¶n §ao cÊp 1(<c=Yellow>ThuÇn D­¬ng Hé ThÓ<c>)", id = { 3, 1298, 0 }, Rate = 400 },
+      [2] = { Name = "Phï Th¹ch-§o¶n §ao cÊp 1(<c=Yellow>Thiªn Qu©n Tr¶m<c>)", id = { 3, 1305, 0 }, Rate = 400 },
+      [3] = { Name = "Phï Th¹ch-Tr­êng §ao cÊp 1(<c=Yellow>Khuynh Thµnh NhÊt KÝch<c>)", id = { 3, 1354, 0 }, Rate = 200 },
+    },
+    [4] = {
+      { Name = "Phï Th¹ch-§o¶n §ao cÊp 1(<c=orange>§o¹n Kh«ng Tr¶m<c>)", id = { 3, 1312, 0 }, Rate = 320 },
+      { Name = "Phï Th¹ch-Tr­êng §ao cÊp 1(<c=orange>Thiªn Hµn Tr¶m<c>)", id = { 3, 1361, 0 }, Rate = 480 },
+      { Name = "Phï Th¹ch-§o¶n §ao cÊp 1(<c=orange>Cuång T©m Tr¶m<c>)", id = { 3, 1319, 0 }, Rate = 120 },
+      { Name = "Phï Th¹ch-Tr­êng §ao cÊp 1(<c=orange>BÝch NguyÖt Tr¶m<c>)", id = { 3, 1368, 0 }, Rate = 80 },
+    },
+    [5] = {
+      { Name = "Phï Th¹ch-§o¶n §ao cÊp 1(<c=orange>Cuång T©m Tr¶m<c>)", id = { 3, 1319, 0 }, Rate = 600 },
+      { Name = "Phï Th¹ch-Tr­êng §ao cÊp 1(<c=orange>BÝch NguyÖt Tr¶m<c>)", id = { 3, 1368, 0 }, Rate = 400 },
+    },
+  },
+  [2] = {
+    [1] = {
+      [1] = { Name = "Phï Th¹ch-HÖ Háa cÊp 1(<c=water>Phong L©m Háa S¬n<c>)", id = { 3, 1375, 0 }, Rate = 375 },
+      [2] = { Name = "Phï Th¹ch-HÖ B¨ng cÊp 1(<c=water>ThiÕt M· B¨ng Qua<c>)", id = { 3, 1410, 0 }, Rate = 375 },
+      [3] = { Name = "Phï Th¹ch-HÖ L«i cÊp 1(<c=water>Phong V©n L«i §éng<c>)", id = { 3, 1473, 0 }, Rate = 250 },
+    },
+    [2] = {
+      [1] = { Name = "Phï Th¹ch-HÖ Háa cÊp 1(<c=g>ThËp Ph­¬ng LiÖt Háa<c>)", id = { 3, 1382, 0 }, Rate = 200 },
+      [2] = { Name = "Phï Th¹ch-HÖ B¨ng cÊp 1(<c=g>±ù·ç±©<c>)", id = { 3, 1417, 0 }, Rate = 400 },
+      [3] = { Name = "Phï Th¹ch-HÖ Thæ cÊp 1(<c=g>Ngò Nh¹c TriÒu T«ng<c>)", id = { 3, 1445, 0 }, Rate = 400 },
+    },
+    [3] = {
+      [1] = { Name = "Phï Th¹ch-HÖ Háa cÊp 1(<c=Yellow>Tam Muéi Ch©n Háa<c>)", id = { 3, 1389, 0 }, Rate = 150 },
+      [2] = { Name = "Phï Th¹ch-HÖ B¨ng cÊp 1(<c=Yellow>B¨ng Phong V¹n Lý<c>)", id = { 3, 1424, 0 }, Rate = 300 },
+      [3] = { Name = "Phï Th¹ch-HÖ Thæ cÊp 1(<c=Yellow>HuyÒn N÷ Bæ Thiªn<c>)", id = { 3, 1452, 0 }, Rate = 300 },
+      [4] = { Name = "Phï Th¹ch-HÖ L«i cÊp 1(<c=Yellow>L«i §éng Cöu Thiªn<c>)", id = { 3, 1480, 0 }, Rate = 250 },
+    },
+    [4] = {
+      { Name = "Phï Th¹ch-HÖ Háa cÊp 1(<c=orange>PhÇn Háa §å §»ng<c>)", id = { 3, 1396, 0 }, Rate = 240 },
+      { Name = "Phï Th¹ch-HÖ B¨ng cÊp 1(<c=orange>TuyÕt Vò B¨ng Phong<c>)", id = { 3, 1431, 0 }, Rate = 160 },
+      { Name = "Phï Th¹ch-HÖ Thæ cÊp 1(<c=orange>Phi Sa TÈu Th¹ch<c>)", id = { 3, 1459, 0 }, Rate = 160 },
+      { Name = "Phï Th¹ch-HÖ L«i cÊp 1(<c=orange>PhÖ ¶nh L«i Quang<c>)", id = { 3, 1487, 0 }, Rate = 240 },
+      { Name = "Phï Th¹ch-HÖ B¨ng cÊp 1(<c=orange>Thiªn Lý Truy Hån<c>)", id = { 3, 1438, 0 }, Rate = 80 },
+      { Name = "Phï Th¹ch-HÖ Háa cÊp 1(<c=orange>Háa Tinh Trôy L¹c<c>)", id = { 3, 1403, 0 }, Rate = 40 },
+      { Name = "Phï Th¹ch-HÖ Thæ cÊp 1(<c=orange>§Þa Háa PhÇn Thiªn<c>)", id = { 3, 1466, 0 }, Rate = 40 },
+      { Name = "Phï Th¹ch-HÖ L«i cÊp 1(<c=orange>LuyÖn Ngôc ThiÓm §iÖn<c>)", id = { 3, 1494, 0 }, Rate = 40 },
+    },
+    [5] = {
+      { Name = "Phï Th¹ch-HÖ Háa cÊp 1(<c=orange>Háa Tinh Trôy L¹c<c>)", id = { 3, 1403, 0 }, Rate = 334 },
+      { Name = "Phï Th¹ch-HÖ Thæ cÊp 1(<c=orange>§Þa Háa PhÇn Thiªn<c>)", id = { 3, 1466, 0 }, Rate = 333 },
+      { Name = "Phï Th¹ch-HÖ L«i cÊp 1(<c=orange>LuyÖn Ngôc ThiÓm §iÖn<c>)", id = { 3, 1494, 0 }, Rate = 333 },
+    },
+  },
+  [3] = {
+    [1] = {
+      [1] = { Name = "Phï Th¹ch-Ma ph¸p cÊp 1(<c=water>Th«i Th©n Chó<c>)", id = { 3, 1501, 0 }, Rate = 250 },
+      [2] = { Name = "Phï Th¹ch-Ma ph¸p cÊp 1(<c=water>Bæ T©m Chó<c>)", id = { 3, 1508, 0 }, Rate = 350 },
+      [3] = { Name = "Phï Th¹ch-TriÖu Håi cÊp 1(<c=water>Tr­êng Cung TÕ<c>)", id = { 3, 1550, 0 }, Rate = 400 },
+    },
+    [2] = {
+      [1] = { Name = "Phï Th¹ch-Ma ph¸p cÊp 1(<c=g>Ph¸ Gi¸p Chó<c>)", id = { 3, 1515, 0 }, Rate = 264 },
+      [2] = { Name = "Phï Th¹ch-TriÖu Håi cÊp 1(<c=g>Liªn Nç TÕ<c>)", id = { 3, 1564, 0 }, Rate = 264 },
+      [3] = { Name = "Phï Th¹ch-TriÖu Håi cÊp 1(<c=g>To¸i Cèt TÕ<c>)", id = { 3, 1578, 0 }, Rate = 472 },
+    },
+    [3] = {
+      [1] = { Name = "Phï Th¹ch-Ma ph¸p cÊp 1(<c=Yellow>Tr¶m T©m Chó<c>)", id = { 3, 1522, 0 }, Rate = 400 },
+      [2] = { Name = "Phï Th¹ch-TriÖu Håi cÊp 1(<c=Yellow>Truy Hån TÕ<c>)", id = { 3, 1585, 0 }, Rate = 400 },
+      [3] = { Name = "Phï Th¹ch-TriÖu Håi cÊp 1(<c=Yellow>Phong QuyÓn Tµn V©n<c>)", id = { 3, 1592, 0 }, Rate = 200 },
+    },
+    [4] = {
+      { Name = "Phï Th¹ch-Ma ph¸p cÊp 1(<c=orange>Phóc Tr¹ch Thiªn H÷u<c>)", id = { 3, 1529, 0 }, Rate = 320 },
+      { Name = "Phï Th¹ch-Ma ph¸p cÊp 1(<c=orange>TuyÖt T©m Chó<c>)", id = { 3, 1536, 0 }, Rate = 320 },
+      { Name = "Phï Th¹ch-TriÖu Håi cÊp 1(<c=orange>Cuång §µo TÕ<c>)", id = { 3, 1599, 0 }, Rate = 160 },
+      { Name = "Phï Th¹ch-Ma ph¸p cÊp 1(<c=orange>Ph¸ Qu©n Chó<c>)", id = { 3, 1543, 0 }, Rate = 120 },
+      { Name = "Phï Th¹ch-TriÖu Håi cÊp 1(<c=orange>SËu Vò B¹o Phong<c>)", id = { 3, 1606, 0 }, Rate = 80 },
+    },
+    [5] = {
+      { Name = "Phï Th¹ch-Ma ph¸p cÊp 1(<c=orange>Ph¸ Qu©n Chó<c>)", id = { 3, 1543, 0 }, Rate = 600 },
+      { Name = "Phï Th¹ch-TriÖu Håi cÊp 1(<c=orange>SËu Vò B¹o Phong<c>)", id = { 3, 1606, 0 }, Rate = 400 },
+    },
+  },
+}
+
+Task_GetLuckyDoubleItem = 1976
+Task_CoinToBindcoin = 1801
+
+Task_Buy_Item = 1910
+Task_Buy_Item_Time = 1911
+
+Task_Buy_Enhance = 1924
+Task_Buy_Item3 = 1992
+Task_Skill_Item = 2031
+Task_Skill_Item1 = 2032
+
+Task_CoinFlag = 1874
+Task_CoinGift = 1925
+
+Task_CoinGift_2 = 1982
+
+function UsePointItem(nIndex)
+  nIndex = 49 + nIndex
+  if (tbl_PointItem[nIndex] == nil) then
+    return 0
+  end
+
+  local tItemID = tbl_PointItem[nIndex].id
+  if (#tItemID < 4 or HaveNormalItem(tItemID[1], tItemID[2], tItemID[3], tItemID[4]) <= 0) then
+    return 0
+  end
+
+  local tItemList = tbl_PointItem[nIndex].item1
+  if (tbl_PointItem[nIndex].isNewServer == 1 and GetGameServerName() == g_NewServerName) then
+    tItemList = tbl_PointItem[nIndex].item2
+  end
+
+  if (IsHaveSpaceForTreasure(tItemList.bag + 1) == 0) then
+    InfoBox("Tói kh«ng ®ñ « trèng " .. tItemList.bag .. " h·y s¾p xÕp l¹i tói.")
+    return 0
+  end
+
+  if (tItemList.Select ~= nil) then
+    local opra = {}
+    for i = 1, #tItemList.Select do
+      if (tItemList.Select[i] ~= nil and tItemList.Select[i] > 0 and tItemList.Select[i] < #tItemList) then
+        local tSelectID = tItemList.Select[i]
+        opra[#opra + 1] = tItemList[tSelectID].name .. "/SelectItem"
+      end
+    end
+
+    SetTask(140, nIndex)
+    Say("H·y chän phÇn th­ëng ngµi muèn nhËn.", #opra, opra)
+    return 1
+  end
+
+  DelNormalItem(tItemID[1], tItemID[2], tItemID[3], tItemID[4])
+
+  local nStr = "Ngµi më " .. tbl_PointItem[nIndex].name .. " nhËn ®­îc "
+  local nTemp = {}
+  for i = 1, #tItemList do
+    if #tItemList[i].id == 7 then
+      nTemp = tItemList[i].id
+      for j = 1, tItemList[i].num do
+        AddNormalItemBind(nTemp[1], nTemp[2], nTemp[3], nTemp[4], nTemp[5], nTemp[6], nTemp[7])
+      end
+      nStr = nStr .. tItemList[i].num .. " c¸i " .. tItemList[i].name .. ";"
+    end
+    if (#tItemList[i].id) == 2 then
+      AddIBBuff(tItemList[i].id[1], tItemList[i].id[2])
+      nStr = nStr .. tItemList[i].num .. " c¸i " .. tItemList[i].name .. ";"
+    end
+  end
+
+  Msg2Player(nStr)
+  WriteLog("[" .. tbl_PointItem[nIndex].name .. "]")
+  return 1
+end
+
+function SelectItem(nIdx)
+  CloseDialog()
+  local nIndex = GetTask(140)
+  if (tbl_PointItem[nIndex] == nil) then
+    return 0
+  end
+
+  local tItemID = tbl_PointItem[nIndex].id
+  if (#tItemID < 4 or HaveNormalItem(tItemID[1], tItemID[2], tItemID[3], tItemID[4]) <= 0) then
+    return 0
+  end
+
+  local tItemList = tbl_PointItem[nIndex].item1
+  if (tbl_PointItem[nIndex].isNewServer == 1 and GetGameServerName() == g_NewServerName) then
+    tItemList = tbl_PointItem[nIndex].item2
+  end
+
+  DelNormalItem(tItemID[1], tItemID[2], tItemID[3], tItemID[4])
+
+  local nStr = "Ngµi më " .. tbl_PointItem[nIndex].name .. " nhËn ®­îc "
+  local nTemp = {}
+  for i = 1, #tItemList do
+    if (i == tItemList.Select[nIdx + 1]) or (tItemList.Select ~= nil and IsInSelectTable(i, tItemList.Select) == 0) then
+      if #tItemList[i].id == 7 then
+        nTemp = tItemList[i].id
+        for j = 1, tItemList[i].num do
+          AddNormalItemBind(nTemp[1], nTemp[2], nTemp[3], nTemp[4], nTemp[5], nTemp[6], nTemp[7])
+        end
+        nStr = nStr .. tItemList[i].num .. " " .. tItemList[i].name .. ";"
+      end
+      if #tItemList[i].id == 2 then
+        AddIBBuff(tItemList[i].id[1], tItemList[i].id[2])
+        nStr = nStr .. tItemList[i].num .. " " .. tItemList[i].name .. ";"
+      end
+    end
+  end
+
+  Msg2Player(nStr)
+  WriteLog("[" .. tbl_PointItem[nIndex].name .. "]")
+  return 1
+end
+
+function IsInSelectTable(nIdx, tTable)
+  if (nIdx <= 0 or tTable == nil) then
+    return 0
+  end
+  for i = 1, #tTable do
+    if (nIdx == tTable[i]) then
+      return 1
+    end
+  end
+  return 0
+end
+
+function ChangeBindCoin()
+  CloseDialog()
+  if (GetTaskByte(Task_GetLuckyDoubleItem, 1) ~= g_InchargeTaskValue) then
+    SetTaskByte(Task_GetLuckyDoubleItem, 1, g_InchargeTaskValue)
+    SetTaskByte(Task_GetLuckyDoubleItem, 2, 0)
+  end
+
+  local nTaskTimes = GetTaskByte(Task_GetLuckyDoubleItem, 2)
+  if (nTaskTimes >= 10) then
+    InfoBox("ThËt xin lçi, ho¹t ®éng lÇn nµy ®· ®æi 10 lÇn Linh B¶o, kh«ng thÓ ®æi thªm, h·y chê ho¹t ®éng lÇn sau.")
+    return
+  end
+
+  MsgBox("§iÓm tÝch lòy hiÖn t¹i lµ <c=yel>" .. (GetExtPoint(4) + GetTask(1893)) .. " ®iÓm <c>. HiÖn t¹i mçi <c=g>" .. g_BindCoinPoint .. " ®iÓm<c> tÝch lòy cã thÓ ®æi <c=yel>5 Linh B¶o<c>, mçi ng­êi tèi ®a ®æi 10 lÇn, ngµi muèn thö 1 lÇn sao?", "ChangeBindCoinSure", "no")
+end
+
+function ChangeBindCoinSure()
+  CloseDialog()
+  if (GetTaskByte(Task_GetLuckyDoubleItem, 1) ~= g_InchargeTaskValue) then
+    SetTaskByte(Task_GetLuckyDoubleItem, 1, g_InchargeTaskValue)
+    SetTaskByte(Task_GetLuckyDoubleItem, 2, 0)
+  end
+
+  local nTaskTimes = GetTaskByte(Task_GetLuckyDoubleItem, 2)
+  if (nTaskTimes >= 10) then
+    InfoBox("ThËt xin lçi, ho¹t ®éng lÇn nµy ®· ®æi 10 lÇn Linh B¶o, kh«ng thÓ ®æi thªm, h·y chê ho¹t ®éng lÇn sau.")
+    return
+  end
+
+  local points = GetExtPoint(4) + GetTask(1893)
+  if (points >= g_BindCoinPoint) then
+    local nfuli = GetTask(1893)
+    if (nfuli >= g_BindCoinPoint) then
+      SetTask(1893, nfuli - g_BindCoinPoint)
+    elseif (PayExtPoint(4, g_BindCoinPoint) <= 0) then
+      InfoBox("Xin lçi, lÇn nµy trõ ®iÓm tÝch lòy thÊt b¹i, mêi thö l¹i!!")
+      return 0
+    end
+
+    SetTaskByte(Task_GetLuckyDoubleItem, 2, nTaskTimes + 1)
+    AddBindCoin(500)
+    TopMessage("Ngµi nhËn ®­îc <c=yel>5 Linh B¶o<c>")
+    WriteLog("[KhuyÕn m¹i n¹p thÎ][NhËn ®­îc][5 Linh B¶o]")
+    MsgBox("Ngµi tiªu phÝ <c=g>" .. g_BindCoinPoint .. " ®iÓm tÝch lòy<c> ®æi lÊy <c=yel>5 Linh B¶o<c>. §iÓm tÝch lòy cßn l¹i lµ <c=yel>" .. (GetExtPoint(4) + GetTask(1893)) .. "<c> ®iÓm, cã muèn tiÕp tôc nhËn th­ëng?", "ChangeBindCoinSure", "no")
+  else
+    Talk(1, "no", "§iÓm tÝch lòy cßn l¹i kh«ng ®ñ, xin kiÓm tra l¹i.")
+  end
+end
+
+function CheckNotOpenServer(id)
+  if (id <= 0 or id > #TBL_PointLottery) then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh rót th¨m.")
+    return 0
+  end
+
+  local nServerName = GetGameServerName()
+  local nFlag = 1
+  for i = 1, #TBL_PointLottery[id].notOpenServer do
+    if (nServerName == TBL_PointLottery[id].notOpenServer[i]) then
+      nFlag = 0
+    end
+  end
+
+  return nFlag
+end
+
+function IsNewServer()
+  if (g_NewServerName ~= nil and g_NewServerName ~= "" and GetGameServerName() == g_NewServerName) then
+    return 1
+  end
+  return 0
+end
+
+function IsNewServerNotCan(nItemIdx)
+  if (IsNewServer() == 0) then
+    return 0
+  end
+
+  local nItemName = GetLotteryItemName(nItemIdx)
+  for i = 1, #tbl_NewServerNoItem do
+    --if (nItemName == tbl_NewServerNoItem[i]) then
+    if string.find(tbl_NewServerNoItem[i], nItemName) then
+      return 1
+    end
+  end
+  return 0
+end
+
+function CheckCanGetItem()
+  local key = GetExtPoint(6)
+  local points = GetExtPoint(4) + GetTask(1893)
+  for i = 50, 55 do
+    if (tbl_PointItem[i] == nil or IsNewServerNotCan(i) == 1) then
+      break
+    end
+    local thisPoint, newPoint = GetLotteryItemPoint(i)
+    if (IsNewServer() == 1) then
+      thisPoint = newPoint
+    end
+    if (points >= thisPoint and GetBit(key, tbl_PointItem[i].extPoint) == 0) then
+      return 1
+    end
+  end
+
+  return 0
+end
+
+function PointLottery(id)
+  id = id + 1
+
+  if not (COMMON.IsInDateTimeRange(G_SaleActiveDay[1], G_SaleActiveDay[2])) then
+    InfoBox("Ho¹t ®éng ­u ®·i n¹p thÎ hiÖn ch­a më, h·y ®îi thªm!")
+    return 0
+  end
+
+  if (id <= 0 or id > #TBL_PointLottery) then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh rót th¨m.")
+    return 0
+  end
+
+  if (CheckCanGetItem() > 0) then
+    InfoBox("§iÓm n¹p thÎ cña b¹n ®· ®¹t ®ñ ®iÒu kiÖn ®Ó nhËn quµ, b¹n nªn nhÊp vµo trang \"H¶o LÔ Trî ChiÕn\" ®Ó nhËn gãi quµ t­¬ng øng.")
+    return 0
+  end
+
+  if (CheckNotOpenServer(id) == 0) then
+    InfoBox("ThËt xin lçi, lo¹i h×nh rót th¨m nµy t¹m ch­a më t¹i m¸y chñ hiÖn t¹i, h·y ®îi thªm!")
+    return 0
+  end
+
+  if (GetTaskByte(1975, 4) ~= g_InchargeTaskValue) then
+    SetTask(1975, 0)
+    SetTaskByte(1975, 4, g_InchargeTaskValue)
+  end
+
+  local nItemNum = GetTaskByte(TBL_PointLottery[id].itemNum[1], TBL_PointLottery[id].itemNum[2])
+  if (TBL_PointLottery[id].itemMax > 0 and nItemNum >= TBL_PointLottery[id].itemMax) then
+    InfoBox("LÇn ho¹t ®éng nµy ngµi ®· rót " .. nItemNum .. " lÇn " .. TBL_PointLottery[id].name .. ", lÇn sau h·y quay l¹i.")
+    return 0
+  end
+
+  if (IsHaveSpaceForTreasure(2) == 0) then
+    InfoBox("Hµnh trang kh«ng cã ®ñ 1 « trèng, xin h·y s¾p xÕp l¹i.")
+    return
+  end
+
+  local nPayPoint = TBL_PointLottery[id].point
+  if (TBL_PointLottery[id].firstPoint > 0 and nItemNum == 0) then
+    nPayPoint = TBL_PointLottery[id].firstPoint
+  end
+
+  local nLotteryNum = GetTask(TBL_PointLottery[id].numTask) + 1
+  local nfuli = GetTask(1893)
+  local points = GetExtPoint(4) + nfuli
+  if (points >= nPayPoint) then
+    if (nfuli >= nPayPoint) then
+      SetTask(1893, nfuli - nPayPoint)
+    elseif (PayExtPoint(4, nPayPoint) <= 0) then
+      InfoBox("Xin lçi, lÇn nµy trõ ®iÓm tÝch lòy thÊt b¹i, mêi thö l¹i!!")
+      return 0
+    end
+
+    for i = 1, nPayPoint do
+      NewServerEx.Pet_GetPilesTask(9)
+    end
+
+    local nRand = math.random(1, 100000)
+    SetTask(TBL_PointLottery[id].numTask, nLotteryNum)
+
+    local data = TBL_PointLottery[id].data
+    local lucky = 0
+    for i = 1, #data do
+      if (nLotteryNum <= data[i][1]) then
+        lucky = data[i][3] + math.floor((nLotteryNum - data[i - 1][1]) / data[i][2]) * data[i][4]
+        break
+      end
+    end
+
+    if nLotteryNum >= data[#data][1] then
+      lucky = 100000
+    end
+
+    if (nRand <= lucky) then
+      return issel(id)
+    else
+      return remain(id)
+    end
+  else
+    Talk(1, "no", "Xin lçi, ®iÓm tÝch lòy cña ngµi kh«ng ®ñ <c=r>" .. nPayPoint .. " ®iÓm<c>, ®iÓm tÝch lòy cßn l¹i lµ <c=yel>" .. points .. " ®iÓm<c>.")
+  end
+end
+
+function issel(id)
+  if id <= 0 or id > #TBL_PointLottery then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh rót th¨m.")
+    return 0
+  end
+
+  local playerTy = GetPlayerType() + 1
+  local itemList = TBL_PointLottery[id].item
+  local nItemNum = 0
+
+  if (TBL_PointLottery[id].itemNum[1] ~= -1) then
+    nItemNum = GetTaskByte(TBL_PointLottery[id].itemNum[1], TBL_PointLottery[id].itemNum[2]) + 1
+    SetTaskByte(TBL_PointLottery[id].itemNum[1], TBL_PointLottery[id].itemNum[2], nItemNum)
+  end
+
+  WriteLog("[KhuyÕn m¹i n¹p thÎ][NhËn ®­îc][" .. itemList.name .. "] sè lÇn nhÊn " .. GetTask(TBL_PointLottery[id].numTask))
+  SetTask(TBL_PointLottery[id].numTask, 0)
+  if (nItemNum == 1) then
+    AddNormalItemBind(itemList.id[1], itemList.id[2], itemList.id[3], itemList.id[4], itemList.id[5], itemList.id[6], 1)
+  else
+    AddNormalItemBind(itemList.id[1], itemList.id[2], itemList.id[3], itemList.id[4], itemList.id[5], itemList.id[6], itemList.id[7])
+  end
+
+  Talk(1, "no", "B¹n nhËn ®­îc <c=yel>" .. itemList.name .. "<c>")
+  TopMessage("B¹n nhËn ®­îc <c=yel>" .. itemList.name .. "<c>")
+  Msg2Player("B¹n nhËn ®­îc " .. itemList.name)
+  AddGlobalCountNews("<c=g><RoleName=\"" .. GetName() .. "\"><c> tham gia rót th¨m may m¾n nhËn ®­îc <c=r>" .. itemList.name .. "<c>, chóc mõng!", 3)
+
+  SetLotteryItemEffect(itemList.idx, -1)
+end
+
+function remain(key)
+  if (TBL_PointLottery[key] == nil or TBL_PointLottery[key].otheritem == nil) then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh rót th¨m.")
+    return 0
+  end
+  local other_data = TBL_PointLottery[key].otheritem
+
+  local str = ""
+  local luckshow = { [1] = { 2500, 1 }, [2] = { 9500, 3 }, [3] = { 10000, 2 } }
+  local nFlag = 0
+  local str1 = ""
+  local rand = 0
+  local logstr = "[KhuyÕn m¹i n¹p thÎ][BÊm][" .. TBL_PointLottery[key].name .. "]" .. GetTask(TBL_PointLottery[key].numTask) .. "´Î: "
+  local r_other = math.random(1, 10000)
+  for j = 1, 3 do
+    if (r_other <= luckshow[j][1]) then
+      str = " §iÓm may m¾n t¨ng thªm <c=g>" .. luckshow[j][2] .. " ®iÓm<c>."
+      break
+    end
+  end
+
+  if (IsNewServer() == 1) then
+    for i = 1, #TBL_PointLottery[key].otheritem do
+      rand = rand + TBL_PointLottery[key].otheritem[i].newrate
+      if (r_other <= rand) then
+        nFlag = i
+        break
+      end
+    end
+  else
+    for i = 1, #TBL_PointLottery[key].otheritem do
+      rand = rand + TBL_PointLottery[key].otheritem[i].rate
+      if (r_other <= rand) then
+        nFlag = i
+        break
+      end
+    end
+  end
+
+  if (nFlag >= 1 and nFlag <= #TBL_PointLottery[key].otheritem and TBL_PointLottery[key].otheritem[nFlag].idx >= 0) then
+    AddLotteryItemByIdx(TBL_PointLottery[key].otheritem[nFlag].idx, 0)
+    if (TBL_PointLottery[key].otheritem[nFlag].isAnnounce == 1) then
+      AddGlobalCountNews("<c=g><RoleName=\"" .. GetName() .. "\"><c> trong ho¹t ®éng tÝch ®iÓm nhËn quµ, nhËn ®­îc <c=g>" .. TBL_PointLottery[key].otheritem[nFlag].name .. "<c>, chóc mõng!", 1)
+      Msg2CurMapAnnounce("<c=g><RoleName=\"" .. GetName() .. "\"><c> trong ho¹t ®éng tÝch ®iÓm nhËn quµ, nhËn ®­îc <c=g>" .. TBL_PointLottery[key].otheritem[nFlag].name .. "<c>, chóc mõng!")
+      logstr = logstr .. TBL_PointLottery[key].otheritem[nFlag].name
+    end
+    str1 = "B¹n nh©n ®­îc " .. TBL_PointLottery[key].otheritem[nFlag].name .. ","
+  else
+    str1 = "B¹n kh«ng nhËn ®­îc g×, "
+  end
+  str1 = str1 .. "H·y tiÕp tôc rÌn luyÖn!"
+  Msg2Player(str1)
+  TopMessage(str1)
+  WriteLog(logstr)
+
+  SetLotteryItemEffect(TBL_PointLottery[key].otheritem[nFlag].idx, nFlag - 1)
+end
+
+function LotteryGift(nType, nItemIdx)
+  CloseDialog()
+  if (nType == 1) then
+
+    if (nItemIdx == 59 or nItemIdx == 58) then
+      RuYi(nItemIdx)
+      return
+    elseif (nItemIdx >= 63 and nItemIdx <= 65) then
+      HaoLiNew(nItemIdx)
+      return
+    else
+      HaoLi(nItemIdx)
+    end
+  elseif (nType == 2) then
+    FuShi(nItemIdx)
+  elseif (nType == 3) then
+    XianLiang(nItemIdx)
+  elseif (nType == 4) then
+    FuHao(nItemIdx)
+  end
+end
+
+function HaoLi(nItemIdx)
+  CloseDialog()
+
+  if not (COMMON.IsInDateTimeRange(G_SaleActiveDay[1], G_SaleActiveDay[2])) then
+    InfoBox("Ho¹t ®éng H¶o LÔ Trî ChiÕn ch­a më, h·y quay l¹i sau!")
+    return
+  end
+
+  if (IsNewServerNotCan(nItemIdx) == 1) then
+    InfoBox("ThËt xin lçi, m¸y chñ hiÖn t¹i kh«ng më phÇn quµ nµy.")
+    return
+  end
+
+  if (tbl_PointItem[nItemIdx] == nil) then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh rót sè!")
+    return
+  end
+
+  local key = GetExtPoint(6)
+  local nItemNum = 0
+  local nIndex = nItemIdx
+  if (GetBit(key, tbl_PointItem[nIndex].extPoint) == 1) then
+    Talk(1, "no", "ThËt xin lçi, ngµi ®· nhËn lÔ bao nµy råi.")
+    return
+  end
+
+  local points = GetExtPoint(4) + GetTask(1893)
+  local thisPoint, newPoint = GetLotteryItemPoint(nIndex)
+  if (IsNewServer() == 1) then
+    thisPoint = newPoint
+  end
+  if (points < thisPoint) then
+    Talk(1, "no", "ThËt xin lçi, ®iÓm tÝch lòy kh«ng ®ñ <c=g>" .. thisPoint .. "<c>, h·y kiÓm tra l¹i ®iÓm tÝch lòy cßn l¹i.")
+    return
+  end
+
+  if (IsHaveSpaceForTreasure(2) == 0) then
+    Talk(1, "no", "Hµnh trang ®· ®Çy, xin h·y s¾p xÕp l¹i.")
+    return
+  end
+
+  AddExtPoint(6, 2 ^ (tbl_PointItem[nIndex].extPoint - 1))
+  local nItem = tbl_PointItem[nIndex].id
+  local str = tbl_PointItem[nIndex].name
+
+  AddNormalItemBind(nItem[1], nItem[2], nItem[3], nItem[4], nItem[5], nItem[6], 1)
+  if (str == "Tói quµ danh väng") then
+    SetTask(1868, 0)
+  end
+  WriteLog("[KhuyÕn m¹i n¹p thÎ][NhËn ®­îc][" .. str .. "]")
+  TopMessage("B¹n nhËn ®­îc <c=yel>" .. str .. "<c>")
+  InfoBox("B¹n nhËn ®­îc <c=yel>" .. str .. "<c>")
+end
+
+function RuYi(nItemIdx)
+  if (nItemIdx < 58 and nItemIdx > 59) then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh rót sè.")
+    return
+  end
+
+  if not (COMMON.IsInDateTimeRange(G_SaleActiveDay[1], G_SaleActiveDay[2])) then
+    InfoBox("Ho¹t ®éng H¶o LÔ Trî ChiÕn ch­a më, h·y quay l¹i sau!")
+    return
+  end
+
+  local RuyiPoint = GetLotteryItemPoint(nItemIdx)
+  local points = GetExtPoint(4) + GetTask(1893)
+  if (points >= RuyiPoint) then
+    local nfuli = GetTask(1893)
+    if (nfuli >= RuyiPoint) then
+      SetTask(1893, nfuli - RuyiPoint)
+    elseif (PayExtPoint(4, RuyiPoint) <= 0) then
+      InfoBox("Xin lçi, lÇn nµy trõ ®iÓm tÝch lòy thÊt b¹i, mêi thö l¹i!!")
+      return 0
+    end
+
+    local nNum = 2
+    if (nItemIdx == 59) then
+      nNum = 20
+    end
+
+    for i = 1, nNum do
+      AddNormalItemPile(3, 138, 0, 0, 0, 1)
+    end
+    TopMessage("B¹n nhËn ®­îc <c=yel>" .. nNum .. " tÊm ThiÖp Nh­ ý<c>")
+    Msg2Player("B¹n nhËn ®­îc <c=yel>" .. nNum .. " tÊm ThiÖp Nh­ ý<c>")
+    WriteLog("[KhuyÕn m¹i n¹p thÎ][NhËn ®­îc][ThiÖp Nh­ ý" .. nNum .. "]")
+    SayTask("Ngµi tiªu phÝ <c=g>" .. RuyiPoint .. " ®iÓm tÝch lòy<c> ®æi lÊy <c=yel>" .. nNum .. " tÊm ThiÖp Nh­ ý<c>. §iÓm tÝch lòy cßn l¹i lµ <c=yel>" .. (GetExtPoint(4) + GetTask(1893)) .. "<c> ®iÓm, cã muèn tiÕp tôc nhËn th­ëng?", tasks)
+  else
+    Talk(1, "no", "§iÓm tÝch lòy cßn l¹i kh«ng ®ñ, xin kiÓm tra l¹i.")
+  end
+end
+
+function HaoLiNew(nItemIdx)
+  if (nItemIdx < 63 or nItemIdx > 65) then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh rót sè.")
+    return
+  end
+
+  if not (COMMON.IsInDateTimeRange(G_SaleActiveDay[1], G_SaleActiveDay[2])) then
+    InfoBox("Ho¹t ®éng H¶o LÔ Trî ChiÕn ch­a më, h·y quay l¹i sau!")
+    return
+  end
+
+  if (GetTaskByte(2085, 4) ~= g_DateFlag) then
+    SetTask(2085, 0)
+    SetTaskByte(2085, 4, g_DateFlag)
+  end
+
+  local nItemCount = GetTaskByte(2085, nItemIdx - 62)
+  if (nItemCount >= 10) then
+    InfoBox("Ngµi ®· ®æi 10 lÇn phÇn th­ëng nµy, kh«ng thÓ ®æi thªm!")
+    return
+  end
+
+  local RuyiPoint = GetLotteryItemPoint(nItemIdx)
+  local points = GetExtPoint(4) + GetTask(1893)
+  if (points >= RuyiPoint) then
+    local nfuli = GetTask(1893)
+    if (nfuli >= RuyiPoint) then
+      SetTask(1893, nfuli - RuyiPoint)
+    elseif (PayExtPoint(4, RuyiPoint) <= 0) then
+      InfoBox("Xin lçi, lÇn nµy trõ ®iÓm tÝch lòy thÊt b¹i, mêi thö l¹i!!")
+      return 0
+    end
+
+    SetTaskByte(2085, nItemIdx - 62, nItemCount + 1)
+    local nStr = ""
+    if (nItemIdx == 63) then
+      AddNormalItemBind(6, 1, 1005, 0, 0, 0, 1)
+      nStr = "Phï nhiÖm vô Chñ ®Ò ngµy*1"
+    elseif (nItemIdx == 64) then
+      AddBindCoin(500)
+      nStr = "5 Linh B¶o"
+    elseif (nItemIdx == 65) then
+      AddNormalItemBind(8, 1447, 2, 0, 0, 0, 1)
+      nStr = "LÔ bao Danh Ngäc*1"
+    end
+
+    TopMessage("Chóc mõng anh hïng , nhËn ®­îc <c=yel>" .. nStr .. "<c>")
+    Msg2Player("Chóc mõng anh hïng , Ngµi nhËn ®­îc <c=yel>" .. nStr .. "<c>")
+    WriteLog("[KhuyÕn m¹i n¹p thÎ][NhËn ®­îc][" .. nStr .. "]")
+    SayTask("Ngµi tiªu phÝ <c=g>" .. RuyiPoint .. " ®iÓm tÝch lòy<c> ®æi lÊy <c=yel>" .. nStr .. "<c>. §iÓm tÝch lòy cßn l¹i lµ <c=yel>" .. (GetExtPoint(4) + GetTask(1893)) .. "<c> ®iÓm, cã muèn tiÕp tôc ®æi th­ëng?", tasks)
+  else
+    Talk(1, "no", "§iÓm tÝch lòy cßn l¹i kh«ng ®ñ, xin kiÓm tra l¹i.")
+  end
+end
+
+function FuShi(nItemIdx)
+  CloseDialog()
+
+  if not (COMMON.IsInDateTimeRange(G_PointActiveDay[1], G_PointActiveDay[2])) then
+    InfoBox("Ho¹t ®éng tranh mua Phï th¹ch hiªn ch­a më, h·y quay l¹i sau!")
+    return 0
+  end
+
+  if (IsNewServerNotCan(nItemIdx) == 1) then
+    InfoBox("ThËt xin lçi, m¸y chñ hiÖn t¹i kh«ng më phÇn quµ nµy.")
+    return
+  end
+
+  if (nItemIdx == 56) then
+    Skill_Item_1()
+  else
+    Skill_Item_3()
+  end
+end
+
+function Skill_Item_1()
+  no()
+  if (GetTaskByte(Task_Skill_Item, 1) ~= g_BuyItemDay) then
+    SetTask(Task_Skill_Item, 0)
+    SetTaskByte(Task_Skill_Item, 1, g_BuyItemDay)
+  end
+
+  local nMaxNum = g_BuyFushi
+  if (IsNewServer() == 1) then
+    nMaxNum = g_BuyFushiNew
+  end
+  local itemNum = GetTaskByte(Task_Skill_Item, 2) + 1
+  if (itemNum > nMaxNum) then
+    Talk(1, "no", "ThËt xin lçi, ho¹t ®éng lÇn nµy ngµi ®· mua " .. (itemNum - 1) .. " c¸i LÔ hép Phï Th¹ch, kh«ng thÓ tiÕp tôc mua!")
+    return
+  end
+
+  local Cname, Cv, Cfs = GetCostCoinInfoByIdx(264)
+  MsgBox("Th«i Qu¶ng Viªn: <c=y>rót th¨m 1 lÇn<c> gi¸: <c=g>" .. Cfs .. "<c> Th«ng B¶o.Ng­¬i x¸c ®Þnh muèn mua chø?\nMë ra cã thÓ nhËn ngÉu nhiªn 1 Phï Th¹ch theo hÖ ph¸i!", "Yes_Skill_Item_1", "no")
+end
+
+function Yes_Skill_Item_1()
+  no()
+  local Cname, Cv, Cfs = GetCostCoinInfoByIdx(264)
+  if (GetCoin() < Cv) then
+    Talk(1, "no", "ThËt xin lçi, <c=y>rót th¨m 1 lÇn<c> cÇn " .. Cfs .. " Th«ng B¶o, hiÖn Th«ng B¶o ch­a ®ñ, kh«ng thÓ mua.")
+    return
+  end
+
+  if (IsHaveSpaceForTreasure(2) == 0) then
+    Talk(1, "no", "Xin lçi, tói ®Çy, h·y s¾p xÕp l¹i. ")
+    return
+  end
+
+  if (CostCoinByIdx(264) ~= 0) then
+    local itemNum = math.mod(GetTaskByte(Task_Skill_Item, 2), 10) + 1
+    local t1 = { 4, 3, 3, 2, 2, 1, 1, 0, 0, 0 }
+    local t2 = { 4, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+    local MyTable = COMMON.GetRandTable(t1)
+    local MyTable2 = COMMON.GetRandTable(t2)
+    local nItemNum30 = 0
+    if (itemNum >= 1 and itemNum <= #t1) then
+      if (MyTable[itemNum] == 0) then
+        nItemNum30 = math.mod(GetTaskByte(Task_Skill_Item, 4), 30) + 1
+        GiveItem(MyTable2[nItemNum30])
+        SetTaskByte(Task_Skill_Item, 4, nItemNum30)
+      else
+        GiveItem(MyTable[itemNum])
+      end
+    end
+    Talk(1, "no", "Chóc mõng ngµi nhËn ®­îc 1 Phï Th¹ch.")
+    Msg2CurMapAnnounce("<c=g><RoleName=\"" .. GetName() .. "\"><c> ®· mua LÔ hép Phï Th¹ch, chøa nhiÒu kü n¨ng kh¸c nhau, tuú ý phèi hîp kü n¨ng theo ý muèn.")
+    WriteLog("[Mua Phï Th¹ch][rót th¨m 1 lÇn]")
+  else
+    Talk(1, "no", "ThËt xin lçi, khÊu trõ Th«ng B¶o thÊt b¹i.")
+  end
+end
+
+function Skill_Item_3()
+  no()
+  if (GetTaskByte(Task_Skill_Item, 1) ~= g_BuyItemDay) then
+    SetTask(Task_Skill_Item, 0)
+    SetTaskByte(Task_Skill_Item, 1, g_BuyItemDay)
+  end
+
+  local nMaxNum = g_BuyFushi
+  if (IsNewServer() == 1) then
+    nMaxNum = g_BuyFushiNew
+  end
+  local itemNum = GetTaskByte(Task_Skill_Item, 2) + 10
+  if (itemNum > nMaxNum) then
+    Talk(1, "no", "ThËt xin lçi, ho¹t ®éng lÇn nµy ngµi ®· mua " .. (itemNum - 10) .. " c¸i  LÔ hép Phï Th¹ch, kh«ng thÓ tiÕp tôc mua!")
+    return
+  end
+
+  local Cname, Cv, Cfs = GetCostCoinInfoByIdx(267)
+  MsgBox("Th«i Qu¶ng Viªn: <c=y>Rót th¨m 10 lÇn<c> gi¸: <c=g>" .. Cfs .. "<c> Th«ng B¶o.Ng­¬i x¸c ®Þnh muèn mua chø?\nMë ra cã thÓ nhËn ngÉu nhiªn 1 Phï Th¹ch theo hÖ ph¸i*10!", "Yes_Skill_Item_3", "no")
+end
+
+function Yes_Skill_Item_3()
+  no()
+  local Cname, Cv, Cfs = GetCostCoinInfoByIdx(267)
+  if (GetCoin() < Cv) then
+    Talk(1, "no", "ThËt xin lçi, <c=y>Rót th¨m 10 lÇn<c> cÇn " .. Cfs .. " Th«ng B¶o, hiÖn Th«ng B¶o ch­a ®ñ, kh«ng thÓ mua.")
+    return
+  end
+
+  if (IsHaveSpaceForTreasure(11) == 0) then
+    Talk(1, "no", "ThËt xin lçi, hµnh trang cña ngµi kh«ng ®ñ 10¸ñ, xin h·y s¾p xÕp l¹i.")
+    return
+  end
+
+  if (CostCoinByIdx(267) ~= 0) then
+    local itemNum = math.mod(GetTaskByte(Task_Skill_Item, 2), 10) + 1
+    local t1 = { 4, 3, 3, 2, 2, 1, 1, 0, 0, 0 }
+    local t2 = { 4, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+    local MyTable = COMMON.RndTable(t1)
+    local MyTable2 = COMMON.GetRandTable(t2)
+    local nItemNum30 = 0
+    local sr = ""
+    for i = 1, 10 do
+      if (MyTable[i] == 0) then
+        nItemNum30 = math.mod(GetTaskByte(Task_Skill_Item, 4), 30) + 1
+        GiveItem(MyTable2[nItemNum30])
+        SetTaskByte(Task_Skill_Item, 4, nItemNum30)
+        sr = sr .. "Num:" .. nItemNum30 .. ","
+      else
+        GiveItem(MyTable[i])
+      end
+    end
+    Talk(1, "no", "Chóc mõng ngµi nhËn ®­îc 10 c¸i Phï Th¹ch.")
+    Msg2CurMapAnnounce("<c=g><RoleName=\"" .. GetName() .. "\"><c> ®· mua LÔ hép Phï Th¹ch*10, chøa nhiÒu kü n¨ng kh¸c nhau, tuú ý phèi hîp kü n¨ng theo ý muèn.")
+    WriteLog("[Mua Phï Th¹ch][Rót th¨m 10 lÇn]")
+  else
+    Talk(1, "no", "ThËt xin lçi, khÊu trõ Th«ng B¶o thÊt b¹i.")
+  end
+end
+
+function GiveItem(nIndex)
+  no()
+  local nType = GetPlayerType()
+  if (nIndex <= 0 or nIndex > #ItemList[nType + 1]) then
+    InfoBox("Kh«ng cã vËt phÈm nµy hoÆc vËt phÈm ®· hÕt h¹n!")
+    return
+  end
+
+  if (IsHaveSpaceForTreasure(2) == 0) then
+    Talk(1, "no", "ThËt xin lçi, hµnh trang cña ngµi kh«ng cã ®ñ 1 « trèng.")
+    return
+  end
+
+  local nRand = math.random(1, 1000)
+  local tblItem = ItemList[nType + 1][nIndex]
+  local nTempRand = 0
+  local nStr = ""
+  local itemNum = GetTaskByte(Task_Skill_Item, 2) + 1
+  SetTaskByte(Task_Skill_Item, 2, itemNum)
+
+  if (nIndex == 4 and GetTaskByte(Task_Skill_Item, 3) == 0) then
+    tblItem = ItemList[nType + 1][5]
+    SetTaskByte(Task_Skill_Item, 3, 1)
+  end
+
+  for i = 1, #tblItem do
+    nTempRand = tblItem[i].Rate + nTempRand
+    if (nRand <= nTempRand) then
+      AddNormalItemBind(tblItem[i].id[1], tblItem[i].id[2], tblItem[i].id[3], 0, 0, 0, 1)
+      Msg2Player("B¹n nhËn ®­îc 1 " .. tblItem[i].Name)
+      WriteLog("[Mua Phï Th¹ch][NhËn ®­îc]" .. tblItem[i].Name)
+
+      if (nIndex == 4 and (i <= #tblItem - #ItemList[nType + 1][5])) then
+        SetTaskByte(Task_Skill_Item, 3, 0)
+      end
+      break
+    end
+  end
+end
+
+function XianLiang(nItemIdx)
+  CloseDialog()
+
+  if not (COMMON.IsInDateTimeRange(G_PointActiveDay[1], G_PointActiveDay[2])) then
+    InfoBox("Ho¹t ®éng Quµ Giíi h¹n t¹m ch­a më, xin quay l¹i sau!")
+    return
+  end
+
+  if (IsNewServerNotCan(nItemIdx) == 1) then
+    InfoBox("ThËt xin lçi, m¸y chñ hiÖn t¹i kh«ng më phÇn quµ nµy.")
+    return
+  end
+
+  if (TBL_BuyItem[nItemIdx] == nil) then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh vËt phÈm, h·y kiÓm tra l¹i cÊu h×nh!")
+    return
+  end
+
+  local nItemName = TBL_BuyItem[nItemIdx].name
+  if (GetTaskByte(TBL_BuyItem[nItemIdx].taskid[1], TBL_BuyItem[nItemIdx].taskid[2]) == g_BuyItemDay) then
+    Talk(1, "no", "ThËt xin lçi, trong thêi gian ho¹t ®éng mçi ng­êi chØ ®­îc mua 1 " .. nItemName .. ".")
+    return
+  end
+
+  local Cname, Cv, Cfs = GetCostCoinInfoByIdx(TBL_BuyItem[nItemIdx].costid)
+  SetTask(140, nItemIdx)
+  MsgBox("Ngµi tiªu phÝ <c=g>" .. Cfs .. "<c> Th«ng B¶o cã thÓ nhËn ®­îc <c=y>" .. nItemName .. "<c>. Ngµi x¸c nhËn muèn mua chø?\n" .. TBL_BuyItem[nItemIdx].tips .. "", "Yes_Buy", "no")
+end
+
+function Yes_Buy()
+  no()
+
+  local nItemIdx = GetTask(140)
+  if (TBL_BuyItem[nItemIdx] == nil) then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh vËt phÈm, h·y kiÓm tra l¹i cÊu h×nh!")
+    return
+  end
+
+  local Cname, Cv, Cfs = GetCostCoinInfoByIdx(TBL_BuyItem[nItemIdx].costid)
+  local nItemName = TBL_BuyItem[nItemIdx].name
+  if (GetCoin() < Cv) then
+    Talk(1, "no", "ThËt xin lçi, <c=y>" .. nItemName .. "<c> cÇn " .. Cfs .. " Th«ng B¶o, hiÖn Th«ng B¶o ch­a ®ñ, kh«ng thÓ mua.")
+    return
+  end
+
+  if (IsHaveSpaceForTreasure(2) == 0) then
+    Talk(1, "no", "Xin lçi, tói ®Çy, h·y s¾p xÕp l¹i. ")
+    return
+  end
+
+  if (CostCoinByIdx(TBL_BuyItem[nItemIdx].costid) ~= 0) then
+    SetTaskByte(TBL_BuyItem[nItemIdx].taskid[1], TBL_BuyItem[nItemIdx].taskid[2], g_BuyItemDay)
+    for i = 1, #TBL_BuyItem[nItemIdx].cleartask do
+      if (TBL_BuyItem[nItemIdx].cleartask[i][1] > 0) then
+        SetTaskByte(TBL_BuyItem[nItemIdx].cleartask[i][1], TBL_BuyItem[nItemIdx].cleartask[i][2], 0)
+      end
+    end
+
+    AddLotteryItemByIdx(nItemIdx, 0)
+    Msg2Player("B¹n nh©n ®­îc " .. nItemName .. ".")
+    Talk(1, "no", "Chóc mõng ngµi nhËn ®­îc " .. nItemName .. ".")
+    Msg2CurMapAnnounce("<c=g><RoleName=\"" .. GetName() .. "\"><c> vui t­¬i hín hë mua " .. nItemName .. "! NhËn ®­îc rÊt nhiÒu phÇn th­ëng!")
+    WriteLog("[KhuyÕn m¹i n¹p thÎ][Mua]:" .. nItemName)
+  else
+    Talk(1, "no", "ThËt xin lçi, khÊu trõ Th«ng B¶o thÊt b¹i.")
+  end
+end
+
+function FuHao(nItemIdx)
+
+  if not (COMMON.IsInDateTimeRange(G_PointActiveDay[1], G_PointActiveDay[2])) then
+    InfoBox("Ho¹t ®éng Phó Hµo Tèng LÔ t¹m ch­a më, h·y trë l¹i sau!")
+    return
+  end
+
+  if (IsNewServerNotCan(nItemIdx) == 1) then
+    InfoBox("ThËt xin lçi, m¸y chñ hiÖn t¹i kh«ng më phÇn quµ nµy.")
+    return
+  end
+
+  if (TBL_FuHaoList[nItemIdx] == nil) then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh vËt phÈm, h·y kiÓm tra l¹i cÊu h×nh!")
+    return
+  end
+
+  if (GetTask(1874) ~= g_DateFlag) then
+    SetTask(1874, g_DateFlag)
+    SetTask(1801, 0)
+  end
+
+  if (GetTaskByte(1925, 4) ~= g_DateFlag) then
+    SetTask(1925, 0)
+    SetTask(1982, 0)
+    SetTaskByte(1925, 4, g_DateFlag)
+  end
+
+  local gifttimes = GetTaskByte(TBL_FuHaoList[nItemIdx].task[1], TBL_FuHaoList[nItemIdx].task[2])
+  local strName = TBL_FuHaoList[nItemIdx].name
+  if (gifttimes >= TBL_FuHaoList[nItemIdx].count) then
+    Talk(1, "no", "Ngµi ®· nhËn " .. strName .. ", kh«ng thÓ nhËn l¹i!")
+    return
+  end
+
+  local thisPoint, newPoint = GetLotteryItemPoint(nItemIdx)
+  if (IsNewServer() == 1) then
+    thisPoint = newPoint
+  end
+
+  local value = GetTask(Task_CoinToBindcoin)
+  local disCostCoin = value - gifttimes * thisPoint * 100
+  local temp = math.mod(value, 100)
+  local cfs = math.floor(value / 100)
+  if (temp >= 10) then
+    cfs = cfs .. "." .. temp
+  else
+    cfs = cfs .. ".0" .. temp
+  end
+
+  local nPoint = thisPoint * 100
+  if (disCostCoin >= nPoint) then
+    if (GetTaskByte(TBL_FuHaoList[nItemIdx].task[1], TBL_FuHaoList[nItemIdx].task[2]) < TBL_FuHaoList[nItemIdx].count) then
+      SetTask(140, nItemIdx)
+      MsgBox("Chóc mõng ngµi phï hîp " .. strName .. " ®iÒu kiÖn nhËn, cã muèn nhËn ngµy kh«ng?", "Yes_FuHao", "no")
+    else
+      Talk(1, "no", "Ngµi ®· nhËn " .. strName .. " th­ëng råi, kh«ng thÓ nhËn l¹i!")
+      return
+    end
+  else
+    Talk(1, "no", "ThËt xin lçi, ngµi ch­a ®ñ ®iÒu kiÖn nhËn th­ëng, tiªu phÝ hiÖn t¹i lµ:<c=g>" .. cfs .. "<c> Th«ng B¶o")
+    return
+  end
+end
+
+function Yes_FuHao()
+
+  local nItemIdx = GetTask(140)
+  if (TBL_FuHaoList[nItemIdx] == nil) then
+    InfoBox("ThËt xin lçi, sai lo¹i h×nh vËt phÈm, h·y kiÓm tra l¹i cÊu h×nh!")
+    return
+  end
+
+  if (IsHaveSpaceForTreasure(2) <= 0) then
+    Talk(1, "no", "Xin lçi, tói kh«ng ®ñ 1 « trèng, h·y s¾p xÕp l¹i råi ®Õn ®©y")
+    return
+  end
+
+  local thisPoint, newPoint = GetLotteryItemPoint(nItemIdx)
+  if (IsNewServer() == 1) then
+    thisPoint = newPoint
+  end
+  local value = GetTask(Task_CoinToBindcoin)
+  local gifttimes = GetTaskByte(TBL_FuHaoList[nItemIdx].task[1], TBL_FuHaoList[nItemIdx].task[2])
+  local disCostCoin = value - gifttimes * thisPoint * 100
+  local temp = math.mod(value, 100)
+  local cfs = math.floor(value / 100)
+  if (temp >= 10) then
+    cfs = cfs .. "." .. temp
+  else
+    cfs = cfs .. ".0" .. temp
+  end
+
+  local strName = TBL_FuHaoList[nItemIdx].name
+  local nPoint = thisPoint * 100
+  if (disCostCoin >= nPoint) then
+    local nCount = GetTaskByte(TBL_FuHaoList[nItemIdx].task[1], TBL_FuHaoList[nItemIdx].task[2])
+    if (nCount < TBL_FuHaoList[nItemIdx].count) then
+      SetTaskByte(TBL_FuHaoList[nItemIdx].task[1], TBL_FuHaoList[nItemIdx].task[2], nCount + 1)
+      AddLotteryItemByIdx(nItemIdx, TBL_FuHaoList[nItemIdx].bind)
+      Talk(1, "no", "Chóc mõng ngµi, t¹i ho¹t ®éng tiªu phÝ nhËn ®­îc 1 " .. strName .. ".")
+      local str = "<bc=r><RoleName=\"" .. GetName() .. "\"> nhËn ®­îc 1 " .. strName .. "!"
+      Msg2CurMapAnnounce(str)
+      if (IsTongMember() > 0) then
+        Msg2TongMember(str)
+      end
+      WriteLog("[Tiªu phÝ " .. thisPoint .. " K][" .. strName .. "]")
+    else
+      Talk(1, "no", "Kh«ng thÓ nhËn l¹i phÇn th­ëng nµy!")
+      return
+    end
+  else
+    Talk(1, "no", "ThËt xin lçi, ngµi ch­a ®ñ ®iÒu kiÖn nhËn th­ëng, tiªu phÝ hiÖn t¹i lµ:<c=g>" .. cfs .. "<c> Th«ng B¶o")
+    return
+  end
+end

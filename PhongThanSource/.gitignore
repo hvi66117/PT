@@ -1,0 +1,44 @@
+# IDE state and generated metadata
+**/.vs/
+**/.idea/
+*.ncb
+*.opt
+*.plg
+*.suo
+*.user
+*.aps
+*.scc
+*.vspscc
+*.stt
+*.rar
+
+# Compiler and linker outputs inside Sources
+Sources/**/Debug/
+Sources/**/Release/
+Sources/**/ClientDebug/
+Sources/**/ClientRelease/
+Sources/**/ServerDebug/
+Sources/**/ServerRelease/
+Sources/**/Engine___Win32_*/
+Sources/**/FilterText_StaticLib___Win32_*/
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.sbr
+*.bsc
+*.map
+*.log
+*.tlog
+*.lastbuildstate
+Sources/**/*.exe
+Sources/**/*.dll
+
+# Central build output is reproducible and is not source.
+Output/**
+!Output/.gitkeep
+!Output/Client/
+!Output/Client/.gitkeep
+!Output/Server/
+!Output/Server/.gitkeep

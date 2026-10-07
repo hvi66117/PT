@@ -1,0 +1,48 @@
+﻿# Logs / temporary files
+*.log
+*.err
+*.tmp
+*.temp
+
+# Visual Studio / IDE
+.vs/
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.ipch
+
+# Build intermediate/debug artifacts
+*.obj
+*.pch
+*.idb
+*.sbr
+*.ilk
+
+# Generated debug symbols
+*.pdb
+
+# Backup files
+*.bak
+*.orig
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node / web dependencies
+node_modules/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local project log
+ptlog
+
+# Local backup of nested Git repository
+PhongThanSource.git-backup/
+
+# Local timestamped backups
+_backup/

@@ -1,0 +1,5 @@
+\spr\npcres\human\jsm06_bd_rs0.spr
+\spr\npcres\human\jsm06_hd_rs0.spr
+\spr\npcres\human\jsm06_bd_st0.spr
+\spr\npcres\human\jsx07_hh_rs0.spr
+\spr\npcres\human\jsx08_hh_rs0.spr

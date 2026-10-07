@@ -1,0 +1,121 @@
+-- Phong Than npc_fix 2026-09-28: Ly Tinh (li jing, map 1065); original script.pak \script\ChenTangGuan\LiJing.lua (pinyin of GBK PAK path); changes: exit row on both SayTask menus; zusai task 597 5->6 consumes event 107 via QuestExchange (exp/credit only after success); wrapper menu removed.
+Include("\\script\\phongthan\\lib\\vng_tasknote.lua")
+--description:Àî¾¸-¼×Ê¿Ö÷ÏßÈÎÎñ
+--author: yichuan
+--date:2004/5/11
+
+sel=0
+
+
+function  main()
+	strings={
+		"<color=green>"..GetName().."<color>: BÈm ®¹i nh©n, Cöu C«ng lÖnh ta ®Õn ¶i Giai Méng xem xÐt t×nh h×nh, ®©y lµ <color=yellow>Th«ng hµnh lÖnh<color>.",
+		"MÊy h«m tr­íc x¶y ra ®Þa chÊn, con ®­êng dÉn ®Õn <color=yellow>¶i Giai Méng ®· bÞ ®¸ bÞt lÊp<color>, hiÖn giê ch­a thÓ ®i ®­îc!",
+		"<color=green>"..GetName().."<color>: VËy sao ®©y? T¹i h¹ ®ang cã qu©n t×nh khÈn cÊp cÇn ®Õn ¶i Giai Méng.",
+		"H·y ®Õn Phong ThÇn ®µi t×m <color=green>B¸ Gi¸m<color>, phÐp <color=green>Kh«ng Minh L­u ChuyÓn thuËt<color> cña «ng ta cã thÓ gióp ®­îc ng­¬i.",
+		"<color=green>"..GetName().."<color>: §¹ t¹! T¹i h¹ lËp tøc ®i ngay."
+		}
+	if (GetTask(597)==5) and (HaveEventItem(107)>=1) then
+		local sel=GetTask(596)+1
+		tasks = 
+		{
+		 {"Trang kÕ","main";show=0},
+		 {"Th«ng hµnh lÖnh","zusai";show=0},
+		 {"KÕt thóc ®èi tho¹i","no";show=1}
+		}
+		if(sel<=4)then
+			tasks[1].show=1;
+		elseif(sel==5)then
+			tasks[2].show=1;
+		end;
+		SayTask(strings[sel],tasks)
+		if(sel<=4)then
+				SetTask(596,sel)
+		end;
+	else
+		main1()
+	end;
+end;
+
+function  zusai()
+	if (GetTask(597)==5) and (HaveEventItem(107)>=1) then
+		-- npc_fix: event 107 consumed + task 597 5->6 in one transaction
+		if (QuestExchange(597,5,6,{{4,107,0,0,0,0,1}},{})~=1) then
+			CloseDialog()
+			return
+		end;
+		TaskNote(35,6)
+		AddCredit(10)--ÉùÍû½±Àø
+		AddOwnExp(4000) --¾­Ñé½±Àø
+		Msg2Player("NhËn ®­îc 4000 ®iÓm kinh nghiÖm vµ 10 ®iÓm danh väng!")
+		TopMessage("PhÇn th­ëng: <color=green>4000 ®iÓm kinh nghiÖm<color> vµ <color=green>10 ®iÓm danh väng<color>!")
+		Msg2Player("§i Phong ThÇn ®µi t×m B¸ Gi¸m.")
+		SetTask(596,0)
+	end;
+	CloseDialog()
+end;
+
+function  main1()
+		tasks = 
+		{
+		 {"Khuyªn hµng","renwu1";show=0},
+		 {"ThÕ Së","renwu2";show=0},
+		 {"KÕt thóc ®èi tho¹i","no";show=1}
+		}
+		UTask_Knight = GetTask(3);
+		UTask_Wizard= GetTask(1);
+		if(UTask_Knight==21)or(UTask_Knight==23)then
+			 tasks[1].show=1;
+		end;
+		if(UTask_Wizard==10)or( UTask_Wizard==11) or(UTask_Wizard==14) or(UTask_Wizard==15)then
+			 tasks[2].show=1;
+		end;
+		SayTask(10125,tasks)
+
+end;
+
+function    renwu1()
+		UTask_Knight = GetTask(3);
+		if(UTask_Knight==21)then
+				Talk(3,"no",10126,10127,10128)
+				Msg2Player("KÞp thêi th«ng b¸o tin tøc cho Lý TÞnh.")
+				SetTask(3,UTask_Knight+1)
+				TaskNote(27,6)
+		elseif(UTask_Knight==23)then
+				Talk(3,"no",10126,10127,10128)
+				Msg2Player("KÞp thêi th«ng b¸o tin tøc cho Lý TÞnh.")
+				SetTask(3,UTask_Knight+1)
+				TaskNote(27,8)
+		end;
+end;
+
+function   renwu2()
+		UTask_Wizard = GetTask(1);
+		if(UTask_Wizard==10)then
+				Talk(3,"no",10129,10130,10131)
+				SetTask(1,UTask_Wizard+2)
+				Msg2Player("Khuyªn Lý TÞnh ®Çu hµng thµnh c«ng")
+				TaskNote(28,3)
+		elseif(UTask_Wizard==11)then
+				Talk(3,"no",10129,10130,10131)
+				SetTask(1,UTask_Wizard+2)
+				Msg2Player("Khuyªn Lý TÞnh ®Çu hµng thµnh c«ng")
+				TaskNote(28,6)
+		elseif(UTask_Wizard==14)then
+				Talk(3,"no",10129,10130,10131)
+				SetTask(1,UTask_Wizard+2)
+				Msg2Player("Khuyªn Lý TÞnh ®Çu hµng thµnh c«ng")
+				TaskNote(28,7)
+		elseif(UTask_Wizard==15)then
+				Talk(3,"no",10129,10130,10131)
+				SetTask(1,UTask_Wizard+2)
+				Msg2Player("Khuyªn Lý TÞnh ®Çu hµng thµnh c«ng")
+				TaskNote(28,9)
+		end;
+end;
+
+function   no()
+	SetTask(596,0)
+	CloseDialog()
+end;
+

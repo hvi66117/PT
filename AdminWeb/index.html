@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phong Thần Admin</title>
+<style>
+:root{--bg:#f4f1ea;--panel:#fff;--ink:#23201b;--muted:#6b6459;--line:#e2dccf;--accent:#9a3b1f;--accent-2:#c9771c;--ok:#2f7d4a;--warn:#b7791f;--bad:#b3261e;--chip:#f1ebe0}
+@media (prefers-color-scheme:dark){:root{--bg:#17150f;--panel:#211e17;--ink:#eee7da;--muted:#a79f90;--line:#3a3428;--accent:#e0794f;--accent-2:#e7a64a;--ok:#5cc07f;--warn:#e5b04b;--bad:#ef6b62;--chip:#2c271e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 "Segoe UI",system-ui,sans-serif}
+header{display:flex;align-items:center;gap:16px;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:5;flex-wrap:wrap}
+header h1{font-size:18px;margin:0;color:var(--accent);letter-spacing:.3px}
+#bridge{font-size:13px;color:var(--muted)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle;background:var(--muted)}
+nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
+nav button{background:none;border:1px solid transparent;color:var(--ink);padding:6px 12px;border-radius:6px;cursor:pointer;font:inherit}
+nav button.on{background:var(--accent);color:#fff}
+main{max-width:1180px;margin:0 auto;padding:20px 16px 60px}
+section{display:none}section.on{display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+.card h2{font-size:15px;margin:0 0 12px}
+.hint{color:var(--muted);font-size:12.5px;margin:4px 0 10px}
+label{display:block;font-size:12.5px;color:var(--muted);margin:10px 0 4px}
+input,select,textarea{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+textarea{min-height:80px;resize:vertical}
+.row{display:flex;gap:10px;flex-wrap:wrap}.row>*{flex:1;min-width:110px}
+button.btn{margin-top:12px;padding:8px 14px;border:0;border-radius:6px;background:var(--accent);color:#fff;cursor:pointer;font:inherit;font-weight:600}
+button.btn.alt{background:var(--chip);color:var(--ink);border:1px solid var(--line)}
+button.btn.small{margin:0;padding:4px 9px;font-size:12.5px;font-weight:500}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12px}
+.list{max-height:280px;overflow:auto;border:1px solid var(--line);border-radius:6px;margin-top:8px}
+.list div{padding:6px 10px;border-bottom:1px solid var(--line);cursor:pointer;display:flex;justify-content:space-between;gap:10px}
+.list div:hover{background:var(--chip)}
+.list small{color:var(--muted);white-space:nowrap}
+.picked{margin-top:8px;padding:8px 10px;border-radius:6px;background:var(--chip);font-weight:600;min-height:20px}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;background:var(--chip)}
+.tag.OK{background:var(--ok);color:#fff}.tag.FAIL{background:var(--bad);color:#fff}.tag.PENDING{background:var(--warn);color:#fff}
+#toast{position:fixed;right:16px;bottom:16px;max-width:420px;padding:12px 16px;border-radius:8px;background:var(--ink);color:var(--bg);display:none;z-index:9;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+#toast.err{background:var(--bad);color:#fff}
+.days label{display:inline-flex;align-items:center;gap:4px;margin:0 10px 0 0;color:var(--ink)}
+.days input{width:auto}
+.act{border:1px dashed var(--line);border-radius:8px;padding:10px;margin-top:10px}
+.muted{color:var(--muted)}
+@media (max-width:600px){nav{margin-left:0}header{padding:10px 16px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Phong Thần Admin</h1>
+  <span id="bridge"><span class="dot"></span>Đang kiểm tra server…</span>
+  <nav id="tabs">
+    <button data-t="overview" class="on">Tổng quan</button>
+    <button data-t="give">Phát đồ</button>
+    <button data-t="skills">Bí kíp / Kỹ năng</button>
+    <button data-t="mounts">Thú cưỡi</button>
+    <button data-t="gear">Đồ lục</button>
+    <button data-t="weapons">Vũ khí lục</button>
+    <button data-t="maxgear">Đồ max &amp; Pháp bảo</button>
+    <button data-t="upgrade">Cường hóa</button>
+    <button data-t="boss">Boss / NPC</button>
+    <button data-t="worldboss">Boss thế giới</button>
+    <button data-t="vantien">Vạn Tiên trận</button>
+    <button data-t="bots">Bot giả người chơi</button>
+    <button data-t="botparty">Tổ đội bot</button>
+    <button data-t="matdo">Mật độ &amp; hồi quái</button>
+    <button data-t="news">Thông báo</button>
+    <button data-t="events">Sự kiện</button>
+    <button data-t="evsched">Lịch sự kiện</button>
+    <button data-t="dailygift">Quà &amp; thành tích</button>
+    <button data-t="accounts">Tài khoản</button>
+    <button data-t="history">Lịch sử lệnh</button>
+    <button data-t="health">Sức khỏe server</button>
+    <button data-t="backups">Sao lưu &amp; khôi phục</button>
+    <button data-t="chars">Quản lý nhân vật</button>
+    <button data-t="setup">Cài đặt server</button>
+  </nav>
+</header>
+<main>
+
+<section id="overview" class="on">
+  <div class="grid">
+    <div class="card"><h2>Trạng thái server</h2><div id="svc"></div>
+      <p class="hint">Lệnh trong game (phát đồ, tạo boss, thông báo) được server xử lý <b>mỗi phút một lần</b>, vào giây 00. Nhịp cầu nối cập nhật mỗi phút; nếu quá 2 phút không cập nhật thì server chưa chạy hoặc chưa nạp script cầu nối.</p></div>
+    <div class="card"><h2>Người chơi đang online <span id="onlineStamp" class="muted" style="font-weight:400;font-size:12px"></span></h2>
+      <table><thead><tr><th>Nhân vật</th><th>Tài khoản</th><th>Cấp</th><th>Vị trí</th><th></th></tr></thead><tbody id="onlineBody"></tbody></table></div>
+  </div>
+</section>
+
+<section id="give">
+  <div class="grid">
+    <div class="card"><h2>1. Chọn vật phẩm</h2>
+      <div class="row"><div><label>Nhóm</label><select id="itemGroup"><option value="">Tất cả nhóm</option></select></div>
+      <div><label>Tìm theo tên (không dấu cũng được) hoặc mã</label><input id="itemQ" placeholder="VD: trảm, than binh, 272"></div></div>
+      <div class="list" id="itemList"></div>
+      <div class="picked" id="itemPicked">Chưa chọn vật phẩm</div>
+    </div>
+    <div class="card"><h2>2. Phát cho người chơi</h2>
+      <label>Tên nhân vật (phải đang online)</label><input id="givePlayer" list="playerNames" placeholder="VD: EmLaAi">
+      <label>Số lượng (1–50)</label><input id="giveCount" type="number" min="1" max="50" value="1">
+      <div class="row"><button class="btn" id="btnGive">Phát cho nhân vật</button><button class="btn alt" id="btnGiveAll">Phát cho tất cả đang online</button></div>
+      <p class="hint">Món đồ được tạo theo thuộc tính gốc trong bảng dữ liệu và đưa vào hành trang (F4). Hành trang đầy thì món đồ có thể không vào được.</p>
+      <h2 style="margin-top:18px">Lệnh bài admin (Túi tân thủ)</h2>
+      <p class="hint">Túi dùng nhiều lần, không mất: click phải trong F4 → chọn nhóm → nhập mã → nhận đồ ngay trong game. Mỗi nhân vật chỉ cần 1 túi.</p>
+      <button class="btn" id="btnBag" style="margin-top:0">Phát Túi tân thủ cho nhân vật trên</button>
+      <h2 style="margin-top:18px">Lệnh bài hủy đồ (bán / sửa đồ từ xa)</h2>
+      <p class="hint">Dùng vĩnh viễn, không mất. Click phải trong túi → chọn: <b>Bán đồ trong túi</b> (mở cửa hàng tại chỗ → nút Bán → click đồ; đứng yên khi bán) · <b>Hủy đồ</b> (kéo đồ vào hộp → Xác nhận → mất vĩnh viễn) · <b>Sửa toàn bộ đồ đang mặc</b> (tạm thời: mở cửa hàng → nút Sửa → click từng món; sửa 1 lần toàn bộ khi có bản build C++) · <b>Bật lại chiến đấu</b> khi xong.</p>
+      <div class="row"><button class="btn" id="btnSellToken" style="margin-top:0">Phát Lệnh Bài Hủy Đồ</button><button class="btn alt" id="btnBossToken" style="margin-top:0">Phát Lệnh Bài Boss Thế Giới</button><button class="btn alt" id="btnLuyenCongToken" style="margin-top:0">Phát Lệnh Bài Luyện Công</button><button class="btn alt" id="btnNhiemVuToken" style="margin-top:0">Phát Lệnh Bài Nhiệm Vụ</button><button class="btn alt" id="btnTiepTeToken" style="margin-top:0">Phát Lệnh Bài Tiếp Tế</button><button class="btn alt" id="btnThamQuanToken" style="margin-top:0">Phát Lệnh Bài Thám Quân</button></div>
+      <div class="row"><button class="btn alt" id="btnVanTienToken" style="margin-top:0">Phát Lệnh Bài Vạn Tiên</button><button class="btn alt" id="btnThuongChuToken" style="margin-top:0">Phát Lệnh Bài Thương Chu</button><button class="btn alt" id="btnDaoSiToken2" style="margin-top:0">Phát Lệnh Bài Đạo Sĩ</button><button class="btn alt" id="btnDiNhanToken2" style="margin-top:0">Phát Lệnh Bài Dị Nhân</button><button class="btn alt" id="btnHanhTrangToken2" style="margin-top:0">Phát Lệnh Bài Hành Trang</button></div>
+      <div class="row"><button class="btn alt" id="btnBinhSinhLucVC" style="margin-top:0">Phát Bình Sinh Lực Vĩnh Cửu</button><button class="btn alt" id="btnBinhNoiLucVC" style="margin-top:0">Phát Bình Nội Lực Vĩnh Cửu</button></div>
+      <p class="hint">Bình Sinh Lực / Nội Lực Vĩnh Cửu: click phải hoặc đặt lên thanh phím nhanh (1–0) là hồi đầy ngay, dùng mãi không mất, hồi chiêu 2 giây, không dùng khi trọng thương; Tự đánh (Alt+A) cũng dùng được khi bình nằm ở thanh phím nhanh (cần CoreClient có <code>kytrancac:AF1</code>). Cũng bán ở Kỳ Trân Các (F2, tab Dược phẩm). Cần ptfix có plug-in <code>extra_kytrancac.py</code>, script <code>vinhcuu_sinhluc.lua</code> / <code>vinhcuu_noiluc.lua</code> và khởi động lại server.</p>
+      <p class="hint">Lệnh Bài Vạn Tiên / Thương Chu: dùng vĩnh viễn, click phải là vào trận ngay (trận đang đóng sẽ được mở ngay), không cần đợi giờ, không phí, không giới hạn cấp. Mỗi lệnh bài hồi 60 phút. Cần ptfix có plug-in <code>extra_vtcc.py</code> và khởi động lại server.</p>
+      <h2 style="margin-top:18px">Tăng level nhân vật</h2>
+      <div class="row"><div><label>Level mới (1–200)</label><input id="charLevel" type="number" min="1" max="200" value="90"></div></div>
+      <button class="btn" id="btnLevel">Đặt level cho nhân vật trên</button>
+      <p class="hint">Điểm tiềm năng được hoàn lại để phân phối lại theo level mới; cấp các kỹ năng đã học được giữ nguyên.</p>
+      <h2 style="margin-top:18px">Điểm thuộc tính</h2>
+      <div class="row">
+        <div><label>Sức mạnh</label><input id="atStr" type="number" min="0" max="5000" value="0"></div>
+        <div><label>Thân pháp</label><input id="atDex" type="number" min="0" max="5000" value="0"></div>
+        <div><label>Sinh khí</label><input id="atVit" type="number" min="0" max="5000" value="0"></div>
+        <div><label>Nội công</label><input id="atEng" type="number" min="0" max="5000" value="0"></div>
+      </div>
+      <div class="row"><div><label>Điểm tiềm năng tự do (nhân vật tự cộng ở F3)</label><input id="atProp" type="number" min="0" max="10000" value="0"></div></div>
+      <div class="row"><button class="btn" id="btnAttr">Cộng điểm cho nhân vật trên</button><button class="btn alt" id="btnAttrInfo">Xem chỉ số hiện tại</button><button class="btn alt" id="btnAttrReset">Tẩy điểm (hoàn lại tiềm năng)</button></div>
+      <p class="hint">Cộng thẳng vào chỉ số: không trừ điểm tiềm năng nhân vật đang có. Lưu ý chính xác = Thân pháp × 4 − 28: thân pháp dưới 8 thì đánh trượt toàn bộ. “Xem chỉ số” và kết quả hiện ở Lịch sử sau tối đa 1 phút.</p>
+      <h2 style="margin-top:18px">Tiền đồng / Kim Nguyên Bảo</h2>
+      <div class="row"><div><label>Số Xu (tiền đồng, 1–50 món/lần)</label><input id="xuCount" type="number" min="1" max="50" value="10"></div></div>
+      <div class="row"><button class="btn" id="btnXu">Phát Xu (tiền đồng)</button><button class="btn alt" id="btnKnb">Chọn nhanh: Kim Nguyên Bảo</button></div>
+      <div class="row"><div><label>Điểm xu tài khoản (Kỳ Trân Các)</label><input id="coin" type="number" min="1" value="10000"></div></div>
+      <button class="btn alt" id="btnCoin">Cộng điểm xu tài khoản</button>
+      <p class="hint">“Xu” là vật phẩm tiền đồng (Nhiệm vụ, mã 47) vào hành trang. Điểm xu tài khoản là số dư dùng ở Kỳ Trân Các. Kim Nguyên Bảo: Nguyên liệu mã 1183.</p>
+      <h2 style="margin-top:18px">Tặng tiền / kinh nghiệm</h2>
+      <div class="row"><div><label>Lượng (tiền)</label><input id="money" type="number" min="1" value="100000"></div><div><label>Kinh nghiệm</label><input id="exp" type="number" min="1" value="100000"></div></div>
+      <div class="row"><button class="btn alt" id="btnMoney">Tặng lượng</button><button class="btn alt" id="btnExp">Tặng kinh nghiệm</button></div>
+      <h2 style="margin-top:18px">Rương chứa đồ mở rộng (Rương 2–5)</h2>
+      <div class="row"><div><label>Mở đến rương</label><select id="chestTo"><option value="2">Rương 2</option><option value="3">Rương 3</option><option value="4">Rương 4</option><option value="5" selected>Rương 5 (mở hết 2–5)</option><option value="6">Rương 6 (trang thêm của engine)</option></select></div></div>
+      <div class="row"><button class="btn" id="btnChest">Mở rương cho nhân vật trên</button><button class="btn alt" id="btnChestInfo">Xem số rương đã mở</button></div>
+      <p class="hint">Rương 1 là Rương chứa đồ ở Thủ Khố; Rương 2–5 là các trang “Rương mở rộng 1–4” (mũi tên phải trong khung rương). Nhân vật <b>online</b>: áp qua server trong tối đa 1 phút. Nhân vật <b>offline</b> (gõ đúng tên): sửa ngay file nhân vật, sao lưu ở <code>AdminWeb\data\chest_backup</code>, có hiệu lực khi đăng nhập. Không bao giờ giảm số rương đã mở. Người chơi cũng tự mở được ở Thủ Khố → “Mở rộng rương (Rương 2-5)”. Kết quả xem ở Lịch sử.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="grid">
+    <div class="card"><h2>1. Chọn phái và kỹ năng</h2>
+      <div class="row"><div><label>Phái</label><select id="skProf"><option value="0">Giáp Sĩ</option><option value="1">Đạo Sĩ</option><option value="2">Dị Nhân</option></select></div>
+        <div style="flex:0;min-width:auto;align-self:flex-end"><button class="btn alt small" id="skAll" style="margin-bottom:4px;white-space:nowrap">Chọn / bỏ tất cả</button></div></div>
+      <div class="list" id="skList" style="max-height:420px"></div>
+      <p class="hint">Chỉ hiện kỹ năng của phái đang chọn. Mỗi kỹ năng tối đa cấp 10.</p>
+    </div>
+    <div class="card"><h2>2. Phát cho nhân vật</h2>
+      <label>Tên nhân vật (phải đang online)</label><input id="skPlayer" list="playerNames" placeholder="VD: EmLaAi">
+      <p class="hint" id="skPlayerInfo"></p>
+      <label>Cấp kỹ năng</label>
+      <select id="skLevel"></select>
+      <label><input type="checkbox" id="skCheck" checked style="width:auto"> Chỉ áp dụng nếu nhân vật đúng phái đã chọn (khuyên dùng)</label>
+      <button class="btn" id="btnSkills">Dạy / đặt cấp các kỹ năng đã chọn</button>
+      <p class="hint">Kỹ năng chưa học sẽ được dạy ở cấp đã chọn; kỹ năng đã có sẽ được nâng hoặc hạ về đúng cấp đó. Nhân vật cần đang online, xử lý trong tối đa 1 phút.</p>
+      <h2 style="margin-top:18px">Vật phẩm bí kíp của phái</h2>
+      <button class="btn alt" id="btnSkillBook">Phát “Kỹ Năng Quyển” của phái đang chọn</button>
+      <p class="hint">Giáp Sĩ: MagicScript 5624 · Đạo Sĩ: 5625 · Dị Nhân: 5626.</p>
+      <div id="skSummonBox" style="display:none">
+        <h2 style="margin-top:18px">Đệ tử triệu hồi (Dị Nhân)</h2>
+        <button class="btn alt" id="btnSummonToken">Phát Lệnh Bài Triệu Hồi</button>
+        <p class="hint">VNG để 12 kỹ năng gọi đệ tử (Lực Sĩ tế cấp 5, Trường Cung tế 15, Thiên Vũ tế 25, Liên Nỗ tế 35, Hỏa Lôi tế 45, Toái Cốt tế 55, Lưu Tinh tế 65, Truy Hồn tế 75, Phong Quyển Tàn Vân 85, Cuồng Đào tế 95, Ngự Sậu Bạo Phong 105, Huyền Ảnh Tán Hoa 120) trong bảng riêng mà engine không đọc, nên dùng lệnh bài: click phải → chọn đệ tử theo cấp nhân vật → đệ tử đi theo, đánh mục tiêu của chủ, nhận chỉ số của chủ. Đổi bản đồ/tử vong thì gọi lại.</p>
+      </div>
+      <h2 style="margin-top:18px">Sách kỹ năng chuyển sinh 60 / 120 / 180</h2>
+      <div class="row"><div style="max-width:120px"><label>Số cuốn</label><input id="skBookCount" type="number" min="1" max="10" value="1"></div></div>
+      <div id="skBooks"></div>
+      <p class="hint">Click phải sách trong game: học kỹ năng cấp 1, mỗi cuốn sau nâng thêm 1 cấp (tối đa 10). Sách kiểm tra đúng phái và cấp nhân vật 60/120/180, học xong sách mất. Kỹ năng này không hiện trong cửa sổ kỹ năng (giao diện client hết ô) nhưng vẫn có tác dụng; Cổ Hoặc Chúng Sinh và Vạn Độc Hộ Thân chọn ở phím chuột phải.</p>
+    </div>
+    <div class="card"><h2>3. Bí kíp hệ phái &amp; nguyên liệu ép sách</h2>
+      <p class="hint">Võ sư mọi thành (Tây Kỳ, Triều Ca, Phong Thần Đài, Dao Trì, Sùng Thành, Ngọc Hư, Xi Vưu) có “Mua bí kíp hệ phái”, “Đóng sách (ép bí kíp)” và “Đổi sách kỹ năng cũ thành bí kíp”. Bí kíp click phải để học (đúng phái, đủ cấp).</p>
+      <label>Tên nhân vật (phải đang online)</label><input id="bkPlayer" list="playerNames" placeholder="VD: EmLaAi">
+      <p class="hint" id="bkPlayerInfo"></p>
+      <h2 style="margin-top:14px">Nguyên liệu ép sách</h2>
+      <div class="row" id="bkMats"></div>
+      <button class="btn alt" id="btnBkMats">Phát số nguyên liệu đã nhập</button>
+      <div class="row" style="margin-top:10px"><div style="max-width:150px"><label>Bộ đủ ép N lần (1–10)</label><input id="bkBundle" type="number" min="1" max="10" value="1"></div>
+        <div><label>Bậc Không Thư</label><div class="days" id="bkTiers"></div></div></div>
+      <p class="hint" id="bkBundleInfo"></p>
+      <button class="btn" id="btnBkBundle">Phát bộ nguyên liệu ép sách</button>
+      <h2 style="margin-top:18px">Phát bí kíp theo phái</h2>
+      <div class="row"><div><label>Phái</label><select id="bkProf"><option value="0">Giáp Sĩ</option><option value="1">Đạo Sĩ</option><option value="2">Dị Nhân</option></select></div>
+        <div style="max-width:110px"><label>Số cuốn (1–10)</label><input id="bkCount" type="number" min="1" max="10" value="1"></div></div>
+      <label>Bí kíp</label><select id="bkBook"></select>
+      <div class="row"><button class="btn alt" id="btnBkOne">Phát cuốn đã chọn</button><button class="btn alt" id="btnBkAll">Phát tất cả bí kíp của phái</button></div>
+      <p class="hint">Bộ 1 lần ép mỗi bậc = công thức lớn nhất của bậc đó: Bạch 2 + 1 Mảnh Hồng Thủy Tinh · Lam 2 + 1 Hồng Thủy Tinh · Hồng 2 + 1 Hồng Bảo Thạch · Hoàng 1 + 3 Hồng Bảo Thạch. Mỗi món chiếm 1 ô hành trang nếu không chồng được: để trống đủ chỗ (tối đa 200 món/lần). Ép sách cần 3 ô trống và nguyên liệu nằm trong hành trang (không tính rương).</p>
+    </div>
+    <!-- 2026-10-04 (agent lbdaosi) Lenh Bai Dao Si / Di Nhan: action lbskills (tasks 2613 / 2614) -->
+    <div class="card"><h2>4. Lệnh Bài phái (tự đánh luân phiên, nâng cấp kỹ năng)</h2>
+      <p class="hint">Tự đánh (Alt+A / Alt+S / Alt+D) của client dùng bộ chiêu đặt ở đây hoặc bằng lệnh bài trong game. Đạo Sĩ: chiêu đánh của bộ thay cho chiêu đang gán ở phím, luân phiên lần lượt; buff hệ được tự làm mới. Dị Nhân: hào quang (nhiều cái thì đổi mỗi 15 giây), Bổ Tâm Chú khi dưới 60% sinh lực, chú nguyền lên mục tiêu, làm mới 1 giây trước khi hết hiệu lực (5–14 giây theo cấp chiêu). Chỉ chiêu đã học mới được dùng.</p>
+      <label>Tên nhân vật (online: áp ngay; offline: lưu lại, áp khi đăng nhập)</label><input id="lbPlayer" list="playerNames" placeholder="VD: EmLaAi">
+      <p class="hint" id="lbPlayerInfo"></p>
+      <div class="row"><button class="btn alt" id="btnDaoSiToken" style="margin-top:0">Phát Lệnh Bài Đạo Sĩ</button><button class="btn alt" id="btnDiNhanToken" style="margin-top:0">Phát Lệnh Bài Dị Nhân</button><button class="btn alt" id="btnGiapSiToken" style="margin-top:0">Phát Lệnh Bài Giáp Sĩ</button></div>
+      <h2 style="margin-top:18px">Luân phiên chiêu Đạo Sĩ</h2>
+      <div id="lbDsPresets"></div>
+      <div class="list" id="lbDsList" style="max-height:260px"></div>
+      <div class="row"><button class="btn" id="btnLbDs">Áp dụng bộ chiêu Đạo Sĩ</button><button class="btn alt" id="btnLbDsOff">Theo phím đang gán</button></div>
+      <h2 style="margin-top:18px">Luân phiên buff Dị Nhân</h2>
+      <div id="lbDnPresets"></div>
+      <div class="list" id="lbDnList" style="max-height:220px"></div>
+      <div class="row"><button class="btn" id="btnLbDn">Áp dụng buff Dị Nhân</button><button class="btn alt" id="btnLbDnOff">Tắt buff Dị Nhân</button></div>
+      <!-- lbdaosi r3: Lenh Bai Giap Si (task 2619) + Nang max ky nang (action lbmax) -->
+      <h2 style="margin-top:18px">Luân phiên chiêu Giáp Sĩ</h2>
+      <div id="lbGsPresets"></div>
+      <div class="list" id="lbGsList" style="max-height:240px"></div>
+      <div class="row"><button class="btn" id="btnLbGs">Áp dụng bộ chiêu Giáp Sĩ</button><button class="btn alt" id="btnLbGsOff">Theo phím đang gán</button></div>
+      <p class="hint">Chiêu đoản đao chỉ dùng khi cầm đoản đao, chiêu trường đao khi cầm trường đao (client tự lọc theo đao đang cầm).</p>
+      <h2 style="margin-top:18px">Nâng cấp kỹ năng lên tối đa</h2>
+      <div class="row"><div><label>Phái</label><select id="lbMaxProf"><option value="1">Đạo Sĩ</option><option value="2">Dị Nhân</option><option value="0">Giáp Sĩ</option></select></div>
+        <div><label>Kỹ năng chỉ định</label><select id="lbMaxSkill"></select></div></div>
+      <div class="row"><button class="btn" id="btnLbMaxAll">Nâng max toàn bộ kỹ năng</button><button class="btn alt" id="btnLbMaxOne">Nâng max kỹ năng chỉ định</button></div>
+      <p class="hint">Học luôn chiêu chưa có, đặt cấp = cấp tối đa trong skills.txt (10). Không tốn và không hoàn điểm kỹ năng. Chiêu chuyển sinh 60/120/180 chỉ được nâng khi nhân vật đủ cấp. Phải đúng phái của nhân vật.</p>
+      <p class="hint">Cần bản client mới (CoreClient.dll) và tick server “lbdaosi”. Nhân vật online nhận trong tối đa 1 phút; client giữ lựa chọn khi đổi bản đồ và đăng nhập lại.</p>
+    </div>
+    <!-- 2026-10-04 (agent items) Lenh Bai Hanh Trang: action hanhtrang (tasks 2640-2642), GET /api/hanhtranglog -->
+    <div class="card"><h2>5. Lệnh Bài Hành Trang (tự nhặt đồ, dọn túi, rương)</h2>
+      <p class="hint">Lệnh bài dùng vĩnh viễn, tự phát 1 lần cho mọi nhân vật: mở rương chứa đồ ở mọi bản đồ thường, dọn túi bán đồ rác theo giá cửa hàng (có danh sách xác nhận), chọn loại đồ tự nhặt. Trong game, Alt+P đổi chế độ nhặt: theo lệnh bài (khi tự đánh) / luôn bật (cả khi đứng yên) / tắt.</p>
+      <label>Tên nhân vật (online: áp ngay; offline: lưu lại, áp khi đăng nhập)</label><input id="htPlayer" list="playerNames" placeholder="VD: EmLaAi">
+      <div class="row"><button class="btn alt" id="btnHanhTrangToken" style="margin-top:0">Phát Lệnh Bài Hành Trang</button></div>
+      <h2 style="margin-top:18px">Tự nhặt đồ: loại được nhặt</h2>
+      <div class="list" id="htPickList" style="max-height:260px"></div>
+      <h2 style="margin-top:18px">Dọn túi: loại được bán</h2>
+      <div class="list" id="htSellList" style="max-height:170px"></div>
+      <div class="row"><div style="max-width:220px"><label>Bán đồ xanh dưới cấp</label><select id="htBlv"><option value="3">3</option><option value="5" selected>5</option><option value="7">7</option><option value="9">9</option><option value="11">mọi cấp</option></select></div></div>
+      <div class="row"><button class="btn" id="btnHtApply">Áp dụng cài đặt</button><button class="btn alt" id="btnHtDefault">Khôi phục mặc định</button></div>
+      <p class="hint">Không bao giờ bán: đồ đang mặc, đồ khóa / khóa bán, đồ nhiệm vụ, bí kíp, pháp bảo / pháp khí / ấn, lệnh bài, nguyên liệu, đá quý, đồ hoàng kim (đồ bộ), ngựa, trang sức đặc biệt, đồ tân thủ, thuốc. Dọn túi cần CoreServer.dll mới; tự nhặt và thanh biểu tượng buff cần CoreClient.dll + Game.exe mới.</p>
+      <h2 style="margin-top:18px">Nhật ký dọn túi</h2>
+      <button class="btn alt" id="btnHtLog">Xem nhật ký</button>
+      <div class="list" id="htLog" style="max-height:260px"></div>
+    </div>
+    <!-- 2026-10-05 (agent thanky) Than Ky (VNG skills 1986-2000) + Vien / Tui Thuoc Tinh: action thanky -->
+    <div class="card"><h2>Thần Kỹ &amp; Viên Thuộc Tính</h2>
+      <p class="hint">6 Thần Kỹ VNG, cần cấp 60 và đúng phái: Giáp Sĩ – Huyết Nguyệt Trảm; Đạo Sĩ – Phật Nộ Hỏa Liên, Lôi Hỏa Toàn Phong, Truy Hồn Tán Hoa, Vạn Kiếm Quy Tông; Dị Nhân – Huyền Ảnh Tàn Hoa. Sách cấp 1–4 học hoặc nâng lên đúng cấp sách; sách cấp 5 nâng lên 5, sau đó mỗi cuốn +1 cấp đến 10. 30 Mảnh Thần Kỹ trong một chồng nhấp phải ghép thành sách cấp kế tiếp. Trong game: Kỳ Trân Các tab Đặc biệt (6 loại mảnh, 2 loại túi), boss thế giới rơi mảnh và túi. Học xong chọn ở ô kỹ năng chuột (Đạo Sĩ, Dị Nhân: chuột phải).</p>
+      <label>Tên nhân vật (phải đang online)</label><input id="tkPlayer" list="playerNames" placeholder="VD: EmLaAi">
+      <p class="hint" id="tkPlayerInfo"></p>
+      <div class="list" id="tkList" style="max-height:220px"></div>
+      <div class="row"><div style="max-width:130px"><label>Cấp sách</label><select id="tkCap"></select></div>
+        <div style="max-width:120px"><label>Số cuốn (1–10)</label><input id="tkCount" type="number" min="1" max="10" value="1"></div>
+        <div style="max-width:130px"><label>Số mảnh (1–250)</label><input id="tkManh" type="number" min="1" max="250" value="30"></div></div>
+      <div class="row"><button class="btn alt" id="btnTkBook">Phát sách Thần Kỹ</button><button class="btn alt" id="btnTkManh">Phát Mảnh Thần Kỹ</button></div>
+      <div class="row"><div style="max-width:140px"><label>Dạy ngay cấp</label><select id="tkLevel"></select></div></div>
+      <button class="btn" id="btnTkTeach">Dạy / đặt cấp Thần Kỹ đã chọn</button>
+      <h2 style="margin-top:18px">Viên / Túi Thuộc Tính</h2>
+      <p class="hint">Viên Sơ / Trung / Cao: +2 / +5 / +10 điểm gốc vĩnh viễn (Sức Mạnh = Sức mạnh, Ngộ Tính = Nội công, Thể Chất = Sinh khí, Thân Pháp = Thân pháp ở F3), tối đa 100 điểm mỗi chỉ số từ viên (task 2690–2693), không đổi điểm tiềm năng, lưu theo nhân vật. Túi Thuộc Tính: 1 viên ngẫu nhiên (Sơ 60% / Trung 30% / Cao 10%); Túi (Trung): Trung 70% / Cao 30%.</p>
+      <div class="list" id="tkStones" style="max-height:220px"></div>
+      <div class="row"><div style="max-width:120px"><label>Số lượng (1–20)</label><input id="tkStoneCount" type="number" min="1" max="20" value="1"></div></div>
+      <div class="row"><button class="btn alt" id="btnTkStone">Phát viên / túi đã chọn</button><button class="btn alt" id="btnTkInfo">Xem cấp Thần Kỹ &amp; điểm đã cộng</button></div>
+      <p class="hint">Cần ptfix có <code>extra_thanky.py</code> và khởi động lại server, game. Kết quả xem ở Lịch sử.</p>
+    </div>
+  </div>
+</section>
+
+<section id="mounts">
+  <div class="grid">
+    <div class="card"><h2>1. Chọn nhân vật</h2>
+      <label>Nhân vật đang online</label><select id="mtPlayer"><option value="">— chọn nhân vật —</option></select>
+      <p class="hint" id="mtInfo">Chọn nhân vật để chỉ hiện thú cưỡi dùng được cho phái của nhân vật đó.</p>
+      <label>Hoặc lọc theo phái</label>
+      <select id="mtProf"><option value="0">Giáp Sĩ</option><option value="1">Đạo Sĩ</option><option value="2">Dị Nhân</option></select>
+      <label>Tìm theo tên</label><input id="mtQ" placeholder="VD: xích thố, kỳ lân">
+      <label>Số lượng</label><input id="mtCount" type="number" min="1" max="5" value="1">
+      <button class="btn" id="btnMount">Phát thú cưỡi đã chọn</button>
+      <div class="picked" id="mtPicked">Chưa chọn thú cưỡi</div>
+    </div>
+    <div class="card"><h2>2. Thú cưỡi dùng được <span id="mtCountInfo" class="muted" style="font-weight:400;font-size:12px"></span></h2>
+      <div class="list" id="mtList" style="max-height:520px"></div>
+      <p class="hint">“Chung” = mọi phái dùng được. Cấp yêu cầu lấy từ dữ liệu gốc.</p>
+    </div>
+  </div>
+  <!-- 2026-10-05 (agent nuoithu) pet food: actions nuoithugive (61379 / 61551 / 61550, 1-1000) and nuoithu (bridge PTNT_AdminFeed) -->
+  <div class="card" style="margin-top:16px"><h2>Nuôi thú (thức ăn linh thú, đệ tử Dị Nhân)</h2>
+    <p class="hint">Thú không bị đói: thức ăn chỉ tăng kinh nghiệm. Linh thú (Linh Thú Sứ, Linh Thú Lệnh) lên cấp tới giới hạn của giai đoạn (giai đoạn × 10); đệ tử Dị Nhân (Lệnh Bài Triệu Hồi) cấp 1–10. Thú cưỡi không có cơ chế cho ăn. Người chơi tự nhận thức ăn mỗi ngày ở Lệnh Bài Hành Trang → Nuôi thú.</p>
+    <label>Tên nhân vật (phải đang online)</label><input id="ntPlayer" list="playerNames" placeholder="VD: EmLaAi">
+    <div class="row">
+      <div><label>Loại đồ nuôi</label><select id="ntItem"><option value="NuoiThuLTDon">Linh Thú Đơn (+30 kinh nghiệm linh thú)</option><option value="NuoiThuLTDai">Linh Thú Đại Đơn (+300 kinh nghiệm linh thú)</option><option value="NuoiThuDTDon">Đệ Tử Linh Đơn (+1000 kinh nghiệm đệ tử Dị Nhân)</option></select></div>
+      <div style="max-width:180px"><label>Số lượng (1–1000)</label><input id="ntCount" type="number" min="1" max="1000" value="100"></div>
+    </div>
+    <div class="row"><button class="btn" id="btnNtGive">Phát đồ nuôi thú</button></div>
+    <div class="row"><button class="btn alt" id="btnNtFeed">Cho thú ăn đầy</button><button class="btn alt" id="btnNtMax">Tăng cấp thú tối đa</button></div>
+    <p class="hint">“Cho thú ăn đầy”: mọi linh thú lên đầy cấp của giai đoạn hiện tại, đệ tử Dị Nhân lên thêm 1 cấp. “Tăng cấp thú tối đa”: mọi linh thú lên giai đoạn 4 cấp 40 (bỏ qua nguyên liệu tiến hóa), đệ tử lên cấp 10. Linh thú đang triệu hồi được đổi tên/gọi lại ngay. Đồ nuôi chồng 100 mỗi ô; Linh Thú Đại Đơn và Đệ Tử Linh Đơn cần ptfix mới (khởi động lại server).</p>
+  </div>
+</section>
+
+<section id="gear">
+  <div class="card" style="margin-bottom:16px">
+    <div class="row">
+      <div><label>Nhân vật đang online</label><select id="grPlayer"><option value="">— chọn nhân vật —</option></select></div>
+      <div><label>Phái</label><select id="grProf"><option value="0">Giáp Sĩ</option><option value="1">Đạo Sĩ</option><option value="2">Dị Nhân</option></select></div>
+      <div><label>Cấp bộ đồ</label><select id="grTier"><option value="">Tất cả</option><option value="20">Cấp 20</option><option value="40">Cấp 40</option><option value="60">Cấp 60</option><option value="80">Cấp 80</option><option value="100">Cấp 100</option><option value="0">Không yêu cầu cấp</option></select></div>
+      <div style="align-self:flex-end"><label style="display:flex;gap:6px;align-items:center;margin:0 0 8px"><input type="checkbox" id="grQuest" style="width:auto"> Hiện cả đồ “nhiệm vụ”</label></div>
+    </div>
+    <p class="hint" id="grInfo">Mỗi bộ gồm Giáp, Mũ, Giày, Thắt lưng, Bội. Chọn nhân vật để tự lọc đúng phái. Bấm “Phát cả bộ” để gửi 5 món vào hành trang (cần đủ chỗ trống).</p>
+  </div>
+  <div class="grid" id="grList"></div>
+</section>
+
+<section id="weapons">
+  <div class="card" style="margin-bottom:16px">
+    <div class="row">
+      <div><label>Nhân vật đang online</label><select id="wpPlayer"><option value="">— chọn nhân vật —</option></select></div>
+      <div><label>Phái</label><select id="wpProf"><option value="0">Giáp Sĩ</option><option value="1">Đạo Sĩ</option><option value="2">Dị Nhân</option><option value="3">Cung (hệ 3)</option></select></div>
+      <div><label>Mốc cấp</label><select id="wpTier"><option value="">Tất cả</option></select></div>
+      <div style="align-self:flex-end"><label style="display:flex;gap:6px;align-items:center;margin:0 0 8px"><input type="checkbox" id="wpGreen" checked style="width:auto"> Chỉ vũ khí lục (có thuộc tính xanh)</label></div>
+    </div>
+    <p class="hint">Vũ khí theo mốc cấp của từng phái (cấp 10, 20 … 100), lấy từ bảng vũ khí gốc trong PAK. Mỗi mốc có 2 cấp trang bị. Chọn nhân vật để tự lọc phái và mốc cấp phù hợp.</p>
+  </div>
+  <div class="card"><table><thead><tr><th>Vũ khí</th><th>Loại</th><th>Cấp yêu cầu</th><th>Cấp trang bị</th><th></th></tr></thead><tbody id="wpBody"></tbody></table></div>
+</section>
+
+<section id="maxgear">
+  <div class="card" style="margin-bottom:16px">
+    <div class="row">
+      <div><label>Nhân vật đang online</label><select id="mxPlayer"><option value="">— chọn nhân vật —</option></select></div>
+      <div><label>Lọc phái</label><select id="mxProf"><option value="">Tất cả</option><option value="0">Giáp Sĩ</option><option value="1">Đạo Sĩ</option><option value="2">Dị Nhân</option></select></div>
+    </div>
+    <p class="hint"><b>Đồ max</b> = các mẫu có chỉ số cố định bằng mức tối đa trong dữ liệu gốc (Tinh Quân Cấp 10, thú cưỡi Nghịch/Tinh Quân cấp 10, pháp bảo cấp 120). Bản <b>Tinh Quân (+12)</b> có sẵn chỉ số cường hóa trong mẫu nhưng <b>không hiện sao +12</b>.</p>
+    <p class="hint">Pháp bảo, <b>pháp khí</b> và <b>ấn</b> đều mặc được ở 3 ô: <b>Ngọc</b> và 2 ô <b>Pháp bảo</b> (kéo thả vào ô; chuột phải luôn vào ô Ngọc). Pháp khí/ấn là bản chuyển sang dạng pháp bảo (engine chưa có ô Pháp khí/Thần Ấn thật), chỉ số giữ nguyên dữ liệu VNG, không hết hạn. Cần server đã cài <code>ptfix.pak</code> bản 6.</p>
+    <p class="hint">Chưa làm được với bản build hiện tại (cần build lại C++): cường hóa +12 thật (có sao), ép chỉ số max cho đồ ngẫu nhiên, mặc pháp khí/ấn vào đúng ô Pháp khí/Thần Ấn.</p>
+  </div>
+  <div class="grid"><div class="card"><h2>Đồ max</h2><div id="mxPresets"></div></div>
+  <div class="card"><h2>Pháp bảo (ô Ngọc + 2 ô Pháp bảo)</h2><div class="list" id="mxTalis" style="max-height:520px"></div></div></div>
+  <div class="grid" style="margin-top:16px"><div class="card"><h2>Pháp khí</h2><div class="row"><div><label>Cấp pháp khí</label><select id="mxInsLv"></select></div></div><div class="list" id="mxIns" style="max-height:520px"></div></div>
+  <div class="card"><h2>Ấn (10 loại, mỗi loại một cấp cố định)</h2><div class="list" id="mxSig" style="max-height:520px"></div></div></div>
+</section>
+
+<!-- 2026-10-05 natives: cường hóa +0..+12 (native SetItemUpgrade qua cầu nối) -->
+<section id="upgrade">
+  <div class="card" style="margin-bottom:16px">
+    <h2>Cường hóa trang bị (+0 … +12)</h2>
+    <div class="row">
+      <div><label>Nhân vật đang online</label><select id="upPlayer"><option value="">— chọn nhân vật —</option></select></div>
+      <div style="align-self:flex-end"><button class="btn" id="btnUpList">Liệt kê đồ đang mặc + trong túi</button></div>
+      <div style="align-self:flex-end"><button class="btn" id="btnUpReload">Tải lại danh sách</button></div>
+    </div>
+    <p class="hint"><b>Bước 1:</b> chọn nhân vật, bấm “Liệt kê”. Server xử lý lệnh <b>mỗi phút một lần</b> (giây 00), nên danh sách hiện sau tối đa ~60 giây (trang tự tải lại). <b>Bước 2:</b> chọn cấp ở món cần đổi, bấm “Áp dụng”, xem kết quả ở “Lịch sử lệnh”. Trong game, món được nhấc ra rồi đặt lại đúng chỗ nên chỉ số và số sao cập nhật ngay.</p>
+    <p class="hint">Nhân vật phải <b>đang online</b>. Offline thì lệnh báo thất bại, không lưu chờ lần đăng nhập sau. Chỉ số cường hóa lấy đúng bảng thuộc tính của Xích Tùng Tử theo công thức của món. Món không có công thức (ngựa, pháp bảo…) báo “không có quy tắc cường hóa”. +0 là gỡ cường hóa.</p>
+    <p class="hint">Cần CoreServer bản build 2026-10-05 (native <code>SetItemUpgrade</code>). Server còn bản cũ thì lệnh báo “chưa có native”.</p>
+    <p class="muted" id="upStamp"></p>
+  </div>
+  <div class="card"><table><thead><tr><th>Món</th><th>Vị trí</th><th>Cấp hiện tại</th><th>Đặt cấp</th><th></th></tr></thead><tbody id="upBody"></tbody></table></div>
+</section>
+
+<section id="boss">
+  <div class="grid">
+    <div class="card"><h2>1. Chọn mẫu quái / NPC</h2>
+      <div class="row"><div><label>Loại</label><select id="npcKind"><option value="0">Quái (đánh được)</option><option value="3">NPC đối thoại</option><option value="">Tất cả</option></select></div>
+      <div><label>Tìm theo tên hoặc mã</label><input id="npcQ" placeholder="Tên gốc tiếng Trung hoặc mã số"></div></div>
+      <div class="list" id="npcList"></div>
+      <div class="picked" id="npcPicked">Chưa chọn mẫu</div>
+      <p class="hint">Tên mẫu trong dữ liệu gốc là tiếng Trung. Nên thử tạo 1 con trước để xem hình dạng và sức mạnh.</p>
+    </div>
+    <div class="card"><h2>2. Vị trí và số lượng</h2>
+      <div class="row"><div><label>Cấp</label><input id="npcLevel" type="number" min="1" max="200" value="50"></div><div><label>Số lượng (1–30)</label><input id="npcCount" type="number" min="1" max="30" value="1"></div></div>
+      <label>Tạo ở đâu</label>
+      <select id="spawnMode"><option value="player">Cạnh một nhân vật đang online</option><option value="map">Tọa độ cụ thể trên bản đồ</option></select>
+      <div id="spawnPlayerBox"><label>Nhân vật</label><input id="spawnPlayer" list="playerNames" placeholder="VD: EmLaAi"></div>
+      <div id="spawnMapBox" style="display:none"><label>Bản đồ</label><select id="spawnMap"></select>
+        <div class="row"><div><label>X</label><input id="spawnX" type="number"></div><div><label>Y</label><input id="spawnY" type="number"></div></div>
+        <p class="hint">Tọa độ dùng cùng đơn vị với cột “Vị trí” ở tab Tổng quan. Đứng tại chỗ muốn đặt boss rồi xem tọa độ của mình ở đó.</p></div>
+      <div class="row"><button class="btn" id="btnSpawn">Tạo boss / NPC</button><button class="btn alt" id="btnClear">Xóa tất cả NPC đã tạo từ web</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="worldboss">
+  <div class="card" style="margin-bottom:16px">
+    <div class="row">
+      <div><label>Nhân vật đang online</label><select id="wbPlayer"><option value="">— chọn nhân vật —</option></select></div>
+      <div style="align-self:flex-end"><button class="btn" id="btnWbToken">Phát Lệnh Bài Boss Thế Giới</button></div>
+    </div>
+    <p class="hint"><b>Lệnh Bài Boss Thế Giới</b>: dùng vĩnh viễn, không mất khi dùng, không giao dịch/bỏ được. Click phải trong túi → xem trạng thái 12 boss (đang xuất hiện / đã bị diệt / giờ lần tới) → chọn boss để dịch chuyển đến gần nơi boss xuất hiện.</p>
+    <p class="hint"><b>Phần thưởng khi hạ boss</b> (vào túi người hạ đòn cuối, mỗi lần hạ 1 lần): đồ trắng theo bảng VNG (2/3/4/5 món theo cấp boss 40/60/80/100), 1 bí kíp đúng phái, đồ lục của bộ cùng cấp (1 món; boss cấp 100: 2 món), và tỉ lệ 10/20/35/50% nhận pháp bảo / pháp khí / ấn (báo toàn server). Túi đầy sẽ không nhận được.</p>
+    <p class="hint">Lịch xuất hiện lấy từ dữ liệu gốc VNG (<code>systemtimetask.txt</code>); server gọi boss đúng phút trong lịch nếu boss chưa còn sống. Trạng thái cập nhật mỗi phút <span id="wbStamp" class="muted"></span>.</p>
+  </div>
+  <div class="card"><table><thead><tr><th>Boss</th><th>Bản đồ [tọa độ]</th><th>Cấp</th><th>Trạng thái</th><th>Xuất hiện</th><th>Bị diệt</th><th>Người hạ</th><th>Lần tới</th><th>Lịch</th><th></th></tr></thead><tbody id="wbBody"></tbody></table></div>
+</section>
+
+<section id="vantien">
+  <div class="card" style="margin-bottom:16px">
+    <h2>Vạn Tiên trận <span id="vtStamp" class="muted" style="font-weight:400;font-size:12px"></span></h2>
+    <p class="hint">Bấm <b>Mở Vạn Tiên trận</b> để mở ngay một trận (giống lịch mở tự động 02:00, 10:00, 13:00, 18:00, 21:00, 23:00): server báo toàn server, có <b>5 phút chuẩn bị</b> rồi 30 phút chiến đấu. Người chơi vào trận qua <b>Thiên Hùng</b> ở Tây Kỳ. Lệnh được server xử lý trong vòng 1 phút; kết quả xem ở tab <b>Lịch sử lệnh</b>.</p>
+    <p class="hint">Trạng thái do server ghi mỗi phút (và ngay sau khi mở bằng web). Nếu chưa có dữ liệu, cần khởi động lại server để nạp script Vạn Tiên mới.</p>
+  </div>
+  <div class="card"><table><thead><tr><th>Trận</th><th>Cấp</th><th>Bản đồ</th><th>Trạng thái</th><th>Tiên đã hạ</th><th>Thông Thiên</th><th>Người trong trận</th><th>Còn lại</th><th></th></tr></thead><tbody id="vtBody"></tbody></table></div>
+</section>
+
+<section id="bots">
+  <div class="grid">
+    <div class="card"><h2>Bật / tắt và bot tự do</h2>
+      <label style="display:flex;gap:8px;align-items:center;color:var(--ink);cursor:pointer"><input type="checkbox" id="botEnabled" style="width:auto" checked> Bật bot giả người chơi</label>
+      <label style="display:flex;gap:8px;align-items:center;color:var(--ink);cursor:pointer"><input type="checkbox" id="botFollow" style="width:auto" checked> Bot tự do đi theo người chơi đang online</label>
+      <label>Số bot tự do (0–100)</label><input id="botFollowCount" type="number" min="0" max="100" value="40">
+      <p class="hint"><b>Bot tự do</b>: khi có người online và bật “đi theo”, bot tụ quanh người chơi (chia đều cho từng người). Không ai online hoặc tắt “đi theo” thì bot dạo thành, bãi luyện cấp và Phong Thần đài như trước.</p>
+      <label style="display:flex;gap:8px;align-items:center;color:var(--ink);cursor:pointer;margin-top:10px"><input type="checkbox" id="botParty" style="width:auto" checked> Tự động tổ đội bot ở bãi quái (như tổ đội VNG)</label>
+      <div class="row"><div><label>Số đồng đội bot mỗi người chơi (0–7)</label><input id="botPartyCount" type="number" min="0" max="7" value="4"></div><div><label>Kinh nghiệm cộng thêm mỗi đồng đội ở gần (%, 0–50)</label><input id="botPartyBonus" type="number" min="0" max="50" value="15"></div></div>
+      <p class="hint"><b>Tổ đội bot</b>: người chơi ra bản đồ có quái thì đồng đội bot tự vào đội, đi theo và đánh cùng mục tiêu; quái do bot hạ tính cho người chơi. Về thành, vào tổ đội thật hoặc tắt thì bot rời đội. Người chơi tự bật/tắt và chọn số đồng đội ở NPC “Hỗ Trợ Tổ Đội” (Sùng Thành, Ngọc Hư, Xi Vưu). Bot tự do không tụ quanh người chơi đang có tổ đội bot.</p>
+    </div>
+    <div class="card"><h2>Trạng thái trên server <span id="botStamp" class="muted" style="font-weight:400;font-size:12px"></span></h2><div id="botStatus"></div></div>
+  </div>
+  <div class="card" style="margin-top:16px"><h2>Địa điểm đặt bot</h2>
+    <p class="hint">Bot của mỗi địa điểm luôn ở quanh điểm đó (bán kính khoảng 45 ô); bị giết hoặc biến mất thì server tạo lại trong vòng 1 phút. X/Y để trống hoặc 0 = điểm mặc định của bản đồ (bãi luyện, khu thành hoặc giữa bản đồ). X/Y cùng đơn vị với cột “Vị trí” ở tab Tổng quan. Cấp 0 = tự động theo bãi quái.</p>
+    <table><thead><tr><th>Bản đồ</th><th style="width:90px">X</th><th style="width:90px">Y</th><th style="width:80px">Số bot</th><th style="width:80px">Cấp</th><th>Đang sống</th><th></th></tr></thead><tbody id="botSpots"></tbody></table>
+    <div class="row" style="align-items:flex-end">
+      <div style="flex:0 0 auto"><button class="btn alt" id="btnBotAdd">+ Thêm địa điểm</button></div>
+      <div><label>Hoặc lấy vị trí của nhân vật đang online</label><select id="botPlayer"><option value="">— chọn nhân vật —</option></select></div>
+      <div style="flex:0 0 auto"><button class="btn alt" id="btnBotHere">+ Thêm tại vị trí này</button></div>
+    </div>
+    <p class="hint" id="botTotal"></p>
+    <div class="row"><div style="flex:0 0 auto"><button class="btn" id="btnBotApply">Áp dụng</button></div><div style="flex:0 0 auto"><button class="btn alt" id="btnBotOff">Tắt hết bot</button></div></div>
+    <p class="hint">Cấu hình được lưu thành file <code>admin_bridge\bots_config.lua</code> (giữ nguyên khi khởi động lại server) và áp dụng trong vòng 1 phút. Tổng bot tối đa 100; vượt quá thì ưu tiên bot ở địa điểm, bot tự do bị cắt bớt.</p>
+  </div>
+</section>
+
+<section id="matdo">
+  <div class="grid">
+    <div class="card"><h2>Mật độ &amp; hồi quái</h2>
+      <label>Hệ số mật độ quái</label>
+      <select id="mdDensity"><option value="10">x1 — giữ nguyên như gốc</option><option value="15">x1.5</option><option value="20" selected>x2 (đề xuất)</option><option value="30">x3</option></select>
+      <label>Thời gian hồi quái thường sau khi chết</label>
+      <div class="row"><div><select id="mdReviveSel"><option value="0">Mặc định theo Npcs.txt (15–30 giây)</option><option value="5">5 giây</option><option value="10" selected>10 giây</option><option value="15">15 giây</option><option value="30">30 giây</option><option value="c">Nhập số giây…</option></select></div><div><input id="mdRevive" type="number" min="3" max="600" value="10" style="display:none" placeholder="3–600 giây"></div></div>
+      <label>Phạm vi áp dụng</label>
+      <label style="display:flex;gap:8px;align-items:center;color:var(--ink);cursor:pointer;margin:4px 0"><input type="radio" name="mdScope" value="all" style="width:auto" checked> Mọi bản đồ có quái (57 bản đồ)</label>
+      <label style="display:flex;gap:8px;align-items:center;color:var(--ink);cursor:pointer;margin:4px 0"><input type="radio" name="mdScope" value="some" style="width:auto"> Chỉ các bản đồ đánh dấu trong bảng bên dưới</label>
+      <div class="row"><div style="flex:0 0 auto"><button class="btn" id="btnMdApply">Áp dụng</button></div><div style="flex:0 0 auto"><button class="btn alt" id="btnMdOff">Về mặc định (x1, hồi theo Npcs.txt)</button></div></div>
+      <p class="hint"><b>Mật độ</b>: server thêm quái cùng loại, cùng cấp quanh các điểm sinh quái sẵn có (2–4 ô), đủ kinh nghiệm, đồ rơi, nhiệm vụ đếm và kinh nghiệm đệ tử như quái gốc. <b>Hồi quái</b> chỉ áp cho quái thường, không áp cho boss và quái nhiệm vụ; quái đang chờ hồi giữ hẹn giờ cũ, từ lần chết sau mới theo số giây mới.</p>
+      <p class="hint">Cấu hình lưu thành file <code>admin_bridge\matdo_config.lua</code> (giữ nguyên khi khởi động lại server) và áp dụng ngay trong vòng 1 phút. Tổng NPC của server giới hạn 44.000 (engine tối đa 48.000): bản đồ đang có người chơi được đủ hệ số trước, các bản đồ khác chia phần còn lại.</p>
+    </div>
+    <div class="card"><h2>Trạng thái trên server <span id="mdStamp" class="muted" style="font-weight:400;font-size:12px"></span></h2><div id="mdStatus"></div></div>
+  </div>
+  <div class="card" style="margin-top:16px"><h2>Theo bản đồ</h2>
+    <p class="hint">Đánh dấu bản đồ rồi chọn “Chỉ các bản đồ đánh dấu” và bấm Áp dụng. <b>Mục tiêu</b> = số điểm sinh gốc × (hệ số − 1); <b>Đang thêm</b> có thể thấp hơn mục tiêu khi chạm giới hạn NPC.</p>
+    <div style="max-height:520px;overflow:auto"><table><thead><tr><th style="width:36px"><input type="checkbox" id="mdAllChk" style="width:auto" title="Đánh dấu tất cả"></th><th>Bản đồ</th><th>Điểm sinh gốc</th><th>Quái đang thêm</th><th>Mục tiêu</th><th>Hồi quái</th></tr></thead><tbody id="mdMaps"></tbody></table></div>
+  </div>
+</section>
+
+<!-- content 2026-10-04: E1 Lich su kien tu dong, E2 Qua dang nhap + E4 Bang thanh tich -->
+<section id="evsched">
+  <div class="card" style="margin-bottom:16px">
+    <h2>Lịch sự kiện tự động <span id="eschStamp" class="muted" style="font-weight:400;font-size:12px"></span></h2>
+    <p class="hint">Server <b>tự chạy lịch</b> mỗi phút (không cần mở web admin), lưu ở <code>admin_bridge\eventsched_config.lua</code>, giữ nguyên khi khởi động lại. Mỗi dòng chạy <b>một lần mỗi ngày</b> trong 3 phút kể từ giờ hẹn; thông báo toàn server <b>trước N phút</b> và khi bắt đầu.</p>
+    <p class="hint"><b>Không xung đột lịch VNG</b>: Vạn Tiên VNG mở 02:00, 10:00, 13:00, 18:00, 21:00, 23:00 (trận 2/3/4 lệch 5/10/15 phút); nếu trận đang mở, dòng lịch chỉ ghi “đã mở sẵn”. Thương Chu VNG mở <b>mỗi giờ</b> phút 00–44; dòng lịch rơi vào lúc trận đang mở sẽ bị bỏ qua (“busy”), nên hẹn phút 45–59. Boss thế giới đang sống thì không gọi thêm. <b>Nhân đôi kinh nghiệm</b> dùng hiệu ứng Đặc quyền Bạch Hổ (+100% kinh nghiệm đánh quái) cộng thêm cho mọi nhân vật online và người vào game trong thời gian sự kiện; ai đang có thẻ Bạch Hổ được cộng dồn, không mất thời gian thẻ.</p>
+    <div class="row" style="align-items:flex-end">
+      <div style="flex:0 0 auto"><label style="display:flex;gap:8px;align-items:center;color:var(--ink);cursor:pointer"><input type="checkbox" id="eschEnabled" style="width:auto"> Bật lịch sự kiện</label></div>
+      <div style="flex:0 0 160px"><label>Báo trước (phút, 1–30)</label><input id="eschPre" type="number" min="1" max="30" value="5"></div>
+      <div id="eschExp" class="muted" style="flex:1"></div>
+    </div>
+  </div>
+  <div class="card">
+    <div style="overflow:auto"><table><thead><tr><th>Bật</th><th>Ngày trong tuần</th><th style="width:110px">Giờ</th><th>Loại</th><th>Tham số</th><th>Tiêu đề thông báo (để trống = tự đặt)</th><th>Lần tới</th><th>Lần gần nhất</th><th></th></tr></thead><tbody id="eschBody"></tbody></table></div>
+    <div class="row"><div style="flex:0 0 auto"><button class="btn alt" id="btnEschAdd">+ Thêm dòng</button></div><div style="flex:0 0 auto"><button class="btn" id="btnEschSave">Lưu lịch</button></div><div style="flex:0 0 auto"><button class="btn alt" id="btnEschStopExp">Tắt nhân đôi kinh nghiệm ngay</button></div></div>
+    <p class="hint">“Chạy ngay” xếp lệnh qua cầu nối (server xử lý trong 1 phút, không tính vào lịch ngày). Lưu xong server đọc lại cấu hình trong vòng 1 phút. Dòng có cảnh báo vàng là trùng giờ lịch VNG.</p>
+  </div>
+</section>
+
+<section id="dailygift">
+  <div class="grid">
+    <div class="card"><h2>Quà đăng nhập hằng ngày</h2>
+      <label style="display:flex;gap:8px;align-items:center;color:var(--ink);cursor:pointer"><input type="checkbox" id="dgEnabled" style="width:auto" checked> Bật quà đăng nhập</label>
+      <p class="hint">Mỗi ngày vào game nhận <b>quà ngày</b>; đủ <b>7 ngày liên tiếp</b> nhận thêm <b>quà ngày thứ 7</b>, rồi tính lại từ đầu. Quà tự vào túi trong vòng 1 phút sau khi đăng nhập (kèm thông báo), hoặc nhận ở <b>Lễ Quan</b> → “Quà đăng nhập 7 ngày”. Túi không đủ ô thì quà được <b>giữ lại</b> (tối đa 7 quà ngày, 3 quà 7 ngày), dọn túi là nhận.</p>
+      <label>Quà ngày — tiền (lượng)</label><input id="dgMoneyDaily" type="number" min="0" max="10000000">
+      <table><thead><tr><th>Vật phẩm</th><th style="width:80px">Số lượng</th><th style="width:80px">Chồng tối đa</th><th></th></tr></thead><tbody id="dgDaily"></tbody></table>
+      <label>Quà ngày thứ 7 — tiền (lượng)</label><input id="dgMoneyBig" type="number" min="0" max="10000000">
+      <table><thead><tr><th>Vật phẩm</th><th style="width:80px">Số lượng</th><th style="width:80px">Chồng tối đa</th><th></th></tr></thead><tbody id="dgBig"></tbody></table>
+      <div class="row"><div style="flex:0 0 auto"><button class="btn" id="btnDgSave">Lưu danh sách quà</button></div></div>
+      <p class="hint">Mặc định: quà ngày 10 Đại Hồng đơn, 10 Đại Hoàn đơn, 1 Hồng Thủy Tinh, 20.000 lượng; quà ngày 7: Buff x2 kinh nghiệm 24 giờ, 5 Không Thư (Bạch), 5 Hồng Thủy Tinh, 30 Đại Hồng đơn, 200.000 lượng. “Chồng tối đa” dùng để tính số ô cần (1 = mỗi món một ô).</p>
+    </div>
+    <div class="card"><h2>Thêm vật phẩm vào quà</h2>
+      <label>Tìm vật phẩm (không dấu cũng được)</label><input id="dgQ" placeholder="VD: hong thuy tinh, khong thu, dai hong">
+      <div class="list" id="dgList"></div>
+      <div class="picked" id="dgPicked">Chưa chọn vật phẩm</div>
+      <div class="row"><div><label>Số lượng (1–100)</label><input id="dgCount" type="number" min="1" max="100" value="1"></div></div>
+      <div class="row"><div style="flex:0 0 auto"><button class="btn alt" id="btnDgAddDaily">+ Vào quà ngày</button></div><div style="flex:0 0 auto"><button class="btn alt" id="btnDgAddBig">+ Vào quà ngày 7</button></div></div>
+      <p class="hint">Mọi vật phẩm trong danh mục đều có ở cả Server và Client (bảng PAK). Bấm “Lưu danh sách quà” để áp dụng.</p>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px"><h2>Bảng thành tích theo nhân vật <span id="acStamp" class="muted" style="font-weight:400;font-size:12px"></span></h2>
+    <p class="hint">Server cập nhật mỗi phút cho nhân vật đang online (giữ dòng của nhân vật đã thoát). Người chơi xem ở <b>Lễ Quan</b> → “Bảng thành tích”. Mốc thưởng (tiền + vật phẩm, tự nhận, cần 1 ô trống): boss 1/5/20/50/100 · nhiệm vụ 5/20/50/100/200 · cấp đệ 3/5/7/9/10 · Vạn Tiên 1/5/20/50/100 · Thương Chu 1/5/20/50/100 · quái 500/5.000/20.000/100.000/500.000.</p>
+    <div style="overflow:auto"><table><thead><tr><th>Nhân vật</th><th>Cấp</th><th>Boss</th><th>Nhiệm vụ</th><th>Cấp đệ</th><th>Vạn Tiên</th><th>Thương Chu</th><th>Quái đã hạ</th><th>Mốc đã nhận</th><th>Chuỗi đăng nhập</th><th>Quà đang giữ</th><th>Cập nhật</th></tr></thead><tbody id="acBody"></tbody></table></div>
+  </div>
+</section>
+
+<section id="news">
+  <div class="card" style="max-width:640px"><h2>Thông báo toàn server</h2>
+    <label>Nội dung (tối đa 250 ký tự, gõ tiếng Việt có dấu bình thường)</label><textarea id="newsText" maxlength="250" placeholder="VD: Boss Thiên Ma xuất hiện tại Sùng Thành lúc 20:00!"></textarea>
+    <button class="btn" id="btnNews">Gửi thông báo</button>
+    <p class="hint">Chữ hoa có dấu sẽ hiển thị thành chữ thường có dấu do font game (TCVN3) không có đủ bộ chữ hoa.</p>
+  </div>
+</section>
+
+<section id="events">
+  <div class="grid">
+    <div class="card"><h2>Danh sách sự kiện</h2><div id="eventList"></div>
+      <p class="hint">Sự kiện chỉ chạy khi cửa sổ web admin đang mở. Mỗi sự kiện chạy tối đa 1 lần/ngày, trong 10 phút tính từ giờ hẹn.</p></div>
+    <div class="card"><h2 id="evTitle">Tạo sự kiện mới</h2>
+      <input type="hidden" id="evId">
+      <div class="row"><div><label>Tên sự kiện</label><input id="evName" placeholder="VD: Boss tối"></div><div><label>Giờ bắt đầu</label><input id="evTime" type="time" value="20:00"></div></div>
+      <label>Ngày trong tuần (để trống = mỗi ngày)</label>
+      <div class="days" id="evDays"></div>
+      <label><input type="checkbox" id="evEnabled" checked style="width:auto"> Bật sự kiện</label>
+      <div id="evActions"></div>
+      <div class="row"><button class="btn alt small" data-add="news">+ Thông báo</button><button class="btn alt small" data-add="spawn">+ Tạo boss</button><button class="btn alt small" data-add="giveall">+ Phát đồ tất cả</button><button class="btn alt small" data-add="clear">+ Xóa boss cũ</button></div>
+      <div class="row"><button class="btn" id="btnSaveEvent">Lưu sự kiện</button><button class="btn alt" id="btnNewEvent">Làm mới form</button></div>
+      <p class="hint">Mã quái lấy ở tab Boss / NPC, mã vật phẩm dạng <code>Nhóm|Mã</code> lấy ở tab Phát đồ (bấm chọn món rồi xem dòng in đậm).</p>
+    </div>
+  </div>
+</section>
+
+<section id="accounts">
+  <div class="grid">
+    <div class="card"><h2>Tài khoản</h2><div style="max-height:420px;overflow:auto"><table><thead><tr><th>Tài khoản</th><th>Đăng ký</th><th>Đăng nhập cuối</th><th>Xu</th></tr></thead><tbody id="accBody"></tbody></table></div>
+      <h2 style="margin-top:16px">Nhân vật đã lưu</h2><div id="charList" class="muted"></div></div>
+    <div class="card"><h2>Tạo tài khoản</h2>
+      <div class="row"><div><label>Tên (6–16 chữ/số)</label><input id="accNew"></div><div><label>Mật khẩu (6–16 ký tự)</label><input id="accNewPw" type="password"></div></div>
+      <button class="btn" id="btnAccCreate">Tạo tài khoản</button>
+      <h2 style="margin-top:18px">Đổi mật khẩu</h2>
+      <div class="row"><div><label>Tài khoản</label><input id="accPwName" list="accNames"></div><div><label>Mật khẩu mới</label><input id="accPw" type="password"></div></div>
+      <label><input type="checkbox" id="accPwSecond" style="width:auto"> Đổi luôn mật khẩu cấp 2</label>
+      <button class="btn alt" id="btnAccPw">Đổi mật khẩu</button>
+      <h2 style="margin-top:18px">Đặt số xu</h2>
+      <div class="row"><div><label>Tài khoản</label><input id="accXuName" list="accNames"></div><div><label>Số xu</label><input id="accXu" type="number" min="0" value="10000"></div></div>
+      <button class="btn alt" id="btnAccXu">Cập nhật xu</button>
+      <p class="hint">Xu được nạp khi nhân vật đăng nhập, nên cần thoát ra vào lại mới thấy.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 2026-10-04 adminops: Sức khỏe server (A1), Sao lưu & khôi phục (A2 + A3), Quản lý nhân vật, Tổ đội bot (C4) -->
+<section id="health">
+  <div class="grid">
+    <div class="card"><h2>Sức khỏe server <span id="hlStamp" class="muted" style="font-weight:400;font-size:12px"></span></h2><div id="hlMain" class="muted">Đang tải…</div>
+      <p class="hint">Tự làm mới mỗi 30 giây khi đang mở thẻ này. Số NPC lấy từ <code>admin_bridge\matdo.txt</code> (server ghi mỗi phút). <b>Giới hạn engine</b> và <b>trần mật độ</b> cũng đọc từ file này (trần = giới hạn − 4.000: CoreServer cũ 48.000 / 44.000, bản engine2 96.000 / 92.000); chưa có file thì hiện 48.000.</p></div>
+    <div class="card"><h2>Lỗi tick (<code>tick_error.log</code>)</h2><div id="hlTick" class="muted"></div>
+      <p class="hint">Mỗi dòng là một lỗi Lua trong vòng lặp phút của server (servertimer). Server vẫn chạy tiếp, nhưng tính năng gây lỗi bị bỏ qua ở phút đó. Có dòng mới thì mở nhật ký bên dưới để xem chi tiết.</p></div>
+  </div>
+  <div class="card" style="margin-top:16px"><h2>Phiên bản đang cài</h2><div id="hlVer" class="muted"></div>
+    <p class="hint"><b>Ngày build</b> lấy từ dấu thời gian trong file exe/dll. <b>Khớp receipt</b>: mã băm trùng với <code>NATIVE_DEPLOYMENT.json</code> (trình khởi động kiểm tra điều này). Muốn quay về bản trước thì dùng thẻ <b>Sao lưu &amp; khôi phục</b>.</p></div>
+  <div class="card" style="margin-top:16px"><h2>Nhật ký server</h2>
+    <div class="row" id="hlLogBtns" style="align-items:center"></div>
+    <p class="hint" id="hlLogInfo">Chọn một nhật ký để xem 200 dòng cuối.</p>
+    <pre id="hlLog" style="max-height:480px;overflow:auto;white-space:pre-wrap;font-size:12px;margin:0;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px;display:none"></pre>
+  </div>
+</section>
+
+<section id="backups">
+  <div class="card"><h2>Sao lưu nhân vật hằng ngày</h2>
+    <div id="cbInfo" class="muted">Đang tải…</div>
+    <div class="row"><div style="flex:0 0 auto"><button class="btn" id="btnCbRun">Sao lưu ngay</button></div></div>
+    <p class="hint">Sao lưu toàn bộ <code>Server\CharacterStore</code> (file nhân vật, kiểm tra checksum từng file) và database <b>account</b> (tài khoản, xu) bằng <code>BACKUP … COPY_ONLY</code>, cách sao lưu an toàn khi server đang chạy. Database chỉ được sao lưu khi LocalDB đang chạy; nếu LocalDB tắt thì chỉ sao lưu file nhân vật và ghi rõ trong cột “Database”. Lưu vào <code>_backup\characters\YYYYMMDD\</code>, mỗi ngày một thư mục (sao lưu lại trong ngày sẽ thay bản cũ của ngày đó), giữ 7 ngày gần nhất. Web admin tự sao lưu khi mở và sau mỗi 24 giờ.</p>
+    <div style="max-height:360px;overflow:auto"><table><thead><tr><th>Ngày</th><th>Lúc</th><th>Lý do</th><th>Nhân vật</th><th>Database</th><th>Dung lượng</th><th></th></tr></thead><tbody id="cbBody"></tbody></table></div>
+    <p class="hint"><b>Khôi phục</b> phải tắt toàn bộ server (GameServer, Goddess, Bishop). File nhân vật hiện tại được sao lưu vào <code>_backup\characters\truoc-khoi-phuc-…</code> trước khi ghi đè. Database account không khôi phục từ web: xem hướng dẫn trong tài liệu.</p>
+  </div>
+  <div class="card" style="margin-top:16px"><h2>Quay về bản trước (DLL / ptfix)</h2>
+    <div id="rbState"></div>
+    <div class="row" style="align-items:flex-end"><div style="flex:0 0 220px"><label>Loại bản sao lưu</label><select id="rbKind"><option value="">Tất cả</option><option value="server-deploy">Server (server-deploy-*)</option><option value="client-deploy">Client (client-deploy-*)</option><option value="ptfix">ptfix.pak (ptfix-*)</option></select></div><div style="flex:0 0 auto"><button class="btn alt" id="btnRbReload">Tải lại</button></div></div>
+    <p class="hint">Mỗi bản sao lưu là các file <b>trước</b> lần triển khai / cài ptfix lúc đó. Khôi phục chỉ chạy khi GameServer, Bishop và Game đều đã tắt; bản đang dùng được sao lưu trước thành <code>…-rollback</code> (cũng hiện trong danh sách, khôi phục lại được). Có 2 bước xác nhận: hộp thoại liệt kê file, rồi gõ mã 4 số.</p>
+    <div style="max-height:520px;overflow:auto"><table><thead><tr><th>Thời điểm</th><th>Loại</th><th>Nội dung</th><th></th></tr></thead><tbody id="rbBody"></tbody></table></div>
+  </div>
+  <div class="card" style="margin-top:16px"><h2>Nhật ký thao tác</h2><div id="opsLog" class="muted"></div>
+    <p class="hint">Ghi trong <code>AdminWeb\data\adminops.log</code>.</p></div>
+</section>
+
+<section id="chars">
+  <div class="card"><h2>Quản lý nhân vật</h2><div id="chState"></div>
+    <p class="hint">Danh sách đọc trực tiếp từ <code>Server\CharacterStore\role_*.pthc</code>: đây là nơi duy nhất server lưu nhân vật; danh sách nhân vật của tài khoản được dựng lại mỗi lần đăng nhập bằng cách quét các file này (database account không có bảng nhân vật). <b>Xóa</b> = chuyển file vào thùng rác <code>_backup\characters\deleted\…</code> (không bao giờ xóa vĩnh viễn), nên tài khoản không còn trỏ tới nhân vật đó. Chỉ xóa được khi nhân vật không online; có 2 bước xác nhận và phải gõ lại đúng tên.</p>
+    <div style="max-height:460px;overflow:auto"><table><thead><tr><th>Nhân vật</th><th>Tài khoản</th><th>Cấp</th><th>Phái</th><th>Ghi file lúc</th><th>Trạng thái</th><th></th></tr></thead><tbody id="chBody"></tbody></table></div>
+  </div>
+  <div class="card" style="margin-top:16px"><h2>Thùng rác nhân vật</h2>
+    <p class="hint">Khôi phục chép file về <code>CharacterStore</code> (bản trong thùng rác vẫn giữ). Không khôi phục nếu đã có nhân vật trùng tên hoặc tài khoản đã đủ 3 nhân vật. Bộ chiêu Lệnh Bài Đạo Sĩ / Dị Nhân đang chờ của nhân vật (nếu có) được cất trong thư mục thùng rác, không tự áp lại.</p>
+    <div style="max-height:360px;overflow:auto"><table><thead><tr><th>Xóa lúc</th><th>Nhân vật</th><th>Tài khoản</th><th>Cấp</th><th>Trạng thái</th><th></th></tr></thead><tbody id="chTrash"></tbody></table></div>
+  </div>
+</section>
+<section id="botparty">
+  <div class="grid">
+    <div class="card"><h2>Cài đặt chung</h2>
+      <label>Số bot mỗi người chơi</label>
+      <select id="bpCount"><option value="0">Để người chơi chọn ở NPC “Hỗ Trợ Tổ Đội”</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select>
+      <label>Tỉ lệ phái (trọng số 0–10; cả ba bằng 0 = trộn như cũ)</label>
+      <div class="row"><div><label style="margin-top:0">Giáp Sĩ</label><input id="bpGs" type="number" min="0" max="10" value="0"></div><div><label style="margin-top:0">Đạo Sĩ</label><input id="bpDs" type="number" min="0" max="10" value="0"></div><div><label style="margin-top:0">Dị Nhân</label><input id="bpDn" type="number" min="0" max="10" value="0"></div></div>
+      <p class="hint" id="bpMix"></p>
+      <label>Cấp bot so với người chơi</label>
+      <div class="row"><div><label style="margin-top:0">Chênh lệch (−20…+20)</label><input id="bpLvOff" type="number" min="-20" max="20" value="0"></div><div><label style="margin-top:0">Dao động ± (0–5)</label><input id="bpLvSp" type="number" min="0" max="5" value="2"></div></div>
+      <p class="hint" id="bpLvHint"></p>
+    </div>
+    <div class="card"><h2>Trạng thái <span id="bpStamp" class="muted" style="font-weight:400;font-size:12px"></span></h2><div id="bpStatus" class="muted">Đang tải…</div>
+      <p class="hint">Công tắc “Tự động tổ đội bot” và kinh nghiệm cộng thêm vẫn nằm ở thẻ <b>Bot giả người chơi</b>: tắt ở đó thì không ai có bot, bất kể cài đặt ở đây.</p></div>
+  </div>
+  <div class="card" style="margin-top:16px"><h2>Theo nhân vật</h2>
+    <p class="hint">Cài riêng cho từng nhân vật, ưu tiên hơn cài đặt chung và lựa chọn ở NPC trong game. “Theo trong game” = dùng lựa chọn bật/tắt ở NPC “Hỗ Trợ Tổ Đội”.</p>
+    <table><thead><tr><th>Nhân vật</th><th style="width:200px">Bật / tắt</th><th style="width:200px">Số bot</th><th style="width:70px"></th></tr></thead><tbody id="bpChars"></tbody></table>
+    <div class="row" style="align-items:flex-end"><div><label>Thêm nhân vật (đang online hoặc đã lưu)</label><input id="bpNew" list="bpNames" placeholder="Tên nhân vật"></div><div style="flex:0 0 auto"><button class="btn alt" id="btnBpAdd">+ Thêm</button></div></div>
+    <datalist id="bpNames"></datalist>
+    <div class="row"><div style="flex:0 0 auto"><button class="btn" id="btnBpApply">Áp dụng</button></div></div>
+    <p class="hint">Cấu hình lưu thành <code>admin_bridge\botparty_config.lua</code> (giữ nguyên khi khởi động lại server). Bấm Áp dụng: trong vòng 1 phút server gọi lại toàn bộ bot tổ đội của người đang online theo phái và cấp mới.</p>
+  </div>
+</section>
+
+<section id="history">
+  <div class="card"><h2>Lịch sử lệnh</h2>
+    <table><thead><tr><th>Thời gian</th><th>Loại</th><th>Nội dung</th><th>Kết quả</th><th>Chi tiết</th></tr></thead><tbody id="histBody"></tbody></table></div>
+</section>
+
+<section id="setup">
+  <div class="grid">
+    <div class="card"><h2>Tình trạng cài đặt</h2><div id="setupState" class="muted">Đang kiểm tra…</div>
+      <p class="hint">Dùng khi chuyển bộ source sang máy khác: cài SQL LocalDB, rồi khôi phục database <b>account</b> từ <code>Server\database\account.bak</code> vào <code>PhongThanRuntime-State\sql</code>. Nếu thư mục <code>sql</code> đã có file dữ liệu thì chỉ gắn lại, <b>không ghi đè</b> tài khoản đang có.</p></div>
+    <div class="card"><h2>Thao tác</h2>
+      <button class="btn" id="btnSetupAll">Cài đặt tự động (tất cả)</button>
+      <div class="row" style="margin-top:10px">
+        <button class="btn alt" id="btnSetupLocaldb">1. Cài SQL LocalDB</button>
+        <button class="btn alt" id="btnSetupDb">2. Khôi phục / gắn database account</button>
+      </div>
+      <h2 style="margin-top:18px">Chuẩn bị gói chia sẻ</h2>
+      <button class="btn alt" id="btnSetupBackup">Sao lưu account hiện tại → account.bak</button>
+      <p class="hint">Bản <code>account.bak</code> cũ được giữ trong <code>_backup\</code>. Lưu ý: file này chứa toàn bộ tài khoản và mật khẩu đã mã hóa, chỉ chia sẻ cho người tin cậy.</p>
+      <p class="hint">Bước cài LocalDB cần quyền quản trị: Windows sẽ hiện hộp thoại UAC, bấm <b>Yes</b>. Bộ cài lấy từ thư mục <code>Setup\</code> (SqlLocalDB.msi); nếu thiếu thì tự tải từ Microsoft.</p>
+      <h2 style="margin-top:18px">Nhật ký</h2>
+      <pre id="setupLog" style="max-height:260px;overflow:auto;white-space:pre-wrap;font-size:12px;margin:0"></pre>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px;max-width:640px"><h2>Cài đặt client: độ phân giải</h2>
+    <div class="row">
+      <div><label>Độ phân giải</label><select id="ccRes"><option value="800x600">800 × 600</option><option value="1024x768">1024 × 768 (khuyên dùng)</option></select></div>
+      <div><label>Chế độ hiển thị</label><select id="ccFull"><option value="0">Cửa sổ</option><option value="1">Toàn màn hình</option></select></div>
+    </div>
+    <button class="btn" id="btnClientCfg">Lưu cài đặt client</button>
+    <p class="hint" id="ccInfo"></p>
+    <p class="hint">Ô “độ phân giải” trong game (ESC → Tùy chọn) là giao diện VNG nhưng bản client dựng lại chưa có mã xử lý. Client đọc độ phân giải từ <code>Client\config.ini</code> khi khởi động, nên lưu ở đây rồi <b>thoát game và mở lại</b> (<code>PhongThan-MoGame.cmd</code>). Giao diện VNG thiết kế cho 800×600 và 1024×768.</p>
+  </div>
+  <div class="card" style="margin-top:16px;max-width:640px"><h2>Cài đặt client: âm thanh</h2>
+    <div class="row">
+      <div><label>Nhạc nền (0–100): <b id="csMusicV"></b></label><input type="range" id="csMusic" min="0" max="100" step="5" value="100" oninput="$('csMusicV').textContent=this.value"></div>
+      <div><label>Hiệu ứng âm thanh (0–100): <b id="csSoundV"></b></label><input type="range" id="csSound" min="0" max="100" step="5" value="100" oninput="$('csSoundV').textContent=this.value"></div>
+    </div>
+    <button class="btn" id="btnClientSound">Lưu âm lượng</button> <button class="btn alt" id="btnClientMute">Tắt hết tiếng</button>
+    <p class="hint" id="csInfo"></p>
+    <p class="hint">Game lưu âm lượng trong <code>Client\UserData\UiCommon.ini</code> (mục <code>[Options]</code>: <code>MusicValue</code>, <code>SoundValue</code>) và áp dụng khi khởi động; giá trị ≤ 3 là tắt tiếng. Phải <b>thoát game trước khi lưu</b> (game ghi đè file này khi thoát). Trong game cũng chỉnh được ở ESC → Tùy chọn sau khi cài ptfix.pak mới.</p>
+  </div>
+</section>
+</main>
+<datalist id="playerNames"></datalist><datalist id="accNames"></datalist>
+<div id="toast"></div>
+<script>
+const TOKEN='__PT_TOKEN__';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let pickedItem=null,pickedNpc=null,maps=[],events=[],online=[];
+const TYPES={give:'Phát đồ',giveall:'Phát đồ tất cả',news:'Thông báo',spawn:'Tạo boss',clear:'Xóa boss',money:'Tặng lượng',exp:'Tặng kinh nghiệm'};
+async function api(path,body){
+  const r=await fetch(path,{method:body?'POST':'GET',headers:{'X-PT-Token':TOKEN,'Content-Type':'application/json'},body:body?JSON.stringify(body):undefined});
+  const j=await r.json().catch(()=>({error:'Phản hồi không hợp lệ'}));
+  if(!r.ok||j.error)throw new Error(j.error||('HTTP '+r.status));return j;
+}
+function toast(msg,err){const t=$('toast');t.textContent=msg;t.className=err?'err':'';t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',err?7000:4000)}
+async function run(fn){try{const j=await fn();if(j&&j.message)toast(j.message);return j}catch(e){toast(e.message,true)}}
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('on',x===b));document.querySelectorAll('section').forEach(s=>s.classList.toggle('on',s.id===b.dataset.t));
+  if(b.dataset.t==='worldboss')loadWorldBoss();if(b.dataset.t==='vantien')loadVanTien();if(b.dataset.t==='accounts')loadAccounts();if(b.dataset.t==='history')loadHistory();if(b.dataset.t==='events')loadEvents();if(b.dataset.t==='setup'){loadSetup();loadClientCfg();loadClientSound();}});
+function debounce(fn,ms){let h;return(...a)=>{clearTimeout(h);h=setTimeout(()=>fn(...a),ms)}}
+
+// status
+async function loadStatus(){
+  try{const j=await api('/api/status');const s=j.status,o=j.online;online=o.players||[];
+    const age=s.heartbeatAgeSec,alive=age>=0&&age<150,running=(s.services||[]).includes('GameServer.exe');
+    $('bridge').innerHTML=`<span class="dot" style="background:${alive?'var(--ok)':running?'var(--warn)':'var(--bad)'}"></span>`+(alive?`Cầu nối hoạt động (nhịp ${s.heartbeat})`:running?'GameServer đang chạy, chờ nhịp cầu nối…':'GameServer chưa chạy')+(s.pendingQueued?' · có lệnh đang chờ':'');
+    const all=['Goddess.exe','PhongThanAccountServer.exe','PhongThanRelay.exe','Bishop.exe','GameServer.exe'];
+    $('svc').innerHTML='<table>'+all.map(n=>`<tr><td>${n}</td><td>${(s.services||[]).includes(n)?'<span class="tag OK">Đang chạy</span>':'<span class="tag FAIL">Tắt</span>'}</td></tr>`).join('')+'</table>';
+    $('onlineStamp').textContent=o.stamp?'cập nhật '+o.stamp:'';
+    $('onlineBody').innerHTML=online.length?online.map(p=>`<tr><td><b>${esc(p.name)}</b></td><td>${esc(p.account)}</td><td>${esc(p.level)}${p.prof>=0?'<br><span class="muted">'+(PROF[p.prof]||p.prof)+'</span>':''}</td><td>${esc(p.mapName)} (${esc(p.map)})<br><span class="muted">${esc(p.x)}, ${esc(p.y)}</span></td><td><button class="btn alt small" data-give="${esc(p.name)}">Phát đồ</button> <button class="btn alt small" data-boss="${esc(p.name)}">Boss</button></td></tr>`).join(''):'<tr><td colspan="5" class="muted">Chưa có dữ liệu hoặc không ai online.</td></tr>';
+    $('playerNames').innerHTML=online.map(p=>`<option value="${esc(p.name)}">`).join('');
+    fillMountPlayers();fillGearPlayers();fillWeaponPlayers();fillPresetPlayers();if(typeof fillWbPlayers==='function')fillWbPlayers();
+  }catch(e){$('bridge').innerHTML='<span class="dot" style="background:var(--bad)"></span>Mất kết nối web admin: '+esc(e.message)}
+}
+$('onlineBody').onclick=e=>{const g=e.target.dataset.give,b=e.target.dataset.boss;
+  if(g){$('givePlayer').value=g;document.querySelector('[data-t=give]').click()}
+  if(b){$('spawnPlayer').value=b;$('spawnMode').value='player';syncSpawn();document.querySelector('[data-t=boss]').click()}};
+
+// items
+async function searchItems(){const j=await api(`/api/items?q=${encodeURIComponent($('itemQ').value)}&group=${encodeURIComponent($('itemGroup').value)}`);
+  $('itemList').innerHTML=j.items.map(i=>`<div data-k="${esc(i.key)}" data-n="${esc(i.name)}"><span>${esc(i.name)}</span><small>${esc(i.group)} · ${i.code}</small></div>`).join('')||'<div class="muted">Không có kết quả</div>'}
+$('itemQ').oninput=debounce(()=>run(searchItems),250);$('itemGroup').onchange=()=>run(searchItems);
+$('itemList').onclick=e=>{const d=e.target.closest('[data-k]');if(!d)return;pickedItem={key:d.dataset.k,name:d.dataset.n};$('itemPicked').textContent=`${pickedItem.name}  —  ${pickedItem.key}`};
+function needItem(){if(!pickedItem)throw new Error('Hãy chọn vật phẩm trước.');return pickedItem}
+$('btnGive').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:needItem().key,player:$('givePlayer').value.trim(),count:+$('giveCount').value}));
+$('btnGiveAll').onclick=()=>{if(confirm('Phát món này cho TẤT CẢ người chơi đang online?'))run(()=>api('/api/action',{type:'giveall',itemKey:needItem().key,count:+$('giveCount').value}))};
+$('btnBag').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'StarterBag',player:$('givePlayer').value.trim(),count:1}));
+$('btnSellToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'SellToken',player:$('givePlayer').value.trim(),count:1}));
+$('btnBossToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'BossToken',player:$('givePlayer').value.trim(),count:1}));
+$('btnLuyenCongToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'LuyenCongToken',player:$('givePlayer').value.trim(),count:1}));
+$('btnNhiemVuToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'NhiemVuToken',player:$('givePlayer').value.trim(),count:1}));
+$('btnTiepTeToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'TiepTeToken',player:$('givePlayer').value.trim(),count:1}));
+$('btnThamQuanToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'ThamQuanToken',player:$('givePlayer').value.trim(),count:1}));
+$('btnVanTienToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'VanTienToken',player:$('givePlayer').value.trim(),count:1}));
+$('btnThuongChuToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'ThuongChuToken',player:$('givePlayer').value.trim(),count:1}));
+$('btnLevel').onclick=()=>run(()=>api('/api/action',{type:'level',player:$('givePlayer').value.trim(),level:+$('charLevel').value}));
+$('btnXu').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'Nhiem vu|47',player:$('givePlayer').value.trim(),count:+$('xuCount').value}));
+$('btnCoin').onclick=()=>run(()=>api('/api/action',{type:'coin',player:$('givePlayer').value.trim(),amount:+$('coin').value}));
+$('btnKnb').onclick=()=>{pickedItem={key:'Nguyen lieu|1183',name:'Kim Nguyên Bảo'};$('itemPicked').textContent='Kim Nguyên Bảo  —  Nguyen lieu|1183';toast('Đã chọn Kim Nguyên Bảo. Nhập số lượng rồi bấm “Phát cho nhân vật”.')};
+$('btnMoney').onclick=()=>run(()=>api('/api/action',{type:'money',player:$('givePlayer').value.trim(),amount:+$('money').value}));
+$('btnAttr').onclick=()=>run(()=>{const v=k=>Math.max(0,+$(k).value||0);const b={type:'attr',player:$('givePlayer').value.trim(),str:v('atStr'),dex:v('atDex'),vit:v('atVit'),eng:v('atEng'),prop:v('atProp')};
+  if(!(b.str+b.dex+b.vit+b.eng+b.prop))throw new Error('Hãy nhập số điểm cần cộng.');return api('/api/action',b)});
+$('btnAttrInfo').onclick=()=>run(()=>api('/api/action',{type:'attr',player:$('givePlayer').value.trim(),info:true}));
+$('btnAttrReset').onclick=()=>{if(!confirm('Tẩy toàn bộ điểm thuộc tính đã cộng của nhân vật này và hoàn lại thành điểm tiềm năng?'))return;run(()=>api('/api/action',{type:'attr',player:$('givePlayer').value.trim(),reset:true}))};
+$('btnExp').onclick=()=>run(()=>api('/api/action',{type:'exp',player:$('givePlayer').value.trim(),amount:+$('exp').value}));
+// 2026-10-03 (ruong) Ruong chua do mo rong 2..6: online -> bridge SetExpandBox, offline -> character file
+$('btnChest').onclick=()=>run(()=>api('/api/action',{type:'chest',player:$('givePlayer').value.trim(),to:+$('chestTo').value}));
+$('btnChestInfo').onclick=()=>run(()=>api('/api/action',{type:'chest',player:$('givePlayer').value.trim(),info:true}));
+
+// skills
+const PROF=['Giáp Sĩ','Đạo Sĩ','Dị Nhân'],BOOK={0:'MagicScript|5624',1:'MagicScript|5625',2:'MagicScript|5626'};
+let skills=[];
+const styleName=s=>s===3?'Bị động':s===2?'Hỗ trợ':s===4?'Triệu hồi':'Chủ động';
+$('skLevel').innerHTML=[...Array(10)].map((_,i)=>`<option value="${i+1}" ${i===9?'selected':''}>Cấp ${i+1}</option>`).join('');
+function renderSkills(){const p=+$('skProf').value;
+  const row=s=>`<div><label style="display:flex;gap:8px;margin:0;color:var(--ink);cursor:pointer;flex:1"><input type="checkbox" value="${s.id}" style="width:auto">${s.tier?`<b>[Kỹ năng ${s.tier}]</b> `:''}${esc(s.name)}</label><small>${styleName(s.style)}${s.req?` · cần cấp ${s.req}`:''} · mã ${s.id}</small></div>`;
+  const list=skills.filter(s=>s.prof===p),reb=list.filter(s=>s.tier).sort((a,b)=>a.tier-b.tier),pet=list.filter(s=>s.pet).sort((a,b)=>a.req-b.req),base=list.filter(s=>!s.tier&&!s.pet);
+  $('skList').innerHTML=(reb.length?`<div><small><b>Kỹ năng chuyển sinh 60 / 120 / 180 (VNG)</b></small></div>`+reb.map(row).join(''):'')+`<div><small><b>Kỹ năng phái</b></small></div>`+base.map(row).join('')+(pet.length?`<div><small><b>Kỹ năng đệ tử (triệu hồi)</b></small></div>`+pet.map(row).join(''):'');
+  $('skBooks').innerHTML=reb.map(s=>`<button class="btn alt small" data-book="${s.id}" style="margin:4px 4px 0 0">Sách Lv.${s.tier}: ${esc(s.name)}</button>`).join('');
+  $('skSummonBox').style.display=p===2?'':'none';
+  $('skBooks').querySelectorAll('button').forEach(b=>b.onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'SkillBook'+b.dataset.book,player:$('skPlayer').value.trim(),count:+$('skBookCount').value||1})))}
+$('skProf').onchange=renderSkills;
+$('skAll').onclick=()=>{const b=[...$('skList').querySelectorAll('input')];const on=b.some(x=>!x.checked);b.forEach(x=>x.checked=on)};
+$('skPlayer').oninput=()=>{const p=online.find(x=>x.name===$('skPlayer').value.trim());
+  if(p&&p.prof>=0){$('skPlayerInfo').textContent=`${p.name}: phái ${PROF[p.prof]||p.prof}, cấp ${p.level}`;if($('skProf').value!=String(p.prof)){$('skProf').value=String(p.prof);renderSkills()}}else $('skPlayerInfo').textContent=''};
+$('btnSkills').onclick=()=>run(()=>{const ids=[...$('skList').querySelectorAll('input:checked')].map(x=>+x.value);if(!ids.length)throw new Error('Hãy tích chọn ít nhất 1 kỹ năng.');
+  return api('/api/action',{type:'skills',player:$('skPlayer').value.trim(),prof:+$('skProf').value,level:+$('skLevel').value,skills:ids,checkProf:$('skCheck').checked})});
+$('btnSummonToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'SummonToken',player:$('skPlayer').value.trim(),count:1}));
+$('btnSkillBook').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:BOOK[$('skProf').value],player:$('skPlayer').value.trim(),count:1}));
+
+// bi kip he phai + materials of "Dong sach" (2026-10-03, agent bikip2): actions bikipmats / bikip
+const BK_MATS=[['p139','Bạch Không Thư'],['p140','Lam Không Thư'],['p141','Hồng Không Thư'],['p142','Hoàng Không Thư'],['m77','Mảnh Hồng Thủy Tinh'],['m28','Hồng Thủy Tinh'],['m79','Hồng Bảo Thạch']];
+const BK_TIER={139:{p139:2,m77:1},140:{p140:2,m28:1},141:{p141:2,m79:1},142:{p142:1,m79:3}},BK_TIERNAME={139:'Bạch',140:'Lam',141:'Hồng',142:'Hoàng'};
+const BK_BOOKS=[[62,-1,1,"Bàn Cổ Khai Thiên"],[128,-1,1,"Ban Môn Lộng Phủ"],[27,0,6,"Tế Huyết Trảm"],[28,0,12,"Lăng Ba Vi Bộ"],[29,0,18,"Khai Sơn Trảm"],[30,0,24,"Hồi Phong Trảm"],[31,0,30,"Điện Quang Trảm"],[32,0,36,"Hoành Không Trảm"],[33,0,42,"Tinh Thông Đoản Đao"],[34,0,42,"Tinh Thông Trường Đao"],[35,0,48,"Tam Đầu Lục Thủ"],[36,0,54,"Huyền Băng Trảm"],[37,0,60,"Hỏa Quang Trảm"],[38,0,66,"Liên Hoàn Trảm"],[39,0,72,"Lạc Địa Trảm"],[40,0,78,"Thuần Dương Hộ Thể"],[41,0,84,"Thiên Quân Trảm"],[42,0,90,"Khuynh Thành Nhất Kích"],[3,1,4,"Chưởng Tâm Lôi"],[4,1,6,"Lưu Tinh Thạch"],[5,1,8,"Băng Tuyết Đạn"],[6,1,10,"Tích Lịch Hỏa"],[7,1,14,"Tinh Thông Lôi Hệ"],[8,1,18,"Thiên Phong Địa Nhận"],[9,1,22,"Băng Cơ Tuyết Cốt"],[10,1,26,"Phong Lâm Hỏa Sơn"],[11,1,30,"Hạn Địa Lôi"],[12,1,34,"Tinh Thông Thổ Hệ"],[13,1,38,"Thiết Mã Băng Qua"],[14,1,42,"Tinh Thông Hỏa Hệ"],[15,1,46,"Phong Vân Lôi Động"],[16,1,50,"Ngũ Nhạc Triều Tông"],[17,1,54,"Tinh Thông Băng Hệ"],[18,1,58,"Thập Phương Liệt Hỏa"],[19,1,62,"Lôi Phong Giáp"],[20,1,66,"Thiên Băng Địa Liệt"],[21,1,70,"Băng Phong Bạo"],[22,1,74,"Chúc Dung Chân Khí"],[23,1,78,"Lôi Động Cửu Thiên"],[24,1,82,"Huyền Nữ Bổ Thiên"],[25,1,86,"Băng Phong Vạn Lý"],[26,1,90,"Tam Muội Chân Hỏa"],[450,2,5,"Lực Sĩ Tế"],[43,2,10,"Kim Cang Chú"],[451,2,15,"Trường Cung Tế"],[44,2,20,"Thôi Thân Chú"],[452,2,25,"Thiên Vũ Tế"],[45,2,30,"Bổ Tâm Chú"],[453,2,35,"Liên Nỗ Tế"],[46,2,40,"Cường Công Chú"],[454,2,45,"Hỏa Lôi Tế"],[47,2,50,"Phá Giáp Chú"],[455,2,55,"Toái Cốt Tế"],[48,2,60,"Bồ Đề Chú"],[456,2,65,"Lưu Tinh Tế"],[49,2,70,"Trảm Tâm Chú"],[457,2,75,"Truy Hồn Tế"],[50,2,80,"Tật Phong Chú"],[458,2,85,"Phong Quyển Tàn Vân"],[51,2,90,"Vạn Cốt Toàn Khô"]];
+$('bkMats').innerHTML=BK_MATS.map(m=>`<div style="min-width:130px"><label>${m[1]}</label><input type="number" min="0" max="50" value="0" data-mat="${m[0]}"></div>`).join('');
+$('bkTiers').innerHTML=Object.keys(BK_TIER).map(t=>`<label><input type="checkbox" value="${t}" checked> ${BK_TIERNAME[t]}</label>`).join('');
+function bkTiers(){return[...$('bkTiers').querySelectorAll('input:checked')].map(x=>+x.value)}
+function bkBundleInfo(){const n=Math.max(1,Math.min(10,+$('bkBundle').value||1)),c={};bkTiers().forEach(t=>{for(const k in BK_TIER[t])c[k]=(c[k]||0)+BK_TIER[t][k]*n});
+  const parts=BK_MATS.filter(m=>c[m[0]]).map(m=>`${m[1]} ×${c[m[0]]}`),tot=Object.values(c).reduce((a,b)=>a+b,0);
+  $('bkBundleInfo').textContent=parts.length?`Bộ gồm: ${parts.join(', ')} (tổng ${tot} món).`:'Hãy tích ít nhất 1 bậc Không Thư.'}
+function renderBkBooks(){const p=+$('bkProf').value;$('bkBook').innerHTML=BK_BOOKS.filter(b=>b[1]===p||b[1]<0).sort((a,b)=>a[2]-b[2]).map(b=>`<option value="${b[0]}">${esc(b[3])} · cấp ${b[2]} · mã ${b[0]}${b[1]<0?' (mọi phái)':''}</option>`).join('')}
+$('bkBundle').oninput=bkBundleInfo;$('bkTiers').onchange=bkBundleInfo;$('bkProf').onchange=renderBkBooks;bkBundleInfo();renderBkBooks();
+$('bkPlayer').oninput=()=>{const p=online.find(x=>x.name===$('bkPlayer').value.trim());
+  if(p&&p.prof>=0){$('bkPlayerInfo').textContent=`${p.name}: phái ${PROF[p.prof]||p.prof}, cấp ${p.level}`;if($('bkProf').value!=String(p.prof)){$('bkProf').value=String(p.prof);renderBkBooks()}}else $('bkPlayerInfo').textContent=''};
+$('btnBkMats').onclick=()=>run(()=>{const mats={};let tot=0;$('bkMats').querySelectorAll('input').forEach(i=>{const v=Math.max(0,Math.min(50,+i.value||0));if(v){mats[i.dataset.mat]=v;tot+=v}});
+  if(!tot)throw new Error('Hãy nhập số lượng ít nhất 1 nguyên liệu.');return api('/api/action',{type:'bikipmats',player:$('bkPlayer').value.trim(),mats})});
+$('btnBkBundle').onclick=()=>run(()=>{const t=bkTiers();if(!t.length)throw new Error('Hãy tích ít nhất 1 bậc Không Thư.');
+  return api('/api/action',{type:'bikipmats',player:$('bkPlayer').value.trim(),bundle:Math.max(1,Math.min(10,+$('bkBundle').value||1)),tiers:t})});
+$('btnBkOne').onclick=()=>run(()=>api('/api/action',{type:'bikip',player:$('bkPlayer').value.trim(),prof:+$('bkProf').value,skills:[+$('bkBook').value],count:+$('bkCount').value||1}));
+$('btnBkAll').onclick=()=>{if(!confirm('Phát tất cả bí kíp của phái '+PROF[+$('bkProf').value]+' (kể cả 2 sách kỹ năng sống)?'))return;
+  run(()=>api('/api/action',{type:'bikip',player:$('bkPlayer').value.trim(),prof:+$('bkProf').value,all:true,count:+$('bkCount').value||1}))};
+
+// 2026-10-05 (agent thanky) Than Ky (skills 1986-2000) + Vien / Tui Thuoc Tinh: action thanky (modes book / manh / teach / stone / info)
+const TK_SKILLS=[[1986,0,'Huyết Nguyệt Trảm'],[1990,1,'Phật Nộ Hỏa Liên'],[1991,1,'Lôi Hỏa Toàn Phong'],[1993,1,'Truy Hồn Tán Hoa'],[1994,1,'Vạn Kiếm Quy Tông'],[1996,2,'Huyền Ảnh Tàn Hoa']];
+const TK_STAT=['Sức Mạnh','Ngộ Tính','Thể Chất','Thân Pháp'],TK_TIER=[['Sơ',2],['Trung',5],['Cao',10]];
+const TK_STONES=[[6854,'Túi Thuộc Tính','1 viên ngẫu nhiên'],[6982,'Túi Thuộc Tính (Trung)','1 viên Trung/Cao']].concat([].concat(...TK_STAT.map((s,i)=>TK_TIER.map((t,j)=>[6855+i*3+j,`Viên ${s}-${t[0]}`,`+${t[1]} ${s}`]))));
+const tkRow=(v,name,note)=>`<div><label style="display:flex;gap:8px;margin:0;color:var(--ink);cursor:pointer;flex:1"><input type="checkbox" value="${v}" style="width:auto">${esc(name)}</label><small>${esc(note)} · mã ${v}</small></div>`;
+$('tkList').innerHTML=TK_SKILLS.map(s=>tkRow(s[0],s[2],PROF[s[1]])).join('');
+$('tkStones').innerHTML=TK_STONES.map(s=>tkRow(s[0],s[1],s[2])).join('');
+$('tkCap').innerHTML=[1,2,3,4,5].map(i=>`<option value="${i}">Cấp ${i}</option>`).join('');
+$('tkLevel').innerHTML=[...Array(10)].map((_,i)=>`<option value="${i+1}" ${i===9?'selected':''}>Cấp ${i+1}</option>`).join('');
+function tkPicked(id){return[...$(id).querySelectorAll('input:checked')].map(x=>+x.value)}
+function tkSkills(){const s=tkPicked('tkList');if(!s.length)throw new Error('Hãy tích chọn ít nhất 1 Thần Kỹ.');return s}
+$('tkPlayer').oninput=()=>{const p=online.find(x=>x.name===$('tkPlayer').value.trim());
+  if(p&&p.prof>=0){$('tkPlayerInfo').textContent=`${p.name}: phái ${PROF[p.prof]||p.prof}, cấp ${p.level}`+(+p.level<60?' (Thần Kỹ cần cấp 60)':'');
+    $('tkList').querySelectorAll('input').forEach(x=>{const s=TK_SKILLS.find(k=>k[0]===+x.value);x.checked=!!s&&s[1]===p.prof})}else $('tkPlayerInfo').textContent=''};
+$('btnTkBook').onclick=()=>run(()=>api('/api/action',{type:'thanky',mode:'book',player:$('tkPlayer').value.trim(),skills:tkSkills(),cap:+$('tkCap').value,count:+$('tkCount').value||1}));
+$('btnTkManh').onclick=()=>run(()=>api('/api/action',{type:'thanky',mode:'manh',player:$('tkPlayer').value.trim(),skills:tkSkills(),count:+$('tkManh').value||30}));
+$('btnTkTeach').onclick=()=>run(()=>api('/api/action',{type:'thanky',mode:'teach',player:$('tkPlayer').value.trim(),skills:tkSkills(),level:+$('tkLevel').value}));
+$('btnTkStone').onclick=()=>run(()=>{const s=tkPicked('tkStones');if(!s.length)throw new Error('Hãy tích chọn ít nhất 1 viên hoặc túi.');
+  return api('/api/action',{type:'thanky',mode:'stone',player:$('tkPlayer').value.trim(),stones:s,count:+$('tkStoneCount').value||1})});
+$('btnTkInfo').onclick=()=>run(()=>api('/api/action',{type:'thanky',mode:'info',player:$('tkPlayer').value.trim()}));
+
+// 2026-10-04 (agent lbdaosi) Lenh Bai Dao Si / Di Nhan: tokens 61480 / 61481, skill sets (action lbskills)
+const LB_DS=[[4,'Lưu Tinh Thạch','Thổ'],[8,'Thiên Phong Địa Nhận','Thổ'],[16,'Ngũ Nhạc Triều Tông','Thổ'],[20,'Thiên Băng Địa Liệt','Thổ'],[24,'Huyền Nữ Bổ Thiên','Thổ'],
+  [6,'Tích Lịch Hỏa','Hỏa'],[10,'Phong Lâm Hỏa Sơn','Hỏa'],[18,'Thập Phương Liệt Hỏa','Hỏa'],[26,'Tam Muội Chân Hỏa','Hỏa'],
+  [5,'Băng Tuyết Đạn','Băng'],[13,'Thiết Mã Băng Qua','Băng'],[21,'Băng Phong Bạo','Băng'],[25,'Băng Phong Vạn Lý','Băng'],
+  [3,'Chưởng Tâm Lôi','Lôi'],[11,'Hạn Địa Lôi','Lôi'],[15,'Phong Vân Lôi Động','Lôi'],[23,'Lôi Động Cửu Thiên','Lôi'],
+  [9,'Băng Cơ Tuyết Cốt','buff Băng'],[22,'Chúc Dung Chân Khí','buff Hỏa'],[19,'Lôi Phong Giáp','buff Lôi']];
+const LB_DN=[[43,'Kim Cang Chú','hào quang'],[46,'Cường Công Chú','hào quang'],[48,'Bồ Đề Chú','hào quang'],[50,'Tật Phong Chú','hào quang'],
+  [45,'Bổ Tâm Chú','hồi máu'],[47,'Phá Giáp Chú','chú nguyền'],[49,'Trảm Tâm Chú','chú nguyền']];
+const LB_DS_PRE=[['Thổ + Hỏa + Băng',['Thổ','Hỏa','Băng']],['Hỏa + Băng + Lôi',['Hỏa','Băng','Lôi']],['Tất cả các hệ',['Thổ','Hỏa','Băng','Lôi']]];
+const LB_DN_PRE=[['Tất cả buff',[43,46,48,50,45]],['Buff + chú nguyền',[43,46,48,50,45,47,49]],['Chỉ hồi máu',[45]]];
+const lbRow=s=>`<div><label style="display:flex;gap:8px;margin:0;color:var(--ink);cursor:pointer;flex:1"><input type="checkbox" value="${s[0]}" data-el="${esc(s[2])}" style="width:auto">${esc(s[1])}</label><small>${esc(s[2])} · mã ${s[0]}</small></div>`;
+$('lbDsList').innerHTML=LB_DS.map(lbRow).join('');$('lbDnList').innerHTML=LB_DN.map(lbRow).join('');
+$('lbDsPresets').innerHTML=LB_DS_PRE.map((p,i)=>`<button class="btn alt small" data-p="${i}" style="margin:4px 4px 0 0">${esc(p[0])}</button>`).join('');
+$('lbDnPresets').innerHTML=LB_DN_PRE.map((p,i)=>`<button class="btn alt small" data-p="${i}" style="margin:4px 4px 0 0">${esc(p[0])}</button>`).join('');
+function lbDsPreset(i){const els=LB_DS_PRE[i][1];$('lbDsList').querySelectorAll('input').forEach(x=>{if(!x.dataset.el.startsWith('buff'))x.checked=els.includes(x.dataset.el)})}
+$('lbDsPresets').onclick=e=>{const b=e.target.closest('[data-p]');if(b)lbDsPreset(+b.dataset.p)};
+$('lbDnPresets').onclick=e=>{const b=e.target.closest('[data-p]');if(!b)return;const ids=LB_DN_PRE[+b.dataset.p][1];$('lbDnList').querySelectorAll('input').forEach(x=>x.checked=ids.includes(+x.value))};
+lbDsPreset(0);
+const lbChecked=id=>[...$(id).querySelectorAll('input:checked')].map(x=>+x.value);
+$('lbPlayer').oninput=()=>{const p=online.find(x=>x.name===$('lbPlayer').value.trim());$('lbPlayerInfo').textContent=p?`${p.name}: online, phái ${PROF[p.prof]||'?'}, cấp ${p.level}`:($('lbPlayer').value.trim()?'Không thấy trong danh sách online: lựa chọn sẽ được lưu và áp khi nhân vật đăng nhập.':'')};
+$('btnLbDs').onclick=()=>run(()=>{const ids=lbChecked('lbDsList');if(!ids.length)throw new Error('Hãy tích ít nhất 1 chiêu (hoặc bấm “Theo phím đang gán”).');return api('/api/action',{type:'lbskills',player:$('lbPlayer').value.trim(),which:1,skills:ids})});
+$('btnLbDsOff').onclick=()=>run(()=>api('/api/action',{type:'lbskills',player:$('lbPlayer').value.trim(),which:1,off:true}));
+$('btnLbDn').onclick=()=>run(()=>{const ids=lbChecked('lbDnList');if(!ids.length)throw new Error('Hãy tích ít nhất 1 chiêu (hoặc bấm “Tắt buff Dị Nhân”).');return api('/api/action',{type:'lbskills',player:$('lbPlayer').value.trim(),which:2,skills:ids})});
+$('btnLbDnOff').onclick=()=>run(()=>api('/api/action',{type:'lbskills',player:$('lbPlayer').value.trim(),which:2,off:true}));
+$('btnDaoSiToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'DaoSiToken',player:$('lbPlayer').value.trim(),count:1}));
+$('btnDiNhanToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'DiNhanToken',player:$('lbPlayer').value.trim(),count:1}));
+$('btnDaoSiToken2').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'DaoSiToken',player:$('givePlayer').value.trim(),count:1}));
+// lbdaosi r3: Lenh Bai Giap Si (61482, task 2619) + Nang max ky nang (action lbmax)
+const LB_GS=[[27,'Tế Huyết Trảm','đoản đao'],[30,'Hồi Phong Trảm','đoản đao'],[32,'Hoành Không Trảm','đoản đao'],[36,'Huyền Băng Trảm','đoản đao'],[38,'Liên Hoàn Trảm','đoản đao'],[41,'Thiên Quân Trảm','đoản đao'],
+  [29,'Khai Sơn Trảm','trường đao'],[31,'Điện Quang Trảm','trường đao'],[35,'Tam Đầu Lục Thủ','trường đao'],[37,'Hỏa Quang Trảm','trường đao'],[39,'Lạc Địa Trảm','trường đao'],[42,'Khuynh Thành Nhất Kích','trường đao'],
+  [28,'Lăng Ba Vi Bộ','hào quang'],[40,'Thuần Dương Hộ Thể','hào quang']];
+const LB_GS_PRE=[['Tất cả chiêu đánh',['đoản đao','trường đao']],['Đoản đao',['đoản đao']],['Trường đao',['trường đao']]];
+$('lbGsList').innerHTML=LB_GS.map(lbRow).join('');
+$('lbGsPresets').innerHTML=LB_GS_PRE.map((p,i)=>`<button class="btn alt small" data-p="${i}" style="margin:4px 4px 0 0">${esc(p[0])}</button>`).join('');
+function lbGsPreset(i){const els=LB_GS_PRE[i][1];$('lbGsList').querySelectorAll('input').forEach(x=>{if(x.dataset.el!=='hào quang')x.checked=els.includes(x.dataset.el)})}
+$('lbGsPresets').onclick=e=>{const b=e.target.closest('[data-p]');if(b)lbGsPreset(+b.dataset.p)};
+lbGsPreset(0);
+$('btnLbGs').onclick=()=>run(()=>{const ids=lbChecked('lbGsList');if(!ids.length)throw new Error('Hãy tích ít nhất 1 chiêu (hoặc bấm “Theo phím đang gán”).');return api('/api/action',{type:'lbskills',player:$('lbPlayer').value.trim(),which:3,skills:ids})});
+$('btnLbGsOff').onclick=()=>run(()=>api('/api/action',{type:'lbskills',player:$('lbPlayer').value.trim(),which:3,off:true}));
+$('btnGiapSiToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'GiapSiToken',player:$('lbPlayer').value.trim(),count:1}));
+function lbMaxSkills(){const p=+$('lbMaxProf').value;$('lbMaxSkill').innerHTML=skills.filter(s=>s.prof===p&&!s.pet).sort((a,b)=>(a.tier-b.tier)||(a.id-b.id)).map(s=>`<option value="${s.id}">${s.tier?'[Kỹ năng '+s.tier+'] ':''}${esc(s.name)} · mã ${s.id}</option>`).join('')}
+$('lbMaxProf').onchange=lbMaxSkills;
+$('btnLbMaxAll').onclick=()=>{const p=+$('lbMaxProf').value;if(!confirm('Nâng TOÀN BỘ kỹ năng phái '+PROF[p]+' của nhân vật này lên cấp tối đa?'))return;run(()=>api('/api/action',{type:'lbmax',player:$('lbPlayer').value.trim(),prof:p,skill:0}))};
+$('btnLbMaxOne').onclick=()=>run(()=>{const s=+$('lbMaxSkill').value;if(!s)throw new Error('Hãy chọn kỹ năng.');return api('/api/action',{type:'lbmax',player:$('lbPlayer').value.trim(),prof:+$('lbMaxProf').value,skill:s})});
+$('btnDiNhanToken2').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'DiNhanToken',player:$('givePlayer').value.trim(),count:1}));
+
+// 2026-10-04 (agent items) Lenh Bai Hanh Trang: token 61500, pickup / clean-bag filters (action hanhtrang), sale log
+const HT_PICK=[[0,'Tiền',1],[1,'Đồ trắng',0],[2,'Đồ xanh, lục (có thuộc tính)',1],[3,'Đồ hoàng kim (đồ bộ)',1],[4,'Bí kíp, sách kỹ năng',1],[5,'Pháp bảo, pháp khí, ấn',1],
+  [6,'Nguyên liệu, đá quý',1],[7,'Đồ nhiệm vụ',1],[8,'Thuốc',0],[9,'Đồ khác (sự kiện, vật phẩm IB...)',1],[10,'Tự nhặt khi bật tự đánh',1]];
+const HT_SELL=[[0,'Đồ trắng',1],[1,'Đồ hỏng (độ bền 0)',1],[2,'Đồ xanh dưới cấp đã chọn',0],[3,'Tự dọn khi túi còn 3 ô trống',0]];
+const htRow=s=>`<div><label style="display:flex;gap:8px;margin:0;color:var(--ink);cursor:pointer;flex:1"><input type="checkbox" value="${s[0]}" ${s[2]?'checked':''} style="width:auto">${esc(s[1])}</label><small>mặc định: ${s[2]?'có':'không'}</small></div>`;
+function htFill(){$('htPickList').innerHTML=HT_PICK.map(htRow).join('');$('htSellList').innerHTML=HT_SELL.map(htRow).join('');$('htBlv').value='5'}
+htFill();
+const htChecked=id=>[...$(id).querySelectorAll('input:checked')].map(x=>+x.value);
+$('btnHtApply').onclick=()=>run(()=>api('/api/action',{type:'hanhtrang',player:$('htPlayer').value.trim(),pick:htChecked('htPickList'),sell:htChecked('htSellList'),blv:+$('htBlv').value}));
+$('btnHtDefault').onclick=()=>run(()=>{htFill();return api('/api/action',{type:'hanhtrang',player:$('htPlayer').value.trim(),default:true})});
+$('btnHanhTrangToken').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'HanhTrangToken',player:$('htPlayer').value.trim(),count:1}));
+$('btnHanhTrangToken2').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'HanhTrangToken',player:$('givePlayer').value.trim(),count:1}));
+$('btnBinhSinhLucVC').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'BinhSinhLucVC',player:$('givePlayer').value.trim(),count:1}));
+$('btnBinhNoiLucVC').onclick=()=>run(()=>api('/api/action',{type:'give',itemKey:'BinhNoiLucVC',player:$('givePlayer').value.trim(),count:1}));
+$('btnHtLog').onclick=()=>run(async()=>{const j=await api('/api/hanhtranglog');
+  $('htLog').innerHTML=(j.exists&&j.rows.length)?j.rows.slice().reverse().map(r=>`<div><span>${esc(r.time)} · ${esc(r.player)} · ${esc(r.item)}</span><small>${esc(r.money)} lượng · ${r.why==='tay'?'bấm Dọn túi':'tự dọn'}</small></div>`).join(''):'<div class="muted">Chưa có món nào được bán.</div>';
+  return {message:'Nhật ký dọn túi: '+(j.total||0)+' dòng'}});
+
+// 2026-10-05 (agent nuoithu) pet food: give by count (action nuoithugive), feed full / max level (action nuoithu)
+$('btnNtGive').onclick=()=>run(()=>api('/api/action',{type:'nuoithugive',player:$('ntPlayer').value.trim(),itemKey:$('ntItem').value,count:+$('ntCount').value}));
+$('btnNtFeed').onclick=()=>run(()=>api('/api/action',{type:'nuoithu',player:$('ntPlayer').value.trim(),mode:1}));
+$('btnNtMax').onclick=()=>{if(!confirm('Đưa mọi linh thú của nhân vật lên giai đoạn 4 cấp 40 (bỏ qua nguyên liệu tiến hóa) và đệ tử Dị Nhân lên cấp 10?'))return;run(()=>api('/api/action',{type:'nuoithu',player:$('ntPlayer').value.trim(),mode:2}))};
+
+// mounts
+let pickedMount=null;
+async function loadMounts(){const j=await api(`/api/mounts?prof=${$('mtProf').value}&q=${encodeURIComponent($('mtQ').value)}`);
+  $('mtCountInfo').textContent=`(${j.mounts.length} kết quả, phái ${PROF[+$('mtProf').value]} + chung)`;
+  $('mtList').innerHTML=j.mounts.map(m=>`<div data-k="${esc(m.key)}" data-n="${esc(m.name)}"><span>${esc(m.name)}</span><small>${m.prof<0?'Chung':PROF[m.prof]}${m.req?' · cấp '+m.req:''}</small></div>`).join('')||'<div class="muted">Không có kết quả</div>'}
+function fillMountPlayers(){const cur=$('mtPlayer').value;$('mtPlayer').innerHTML='<option value="">— chọn nhân vật —</option>'+online.map(p=>`<option value="${esc(p.name)}" ${p.name===cur?'selected':''}>${esc(p.name)}${p.prof>=0?' ('+PROF[p.prof]+')':''}</option>`).join('')}
+$('mtPlayer').onchange=()=>{const p=online.find(x=>x.name===$('mtPlayer').value);
+  if(p&&p.prof>=0){$('mtProf').value=String(p.prof);$('mtInfo').textContent=`${p.name}: phái ${PROF[p.prof]}, cấp ${p.level}. Chỉ hiện thú cưỡi của phái này và loại dùng chung.`}run(loadMounts)};
+$('mtProf').onchange=()=>run(loadMounts);$('mtQ').oninput=debounce(()=>run(loadMounts),250);
+$('mtList').onclick=e=>{const d=e.target.closest('[data-k]');if(!d)return;pickedMount={key:d.dataset.k,name:d.dataset.n};$('mtPicked').textContent=`${pickedMount.name}  —  ${pickedMount.key}`};
+$('btnMount').onclick=()=>run(()=>{if(!pickedMount)throw new Error('Hãy chọn thú cưỡi.');const pl=$('mtPlayer').value;if(!pl)throw new Error('Hãy chọn nhân vật đang online.');
+  return api('/api/action',{type:'give',itemKey:pickedMount.key,player:pl,count:+$('mtCount').value})});
+
+// gear sets (do luc)
+let gearSets=[];
+const PIECE={'Giap':'Giáp','Mu':'Mũ','Giay':'Giày','That lung':'Thắt lưng','Boi':'Bội'};
+async function loadGear(){const j=await api(`/api/gearsets?prof=${$('grProf').value}`);gearSets=j.sets||[];renderGear()}
+function renderGear(){const t=$('grTier').value,q=$('grQuest').checked;
+  const list=gearSets.filter(s=>(t===''||String(s.tier)===t)&&(q||!/nhiệm vụ|\(N\.v\)/i.test(s.title||'')));
+  $('grList').innerHTML=list.map((s,i)=>`<div class="card"><h2>${esc(s.title||'Bộ '+s.set)}</h2>
+    <p class="hint" style="margin-top:-6px">${s.tier?'Cấp '+s.tier:'Không yêu cầu cấp'} · kiểu ${s.variant} · cấp trang bị ${s.ilv} · bộ #${s.set}</p>
+    ${s.pieces.map(p=>`<div style="font-size:13px;padding:3px 0"><span class="tag">${PIECE[p.piece]||p.piece}</span> ${esc(p.name)}${p.req?' <span class="muted">· cấp '+p.req+'</span>':''}</div>`).join('')}
+    <button class="btn" data-set="${gearSets.indexOf(s)}">Phát cả bộ (${s.pieces.length} món)</button></div>`).join('')||'<p class="muted">Không có bộ đồ phù hợp.</p>'}
+function fillGearPlayers(){const cur=$('grPlayer').value;$('grPlayer').innerHTML='<option value="">— chọn nhân vật —</option>'+online.map(p=>`<option value="${esc(p.name)}" ${p.name===cur?'selected':''}>${esc(p.name)}${p.prof>=0?' ('+PROF[p.prof]+', cấp '+p.level+')':''}</option>`).join('')}
+$('grPlayer').onchange=()=>{const p=online.find(x=>x.name===$('grPlayer').value);if(p&&p.prof>=0){$('grProf').value=String(p.prof);const lv=+p.level,tiers=[100,80,60,40,20].filter(x=>x<=lv);$('grTier').value=tiers.length?String(tiers[0]):'';}run(loadGear)};
+$('grProf').onchange=()=>run(loadGear);$('grTier').onchange=renderGear;$('grQuest').onchange=renderGear;
+$('grList').onclick=e=>{const i=e.target.dataset.set;if(i===undefined)return;const s=gearSets[+i],pl=$('grPlayer').value;
+  if(!pl){toast('Hãy chọn nhân vật đang online.',true);return}
+  if(confirm(`Phát bộ “${s.title}” (${s.pieces.length} món) cho ${pl}?`))run(()=>api('/api/giveset',{player:pl,keys:s.pieces.map(p=>p.key)}))};
+
+// tier weapons
+async function loadWeapons(){const j=await api(`/api/weapons?prof=${$('wpProf').value}&tier=${$('wpTier').value}&green=${$('wpGreen').checked?1:0}`);
+  const cur=$('wpTier').value;$('wpTier').innerHTML='<option value="">Tất cả</option>'+(j.tiers||[]).map(t=>`<option value="${t}" ${String(t)===cur?'selected':''}>Cấp ${t}</option>`).join('');
+  $('wpBody').innerHTML=(j.weapons||[]).map(w=>`<tr><td><b>${esc(w.name)}</b></td><td>${w.kind==='Tam xa'?'Tầm xa':'Cận chiến'}</td><td>${w.req}</td><td>${w.ilv}</td><td><button class="btn small" data-wk="${esc(w.key)}" data-wn="${esc(w.name)}">Phát</button></td></tr>`).join('')||'<tr><td colspan="5" class="muted">Không có vũ khí phù hợp.</td></tr>'}
+function fillWeaponPlayers(){const cur=$('wpPlayer').value;$('wpPlayer').innerHTML='<option value="">— chọn nhân vật —</option>'+online.map(p=>`<option value="${esc(p.name)}" ${p.name===cur?'selected':''}>${esc(p.name)}${p.prof>=0?' ('+PROF[p.prof]+', cấp '+p.level+')':''}</option>`).join('')}
+$('wpPlayer').onchange=async()=>{const p=online.find(x=>x.name===$('wpPlayer').value);if(p&&p.prof>=0){$('wpProf').value=String(p.prof);$('wpTier').value='';await run(loadWeapons);const t=[...$('wpTier').options].map(o=>+o.value).filter(x=>x&&x<=+p.level);if(t.length){$('wpTier').value=String(Math.max(...t))}}run(loadWeapons)};
+$('wpProf').onchange=()=>{$('wpTier').value='';run(loadWeapons)};$('wpTier').onchange=()=>run(loadWeapons);$('wpGreen').onchange=()=>run(loadWeapons);
+$('wpBody').onclick=e=>{const k=e.target.dataset.wk;if(!k)return;const pl=$('wpPlayer').value;if(!pl){toast('Hãy chọn nhân vật đang online.',true);return}
+  run(()=>api('/api/action',{type:'give',itemKey:k,player:pl,count:1}))};
+
+// max presets + talismans
+let presetData={presets:[],talismans:[]};
+async function loadPresets(){presetData=await api('/api/presets');renderPresets()}
+// world bosses
+const WBST={alive:['Đang xuất hiện','#1f9d55'],killed:['Đã bị diệt','#c0392b'],waiting:['Chưa xuất hiện','#888']};
+function wbSched(s){s=s||[];return s.length>6?`mỗi giờ (${s.length} lần/ngày)`:s.join(', ')}
+async function loadWorldBoss(){try{const j=await api('/api/worldboss');$('wbStamp').textContent=j.stamp?'(server ghi lúc '+j.stamp+')':'(chưa có dữ liệu — cần khởi động lại server để chạy hệ thống boss)';
+  $('wbBody').innerHTML=(j.bosses||[]).map(b=>{const s=WBST[b.state]||WBST.waiting;return `<tr><td><b>${esc(b.name)}</b></td><td>${esc(b.mapName)} (${b.map}) [${b.dx},${b.dy}]</td><td>${b.level}</td><td><span style="color:${s[1]};font-weight:600">${s[0]}</span></td><td>${esc(b.spawn||'')}</td><td>${esc(b.death||'')}</td><td>${esc(b.killer||'')}</td><td>${esc(b.next||'')}</td><td class="muted" style="font-size:12px">${esc(wbSched(b.schedule))}</td><td><button class="btn small alt" data-wb="${esc(b.key)}">Gọi ngay</button></td></tr>`}).join('')}catch(e){toast(e.message,true)}}
+$('wbBody').onclick=e=>{const k=e.target.dataset&&e.target.dataset.wb;if(!k)return;run(()=>api('/api/action',{type:'wbspawn',key:k}))};
+$('btnWbToken').onclick=()=>{const pl=$('wbPlayer').value;if(!pl){toast('Hãy chọn nhân vật đang online.',true);return}run(()=>api('/api/action',{type:'give',itemKey:'BossToken',player:pl,count:1}))};
+function fillWbPlayers(){const cur=$('wbPlayer').value;$('wbPlayer').innerHTML='<option value="">— chọn nhân vật —</option>'+online.map(p=>`<option value="${esc(p.name)}" ${p.name===cur?'selected':''}>${esc(p.name)}</option>`).join('')}
+setInterval(()=>{if($('worldboss').classList.contains('on'))loadWorldBoss()},30000);
+// Van Tien tran (admin_bridge\vantien.txt via /api/vantien; button -> action vtopen -> PTVT_AdminOpen(n))
+const VTST={0:['Đóng','#888'],1:['Đang chuẩn bị','#d68910'],2:['Đang chiến đấu','#1f9d55'],3:['Đã phá trận','#2471a3']};
+async function loadVanTien(){try{const j=await api('/api/vantien');$('vtStamp').textContent=j.stamp?'(server ghi lúc '+j.stamp+')':'(chưa có dữ liệu — cần khởi động lại server để nạp script Vạn Tiên mới)';
+  $('vtBody').innerHTML=(j.trans||[]).map(t=>{const s=VTST[t.state]||VTST[0],on=t.state>0,m=Math.floor((t.restSec||0)/60),sec=(t.restSec||0)%60;return `<tr><td><b>${esc(t.name)}</b> (trận ${t.tran})</td><td>${t.minLevel}+</td><td>${t.map}</td><td><span style="color:${s[1]};font-weight:600">${s[0]}</span></td><td>${on?t.tien+'/4':''}</td><td>${on?(t.thongThien?'Đã hạ':'Chưa hạ'):''}</td><td>${on?t.inside:''}</td><td>${on&&t.restSec>0?m+' phút '+sec+' giây':''}</td><td><button class="btn small" data-vt="${t.tran}" ${on?'disabled title="Trận đang mở"':''}>Mở Vạn Tiên trận</button></td></tr>`}).join('')}catch(e){toast(e.message,true)}}
+$('vtBody').onclick=e=>{const n=e.target.dataset&&e.target.dataset.vt;if(!n)return;run(()=>api('/api/action',{type:'vtopen',tran:Number(n)}))};
+setInterval(()=>{if($('vantien').classList.contains('on'))loadVanTien()},30000);
+// Bot gia nguoi choi (2026-10-02): /api/bots = config (data\bots.json) + status (admin_bridge\bots.txt); Ap dung -> action bots -> bots_config.lua + PTBOT_AdminApply()
+let botSpots=[],botFormLoaded=false,botLive=null;
+const BOTSRC={default:'chưa có file cấu hình, server dùng mặc định (40 bot tự do)',file:'theo file cấu hình',error:'file cấu hình lỗi, server giữ cấu hình trước đó'};
+function botMapOpts(sel){return maps.map(m=>`<option value="${m.id}" ${+sel===m.id?'selected':''}>${esc(m.name)} (${m.id})</option>`).join('')}
+function botTotal(){const f=Math.max(0,+$('botFollowCount').value||0),s=botSpots.reduce((a,x)=>a+Math.max(0,+x.count||0),0),t=f+s;
+  $('botTotal').innerHTML=`Tổng: <b>${Math.min(100,t)}</b> bot (${f} tự do + ${s} ở ${botSpots.length} địa điểm)`+(t>100?` <span style="color:var(--bad)">— vượt 100, server sẽ cắt bớt ${t-100} bot tự do</span>`:'')+(!$('botEnabled').checked?' <span style="color:var(--bad)">— đang chọn TẮT</span>':'')}
+function renderBotSpots(){const live=(botLive&&botLive.spots)||[];
+  $('botSpots').innerHTML=botSpots.map((s,i)=>{const l=live.find(x=>x.index===i+1&&x.map===+s.map);
+    return `<tr data-i="${i}"><td><select data-f="map">${botMapOpts(s.map)}</select></td><td><input data-f="x" type="number" min="0" value="${+s.x||''}" placeholder="mặc định"></td><td><input data-f="y" type="number" min="0" value="${+s.y||''}" placeholder="mặc định"></td><td><input data-f="count" type="number" min="0" max="100" value="${+s.count||0}"></td><td><input data-f="level" type="number" min="0" max="200" value="${+s.level||0}"></td><td>${l?`${l.alive} / ${l.target}${l.loaded?'':' <span class="muted">(bản đồ chưa nạp)</span>'}`:'<span class="muted">—</span>'}</td><td><button class="btn alt small" data-del="${i}">Xóa</button></td></tr>`}).join('')||'<tr><td colspan="7" class="muted">Chưa có địa điểm nào — chỉ có bot tự do.</td></tr>';botTotal()}
+function renderBotStatus(){const s=botLive||{};
+  $('botStamp').textContent=s.stamp?'(server ghi lúc '+s.stamp+')':'';
+  if(!s.stamp){$('botStatus').innerHTML='<p class="muted">Chưa có dữ liệu. Server ghi trạng thái mỗi phút sau khi khởi động lại với script bot mới, hoặc ngay sau khi bấm Áp dụng.</p>';return}
+  $('botStatus').innerHTML=`<table><tr><td>Trạng thái</td><td>${s.enabled?'<span class="tag OK">Đang bật</span>':'<span class="tag FAIL">Đang tắt</span>'} <span class="muted">${esc(BOTSRC[s.source]||s.source)}</span></td></tr><tr><td>Tổng bot đang sống</td><td><b>${s.alive}</b> / ${s.target}</td></tr><tr><td>Bot tự do</td><td>${s.followAlive} / ${s.followTarget}${s.players?` · đang theo ${s.players} người chơi`:''}</td></tr>`+
+    (s.party==null?'':`<tr><td>Tổ đội bot</td><td>${s.party?`<span class="tag OK">Bật</span> ${s.partyCount} đồng đội, +${s.partyBonus}%/người · <b>${s.partyAlive}</b> bot trong tổ đội của ${s.partyPlayers} người chơi`:'<span class="tag FAIL">Tắt</span>'}${s.partyExp?'':' <span class="muted">(CoreServer chưa có bản cộng kinh nghiệm tổ đội)</span>'}</td></tr>`)+
+    (s.spots||[]).map(p=>`<tr><td>Địa điểm ${p.index}</td><td>${esc(p.mapName)} (${p.map}) [${p.x}, ${p.y}]${p.level?' · cấp '+p.level:''}: <b>${p.alive}</b> / ${p.target}${p.loaded?'':' <span style="color:var(--bad)">bản đồ chưa nạp</span>'}</td></tr>`).join('')+'</table>'}
+async function loadBots(){try{const j=await api('/api/bots');botLive=j.status;
+  if(!botFormLoaded){const c=j.config||{};$('botEnabled').checked=c.enabled!==false;$('botFollow').checked=c.follow!==false;$('botFollowCount').value=c.followCount??40;$('botParty').checked=c.party!==false;$('botPartyCount').value=c.partyCount??4;$('botPartyBonus').value=c.partyBonus??15;botSpots=(c.spots||[]).map(s=>({map:s.map,x:s.x||0,y:s.y||0,count:s.count||0,level:s.level||0}));botFormLoaded=true}
+  renderBotSpots();renderBotStatus();fillBotPlayers()}catch(e){toast(e.message,true)}}
+function fillBotPlayers(){const cur=$('botPlayer').value;$('botPlayer').innerHTML='<option value="">— chọn nhân vật —</option>'+online.map(p=>`<option value="${esc(p.name)}" ${p.name===cur?'selected':''}>${esc(p.name)} — ${esc(p.mapName)} [${esc(p.x)}, ${esc(p.y)}]</option>`).join('')}
+$('botSpots').oninput=e=>{const tr=e.target.closest('tr[data-i]'),f=e.target.dataset.f;if(!tr||!f)return;botSpots[+tr.dataset.i][f]=+e.target.value||0;botTotal()};
+$('botSpots').onclick=e=>{const d=e.target.dataset&&e.target.dataset.del;if(d===undefined)return;botSpots.splice(+d,1);renderBotSpots()};
+$('botFollowCount').oninput=botTotal;$('botEnabled').onchange=botTotal;
+$('btnBotAdd').onclick=()=>{if(botSpots.length>=20){toast('Tối đa 20 địa điểm.',true);return}botSpots.push({map:maps.length?maps[0].id:1002,x:0,y:0,count:10,level:0});renderBotSpots()};
+$('btnBotHere').onclick=()=>{const p=online.find(x=>x.name===$('botPlayer').value);if(!p){toast('Hãy chọn nhân vật đang online.',true);return}if(botSpots.length>=20){toast('Tối đa 20 địa điểm.',true);return}
+  botSpots.push({map:+p.map,x:+p.x||0,y:+p.y||0,count:10,level:0});renderBotSpots()};
+function botBody(enabled){return {type:'bots',enabled,follow:$('botFollow').checked,followCount:Math.min(100,Math.max(0,+$('botFollowCount').value||0)),
+  party:$('botParty').checked,partyCount:Math.min(7,Math.max(0,+$('botPartyCount').value||0)),partyBonus:Math.min(50,Math.max(0,+$('botPartyBonus').value||0)),
+  spots:botSpots.map(s=>({map:+s.map,x:Math.max(0,+s.x||0),y:Math.max(0,+s.y||0),count:Math.min(100,Math.max(0,+s.count||0)),level:Math.min(200,Math.max(0,+s.level||0))}))}}
+$('btnBotApply').onclick=async()=>{await run(()=>api('/api/action',botBody($('botEnabled').checked)));loadBots()};
+$('btnBotOff').onclick=async()=>{if(!confirm('Tắt và xóa toàn bộ bot giả người chơi? (Cấu hình địa điểm vẫn được giữ, bật lại bằng nút Áp dụng.)'))return;$('botEnabled').checked=false;await run(()=>api('/api/action',botBody(false)));loadBots()};
+document.querySelector('#tabs [data-t=bots]').addEventListener('click',()=>loadBots());
+setInterval(()=>{if($('bots').classList.contains('on'))loadBots()},30000);
+// Mat do & hoi quai (2026-10-04 quaimatdo): /api/matdo = config (data\matdo.json) + status (admin_bridge\matdo.txt) + 57 maps; Ap dung -> action matdo -> matdo_config.lua + PTEXT_matdo_Apply()
+let mdData=null,mdFormLoaded=false,mdPick=new Set();
+const MDSRC={default:'chưa có file cấu hình (x1, hồi theo Npcs.txt)',file:'theo file cấu hình',error:'file cấu hình lỗi, server giữ cấu hình trước đó'};
+const mdX=d=>'x'+(d/10).toString().replace('.',',');
+const mdRv=r=>r>0?r+' giây':'mặc định';
+function mdRevive(){const v=$('mdReviveSel').value;return v==='c'?Math.min(600,Math.max(3,+$('mdRevive').value||10)):+v}
+function renderMdStatus(){const s=(mdData&&mdData.status)||{};
+$('mdStamp').textContent=s.stamp?'(server ghi lúc '+s.stamp+')':'';
+if(!s.stamp){$('mdStatus').innerHTML='<p class="muted">Chưa có dữ liệu. Server ghi trạng thái mỗi phút sau khi nạp tính năng (bấm Áp dụng một lần nếu server đang chạy từ trước).</p>';return}
+const maps=(mdData.maps||[]),withX=maps.filter(m=>m.extras>0).length,hot=maps.filter(m=>m.hot).map(m=>esc(m.name)+' ('+m.id+')');
+$('mdStatus').innerHTML=`<table><tr><td>Cấu hình đang chạy</td><td><b>${mdX(s.density)}</b>, hồi <b>${mdRv(s.revive)}</b>, ${s.all?'mọi bản đồ':'bản đồ chọn riêng'} <span class="muted">(${esc(MDSRC[s.source]||s.source)})</span></td></tr>`+
+`<tr><td>Quái đang thêm</td><td><b>${(s.extras||0).toLocaleString('vi-VN')}</b> con trên <b>${withX}</b> bản đồ${s.state==='wait'?' <span class="tag PENDING">chờ quái gốc sinh xong</span>':''}</td></tr>`+
+`<tr><td>Tổng NPC server</td><td>${(s.npc||0).toLocaleString('vi-VN')} / ${(s.cap||0).toLocaleString('vi-VN')}</td></tr>`+
+`<tr><td>Điểm sinh gốc</td><td>${(s.seeds||0).toLocaleString('vi-VN')}</td></tr>`+
+`<tr><td>Phút gần nhất</td><td>thêm ${s.added||0}, gỡ ${s.removed||0}</td></tr>`+
+`<tr><td>Đặt thời gian hồi</td><td>${s.revivePass==='done'?'xong':'đang chạy '+esc(s.revivePass)} · ${(s.reviveSet||0).toLocaleString('vi-VN')} quái</td></tr>`+
+`<tr><td>Bản đồ có người chơi</td><td>${hot.length?hot.join(', '):'<span class="muted">không có</span>'}</td></tr></table>`}
+function renderMdMaps(){const maps=(mdData&&mdData.maps)||[];
+$('mdMaps').innerHTML=maps.map(m=>`<tr><td><input type="checkbox" data-md="${m.id}" style="width:auto" ${mdPick.has(m.id)?'checked':''}></td><td>${esc(m.name)} <span class="muted">(${m.id})</span>${m.hot?' <span class="tag OK">có người chơi</span>':''}</td><td>${m.seeds}</td><td><b>${m.extras}</b>${m.alloc<m.want?' <span class="muted">/ phần '+m.alloc+'</span>':''}</td><td>${m.want}</td><td>${m.scope?mdRv(m.revive):'<span class="muted">ngoài phạm vi</span>'}</td></tr>`).join('');
+$('mdAllChk').checked=maps.length>0&&maps.every(m=>mdPick.has(m.id))}
+async function loadMatDo(){try{const j=await api('/api/matdo');mdData=j;
+if(!mdFormLoaded){const c=j.config||{};$('mdDensity').value=String(c.density??20);const r=+(c.revive??10);
+if([0,5,10,15,30].includes(r)){$('mdReviveSel').value=String(r);$('mdRevive').style.display='none'}else{$('mdReviveSel').value='c';$('mdRevive').value=r;$('mdRevive').style.display=''}
+document.querySelectorAll('input[name=mdScope]').forEach(x=>x.checked=(x.value==='all')===(c.all!==false));mdPick=new Set((c.maps||[]).map(Number));mdFormLoaded=true}
+renderMdStatus();renderMdMaps()}catch(e){$('mdStatus').innerHTML='<p class="muted">'+esc(/not found/i.test(e.message)?'Web admin đang chạy bản cũ, chưa có tính năng này: hãy đóng cửa sổ web admin rồi mở lại, sau đó bấm F5.':e.message)+'</p>'}}
+$('mdReviveSel').onchange=()=>{$('mdRevive').style.display=$('mdReviveSel').value==='c'?'':'none'};
+$('mdMaps').onchange=e=>{const id=e.target.dataset&&e.target.dataset.md;if(!id)return;if(e.target.checked)mdPick.add(+id);else mdPick.delete(+id);$('mdAllChk').checked=((mdData&&mdData.maps)||[]).every(m=>mdPick.has(m.id))};
+$('mdAllChk').onchange=()=>{const maps=(mdData&&mdData.maps)||[];mdPick=new Set($('mdAllChk').checked?maps.map(m=>m.id):[]);renderMdMaps()};
+function mdBody(off){const all=document.querySelector('input[name=mdScope]:checked').value==='all';
+return off?{type:'matdo',density:10,revive:0,all:true,maps:[...mdPick]}:{type:'matdo',density:+$('mdDensity').value,revive:mdRevive(),all,maps:[...mdPick]}}
+$('btnMdApply').onclick=async()=>{const b=mdBody(false);if(!b.all&&!b.maps.length){toast('Hãy đánh dấu ít nhất một bản đồ, hoặc chọn “Mọi bản đồ có quái”.',true);return}await run(()=>api('/api/action',b));loadMatDo()};
+$('btnMdOff').onclick=async()=>{if(!confirm('Gỡ toàn bộ quái thêm và trả thời gian hồi về mặc định (Npcs.txt)?'))return;$('mdDensity').value='10';$('mdReviveSel').value='0';$('mdRevive').style.display='none';
+document.querySelectorAll('input[name=mdScope]').forEach(x=>x.checked=x.value==='all');await run(()=>api('/api/action',mdBody(true)));loadMatDo()};
+document.querySelector('#tabs [data-t=matdo]').addEventListener('click',()=>loadMatDo());
+setInterval(()=>{if($('matdo').classList.contains('on'))loadMatDo()},30000);
+function renderPresets(){const pf=$('mxProf').value,ok=x=>pf===''||x.prof<0||String(x.prof)===pf;const groups={};
+  presetData.presets.filter(ok).forEach(p=>{(groups[p.group]=groups[p.group]||[]).push(p)});
+  $('mxPresets').innerHTML=Object.keys(groups).map(g=>`<h2 style="font-size:13px;margin:14px 0 6px">${esc(g.replace(/Vu khi/,'Vũ khí').replace(/Thu cuoi/,'Thú cưỡi').replace(/Phap bao/,'Pháp bảo').replace(/o Ngoc boi/,'ô Ngọc bội').replace(/chi so cuong hoa co san, khong co sao/,'chỉ số cường hóa có sẵn, không có sao'))}</h2>`+groups[g].map(p=>`<div style="display:flex;justify-content:space-between;gap:8px;padding:4px 0;border-bottom:1px solid var(--line)"><span>${esc(p.name)} <span class="muted">${p.prof>=0?'· '+PROF[p.prof]:''}${p.req?' · cấp '+p.req:''}</span></span><button class="btn small" data-mk="${esc(p.key)}">Phát</button></div>`).join('')).join('')||'<p class="muted">Không có mẫu phù hợp.</p>';
+  $('mxTalis').innerHTML=presetData.talismans.filter(ok).map(t=>`<div data-mk="${esc(t.key)}"><span>${esc(t.name)}</span><small>${t.prof>=0?PROF[t.prof]+' · ':''}cấp ${t.req}</small></div>`).join('');
+  renderLv('mxIns','mxInsLv',presetData.instruments||[]);
+  $('mxSig').innerHTML=(presetData.signets||[]).map(r=>`<div data-mk="${esc(r.key)}"><span>${esc(r.name)}</span><small>cấp ${r.ilv}${r.req?' · yêu cầu cấp '+r.req:''} · mã ${r.part}</small></div>`).join('')||'<p class="muted">Chưa có dữ liệu — cần cài ptfix.pak bản 6.</p>'}
+function renderLv(listId,selId,rows){const sel=$(selId),lvs=[...new Set(rows.map(r=>r.ilv))].sort((a,b)=>a-b);
+  if(sel.options.length!==lvs.length){const cur=sel.value;sel.innerHTML=lvs.map(l=>`<option value="${l}">Cấp ${l}</option>`).join('');sel.value=lvs.includes(+cur)?cur:String(lvs[lvs.length-1]||'')}
+  const lv=+sel.value;$(listId).innerHTML=rows.filter(r=>r.ilv===lv).map(r=>`<div data-mk="${esc(r.key)}"><span>${esc(r.name)}</span><small>cấp ${r.ilv}${r.req?' · yêu cầu cấp '+r.req:''} · mã ${r.part}</small></div>`).join('')||'<p class="muted">Chưa có dữ liệu — cần cài ptfix.pak bản 6 (dừng server, chạy PhongThan-ChayTatCa.cmd).</p>'}
+$('mxInsLv').onchange=renderPresets;
+function fillPresetPlayers(){const cur=$('mxPlayer').value;$('mxPlayer').innerHTML='<option value="">— chọn nhân vật —</option>'+online.map(p=>`<option value="${esc(p.name)}" ${p.name===cur?'selected':''}>${esc(p.name)}${p.prof>=0?' ('+PROF[p.prof]+', cấp '+p.level+')':''}</option>`).join('')}
+$('mxPlayer').onchange=()=>{const p=online.find(x=>x.name===$('mxPlayer').value);if(p&&p.prof>=0)$('mxProf').value=String(p.prof);renderPresets()};
+$('mxProf').onchange=renderPresets;
+function givePreset(e){const d=e.target.closest('[data-mk]');if(!d)return;const pl=$('mxPlayer').value;if(!pl){toast('Hãy chọn nhân vật đang online.',true);return}
+  run(()=>api('/api/action',{type:'give',itemKey:d.dataset.mk,player:pl,count:1}))}
+$('mxPresets').onclick=givePreset;$('mxTalis').onclick=givePreset;$('mxIns').onclick=givePreset;$('mxSig').onclick=givePreset;
+
+// npcs
+async function searchNpcs(){const j=await api(`/api/npcs?q=${encodeURIComponent($('npcQ').value)}&kind=${$('npcKind').value}`);
+  $('npcList').innerHTML=j.npcs.map(n=>`<div data-i="${n.id}" data-n="${esc(n.name)}"><span>${esc(n.name)}</span><small>mã ${n.id}${n.kind===0?' · quái':n.kind===3?' · NPC':''}</small></div>`).join('')||'<div class="muted">Không có kết quả</div>'}
+$('npcQ').oninput=debounce(()=>run(searchNpcs),250);$('npcKind').onchange=()=>run(searchNpcs);
+$('npcList').onclick=e=>{const d=e.target.closest('[data-i]');if(!d)return;pickedNpc={id:+d.dataset.i,name:d.dataset.n};$('npcPicked').textContent=`${pickedNpc.name}  —  mã ${pickedNpc.id}`};
+function syncSpawn(){const m=$('spawnMode').value==='map';$('spawnMapBox').style.display=m?'':'none';$('spawnPlayerBox').style.display=m?'none':''}
+$('spawnMode').onchange=syncSpawn;
+$('btnSpawn').onclick=()=>run(()=>{if(!pickedNpc)throw new Error('Hãy chọn mẫu quái/NPC trước.');
+  return api('/api/action',{type:'spawn',npc:pickedNpc.id,level:+$('npcLevel').value,count:+$('npcCount').value,mode:$('spawnMode').value,player:$('spawnPlayer').value.trim(),map:+$('spawnMap').value,x:+$('spawnX').value,y:+$('spawnY').value})});
+$('btnClear').onclick=()=>{if(confirm('Xóa tất cả boss/NPC đã tạo từ web kể từ lần bật server gần nhất?'))run(()=>api('/api/action',{type:'clear'}))};
+$('btnNews').onclick=()=>run(()=>api('/api/action',{type:'news',text:$('newsText').value}));
+
+// events
+const DAYS=['CN','T2','T3','T4','T5','T6','T7'];
+$('evDays').innerHTML=DAYS.map((d,i)=>`<label><input type="checkbox" value="${i}">${d}</label>`).join('');
+function actionRow(a){const t=a.type,div=document.createElement('div');div.className='act';div.dataset.type=t;
+  let h=`<div class="row" style="align-items:center"><b>${TYPES[t]}</b><button class="btn alt small" style="flex:0" data-rm>Xóa</button></div>`;
+  if(t==='news')h+=`<label>Nội dung</label><input data-f="text" value="${esc(a.text||'')}">`;
+  if(t==='giveall')h+=`<div class="row"><div><label>Mã vật phẩm (Nhóm|Mã)</label><input data-f="itemKey" value="${esc(a.itemKey||(pickedItem?pickedItem.key:''))}"></div><div><label>Số lượng</label><input data-f="count" type="number" value="${a.count||1}"></div></div>`;
+  if(t==='spawn'){const mo=maps.map(m=>`<option value="${m.id}" ${+a.map===m.id?'selected':''}>${esc(m.name)} (${m.id})</option>`).join('');
+    h+=`<div class="row"><div><label>Mã quái</label><input data-f="npc" type="number" value="${a.npc??(pickedNpc?pickedNpc.id:'')}"></div><div><label>Cấp</label><input data-f="level" type="number" value="${a.level||50}"></div><div><label>Số lượng</label><input data-f="count" type="number" value="${a.count||1}"></div></div>
+    <div class="row"><div><label>Bản đồ</label><select data-f="map">${mo}</select></div><div><label>X</label><input data-f="x" type="number" value="${a.x||''}"></div><div><label>Y</label><input data-f="y" type="number" value="${a.y||''}"></div></div>`}
+  div.innerHTML=h;div.querySelector('[data-rm]').onclick=()=>div.remove();$('evActions').appendChild(div)}
+document.querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>actionRow({type:b.dataset.add}));
+function collectEvent(){const acts=[...$('evActions').children].map(d=>{const a={type:d.dataset.type};if(a.type==='spawn')a.mode='map';
+    d.querySelectorAll('[data-f]').forEach(f=>{a[f.dataset.f]=f.type==='number'||f.tagName==='SELECT'&&f.dataset.f==='map'?+f.value:f.value});return a});
+  return{id:$('evId').value||null,name:$('evName').value.trim(),time:$('evTime').value,enabled:$('evEnabled').checked,days:[...$('evDays').querySelectorAll('input:checked')].map(i=>+i.value),actions:acts}}
+function resetEvent(){$('evId').value='';$('evName').value='';$('evTime').value='20:00';$('evEnabled').checked=true;$('evDays').querySelectorAll('input').forEach(i=>i.checked=false);$('evActions').innerHTML='';$('evTitle').textContent='Tạo sự kiện mới'}
+$('btnNewEvent').onclick=resetEvent;
+$('btnSaveEvent').onclick=()=>run(async()=>{const e=collectEvent();if(!e.actions.length)throw new Error('Thêm ít nhất 1 hành động.');const j=await api('/api/events',e);resetEvent();loadEvents();return j});
+async function loadEvents(){const j=await api('/api/events');events=j.events||[];
+  $('eventList').innerHTML=events.length?'<table><thead><tr><th>Sự kiện</th><th>Giờ</th><th>Ngày</th><th>Hành động</th><th></th></tr></thead><tbody>'+events.map(e=>`<tr><td><b>${esc(e.name)}</b><br><span class="tag ${e.enabled?'OK':''}">${e.enabled?'Bật':'Tắt'}</span> <span class="muted">${e.lastRun?'chạy '+esc(e.lastRun):''}</span></td><td>${esc(e.time)}</td><td>${(e.days||[]).length?(e.days||[]).map(d=>DAYS[d]).join(', '):'Mỗi ngày'}</td><td>${(e.actions||[]).map(a=>TYPES[a.type]).join(', ')}</td><td style="white-space:nowrap"><button class="btn alt small" data-run="${e.id}">Chạy ngay</button> <button class="btn alt small" data-edit="${e.id}">Sửa</button> <button class="btn alt small" data-del="${e.id}">Xóa</button></td></tr>`).join('')+'</tbody></table>':'<p class="muted">Chưa có sự kiện.</p>'}
+$('eventList').onclick=e=>{const d=e.target.dataset;
+  if(d.run)run(()=>api('/api/events/run',{id:d.run}));
+  if(d.del&&confirm('Xóa sự kiện này?'))run(async()=>{const j=await api('/api/events/delete',{id:d.del});loadEvents();return j});
+  if(d.edit){const ev=events.find(x=>x.id===d.edit);resetEvent();$('evTitle').textContent='Sửa sự kiện';$('evId').value=ev.id;$('evName').value=ev.name;$('evTime').value=ev.time;$('evEnabled').checked=!!ev.enabled;
+    (ev.days||[]).forEach(x=>{const i=$('evDays').querySelector(`input[value="${x}"]`);if(i)i.checked=true});(ev.actions||[]).forEach(actionRow)}};
+
+// accounts
+async function loadAccounts(){await run(async()=>{const j=await api('/api/accounts');const a=j.accounts||[];
+  $('accBody').innerHTML=a.map(x=>`<tr><td><b>${esc(x.account)}</b></td><td>${esc(x.registered)}</td><td>${esc(x.lastLogin||'')}</td><td>${esc(x.extPoint??'')}</td></tr>`).join('');
+  $('accNames').innerHTML=a.map(x=>`<option value="${esc(x.account)}">`).join('');
+  const c=await api('/api/characters');$('charList').innerHTML=(c.characters||[]).map(x=>`<span class="tag" title="lưu ${esc(x.saved)}">${esc(x.name)}</span>`).join(' ')||'Không có'})}
+$('btnAccCreate').onclick=()=>run(async()=>{const j=await api('/api/account',{op:'create',account:$('accNew').value.trim(),password:$('accNewPw').value});$('accNewPw').value='';loadAccounts();return j});
+$('btnAccPw').onclick=()=>run(async()=>{const j=await api('/api/account',{op:'password',account:$('accPwName').value.trim(),password:$('accPw').value,alsoSecond:$('accPwSecond').checked});$('accPw').value='';return j});
+$('btnAccXu').onclick=()=>run(async()=>{const j=await api('/api/account',{op:'extpoint',account:$('accXuName').value.trim(),value:+$('accXu').value});loadAccounts();return j});
+
+// 2026-10-04 adminops: Sức khỏe server (A1, /api/health + /api/logtail), Sao lưu & khôi phục (A2 /api/rollback*, A3 /api/charbackup*), Tổ đội bot (C4, /api/botparty)
+const fmtB=n=>n>=1048576?(n/1048576).toFixed(1).replace('.',',')+' MB':n>=1024?Math.round(n/1024)+' KB':(n||0)+' B';
+const fmtDur=s=>{if(s<0)return '—';const d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60);return (d?d+' ngày ':'')+(d||h?h+' giờ ':'')+m+' phút'};
+const okTag=(v,yes,no)=>v==null?'<span class="muted">—</span>':v?`<span class="tag OK">${yes}</span>`:`<span class="tag FAIL">${no}</span>`;
+function adminOpsOld(e){return /not found/i.test(e.message)?'Web admin đang chạy bản cũ, chưa có tính năng này: hãy đóng cửa sổ web admin rồi mở lại, sau đó bấm F5.':e.message}
+let hlLogKey='';
+async function loadHealth(){try{const h=await api('/api/health');
+  $('hlStamp').textContent='(cập nhật '+h.now+')';
+  const hbOk=h.heartbeatAgeSec>=0&&h.heartbeatAgeSec<150,n=h.npc||{};
+  const pct=n.count!=null?Math.min(100,n.count*100/n.limit):0,col=pct>=95?'var(--bad)':pct>=85?'var(--warn)':'var(--ok)';
+  $('hlMain').innerHTML='<table>'+
+    `<tr><td>GameServer</td><td>${h.gameServer?'<span class="tag OK">Đang chạy</span> từ '+esc(h.startTime)+' · đã chạy <b>'+fmtDur(h.uptimeSec)+'</b>':'<span class="tag FAIL">Không chạy</span>'}</td></tr>`+
+    `<tr><td>Tiến trình</td><td>${(h.processes||[]).map(p=>esc(String(p.name).replace(/\.exe$/i,''))+' <span class="muted">(PID '+p.pid+')</span>').join(', ')||'<span class="muted">không có</span>'}</td></tr>`+
+    `<tr><td>Nhịp cầu nối</td><td>${h.heartbeat?(hbOk?'<span class="tag OK">Bình thường</span>':'<span class="tag FAIL">Chậm</span>')+' '+esc(h.heartbeat)+' <span class="muted">('+h.heartbeatAgeSec+' giây trước)</span>':'<span class="muted">chưa có</span>'}</td></tr>`+
+    `<tr><td>Nhân vật online</td><td><b>${h.online}</b>${(h.players||[]).length?' · '+h.players.map(esc).join(', '):''}${h.onlineStamp?' <span class="muted">('+esc(h.onlineStamp)+')</span>':''}</td></tr>`+
+    `<tr><td>Số NPC</td><td>${n.count!=null?`<b>${n.count.toLocaleString('vi-VN')}</b> / ${n.limit.toLocaleString('vi-VN')} giới hạn engine (${pct.toFixed(1).replace('.',',')}%)${n.cap?' · trần mật độ '+n.cap.toLocaleString('vi-VN'):''}${n.limitSrc==='default'?' <span class="muted">(mặc định, chưa đọc được từ matdo.txt)</span>':''}<div style="height:8px;background:var(--chip);border-radius:4px;margin-top:4px"><div style="height:8px;width:${pct}%;background:${col};border-radius:4px"></div></div><span class="muted">ghi lúc ${esc(n.stamp)}${n.ageSec>150?'</span> <span style="color:var(--bad)">— cũ hơn 2 phút':''}</span>`:'<span class="muted">chưa có matdo.txt</span>'}</td></tr></table>`;
+  const t=h.tickError||{};
+  $('hlTick').innerHTML=!t.exists?'<span class="tag OK">Không có lỗi</span> <span class="muted">(chưa có file tick_error.log)</span>':
+    `<table><tr><td>Từ khi GameServer khởi động</td><td>${h.gameServer?(t.sinceStart?'<span class="tag FAIL">'+t.sinceStart+' dòng</span>':'<span class="tag OK">0 dòng</span>'):'<span class="muted">GameServer không chạy</span>'}</td></tr><tr><td>Trong 1 giờ qua</td><td>${t.lastHour}</td></tr><tr><td>Tổng</td><td>${t.lines} dòng · ${fmtB(t.size)} · sửa lúc ${esc(t.date)}</td></tr>${t.last?'<tr><td>Dòng cuối</td><td><code style="white-space:pre-wrap;word-break:break-all">'+esc(t.last)+'</code></td></tr>':''}</table>`;
+  const bin=rows=>rows.map(b=>b.exists?`<tr><td>${esc(b.name)}</td><td>${esc(b.build||'—')}</td><td>${esc(b.date)}</td><td>${fmtB(b.size)}</td><td>${okTag(b.receiptOk,'Khớp','Lệch')}</td></tr>`:`<tr><td>${esc(b.name)}</td><td colspan="4" class="muted">không có file</td></tr>`).join('');
+  $('hlVer').innerHTML='<table><thead><tr><th>ptfix.pak</th><th>Ngày</th><th>Dung lượng</th><th>MD5</th><th>Khớp receipt</th></tr></thead><tbody>'+
+    (h.paks||[]).map(p=>p.exists?`<tr><td>${esc(String(p.label).replace(' (cho cai)',' (chờ cài)'))}</td><td>${esc(p.date)}</td><td>${fmtB(p.size)} <span class="muted">(${p.size.toLocaleString('vi-VN')} byte)</span></td><td><code>${esc(p.md5)}</code></td><td>${okTag(p.receiptOk,'Khớp','Lệch')}</td></tr>`:`<tr><td>${esc(p.label)}</td><td colspan="4" class="muted">không có file</td></tr>`).join('')+'</tbody></table>'+
+    `<div class="grid" style="margin-top:12px"><div><table><thead><tr><th>Server</th><th>Ngày build</th><th>Ngày file</th><th>Dung lượng</th><th>Receipt</th></tr></thead><tbody>${bin(h.serverBins||[])}</tbody></table></div>`+
+    `<div><table><thead><tr><th>Client</th><th>Ngày build</th><th>Ngày file</th><th>Dung lượng</th><th>Receipt</th></tr></thead><tbody>${bin(h.clientBins||[])}</tbody></table></div></div>`+(h.receipt?'':'<p class="hint">Không đọc được NATIVE_DEPLOYMENT.json.</p>');
+  $('hlLogBtns').innerHTML=(h.logs||[]).map(l=>`<div style="flex:0 0 auto"><button class="btn ${l.key===hlLogKey?'':'alt'} small" data-log="${esc(l.key)}">${esc(l.file)}</button> <span class="muted" style="font-size:12px">${l.exists?fmtB(l.size)+' · '+esc(l.date):'chưa có'}</span></div>`).join('');
+  if(hlLogKey)loadLog(hlLogKey,true);
+}catch(e){$('hlMain').innerHTML='<p class="muted">'+esc(adminOpsOld(e))+'</p>'}}
+async function loadLog(key,quiet){hlLogKey=key;try{const j=await api('/api/logtail?name='+encodeURIComponent(key)+'&n=200');const pre=$('hlLog');
+  const atBottom=pre.style.display==='none'||pre.scrollTop+pre.clientHeight>=pre.scrollHeight-20;pre.style.display='';
+  pre.textContent=j.exists?(j.lines||[]).join('\n'):'(chưa có file)';
+  $('hlLogInfo').textContent=j.exists?`${j.file}: ${(j.lines||[]).length} dòng cuối · ${fmtB(j.size)} · sửa lúc ${j.date}`:j.file+': chưa có file';
+  if(!quiet||atBottom)pre.scrollTop=pre.scrollHeight;
+  document.querySelectorAll('#hlLogBtns [data-log]').forEach(b=>b.classList.toggle('alt',b.dataset.log!==key))}catch(e){toast(adminOpsOld(e),true)}}
+$('hlLogBtns').onclick=e=>{const k=e.target.dataset&&e.target.dataset.log;if(k)loadLog(k)};
+document.querySelector('#tabs [data-t=health]').addEventListener('click',()=>loadHealth());
+setInterval(()=>{if($('health').classList.contains('on'))loadHealth()},30000);
+// A2 + A3: two-step confirm = confirm() with the file list, then type the 4-digit code returned by .../prepare
+const RBK={'server-deploy':'Server','client-deploy':'Client','ptfix':'ptfix.pak'};
+const CBR={'mo web admin':'Mở web admin','tu dong 24 gio':'Tự động 24 giờ','bam Sao luu ngay':'Bấm “Sao lưu ngay”'};
+let rbData=[];
+function cbDb(s){if(!s)return '—';if(s==='ok')return 'Có';if(/^bo qua/.test(s))return 'Bỏ qua (LocalDB đang tắt)';return 'Lỗi: '+s.replace(/^loi: /,'')}
+function loadBackups(){loadCharBackups();loadRollback()}
+async function loadCharBackups(){try{const j=await api('/api/charbackup');
+  $('cbInfo').innerHTML=`Lần sao lưu gần nhất (từ khi mở web admin): <b>${esc(j.last||'chưa có')}</b>${j.next?' · lần tự động tới: '+esc(j.next):''} · giữ ${j.keep} ngày gần nhất`;
+  $('cbBody').innerHTML=(j.backups||[]).map(b=>`<tr><td><b>${esc(b.date)}</b></td><td>${esc(b.time)}</td><td>${esc(CBR[b.reason]||b.reason)}</td><td>${b.chars.length} <span class="muted">(${b.chars.map(c=>esc(c.name)).join(', ')})</span></td><td>${b.hasDb?'<span class="tag OK">Có</span>':'<span class="muted">'+esc(cbDb(b.db))+'</span>'}</td><td>${fmtB(b.bytes)}</td><td style="white-space:nowrap"><select data-cbsel="${esc(b.date)}" style="width:auto;max-width:170px;padding:4px"><option value="*">Tất cả nhân vật</option>${b.chars.map(c=>`<option value="${esc(c.file)}">${esc(c.name)}</option>`).join('')}</select> <button class="btn alt small" data-cbres="${esc(b.date)}">Khôi phục…</button></td></tr>`).join('')||'<tr><td colspan="7" class="muted">Chưa có bản sao lưu nào.</td></tr>'
+}catch(e){$('cbInfo').textContent=adminOpsOld(e)}}
+$('btnCbRun').onclick=async()=>{$('btnCbRun').disabled=true;await run(()=>api('/api/charbackup/run',{}));$('btnCbRun').disabled=false;loadBackups()};
+$('cbBody').onclick=async e=>{const d=e.target.dataset&&e.target.dataset.cbres;if(!d)return;const sel=document.querySelector(`[data-cbsel="${d}"]`),file=sel?sel.value:'*';
+  try{const p=await api('/api/charbackup/prepare',{date:d,file});
+    if(!confirm(`Bước 1/2 — Khôi phục nhân vật từ bản sao lưu ngày ${d}:\n\n${p.files.map(f=>'• '+f).join('\n')}\n\nFile nhân vật hiện tại sẽ được sao lưu trước khi ghi đè. Tiếp tục?`))return;
+    const c=prompt(`Bước 2/2 — Gõ mã xác nhận ${p.code} để khôi phục:`);if(c===null)return;
+    const r=await api('/api/charbackup/restore',{date:d,file,code:c.trim()});toast(r.message);loadBackups()}catch(err){toast(adminOpsOld(err),true)}};
+async function loadRollback(){try{const j=await api('/api/rollback');rbData=j.backups||[];const runp=j.running||[];
+  $('rbState').innerHTML=runp.length?`<p><span class="tag FAIL">Đang chạy: ${runp.map(esc).join(', ')}</span> — tắt hết rồi mới khôi phục được.</p>`:'<p><span class="tag OK">GameServer, Bishop, Game đều đã tắt</span> — có thể khôi phục.</p>';
+  renderRollback();
+  $('opsLog').innerHTML=(j.log||[]).length?'<table>'+j.log.slice().reverse().map(l=>`<tr><td style="white-space:nowrap">${esc(l.time)}</td><td style="white-space:nowrap">${esc(l.action)}</td><td>${esc(l.text)}</td></tr>`).join('')+'</table>':'Chưa có thao tác nào.'}catch(e){$('rbState').textContent=adminOpsOld(e)}}
+function renderRollback(){const k=$('rbKind').value;
+  $('rbBody').innerHTML=rbData.filter(b=>!k||b.kind===k).map(b=>`<tr><td style="white-space:nowrap"><b>${esc(b.time)}</b><br><span class="muted" style="font-size:12px">${esc(b.name)}</span></td><td>${esc(RBK[b.kind]||b.kind)}${/^rollback/.test(b.tag)?' <span class="tag">trước khi khôi phục</span>':b.tag==='core'?' <span class="tag">chỉ CoreServer</span>':''}${b.same?' <span class="tag OK">giống bản đang dùng</span>':''}</td><td style="font-size:12.5px">${b.files.map(f=>`${esc(f.label)} <span class="muted">${f.build?'build '+esc(f.build):esc(f.date)} · ${fmtB(f.size)}${f.same?' · giống hiện tại':''}</span>`).join('<br>')}</td><td><button class="btn alt small" data-rb="${esc(b.name)}">Khôi phục…</button></td></tr>`).join('')||'<tr><td colspan="4" class="muted">Không có bản sao lưu.</td></tr>'}
+$('rbKind').onchange=renderRollback;$('btnRbReload').onclick=loadRollback;
+$('rbBody').onclick=async e=>{const n=e.target.dataset&&e.target.dataset.rb;if(!n)return;
+  try{const p=await api('/api/rollback/prepare',{name:n});
+    if(!confirm(`Bước 1/2 — Quay về bản ${n} (${RBK[p.kind]||p.kind}). Các file sẽ bị ghi đè:\n\n${p.files.map(f=>'• '+f).join('\n')}\n\nBản đang dùng sẽ được sao lưu trước. Tiếp tục?`))return;
+    const c=prompt(`Bước 2/2 — Gõ mã xác nhận ${p.code} để khôi phục:`);if(c===null)return;
+    const r=await api('/api/rollback/run',{name:n,code:c.trim()});toast(r.message);loadRollback()}catch(err){toast(adminOpsOld(err),true);loadRollback()}};
+document.querySelector('#tabs [data-t=backups]').addEventListener('click',()=>loadBackups());
+// C4 bot party: admin_bridge\botparty_config.lua read by party.lua PTBPC_Load
+const BPCLS=['Giáp Sĩ','Đạo Sĩ','Dị Nhân'],BPMODE=['Theo trong game','Luôn bật','Luôn tắt'];
+let bpData=null,bpChars=[],bpLoaded=false;
+// same order as party.lua PTBPC_Class (smooth weighted round robin): class of party slot 1..n
+function bpClasses(n,w){const W=w[0]+w[1]+w[2];if(!W)return [];const cur=[0,0,0],r=[];for(let s=0;s<n;s++){for(let c=0;c<3;c++)cur[c]+=w[c];let b=0;for(let c=1;c<3;c++)if(cur[c]>cur[b])b=c;cur[b]-=W;r.push(b)}return r}
+function bpW(){return [$('bpGs'),$('bpDs'),$('bpDn')].map(x=>Math.min(10,Math.max(0,+x.value||0)))}
+function bpMix(){const w=bpW(),def=(bpData&&bpData.partyCount)||4,n=+$('bpCount').value||def,cl=bpClasses(n,w);
+  $('bpMix').innerHTML=cl.length?`Với ${n} bot: `+[0,1,2].map(c=>{const k=cl.filter(x=>x===c).length;return k?`<b>${k}</b> ${BPCLS[c]}`:''}).filter(Boolean).join(', ')+`. Thứ tự gọi: ${cl.map(c=>BPCLS[c]).join(' → ')}.`:'Trộn phái theo danh sách tên bot như trước (mỗi người chơi một tổ hợp khác nhau).';
+  const o=Math.min(20,Math.max(-20,+$('bpLvOff').value||0)),sp=Math.min(5,Math.max(0,+$('bpLvSp').value||0));
+  $('bpLvHint').textContent=`Ví dụ người chơi cấp 90 → bot cấp ${Math.max(1,90+o-sp)}–${90+o+sp}. Cấp bot quyết định cấp chiêu: dưới 90 là cấp 10, từ 90 cứ 3 cấp thêm 1 (tối đa 20).`}
+function bpOnline(n){const p=((bpData&&bpData.online)||[]).find(x=>String(x.name).toLowerCase()===n.toLowerCase());return p?` <span class="tag OK">online</span> <span class="muted">cấp ${esc(p.level)} · ${esc(p.mapName)}</span>`:''}
+function renderBpChars(){$('bpChars').innerHTML=bpChars.map((c,i)=>`<tr data-i="${i}"><td><b>${esc(c.name)}</b>${bpOnline(c.name)}</td><td><select data-f="mode">${BPMODE.map((m,k)=>`<option value="${k}" ${+c.mode===k?'selected':''}>${m}</option>`).join('')}</select></td><td><select data-f="count"><option value="0">Theo cài đặt chung</option>${[1,2,3,4,5,6,7].map(k=>`<option ${+c.count===k?'selected':''}>${k}</option>`).join('')}</select></td><td><button class="btn alt small" data-del="${i}">Xóa</button></td></tr>`).join('')||'<tr><td colspan="4" class="muted">Chưa có nhân vật nào cài riêng.</td></tr>'}
+function renderBpStatus(){const s=(bpData&&bpData.status)||{};
+  $('bpStamp').textContent=s.stamp?'(server ghi lúc '+s.stamp+')':'';
+  $('bpCount').options[0].text=`Theo lựa chọn ở NPC “Hỗ Trợ Tổ Đội” (mặc định ${bpData.partyCount??4})`;
+  $('bpStatus').innerHTML=`<table><tr><td>Tự động tổ đội bot (thẻ Bot)</td><td>${bpData.party!==false?'<span class="tag OK">Bật</span>':'<span class="tag FAIL">Tắt</span>'} · mặc định ${bpData.partyCount??4} bot</td></tr>`+
+    (s.party==null?'':`<tr><td>Trên server</td><td><b>${s.partyAlive}</b> bot trong tổ đội của ${s.partyPlayers} người chơi</td></tr>`)+
+    `<tr><td>File cấu hình</td><td>${bpData.fileExists?'đã có <code>botparty_config.lua</code>':'<span class="muted">chưa có (server dùng hành vi cũ)</span>'}</td></tr></table>`}
+async function loadBotParty(){try{const j=await api('/api/botparty');bpData=j;
+  if(!bpLoaded){const c=j.config||{};$('bpCount').value=String(c.count||0);$('bpGs').value=c.gs||0;$('bpDs').value=c.ds||0;$('bpDn').value=c.dn||0;$('bpLvOff').value=c.lvoff||0;$('bpLvSp').value=c.lvspread??2;bpChars=(c.chars||[]).map(x=>({name:x.name,mode:x.mode||0,count:x.count||0}));bpLoaded=true}
+  $('bpNames').innerHTML=[...new Set([...(j.online||[]).map(p=>p.name),...(j.characters||[])])].map(n=>`<option value="${esc(n)}">`).join('');
+  renderBpChars();renderBpStatus();bpMix()}catch(e){$('bpStatus').innerHTML='<p class="muted">'+esc(adminOpsOld(e))+'</p>'}}
+['bpGs','bpDs','bpDn','bpLvOff','bpLvSp'].forEach(id=>$(id).oninput=bpMix);$('bpCount').onchange=bpMix;
+$('bpChars').onchange=e=>{const tr=e.target.closest('tr[data-i]'),f=e.target.dataset.f;if(!tr||!f)return;bpChars[+tr.dataset.i][f]=+e.target.value||0};
+$('bpChars').onclick=e=>{const d=e.target.dataset&&e.target.dataset.del;if(d===undefined)return;bpChars.splice(+d,1);renderBpChars()};
+$('btnBpAdd').onclick=()=>{const n=$('bpNew').value.trim();if(!n){toast('Nhập tên nhân vật.',true);return}if(bpChars.some(c=>c.name.toLowerCase()===n.toLowerCase())){toast('Nhân vật đã có trong danh sách.',true);return}if(bpChars.length>=50){toast('Tối đa 50 nhân vật.',true);return}bpChars.push({name:n,mode:1,count:0});$('bpNew').value='';renderBpChars()};
+$('btnBpApply').onclick=async()=>{const w=bpW();await run(()=>api('/api/botparty',{count:+$('bpCount').value||0,gs:w[0],ds:w[1],dn:w[2],lvoff:Math.min(20,Math.max(-20,+$('bpLvOff').value||0)),lvspread:Math.min(5,Math.max(0,+$('bpLvSp').value||0)),chars:bpChars}));bpLoaded=false;loadBotParty()};
+document.querySelector('#tabs [data-t=botparty]').addEventListener('click',()=>loadBotParty());
+setInterval(()=>{if($('botparty').classList.contains('on'))loadBotParty()},30000);
+// 2026-10-04 adminops: Quản lý nhân vật (xóa mềm / khôi phục, /api/chars*)
+const CHPROF=['Giáp Sĩ','Đạo Sĩ','Dị Nhân'];
+async function loadChars(){try{const j=await api('/api/chars');
+  $('chState').innerHTML=j.server?(j.onlineAgeSec>=0&&j.onlineAgeSec<=150?'<p><span class="tag OK">GameServer đang chạy</span> — danh sách online cập nhật '+j.onlineAgeSec+' giây trước; chỉ xóa được nhân vật không online.</p>':'<p><span class="tag FAIL">GameServer đang chạy nhưng danh sách online đã cũ</span> — chưa xóa được (chờ cầu nối chạy hoặc tắt server).</p>'):'<p><span class="tag OK">GameServer đang tắt</span> — xóa / khôi phục an toàn.</p>';
+  $('chBody').innerHTML=(j.characters||[]).map(c=>`<tr><td><b>${esc(c.name)}</b><br><span class="muted" style="font-size:12px">${esc(c.file)}</span></td><td>${esc(c.account)}</td><td>${c.level}</td><td>${esc(CHPROF[c.prof]||'—')}</td><td>${esc(c.saved)}</td><td>${c.online?'<span class="tag OK">online</span>':''}${c.ok?'':' <span class="tag FAIL">file lỗi checksum</span>'}</td><td>${c.ok&&!c.online?`<button class="btn alt small" data-chdel="${esc(c.file)}">Xóa…</button>`:''}</td></tr>`).join('')||'<tr><td colspan="7" class="muted">Không có nhân vật.</td></tr>';
+  $('chTrash').innerHTML=(j.trash||[]).map(t=>`<tr><td>${esc(t.deleted)}</td><td><b>${esc(t.name)}</b></td><td>${esc(t.account)}</td><td>${t.level}</td><td>${t.restored?'<span class="tag OK">đã khôi phục '+esc(t.restored)+'</span>':t.exists?'<span class="tag">đang có trong game</span>':'<span class="muted">trong thùng rác</span>'}</td><td>${t.exists?'':`<button class="btn alt small" data-chund="${esc(t.folder)}">Khôi phục…</button>`}</td></tr>`).join('')||'<tr><td colspan="6" class="muted">Thùng rác trống.</td></tr>'
+}catch(e){$('chState').textContent=adminOpsOld(e)}}
+$('chBody').onclick=async e=>{const f=e.target.dataset&&e.target.dataset.chdel;if(!f)return;
+  try{const p=await api('/api/chars/delete/prepare',{file:f});
+    if(!confirm(`Bước 1/2 — Xóa nhân vật "${p.name}" (tài khoản ${p.account}, cấp ${p.level}, ${CHPROF[p.prof]||''})?\n\nFile nhân vật được chuyển vào thùng rác _backup\\characters\\deleted và có thể khôi phục lại. Tiếp tục?`))return;
+    const n=prompt(`Bước 2/2 — Gõ lại đúng tên nhân vật (phân biệt hoa thường) để xóa:\n${p.name}`);if(n===null)return;
+    const r=await api('/api/chars/delete',{file:f,code:p.code,name:n.trim()});toast(r.message);loadChars()}catch(err){toast(adminOpsOld(err),true);loadChars()}};
+$('chTrash').onclick=async e=>{const d=e.target.dataset&&e.target.dataset.chund;if(!d)return;
+  try{const p=await api('/api/chars/undelete/prepare',{folder:d});
+    if(!confirm(`Bước 1/2 — Khôi phục nhân vật "${p.name}" (tài khoản ${p.account}, cấp ${p.level}) về game? Tài khoản hiện có ${p.count} nhân vật.`))return;
+    const c=prompt(`Bước 2/2 — Gõ mã xác nhận ${p.code} để khôi phục:`);if(c===null)return;
+    const r=await api('/api/chars/undelete',{folder:d,code:c.trim()});toast(r.message);loadChars()}catch(err){toast(adminOpsOld(err),true)}};
+document.querySelector('#tabs [data-t=chars]').addEventListener('click',()=>loadChars());
+// history
+async function loadHistory(){try{const j=await api('/api/history');$('histBody').innerHTML=(j.history||[]).map(h=>`<tr><td>${esc(h.time)}</td><td>${esc(h.type)}</td><td>${esc(h.desc)}</td><td><span class="tag ${esc(h.status)}">${h.status==='PENDING'?'Đang chờ':h.status==='OK'?'Thành công':h.status==='FAIL'?'Lỗi':esc(h.status)}</span></td><td class="muted">${esc(h.detail)}</td></tr>`).join('')||'<tr><td colspan="5" class="muted">Chưa có lệnh.</td></tr>'}catch(e){}}
+
+// server setup
+let setupTimer=null;
+async function loadSetup(){try{const j=await api('/api/setup/status');
+  $('setupLog').textContent=(j.log||[]).join('\n');
+  if(j.running){$('setupState').innerHTML='<span class="tag PENDING">Đang chạy…</span>';if(!setupTimer)setupTimer=setInterval(loadSetup,3000);return}
+  if(setupTimer){clearInterval(setupTimer);setupTimer=null}
+  const s=j.status;if(!s){$('setupState').textContent='Không đọc được trạng thái.';return}
+  const ok=(v,t,f)=>`<tr><td>${t}</td><td>${v?'<span class="tag OK">Có</span>':'<span class="tag FAIL">'+(f||'Chưa')+'</span>'}</td></tr>`;
+  $('setupState').innerHTML='<table>'+ok(s.localdbInstalled,'SQL LocalDB đã cài')+ok(s.instanceRunning,'Instance MSSQLLocalDB đang chạy','Đang tắt (tự bật khi khởi động server)')+ok(s.accountAttached,'Database account'+(s.accountCount>=0?` (${s.accountCount} tài khoản)`:''),s.instanceRunning?'Chưa gắn':'Chưa kiểm tra')+ok(s.mdfExists,'File dữ liệu trong PhongThanRuntime-State\\sql')+ok(s.bakExists,'Server\\database\\account.bak')+ok(s.msiExists,'Bộ cài Setup\\SqlLocalDB.msi')+'</table>'+(j.exitCode!=null?`<p class="hint">Lần chạy gần nhất: ${j.exitCode===0?'thành công':'lỗi (xem nhật ký)'}</p>`:'');
+}catch(e){$('setupState').textContent=e.message}}
+async function loadClientCfg(){try{const j=await api('/api/clientcfg');$('ccRes').value=j.width+'x'+j.height;if(!$('ccRes').value)$('ccRes').value='1024x768';$('ccFull').value=String(j.fullScreen?1:0);$('ccInfo').textContent='Hiện tại trong config.ini: '+j.width+'×'+j.height+(j.fullScreen?', toàn màn hình':', cửa sổ')+(j.gameRunning?' — game đang mở, lưu xong cần mở lại game.':'')}catch(e){$('ccInfo').textContent=e.message}}
+$('btnClientCfg').onclick=()=>{const [w,h]=$('ccRes').value.split('x');run(async()=>{const j=await api('/api/clientcfg',{width:+w,height:+h,fullScreen:+$('ccFull').value});loadClientCfg();return j})};
+async function loadClientSound(){try{const j=await api('/api/clientsound');$('csMusic').value=j.music;$('csSound').value=j.sound;$('csMusicV').textContent=j.music;$('csSoundV').textContent=j.sound;$('csInfo').textContent='Hiện tại trong UiCommon.ini: nhạc nền '+j.music+', hiệu ứng '+j.sound+(j.gameRunning?' — game đang mở, hãy thoát game trước khi lưu.':'')}catch(e){$('csInfo').textContent=e.message}}
+function saveClientSound(m,s){run(async()=>{const j=await api('/api/clientsound',{music:m,sound:s});loadClientSound();return j})}
+$('btnClientSound').onclick=()=>saveClientSound(+$('csMusic').value,+$('csSound').value);
+$('btnClientMute').onclick=()=>saveClientSound(0,0);
+function setupRun(step,confirmMsg){if(confirmMsg&&!confirm(confirmMsg))return;run(async()=>{const j=await api('/api/setup/run',{step});setTimeout(loadSetup,800);return j})}
+$('btnSetupAll').onclick=()=>setupRun('all','Cài SQL LocalDB (nếu chưa có) và khôi phục/gắn database account?');
+$('btnSetupLocaldb').onclick=()=>setupRun('localdb');
+$('btnSetupDb').onclick=()=>setupRun('database');
+$('btnSetupBackup').onclick=()=>setupRun('backup','Sao lưu database account hiện tại, ghi đè Server\\database\\account.bak (bản cũ được giữ trong _backup)?');
+
+// content 2026-10-04: E1 Lich su kien tu dong (tab evsched), E2 Qua dang nhap + E4 Bang thanh tich (tab dailygift)
+const EV_KINDS={vantien:'Mở Vạn Tiên trận',thuongchu:'Mở chiến trường Thương Chu',boss:'Gọi boss thế giới',exp:'Nhân đôi kinh nghiệm'};
+const EV_DAYS=[['1','T2'],['2','T3'],['3','T4'],['4','T5'],['5','T6'],['6','T7'],['0','CN']];
+let evData=null,evRows=[];
+function evParam(r,i){
+  if(r.kind==='vantien')return `<select data-ev="arg" data-i="${i}">${['Cả 4 trận','1 Thổ (cấp 30+)','2 Thủy (51+)','3 Hỏa (71+)','4 Phong (91+)'].map((t,k)=>`<option value="${k}"${+r.arg===k?' selected':''}>${t}</option>`).join('')}</select>`;
+  if(r.kind==='boss')return `<select data-ev="key" data-i="${i}">${(evData.bosses||[]).map(b=>`<option value="${esc(b.key)}"${r.key===b.key?' selected':''}>${esc(b.name)}</option>`).join('')}</select>`;
+  if(r.kind==='exp')return `<input type="number" min="1" max="1440" data-ev="dur" data-i="${i}" value="${r.dur||60}" style="width:90px"> phút`;
+  return '<span class="muted">—</span>';
+}
+function evWarn(w){return (w||[]).map(x=>x==='tcvng'?'Thương Chu VNG đang mở phút 00–44 mỗi giờ: dòng này sẽ bị bỏ qua, nên hẹn phút 45–59':x.startsWith('vtvng:')?'Trùng lịch Vạn Tiên VNG lúc '+x.slice(6)+' (trận đang mở thì chỉ ghi “đã mở sẵn”)':x).map(t=>`<div class="tag" style="background:var(--warn);color:#fff;margin-top:4px">${esc(t)}</div>`).join('')}
+function renderEv(){
+  $('eschBody').innerHTML=evRows.length?evRows.map((r,i)=>`<tr>
+    <td><input type="checkbox" data-ev="on" data-i="${i}" style="width:auto"${r.on?' checked':''}></td>
+    <td class="days" style="white-space:nowrap">${EV_DAYS.map(([v,t])=>`<label><input type="checkbox" data-evday="${v}" data-i="${i}"${String(r.days).includes(v)?' checked':''}>${t}</label>`).join('')}</td>
+    <td><input type="time" data-ev="time" data-i="${i}" value="${String(r.hh).padStart(2,'0')}:${String(r.mm).padStart(2,'0')}"></td>
+    <td><select data-ev="kind" data-i="${i}">${Object.keys(EV_KINDS).map(k=>`<option value="${k}"${r.kind===k?' selected':''}>${EV_KINDS[k]}</option>`).join('')}</select>${evWarn(r.warn)}</td>
+    <td>${evParam(r,i)}</td>
+    <td><input data-ev="title" data-i="${i}" maxlength="60" value="${esc(r.title||'')}"></td>
+    <td class="muted">${esc(r.next||'')}</td>
+    <td class="muted">${esc(r.lastDay||'')}<br>${esc(r.result||'')}</td>
+    <td style="white-space:nowrap"><button class="btn alt small" data-evrun="${r.id}">Chạy ngay</button> <button class="btn alt small" data-evdel="${i}">Xóa</button></td></tr>`).join(''):'<tr><td colspan="9" class="muted">Chưa có dòng lịch.</td></tr>';
+}
+async function loadEvSched(){try{evData=await api('/api/eventsched');evRows=(Array.isArray(evData.rows)?evData.rows:(evData.rows?[evData.rows]:[])).map(r=>Object.assign({},r));
+  $('eschEnabled').checked=!!evData.enabled;$('eschPre').value=evData.pre||5;
+  const s=evData.status||{};$('eschStamp').textContent=s.stamp?'(server ghi lúc '+s.stamp+'; giờ máy: '+evData.now+')':'(chưa có dữ liệu — cần nạp ext eventsched)';
+  $('eschExp').textContent=s.expLeft>0?'Đang nhân đôi kinh nghiệm: còn '+Math.ceil(s.expLeft/60)+' phút.':'';
+  renderEv()}catch(e){toast(e.message,true)}}
+$('eschBody').onchange=e=>{const t=e.target,i=+t.dataset.i;if(isNaN(i)||!evRows[i])return;const r=evRows[i];
+  if(t.dataset.evday!==undefined){const v=t.dataset.evday;let d=String(r.days||'');d=t.checked?(d.includes(v)?d:d+v):d.split(v).join('');r.days=d;return}
+  const f=t.dataset.ev;if(f==='on')r.on=t.checked;else if(f==='time'){const [h,m]=t.value.split(':');r.hh=+h||0;r.mm=+m||0}
+  else if(f==='kind'){r.kind=t.value;if(r.kind==='boss'&&!r.key&&evData.bosses&&evData.bosses[0])r.key=evData.bosses[0].key;if(r.kind==='exp'&&!r.dur)r.dur=60;renderEv()}
+  else if(f==='arg')r.arg=+t.value;else if(f==='key')r.key=t.value;else if(f==='dur')r.dur=+t.value;else if(f==='title')r.title=t.value};
+$('eschBody').onclick=e=>{const d=e.target.dataset;if(d.evdel!==undefined){evRows.splice(+d.evdel,1);renderEv()}
+  if(d.evrun){if(!confirm('Chạy ngay dòng '+d.evrun+' theo cấu hình ĐÃ LƯU?'))return;run(()=>api('/api/action',{type:'evrun',id:+d.evrun}))}};
+$('btnEschAdd').onclick=()=>{const id=evRows.reduce((m,r)=>Math.max(m,+r.id||0),0)+1;evRows.push({id,on:true,days:'6',hh:20,mm:0,kind:'exp',arg:0,key:'',dur:60,title:'',warn:[]});renderEv()};
+$('btnEschSave').onclick=async()=>{await run(()=>api('/api/eventsched',{enabled:$('eschEnabled').checked,pre:+$('eschPre').value,rows:evRows.map(r=>({id:r.id,on:r.on,days:r.days,hh:r.hh,mm:r.mm,kind:r.kind,arg:r.arg,key:r.key,dur:r.dur,title:r.title}))}));loadEvSched()};
+$('btnEschStopExp').onclick=()=>{if(confirm('Kết thúc sự kiện nhân đôi kinh nghiệm ngay? (thời gian Bạch Hổ đã cộng cho người chơi vẫn giữ)'))run(()=>api('/api/action',{type:'evstopexp'}))};
+document.querySelector('#tabs [data-t=evsched]').addEventListener('click',()=>loadEvSched());
+setInterval(()=>{if($('evsched').classList.contains('on')&&!document.activeElement.closest('#eschBody'))loadEvSched()},60000);
+
+let dgData=null,dgPick=null;
+function dgRows(id,list){$(id).innerHTML=list.length?list.map((r,i)=>`<tr><td>${esc(r.name)}<br><span class="muted">${r.g}/${r.d}/${r.p}</span></td><td><input type="number" min="1" max="100" data-dg="${id}" data-f="n" data-i="${i}" value="${r.n}"></td><td><input type="number" min="1" max="1000" data-dg="${id}" data-f="st" data-i="${i}" value="${r.st}"></td><td><button class="btn alt small" data-dgdel="${id}" data-i="${i}">Xóa</button></td></tr>`).join(''):'<tr><td colspan="4" class="muted">Không có vật phẩm.</td></tr>'}
+function dgList(id){return id==='dgDaily'?dgData.config.daily:dgData.config.big}
+function renderDg(){dgRows('dgDaily',dgData.config.daily);dgRows('dgBig',dgData.config.big)}
+async function loadDg(){try{dgData=await api('/api/dailygift');const c=dgData.config;const arr=v=>Array.isArray(v)?v:(v?[v]:[]);c.daily=arr(c.daily);c.big=arr(c.big);
+  $('dgEnabled').checked=!!c.enabled;$('dgMoneyDaily').value=c.moneyDaily||0;$('dgMoneyBig').value=c.moneyBig||0;renderDg();
+  $('acStamp').textContent=dgData.stamp?'(server ghi lúc '+dgData.stamp+')':'(chưa có dữ liệu — cần nạp ext thanhtich)';
+  const cl=s=>{s=String(s||'0').padStart(6,'0');return ['boss','nv','đệ','VT','TC','quái'].map((n,k)=>n+' '+s[5-k]).join(' · ')};
+  $('acBody').innerHTML=(dgData.chars||[]).map(c=>`<tr><td><b>${esc(c.name)}</b></td><td>${c.level}</td><td>${c.boss}</td><td>${c.chain}</td><td>${c.pet}</td><td>${c.vt}</td><td>${c.tc}</td><td>${c.kill.toLocaleString('vi-VN')}</td><td class="muted" style="font-size:12px">${cl(c.claim)}</td><td>${c.streak}/7 (tổng ${c.total} ngày)</td><td>${c.pendDaily} ngày, ${c.pendBig} quà 7 ngày</td><td class="muted">${esc(c.seen)}</td></tr>`).join('')||'<tr><td colspan="12" class="muted">Chưa có nhân vật nào.</td></tr>'}catch(e){toast(e.message,true)}}
+document.addEventListener('change',e=>{const d=e.target.dataset;if(!d.dg||!dgData)return;const l=dgList(d.dg);if(l[+d.i])l[+d.i][d.f]=+e.target.value});
+document.addEventListener('click',e=>{const d=e.target.dataset;if(!d.dgdel||!dgData)return;dgList(d.dgdel).splice(+d.i,1);renderDg()});
+const dgSearch=debounce(async()=>{try{const j=await api('/api/items?q='+encodeURIComponent($('dgQ').value));$('dgList').innerHTML=(j.items||[]).map(x=>`<div data-dgkey="${esc(x.key)}" data-dgname="${esc(x.name)}"><span>${esc(x.name)}</span><small>${esc(x.group)} ${esc(x.code)}</small></div>`).join('')}catch(e){}},300);
+$('dgQ').oninput=dgSearch;
+$('dgList').onclick=e=>{const el=e.target.closest('[data-dgkey]');if(!el)return;dgPick={key:el.dataset.dgkey,name:el.dataset.dgname};$('dgPicked').textContent=dgPick.name};
+async function dgAdd(id){if(!dgPick){toast('Hãy chọn một vật phẩm.',true);return}if(!dgData)await loadDg();
+  try{const j=await api('/api/dailygift/item?key='+encodeURIComponent(dgPick.key)+'&n='+(+$('dgCount').value||1));dgList(id).push(j.row);renderDg();toast('Đã thêm '+j.row.name+' — bấm “Lưu danh sách quà” để áp dụng.')}catch(e){toast(e.message,true)}}
+$('btnDgAddDaily').onclick=()=>dgAdd('dgDaily');$('btnDgAddBig').onclick=()=>dgAdd('dgBig');
+$('btnDgSave').onclick=async()=>{if(!dgData)return;const c=dgData.config;await run(()=>api('/api/dailygift',{enabled:$('dgEnabled').checked,moneyDaily:+$('dgMoneyDaily').value,moneyBig:+$('dgMoneyBig').value,daily:c.daily,big:c.big}));loadDg()};
+document.querySelector('#tabs [data-t=dailygift]').addEventListener('click',()=>{loadDg();dgSearch()});
+setInterval(()=>{if($('dailygift').classList.contains('on')&&!document.activeElement.closest('#dailygift'))loadDg()},60000);
+
+// 2026-10-05 natives: cường hóa (GET /api/upgrade/items, action upgradelist / upgradeset)
+const UP_PLACE={2:'Đang mặc',3:'Túi',4:'Túi mở rộng'};let upTimer=null;
+const UP_STATE={online:'đang online',offline:'OFFLINE — không áp dụng được',nonative:'server chưa có native SetItemUpgrade (cần triển khai CoreServer mới)'};
+function fillUpPlayers(){const cur=$('upPlayer').value;$('upPlayer').innerHTML='<option value="">— chọn nhân vật —</option>'+online.map(p=>`<option value="${esc(p.name)}" ${p.name===cur?'selected':''}>${esc(p.name)}${p.level?' (cấp '+p.level+')':''}</option>`).join('')}
+async function loadUpItems(){const j=await api('/api/upgrade/items');
+  $('upStamp').textContent=j.stamp?`Danh sách server ghi lúc ${j.stamp} cho ${j.player} (${UP_STATE[j.state]||j.state})`:'(Chưa có danh sách — bấm “Liệt kê” rồi chờ tối đa 1 phút.)';
+  const items=j.items||[];
+  $('upBody').innerHTML=items.map(it=>`<tr><td>${esc(it.name)}</td><td>${UP_PLACE[it.place]||it.place}</td><td>+${it.level}${it.rule?' <span class="muted">(quy tắc '+it.rule+')</span>':''}</td><td><select data-uplv="${it.id}">${Array.from({length:13},(_,k)=>`<option value="${k}" ${k===it.level?'selected':''}>+${k}</option>`).join('')}</select></td><td><button class="btn" data-upid="${it.id}" data-upname="${esc(it.name)}">Áp dụng</button></td></tr>`).join('')||'<tr><td colspan="5" class="muted">Không có trang bị nào trong danh sách.</td></tr>';
+  return j}
+$('btnUpList').onclick=()=>{const pl=$('upPlayer').value;if(!pl){toast('Hãy chọn nhân vật đang online.',true);return}
+  run(async()=>{const r=await api('/api/action',{type:'upgradelist',player:pl});$('upBody').innerHTML='';$('upStamp').textContent='Đang chờ server ghi danh sách (tối đa ~60 giây)…';
+    clearTimeout(upTimer);let n=0;const poll=async()=>{n++;let j=null;try{j=await loadUpItems()}catch(e){}if((!j||!j.stamp)&&n<15)upTimer=setTimeout(poll,5000)};upTimer=setTimeout(poll,5000);return r})};
+$('btnUpReload').onclick=()=>run(loadUpItems);
+$('upBody').onclick=e=>{const id=e.target.dataset&&e.target.dataset.upid;if(!id)return;const pl=$('upPlayer').value;if(!pl){toast('Hãy chọn nhân vật đang online.',true);return}
+  const lv=+$('upBody').querySelector(`select[data-uplv="${id}"]`).value;
+  if(confirm(`Đặt “${e.target.dataset.upname}” của ${pl} thành +${lv}?`))run(()=>api('/api/action',{type:'upgradeset',player:pl,itemId:Number(id),level:lv}))};
+document.querySelector('#tabs [data-t=upgrade]').addEventListener('click',()=>{fillUpPlayers();run(loadUpItems)});
+
+(async()=>{
+  await run(async()=>{const g=await api('/api/groups');$('itemGroup').innerHTML+=g.groups.map(x=>`<option>${esc(x)}</option>`).join('');
+    const m=await api('/api/maps');maps=m.maps||[];$('spawnMap').innerHTML=maps.map(x=>`<option value="${x.id}">${esc(x.name)} (${x.id})</option>`).join('');
+    const sk=await api('/api/skills');skills=sk.skills||[];renderSkills();lbMaxSkills();await loadMounts();await loadGear();await loadWeapons();await loadPresets();
+    await searchItems();await searchNpcs();});
+  loadStatus();setInterval(loadStatus,10000);setInterval(()=>{if($('history').classList.contains('on'))loadHistory()},10000);
+})();
+</script>
+</body>
+</html>

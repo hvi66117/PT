@@ -1,0 +1,11 @@
+{
+    "enabled":  false,
+    "follow":  true,
+    "followCount":  40,
+    "spots":  [
+
+              ],
+    "party":  true,
+    "partyCount":  7,
+    "partyBonus":  50
+}

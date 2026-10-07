@@ -1,0 +1,36 @@
+function GetSkillLevelData(levelname, data, level)
+
+if (levelname == "addphysicsdamage_p") then
+return Getaddphysicsdamage_p(level)
+end;
+
+if (levelname == "attackratingenhance_p") then
+return Getattackratingenhance_p(level)
+end;
+
+if (levelname == "magic_skill_cost_mana_p") then
+return Getmagic_skill_cost_mana_p(level)
+end;
+
+str1 = ""
+return str1
+end;
+
+function Param2String(Param1, Param2, Param3)
+return Param1..","..Param2..","..Param3
+end;
+
+function Getaddphysicsdamage_p(level)
+result = 28+level*3
+return Param2String(result,-1,0)
+end;
+
+function Getattackratingenhance_p(level)
+result1 = 3+level/2
+return Param2String(result1,-1,0)
+end;
+
+function Getmagic_skill_cost_mana_p(level)
+result = 3
+return Param2String(result,-1,0)
+end;

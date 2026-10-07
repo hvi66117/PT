@@ -1,0 +1,8 @@
+logical_path	role	request_provenance
+bufferconfig.ini	ibbuff_registry	VNG game.exe literal
+settings\bufferconfig.ini	ibbuff_registry	VNG common settings path candidate
+ui\bufferconfig.ini	ibbuff_registry	VNG UI path candidate
+config\bufferconfig.ini	ibbuff_registry	VNG config path candidate
+settings\ui\bufferconfig.ini	ibbuff_registry	VNG nested UI settings candidate
+spr\ui4\bufferconfig.ini	ibbuff_registry	VNG UI4 resource path candidate
+buffer\bufferconfig.ini	ibbuff_registry	VNG buffer resource path candidate

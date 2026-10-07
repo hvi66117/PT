@@ -1,0 +1,1867 @@
+{
+  "schema": 1,
+  "generated_at_utc": "2026-09-05T04:06:13.8007372Z",
+  "api_count": 182,
+  "required_and_verified": 68,
+  "not_applicable_with_reason": 114,
+  "boundaries": [
+    {
+      "name": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback"
+    },
+    {
+      "name": "inventory-sync",
+      "protocol": "PHONGTHAN_MSG_INVENTORY_ITEM_SNAPSHOT / ITEM_REMOVE / ITEM_MOVE / ITEM_DURABILITY / ITEM_PROPERTIES / ITEM_AUTO_MOVE",
+      "producer": "KItemList -> self-describing PHONGTHAN_WIRE_HEADER and scalar-only item payloads",
+      "consumer": "KProtocolProcess validates exact envelope size then dispatches all migrated inventory messages"
+    },
+    {
+      "name": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer"
+    },
+    {
+      "name": "state-effect-sync",
+      "protocol": "s2c_syncstateeffect / STATE_EFFECT_SYNC",
+      "producer": "KNpc::SetStateSkillEffect emits bounded state payload",
+      "consumer": "KProtocolProcess::SyncStateEffect reapplies native state skill"
+    },
+    {
+      "name": "skill-action-sync",
+      "protocol": "PLAYER_SYNC append-only LEFTSKILL/RIGHTSKILL ids and native skill sync",
+      "producer": "ScriptFuns emits PLAYER_SYNC and native skill/action commands",
+      "consumer": "KProtocolProcess player-sync dispatcher updates skill bars/action state"
+    },
+    {
+      "name": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table"
+    }
+  ],
+  "apis": [
+    {
+      "name": "GetDialogNpcName",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetFirstPlayerInAll",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetGameServerName",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetGlobalValueByte",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetGlobalValueWord",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetHMS",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetIPValue",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetNextPlayerInAll",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetPlayerIndexByName",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetSessionNextPlayer",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetSubWorldPlayerCount",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetSubWorldPlayerIdxByNum",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetWeekDay",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetYMD",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "InfoBox",
+      "wave": 1,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "ipairs",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsWarServer",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "Msg2CurMapAnnounce",
+      "wave": 1,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "Msg2CurMapAnnounceEx",
+      "wave": 1,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "MsgBox",
+      "wave": 1,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "NpcSay",
+      "wave": 1,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "pcall",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "PlayerIndexToNpcIndex",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "SearchPlayerById",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "SetGlobalValueByte",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "SetGlobalValueWord",
+      "wave": 1,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "AbradeEquip",
+      "wave": 2,
+      "client_sync": "required-and-verified",
+      "boundary": "inventory-sync",
+      "protocol": "PHONGTHAN_MSG_INVENTORY_ITEM_SNAPSHOT / ITEM_REMOVE / ITEM_MOVE / ITEM_DURABILITY / ITEM_PROPERTIES / ITEM_AUTO_MOVE",
+      "producer": "KItemList -> self-describing PHONGTHAN_WIRE_HEADER and scalar-only item payloads",
+      "consumer": "KProtocolProcess validates exact envelope size then dispatches all migrated inventory messages",
+      "reason": null
+    },
+    {
+      "name": "AddEventItem",
+      "wave": 2,
+      "client_sync": "required-and-verified",
+      "boundary": "inventory-sync",
+      "protocol": "PHONGTHAN_MSG_INVENTORY_ITEM_SNAPSHOT / ITEM_REMOVE / ITEM_MOVE / ITEM_DURABILITY / ITEM_PROPERTIES / ITEM_AUTO_MOVE",
+      "producer": "KItemList -> self-describing PHONGTHAN_WIRE_HEADER and scalar-only item payloads",
+      "consumer": "KProtocolProcess validates exact envelope size then dispatches all migrated inventory messages",
+      "reason": null
+    },
+    {
+      "name": "AddNormalItemBind",
+      "wave": 2,
+      "client_sync": "required-and-verified",
+      "boundary": "inventory-sync",
+      "protocol": "PHONGTHAN_MSG_INVENTORY_ITEM_SNAPSHOT / ITEM_REMOVE / ITEM_MOVE / ITEM_DURABILITY / ITEM_PROPERTIES / ITEM_AUTO_MOVE",
+      "producer": "KItemList -> self-describing PHONGTHAN_WIRE_HEADER and scalar-only item payloads",
+      "consumer": "KProtocolProcess validates exact envelope size then dispatches all migrated inventory messages",
+      "reason": null
+    },
+    {
+      "name": "AddNormalItemPile",
+      "wave": 2,
+      "client_sync": "required-and-verified",
+      "boundary": "inventory-sync",
+      "protocol": "PHONGTHAN_MSG_INVENTORY_ITEM_SNAPSHOT / ITEM_REMOVE / ITEM_MOVE / ITEM_DURABILITY / ITEM_PROPERTIES / ITEM_AUTO_MOVE",
+      "producer": "KItemList -> self-describing PHONGTHAN_WIRE_HEADER and scalar-only item payloads",
+      "consumer": "KProtocolProcess validates exact envelope size then dispatches all migrated inventory messages",
+      "reason": null
+    },
+    {
+      "name": "ClearItem",
+      "wave": 2,
+      "client_sync": "required-and-verified",
+      "boundary": "inventory-sync",
+      "protocol": "PHONGTHAN_MSG_INVENTORY_ITEM_SNAPSHOT / ITEM_REMOVE / ITEM_MOVE / ITEM_DURABILITY / ITEM_PROPERTIES / ITEM_AUTO_MOVE",
+      "producer": "KItemList -> self-describing PHONGTHAN_WIRE_HEADER and scalar-only item payloads",
+      "consumer": "KProtocolProcess validates exact envelope size then dispatches all migrated inventory messages",
+      "reason": null
+    },
+    {
+      "name": "DelEventItem",
+      "wave": 2,
+      "client_sync": "required-and-verified",
+      "boundary": "inventory-sync",
+      "protocol": "PHONGTHAN_MSG_INVENTORY_ITEM_SNAPSHOT / ITEM_REMOVE / ITEM_MOVE / ITEM_DURABILITY / ITEM_PROPERTIES / ITEM_AUTO_MOVE",
+      "producer": "KItemList -> self-describing PHONGTHAN_WIRE_HEADER and scalar-only item payloads",
+      "consumer": "KProtocolProcess validates exact envelope size then dispatches all migrated inventory messages",
+      "reason": null
+    },
+    {
+      "name": "DelNormalItem",
+      "wave": 2,
+      "client_sync": "required-and-verified",
+      "boundary": "inventory-sync",
+      "protocol": "PHONGTHAN_MSG_INVENTORY_ITEM_SNAPSHOT / ITEM_REMOVE / ITEM_MOVE / ITEM_DURABILITY / ITEM_PROPERTIES / ITEM_AUTO_MOVE",
+      "producer": "KItemList -> self-describing PHONGTHAN_WIRE_HEADER and scalar-only item payloads",
+      "consumer": "KProtocolProcess validates exact envelope size then dispatches all migrated inventory messages",
+      "reason": null
+    },
+    {
+      "name": "DelNormalItemInQuick",
+      "wave": 2,
+      "client_sync": "required-and-verified",
+      "boundary": "inventory-sync",
+      "protocol": "PHONGTHAN_MSG_INVENTORY_ITEM_SNAPSHOT / ITEM_REMOVE / ITEM_MOVE / ITEM_DURABILITY / ITEM_PROPERTIES / ITEM_AUTO_MOVE",
+      "producer": "KItemList -> self-describing PHONGTHAN_WIRE_HEADER and scalar-only item payloads",
+      "consumer": "KProtocolProcess validates exact envelope size then dispatches all migrated inventory messages",
+      "reason": null
+    },
+    {
+      "name": "GetBoxSize",
+      "wave": 2,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetNormalItemName",
+      "wave": 2,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "HaveEventItem",
+      "wave": 2,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "HaveEventItemCount",
+      "wave": 2,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "HaveItemInAllRoom",
+      "wave": 2,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "HaveNormalItem",
+      "wave": 2,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsEquipItem",
+      "wave": 2,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsHaveSpaceForTreasure",
+      "wave": 2,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "ActiveTitleFunc",
+      "wave": 3,
+      "client_sync": "required-and-verified",
+      "boundary": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer",
+      "reason": null
+    },
+    {
+      "name": "ActiveTitleQualify",
+      "wave": 3,
+      "client_sync": "required-and-verified",
+      "boundary": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer",
+      "reason": null
+    },
+    {
+      "name": "AddAssignedAttrib",
+      "wave": 3,
+      "client_sync": "required-and-verified",
+      "boundary": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer",
+      "reason": null
+    },
+    {
+      "name": "AddHelpScore",
+      "wave": 3,
+      "client_sync": "required-and-verified",
+      "boundary": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer",
+      "reason": null
+    },
+    {
+      "name": "AddOwnExtendExp",
+      "wave": 3,
+      "client_sync": "required-and-verified",
+      "boundary": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer",
+      "reason": null
+    },
+    {
+      "name": "ApplyAssignedAttrib",
+      "wave": 3,
+      "client_sync": "required-and-verified",
+      "boundary": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer",
+      "reason": null
+    },
+    {
+      "name": "ChangeJusticEvilCredit",
+      "wave": 3,
+      "client_sync": "required-and-verified",
+      "boundary": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer",
+      "reason": null
+    },
+    {
+      "name": "GetAssignedAttrib",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetExploit",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetExploitLevel",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetExploitV",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetJusticEvilCredit",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetMantleMasterName",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetMasterPlayerIndex",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetPlayerExtLevel",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetPlayerTarget",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetPlayerType",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetPosterityType",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetTeamTask",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "HaveQualify",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsMantleMaster",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsMantlePrentice",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsMarried",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsMasterPRRelation",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsPlayerInDeath",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsPlayerInsideWeapon",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "PetGetType",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "SetCurTitle",
+      "wave": 3,
+      "client_sync": "required-and-verified",
+      "boundary": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer",
+      "reason": null
+    },
+    {
+      "name": "SetExploit",
+      "wave": 3,
+      "client_sync": "required-and-verified",
+      "boundary": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer",
+      "reason": null
+    },
+    {
+      "name": "SetExploitV",
+      "wave": 3,
+      "client_sync": "required-and-verified",
+      "boundary": "player-f3-sync",
+      "protocol": "s2c_syncplayer plus rank/current-attribute submessages",
+      "producer": "KNpc player sync and KPlayer current attribute/rank producers",
+      "consumer": "KProtocolProcess::SyncPlayer/s2cSyncRankData/current attribute consumer",
+      "reason": null
+    },
+    {
+      "name": "SetTeamTask",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "TeamAction",
+      "wave": 3,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "AddIBBuff",
+      "wave": 4,
+      "client_sync": "required-and-verified",
+      "boundary": "state-effect-sync",
+      "protocol": "s2c_syncstateeffect / STATE_EFFECT_SYNC",
+      "producer": "KNpc::SetStateSkillEffect emits bounded state payload",
+      "consumer": "KProtocolProcess::SyncStateEffect reapplies native state skill",
+      "reason": null
+    },
+    {
+      "name": "CostIBBuff",
+      "wave": 4,
+      "client_sync": "required-and-verified",
+      "boundary": "state-effect-sync",
+      "protocol": "s2c_syncstateeffect / STATE_EFFECT_SYNC",
+      "producer": "KNpc::SetStateSkillEffect emits bounded state payload",
+      "consumer": "KProtocolProcess::SyncStateEffect reapplies native state skill",
+      "reason": null
+    },
+    {
+      "name": "GetIBBuffCount",
+      "wave": 4,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetIBBuffLeftTimes",
+      "wave": 4,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetIBBuffLevel",
+      "wave": 4,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetIBBuffTimes",
+      "wave": 4,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "HaveIBBuff",
+      "wave": 4,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "NpcAddIBBuff",
+      "wave": 4,
+      "client_sync": "required-and-verified",
+      "boundary": "state-effect-sync",
+      "protocol": "s2c_syncstateeffect / STATE_EFFECT_SYNC",
+      "producer": "KNpc::SetStateSkillEffect emits bounded state payload",
+      "consumer": "KProtocolProcess::SyncStateEffect reapplies native state skill",
+      "reason": null
+    },
+    {
+      "name": "NpcHaveIBBuff",
+      "wave": 4,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "NpcRemoveIBBuff",
+      "wave": 4,
+      "client_sync": "required-and-verified",
+      "boundary": "state-effect-sync",
+      "protocol": "s2c_syncstateeffect / STATE_EFFECT_SYNC",
+      "producer": "KNpc::SetStateSkillEffect emits bounded state payload",
+      "consumer": "KProtocolProcess::SyncStateEffect reapplies native state skill",
+      "reason": null
+    },
+    {
+      "name": "RemoveIBBuff",
+      "wave": 4,
+      "client_sync": "required-and-verified",
+      "boundary": "state-effect-sync",
+      "protocol": "s2c_syncstateeffect / STATE_EFFECT_SYNC",
+      "producer": "KNpc::SetStateSkillEffect emits bounded state payload",
+      "consumer": "KProtocolProcess::SyncStateEffect reapplies native state skill",
+      "reason": null
+    },
+    {
+      "name": "FinishNpcCollection",
+      "wave": 5,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "IsJEMainTaskComplete",
+      "wave": 5,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsNewBirthComplete",
+      "wave": 5,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "JEMainTaskComplete",
+      "wave": 5,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "NewTaskNote",
+      "wave": 5,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "RefreshAllNpcTask",
+      "wave": 5,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "SayTask",
+      "wave": 5,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "SetMateTask",
+      "wave": 5,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "SetPlayerTaskState",
+      "wave": 5,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "SetSubTask",
+      "wave": 5,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "TaskCheck",
+      "wave": 5,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "TaskNote",
+      "wave": 5,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "BeginLvSkill",
+      "wave": 6,
+      "client_sync": "required-and-verified",
+      "boundary": "skill-action-sync",
+      "protocol": "PLAYER_SYNC append-only LEFTSKILL/RIGHTSKILL ids and native skill sync",
+      "producer": "ScriptFuns emits PLAYER_SYNC and native skill/action commands",
+      "consumer": "KProtocolProcess player-sync dispatcher updates skill bars/action state",
+      "reason": null
+    },
+    {
+      "name": "DoSkillAction",
+      "wave": 6,
+      "client_sync": "required-and-verified",
+      "boundary": "skill-action-sync",
+      "protocol": "PLAYER_SYNC append-only LEFTSKILL/RIGHTSKILL ids and native skill sync",
+      "producer": "ScriptFuns emits PLAYER_SYNC and native skill/action commands",
+      "consumer": "KProtocolProcess player-sync dispatcher updates skill bars/action state",
+      "reason": null
+    },
+    {
+      "name": "GetLiveSkillLevel",
+      "wave": 6,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "Getskill_eventskilllevel",
+      "wave": 6,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "PlayerCastSkill",
+      "wave": 6,
+      "client_sync": "required-and-verified",
+      "boundary": "skill-action-sync",
+      "protocol": "PLAYER_SYNC append-only LEFTSKILL/RIGHTSKILL ids and native skill sync",
+      "producer": "ScriptFuns emits PLAYER_SYNC and native skill/action commands",
+      "consumer": "KProtocolProcess player-sync dispatcher updates skill bars/action state",
+      "reason": null
+    },
+    {
+      "name": "RemoveSpecialSkill",
+      "wave": 6,
+      "client_sync": "required-and-verified",
+      "boundary": "skill-action-sync",
+      "protocol": "PLAYER_SYNC append-only LEFTSKILL/RIGHTSKILL ids and native skill sync",
+      "producer": "ScriptFuns emits PLAYER_SYNC and native skill/action commands",
+      "consumer": "KProtocolProcess player-sync dispatcher updates skill bars/action state",
+      "reason": null
+    },
+    {
+      "name": "SetClientLeftSkill",
+      "wave": 6,
+      "client_sync": "required-and-verified",
+      "boundary": "skill-action-sync",
+      "protocol": "PLAYER_SYNC append-only LEFTSKILL/RIGHTSKILL ids and native skill sync",
+      "producer": "ScriptFuns emits PLAYER_SYNC and native skill/action commands",
+      "consumer": "KProtocolProcess player-sync dispatcher updates skill bars/action state",
+      "reason": null
+    },
+    {
+      "name": "SetClientRightSkill",
+      "wave": 6,
+      "client_sync": "required-and-verified",
+      "boundary": "skill-action-sync",
+      "protocol": "PLAYER_SYNC append-only LEFTSKILL/RIGHTSKILL ids and native skill sync",
+      "producer": "ScriptFuns emits PLAYER_SYNC and native skill/action commands",
+      "consumer": "KProtocolProcess player-sync dispatcher updates skill bars/action state",
+      "reason": null
+    },
+    {
+      "name": "AddMyTrap",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "AddTotemNpc",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "BeginMotion",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "CallMonsterAttacker",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "CancelNpcBelonger",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "CaptureNpc",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "ClearEffectNpc",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "DelBuildingNpc",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "DelNpcTimer",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "GetBossTargetPlayer",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetCreatureInfo",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetFreeNpcCount",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetGuardLevel",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetHardNpcAttrib",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetMorphType",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetNpcBelonger",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetNpcEnmityCount",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetNpcEnmityItem",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetNpcOwer",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetNpcPolyMorph",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "HaveEffectNpc",
+      "wave": 7,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "ModifyEffectNpc",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "NpcPolyMorph",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "PolyMorph",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "SetAIScript",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "SetCreatureType",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "SetEffectNpc",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "SetEffectNpcCount",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "SetGuardLevel",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "SetNpcCamp",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "SetNpcTarget",
+      "wave": 7,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "AddTongRes",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "DeleteSiegeWeapon",
+      "wave": 8,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "GetCityGateNpcIdxByNpc",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetCityInfo",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetCityInfoByID",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetCityName",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetCityTaskByID",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetCityTotemNpcIdxByNpc",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetHeavenCityUnion",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetNpcMapCityID",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetSiegeWeaponIndexByNpcIndex",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetSiegeWeaponNpcIndex",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetSiegeWeaponPlayerCount",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetTGuardIndexByCarriageIndex",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetTGuardIndexByPlayerName",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetTGuardInfo",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetTongIDByName",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetTongTask",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetTongTaskByID",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetUnionTongIDByPosterityType",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetUnionTongNameByPosterityType",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsInMonsterAttackDay",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsOwnerCity",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "IsTongMember",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "ModifyUnionTongWarPowerByName",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "Msg2TongMember",
+      "wave": 8,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "Msg2TongMemberByTongName",
+      "wave": 8,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "NewSiegeWeapon",
+      "wave": 8,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "SetCityTaskByID",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "SetTongTask",
+      "wave": 8,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "AddEvent",
+      "wave": 9,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "DeleteSubWorldKindNpcs",
+      "wave": 9,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "GetInstanceActiveInfo",
+      "wave": 9,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetInstanceBaseInfo",
+      "wave": 9,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetInstanceTempValue",
+      "wave": 9,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetWorldEventProgress",
+      "wave": 9,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "GetWorldEventValue",
+      "wave": 9,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Server-side query/helper returns only to the calling Lua state; no client packet is part of its contract."
+    },
+    {
+      "name": "InstanceMsg2All",
+      "wave": 9,
+      "client_sync": "required-and-verified",
+      "boundary": "script-action-ui",
+      "protocol": "s2c_scriptaction / PLAYER_SCRIPTACTION_SYNC",
+      "producer": "KPlayer::DoScriptAction -> PackDataToClient with bounded m_wProtocolLong",
+      "consumer": "KProtocolProcess::SyncScriptAction -> KPlayer::OnScriptAction -> UI callback",
+      "reason": null
+    },
+    {
+      "name": "MonsterOnDeath",
+      "wave": 9,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "PlayerInOrOut",
+      "wave": 9,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "SetBarrierState",
+      "wave": 9,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    },
+    {
+      "name": "SetInstanceTempValue",
+      "wave": 9,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "SetMissionV",
+      "wave": 9,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "SetWorldEventProgress",
+      "wave": 9,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "SetWorldEventValue",
+      "wave": 9,
+      "client_sync": "not-applicable-with-reason",
+      "boundary": null,
+      "protocol": null,
+      "producer": null,
+      "consumer": null,
+      "reason": "Authoritative server-only state/lifecycle operation; visible effects use a separately audited native boundary when they occur."
+    },
+    {
+      "name": "WorldBossDeath",
+      "wave": 9,
+      "client_sync": "required-and-verified",
+      "boundary": "npc-world-sync",
+      "protocol": "s2c_syncnpc and existing NPC movement/remove/state messages",
+      "producer": "KNpc::SendSyncData and native NPC lifecycle producers",
+      "consumer": "KProtocolProcess::SyncNpc and NPC lifecycle dispatch table",
+      "reason": null
+    }
+  ]
+}

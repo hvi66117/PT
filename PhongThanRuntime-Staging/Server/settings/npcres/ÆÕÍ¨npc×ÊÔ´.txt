@@ -1,0 +1,1170 @@
+武器类别	站立	休息	待击	跑步	攻击	受伤	死亡	奉上
+ani001	ani001_st.spr	ani001_st.spr	ani001_st.spr	ani001_run.spr	ani001_at.spr	ani001_bat.spr	ani001_die.spr	
+ani002	ani002_st.spr	ani002_st.spr	ani002_st.spr	ani002_run.spr	ani002_at.spr	ani002_bat.spr	ani002_die.spr	
+ani003	ani003_st.spr	ani003_st.spr	ani003_st.spr	ani003_run.spr	ani003_at.spr	ani003_bat.spr	ani003_die.spr	
+ani004	ani004_st.spr	ani004_st.spr	ani004_st.spr	ani004_run.spr	ani004_at.spr	ani004_bat.spr	ani004_die.spr	
+ani005	ani005_st.spr	ani005_st.spr	ani005_st.spr	ani005_run.spr	ani005_at.spr	ani005_bat.spr	ani005_die.spr	
+ani006	ani006_st.spr	ani006_st.spr	ani006_st.spr	ani006_run.spr	ani006_at.spr	ani006_bat.spr	ani006_die.spr	
+ani007	ani007_st.spr	ani007_st.spr	ani007_st.spr	ani007_run.spr	ani007_at.spr	ani007_bat.spr	ani007_die.spr	
+ani008	ani008_st.spr	ani008_st.spr	ani008_st.spr	ani008_run.spr	ani008_at.spr	ani008_bat.spr	ani008_die.spr	
+ani009	ani009_st.spr	ani009_st.spr	ani009_st.spr	ani009_run.spr	ani009_at.spr	ani009_bat.spr	ani009_die.spr	
+ani010	ani010_st.spr	ani010_st.spr	ani010_st.spr	ani010_run.spr	ani010_at.spr	ani010_bat.spr	ani010_die.spr	
+ani011	ani011_st.spr	ani011_st.spr	ani011_st.spr	ani011_run.spr	ani011_at.spr	ani011_bat.spr	ani011_die.spr	
+ani012	ani012_st.spr	ani012_st.spr	ani012_st.spr	ani012_run.spr	ani012_at.spr	ani012_bat.spr	ani012_die.spr	
+ani013	ani013_st.spr	ani013_st.spr	ani013_st.spr	ani013_run.spr	ani013_at.spr	ani013_bat.spr	ani013_die.spr	
+ani014	ani014_st.spr	ani014_st.spr	ani014_st.spr	ani014_run.spr	ani014_at.spr	ani014_bat.spr	ani014_die.spr	
+ani015	ani015_st.spr	ani015_st.spr	ani015_st.spr	ani015_run.spr	ani015_at.spr	ani015_bat.spr	ani015_die.spr	
+ani016	ani016_st.spr	ani016_st.spr	ani016_st.spr	ani016_run.spr	ani016_at.spr	ani016_bat.spr	ani016_die.spr	
+ani017	ani017_st.spr	ani017_st.spr	ani017_st.spr	ani017_run.spr	ani017_at.spr	ani017_bat.spr	ani017_die.spr	
+ani018	ani018_st.spr	ani018_st.spr	ani018_st.spr	ani018_run.spr	ani018_at.spr	ani018_bat.spr	ani018_die.spr	
+ani019	ani019_st.spr	ani019_st.spr	ani019_st.spr	ani019_run.spr	ani019_at.spr	ani019_bat.spr	ani019_die.spr	
+ani020	ani020_st.spr	ani020_st.spr	ani020_st.spr	ani020_run.spr	ani020_at.spr	ani020_bat.spr	ani020_die.spr	
+ani021	ani021_st.spr	ani021_st.spr	ani021_st.spr	ani021_run.spr	ani021_at.spr	ani021_bat.spr	ani021_die.spr	
+ani022	ani022_st.spr	ani022_st.spr	ani022_st.spr	ani022_run.spr	ani022_at.spr	ani022_bat.spr	ani022_die.spr	
+ani023	ani023_st.spr	ani023_st.spr	ani023_st.spr	ani023_run.spr	ani023_at.spr	ani023_bat.spr	ani023_die.spr	
+ani024	ani024_st.spr	ani024_st.spr	ani024_st.spr	ani024_run.spr	ani024_at.spr	ani024_bat.spr	ani024_die.spr	
+ani025	ani025_st.spr	ani025_st.spr	ani025_st.spr	ani025_run.spr	ani025_at.spr	ani025_bat.spr	ani025_die.spr	
+ani026	ani026_st.spr	ani026_st.spr	ani026_st.spr	ani026_run.spr	ani026_at.spr	ani026_bat.spr	ani026_die.spr	
+ani027	ani027_st.spr	ani027_st.spr	ani027_st.spr	ani027_run.spr	ani027_at.spr	ani027_bat.spr	ani027_die.spr	
+ani028	ani028_st.spr	ani028_st.spr	ani028_st.spr	ani028_run.spr	ani028_at.spr	ani028_bat.spr	ani028_die.spr	
+ani029	ani029_st.spr	ani029_st.spr	ani029_st.spr	ani029_run.spr	ani029_at.spr	ani029_bat.spr	ani029_die.spr	
+ani030	ani030_st.spr	ani030_st.spr	ani030_st.spr	ani030_run.spr	ani030_at.spr	ani030_bat.spr	ani030_die.spr	
+ani031	ani031_st.spr	ani031_st.spr	ani031_st.spr	ani031_run.spr	ani031_at.spr	ani031_bat.spr	ani031_die.spr	
+ani032	ani032_st.spr	ani032_st.spr	ani032_st.spr	ani032_run.spr	ani032_at.spr	ani032_bat.spr	ani032_die.spr	
+ani033	ani033_st.spr	ani033_st.spr	ani033_st.spr	ani033_run.spr	ani033_at.spr	ani033_bat.spr	ani033_die.spr	
+ani034	ani012_st.spr	ani012_st.spr	ani012_st.spr	ani012_run.spr	ani012_at.spr	ani012_bat.spr	ani012_die.spr	
+ani035	ani035_st.spr	ani035_st.spr	ani035_st.spr	ani035_run.spr	ani035_at.spr	ani035_bat.spr	ani035_die.spr	
+ani036	ani036_st.spr	ani036_st.spr	ani036_st.spr	ani036_run.spr	ani036_at.spr	ani036_bat.spr	ani036_die.spr	
+ani037	ani037_st.spr	ani037_st.spr	ani037_st.spr	ani037_run.spr	ani037_at.spr	ani037_bat.spr	ani037_die.spr	
+ani038	ani038_st.spr	ani038_st.spr	ani038_st.spr	ani038_run.spr	ani038_at.spr	ani038_bat.spr	ani038_die.spr	
+ani039	ani039_st.spr	ani039_st.spr	ani039_st.spr	ani039_run.spr	ani039_at.spr	ani039_bat.spr	ani039_die.spr	
+ani040	ani040_st.spr	ani040_st.spr	ani040_st.spr	ani040_run.spr	ani040_at.spr	ani040_bat.spr	ani040_die.spr	
+ani041	ani041_st.spr	ani041_st.spr	ani041_st.spr	ani041_run.spr	ani041_at.spr	ani041_bat.spr	ani041_die.spr	
+ani042	ani042_st.spr	ani042_st.spr	ani042_st.spr	ani042_run.spr	ani042_at.spr	ani042_bat.spr	ani042_die.spr	
+ani043	ani043_st.spr	ani043_st.spr	ani043_st.spr	ani043_run.spr	ani043_at.spr	ani043_bat.spr	ani043_die.spr	
+ani044	ani044_st.spr	ani044_st.spr	ani044_st.spr	ani044_run.spr	ani044_at.spr	ani044_bat.spr	ani044_die.spr	
+ani045	ani045_st.spr	ani045_st.spr	ani045_st.spr	ani045_run.spr	ani045_at.spr	ani045_bat.spr	ani045_die.spr	
+ani046	ani046_st.spr	ani046_st.spr	ani046_st.spr	ani046_run.spr	ani046_at.spr	ani046_bat.spr	ani046_die.spr	
+ani047	ani047_st.spr	ani047_st.spr	ani047_st.spr	ani047_run.spr	ani047_at.spr	ani047_bat.spr	ani047_die.spr	
+ani048	ani048_st.spr	ani048_st.spr	ani048_st.spr	ani048_run.spr	ani048_at.spr	ani048_bat.spr	ani048_die.spr	
+ani049	ani049_st.spr	ani049_st.spr	ani049_st.spr	ani049_run.spr	ani049_at.spr	ani049_bat.spr	ani049_die.spr	
+ani050	ani050_st.spr	ani050_st.spr	ani050_st.spr	ani050_run.spr	ani050_at.spr	ani050_bat.spr	ani050_die.spr	
+ani051	ani051_st.spr	ani051_st.spr	ani051_st.spr	ani051_run.spr	ani051_at.spr	ani051_bat.spr	ani051_die.spr	
+ani052	ani052_st.spr	ani052_st.spr	ani052_st.spr	ani052_run.spr	ani052_at.spr	ani052_bat.spr	ani052_die.spr	
+ani053	ani053_st.spr	ani053_st.spr	ani053_st.spr	ani053_run.spr	ani053_at.spr	ani053_bat.spr	ani053_die.spr	
+ani054	ani054_st.spr	ani054_st.spr	ani054_st.spr	ani054_run.spr	ani054_run.spr	ani054_st.spr	ani054_die.spr	
+ani055	ani055_st.spr	ani055_st.spr	ani055_st.spr	ani055_run.spr	ani055_at.spr	ani055_bat.spr	ani055_die.spr	
+ani056	ani056_st.spr	ani056_st.spr	ani056_st.spr	ani056_run.spr	ani056_at.spr	ani056_bat.spr	ani056_die.spr	
+ani057	ani057_st.spr	ani057_st.spr	ani057_st.spr	ani057_run.spr	ani057_at.spr	ani057_bat.spr	ani057_die.spr	
+ani058	ani058_st.spr	ani058_st.spr	ani058_st.spr	ani058_run.spr	ani058_at.spr	ani058_bat.spr	ani058_die.spr	
+ani059	ani059_st.spr	ani059_st.spr	ani059_st.spr	ani059_run.spr	ani059_at.spr	ani059_bat.spr	ani059_die.spr	
+ani060	ani060_st.spr	ani060_st.spr	ani060_st.spr	ani060_run.spr	ani060_at.spr	ani060_bat.spr	ani060_die.spr	
+ani061	ani061_st.spr	ani061_st.spr	ani061_st.spr	ani061_run.spr	ani061_at.spr	ani061_bat.spr	ani061_die.spr	
+ani062	ani062_st.spr	ani062_st.spr	ani062_st.spr	ani062_run.spr	ani062_at.spr	ani062_bat.spr	ani062_die.spr	
+ani063	ani063_st.spr	ani063_st.spr	ani063_st.spr	ani063_run.spr	ani063_at.spr	ani063_bat.spr	ani063_die.spr	
+ani064	ani064_st.spr	ani064_st.spr	ani064_st.spr	ani064_run.spr	ani064_at.spr	ani064_bat.spr	ani064_die.spr	
+ani065	ani065_st.spr	ani065_st.spr	ani065_st.spr	ani065_run.spr	ani065_at.spr	ani065_bat.spr	ani065_die.spr	
+ani066	ani066_st.spr	ani066_st.spr	ani066_st.spr	ani066_run.spr	ani066_at.spr	ani066_bat.spr	ani066_die.spr	
+ani067	ani067_st.spr	ani067_st.spr	ani067_st.spr	ani067_run.spr	ani067_at.spr	ani067_bat.spr	ani067_die.spr	
+ani068	ani068_st.spr	ani068_st.spr	ani068_st.spr	ani068_run.spr	ani068_at.spr	ani068_bat.spr	ani068_die.spr	
+ani069	ani069_st.spr	ani069_st.spr	ani069_st.spr	ani069_run.spr	ani069_at.spr	ani069_bat.spr	ani069_die.spr	
+ani070	ani070_st.spr	ani070_st.spr	ani070_st.spr	ani070_run.spr	ani070_at.spr	ani070_bat.spr	ani070_die.spr	
+ani071	ani071_st.spr	ani071_st.spr	ani071_st.spr	ani071_run.spr	ani071_at.spr	ani071_bat.spr	ani071_die.spr	
+ani072	ani072_st.spr	ani072_st.spr	ani072_st.spr	ani072_run.spr	ani072_at.spr	ani072_bat.spr	ani072_die.spr	
+ani073	ani073_st.spr	ani073_st.spr	ani073_st.spr	ani073_run.spr	ani073_at.spr	ani073_bat.spr	ani073_die.spr	
+ani074	ani074_st.spr	ani074_st.spr	ani074_st.spr	ani074_run.spr	ani074_at.spr	ani074_bat.spr	ani074_die.spr	
+ani075	ani075_st.spr	ani075_st.spr	ani075_st.spr	ani075_run.spr	ani075_at.spr	ani075_bat.spr	ani075_die.spr	
+ani076	ani076_st.spr	ani076_st.spr	ani076_st.spr	ani076_run.spr	ani076_at.spr	ani076_bat.spr	ani076_die.spr	
+ani077	ani077_st.spr	ani077_st.spr	ani077_st.spr	ani077_run.spr	ani077_at.spr	ani077_bat.spr	ani077_die.spr	
+ani078	ani078_st.spr	ani078_st.spr	ani078_st.spr	ani078_run.spr	ani078_at.spr	ani078_bat.spr	ani078_die.spr	
+ani079	ani079_st.spr	ani079_st.spr	ani079_st.spr	ani079_run.spr	ani079_at.spr	ani079_bat.spr	ani079_die.spr	
+ani080	ani080_st.spr	ani080_st.spr	ani080_st.spr	ani080_run.spr	ani080_at.spr	ani080_bat.spr	ani080_die.spr	
+ani081	ani081_st.spr	ani081_st.spr	ani081_st.spr	ani081_run.spr	ani081_at.spr	ani081_bat.spr	ani081_die.spr	
+ani082	ani082_st.spr	ani082_st.spr	ani082_st.spr	ani082_run.spr	ani082_at.spr	ani082_bat.spr	ani082_die.spr	
+ani083	ssx04_hb_rs0.spr	ssx04_hb_rs0.spr	ssx04_hb_rs0.spr	ssx04_hb_rr0.spr	ssx04_hb_ra0.spr	ssx04_hb_rb0.spr	ssx04_hb_rb0.spr	
+ani084	ani084_st.spr	ani084_st.spr	ani084_st.spr	ani084_run.spr	ani084_at.spr	ani084_bat.spr	ani084_die.spr	
+ani085	ani085_st.spr	ani085_st.spr	ani085_st.spr	ani085_run.spr	ani085_at.spr	ani085_bat.spr	ani085_die.spr	
+ani086	ani086_st.spr	ani086_st.spr	ani086_st.spr	ani086_run.spr	ani086_at.spr	ani086_bat.spr	ani086_die.spr	
+ani087	ani087_st.spr	ani087_st.spr	ani087_st.spr	ani087_run.spr	ani087_at.spr	ani087_bat.spr	ani087_die.spr	
+ani088	ani088_st.spr	ani088_st.spr	ani088_st.spr	ani088_run.spr	ani088_at.spr	ani088_bat.spr	ani088_die.spr	
+ani089	ani089_st.spr	ani089_st.spr	ani089_st.spr	ani089_run.spr	ani089_at.spr	ani089_bat.spr	ani089_die.spr	
+ani090	ani090_st.spr	ani090_st.spr	ani090_st.spr	ani090_run.spr	ani090_at.spr	ani090_bat.spr	ani090_die.spr	
+ani091	ani091_st.spr	ani091_st.spr	ani091_st.spr	ani091_run.spr	ani091_at.spr	ani091_bat.spr	ani091_die.spr	
+ani092	ani092_st.spr	ani092_st.spr	ani092_st.spr	ani092_run.spr	ani092_at.spr	ani092_bat.spr	ani092_die.spr	
+ani093	ani093_st.spr	ani093_st.spr	ani093_st.spr	ani093_run.spr	ani093_at.spr	ani093_bat.spr	ani093_die.spr	
+ani094	ani094_st.spr	ani094_st.spr	ani094_st.spr	ani094_run.spr	ani094_at.spr	ani094_bat.spr	ani094_die.spr	
+ani095	ani095_st.spr	ani095_st.spr	ani095_st.spr	ani095_run.spr	ani095_at.spr	ani095_bat.spr	ani095_die.spr	
+ani096	ani096_st.spr	ani096_st.spr	ani096_st.spr	ani096_run.spr	ani096_at.spr	ani096_bat.spr	ani096_die.spr	
+ani097	ani097_st.spr	ani097_st.spr	ani097_st.spr	ani097_run.spr	ani097_at.spr	ani097_st.spr	ani097_die.spr	
+ani098	ani098_st.spr	ani098_st.spr	ani098_st.spr	ani098_run.spr	ani098_at.spr	ani098_st.spr	ani098_die.spr	
+ani099	ani099_st.spr	ani099_st.spr	ani099_st.spr	ani099_st.spr	ani099_at.spr	ani099_st.spr	ani099_die.spr	
+ani100	ani100_st.spr	ani100_sit.spr	ani100_st.spr	ani100_run.spr	ani100_at.spr	ani100_bat.spr	ani100_die.spr	
+ani101	ani101_st.spr	ani101_sit.spr	ani101_st.spr	ani101_run.spr	ani101_at.spr	ani101_bat.spr	ani101_die.spr	
+ani102	ani102_st.spr	ani102_sit.spr	ani102_st.spr	ani102_run.spr	ani102_at.spr	ani102_bat.spr	ani102_die.spr	
+ani103	ani103_st.spr	ani103_sit.spr	ani103_st.spr	ani103_run.spr	ani103_at.spr	ani103_bat.spr	ani103_die.spr	
+ani104	ani104_st.spr	ani104_sit.spr	ani104_st.spr	ani104_run.spr	ani104_at.spr	ani104_bat.spr	ani104_die.spr	
+ani105	ani105_st.spr	ani105_sit.spr	ani105_st.spr	ani105_run.spr	ani105_at.spr	ani105_bat.spr	ani105_die.spr	
+ani106	ani106_st.spr	ani106_st.spr	ani106_st.spr	ani106_run.spr	ani106_at.spr	ani106_bat.spr	ani106_die.spr	
+ani107	ani107_st.spr	ani107_at.spr	ani107_st.spr	ani107_run.spr	ani107_sit.spr	ani107_bat.spr	ani107_die.spr	
+ani108	ani108_st.spr	ani108_at.spr	ani108_st.spr	ani108_run.spr	ani108_sit.spr	ani108_bat.spr	ani108_die.spr	
+ani109	ani109_st.spr	ani109_st.spr	ani109_st.spr	ani109_run.spr	ani109_at.spr	ani109_bat.spr	ani109_die.spr	
+ani110	ani110_st.spr	ani110_st.spr	ani110_st.spr	ani110_run.spr	ani110_at.spr	ani110_bat.spr	ani110_die.spr	
+ani111	ani111_st.spr	ani111_st.spr	ani111_st.spr	ani111_run.spr	ani111_at.spr	ani111_bat.spr	ani111_die.spr	
+ani112	ani112_st.spr	ani112_st.spr	ani112_st.spr	ani112_run.spr	ani112_at.spr	ani112_bat.spr	ani112_die.spr	
+ani113	ani113_st.spr	ani113_st.spr	ani113_st.spr	ani113_run.spr	ani113_at.spr	ani113_bat.spr	ani113_die.spr	
+ani114	ani114_st.spr	ani114_st.spr	ani114_st.spr	ani114_run.spr	ani114_at.spr	ani114_bat.spr	ani114_die.spr	
+ani115	ani115_st.spr	ani115_st.spr	ani115_st.spr	ani115_run.spr	ani115_at.spr	ani115_bat.spr	ani115_die.spr	
+ani116	ani116_st.spr	ani116_st.spr	ani116_st.spr	ani116_run.spr	ani116_at.spr	ani116_bat.spr	ani116_die.spr	
+ani117	ani117_st.spr	ani117_st.spr	ani117_st.spr	ani117_run.spr	ani117_at.spr	ani117_bat.spr	ani117_die.spr	
+ani118	ani118_st.spr	ani118_st.spr	ani118_st.spr	ani118_run.spr	ani118_at.spr	ani118_bat.spr	ani118_die.spr	
+ani119	ani119_st.spr	ani119_st.spr	ani119_st.spr	ani119_run.spr	ani119_at.spr	ani119_bat.spr	ani119_die.spr	
+ani120	ani120_st.spr	ani120_st.spr	ani120_st.spr	ani120_run.spr	ani120_at.spr	ani120_bat.spr	ani120_die.spr	
+ani121	ani121_st.spr	ani121_st.spr	ani121_st.spr	ani121_run.spr	ani121_at.spr	ani121_bat.spr	ani121_die.spr	
+ani122	ani122_st.spr	ani122_st.spr	ani122_st.spr	ani122_run.spr	ani122_at.spr	ani122_bat.spr	ani122_die.spr	
+ani123	ani123_st.spr	ani123_st.spr	ani123_st.spr	ani123_run.spr	ani123_at.spr	ani123_bat.spr	ani123_die.spr	
+ani124	ani124_st.spr	ani124_st.spr	ani124_st.spr	ani124_run.spr	ani124_at.spr	ani124_bat.spr	ani124_die.spr	
+ani125	ani125_st.spr	ani125_st.spr	ani125_st.spr	ani125_run.spr	ani125_at.spr	ani125_bat.spr	ani125_die.spr	
+ani126	ani126_st.spr	ani126_st.spr	ani126_st.spr	ani126_run.spr	ani126_at.spr	ani126_bat.spr	ani126_die.spr	
+ani127	ani127_st.spr	ani127_st.spr	ani127_st.spr	ani127_run.spr	ani127_at.spr	ani127_bat.spr	ani127_die.spr	
+ani128	ani128_st.spr	ani128_st.spr	ani128_st.spr	ani128_run.spr	ani128_at.spr	ani128_bat.spr	ani128_die.spr	
+ani129	ani129_st.spr	ani129_st.spr	ani129_st.spr	ani129_run.spr	ani129_at.spr	ani129_bat.spr	ani129_die.spr	
+ani130	ani130_st.spr	ani130_st.spr	ani130_st.spr	ani130_run.spr	ani130_at.spr	ani130_bat.spr	ani130_die.spr	
+ani131	ani131_st.spr	ani131_st.spr	ani131_st.spr	ani131_run.spr	ani131_at.spr	ani131_bat.spr	ani131_die.spr	
+ani132	ani132_st.spr	ani132_st.spr	ani132_st.spr	ani132_run.spr	ani132_at.spr	ani132_bat.spr	ani132_die.spr	
+ani133	ani133_st.spr	ani133_st.spr	ani133_st.spr	ani133_run.spr	ani133_at.spr	ani133_bat.spr	ani133_die.spr	
+ani134	ani134_st.spr	ani134_st.spr	ani134_st.spr	ani134_run.spr	ani134_at.spr	ani134_bat.spr	ani134_die.spr	
+ani135	ani135_st.spr	ani135_st.spr	ani135_st.spr	ani135_run.spr	ani135_at.spr	ani135_bat.spr	ani135_die.spr	
+ani136	ani136_st.spr	ani136_st.spr	ani136_st.spr	ani136_run.spr	ani136_at.spr	ani136_bat.spr	ani136_die.spr	
+ani137	ani137_st.spr	ani137_st.spr	ani137_st.spr	ani137_run.spr	ani137_at.spr	ani137_bat.spr	ani137_die.spr	
+ani138	ani138_st.spr	ani138_st.spr	ani138_st.spr	ani138_run.spr	ani138_at.spr	ani138_bat.spr	ani138_die.spr	
+ani139	ani139_st.spr	ani139_st.spr	ani139_st.spr	ani139_run.spr	ani139_at.spr	ani139_bat.spr	ani139_die.spr	
+ani140	ani140_st.spr	ani140_st.spr	ani140_st.spr	ani140_run.spr	ani140_at.spr	ani140_bat.spr	ani140_die.spr	
+ani141	ani141_st.spr	ani141_st.spr	ani141_st.spr	ani141_run.spr	ani141_at.spr	ani141_bat.spr	ani141_die.spr	
+ani142	ani142_st.spr	ani142_st.spr	ani142_st.spr	ani142_run.spr	ani142_at.spr	ani142_bat.spr	ani142_die.spr	
+ani143	ani143_st.spr	ani143_st.spr	ani143_st.spr	ani143_run.spr	ani143_at.spr	ani143_bat.spr	ani143_die.spr	
+ani144	ani144_st.spr	ani144_st.spr	ani144_st.spr	ani144_run.spr	ani144_at.spr	ani144_bat.spr	ani144_die.spr	
+ani145	ani145_st.spr	ani145_st.spr	ani145_st.spr	ani145_run.spr	ani145_at.spr	ani145_bat.spr	ani145_die.spr	
+ani146	ani146_st.spr	ani146_st.spr	ani146_st.spr	ani146_run.spr	ani146_at.spr	ani146_bat.spr	ani146_die.spr	
+ani147	ani147_st.spr	ani147_st.spr	ani147_st.spr	ani147_run.spr	ani147_at.spr	ani147_bat.spr	ani147_die.spr	
+ani148	ani148_st.spr	ani148_st.spr	ani148_st.spr	ani148_run.spr	ani148_at.spr	ani148_bat.spr	ani148_die.spr	
+ani149	ani149_st.spr	ani149_st.spr	ani149_st.spr	ani149_run.spr	ani149_at.spr	ani149_bat.spr	ani149_die.spr	
+passerby001	NpcS_passerby001.spr	NpcS_passerby001.spr	NpcS_passerby001.spr					
+passerby002	NpcS_passerby002.spr	NpcS_passerby002.spr	NpcS_passerby002.spr					
+passerby003	NpcS_passerby003.spr	NpcS_passerby003.spr	NpcS_passerby003.spr					
+passerby004	NpcS_passerby004.spr	NpcS_passerby004.spr	NpcS_passerby004.spr					
+passerby005	NpcS_passerby005.spr	NpcS_passerby005.spr	NpcS_passerby005.spr					
+passerby006	NpcS_passerby006.spr	NpcS_passerby006.spr	NpcS_passerby006.spr					
+passerby007	NpcS_passerby007.spr	NpcS_passerby007.spr	NpcS_passerby007.spr					
+passerby008	NpcS_passerby008.spr	NpcS_passerby008.spr	NpcS_passerby008.spr					
+passerby009	NpcS_passerby009.spr	NpcS_passerby009.spr	NpcS_passerby009.spr					
+passerby010	NpcS_passerby010.spr	NpcS_passerby010.spr	NpcS_passerby010.spr					
+passerby011	NpcS_passerby011.spr	NpcS_passerby011.spr	NpcS_passerby011.spr					
+passerby012	NpcS_passerby012.spr	NpcS_passerby012.spr	NpcS_passerby012.spr					
+passerby013	NpcS_passerby013.spr	NpcS_passerby013.spr	NpcS_passerby013.spr					
+passerby014	NpcS_passerby014.spr	NpcS_passerby014.spr	NpcS_passerby014.spr					
+passerby015	NpcS_passerby015.spr	NpcS_passerby015.spr	NpcS_passerby015.spr					
+passerby016	NpcS_passerby016.spr	NpcS_passerby016.spr	NpcS_passerby016.spr					
+passerby017	NpcS_passerby017.spr	NpcS_passerby017.spr	NpcS_passerby017.spr					
+passerby018	NpcS_passerby018.spr	NpcS_passerby018.spr	NpcS_passerby018.spr					
+passerby019	NpcS_passerby019.spr	NpcS_passerby019.spr	NpcS_passerby019.spr					
+passerby020	NpcS_passerby020.spr	NpcS_passerby020.spr	NpcS_passerby020.spr					
+passerby021	NpcS_passerby021.spr	NpcS_passerby021.spr	NpcS_passerby021.spr					
+passerby022	NpcS_passerby022.spr	NpcS_passerby022.spr	NpcS_passerby022.spr					
+passerby023	NpcS_passerby023.spr	NpcS_passerby023.spr	NpcS_passerby023.spr					
+passerby024	NpcS_passerby024.spr	NpcS_passerby024.spr	NpcS_passerby024.spr					
+passerby025	NpcS_passerby025.spr	NpcS_passerby025.spr	NpcS_passerby025.spr					
+passerby026	NpcS_passerby026.spr	NpcS_passerby026.spr	NpcS_passerby026.spr					
+passerby027	NpcS_passerby027.spr	NpcS_passerby027.spr	NpcS_passerby027.spr					
+passerby028	NpcS_passerby028.spr	NpcS_passerby028.spr	NpcS_passerby028.spr					
+passerby029	NpcS_passerby029.spr	NpcS_passerby029.spr	NpcS_passerby029.spr					
+passerby030	NpcS_passerby030.spr	NpcS_passerby030.spr	NpcS_passerby030.spr					
+passerby031	NpcS_passerby031.spr	NpcS_passerby031.spr	NpcS_passerby031.spr					
+passerby032	NpcS_passerby032.spr	NpcS_passerby032.spr	NpcS_passerby032.spr					
+passerby033	NpcS_passerby033.spr	NpcS_passerby033.spr	NpcS_passerby033.spr					
+passerby034	NpcS_passerby034.spr	NpcS_passerby034.spr	NpcS_passerby034.spr					
+passerby035	NpcS_passerby035.spr	NpcS_passerby035.spr	NpcS_passerby035.spr					
+passerby036	NpcS_passerby036.spr	NpcS_passerby036.spr	NpcS_passerby036.spr					
+passerby037	NpcS_passerby037.spr	NpcS_passerby037.spr	NpcS_passerby037.spr					
+passerby038	NpcS_passerby038.spr	NpcS_passerby038.spr	NpcS_passerby038.spr					
+passerby039	NpcS_passerby039.spr	NpcS_passerby039.spr	NpcS_passerby039.spr					
+passerby040	NpcS_passerby040.spr	NpcS_passerby040.spr	NpcS_passerby040.spr					
+passerby041	NpcS_passerby041.spr	NpcS_passerby041.spr	NpcS_passerby041.spr					
+passerby042	NpcS_passerby042.spr	NpcS_passerby042.spr	NpcS_passerby042.spr					
+passerby043	NpcS_passerby043.spr	NpcS_passerby043.spr	NpcS_passerby043.spr					
+passerby044	NpcS_passerby044.spr	NpcS_passerby044.spr	NpcS_passerby044.spr					
+passerby045	NpcS_passerby045.spr	NpcS_passerby045.spr	NpcS_passerby045.spr					
+passerby046	NpcS_passerby046.spr	NpcS_passerby046.spr	NpcS_passerby046.spr					
+passerby047	NpcS_passerby047.spr	NpcS_passerby047.spr	NpcS_passerby047.spr					
+passerby048	NpcS_passerby048.spr	NpcS_passerby048.spr	NpcS_passerby048.spr					
+passerby049	NpcS_passerby049.spr	NpcS_passerby049.spr	NpcS_passerby049.spr					
+passerby050	NpcS_passerby050.spr	NpcS_passerby050.spr	NpcS_passerby050.spr					
+passerby051	NpcS_passerby051.spr	NpcS_passerby051.spr	NpcS_passerby051.spr					
+passerby052	NpcS_passerby052.spr	NpcS_passerby052.spr	NpcS_passerby052.spr					
+passerby053	NpcS_passerby053.spr	NpcS_passerby053.spr	NpcS_passerby053.spr					
+passerby054	NpcS_passerby054.spr	NpcS_passerby054.spr	NpcS_passerby054.spr					
+passerby055	NpcS_passerby055.spr	NpcS_passerby055.spr	NpcS_passerby055.spr					
+passerby056	NpcS_passerby056.spr	NpcS_passerby056.spr	NpcS_passerby056.spr					
+passerby057	NpcS_passerby057.spr	NpcS_passerby057.spr	NpcS_passerby057.spr					
+passerby058	NpcS_passerby058.spr	NpcS_passerby058.spr	NpcS_passerby058.spr					
+passerby059	NpcS_passerby059.spr	NpcS_passerby059.spr	NpcS_passerby059.spr					
+passerby060	NpcS_passerby060.spr	NpcS_passerby060.spr	NpcS_passerby060.spr					
+passerby061	NpcS_passerby061.spr	NpcS_passerby061.spr	NpcS_passerby061.spr					
+passerby062	NpcS_passerby062.spr	NpcS_passerby062.spr	NpcS_passerby062.spr					
+passerby063	NpcS_passerby063.spr	NpcS_passerby063.spr	NpcS_passerby063.spr					
+passerby064	NpcS_passerby064.spr	NpcS_passerby064.spr	NpcS_passerby064.spr					
+passerby065	NpcS_passerby065.spr	NpcS_passerby065.spr	NpcS_passerby065.spr					
+passerby066	NpcS_passerby066.spr	NpcS_passerby066.spr	NpcS_passerby066.spr					
+passerby067	NpcS_passerby067.spr	NpcS_passerby067.spr	NpcS_passerby067.spr					
+passerby068	NpcS_passerby068.spr	NpcS_passerby068.spr	NpcS_passerby068.spr					
+passerby069	NpcS_passerby069.spr	NpcS_passerby069.spr	NpcS_passerby069.spr					
+passerby070	NpcS_passerby070.spr	NpcS_passerby070.spr	NpcS_passerby070.spr					
+passerby071	NpcS_passerby071.spr	NpcS_passerby071.spr	NpcS_passerby071.spr					
+passerby072	NpcS_passerby072.spr	NpcS_passerby072.spr	NpcS_passerby072.spr					
+passerby073	NpcS_passerby073.spr	NpcS_passerby073.spr	NpcS_passerby073.spr					
+passerby074	NpcS_passerby074.spr	NpcS_passerby074.spr	NpcS_passerby074.spr					
+passerby075	NpcS_passerby075.spr	NpcS_passerby075.spr	NpcS_passerby075.spr					
+passerby076	NpcS_passerby076.spr	NpcS_passerby076.spr	NpcS_passerby076.spr					
+passerby077	NpcS_passerby077.spr	NpcS_passerby077.spr	NpcS_passerby077.spr					
+passerby078	NpcS_passerby078.spr	NpcS_passerby078.spr	NpcS_passerby078.spr					
+passerby079	NpcS_passerby079.spr	NpcS_passerby079.spr	NpcS_passerby079.spr					
+passerby080	NpcS_passerby080.spr	NpcS_passerby080.spr	NpcS_passerby080.spr					
+passerby081	NpcS_passerby081.spr	NpcS_passerby081.spr	NpcS_passerby081.spr					
+passerby082	NpcS_passerby082.spr	NpcS_passerby082.spr	NpcS_passerby082.spr					
+passerby083	NpcS_passerby083.spr	NpcS_passerby083.spr	NpcS_passerby083.spr					
+passerby084	NpcS_passerby084.spr	NpcS_passerby084.spr	NpcS_passerby084.spr					
+passerby085	NpcS_passerby085.spr	NpcS_passerby085.spr	NpcS_passerby085.spr	NpcS_passerby085.spr	NpcS_passerby085.spr	NpcS_passerby085.spr		
+passerby086	NpcS_passerby086.spr	NpcS_passerby086.spr	NpcS_passerby086.spr	NpcS_passerby086_run.spr	NpcS_passerby086_at.spr	NpcS_passerby086.spr	NpcS_passerby086.spr	
+passerby087	NpcS_passerby087.spr	NpcS_passerby087.spr	NpcS_passerby087.spr	NpcS_passerby087_run.spr	NpcS_passerby087_at.spr	NpcS_passerby087.spr	NpcS_passerby087.spr	
+passerby088	NpcS_passerby088.spr	NpcS_passerby088.spr	NpcS_passerby088.spr	NpcS_passerby088.spr	NpcS_passerby088.spr	NpcS_passerby088.spr		
+passerby089	NpcS_passerby089.spr	NpcS_passerby089.spr	NpcS_passerby089.spr	NpcS_passerby089.spr	NpcS_passerby089.spr	NpcS_passerby089.spr		
+passerby090	NpcS_passerby090.spr	NpcS_passerby090.spr	NpcS_passerby090.spr					
+passerby091	NpcS_passerby091.spr	NpcS_passerby091.spr	NpcS_passerby091.spr					
+passerby092	NpcS_passerby092.spr	NpcS_passerby092.spr	NpcS_passerby092.spr					
+passerby093	NpcS_passerby093.spr	NpcS_passerby093.spr	NpcS_passerby093.spr					
+passerby094	NpcS_passerby094.spr	NpcS_passerby094.spr	NpcS_passerby094.spr					
+passerby095	NpcS_passerby095.spr	NpcS_passerby095.spr	NpcS_passerby095.spr					
+passerby096	NpcS_passerby096.spr	NpcS_passerby096.spr	NpcS_passerby096.spr					
+passerby097	NpcS_passerby097.spr	NpcS_passerby097.spr	NpcS_passerby097.spr					
+passerby098	NpcS_passerby098.spr	NpcS_passerby098.spr	NpcS_passerby098.spr					
+passerby099	NpcS_passerby099.spr	NpcS_passerby099.spr	NpcS_passerby099.spr					
+passerby100	NpcS_passerby100.spr	NpcS_passerby100.spr	NpcS_passerby100.spr	NpcS_passerby100.spr	NpcS_passerby100.spr	NpcS_passerby100.spr	NpcS_passerby100.spr	
+passerby101	NpcS_passerby101.spr	NpcS_passerby101.spr	NpcS_passerby101.spr	NpcS_passerby101.spr	NpcS_passerby101.spr	NpcS_passerby101.spr	NpcS_passerby101.spr	
+passerby102	NpcS_passerby102.spr	NpcS_passerby102.spr	NpcS_passerby102.spr					
+passerby103	NpcS_passerby103.spr	NpcS_passerby103.spr	NpcS_passerby103.spr	NpcS_passerby103.spr	NpcS_passerby103.spr	NpcS_passerby103.spr	NpcS_passerby103.spr	
+passerby104	NpcS_passerby104.spr	NpcS_passerby104.spr	NpcS_passerby104.spr					
+passerby105	NpcS_passerby105.spr	NpcS_passerby105.spr	NpcS_passerby105.spr					
+passerby106	NpcS_passerby106.spr	NpcS_passerby106.spr	NpcS_passerby106.spr					
+passerby107	NpcS_passerby107.spr	NpcS_passerby107.spr	NpcS_passerby107.spr					
+passerby108	NpcS_passerby108.spr	NpcS_passerby108.spr	NpcS_passerby108.spr					
+passerby109	NpcS_passerby109.spr	NpcS_passerby109.spr	NpcS_passerby109.spr					
+passerby110	NpcS_passerby110.spr	NpcS_passerby110.spr	NpcS_passerby110.spr					
+passerby111	NpcS_passerby111.spr	NpcS_passerby111.spr	NpcS_passerby111.spr					
+passerby112	NpcS_passerby112.spr	NpcS_passerby112.spr	NpcS_passerby112.spr	NpcS_passerby112.spr	NpcS_passerby112.spr	NpcS_passerby112.spr		
+passerby113	NpcS_passerby113.spr	NpcS_passerby113.spr	NpcS_passerby113.spr	NpcS_passerby113.spr	NpcS_passerby113.spr	NpcS_passerby113.spr		
+passerby114	NpcS_passerby114.spr	NpcS_passerby114.spr	NpcS_passerby114.spr					
+passerby115	NpcS_passerby115.spr	NpcS_passerby115.spr	NpcS_passerby115.spr					
+passerby116	NpcS_passerby116.spr	NpcS_passerby116.spr	NpcS_passerby116.spr					
+passerby117	NpcS_passerby117.spr	NpcS_passerby117.spr	NpcS_passerby117.spr					
+passerby118	NpcS_passerby118.spr	NpcS_passerby118.spr	NpcS_passerby118.spr					
+passerby119	NpcS_passerby119.spr	NpcS_passerby119.spr	NpcS_passerby119.spr					
+passerby120	NpcS_passerby120.spr	NpcS_passerby120.spr	NpcS_passerby120.spr					
+passerby121	NpcS_passerby121.spr	NpcS_passerby121.spr	NpcS_passerby121.spr					
+passerby122	NpcS_passerby122.spr	NpcS_passerby122.spr	NpcS_passerby122.spr					
+passerby123	NpcS_passerby123.spr	NpcS_passerby123.spr	NpcS_passerby123.spr					
+passerby124	NpcS_passerby124.spr	NpcS_passerby124.spr	NpcS_passerby124.spr					
+passerby125	NpcS_passerby125.spr	NpcS_passerby125.spr	NpcS_passerby125.spr					
+passerby126	NpcS_passerby126.spr	NpcS_passerby126.spr	NpcS_passerby126.spr					
+passerby127	NpcS_passerby127.spr	NpcS_passerby127.spr	NpcS_passerby127.spr					
+passerby128	NpcS_passerby128.spr	NpcS_passerby128.spr	NpcS_passerby128.spr					
+passerby129	NpcS_passerby129.spr	NpcS_passerby129.spr	NpcS_passerby129.spr					
+passerby130	NpcS_passerby130.spr	NpcS_passerby130.spr	NpcS_passerby130.spr					
+passerby131	NpcS_passerby131.spr	NpcS_passerby131.spr	NpcS_passerby131.spr					
+passerby132	NpcS_passerby132.spr	NpcS_passerby132.spr	NpcS_passerby132.spr					
+passerby133	NpcS_passerby133.spr	NpcS_passerby133.spr	NpcS_passerby133.spr					
+passerby134	NpcS_passerby134.spr	NpcS_passerby134.spr	NpcS_passerby134.spr					
+passerby135	NpcS_passerby135.spr	NpcS_passerby135.spr	NpcS_passerby135.spr					
+passerby136	NpcS_passerby136.spr	NpcS_passerby136.spr	NpcS_passerby136.spr					
+passerby137	NpcS_passerby137.spr	NpcS_passerby137.spr	NpcS_passerby137.spr					
+passerby138	NpcS_passerby138.spr	NpcS_passerby138.spr	NpcS_passerby138.spr					
+passerby139	NpcS_passerby139.spr	NpcS_passerby139.spr	NpcS_passerby139.spr					
+passerby140	NpcS_passerby140.spr	NpcS_passerby140.spr	NpcS_passerby140.spr					
+passerby141	NpcS_passerby141.spr	NpcS_passerby141.spr	NpcS_passerby141.spr					
+passerby142	NpcS_passerby142.spr	NpcS_passerby142.spr	NpcS_passerby142.spr					
+passerby143	NpcS_passerby143.spr	NpcS_passerby143.spr	NpcS_passerby143.spr					
+passerby144	NpcS_passerby144.spr	NpcS_passerby144.spr	NpcS_passerby144.spr					
+passerby145	NpcS_passerby145.spr	NpcS_passerby145.spr	NpcS_passerby145.spr					
+passerby146	NpcS_passerby146.spr	NpcS_passerby146.spr	NpcS_passerby146.spr					
+passerby147	NpcS_passerby147.spr	NpcS_passerby147.spr	NpcS_passerby147.spr					
+passerby148	NpcS_passerby148.spr	NpcS_passerby148.spr	NpcS_passerby148.spr					
+passerby149	NpcS_passerby149.spr	NpcS_passerby149.spr	NpcS_passerby149.spr					
+passerby150	NpcS_passerby150.spr	NpcS_passerby150.spr	NpcS_passerby150.spr					
+human001	human001_st.spr	human001_st.spr	human001_st.spr	human001_run.spr	human001_at.spr	human001_bat.spr		
+human002	human002_st.spr	human002_st.spr	human002_st.spr	human002_run.spr	human002_at.spr	human002_bat.spr		
+human003	human003_st.spr	human003_st.spr	human003_st.spr	human003_run.spr	human003_at.spr	human003_bat.spr		
+human004	human004_st.spr	human004_st.spr	human004_st.spr	human004_run.spr	human004_at.spr	human004_bat.spr		
+human005	human005_st.spr	human005_st.spr	human005_st.spr	human005_run.spr	human005_at.spr	human005_bat.spr		
+human006	human006_st.spr	human006_st.spr	human006_st.spr	human006_run.spr	human006_at.spr	human006_bat.spr		
+human007	human007_st.spr	human007_st.spr	human007_st.spr	human007_run.spr	human007_at.spr	human007_bat.spr		
+human008	human008_st.spr	human008_st.spr	human008_st.spr	human008_run.spr	human008_at.spr	human008_bat.spr		
+human009	human009_st.spr	human009_st.spr	human009_st.spr	human009_run.spr	human009_at.spr	human009_bat.spr		
+human010	human010_st.spr	human010_st.spr	human010_st.spr	human010_run.spr	human010_at.spr	human010_bat.spr		
+human011	human011_st.spr	human011_st.spr	human011_st.spr	human011_run.spr	human011_at.spr	human011_bat.spr		
+human012	human012_st.spr	human012_st.spr	human012_st.spr	human012_run.spr	human012_at.spr	human012_bat.spr		
+human013	human013_st.spr	human013_st.spr	human013_st.spr	human013_run.spr	human013_at.spr	human013_bat.spr		
+human014	human014_st.spr	human014_st.spr	human014_st.spr	human014_run.spr	human014_at.spr	human014_bat.spr		
+human015	human015_st.spr	human015_st.spr	human015_st.spr	human015_run.spr	human015_at.spr	human015_bat.spr		
+human016	human016_st.spr	human016_st.spr	human016_st.spr	human016_run.spr	human016_at.spr	human016_bat.spr		
+human017	human017_st.spr	human017_st.spr	human017_st.spr	human017_run.spr	human017_at.spr	human017_bat.spr		
+human018	human018_st.spr	human018_st.spr	human018_st.spr	human018_run.spr	human018_at.spr	human018_bat.spr		
+human019	human019_st.spr	human019_st.spr	human019_st.spr	human019_run.spr	human019_at.spr	human019_bat.spr		
+human020	human020_st.spr	human020_st.spr	human020_st.spr	human020_run.spr	human020_at.spr	human020_bat.spr		
+human021	human021_st.spr	human021_st.spr	human021_st.spr	human021_run.spr	human021_at.spr	human021_bat.spr		
+human022	human022_st.spr	human022_st.spr	human022_st.spr	human022_run.spr	human022_at.spr	human022_bat.spr		
+human023	human023_st.spr	human023_st.spr	human023_st.spr	human023_run.spr	human023_at.spr	human023_bat.spr		
+human024	human024_st.spr	human024_st.spr	human024_st.spr	human024_run.spr	human024_at.spr	human024_bat.spr		
+human025	human025_st.spr	human025_st.spr	human025_st.spr	human025_run.spr	human025_at.spr	human025_bat.spr		
+human026	human026_st.spr	human026_st.spr	human026_st.spr	human026_run.spr	human026_at.spr	human026_bat.spr		
+human027	human027_st.spr	human027_st.spr	human027_st.spr	human027_run.spr	human027_at.spr	human027_bat.spr		
+human028	human028_st.spr	human028_st.spr	human028_st.spr	human028_run.spr	human028_at.spr	human028_bat.spr		
+human029	human029_st.spr	human029_st.spr	human029_st.spr	human029_run.spr	human029_at.spr	human029_bat.spr		
+human030	human030_st.spr	human030_st.spr	human030_st.spr	human030_run.spr	human030_at.spr	human030_bat.spr		
+human031	human031_st.spr	human031_st.spr	human031_st.spr	human031_run.spr	human031_at.spr	human031_bat.spr		
+human032	human032_st.spr	human032_st.spr	human032_st.spr	human032_run.spr	human032_at.spr	human032_bat.spr		
+human033	human033_st.spr	human033_st.spr	human033_st.spr	human033_run.spr	human033_at.spr	human033_bat.spr		
+human034	human034_st.spr	human034_st.spr	human034_st.spr	human034_run.spr	human034_at.spr	human034_bat.spr		
+human035	human035_st.spr	human035_st.spr	human035_st.spr	human035_run.spr	human035_at.spr	human035_bat.spr		
+human036	human036_st.spr	human036_st.spr	human036_st.spr	human036_run.spr	human036_at.spr	human036_bat.spr		
+human037	human037_st.spr	human037_st.spr	human037_st.spr	human037_run.spr	human037_at.spr	human037_bat.spr		
+human038	human038_st.spr	human038_st.spr	human038_st.spr	human038_run.spr	human038_at.spr	human038_bat.spr		
+human039	human039_st.spr	human039_st.spr	human039_st.spr	human039_run.spr	human039_at.spr	human039_bat.spr		
+human040	human040_st.spr	human040_st.spr	human040_st.spr	human040_run.spr	human040_at.spr	human040_bat.spr		
+human041	human041_st.spr	human041_st.spr	human041_st.spr	human041_run.spr	human041_at.spr	human041_bat.spr		
+human042	human042_st.spr	human042_st.spr	human042_st.spr	human042_run.spr	human042_at.spr	human042_bat.spr		
+human043	human043_st.spr	human043_st.spr	human043_st.spr	human043_run.spr	human043_at.spr	human043_bat.spr		
+human044	human044_run.spr	human044_run.spr	human044_run.spr	human044_run.spr	human044_run.spr	human044_run.spr		
+human045	human045_run.spr	human045_run.spr	human045_run.spr	human045_run.spr	human045_run.spr	human045_run.spr		
+human046	human046_st.spr	human046_st.spr	human046_st.spr	human046_run.spr	human046_at.spr	human046_st.spr		
+human047	human047_st.spr	human047_st.spr	human047_st.spr	human047_run.spr	human047_at.spr	human047_bat.spr		
+human048	human048_st.spr	human048_st.spr	human048_st.spr	human048_run.spr	human048_at.spr	human048_bat.spr		
+human049	human049_st.spr	human049_st.spr	human049_st.spr	human049_run.spr	human049_at.spr	human049_bat.spr		
+human050	human050_st.spr	human050_st.spr	human050_st.spr	human050_run.spr	human050_at.spr	human050_st.spr		
+material001	material001.spr	material001.spr	material001.spr					
+material002	material002.spr	material002.spr	material002.spr					
+material003	material003.spr	material003.spr	material003.spr					
+material004	material004.spr	material004.spr	material004.spr					
+material005	material005.spr	material005.spr	material005.spr					
+material006	material006.spr	material006.spr	material006.spr					
+material007	material007.spr	material007.spr	material007.spr					
+material008	material008.spr	material008.spr	material008.spr					
+material009	material009.spr	material009.spr	material009.spr					
+material010	material010.spr	material010.spr	material010.spr					
+battle001	battle001_st.spr	battle001_st.spr	battle001_st.spr	battle001_run.spr	battle001_at.spr	battle001_bat.spr	battle001_die.spr	
+battle002	battle002_st.spr	battle002_st.spr	battle002_st.spr	battle002_run.spr	battle002_at.spr	battle002_bat.spr	battle002_die.spr	
+battle003	battle003_run.spr	battle003_run.spr	battle003_run.spr	battle003_run.spr	battle003_at.spr	battle003_bat.spr	battle003_die.spr	
+battle004	battle004_st.spr	battle004_st.spr	battle004_st.spr	battle004_run.spr	battle004_st.spr	battle004_st.spr	battle004_die.spr	
+battle005	battle005_st.spr	battle005_st.spr	battle005_st.spr	battle005_run.spr	battle005_st.spr	battle005_st.spr	battle005_die.spr	
+battle006	battle006_st.spr	battle006_st.spr	battle006_st.spr	battle006_run.spr	battle006_st.spr	battle006_st.spr	battle006_die.spr	
+battle007	battle007_st.spr	battle007_st.spr	battle007_st.spr	battle007_run.spr	battle007_at.spr	battle007_bat.spr	battle007_die.spr	
+battle008	battle008_st.spr	battle008_st.spr	battle008_st.spr	battle008_run.spr	battle008_run.spr	battle008_st.spr	battle008_die.spr	
+battle009	battle009_st.spr	battle009_st.spr	battle009_st.spr	battle009_run.spr	battle009_at.spr	battle009_bat.spr	battle009_die.spr	
+battle010	battle010_st.spr	battle010_st.spr	battle010_st.spr	battle010_run.spr	battle010_at.spr	battle010_bat.spr	battle010_die.spr	
+battle011	battle011_st.spr	battle011_st.spr	battle011_st.spr	battle011_st.spr	battle011_st.spr	battle011_st.spr	battle011_die.spr	
+battle012	battle012_st.spr	battle012_st.spr	battle012_st.spr	battle012_run.spr	battle012_at.spr	battle012_bat.spr	battle012_die.spr	
+battle013	battle013_st.spr	battle013_st.spr	battle013_st.spr	battle013_run.spr	battle013_at.spr	battle013_bat.spr	battle013_die.spr	
+battle014	battle014_st.spr	battle014_st.spr	battle014_st.spr	battle014_run.spr	battle014_at.spr	battle014_bat.spr	battle014_die.spr	
+battle015	battle015_st.spr	battle015_st.spr	battle015_st.spr	battle015_run.spr	battle015_at.spr	battle015_bat.spr	battle015_die.spr	
+battle016	battle016_st.spr	battle016_st.spr	battle016_st.spr	battle016_run.spr	battle016_at.spr	battle016_bat.spr	battle016_die.spr	
+battle017	battle017_st.spr	battle017_st.spr	battle017_st.spr	battle017_run.spr	battle017_at.spr	battle017_bat.spr	battle017_die.spr	
+battle018	battle018_st.spr	battle018_st.spr	battle018_st.spr	battle018_run.spr	battle018_at.spr	battle018_bat.spr	battle018_die.spr	
+battle019	battle019_st.spr	battle019_st.spr	battle019_st.spr	battle019_run.spr	battle019_at.spr	battle019_bat.spr	battle019_die.spr	
+battle020	battle020_st.spr	battle020_st.spr	battle020_st.spr	battle020_run.spr	battle020_at.spr	battle020_bat.spr	battle020_die.spr	
+building001	building001_st.spr	building001_sit.spr	building001_st1.spr	building001_run.spr	building001_at.spr	building001_bat.spr	chengmenfeixu.spr	
+building002	building002_st.spr	building002_sit.spr	building002_st1.spr	building002_run.spr	building002_at.spr	building002_bat.spr	building002_die.spr	
+building003	building002_st.spr	building003_sit.spr	building003_st1.spr	building003_run.spr	building003_at.spr	building003_bat.spr	building003_die.spr	
+building004	building001_st.spr	building004_sit.spr	building004_st1.spr	building004_run.spr	building004_at.spr	building004_bat.spr	building001_die.spr	
+building005	building001_st.spr	building005_sit.spr	building005_st1.spr	building005_run.spr	building005_at.spr	building005_bat.spr	building001_die.spr	
+building006	building001_st.spr	building006_sit.spr	building006_st1.spr	building006_run.spr	building006_at.spr	building006_bat.spr	building001_die.spr	
+building007	building001_st.spr	building007_sit.spr	building007_st1.spr	building007_run.spr	building007_at.spr	building007_bat.spr	building001_die.spr	
+building008	building001_st.spr	building008_sit.spr	building008_st1.spr	building008_run.spr	building008_at.spr	building008_bat.spr	building001_die.spr	
+building009	building002_st.spr	building009_sit.spr	building009_st1.spr	building009_run.spr	building009_at.spr	building009_bat.spr	building002_die.spr	
+building010	building001_st.spr	building010_sit.spr	building010_st1.spr	building010_run.spr	building010_at.spr	building010_bat.spr	building001_die.spr	
+building011	building001_st.spr	building011_sit.spr	building011_st1.spr	building011_run.spr	building011_at.spr	building011_bat.spr	building001_die.spr	
+building012	building002_st.spr	building012_sit.spr	building012_st1.spr	building012_run.spr	building012_at.spr	building012_bat.spr	building001_die.spr	
+building013	building001_st.spr	building013_sit.spr	building013_st1.spr	building013_run.spr	building013_at.spr	building013_bat.spr	building001_die.spr	
+building014	building001_st.spr	building014_sit.spr	building014_st1.spr	building014_run.spr	building014_at.spr	building014_bat.spr	building001_die.spr	
+building015	building001_st.spr	building015_sit.spr	building015_st1.spr	building015_run.spr	building015_at.spr	building015_bat.spr	building001_die.spr	
+building016	building001_st.spr	building016_sit.spr	building016_st1.spr	building016_run.spr	building016_at.spr	building016_bat.spr	building001_die.spr	
+building017	building002_st.spr	building017_sit.spr	building017_st1.spr	building017_run.spr	building017_at.spr	building017_bat.spr	building002_die.spr	
+building018	building002_st.spr	building018_sit.spr	building018_st1.spr	building018_run.spr	building018_at.spr	building018_bat.spr	building003_die.spr	
+building019	building002_st.spr	building019_sit.spr	building019_st1.spr	building019_run.spr	building019_at.spr	building019_bat.spr	building003_die.spr	
+building020	building001_st.spr	building020_sit.spr	building020_st1.spr	building020_run.spr	building020_at.spr	building020_bat.spr	building001_die.spr	
+building021	building001_st.spr	building021_sit.spr	building021_st1.spr	building021_run.spr	building021_at.spr	building021_bat.spr	building001_die.spr	
+building022	building001_st.spr	building022_sit.spr	building022_st1.spr	building022_run.spr	building022_at.spr	building022_bat.spr	building001_die.spr	
+building023	building003_st.spr	building023_sit.spr	building023_st1.spr	building023_run.spr	building023_at.spr	building023_bat.spr	building002_die.spr	
+building024	building003_st.spr	building024_sit.spr	building024_st1.spr	building024_run.spr	building024_at.spr	building024_bat.spr	building002_die.spr	
+building025	building003_st.spr	building025_sit.spr	building025_st1.spr	building025_run.spr	building025_at.spr	building025_bat.spr	building002_die.spr	
+building026	building026_st1.spr	building026_st1.spr	building026_st1.spr	building026_st1.spr	building026_st1.spr	building026_st1.spr	building026_st1.spr	
+building027	building003_st.spr	building027_sit.spr	building027_st1.spr	building027_run.spr	building027_at.spr	building027_bat.spr	building002_die.spr	
+building028	building003_st.spr	building028_sit.spr	building028_st1.spr	building028_run.spr	building028_at.spr	building028_bat.spr	building002_die.spr	
+building029	building003_st.spr	building029_sit.spr	building029_st1.spr	building029_run.spr	building029_at.spr	building029_bat.spr	building002_die.spr	
+building030	building004_st.spr	building030_sit.spr	building030_st1.spr	building030_run.spr	building030_at.spr	building030_bat.spr	building002_die.spr	
+building031	building004_st.spr	building031_sit.spr	building031_st1.spr	building031_run.spr	building031_at.spr	building031_bat.spr	building002_die.spr	
+building032	building004_st.spr	building032_sit.spr	building032_st1.spr	building032_run.spr	building032_at.spr	building032_bat.spr	building002_die.spr	
+building033	building004_st.spr	building033_sit.spr	building033_st1.spr	building033_run.spr	building033_at.spr	building033_bat.spr	building002_die.spr	
+building034	building004_st.spr	building034_sit.spr	building034_st1.spr	building034_run.spr	building034_at.spr	building034_bat.spr	building002_die.spr	
+xia001	xia001_st.spr	xia001_sit.spr	xia001_st.spr	xia001_run.spr	xia001_at.spr	xia001_bat.spr		
+xia002	xia002_st.spr	xia002_sit.spr	xia002_st.spr	xia002_run.spr	xia002_at.spr	xia002_bat.spr		
+xia003	xia003_st.spr	xia003_sit.spr	xia003_st.spr	xia003_run.spr	xia003_at.spr	xia003_bat.spr		
+xia004	xia004_st.spr	xia004_sit.spr	xia004_st.spr	xia004_run.spr	xia004_at.spr	xia004_bat.spr		
+sale001	sale001.spr	sale001.spr	sale001.spr	sale001.spr	sale001.spr	sale001.spr		
+sale002	sale002.spr	sale002.spr	sale002.spr	sale002.spr	sale002.spr	sale002.spr		
+sale003	sale003.spr	sale003.spr	sale003.spr	sale003.spr	sale003.spr	sale003.spr		
+sale004	sale004.spr	sale004.spr	sale004.spr	sale004.spr	sale004.spr	sale004.spr		
+sale005	sale005.spr	sale005.spr	sale005.spr	sale005.spr	sale005.spr	sale005.spr		
+sale006	sale006.spr	sale006.spr	sale006.spr	sale006.spr	sale006.spr	sale006.spr		
+sale007	sale007.spr	sale007.spr	sale007.spr	sale007.spr	sale007.spr	sale007.spr		
+sale008	sale008.spr	sale008.spr	sale008.spr	sale008.spr	sale008.spr	sale008.spr		
+sale009	sale009.spr	sale009.spr	sale009.spr	sale009.spr	sale009.spr	sale009.spr		
+sale010	sale010.spr	sale010.spr	sale010.spr	sale010.spr	sale010.spr	sale010.spr		
+skill001	skill001.spr	skill001.spr	skill001.spr					
+skill002	skill002.spr	skill002.spr	skill002.spr					
+skill003	skill003.spr	skill003.spr	skill003.spr					
+skill004	skill004.spr	skill004.spr	skill004.spr					
+skill005	skill005.spr	skill005.spr	skill005.spr					
+passerby200	NpcS_passerby200.spr	NpcS_passerby200.spr	NpcS_passerby200.spr	NpcS_passerby200.spr	NpcS_passerby200.spr	NpcS_passerby200.spr		
+passerby201	NpcS_passerby201.spr	NpcS_passerby201.spr	NpcS_passerby201.spr	NpcS_passerby201.spr	NpcS_passerby201.spr	NpcS_passerby201.spr		
+passerby202	NpcS_passerby202.spr	NpcS_passerby202.spr	NpcS_passerby202.spr	NpcS_passerby202.spr	NpcS_passerby202.spr	NpcS_passerby202.spr		
+passerby203	NpcS_passerby203.spr	NpcS_passerby203.spr	NpcS_passerby203.spr	NpcS_passerby203.spr	NpcS_passerby203.spr	NpcS_passerby203.spr		
+passerby204	NpcS_passerby204.spr	NpcS_passerby204.spr	NpcS_passerby204.spr	NpcS_passerby204.spr	NpcS_passerby204.spr	NpcS_passerby204.spr		
+passerby205	NpcS_passerby205.spr	NpcS_passerby205.spr	NpcS_passerby205.spr	NpcS_passerby205.spr	NpcS_passerby205.spr	NpcS_passerby205.spr		
+passerby206	NpcS_passerby206.spr	NpcS_passerby206.spr	NpcS_passerby206.spr	NpcS_passerby206.spr	NpcS_passerby206.spr	NpcS_passerby206.spr		
+passerby207	NpcS_passerby207.spr	NpcS_passerby207.spr	NpcS_passerby207.spr	NpcS_passerby207.spr	NpcS_passerby207.spr	NpcS_passerby207.spr		
+ani150	battle013_st.spr	battle013_run.spr	battle013_st1.spr	battle013_st2.spr				
+ani151	battle017_st.spr	battle017_run.spr	battle017_st.spr	battle017_run.spr				
+ani152	NpcS_passerby206.spr	NpcS_passerby206.spr	NpcS_passerby206.spr					
+building035	building003_st.spr	building035_sit.spr	building035_st1.spr	building035_sit.spr	building035_sit.spr	building035_sit.spr	building035_sit.spr	
+building036	building003_st.spr	building036_sit.spr	building036_st1.spr	building036_run.spr	building036_at.spr	building036_bat.spr	building003_die.spr	
+ani153	ani153_st.spr	ani153_st.spr	ani153_st.spr	ani153_run.spr	ani153_at.spr	ani153_bat.spr		
+ani154	ani154_st.spr	ani154_st.spr	ani154_st.spr	ani154_run.spr	ani154_at.spr	ani154_bat.spr		
+ani155	ani155_st.spr	ani155_st.spr	ani155_st.spr	ani155_run.spr	ani155_at.spr	ani155_bat.spr		
+ani156	ani156_st.spr	ani156_st.spr	ani156_st.spr	ani156_run.spr	ani156_at.spr	ani156_bat.spr		
+ani157	ani157_st.spr	ani157_st.spr	ani157_st.spr	ani157_run.spr	ani157_at.spr	ani157_bat.spr		
+skill006	skill006.spr	skill006.spr	skill006.spr					
+ani158	ani158_st.spr	ani158_st.spr	ani158_st.spr	ani158_run.spr				
+passerby208	NpcS_passerby208.spr	NpcS_passerby208.spr	NpcS_passerby208.spr	NpcS_passerby208.spr	NpcS_passerby208.spr	NpcS_passerby208.spr		
+ani159	障碍物水蓝.spr	障碍物水蓝.spr	障碍物水蓝.spr	障碍物水蓝.spr	障碍物水蓝.spr	障碍物水蓝.spr		
+ani160	障碍物光_绿.spr	障碍物光_绿.spr	障碍物光_绿.spr	障碍物光_绿.spr	障碍物光_绿.spr	障碍物光_绿.spr		
+ani161	火轮.spr	火轮.spr	火轮.spr	火轮.spr	火轮.spr	火轮.spr		
+battle021	battle021.spr	battle021.spr	battle021.spr					
+battle022	battle022.spr	battle022.spr	battle022.spr					
+battle023	battle012_st.spr	battle012_st.spr	battle012_st.spr					
+battle024	battle011_st.spr	battle011_st.spr	battle011_st.spr					
+ani162	ani162_st.spr	ani162_sit.spr	ani162_st.spr	ani162_run.spr	ani162_at.spr	ani162_bat.spr		
+ani163	ani163_st.spr	ani163_sit.spr	ani163_st.spr	ani163_run.spr	ani163_at.spr	ani163_bat.spr		
+ani164	ani164_st.spr	ani164_sit.spr	ani164_st.spr	ani164_run.spr	ani164_at.spr	ani164_bat.spr		
+ani165	ani165_st.spr	ani165_sit.spr	ani165_st.spr	ani165_run.spr	ani165_at.spr	ani165_bat.spr		
+ani166	ani166_st.spr	ani166_sit.spr	ani166_st.spr	ani166_run.spr	ani166_at.spr	ani166_bat.spr		
+ani167	ani167_st.spr	ani167_sit.spr	ani167_st.spr	ani167_run.spr	ani167_at.spr	ani167_bat.spr		
+ani168	ani168_st.spr	ani168_sit.spr	ani168_st.spr	ani168_run.spr	ani168_at.spr	ani168_bat.spr		
+xia005	xia005_at.spr	xia005_sit.spr	xia005_at.spr	xia005_run.spr	xia005_st.spr	xia005_bat.spr		
+xia006	xia006_st.spr	xia006_sit.spr	xia006_st.spr	xia006_run.spr	xia006_at.spr	xia006_bat.spr		
+flower001	flower001.spr	flower001.spr	flower001.spr	flower001.spr	flower001.spr	flower001.spr		
+flower002	flower002.spr	flower002.spr	flower002.spr	flower002.spr	flower002.spr	flower002.spr		
+flower003	flower003.spr	flower003.spr	flower003.spr	flower003.spr	flower003.spr	flower003.spr		
+flower004	flower004.spr	flower004.spr	flower004.spr	flower004.spr	flower004.spr	flower004.spr		
+men001	men001.spr	men001.spr	men001.spr	men001.spr	men001.spr	men001.spr		
+tudui001	tudui001.spr	tudui001.spr	tudui001.spr	tudui001.spr	tudui001.spr	tudui001.spr		
+tudui002	tudui002.spr	tudui002.spr	tudui002.spr	tudui002.spr	tudui002.spr	tudui002.spr		
+tudui003	tudui003.spr	tudui003.spr	tudui003.spr	tudui003.spr	tudui003.spr	tudui003.spr		
+qizhi001	qizhi001.spr	qizhi001.spr	qizhi001.spr	qizhi001.spr	qizhi001.spr	qizhi001.spr		
+qizhi002	qizhi002.spr	qizhi002.spr	qizhi002.spr	qizhi002.spr	qizhi002.spr	qizhi002.spr		
+ani167	ani167_st.spr	ani167_st.spr	ani167_st.spr	ani167_run.spr	ani167_at.spr	ani167_bat.spr		
+ani169	ani169_st.spr	ani169_st.spr	ani169_st.spr	ani169_run.spr	ani169_at.spr	ani169_bat.spr		
+hun001	hun001.spr	hun001.spr	hun001.spr	hun001.spr	hun001.spr	hun001.spr		
+hun002	hun002.spr	hun002.spr	hun002.spr	hun002.spr	hun002.spr	hun002.spr		
+flower005	flower005.spr	flower005.spr	flower005.spr	flower005.spr	flower005.spr	flower005.spr		
+flower006	flower006.spr	flower006.spr	flower006.spr	flower006.spr	flower006.spr	flower006.spr		
+fazhen001	earth-04.spr	earth-04.spr	earth-04.spr	earth-04.spr	earth-04.spr	earth-04.spr		
+fazhen002	thunder-06.spr	thunder-06.spr	thunder-06.spr	thunder-06.spr	thunder-06.spr	thunder-06.spr		
+hufa001	NpcS_passerby058.spr	NpcS_passerby058.spr	NpcS_passerby058.spr	NpcS_passerby058.spr	NpcS_passerby058.spr	NpcS_passerby058.spr		
+hufa002	NpcS_passerby047.spr	NpcS_passerby047.spr	NpcS_passerby047.spr	NpcS_passerby047.spr	NpcS_passerby047.spr	NpcS_passerby047.spr		
+shumiao	building029_st1.spr	building029_st1.spr	building029_st1.spr	building029_st1.spr	building029_st1.spr	building029_st1.spr	building029_st1.spr	
+qiaokeli	building025_st1.spr	building025_st1.spr	building025_st1.spr	building025_st1.spr	building025_st1.spr	building025_st1.spr	building025_st1.spr	
+xinxin	building026_st1.spr	building026_st1.spr	building026_st1.spr	building026_st1.spr	building026_st1.spr	building026_st1.spr	building026_st1.spr	
+meigui	building027_st1.spr	building027_st1.spr	building027_st1.spr	building027_st1.spr	building027_st1.spr	building027_st1.spr	building027_st1.spr	
+ani170	ani170_st.spr	ani170_st.spr	ani170_st.spr	ani170_run.spr	ani170_at.spr	ani170_bat.spr		
+zhexing	hufa002.spr	hufa002.spr	hufa002.spr	hufa002.spr	hufa002.spr	hufa002.spr		
+fengxi	hufa001.spr	hufa001.spr	hufa001.spr	hufa001.spr	hufa001.spr	hufa001.spr		
+bianshen001	男甲士.spr	男甲士.spr	男甲士.spr	男甲士.spr	男甲士.spr	男甲士.spr		
+bianshen002	女甲士.spr	女甲士.spr	女甲士.spr	女甲士.spr	女甲士.spr	女甲士.spr		
+bianshen003	男道士.spr	男道士.spr	男道士.spr	男道士.spr	男道士.spr	男道士.spr		
+bianshen004	女道士.spr	女道士.spr	女道士.spr	女道士.spr	女道士.spr	女道士.spr		
+bianshen005	男异人.spr	男异人.spr	男异人.spr	男异人.spr	男异人.spr	男异人.spr		
+bianshen006	女异人.spr	女异人.spr	女异人.spr	女异人.spr	女异人.spr	女异人.spr		
+fazhen004	fazhen004.spr	fazhen004.spr	fazhen004.spr	fazhen004.spr	fazhen004.spr	fazhen004.spr		
+fazhen003	fazhen003.spr	fazhen003.spr	fazhen003.spr	fazhen003.spr	fazhen003.spr	fazhen003.spr		
+building003_1	building003_die.spr	building003_die.spr	building003_die.spr	building003_die.spr	building003_die.spr	building003_die.spr		
+mingyi	mingyi_st.spr	mingyi_st.spr	mingyi_st.spr	mingyi_run.spr	mingyi_at.spr	mingyi_bat.spr		
+qingtianzy	building002_st.spr	building002_st.spr	building002_st.spr	building002_st.spr	building002_st.spr	building002_st.spr		
+qingtiankz	building002_st2.spr	building002_st2.spr	building002_st2.spr	building002_st2.spr	building002_st2.spr	building002_st2.spr		
+building002_st	building002_st.spr	building002_st.spr	building002_st.spr	building002_st.spr	building002_st.spr	building002_st.spr		
+building002_st2	building002_st2.spr	building002_st2.spr	building002_st2.spr	building002_st2.spr	building002_st2.spr	building002_st2.spr		
+moqi	moqi.spr	moqi.spr	moqi.spr	moqi.spr	moqi.spr	moqi.spr		
+xianqi	xianqi.spr	xianqi.spr	xianqi.spr	xianqi.spr	xianqi.spr	xianqi.spr		
+danfang	danfang.spr	danfang.spr	danfang.spr	danfang.spr	danfang.spr	danfang.spr		
+fazhen005	fazhen005.spr	fazhen005.spr	fazhen005.spr	fazhen005.spr	fazhen005.spr	fazhen005.spr		
+雪堆	雪堆.spr	雪堆.spr	雪堆.spr	雪堆.spr	雪堆.spr	雪堆.spr		
+building038	蓝方雪人.spr蓝方雪人.spr		蓝方雪人.spr	蓝方雪人.spr	蓝方雪人.spr	蓝方雪人.spr		
+building039	红方雪人.spr	红方雪人.spr	红方雪人.spr	红方雪人.spr	红方雪人.spr	红方雪人.spr		
+雷电封印	雷电封印.spr	雷电封印.spr	雷电封印.spr	雷电封印.spr	雷电封印.spr	雷电封印.spr		
+xia007	xia007_idle.spr	xia007_idle.spr	xia007_idle.spr	xia007_run.spr	xia007_na.spr	xia007_hurt.spr		
+xia008	xia008_idle.spr	xia008_idle.spr	xia008_idle.spr	xia008_run.spr	xia008_na.spr	xia008_hurt.spr		
+NpcS_passerby212	绿色气球1.spr	绿色气球1.spr	绿色气球1.spr	绿色气球1.spr	绿色气球1.spr	绿色气球1.spr		
+NpcS_passerby213	黄色气球1.spr	黄色气球1.spr	黄色气球1.spr	黄色气球1.spr	黄色气球1.spr	黄色气球1.spr		
+NpcS_passerby214	橙色气球1.spr	橙色气球1.spr	橙色气球1.spr	橙色气球1.spr	橙色气球1.spr	橙色气球1.spr		
+NpcS_passerby215	紫色气球1.spr	紫色气球1.spr	紫色气球1.spr	紫色气球1.spr	紫色气球1.spr	紫色气球1.spr		
+NpcS_passerby216	红色气球1.spr	红色气球1.spr	红色气球1.spr	红色气球1.spr	红色气球1.spr	红色气球1.spr		
+NpcS_passerby217	金色气球1.spr	金色气球1.spr	金色气球1.spr	金色气球1.spr	金色气球1.spr	金色气球1.spr		
+NpcS_passerby212	绿色气球1.spr	绿色气球1.spr	绿色气球1.spr	绿色气球1.spr	绿色气球1.spr	绿色气球1.spr		
+NpcS_passerby213	黄色气球1.spr	黄色气球1.spr	黄色气球1.spr	黄色气球1.spr	黄色气球1.spr	黄色气球1.spr		
+NpcS_passerby214	橙色气球1.spr	橙色气球1.spr	橙色气球1.spr	橙色气球1.spr	橙色气球1.spr	橙色气球1.spr		
+NpcS_passerby215	紫色气球1.spr	紫色气球1.spr	紫色气球1.spr	紫色气球1.spr	紫色气球1.spr	紫色气球1.spr		
+NpcS_passerby216	红色气球1.spr	红色气球1.spr	红色气球1.spr	红色气球1.spr	红色气球1.spr	红色气球1.spr		
+NpcS_passerby217	金色气球1.spr	金色气球1.spr	金色气球1.spr	金色气球1.spr	金色气球1.spr	金色气球1.spr		
+passerby220	passerby220.spr	passerby220.spr	passerby220.spr	passerby220.spr	passerby220.spr	passerby220.spr		
+passerby221	passerby221.spr	passerby221.spr	passerby221.spr	passerby221.spr	passerby221.spr	passerby221.spr		
+passerby222	passerby222.spr	passerby222.spr	passerby222.spr	passerby222.spr	passerby222.spr	passerby222.spr		
+passerby223	passerby223.spr	passerby223.spr	passerby223.spr	passerby223.spr	passerby223.spr	passerby223.spr		
+龙公竹1	龙公竹1.spr	龙公竹1.spr	龙公竹1.spr	龙公竹1.spr	龙公竹1.spr	龙公竹1.spr		
+daniao	ssx03_hb_rs0.spr	ssx03_hb_rs0.spr	ssx03_hb_rs0.spr	ssx03_hb_rr0.spr	ssx03_hb_ra0.spr	ssx03_hb_rb0.spr		
+jimeng	jimeng_st.spr	jimeng_st.spr	jimeng_st.spr	jimeng_run.spr	jimeng_ra.spr	jimeng_bat.spr		
+shanyou	shanyou_st.spr	shanyou_st.spr	shanyou_st.spr	shanyou_run.spr	shanyou_ra.spr	shanyou_bat.spr		
+lilingshi	lilingshi_st.spr	lilingshi_st.spr	lilingshi_st.spr	lilingshi_run.spr	lilingshi_ra.spr	lilingshi_bat.spr		
+chenghuang	chenghuang_st.spr	chenghuang_st.spr	chenghuang_st.spr	chenghuang_run.spr	chenghuang_ra.spr	chenghuang_bat.spr		
+passerby224	passerby224.spr	passerby224.spr	passerby224.spr	passerby224.spr	passerby224.spr	passerby224.spr		
+passerby225	passerby225.spr	passerby225.spr	passerby225.spr	passerby225.spr	passerby225.spr	passerby225.spr		
+passerby226	passerby226.spr	passerby226.spr	passerby226.spr	passerby226.spr	passerby226.spr	passerby226.spr		
+passerby227	passerby227.spr	passerby227.spr	passerby227.spr	passerby227.spr	passerby227.spr	passerby227.spr		
+passerby228	passerby228.spr	passerby228.spr	passerby228.spr	passerby228.spr	passerby228.spr	passerby228.spr		
+passerby229	jsx11_hh_rs0.spr	jsx11_hh_rs0.spr	jsx11_hh_rs0.spr	jsx11_hh_rr0.spr	jsx11_hh_rs0.spr	jsx11_hh_rs0.spr		
+passerby230	passerby230.spr	passerby230.spr	passerby230.spr	passerby230.spr	passerby230.spr	passerby230.spr		
+passerby231	passerby231.spr	passerby231.spr	passerby231.spr	passerby231.spr	passerby231.spr	passerby231.spr		
+passerby232	passerby232.spr	passerby232.spr	passerby232.spr	passerby232.spr	passerby232.spr	passerby232.spr		
+passerby233	passerby233.spr	passerby233.spr	passerby233.spr	passerby233.spr	passerby233.spr	passerby233.spr		
+passerby234	passerby234.spr	passerby234.spr	passerby234.spr	passerby234.spr	passerby234.spr	passerby234.spr		
+passerby235	passerby235.spr	passerby235.spr	passerby235.spr	passerby235.spr	passerby235.spr	passerby235.spr		
+passerby236	passerby236.spr	passerby236.spr	passerby236.spr	passerby236.spr	passerby236.spr	passerby236.spr		
+白虎雕像	白虎合.spr	白虎合.spr	白虎合.spr	白虎合.spr	白虎合.spr	白虎合.spr		
+玄虎雕像	玄武合.spr	玄武合.spr	玄武合.spr	玄武合.spr	玄武合.spr	玄武合.spr		
+鹿神站立	human012_st.spr	human012_st.spr	human012_st.spr	human012_st.spr	human012_st.spr	human012_st.spr		
+ani171	ani171_st.spr	ani171_st.spr	ani171_st.spr	ani171_run.spr	ani171_at.spr	ani171_bat.spr		
+material016	水合.spr	水合.spr	水合.spr	水合.spr	水合.spr	水合.spr		
+stone	石头.spr	石头.spr	石头.spr	石头.spr	石头.spr	石头.spr		
+quanshui	泉水合.spr	泉水合.spr	泉水合.spr	泉水合.spr	泉水合.spr	泉水合.spr		
+guangqiu	光球特效.spr	光球特效.spr	光球特效.spr	光球特效.spr	光球特效.spr	光球特效.spr		
+hanlongfan	撼龙幡1.spr	撼龙幡1.spr	撼龙幡1.spr	撼龙幡1.spr	撼龙幡1.spr	撼龙幡1.spr		
+shanshen	shanshen_st.spr	shanshen_st.spr	shanshen_st.spr	shanshen_run.spr	shanshen_ra.spr	shanshen_bat.spr		
+xia010	xia010_st.spr	xia010_sit.spr	xia010_st.spr	xia010_run.spr	xia010_at.spr	xia010_bat.spr		
+xia011	xia011_st.spr	xia011_sit.spr	xia011_st.spr	xia011_run.spr	xia011_at.spr	xia011_bat.spr		
+fen1	坟1.spr	坟1.spr	坟1.spr	坟1.spr	坟1.spr	坟1.spr		
+fen2	坟2.spr	坟2.spr	坟2.spr	坟2.spr	坟2.spr	坟2.spr		
+zhangpeng	帐篷.spr	帐篷.spr	帐篷.spr	帐篷.spr	帐篷.spr	帐篷.spr		
+suipian01	suipian01.spr	suipian01.spr	suipian01.spr	suipian01.spr	suipian01.spr	suipian01.spr		
+suipian02	suipian02.spr	suipian02.spr	suipian02.spr	suipian02.spr	suipian02.spr	suipian02.spr		
+suipian03	suipian03.spr	suipian03.spr	suipian03.spr	suipian03.spr	suipian03.spr	suipian03.spr		
+suipian04	suipian04.spr	suipian04.spr	suipian04.spr	suipian04.spr	suipian04.spr	suipian04.spr		
+suipian05	suipian05.spr	suipian05.spr	suipian05.spr	suipian05.spr	suipian05.spr	suipian05.spr		
+图腾灭	图腾灭.spr	图腾灭.spr	图腾灭.spr	图腾灭.spr	图腾灭.spr	图腾灭.spr		
+连理树	连理树.spr	连理树.spr	连理树.spr	连理树.spr	连理树.spr	连理树.spr		
+flower	flower.spr	flower.spr	flower.spr	flower.spr	flower.spr	flower.spr		
+周年图腾1	图腾7_前.spr	图腾7_前.spr	图腾7_前.spr	图腾7_前.spr	图腾7_前.spr	图腾7_前.spr		
+周年图腾2	图腾7_后.spr	图腾7_后.spr	图腾7_后.spr	图腾7_后.spr	图腾7_后.spr	图腾7_后.spr		
+八卦图腾-天	八卦图腾-天.spr	八卦图腾-天.spr	八卦图腾-天.spr	八卦图腾-天.spr	八卦图腾-天.spr	八卦图腾-天.spr		
+八卦图腾-地	八卦图腾-地.spr	八卦图腾-地.spr	八卦图腾-地.spr	八卦图腾-地.spr	八卦图腾-地.spr	八卦图腾-地.spr		
+八卦图腾-火	八卦图腾-火.spr	八卦图腾-火.spr	八卦图腾-火.spr	八卦图腾-火.spr	八卦图腾-火.spr	八卦图腾-火.spr		
+八卦图腾-风	八卦图腾-风.spr	八卦图腾-风.spr	八卦图腾-风.spr	八卦图腾-风.spr	八卦图腾-风.spr	八卦图腾-风.spr		
+八卦图腾-水	八卦图腾-水.spr	八卦图腾-水.spr	八卦图腾-水.spr	八卦图腾-水.spr	八卦图腾-水.spr	八卦图腾-水.spr		
+八卦图腾-山	八卦图腾-山.spr	八卦图腾-山.spr	八卦图腾-山.spr	八卦图腾-山.spr	八卦图腾-山.spr	八卦图腾-山.spr		
+八卦图腾-泽	八卦图腾-泽.spr	八卦图腾-泽.spr	八卦图腾-泽.spr	八卦图腾-泽.spr	八卦图腾-泽.spr	八卦图腾-泽.spr		
+八卦图腾-雷	八卦图腾-雷.spr	八卦图腾-雷.spr	八卦图腾-雷.spr	八卦图腾-雷.spr	八卦图腾-雷.spr	八卦图腾-雷.spr		
+大树	大树.spr	大树.spr	大树.spr	大树.spr	大树.spr	大树.spr		
+枯树	枯树.spr	枯树.spr	枯树.spr	枯树.spr	枯树.spr	枯树.spr		
+绿树	绿树.spr	绿树.spr	绿树.spr	绿树.spr	绿树.spr	绿树.spr		
+shuhun	shuhun_st.spr	shuhun_st.spr	shuhun_st.spr	shuhun_run.spr	shuhun_at.spr	shuhun_bat.spr	ani081_die.spr	
+眼睛魔	眼睛魔.spr	眼睛魔.spr	眼睛魔.spr	眼睛魔.spr	眼睛魔.spr	眼睛魔.spr		
+眼睛仙	眼睛仙.spr	眼睛仙.spr	眼睛仙.spr	眼睛仙.spr	眼睛仙.spr	眼睛仙.spr		
+百合obj	百合obj.spr	百合obj.spr	百合obj.spr	百合obj.spr	百合obj.spr	百合obj.spr		
+龙墩	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr		
+国庆花坛	国庆花坛.spr	国庆花坛.spr	国庆花坛.spr	国庆花坛.spr	国庆花坛.spr	国庆花坛.spr		
+月宫月饼	月宫月饼.spr	月宫月饼.spr	月宫月饼.spr	月宫月饼.spr	月宫月饼.spr	月宫月饼.spr		
+fbboss	boss_st.spr	boss_st.spr	boss_st.spr	boss_run.spr	boss_at.spr	boss_bat.spr	ani001_die.spr	
+fbboss1	boss1_st.spr	boss1_st.spr	boss1_st.spr	boss1_run.spr	boss1_at.spr	boss1_bat.spr	ani001_die.spr	
+fbboss2	boss2_st.spr	boss2_st.spr	boss2_st.spr	boss2_run.spr	boss2_at.spr	boss2_bat.spr	ani001_die.spr	
+fbboss3	boss3_st.spr	boss3_st.spr	boss3_st.spr	boss3_run.spr	boss3_at.spr	boss3_bat.spr	ani001_die.spr	
+fbboss4	boss4_st.spr	boss4_st.spr	boss4_st.spr	boss4_run.spr	boss4_at.spr	boss4_bat.spr	ani001_die.spr	
+fbboss5	boss5_st.spr	boss5_st.spr	boss5_st.spr	boss5_run.spr	boss5_at.spr	boss5_bat.spr	ani001_die.spr	
+fbboss6	boss6_st.spr	boss6_st.spr	boss6_st.spr	boss6_run.spr	boss6_at.spr	boss6_bat.spr	ani001_die.spr	
+fbboss7	boss7_st.spr	boss7_st.spr	boss7_st.spr	boss7_run.spr	boss7_at.spr	boss7_bat.spr	ani001_die.spr	
+guangqiang1	guangqiang.spr	guangqiang.spr	guangqiang.spr	guangqiang.spr	guangqiang.spr	guangqiang.spr		
+guangqiang2	guangqaing01.spr	guangqaing01.spr	guangqaing01.spr	guangqaing01.spr	guangqaing01.spr	guangqaing01.spr		
+fengqiang	windwall1.spr	windwall1.spr	windwall1.spr	windwall1.spr	windwall1.spr	windwall1.spr		
+xuanfeng	xuanfengnpc.spr	xuanfengnpc.spr	xuanfengnpc.spr	xuanfengnpc.spr	xuanfengnpc.spr	xuanfengnpc.spr		
+suolian1	suolian1.spr	suolian1.spr	suolian1.spr	suolian1.spr	suolian1.spr	suolian1.spr		
+suolian2	suolian2.spr	suolian2.spr	suolian2.spr	suolian2.spr	suolian2.spr	suolian2.spr		
+petnew01	petnew01_st.spr	petnew01_sit.spr	petnew01_st.spr	petnew01_run.spr	petnew01_at.spr	petnew01_bat.spr	petnew01_die.spr	
+petnew02	petnew02_st.spr	petnew02_sit.spr	petnew02_st.spr	petnew02_run.spr	petnew02_at.spr	petnew02_bat.spr	petnew02_die.spr	
+petnew03	petnew03_st.spr	petnew03_sit.spr	petnew03_st.spr	petnew03_run.spr	petnew03_at.spr	petnew03_bat.spr	petnew03_die.spr	
+petnew04	petnew04_st.spr	petnew04_sit.spr	petnew04_st.spr	petnew04_run.spr	petnew04_at.spr	petnew04_bat.spr	petnew04_die.spr	
+petnew05	petnew05_st.spr	petnew05_sit.spr	petnew05_st.spr	petnew05_run.spr	petnew05_at.spr	petnew05_bat.spr	petnew05_die.spr	
+petnew06	petnew06_st.spr	petnew06_sit.spr	petnew06_st.spr	petnew06_run.spr	petnew06_at.spr	petnew06_bat.spr	petnew06_die.spr	
+petnew07	petnew07_st.spr	petnew07_sit.spr	petnew07_st.spr	petnew07_run.spr	petnew07_at.spr	petnew07_bat.spr	petnew07_die.spr	
+petnew08	petnew08_st.spr	petnew08_sit.spr	petnew08_st.spr	petnew08_run.spr	petnew08_at.spr	petnew08_bat.spr	petnew08_die.spr	
+hongfan	hongfan.spr	hongfan.spr	hongfan.spr	hongfan.spr	hongfan.spr	hongfan.spr		
+tianfan	TIAN.spr	TIAN.spr	TIAN.spr	TIAN.spr	TIAN.spr	TIAN.spr		
+difan	di.spr	di.spr	di.spr	di.spr	di.spr	di.spr		
+renfan	renfan.spr	renfan.spr	renfan.spr	renfan.spr	renfan.spr	renfan.spr		
+juedishu	dishu_st.spr	dishu_st.spr	dishu_st.spr	dishu_run.spr	dishu_at.spr	dishu_bat.spr		
+renshenjin	renshenjin_st.spr	renshenjin_st.spr	renshenjin_st.spr	renshenjin_run.spr	renshenjin_at.spr	renshenjin_bat.spr		
+haozhulaodie	zhu_zhanli.spr	zhu_zhanli.spr	zhu_zhanli.spr	zhu_run.spr	zhu_gongji.spr	zhu_hurt.spr		
+xiaohaozhu	zhu_zhanlixiao.spr	zhu_zhanlixiao.spr	zhu_zhanlixiao.spr	zhu_runxiao.spr	zhu_gongjixiao.spr	zhu_hurtxiao.spr		
+yuwong	diaoyu.spr	diaoyu.spr	diaoyu.spr	diaoyu.spr	lagan.spr	diaoyu.spr		
+honghuang	honghuang_st.spr	honghuang_st.spr	honghuang_st.spr	honghuang_run.spr	honghuang_at.spr	honghuang_bat.spr		
+nvchou	nvchou_st.spr	nvchou_st.spr	nvchou_st.spr	nvchou_run.spr	nvchou_at.spr	nvchou_bat.spr		
+tianlu	tianlu_st.spr	tianlu_st.spr	tianlu_st.spr	tianlu_run.spr	tianlu_at.spr	tianlu_bat.spr		
+pixiu	pixiu_st.spr	pixiu_st.spr	pixiu_st.spr	pixiu_run.spr	pixiu_at.spr	pixiu_bat.spr		
+tian1	未种植.spr	未种植.spr	未种植.spr	未种植.spr	未种植.spr	未种植.spr		
+tian2	常温秧苗.spr	常温秧苗.spr	常温秧苗.spr	常温秧苗.spr	常温秧苗.spr	常温秧苗.spr		
+tian3	寒地秧苗.spr	寒地秧苗.spr	寒地秧苗.spr	寒地秧苗.spr	寒地秧苗.spr	寒地秧苗.spr		
+tian4	暖温秧苗.spr	暖温秧苗.spr	暖温秧苗.spr	暖温秧苗.spr	暖温秧苗.spr	暖温秧苗.spr		
+tian5	开花常温.spr	开花常温.spr	开花常温.spr	开花常温.spr	开花常温.spr	开花常温.spr		
+tian6	开花寒.spr	开花寒.spr	开花寒.spr	开花寒.spr	开花寒.spr	开花寒.spr		
+tian7	开花暖.spr	开花暖.spr	开花暖.spr	开花暖.spr	开花暖.spr	开花暖.spr		
+新传送	新传送.spr	新传送.spr	新传送.spr	新传送.spr	新传送.spr	新传送.spr		
+烁金矿	烁金矿.spr	烁金矿.spr	烁金矿.spr	烁金矿.spr	烁金矿.spr	烁金矿.spr		
+郁木矿	郁木矿.spr	郁木矿.spr	郁木矿.spr	郁木矿.spr	郁木矿.spr	郁木矿.spr		
+善水矿	善水矿.spr	善水矿.spr	善水矿.spr	善水矿.spr	善水矿.spr	善水矿.spr		
+赤火矿	赤火矿.spr	赤火矿.spr	赤火矿.spr	赤火矿.spr	赤火矿.spr	赤火矿.spr		
+瑰土矿	瑰土矿.spr	瑰土矿.spr	瑰土矿.spr	瑰土矿.spr	瑰土矿.spr	瑰土矿.spr		
+雏菊	雏菊.spr	雏菊.spr	雏菊.spr	雏菊.spr	雏菊.spr	雏菊.spr		
+九花塔	九花塔.spr	九花塔.spr	九花塔.spr	九花塔.spr	九花塔.spr	九花塔.spr		
+焚火图腾	焚火图腾.spr	焚火图腾.spr	焚火图腾.spr	焚火图腾.spr	焚火图腾.spr	焚火图腾.spr		
+彩云令	彩云令.spr	彩云令.spr	彩云令.spr	彩云令.spr	彩云令.spr	彩云令.spr		
+陷阱	陷阱特效.spr	陷阱特效.spr	陷阱特效.spr	陷阱特效.spr	陷阱特效.spr	陷阱特效.spr		
+拒马	城门拒马.spr	城门拒马.spr	城门拒马.spr	城门拒马.spr	城门拒马.spr	城门拒马.spr		
+急急如律令	急急如律令.spr	急急如律令.spr	急急如律令.spr	急急如律令.spr	急急如律令.spr	急急如律令.spr		
+冰封巨鸟	冰精卫.spr	冰精卫.spr	冰精卫.spr	冰精卫.spr	冰精卫.spr	冰精卫.spr		
+熄灭的篝火	building002_die.spr	building002_die.spr	building002_die.spr	building002_die.spr	building002_die.spr	building002_die.spr		
+燃烧的火堆	fire-02.spr	fire-02.spr	fire-02.spr	fire-02.spr	fire-02.spr	fire-02.spr		
+精卫	精卫站立.spr	精卫站立.spr	精卫站立.spr	精卫跑步.spr	精卫攻击.spr	精卫受击.spr		
+守护神白	stbai.spr	stbai.spr	stbai.spr	runbai.spr	atbai.spr	batbai.spr		
+守护神蓝	stlan.spr	stlan.spr	stlan.spr	runlan.spr	atlan.spr	batlan.spr		
+守护神绿	stqianlv.spr	stqianlv.spr	stqianlv.spr	runqianlv.spr	atqianlv.spr	batqianlv.spr		
+守护神黄	sthuang.spr	sthuang.spr	sthuang.spr	runhuang.spr	athuang.spr	bathuang.spr		
+守护神红	sthong.spr	sthong.spr	sthong.spr	runhong.spr	athong.spr	bathong.spr		
+kuafum01	kuafum01_st.spr	kuafum01_sit.spr	kuafum01_st.spr	kuafum01_run.spr	kuafum01_at.spr	kuafum01_bat.spr		
+kuafum02	kuafum02_st.spr		kuafum02_st.spr	kuafum02_run.spr	kuafum02_at.spr	kuafum02_bat.spr		
+kuafum03	kuafum03_st.spr	kuafum01_sit.spr	kuafum03_st.spr	kuafum03_run.spr	kuafum03_at.spr	kuafum03_bat.spr		
+kuafum04	kuafum04_st.spr		kuafum04_st.spr	kuafum04_run.spr	kuafum04_at.spr	kuafum04_bat.spr		
+kuafum11	kuafum11_st.spr	kuafum11_sit.spr	kuafum11_st.spr	kuafum11_run.spr	kuafum11_at.spr	kuafum11_bat.spr		
+kuafum12	kuafum12_st.spr		kuafum12_st.spr	kuafum12_run.spr	kuafum12_at.spr	kuafum12_bat.spr		
+kuafum13	kuafum13_st.spr	kuafum11_sit.spr	kuafum13_st.spr	kuafum13_run.spr	kuafum13_at.spr	kuafum13_bat.spr		
+kuafum14	kuafum14_st.spr		kuafum14_st.spr	kuafum14_run.spr	kuafum14_at.spr	kuafum14_bat.spr		
+kuafum21	kuafum21_st.spr	kuafum21_sit.spr	kuafum21_st.spr	kuafum21_run.spr	kuafum21_at.spr	kuafum21_bat.spr		
+kuafum22	kuafum22_st.spr		kuafum22_st.spr	kuafum22_run.spr	kuafum22_at.spr	kuafum22_bat.spr		
+kuafum23	kuafum23_st.spr	kuafum21_sit.spr	kuafum23_st.spr	kuafum23_run.spr	kuafum23_at.spr	kuafum23_bat.spr		
+kuafum24	kuafum24_st.spr		kuafum24_st.spr	kuafum24_run.spr	kuafum24_at.spr	kuafum24_bat.spr		
+kuafuw01	kuafuw01_st.spr	kuafuw01_sit.spr	kuafuw01_st.spr	kuafuw01_run.spr	kuafuw01_at.spr	kuafuw01_bat.spr		
+kuafuw02	kuafuw02_st.spr		kuafuw02_st.spr	kuafuw02_run.spr	kuafuw02_at.spr	kuafuw02_bat.spr		
+kuafuw03	kuafuw03_st.spr	kuafuw01_sit.spr	kuafuw03_st.spr	kuafuw03_run.spr	kuafuw03_at.spr	kuafuw03_bat.spr		
+kuafuw04	kuafuw04_st.spr		kuafuw04_st.spr	kuafuw04_run.spr	kuafuw04_at.spr	kuafuw04_bat.spr		
+kuafuw11	kuafuw11_st.spr	kuafuw11_sit.spr	kuafuw11_st.spr	kuafuw11_run.spr	kuafuw11_at.spr	kuafuw11_bat.spr		
+kuafuw12	kuafuw12_st.spr		kuafuw12_st.spr	kuafuw12_run.spr	kuafuw12_at.spr	kuafuw12_bat.spr		
+kuafuw13	kuafuw13_st.spr	kuafuw11_sit.spr	kuafuw13_st.spr	kuafuw13_run.spr	kuafuw13_at.spr	kuafuw13_bat.spr		
+kuafuw14	kuafuw14_st.spr		kuafuw14_st.spr	kuafuw14_run.spr	kuafuw14_at.spr	kuafuw14_bat.spr		
+kuafuw21	kuafuw21_st.spr	kuafuw21_sit.spr	kuafuw21_st.spr	kuafuw21_run.spr	kuafuw21_at.spr	kuafuw21_bat.spr		
+kuafuw22	kuafuw22_st.spr		kuafuw22_st.spr	kuafuw22_run.spr	kuafuw22_at.spr	kuafuw22_bat.spr		
+kuafuw23	kuafuw23_st.spr	kuafuw21_sit.spr	kuafuw23_st.spr	kuafuw23_run.spr	kuafuw23_at.spr	kuafuw23_bat.spr		
+kuafuw24	kuafuw24_st.spr		kuafuw24_st.spr	kuafuw24_run.spr	kuafuw24_at.spr	kuafuw24_bat.spr		
+火图腾	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	
+冰图腾	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	
+土图腾	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	
+雷图腾	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	龙墩.spr	
+光阴	光阴.spr	光阴.spr	光阴.spr	光阴.spr	光阴.spr	光阴.spr	光阴.spr	
+金山年庆图腾	金山年庆图腾.spr	金山年庆图腾.spr	金山年庆图腾.spr	金山年庆图腾.spr	金山年庆图腾.spr	金山年庆图腾.spr		
+烁金矿小	烁金矿小.spr	烁金矿小.spr	烁金矿小.spr	烁金矿小.spr	烁金矿小.spr	烁金矿小.spr		
+郁木矿小	郁木矿小.spr	郁木矿小.spr	郁木矿小.spr	郁木矿小.spr	郁木矿小.spr	郁木矿小.spr		
+善水矿小	善水矿小.spr	善水矿小.spr	善水矿小.spr	善水矿小.spr	善水矿小.spr	善水矿小.spr		
+赤火矿小	赤火矿小.spr	赤火矿小.spr	赤火矿小.spr	赤火矿小.spr	赤火矿小.spr	赤火矿小.spr		
+瑰土矿小	瑰土矿小.spr	瑰土矿小.spr	瑰土矿小.spr	瑰土矿小.spr	瑰土矿小.spr	瑰土矿小.spr		
+战旗基座	战旗基座01.spr	战旗基座01.spr	战旗基座01.spr	战旗基座01.spr	战旗基座01.spr	战旗基座01.spr		
+氏族战旗	氏族战旗.spr	氏族战旗.spr	氏族战旗.spr	氏族战旗.spr	氏族战旗.spr	氏族战旗.spr		
+洞天神碑	洞天神碑完整.spr	洞天神碑完整.spr	洞天神碑完整.spr	洞天神碑完整.spr	洞天神碑完整.spr	洞天神碑完整.spr		
+少阳阵	少阳.spr	少阳.spr	少阳.spr	少阳.spr	少阳.spr	少阳.spr	少阳.spr	
+少阴阵	少阴.spr	少阴.spr	少阴.spr	少阴.spr	少阴.spr	少阴.spr	少阴.spr	
+太阳阵	太阳.spr	太阳.spr	太阳.spr	太阳.spr	太阳.spr	太阳.spr	太阳.spr	
+太阴阵	太阴.spr	太阴.spr	太阴.spr	太阴.spr	太阴.spr	太阴.spr	太阴.spr	
+两仪阵	两仪.spr	两仪.spr	两仪.spr	两仪.spr	两仪.spr	两仪.spr	两仪.spr	
+氏族任务1图腾残骸	氏族任务1图腾残骸.spr	氏族任务1图腾残骸.spr	氏族任务1图腾残骸.spr	氏族任务1图腾残骸.spr	氏族任务1图腾残骸.spr	氏族任务1图腾残骸.spr		
+氏族任务1图腾完成形态	氏族任务1图腾完成形态.spr	氏族任务1图腾完成形态.spr	氏族任务1图腾完成形态.spr	氏族任务1图腾完成形态.spr	氏族任务1图腾完成形态.spr	氏族任务1图腾完成形态.spr		
+氏族任务1图腾未完成形态	氏族任务1图腾未完成形态.spr	氏族任务1图腾未完成形态.spr	氏族任务1图腾未完成形态.spr	氏族任务1图腾未完成形态.spr	氏族任务1图腾未完成形态.spr	氏族任务1图腾未完成形态.spr		
+少阳阵小	少阳小.spr	少阳小.spr	少阳小.spr	少阳小.spr	少阳小.spr	少阳小.spr	少阳小.spr	
+少阴阵小	少阴小.spr	少阴小.spr	少阴小.spr	少阴小.spr	少阴小.spr	少阴小.spr	少阴小.spr	
+太阳阵小	太阳小.spr	太阳小.spr	太阳小.spr	太阳小.spr	太阳小.spr	太阳小.spr	太阳小.spr	
+太阴阵小	太阴小.spr	太阴小.spr	太阴小.spr	太阴小.spr	太阴小.spr	太阴小.spr	太阴小.spr	
+两仪阵小	两仪小.spr	两仪小.spr	两仪小.spr	两仪小.spr	两仪小.spr	两仪小.spr	两仪小.spr	
+氏族战旗破损	氏族战旗破损.spr	氏族战旗破损.spr	氏族战旗破损.spr	氏族战旗破损.spr	氏族战旗破损.spr	氏族战旗破损.spr		
+洞天神碑破损	洞天神碑残缺.spr	洞天神碑残缺.spr	洞天神碑残缺.spr	洞天神碑残缺.spr	洞天神碑残缺.spr	洞天神碑残缺.spr	洞天神碑残缺.spr	
+机关鹊奔跑1	机关鹊奔跑1.spr	机关鹊奔跑1.spr	机关鹊受伤1.spr	机关鹊奔跑1.spr	机关鹊受伤1.spr	机关鹊受伤1.spr	机关鹊爆炸.spr	
+机关鹊奔跑2	机关鹊奔跑2.spr	机关鹊奔跑2.spr	机关鹊受伤2.spr	机关鹊奔跑2.spr	机关鹊受伤2.spr	机关鹊受伤2.spr	机关鹊爆炸.spr	
+机关鹊奔跑3	机关鹊奔跑3.spr	机关鹊奔跑3.spr	机关鹊受伤3.spr	机关鹊奔跑3.spr	机关鹊受伤3.spr	机关鹊受伤3.spr	机关鹊爆炸.spr	
+机关鹊奔跑4	机关鹊奔跑4.spr	机关鹊奔跑4.spr	机关鹊受伤4.spr	机关鹊奔跑4.spr	机关鹊受伤4.spr	机关鹊受伤4.spr	机关鹊爆炸.spr	
+机关鹊奔跑5	机关鹊奔跑5.spr	机关鹊奔跑5.spr	机关鹊受伤5.spr	机关鹊奔跑5.spr	机关鹊受伤5.spr	机关鹊受伤5.spr	机关鹊爆炸.spr	
+机关鹊奔跑6	机关鹊奔跑6.spr	机关鹊奔跑6.spr	机关鹊受伤6.spr	机关鹊奔跑6.spr	机关鹊受伤6.spr	机关鹊受伤6.spr	机关鹊爆炸.spr	
+骑马	骑马_st.spr	骑马_st.spr	骑马_st.spr	骑马_run.spr	骑马_run.spr	骑马_run.spr		
+骑马高级	骑马高级_st.spr	骑马高级_st.spr	骑马高级_st.spr	骑马高级_run.spr	骑马高级_run.spr	骑马高级_run.spr		
+四人花轿	四人花轿_st.spr	四人花轿_st.spr	四人花轿_st.spr	四人花轿_run.spr	四人花轿_run.spr	四人花轿_run.spr		
+八人花轿	八人花轿_st.spr	八人花轿_st.spr	八人花轿_st.spr	八人花轿_run.spr	八人花轿_run.spr	八人花轿_run.spr		
+新郎	新郎_st.spr	新郎_st.spr	新郎_st.spr	新郎_run.spr	新郎_run.spr	新郎_run.spr		
+新娘	新娘_st.spr	新娘_st.spr	新娘_st.spr	新娘_run.spr	新娘_run.spr	新娘_run.spr		
+连理树	连理树.spr	连理树.spr	连理树.spr	连理树.spr	连理树.spr	连理树.spr		
+高级连理树	高级连理树.spr	高级连理树.spr	高级连理树.spr	高级连理树.spr	高级连理树.spr	高级连理树.spr		
+牡丹	牡丹.spr	牡丹.spr	牡丹.spr	牡丹.spr	牡丹.spr	牡丹.spr		
+百合	百合.spr	百合.spr	百合.spr	百合.spr	百合.spr	百合.spr		
+茉莉	茉莉.spr	茉莉.spr	茉莉.spr	茉莉.spr	茉莉.spr	茉莉.spr		
+玉兰	玉兰.spr	玉兰.spr	玉兰.spr	玉兰.spr	玉兰.spr	玉兰.spr		
+抱新娘	抱新娘_st.spr	抱新娘_st.spr	抱新娘_st.spr	抱新娘_run.spr	抱新娘_run.spr	抱新娘_run.spr		
+灯笼	灯笼.spr	灯笼.spr	灯笼.spr	灯笼.spr	灯笼.spr	灯笼.spr		
+投石车左一	投石车左一.spr	投石车左一.spr	投石车左一.spr	投石车左一.spr	投石车左一.spr	投石车左一.spr		
+投石车右一	投石车右一.spr	投石车右一.spr	投石车右一.spr	投石车右一.spr	投石车右一.spr	投石车右一.spr		
+投石车左二	投石车左二.spr	投石车左二.spr	投石车左二.spr	投石车左二.spr	投石车左二.spr	投石车左二.spr		
+投石车右二	投石车右二.spr	投石车右二.spr	投石车右二.spr	投石车右二.spr	投石车右二.spr	投石车右二.spr		
+指南车一	指南车一.spr	指南车一.spr	指南车一.spr	指南车一.spr	指南车攻击一.spr	指南车一.spr		
+指南车二	指南车二.spr	指南车二.spr	指南车二.spr	指南车二.spr	指南车攻击二.spr	指南车二.spr		
+王者雕像	王者雕像.spr	王者雕像.spr	王者雕像.spr	王者雕像.spr	王者雕像.spr	王者雕像.spr		
+少阳阵大	少阳大.spr	少阳大.spr	少阳大.spr	少阳大.spr	少阳大.spr			
+少阴阵大	少阴大.spr	少阴大.spr	少阴大.spr	少阴大.spr	少阴大.spr			
+太阳阵大	太阳大.spr	太阳大.spr	太阳大.spr	太阳大.spr	太阳大.spr			
+太阴阵大	太阴大.spr	太阴大.spr	太阴大.spr	太阴大.spr	太阴大.spr			
+两仪阵大	两仪大.spr	两仪大.spr	两仪大.spr	两仪大.spr	两仪大.spr			
+xueren0	xueren0.spr	xueren0.spr	xueren0.spr	xueren0.spr	xueren0.spr	xueren0.spr		
+xueren1	xueren1.spr	xueren1.spr	xueren1.spr	xueren1.spr	xueren1.spr	xueren1.spr		
+xueren2	xueren2.spr	xueren2.spr	xueren2.spr	xueren2.spr	xueren2.spr	xueren2.spr		
+xueren3	xueren3.spr	xueren3.spr	xueren3.spr	xueren3.spr	xueren3.spr	xueren3.spr		
+祈福牌楼	牌楼.spr	牌楼.spr	牌楼.spr	牌楼.spr	牌楼.spr	牌楼.spr		
+国庆日图腾基座	基座.spr	基座.spr	基座.spr	基座.spr	基座.spr	基座.spr		
+国庆日黑铁图腾	黑铁.spr	黑铁.spr	黑铁.spr	黑铁.spr	黑铁.spr	黑铁.spr		
+国庆日青铜图腾	青铜.spr	青铜.spr	青铜.spr	青铜.spr	青铜.spr	青铜.spr		
+国庆日白银图腾	白银.spr	白银.spr	白银.spr	白银.spr	白银.spr	白银.spr		
+国庆日黄金图腾	黄金.spr	黄金.spr	黄金.spr	黄金.spr	黄金.spr	黄金.spr		
+国庆日碧玉图腾	碧玉.spr	碧玉.spr	碧玉.spr	碧玉.spr	碧玉.spr	碧玉.spr		
+fbboss8	boss8_st.spr	boss8_st.spr	boss8_st.spr	boss8_run.spr	boss8_at.spr	boss8_bat.spr	ani001_die.spr	
+阻挡1	阻挡01.spr	阻挡01.spr	阻挡01.spr	阻挡01.spr	阻挡01.spr	阻挡01.spr	阻挡01.spr	
+阻挡2	阻挡02.spr	阻挡02.spr	阻挡02.spr	阻挡02.spr	阻挡02.spr	阻挡02.spr	阻挡02.spr	
+yincang	yincang_st.spr	yincang_st.spr	yincang_st.spr	yincang_st.spr	yincang_st.spr	yincang_st.spr	yincang_st.spr	yincang_st.spr
+王者雕像1	王者雕像1.spr	王者雕像1.spr	王者雕像1.spr	王者雕像1.spr	王者雕像1.spr	王者雕像1.spr		
+龙血灵芝	灵芝.spr	灵芝.spr	灵芝.spr	灵芝.spr	灵芝.spr	灵芝.spr		
+金镜北	金光镜03.spr	金光镜03.spr	金光镜03.spr	金光镜03.spr	金光镜03.spr	金光镜03.spr		
+金镜南	金光镜01.spr	金光镜01.spr	金光镜01.spr	金光镜01.spr	金光镜01.spr	金光镜01.spr		
+金镜东	金光镜04.spr	金光镜04.spr	金光镜04.spr	金光镜04.spr	金光镜04.spr	金光镜04.spr		
+金镜西	金光镜02.spr	金光镜02.spr	金光镜02.spr	金光镜02.spr	金光镜02.spr	金光镜02.spr		
+金镜东北	金光镜08.spr	金光镜08.spr	金光镜08.spr	金光镜08.spr	金光镜08.spr	金光镜08.spr		
+金镜西北	金光镜07.spr	金光镜07.spr	金光镜07.spr	金光镜07.spr	金光镜07.spr	金光镜07.spr		
+金镜东南	金光镜05.spr	金光镜05.spr	金光镜05.spr	金光镜05.spr	金光镜05.spr	金光镜05.spr		
+金镜西南	金光镜06.spr	金光镜06.spr	金光镜06.spr	金光镜06.spr	金光镜06.spr	金光镜06.spr		
+光桥	透明桥面.spr	透明桥面.spr	透明桥面.spr	透明桥面.spr	透明桥面.spr	透明桥面.spr		
+红鬼	ani029_st.spr	ani029_st.spr	ani029_st.spr					
+绿鬼	ani032_st.spr	ani032_st.spr	ani032_st.spr					
+蓝鬼	ani040_st.spr	ani040_st.spr	ani040_st.spr					
+师门矿产	幻华石.spr	幻华石.spr	幻华石.spr	幻华石.spr	幻华石.spr	幻华石.spr		
+大锅	大锅.spr	大锅.spr	大锅.spr	大锅.spr	大锅.spr	大锅.spr		
+鞭炮1	鞭炮1.spr	鞭炮1.spr	鞭炮1.spr	鞭炮1.spr	鞭炮1.spr	鞭炮1.spr		
+许愿树	许愿树.spr	许愿树.spr	许愿树.spr	许愿树.spr	许愿树.spr	许愿树.spr		
+常青树苗	万年青小.spr	万年青小.spr	万年青小.spr	万年青小.spr	万年青小.spr	万年青小.spr		
+常青树	万年青中.spr	万年青中.spr	万年青中.spr	万年青中.spr	万年青中.spr	万年青中.spr		
+万年常青树	万年青大.spr	万年青大.spr	万年青大.spr	万年青大.spr	万年青大.spr	万年青大.spr		
+火墙1	火墙1.spr	火墙1.spr	火墙1.spr	火墙1.spr	火墙1.spr	火墙1.spr		
+火墙2	火墙2.spr	火墙2.spr	火墙2.spr	火墙2.spr	火墙2.spr	火墙2.spr		
+红水葫芦	葫芦.spr	葫芦.spr	葫芦.spr	葫芦.spr	葫芦.spr	葫芦.spr		
+赤浪	equipeffect5m1.spr	equipeffect5m1.spr	equipeffect5m1.spr	equipeffect5m1.spr	equipeffect5m1.spr	equipeffect5m1.spr		
+句芒神	句芒神.spr	句芒神.spr	句芒神.spr	句芒神.spr	句芒神.spr	句芒神.spr		
+司文郎	司文郎.spr	司文郎.spr	司文郎.spr	司文郎.spr	司文郎.spr	司文郎.spr		
+七彩花篮	七彩花篮.spr	七彩花篮.spr	七彩花篮.spr	七彩花篮.spr	七彩花篮.spr	七彩花篮.spr		
+花苗	花苗.spr	花苗.spr	花苗.spr	花苗.spr	花苗.spr	花苗.spr		
+天堂鸟	天堂鸟.spr	天堂鸟.spr	天堂鸟.spr	天堂鸟.spr	天堂鸟.spr	天堂鸟.spr		
+蓝色妖姬	蓝色妖姬.spr	蓝色妖姬.spr	蓝色妖姬.spr	蓝色妖姬.spr	蓝色妖姬.spr	蓝色妖姬.spr		
+武林图腾	武林图腾.spr	武林图腾.spr	武林图腾.spr					
+空花篮	空花篮.spr	空花篮.spr	空花篮.spr	空花篮.spr	空花篮.spr	空花篮.spr		
+满花篮	满花篮.spr	满花篮.spr	满花篮.spr	满花篮.spr	满花篮.spr	满花篮.spr		
+闪光花篮	闪光花篮.spr	闪光花篮.spr	闪光花篮.spr	闪光花篮.spr	闪光花篮.spr	闪光花篮.spr		
+中秋兔子（跑动）	玉兔_st.spr	玉兔_st.spr	玉兔_st.spr	玉兔_run.spr				
+中秋兔子（对话）	玉兔_st.spr	玉兔_st.spr	玉兔_st.spr	玉兔_st.spr				
+武王	NpcS_passerby050.spr	NpcS_passerby050.spr	NpcS_passerby050.spr	NpcS_passerby050.spr	NpcS_passerby050.spr	NpcS_passerby050.spr	NpcS_passerby050.spr	NpcS_passerby050.spr
+红砂阵灵	ani034_st.spr	ani034_st.spr	ani034_st.spr	ani034_run.spr	ani034_at.spr	ani034_bat.spr	ani034_die.spr	
+红砂箭	arrow-03.spr	arrow-03.spr	arrow-03.spr	arrow-03.spr	arrow-03.spr	arrow-03.spr	arrow-03.spr	
+沙球	fire-07.spr	fire-07.spr	fire-07.spr	fire-07.spr	fire-07.spr	fire-07.spr	fire-07.spr	
+沙土监牢	shizhua3.spr	shizhua3.spr	shizhua3.spr	shizhua3.spr	shizhua3.spr	shizhua3.spr	shizhua3.spr	
+雕像右上	雕像右上.spr	雕像右上.spr	雕像右上.spr	雕像右上.spr	雕像右上.spr	雕像右上.spr	雕像右上.spr	
+雕像右下	雕像右下.spr	雕像右下.spr	雕像右下.spr	雕像右下.spr	雕像右下.spr	雕像右下.spr	雕像右下.spr	
+雕像左下	雕像左下.spr	雕像左下.spr	雕像左下.spr	雕像左下.spr	雕像左下.spr	雕像左下.spr	雕像左下.spr	
+雕像左上	雕像左上.spr	雕像左上.spr	雕像左上.spr	雕像左上.spr	雕像左上.spr	雕像左上.spr	雕像左上.spr	
+火墙3	火墙03.spr	火墙03.spr	火墙03.spr	火墙03.spr	火墙03.spr	火墙03.spr	火墙03.spr	
+火墙4	火墙04.spr	火墙04.spr	火墙04.spr	火墙04.spr	火墙04.spr	火墙04.spr	火墙04.spr	
+采集点	采集点.spr	采集点.spr	采集点.spr	采集点.spr	采集点.spr	采集点.spr	采集点.spr	
+单色神石	单色神石.spr	单色神石.spr	单色神石.spr	单色神石.spr	单色神石.spr	单色神石.spr	单色神石.spr	
+双色神石	双色神石.spr	双色神石.spr	双色神石.spr	双色神石.spr	双色神石.spr	双色神石.spr	双色神石.spr	
+三色神石	三色神石.spr	三色神石.spr	三色神石.spr	三色神石.spr	三色神石.spr	三色神石.spr	三色神石.spr	
+无用顽石	无用顽石.spr	无用顽石.spr	无用顽石.spr	无用顽石.spr	无用顽石.spr	无用顽石.spr	无用顽石.spr	
+4周年图腾	4周年图腾_前.spr	4周年图腾_前.spr	4周年图腾_前.spr	4周年图腾_前.spr	4周年图腾_前.spr	4周年图腾_前.spr		
+七彩琉璃蛋	七彩琉璃蛋.spr	七彩琉璃蛋.spr	七彩琉璃蛋.spr	七彩琉璃蛋.spr	七彩琉璃蛋.spr	七彩琉璃蛋.spr		
+四不像	四不像_st.spr	四不像_dj1.spr	四不像_dj2.spr	四不像_run.spr	四不像_xingzou.spr	四不像_run.spr		
+红花兔子	红花兔子_st.spr	红花兔子_zou.spr	红花兔子_zou.spr	红花兔子_run.spr	红花兔子_xx2.spr	红花兔子_zou.spr		
+白兔	白色兔子_st.spr	白色兔子_zou.spr	白色兔子_zou.spr	白色兔子_run.spr	白色兔子_xx2.spr	白色兔子_zou.spr		
+玉兔	绿色兔子_st.spr	绿色兔子_zou.spr	绿色兔子_zou.spr	绿色兔子_run.spr	绿色兔子_xx2.spr	绿色兔子_zou.spr		
+金兔	金色兔子_st.spr	金色兔子_zou.spr	金色兔子_zou.spr	金色兔子_run.spr	金色兔子_xx2.spr	金色兔子_zou.spr		
+年兽	辟邪_st.spr	辟邪_st.spr	辟邪_st.spr	辟邪_run.spr	辟邪_at.spr	辟邪_st.spr		
+游龙金凤男	游龙金凤男_待机.spr	游龙金凤男_待机.spr	游龙金凤男_待机.spr	游龙金凤男_移动.spr	游龙金凤男_攻击.spr	游龙金凤男_受击.spr		
+游龙金凤女	游龙金凤女_待机.spr	游龙金凤女_待机.spr	游龙金凤女_待机.spr	游龙金凤女_移动.spr	游龙金凤女_攻击.spr	游龙金凤女_受击.spr		
+小祥龙	小青龙_st.spr	小青龙_zou.spr	小青龙_zou.spr	小青龙_run.spr	小青龙_xx2.spr	小青龙_zou.spr		
+圣诞树	圣诞树.spr	圣诞树.spr	圣诞树.spr	圣诞树.spr	圣诞树.spr	圣诞树.spr		
+小火龙	小金龙_st.spr	小金龙_st.spr	小金龙_st.spr	小金龙_run.spr	小金龙_xx2.spr	小金龙_xx1.spr		
+天外飞仙男	天外飞仙男_待机.spr	天外飞仙男_休息.spr	天外飞仙男_待机.spr	天外飞仙男_移动.spr	天外飞仙男_攻击.spr	天外飞仙男_受击.spr		
+天外飞仙女	天外飞仙女_待机.spr	天外飞仙女_休息.spr	天外飞仙女_待机.spr	天外飞仙女_移动.spr	天外飞仙女_攻击.spr	天外飞仙女_受击.spr		
+烈焰熔金男	烈焰熔金男_待机.spr	烈焰熔金男_休息.spr	烈焰熔金男_待机.spr	烈焰熔金男_移动.spr	烈焰熔金男_攻击.spr	烈焰熔金男_受击.spr		
+烈焰熔金女	烈焰熔金女_待机.spr	烈焰熔金女_休息.spr	烈焰熔金女_待机.spr	烈焰熔金女_移动.spr	烈焰熔金女_攻击.spr	烈焰熔金女_受击.spr		
+九霄龙吟男	九霄龙吟男_待机.spr	九霄龙吟男_休息.spr	九霄龙吟男_待机.spr	九霄龙吟男_移动.spr	九霄龙吟男_攻击.spr	九霄龙吟男_受击.spr		
+九霄龙吟女	九霄龙吟女_待机.spr	九霄龙吟女_休息.spr	九霄龙吟女_待机.spr	九霄龙吟女_移动.spr	九霄龙吟女_攻击.spr	九霄龙吟女_受击.spr		
+青龙	青龙_st.spr	青龙_xx2.spr	青龙_zou.spr	青龙_run.spr	青龙_xx1.spr	青龙_zou.spr		
+银龙	白龙_st.spr	白龙_xx2.spr	白龙_zou.spr	白龙_run.spr	白龙_xx1.spr	白龙_zou.spr		
+金龙	金龙_st.spr	金龙_xx2.spr	金龙_zou.spr	金龙_run.spr	金龙_xx1.spr	金龙_zou.spr		
+临风装	临风装_待机.spr	临风装_待机.spr	临风装_待机.spr	临风装_移动.spr	临风装_攻击.spr	临风装_受击.spr		
+桃妍装	桃妍装_待机.spr	桃妍装_待机.spr	桃妍装_待机.spr	桃妍装_移动.spr	桃妍装_攻击.spr	桃妍装_受击.spr		
+风涯	风涯_待机.spr	风涯_待机.spr	风涯_待机.spr	风涯_移动.spr	风涯_攻击.spr	风涯_受击.spr		
+幽寂	幽寂_待机.spr	幽寂_待机.spr	幽寂_待机.spr	幽寂_移动.spr	幽寂_攻击.spr	幽寂_受击.spr		
+祭渊谷传送门	祭渊谷传送门.spr	祭渊谷传送门.spr	祭渊谷传送门.spr	祭渊谷传送门.spr	祭渊谷传送门.spr	祭渊谷传送门.spr		
+幽寂变身	幽寂变身_待机.spr	幽寂变身_待机.spr	幽寂变身_待机.spr	幽寂变身_移动.spr	幽寂变身_攻击.spr	幽寂变身_受击.spr		
+龙龟	龙龟_st.spr	龙龟_st.spr	龙龟_st.spr	龙龟_run.spr	龙龟_run.spr	龙龟_st.spr		
+密道出口	密道出口.spr	密道出口.spr	密道出口.spr	密道出口.spr	密道出口.spr	密道出口.spr		
+炎龙陷阱	炎龙陷阱.spr	炎龙陷阱.spr	炎龙陷阱.spr	炎龙陷阱.spr	炎龙陷阱.spr	炎龙陷阱.spr		
+tuongnamgs	nam_giap_duc_tuong.spr	nam_giap_duc_tuong_lv4.spr	nam_giap_duc_tuong_lv3.spr	nam_giap_duc_tuong_lv2.spr	nam_giap_duc_tuong_lv1.spr	nam_giap_duc_tuong_lv0.spr		
+tuongnamds	nam_dao_duc_tuong.spr	nam_dao_duc_tuong_lv4.spr	nam_dao_duc_tuong_lv3.spr	nam_dao_duc_tuong_lv2.spr	nam_dao_duc_tuong_lv1.spr	nam_dao_duc_tuong_lv0.spr		
+tuongnamdn	nam_di_duc_tuong.spr	nam_di_duc_tuong_lv4.spr	nam_di_duc_tuong_lv3.spr	nam_di_duc_tuong_lv2.spr	nam_di_duc_tuong_lv1.spr	nam_di_duc_tuong_lv0.spr		
+tuongnumgs	nu_giap_duc_tuong.spr	nu_giap_duc_tuong_lv4.spr	nu_giap_duc_tuong_lv3.spr	nu_giap_duc_tuong_lv2.spr	nu_giap_duc_tuong_lv1.spr	nu_giap_duc_tuong_lv0.spr		
+tuongnumds	nu_dao_duc_tuong.spr	nu_dao_duc_tuong_lv4.spr	nu_dao_duc_tuong_lv3.spr	nu_dao_duc_tuong_lv2.spr	nu_dao_duc_tuong_lv1.spr	nu_dao_duc_tuong_lv0.spr		
+tuongnumdn	nu_di_duc_tuong_lv4.spr	nu_di_duc_tuong_lv4.spr	nu_di_duc_tuong_lv3.spr	nu_di_duc_tuong_lv2.spr	nu_di_duc_tuong_lv1.spr	nu_di_duc_tuong_lv0.spr		
+malehong	malehong_st.spr	malehong_st.spr	malehong_st.spr	malehong_run.spr	malehong_at.spr	malehong_bat.spr		
+malehai	ma_le_hai_st.spr	ma_le_hai_st.spr	ma_le_hai_st.spr	ma_le_hai_run.spr	ma_le_hai_at.spr	ma_le_hai_bat.spr		
+malethanh	malethanh_st.spr	malethanh_st.spr	malethanh_st.spr	malethanh_run.spr	malethanh_at.spr	malethanh_bat.spr		
+maletho	maletho_st.spr	maletho_st.spr	maletho_st.spr	maletho_run.spr	maletho_at.spr	maletho_bat.spr		
+ngulanphuongy	ngulanphuongy_st.spr	ngulanphuongy_st.spr	ngulanphuongy_st.spr	ngulanphuongy_run.spr	ngulanphuongy_at.spr	ngulanphuongy_bat.spr		
+viemlankimbao	viemlankimbao_st.spr	viemlankimbao_st.spr	viemlankimbao_st.spr	viemlankimbao_run.spr	viemlankimbao_at.spr	viemlankimbao_bat.spr		
+namnoel	ngoaitrangnoelnam_st.spr	ngoaitrangnoelnam_st.spr	ngoaitrangnoelnam_st.spr	ngoaitrangnoelnam_run.spr	ngoaitrangnoelnam_at.spr	ngoaitrangnoelnam_bat.spr		
+nunoel	ngoaitrangnoelnu_st.spr	ngoaitrangnoelnu_st.spr	ngoaitrangnoelnu_st.spr	ngoaitrangnoelnu_run.spr	ngoaitrangnoelnu_at.spr	ngoaitrangnoelnu_bat.spr		
+hongoan	hongoan.spr	hongoan_xx2.spr	hongoan_zou.spr	hongoan_zou.spr	hongoan_xx2.spr	hongoan_zou.spr		
+hoangphihotieu	hoangphihotieu_st.spr	hoangphihotieu_st.spr	hoangphihotieu_st.spr	hoangphihotieu_run.spr	hoangphihotieu_run.spr	hoangphihotieu_run.spr		
+thaccotrung	thachcotrung_st.spr	thachcotrung_st.spr	thachcotrung_st.spr	thachcotrung_run.spr	thachcotrung_run.spr	thachcotrung_run.spr		
+petdacky	dac_kyib.spr	dac_kyib_st.spr	dac_kyib_st.spr	dac_kyib_run.spr	dac_kyib_run.spr	dac_kyib_st.spr		
+petlytinhdai	lytinhdai_st.spr	lytinhdai_st.spr	lytinhdai_st.spr	lytinhdai_run.spr	lytinhdai_run.spr	lytinhdai_run.spr		
+pettuhuyen	chu_tuoc_te_st.spr	chu_tuoc_te_st.spr	chu_tuoc_te_run.spr	chu_tuoc_te_run.spr	chu_tuoc_te_at.spr	chu_tuoc_te_bat.spr		
+huyenvu	huyenvudai_st.spr	huyenvudai_st.spr	huyenvudai_zou.spr	huyenvudai_zou.spr	huyenvudai_zou.spr	huyenvudai_zou.spr		
+nienthu	nienthu_st.spr	nienthu_st.spr	nienthu_st.spr	nienthu_run.spr	nienthu_at.spr	nienthu_bat.spr		
+tuongnamgscam	nam_giap_duc_tuong.spr	nam_giap_duc_tuong_lv0.spr	nam_giap_duc_tuong_lv1.spr	nam_giap_duc_tuong_lv2.spr	nam_giap_duc_tuong_lv3.spr	nam_giap_duc_tuong_lv4.spr		
+tuongnamdscam	nam_dao_duc_tuong.spr	nam_dao_duc_tuong_lv0.spr	nam_dao_duc_tuong_lv1.spr	nam_dao_duc_tuong_lv2.spr	nam_dao_duc_tuong_lv3.spr	nam_dao_duc_tuong_lv4.spr		
+tuongnamdncam	nam_di_duc_tuong.spr	nam_di_duc_tuong_lv0.spr	nam_di_duc_tuong_lv1.spr	nam_di_duc_tuong_lv2.spr	nam_di_duc_tuong_lv3.spr	nam_di_duc_tuong_lv4.spr		
+tuongnumgscam	nu_giap_duc_tuong.spr	nu_giap_duc_tuong_lv0.spr	nu_giap_duc_tuong_lv1.spr	nu_giap_duc_tuong_lv2.spr	nu_giap_duc_tuong_lv3.spr	nu_giap_duc_tuong_lv4.spr		
+tuongnumdscam	nu_dao_duc_tuong.spr	nu_dao_duc_tuong_lv0.spr	nu_dao_duc_tuong_lv1.spr	nu_dao_duc_tuong_lv2.spr	nu_dao_duc_tuong_lv3.spr	nu_dao_duc_tuong_lv4.spr		
+tuongnumdncam	nu_di_duc_tuong_lv4.spr	nu_di_duc_tuong_lv0.spr	nu_di_duc_tuong_lv1.spr	nu_di_duc_tuong_lv2.spr	nu_di_duc_tuong_lv3.spr	nu_di_duc_tuong_lv4.spr		
+tuongnamgsden	nam_giap_duc_tuong.spr	nam_giap_duc_tuong_lv3.spr	nam_giap_duc_tuong_lv2.spr	nam_giap_duc_tuong_lv1.spr	nam_giap_duc_tuong_lv0.spr	nam_giap_duc_tuong_lv4.spr		
+tuongnamdsden	nam_dao_duc_tuong.spr	nam_dao_duc_tuong_lv3.spr	nam_dao_duc_tuong_lv2.spr	nam_dao_duc_tuong_lv1.spr	nam_dao_duc_tuong_lv0.spr	nam_dao_duc_tuong_lv4.spr		
+tuongnamdnden	nam_di_duc_tuong.spr	nam_di_duc_tuong_lv3.spr	nam_di_duc_tuong_lv2.spr	nam_di_duc_tuong_lv1.spr	nam_di_duc_tuong_lv0.spr	nam_di_duc_tuong_lv4.spr		
+tuongnumgsden	nu_giap_duc_tuong.spr	nu_giap_duc_tuong_lv3.spr	nu_giap_duc_tuong_lv2.spr	nu_giap_duc_tuong_lv1.spr	nu_giap_duc_tuong_lv0.spr	nu_giap_duc_tuong_lv4.spr		
+tuongnumdsden	nu_dao_duc_tuong.spr	nu_dao_duc_tuong_lv3.spr	nu_dao_duc_tuong_lv2.spr	nu_dao_duc_tuong_lv1.spr	nu_dao_duc_tuong_lv0.spr	nu_dao_duc_tuong_lv4.spr		
+tuongnumdnden	nu_di_duc_tuong_lv4.spr	nu_di_duc_tuong_lv3.spr	nu_di_duc_tuong_lv2.spr	nu_di_duc_tuong_lv1.spr	nu_di_duc_tuong_lv0.spr	nu_di_duc_tuong_lv4.spr		
+petquabong	bong_da_st.spr	bong_da_st.spr	bong_da_run.spr	bong_da_run.spr	bong_da_at.spr	bong_da_bat.spr		
+thaihukiemlinh	thaihukiemlinh_st.spr	thaihukiemlinh_st.spr	thaihukiemlinh_st.spr	thaihukiemlinh_run.spr	thaihukiemlinh_at.spr	thaihukiemlinh_bat.spr		
+bossbachho	baihu_st.spr	baihu_st.spr	baihu_st.spr	baihu_run.spr	baihu_at.spr	baihu_bat.spr		
+bossthanhlong	thanhlong_st.spr	thanhlong_st.spr	thanhlong_st.spr	thanhlong_run.spr	thanhlong_at.spr	thanhlong_bat.spr		
+haothienmatuong	haothienkhuyen_st.spr	haothienkhuyen_st.spr	haothienkhuyen_st.spr	haothienkhuyen_run.spr	haothienkhuyen_run.spr	haothienkhuyen_run.spr		
+pettucucmadong	natra_st.spr	natra_st.spr	natra_st.spr	natra_run.spr	natra_run.spr	natra_run.spr		
+petybattuongtruyen	y_bat_tuong_truyen_st.spr	y_bat_tuong_truyen_st.spr	y_bat_tuong_truyen_run.spr	y_bat_tuong_truyen_run.spr	y_bat_tuong_truyen_run.spr	y_bat_tuong_truyen_st.spr		
+pettietgiaotinhnhue	tiet_giao_tinh_nhue_st.spr	tiet_giao_tinh_nhue_st.spr	tiet_giao_tinh_nhue_run.spr	tiet_giao_tinh_nhue_run.spr	tiet_giao_tinh_nhue_run.spr	tiet_giao_tinh_nhue_st.spr		
+muaha_nam	xia_zhuang_nam_st.spr	xia_zhuang_nam_st.spr	xia_zhuang_nam_st.spr	xia_zhuang_nam_run.spr	xia_zhuang_nam_at.spr	xia_zhuang_nam_bat.spr		
+muaha_nu	xia_zhuang_nu_st.spr	xia_zhuang_nu_st.spr	xia_zhuang_nu_st.spr	xia_zhuang_nu_run.spr	xia_zhuang_nu_at.spr	xia_zhuang_nu_bat.spr		
+muathu_nam	qiu_zhuang_nam_st.spr	qiu_zhuang_nam_st.spr	qiu_zhuang_nam_st.spr	qiu_zhuang_nam_run.spr	qiu_zhuang_nam_at.spr	qiu_zhuang_nam_bat.spr		
+muathu_nu	qiu_zhuang_nu_st.spr	qiu_zhuang_nu_st.spr	qiu_zhuang_nu_st.spr	qiu_zhuang_nu_run.spr	qiu_zhuang_nu_at.spr	qiu_zhuang_nu_bat.spr		
+muadong_nam	mu_xue_nam_st.spr	mu_xue_nam_st.spr	mu_xue_nam_st.spr	mu_xue_nam_run.spr	mu_xue_nam_at.spr	mu_xue_nam_bat.spr		
+muadong_nu	mu_xue_nu_st.spr	mu_xue_nu_st.spr	mu_xue_nu_st.spr	mu_xue_nu_run.spr	mu_xue_nu_at.spr	mu_xue_nu_bat.spr		
+huyenvupet	huyenvudai_st.spr	huyenvudai_st.spr	huyenvudai_st.spr	huyenvudai_zou.spr	huyenvudai_zou.spr	huyenvudai_zou.spr		
+玄武神魂	玄武神魂车_st.spr	玄武神魂车_st.spr	玄武神魂车_st.spr	玄武神魂车_run.spr	玄武神魂车_at.spr	玄武神魂车_bat.spr		
+废弃的密道	废弃的密道.spr	废弃的密道.spr	废弃的密道.spr	废弃的密道.spr	废弃的密道.spr	废弃的密道.spr		
+常胜旌旗	常胜旌旗.spr	常胜旌旗.spr	常胜旌旗.spr	常胜旌旗.spr	常胜旌旗.spr	常胜旌旗.spr		
+被斩断的旌旗	被斩断的旌旗.spr	被斩断的旌旗.spr	被斩断的旌旗.spr	被斩断的旌旗.spr	被斩断的旌旗.spr	被斩断的旌旗.spr		
+副旗	副旗.spr	副旗.spr	副旗.spr	副旗.spr	副旗.spr	副旗.spr		
+被斩断的副旗	被斩断的副旗.spr	被斩断的副旗.spr	被斩断的副旗.spr	被斩断的副旗.spr	被斩断的副旗.spr	被斩断的副旗.spr		
+城市卫兵	城市卫兵_st.spr	城市卫兵_st.spr	城市卫兵_st.spr	城市卫兵_run.spr	城市卫兵_at.spr	城市卫兵_bat.spr		
+夏装男	夏装男_st.spr	夏装男_st.spr	夏装男_st.spr	夏装男_run.spr	夏装男_at.spr	夏装男_bat.spr		
+夏装女	夏装女_st.spr	夏装女_st.spr	夏装女_st.spr	夏装女_run.spr	夏装女_at.spr	夏装女_bat.spr		
+重生石	重生石.spr	重生石.spr	重生石.spr	重生石.spr	重生石.spr	重生石.spr		
+黄兔	黄色兔子_st.spr	黄色兔子_zou.spr	黄色兔子_zou.spr	黄色兔子_run.spr	黄色兔子_xx2.spr	黄色兔子_zou.spr		
+吴刚	吴刚_st.spr	吴刚_st.spr	吴刚_st.spr	吴刚_run.spr	吴刚_at.spr	吴刚_st.spr		
+蟠龙	蟠龙_移动.spr	蟠龙_移动.spr	蟠龙_移动.spr	蟠龙_移动.spr	蟠龙_攻击.spr	蟠龙_受击.spr		
+毕方	毕方_st.spr	毕方_st.spr	毕方_st.spr	毕方_run.spr	毕方_at.spr	毕方_bat.spr		
+旱魃	旱魃_st.spr	旱魃_st.spr	旱魃_st.spr	旱魃_run.spr	旱魃_at.spr	旱魃_bat.spr		
+黑图教众	黑图教众_st.spr	黑图教众_st.spr	黑图教众_st.spr	黑图教众_run.spr	黑图教众_at.spr	黑图教众_bat.spr		
+黑图主教	黑图主教_st.spr	黑图主教_st.spr	黑图主教_st.spr	黑图主教_run.spr	黑图主教_at.spr	黑图主教_bat.spr		
+化蛇	化蛇_st.spr	化蛇_st.spr	化蛇_st.spr	化蛇_run.spr	化蛇_at.spr	化蛇_bat.spr		
+火天王	火天王_st.spr	火天王_st.spr	火天王_st.spr	火天王_run.spr	火天王_at.spr	火天王_bat.spr		
+火邪	火邪_st.spr	火邪_st.spr	火邪_st.spr	火邪_run.spr	火邪_at.spr	火邪_bat.spr		
+句芒	句芒_st.spr	句芒_st.spr	句芒_st.spr	句芒_run.spr	句芒_at.spr	句芒_bat.spr		
+傀夫	傀夫_st.spr	傀夫_st.spr	傀夫_st.spr	傀夫_run.spr	傀夫_at.spr	傀夫_bat.spr		
+擂台套装男	擂台套装男_st.spr	擂台套装男_st.spr	擂台套装男_st.spr	擂台套装男_run.spr	擂台套装男_at.spr	擂台套装男_bat.spr		
+魅影红煞	魅影红煞_st.spr	魅影红煞_st.spr	魅影红煞_st.spr	魅影红煞_run.spr	魅影红煞_at.spr	魅影红煞_bat.spr		
+魅影雪芒	魅影雪芒_st.spr	魅影雪芒_st.spr	魅影雪芒_st.spr	魅影雪芒_run.spr	魅影雪芒_at.spr	魅影雪芒_bat.spr		
+契狂	契狂_st.spr	契狂_st.spr	契狂_st.spr	契狂_run.spr	契狂_at.spr	契狂_bat.spr		
+山晖	山晖_st.spr	山晖_st.spr	山晖_st.spr	山晖_st.spr	山晖_at.spr	山晖_bat.spr		
+太虚剑灵	太虚剑灵_st.spr	太虚剑灵_st.spr	太虚剑灵_st.spr	太虚剑灵_run.spr	太虚剑灵_at.spr	太虚剑灵_bat.spr		
+天吴	天吴_st.spr	天吴_st.spr	天吴_st.spr	天吴_run.spr	天吴_at.spr	天吴_bat.spr		
+万古熔怪	万古熔怪_st.spr	万古熔怪_st.spr	万古熔怪_st.spr	万古熔怪_run.spr	万古熔怪_at.spr	万古熔怪_bat.spr		
+夕潭冰魄	夕潭冰魄_st.spr	夕潭冰魄_st.spr	夕潭冰魄_st.spr	夕潭冰魄_run.spr	夕潭冰魄_at.spr	夕潭冰魄_bat.spr	夕潭冰魄_die.spr	
+夕潭水鬼	夕潭水鬼_st.spr	夕潭水鬼_st.spr	夕潭水鬼_st.spr	夕潭水鬼_run.spr	夕潭水鬼_at.spr	夕潭水鬼_bat.spr		
+夕潭水妖	夕潭水妖_st.spr	夕潭水妖_st.spr	夕潭水妖_st.spr	夕潭水妖_run.spr	夕潭水妖_at.spr	夕潭水妖_bat.spr	夕潭水妖_die.spr	
+葬仙鬼灵	葬仙鬼灵_st.spr	葬仙鬼灵_st.spr	葬仙鬼灵_st.spr	葬仙鬼灵_run.spr	葬仙鬼灵_at.spr	葬仙鬼灵_bat.spr		
+葬仙鬼王	葬仙鬼王_st.spr	葬仙鬼王_st.spr	葬仙鬼王_st.spr	葬仙鬼王_run.spr	葬仙鬼王_at.spr	葬仙鬼王_bat.spr		
+葬仙怨灵	葬仙怨灵_st.spr	葬仙怨灵_st.spr	葬仙怨灵_st.spr	葬仙怨灵_run.spr	葬仙怨灵_at.spr	葬仙怨灵_bat.spr		
+绽晶镜像	绽晶镜像_st.spr	绽晶镜像_st.spr	绽晶镜像_st.spr	绽晶镜像_run.spr	绽晶镜像_at.spr	绽晶镜像_bat.spr		
+诸犍	诸犍_st.spr	诸犍_st.spr	诸犍_st.spr	诸犍_run.spr	诸犍_at.spr	诸犍_bat.spr		
+秋装男	秋装男_st.spr	秋装男_st.spr	秋装男_st.spr	秋装男_run.spr	秋装男_at.spr	秋装男_bat.spr		
+秋装女	秋装女_st.spr	秋装女_st.spr	秋装女_st.spr	秋装女_run.spr	秋装女_at.spr	秋装女_bat.spr		
+圣诞套装男	圣诞外装（男）_st.spr	圣诞外装（男）_st.spr	圣诞外装（男）_st.spr	圣诞外装（男）_run.spr	圣诞外装（男）_at.spr	圣诞外装（男）_bat.spr		
+圣诞套装女	圣诞外装（女）_st.spr	圣诞外装（女）_st.spr	圣诞外装（女）_st.spr	圣诞外装（女）_run.spr	圣诞外装（女）_at.spr	圣诞外装（女）_bat.spr		
+玄武灵宠	玄武小_st.spr	玄武小_zou.spr	玄武小_zou.spr	玄武小_zou.spr	玄武小_st.spr	玄武小_zou.spr		
+年兽2014	年兽_st.spr	年兽_st.spr	年兽_st.spr	年兽_run.spr	年兽_at.spr	年兽_bat.spr		
+暮雪男	暮雪男_st.spr	暮雪男_st.spr	暮雪男_st.spr	暮雪男_run.spr	暮雪男_at.spr	暮雪男_bat.spr		
+暮雪女	暮雪女_st.spr	暮雪女_st.spr	暮雪女_st.spr	暮雪女_run.spr	暮雪女_at.spr	暮雪女_bat.spr		
+迎春殿	building002_st.spr	迎春殿.spr	迎春殿.spr	迎春殿.spr	迎春殿.spr	迎春殿.spr	building002_die.spr	
+马上有钱	马上有钱_st.spr	马上有钱_st.spr	马上有钱_zou.spr	马上有钱_run.spr	马上有钱_at.spr	马上有钱_at.spr		
+马上有车	马上有车_st.spr	马上有车_st.spr	马上有车_zou.spr	马上有车_run.spr	马上有车_at.spr	马上有车_at.spr		
+马上有对象	马上有对象_st.spr	马上有对象_st.spr	马上有对象_zou.spr	马上有对象_run.spr	马上有对象_at.spr	马上有对象_at.spr		
+马上有房	马上有房_st.spr	马上有房_st.spr	马上有房_zou.spr	马上有房_run.spr	马上有房_at.spr	马上有房_at.spr		
+炎麟金袍	炎麟金袍_st.spr	炎麟金袍_st.spr	炎麟金袍_st.spr	炎麟金袍_run.spr	炎麟金袍_at.spr	炎麟金袍_bat.spr		
+御麟凤衣	御麟凤衣_st.spr	御麟凤衣_st.spr	御麟凤衣_st.spr	御麟凤衣_run.spr	御麟凤衣_at.spr	御麟凤衣_bat.spr		
+玄武神兽限量	玄武中_st.spr	玄武中_zou.spr	玄武中_zou.spr	玄武中_zou.spr	玄武中_st.spr	玄武中_zou.spr		
+武魂	冰魈_st.spr	冰魈_st.spr	冰魈_st.spr	冰魈_run.spr	冰魈_at.spr	冰魈_bat.spr		
+勾陈	嘲风_st.spr	嘲风_st.spr	嘲风_st.spr	嘲风_run.spr	嘲风_at.spr	嘲风_bat.spr		
+封神荣耀	足球_st.spr	足球_st.spr	足球_st.spr	足球_run.spr	足球_at.spr	足球_bat.spr		
+玄武仙兽	玄武大_st.spr	玄武大_zou.spr	玄武大_zou.spr	玄武大_zou.spr	玄武大_st.spr	玄武大_zou.spr		
+金毛虎	乖乖虎_st.spr	乖乖虎_xx2.spr	乖乖虎_zou.spr	乖乖虎_zou.spr	乖乖虎_xx2.spr	乖乖虎_zou.spr		
+白虎	小老虎_st.spr	小老虎_xx2.spr	小老虎_zou.spr	小老虎_zou.spr	小老虎_xx2.spr	小老虎_zou.spr		
+魔礼青	魔礼青_st.spr	魔礼青_st.spr	魔礼青_st.spr	魔礼青_run.spr	魔礼青_at.spr	魔礼青_bat.spr		
+魔礼海	魔礼海_st.spr	魔礼海_st.spr	魔礼海_st.spr	魔礼海_run.spr	魔礼海_at.spr	魔礼海_bat.spr		
+魔礼红	魔礼红_st.spr	魔礼红_st.spr	魔礼红_st.spr	魔礼红_run.spr	魔礼红_at.spr	魔礼红_bat.spr		
+魔礼寿	魔礼寿_st.spr	魔礼寿_st.spr	魔礼寿_st.spr	魔礼寿_run.spr	魔礼寿_at.spr	魔礼寿_bat.spr		
+魔将之魂	阵眼.spr	阵眼.spr	阵眼.spr	阵眼.spr	阵眼.spr	阵眼.spr		
+高级粮饷车	押运车_st.spr	押运车_st.spr	押运车_st.spr	押运车_run.spr	押运车_run.spr	押运车_run.spr		
+守炉童子	悟幻.spr	悟幻.spr	悟幻.spr	悟幻.spr	悟幻.spr	悟幻.spr		
+法宝炼化炉	屠苏鼎.spr	屠苏鼎.spr	屠苏鼎.spr	屠苏鼎.spr	屠苏鼎.spr	屠苏鼎.spr		
+勾陈灵兽蓝色	蓝色勾陈_st.spr	蓝色勾陈_run.spr	蓝色勾陈_run.spr	蓝色勾陈_run.spr	蓝色勾陈_st.spr	蓝色勾陈_run.spr		
+勾陈灵兽紫色	紫色勾陈_st.spr	紫色勾陈_run.spr	紫色勾陈_run.spr	紫色勾陈_run.spr	紫色勾陈_st.spr	紫色勾陈_run.spr		
+勾陈灵兽金色	金色勾陈_st.spr	金色勾陈_run.spr	金色勾陈_run.spr	金色勾陈_run.spr	金色勾陈_st.spr	金色勾陈_run.spr		
+朱雀神兽绿色	朱雀神兽绿色.spr	朱雀神兽绿色.spr	朱雀神兽绿色.spr	朱雀神兽绿色.spr	朱雀神兽绿色.spr	朱雀神兽绿色.spr		
+风卷残云金刚	风卷残云金刚st.spr	风卷残云金刚st.spr	风卷残云金刚st.spr	风卷残云金刚run1.spr	风卷残云金刚at.spr	风卷残云金刚bat1.spr	battle001_die.spr	
+焚火图腾强化	焚火图腾强化.spr	焚火图腾强化.spr	焚火图腾强化.spr	焚火图腾强化.spr	焚火图腾强化.spr	焚火图腾强化.spr		
+玄武神魂	玄武神魂车_st.spr	玄武神魂车_st.spr	玄武神魂车_st.spr	玄武神魂车_run.spr	玄武神魂车_at.spr	玄武神魂车_bat.spr		
+朱雀残魄分身	朱雀祭_st.spr	朱雀祭_st.spr	朱雀祭_st.spr	朱雀祭_run.spr	朱雀祭_at.spr	朱雀祭_bat.spr		
+青龙试炼青龙	新青龙_st.spr	新青龙_st.spr	新青龙_st.spr	新青龙_run.spr	新青龙_at.spr	新青龙_bat.spr		
+蟠龙宝箱	金宝箱.spr	金宝箱.spr	金宝箱.spr	金宝箱.spr	金宝箱.spr	金宝箱.spr		
+胡喜媚幼体	白色蛋.spr	白色蛋.spr	白色蛋.spr	白色蛋.spr	白色蛋.spr	白色蛋.spr		
+胡喜媚成长	孟鸟_run.spr	孟鸟_run.spr	孟鸟_st.spr	孟鸟_run.spr	孟鸟_run.spr	孟鸟_run.spr		
+胡喜媚化形	胡喜媚_run.spr	胡喜媚_run.spr	胡喜媚_st.spr	胡喜媚_run.spr	胡喜媚_run.spr	胡喜媚_run.spr		
+胡喜媚大成	光环胡喜媚_run.spr	光环胡喜媚_run.spr	光环胡喜媚_st.spr	光环胡喜媚_run.spr	光环胡喜媚_run.spr	光环胡喜媚_run.spr		
+哪吒化莲	金光洞莲花.spr	金光洞莲花.spr	金光洞莲花.spr	金光洞莲花.spr	金光洞莲花.spr	金光洞莲花.spr		
+哪吒幼生	小哪吒_run.spr	小哪吒_run.spr	小哪吒_st.spr	小哪吒_run.spr	小哪吒_run.spr	小哪吒_run.spr		
+哪吒散仙	哪吒_run.spr	哪吒_run.spr	哪吒_st.spr	哪吒_run.spr	哪吒_run.spr	哪吒_run.spr		
+哪吒金仙	光环哪吒_run.spr	光环哪吒_run.spr	光环哪吒_st.spr	光环哪吒_run.spr	光环哪吒_run.spr	光环哪吒_run.spr		
+蓝色烛神	蓝色烛神_st.spr	蓝色烛神_st.spr	蓝色烛神_st.spr	蓝色烛神_run.spr	蓝色烛神_st.spr	蓝色烛神_st.spr	 	
+绿色烛神	绿色烛神_st.spr	绿色烛神_st.spr	绿色烛神_st.spr	绿色烛神_run.spr	绿色烛神_st.spr	绿色烛神_st.spr	 	
+紫色烛神	紫色烛神_st.spr	紫色烛神_st.spr	紫色烛神_st.spr	紫色烛神_run.spr	紫色烛神_st.spr	紫色烛神_st.spr	 	
+金色烛神	金色烛神_st.spr	金色烛神_st.spr	金色烛神_st.spr	金色烛神_run.spr	金色烛神_st.spr	金色烛神_st.spr	 	
+男甲雕像	男甲雕像.spr	男甲雕像.spr	男甲雕像.spr	男甲雕像.spr	男甲雕像.spr	男甲雕像.spr	 	
+女甲雕像	女甲雕像.spr	女甲雕像.spr	女甲雕像.spr	女甲雕像.spr	女甲雕像.spr	女甲雕像.spr	 	
+男道雕像	男道雕像.spr	男道雕像.spr	男道雕像.spr	男道雕像.spr	男道雕像.spr	男道雕像.spr	 	
+女道雕像	女道雕像.spr	女道雕像.spr	女道雕像.spr	女道雕像.spr	女道雕像.spr	女道雕像.spr	 	
+男异雕像	男异雕像.spr	男异雕像.spr	男异雕像.spr	男异雕像.spr	男异雕像.spr	男异雕像.spr	 	
+女异雕像	女异雕像.spr	女异雕像.spr	女异雕像.spr	女异雕像.spr	女异雕像.spr	女异雕像.spr	 	
+小猴子	小猴子_st.spr	小猴子_st.spr	小猴子_st.spr	小猴子_run.spr	小猴子_st.spr	小猴子_st.spr		
+雷震子幼	雷震子幼.spr	雷震子幼.spr	雷震子幼.spr	雷震子幼.spr	雷震子幼.spr	雷震子幼.spr		
+雷震子小	雷震子小_run.spr	雷震子小_run.spr	雷震子小_st.spr	雷震子小_run.spr	雷震子小_run.spr	雷震子小_run.spr		
+雷震子中	雷震子中_run.spr	雷震子中_run.spr	雷震子中_st.spr	雷震子中_run.spr	雷震子中_run.spr	雷震子中_run.spr		
+雷震子大	雷震子大_run.spr	雷震子大_run.spr	雷震子大_st.spr	雷震子大_run.spr	雷震子大_run.spr	雷震子大_run.spr		
+xuanwu	xuanwu_st.spr	xuanwu_st.spr	xuanwu_st.spr	xuanwu_run.spr	xuanwu_at.spr	xuanwu_bat.spr		
+男甲雕像0级	男甲雕像0级.spr	男甲雕像0级.spr	男甲雕像0级.spr	男甲雕像0级.spr	男甲雕像0级.spr	男甲雕像0级.spr		
+女甲雕像0级	女甲雕像0级.spr	女甲雕像0级.spr	女甲雕像0级.spr	女甲雕像0级.spr	女甲雕像0级.spr	女甲雕像0级.spr		
+男道雕像0级	男道雕像0级.spr	男道雕像0级.spr	男道雕像0级.spr	男道雕像0级.spr	男道雕像0级.spr	男道雕像0级.spr		
+女道雕像0级	女道雕像0级.spr	女道雕像0级.spr	女道雕像0级.spr	女道雕像0级.spr	女道雕像0级.spr	女道雕像0级.spr		
+男异雕像0级	男异雕像0级.spr	男异雕像0级.spr	男异雕像0级.spr	男异雕像0级.spr	男异雕像0级.spr	男异雕像0级.spr		
+女异雕像0级	女异雕像0级.spr	女异雕像0级.spr	女异雕像0级.spr	女异雕像0级.spr	女异雕像0级.spr	女异雕像0级.spr		
+男甲雕像1级	男甲雕像1级.spr	男甲雕像1级.spr	男甲雕像1级.spr	男甲雕像1级.spr	男甲雕像1级.spr	男甲雕像1级.spr		
+女甲雕像1级	女甲雕像1级.spr	女甲雕像1级.spr	女甲雕像1级.spr	女甲雕像1级.spr	女甲雕像1级.spr	女甲雕像1级.spr		
+男道雕像1级	男道雕像1级.spr	男道雕像1级.spr	男道雕像1级.spr	男道雕像1级.spr	男道雕像1级.spr	男道雕像1级.spr		
+女道雕像1级	女道雕像1级.spr	女道雕像1级.spr	女道雕像1级.spr	女道雕像1级.spr	女道雕像1级.spr	女道雕像1级.spr		
+男异雕像1级	男异雕像1级.spr	男异雕像1级.spr	男异雕像1级.spr	男异雕像1级.spr	男异雕像1级.spr	男异雕像1级.spr		
+女异雕像1级	女异雕像1级.spr	女异雕像1级.spr	女异雕像1级.spr	女异雕像1级.spr	女异雕像1级.spr	女异雕像1级.spr		
+男甲雕像2级	男甲雕像2级.spr	男甲雕像2级.spr	男甲雕像2级.spr	男甲雕像2级.spr	男甲雕像2级.spr	男甲雕像2级.spr		
+女甲雕像2级	女甲雕像2级.spr	女甲雕像2级.spr	女甲雕像2级.spr	女甲雕像2级.spr	女甲雕像2级.spr	女甲雕像2级.spr		
+男道雕像2级	男道雕像2级.spr	男道雕像2级.spr	男道雕像2级.spr	男道雕像2级.spr	男道雕像2级.spr	男道雕像2级.spr		
+女道雕像2级	女道雕像2级.spr	女道雕像2级.spr	女道雕像2级.spr	女道雕像2级.spr	女道雕像2级.spr	女道雕像2级.spr		
+男异雕像2级	男异雕像2级.spr	男异雕像2级.spr	男异雕像2级.spr	男异雕像2级.spr	男异雕像2级.spr	男异雕像2级.spr		
+女异雕像2级	女异雕像2级.spr	女异雕像2级.spr	女异雕像2级.spr	女异雕像2级.spr	女异雕像2级.spr	女异雕像2级.spr		
+男甲雕像3级	男甲雕像3级.spr	男甲雕像3级.spr	男甲雕像3级.spr	男甲雕像3级.spr	男甲雕像3级.spr	男甲雕像3级.spr		
+女甲雕像3级	女甲雕像3级.spr	女甲雕像3级.spr	女甲雕像3级.spr	女甲雕像3级.spr	女甲雕像3级.spr	女甲雕像3级.spr		
+男道雕像3级	男道雕像3级.spr	男道雕像3级.spr	男道雕像3级.spr	男道雕像3级.spr	男道雕像3级.spr	男道雕像3级.spr		
+女道雕像3级	女道雕像3级.spr	女道雕像3级.spr	女道雕像3级.spr	女道雕像3级.spr	女道雕像3级.spr	女道雕像3级.spr		
+男异雕像3级	男异雕像3级.spr	男异雕像3级.spr	男异雕像3级.spr	男异雕像3级.spr	男异雕像3级.spr	男异雕像3级.spr		
+女异雕像3级	女异雕像3级.spr	女异雕像3级.spr	女异雕像3级.spr	女异雕像3级.spr	女异雕像3级.spr	女异雕像3级.spr		
+男甲雕像4级	男甲雕像4级.spr	男甲雕像4级.spr	男甲雕像4级.spr	男甲雕像4级.spr	男甲雕像4级.spr	男甲雕像4级.spr		
+女甲雕像4级	女甲雕像4级.spr	女甲雕像4级.spr	女甲雕像4级.spr	女甲雕像4级.spr	女甲雕像4级.spr	女甲雕像4级.spr		
+男道雕像4级	男道雕像4级.spr	男道雕像4级.spr	男道雕像4级.spr	男道雕像4级.spr	男道雕像4级.spr	男道雕像4级.spr		
+女道雕像4级	女道雕像4级.spr	女道雕像4级.spr	女道雕像4级.spr	女道雕像4级.spr	女道雕像4级.spr	女道雕像4级.spr		
+男异雕像4级	男异雕像4级.spr	男异雕像4级.spr	男异雕像4级.spr	男异雕像4级.spr	男异雕像4级.spr	男异雕像4级.spr		
+女异雕像4级	女异雕像4级.spr	女异雕像4级.spr	女异雕像4级.spr	女异雕像4级.spr	女异雕像4级.spr	女异雕像4级.spr		
+石矶幼	石矶幼.spr	石矶幼.spr	石矶幼.spr	石矶幼.spr	石矶幼.spr	石矶幼.spr		
+石矶小	石矶小_run.spr	石矶小_run.spr	石矶小_st.spr	石矶小_run.spr	石矶小_run.spr	石矶小_run.spr		
+石矶中	石矶中_run.spr	石矶中_run.spr	石矶中_st.spr	石矶中_run.spr	石矶中_run.spr	石矶中_run.spr		
+石矶大	石矶大_run.spr	石矶大_run.spr	石矶大_st.spr	石矶大_run.spr	石矶大_run.spr	石矶大_run.spr		
+封二NPC	fs2npc_st.spr	fs2npc_st.spr	fs2npc_st.spr	fs2npc_st.spr	fs2npc_st.spr	fs2npc_st.spr		
+太乙真人幼	太乙真人幼_st.spr	太乙真人幼_st.spr	太乙真人幼_run.spr	太乙真人幼_run.spr	太乙真人幼_st.spr	太乙真人幼_st.spr		
+太乙真人小	太乙真人小_st.spr	太乙真人小_st.spr	太乙真人小_run.spr	太乙真人小_run.spr	太乙真人小_st.spr	太乙真人小_st.spr		
+太乙真人中	太乙真人中.spr	太乙真人中.spr	太乙真人中.spr	太乙真人中.spr	太乙真人中.spr	太乙真人中.spr		
+太乙真人大	太乙真人大.spr	太乙真人大.spr	太乙真人大.spr	太乙真人大.spr	太乙真人大.spr	太乙真人大.spr		
+金仙太乙	太乙真人ib.spr	太乙真人ib.spr	太乙真人ib.spr	太乙真人ib.spr	太乙真人ib.spr	太乙真人ib.spr		
+妲己幼	妲己幼.spr	妲己幼.spr	妲己幼.spr	妲己幼.spr	妲己幼.spr	妲己幼.spr		
+妲己小	妲己小.spr	妲己小.spr	妲己小.spr	妲己小.spr	妲己小.spr	妲己小.spr		
+妲己中	妲己中.spr	妲己中.spr	妲己中.spr	妲己中.spr	妲己中.spr	妲己中.spr		
+妲己大	妲己大.spr	妲己大.spr	妲己大.spr	妲己大.spr	妲己大.spr	妲己大.spr		
+申公豹幼	申公豹幼_run.spr	申公豹幼_run.spr	申公豹幼_st.spr	申公豹幼_run.spr	申公豹幼_run.spr	申公豹幼_run.spr		
+申公豹小	申公豹小_run.spr	申公豹小_run.spr	申公豹小_st.spr	申公豹小_run.spr	申公豹小_run.spr	申公豹小_run.spr		
+申公豹中	申公豹中_run.spr	申公豹中_run.spr	申公豹中_st.spr	申公豹中_run.spr	申公豹中_run.spr	申公豹中_run.spr		
+申公豹大	申公豹大_run.spr	申公豹大_run.spr	申公豹大_run.spr	申公豹大_run.spr	申公豹大_run.spr	申公豹大_run.spr		
+黄飞虎幼	黄飞虎幼_run.spr	黄飞虎幼_run.spr	黄飞虎幼_st.spr	黄飞虎幼_run.spr	黄飞虎幼_run.spr	黄飞虎幼_run.spr		
+黄飞虎小	黄飞虎小_run.spr	黄飞虎小_run.spr	黄飞虎小_st.spr	黄飞虎小_run.spr	黄飞虎小_run.spr	黄飞虎小_run.spr		
+黄飞虎中	黄飞虎中_run.spr	黄飞虎中_run.spr	黄飞虎中_st.spr	黄飞虎中_run.spr	黄飞虎中_run.spr	黄飞虎中_run.spr		
+黄飞虎大	黄飞虎大_run.spr	黄飞虎大_run.spr	黄飞虎大_st.spr	黄飞虎大_run.spr	黄飞虎大_run.spr	黄飞虎大_run.spr		
+封三移民使者	妲己_st.spr	妲己_st.spr	妲己_st.spr	妲己_st.spr	妲己_st.spr	妲己_st.spr		
+金鸡胡喜媚	胡喜媚ib_st.spr	胡喜媚ib_st.spr	胡喜媚ib_run.spr	胡喜媚ib_run.spr	胡喜媚ib_st.spr	胡喜媚ib_st.spr		
+金身哪吒	哪吒ib_st.spr	哪吒ib_st.spr	哪吒ib_run.spr	哪吒ib_run.spr	哪吒ib_st.spr	哪吒ib_st.spr		
+金羽雷震子	雷震子ib.spr	雷震子ib.spr	雷震子ib.spr	雷震子ib.spr	雷震子ib.spr	雷震子ib.spr		
+金冠石矶	石矶ib.spr	石矶ib.spr	石矶ib.spr	石矶ib.spr	石矶ib.spr	石矶ib.spr		
+哮天犬幼	哮天犬幼_st.spr	哮天犬幼_st.spr	哮天犬幼_st.spr	哮天犬幼_run.spr	哮天犬幼_run.spr	哮天犬幼_run.spr		
+哮天犬小	哮天犬小_st.spr	哮天犬小_st.spr	哮天犬小_st.spr	哮天犬小_run.spr	哮天犬小_run.spr	哮天犬小_run.spr		
+哮天犬中	哮天犬中_st.spr	哮天犬中_st.spr	哮天犬中_st.spr	哮天犬中_run.spr	哮天犬中_run.spr	哮天犬中_run.spr		
+哮天犬大	哮天犬大_st.spr	哮天犬大_st.spr	哮天犬大_st.spr	哮天犬大_run.spr	哮天犬大_run.spr	哮天犬大_run.spr		
+杨戬幼	杨戬幼_st.spr	杨戬幼_st.spr	杨戬幼_st.spr	杨戬幼_run.spr	杨戬幼_run.spr	杨戬幼_run.spr		
+杨戬小	杨戬小_st.spr	杨戬小_st.spr	杨戬小_st.spr	杨戬小_run.spr	杨戬小_run.spr	杨戬小_run.spr		
+杨戬中	杨戬中_st.spr	杨戬中_st.spr	杨戬中_st.spr	杨戬中_run.spr	杨戬中_run.spr	杨戬中_run.spr		
+杨戬大	杨戬大_st.spr	杨戬大_st.spr	杨戬大_st.spr	杨戬大_run.spr	杨戬大_run.spr	杨戬大_run.spr		
+姜子牙幼	姜子牙幼_st.spr	姜子牙幼_st.spr	姜子牙幼_st.spr	姜子牙幼_run.spr	姜子牙幼_run.spr	姜子牙幼_run.spr		
+姜子牙小	姜子牙小_st.spr	姜子牙小_st.spr	姜子牙小_st.spr	姜子牙小_run.spr	姜子牙小_run.spr	姜子牙小_run.spr		
+姜子牙中	姜子牙中_st.spr	姜子牙中_st.spr	姜子牙中_st.spr	姜子牙中_run.spr	姜子牙中_run.spr	姜子牙中_run.spr		
+姜子牙大	姜子牙大_st.spr	姜子牙大_st.spr	姜子牙大_st.spr	姜子牙大_run.spr	姜子牙大_run.spr	姜子牙大_run.spr		
+李靖幼	李靖幼_st.spr	李靖幼_st.spr	李靖幼_st.spr	李靖幼_run.spr	李靖幼_run.spr	李靖幼_run.spr		
+李靖小	李靖小_st.spr	李靖小_st.spr	李靖小_st.spr	李靖小_run.spr	李靖小_run.spr	李靖小_run.spr		
+李靖中	李靖中_st.spr	李靖中_st.spr	李靖中_st.spr	李靖中_run.spr	李靖中_run.spr	李靖中_run.spr		
+李靖大	李靖大_st.spr	李靖大_st.spr	李靖大_st.spr	李靖大_run.spr	李靖大_run.spr	李靖大_run.spr		
+绝代双娇	绝代双娇_st.spr	绝代双娇_st.spr	绝代双娇_st.spr	绝代双娇_run.spr	绝代双娇_run.spr	绝代双娇_run.spr		
+衣钵相传	衣钵相传_st.spr	衣钵相传_st.spr	衣钵相传_st.spr	衣钵相传_run.spr	衣钵相传_run.spr	衣钵相传_run.spr		
+截教精锐	截教精锐_st.spr	截教精锐_st.spr	截教精锐_st.spr	截教精锐_run.spr	截教精锐_run.spr	截教精锐_run.spr		
+正义之道	正义之道_st.spr	正义之道_st.spr	正义之道_st.spr	正义之道_run.spr	正义之道_run.spr	正义之道_run.spr		
+忠犬随主	忠犬随主_st.spr	忠犬随主_st.spr	忠犬随主_st.spr	忠犬随主_run.spr	忠犬随主_run.spr	忠犬随主_run.spr		
+德高望重	德高望重.spr	德高望重.spr	德高望重.spr	德高望重.spr	德高望重.spr	德高望重.spr		
+金狐妲己	妲己ib_st.spr	妲己ib_st.spr	妲己ib_st.spr	妲己ib_run.spr	妲己ib_run.spr	妲己ib_run.spr		
+金豹申公豹	申公豹ib_st.spr	申公豹ib_st.spr	申公豹ib_st.spr	申公豹ib_run.spr	申公豹ib_run.spr	申公豹ib_run.spr		
+金胆黄飞虎	黄飞虎ib_st.spr	黄飞虎ib_st.spr	黄飞虎ib_st.spr	黄飞虎ib_run.spr	黄飞虎ib_run.spr	黄飞虎ib_run.spr		
+金身哮天犬	哮天犬ib_st.spr	哮天犬ib_st.spr	哮天犬ib_st.spr	哮天犬ib_run.spr	哮天犬ib_run.spr	哮天犬ib_run.spr		
+金神杨戬	杨戬ib_st.spr	杨戬ib_st.spr	杨戬ib_st.spr	杨戬ib_run.spr	杨戬ib_run.spr	杨戬ib_run.spr		
+金身姜子牙	姜子牙ib_st.spr	姜子牙ib_st.spr	姜子牙ib_st.spr	姜子牙ib_run.spr	姜子牙ib_run.spr	姜子牙ib_run.spr		
+幼年飞升胡喜媚	白色蛋.spr	白色蛋.spr	白色蛋.spr	白色蛋.spr	白色蛋.spr	白色蛋.spr		
+少年飞升胡喜媚	孟鸟_run.spr	孟鸟_run.spr	孟鸟_st.spr	孟鸟_run.spr	孟鸟_run.spr	孟鸟_run.spr		
+青年飞升胡喜媚	胡喜媚_run.spr	胡喜媚_run.spr	胡喜媚_st.spr	胡喜媚_run.spr	胡喜媚_run.spr	胡喜媚_run.spr		
+成年飞升胡喜媚	飞升胡喜媚大_st.spr	飞升胡喜媚大_st.spr	飞升胡喜媚大_st.spr	飞升胡喜媚大_run.spr	飞升胡喜媚大_run.spr	飞升胡喜媚大_run.spr		
+幼年飞升哪吒	金光洞莲花.spr	金光洞莲花.spr	金光洞莲花.spr	金光洞莲花.spr	金光洞莲花.spr	金光洞莲花.spr		
+少年飞升哪吒	小哪吒_run.spr	小哪吒_run.spr	小哪吒_st.spr	小哪吒_run.spr	小哪吒_run.spr	小哪吒_run.spr		
+青年飞升哪吒	哪吒_run.spr	哪吒_run.spr	哪吒_st.spr	哪吒_run.spr	哪吒_run.spr	哪吒_run.spr		
+成年飞升哪吒	飞升哪吒_run.spr	飞升哪吒_run.spr	飞升哪吒_st.spr	飞升哪吒_run.spr	飞升哪吒_run.spr	飞升哪吒_run.spr		
+幼年飞升雷震子	雷震子幼.spr	雷震子幼.spr	雷震子幼.spr	雷震子幼.spr	雷震子幼.spr	雷震子幼.spr		
+少年飞升雷震子	雷震子小_run.spr	雷震子小_run.spr	雷震子小_st.spr	雷震子小_run.spr	雷震子小_run.spr	雷震子小_run.spr		
+青年飞升雷震子	雷震子中_run.spr	雷震子中_run.spr	雷震子中_st.spr	雷震子中_run.spr	雷震子中_run.spr	雷震子中_run.spr		
+成年飞升雷震子	飞升雷震子.spr	飞升雷震子.spr	飞升雷震子.spr	飞升雷震子.spr	飞升雷震子.spr	飞升雷震子.spr		
+金塔李靖	李靖ib_st.spr	李靖ib_st.spr	李靖ib_st.spr	李靖ib_run.spr	李靖ib_run.spr	李靖ib_run.spr		
+金鸡飞升胡喜媚	飞升胡喜媚ib_st.spr	飞升胡喜媚ib_st.spr	飞升胡喜媚ib_st.spr	飞升胡喜媚ib_run.spr	飞升胡喜媚ib_run.spr	飞升胡喜媚ib_run.spr		
+金身飞升哪吒	飞升哪吒ib_st.spr	飞升哪吒ib_st.spr	飞升哪吒ib_st.spr	飞升哪吒ib_run.spr	飞升哪吒ib_run.spr	飞升哪吒ib_run.spr		
+金羽飞升雷震子	飞升雷震子ib_st.spr	飞升雷震子ib_st.spr	飞升雷震子ib_st.spr	飞升雷震子ib_run.spr	飞升雷震子ib_run.spr	飞升雷震子ib_run.spr		
+幼年飞升石矶	石矶幼.spr	石矶幼.spr	石矶幼.spr	石矶幼.spr	石矶幼.spr	石矶幼.spr		
+少年飞升石矶	石矶小_run.spr	石矶小_run.spr	石矶小_st.spr	石矶小_run.spr	石矶小_run.spr	石矶小_run.spr		
+青年飞升石矶	石矶中_run.spr	石矶中_run.spr	石矶中_st.spr	石矶中_run.spr	石矶中_run.spr	石矶中_run.spr		
+成年飞升石矶	飞升石矶.spr	飞升石矶.spr	飞升石矶.spr	飞升石矶.spr	飞升石矶.spr	飞升石矶.spr		
+幼年飞升太乙	太乙真人幼_st.spr	太乙真人幼_st.spr	太乙真人幼_run.spr	太乙真人幼_run.spr	太乙真人幼_st.spr	太乙真人幼_st.spr		
+少年飞升太乙	太乙真人小_st.spr	太乙真人小_st.spr	太乙真人小_run.spr	太乙真人小_run.spr	太乙真人小_st.spr	太乙真人小_st.spr		
+青年飞升太乙	太乙真人中.spr	太乙真人中.spr	太乙真人中.spr	太乙真人中.spr	太乙真人中.spr	太乙真人中.spr		
+成年飞升太乙	飞升太乙.spr	飞升太乙.spr	飞升太乙.spr	飞升太乙.spr	飞升太乙.spr	飞升太乙.spr		
+幼年飞升妲己	妲己幼.spr	妲己幼.spr	妲己幼.spr	妲己幼.spr	妲己幼.spr	妲己幼.spr		
+少年飞升妲己	妲己小.spr	妲己小.spr	妲己小.spr	妲己小.spr	妲己小.spr	妲己小.spr		
+青年飞升妲己	妲己中.spr	妲己中.spr	妲己中.spr	妲己中.spr	妲己中.spr	妲己中.spr		
+成年飞升妲己	飞升妲己.spr	飞升妲己.spr	飞升妲己.spr	飞升妲己.spr	飞升妲己.spr	飞升妲己.spr		
+幼年飞升申公豹	申公豹幼_run.spr	申公豹幼_run.spr	申公豹幼_st.spr	申公豹幼_run.spr	申公豹幼_run.spr	申公豹幼_run.spr		
+少年飞升申公豹	申公豹小_run.spr	申公豹小_run.spr	申公豹小_st.spr	申公豹小_run.spr	申公豹小_run.spr	申公豹小_run.spr		
+青年飞升申公豹	申公豹中_run.spr	申公豹中_run.spr	申公豹中_st.spr	申公豹中_run.spr	申公豹中_run.spr	申公豹中_run.spr		
+成年飞升申公豹	飞升申公豹.spr	飞升申公豹.spr	飞升申公豹.spr	飞升申公豹.spr	飞升申公豹.spr	飞升申公豹.spr		
+金冠飞升石矶	飞升石矶黄金.spr	飞升石矶黄金.spr	飞升石矶黄金.spr	飞升石矶黄金.spr	飞升石矶黄金.spr	飞升石矶黄金.spr		
+金仙飞升太乙	飞升太乙黄金.spr	飞升太乙黄金.spr	飞升太乙黄金.spr	飞升太乙黄金.spr	飞升太乙黄金.spr	飞升太乙黄金.spr		
+金狐飞升妲己	飞升妲己黄金.spr	飞升妲己黄金.spr	飞升妲己黄金.spr	飞升妲己黄金.spr	飞升妲己黄金.spr	飞升妲己黄金.spr		
+金豹飞升申公豹	飞升申公豹黄金.spr	飞升申公豹黄金.spr	飞升申公豹黄金.spr	飞升申公豹黄金.spr	飞升申公豹黄金.spr	飞升申公豹黄金.spr		
+幼年飞升黄飞虎	黄飞虎幼_run.spr	黄飞虎幼_run.spr	黄飞虎幼_st.spr	黄飞虎幼_run.spr	黄飞虎幼_run.spr	黄飞虎幼_run.spr		
+少年飞升黄飞虎	黄飞虎小_run.spr	黄飞虎小_run.spr	黄飞虎小_st.spr	黄飞虎小_run.spr	黄飞虎小_run.spr	黄飞虎小_run.spr		
+青年飞升黄飞虎	黄飞虎中_run.spr	黄飞虎中_run.spr	黄飞虎中_st.spr	黄飞虎中_run.spr	黄飞虎中_run.spr	黄飞虎中_run.spr		
+成年飞升黄飞虎	飞升黄飞虎.spr	飞升黄飞虎.spr	飞升黄飞虎.spr	飞升黄飞虎.spr	飞升黄飞虎.spr	飞升黄飞虎.spr		
+幼年飞升哮天犬	哮天犬幼_st.spr	哮天犬幼_st.spr	哮天犬幼_st.spr	哮天犬幼_run.spr	哮天犬幼_run.spr	哮天犬幼_run.spr		
+少年飞升哮天犬	哮天犬小_st.spr	哮天犬小_st.spr	哮天犬小_st.spr	哮天犬小_run.spr	哮天犬小_run.spr	哮天犬小_run.spr		
+青年飞升哮天犬	哮天犬中_st.spr	哮天犬中_st.spr	哮天犬中_st.spr	哮天犬中_run.spr	哮天犬中_run.spr	哮天犬中_run.spr		
+成年飞升哮天犬	飞升哮天犬.spr	飞升哮天犬.spr	飞升哮天犬.spr	飞升哮天犬.spr	飞升哮天犬.spr	飞升哮天犬.spr		
+幼年飞升杨戬	杨戬幼_st.spr	杨戬幼_st.spr	杨戬幼_st.spr	杨戬幼_run.spr	杨戬幼_run.spr	杨戬幼_run.spr		
+少年飞升杨戬	杨戬小_st.spr	杨戬小_st.spr	杨戬小_st.spr	杨戬小_run.spr	杨戬小_run.spr	杨戬小_run.spr		
+青年飞升杨戬	杨戬中_st.spr	杨戬中_st.spr	杨戬中_st.spr	杨戬中_run.spr	杨戬中_run.spr	杨戬中_run.spr		
+成年飞升杨戬	飞升杨戬_st.spr	飞升杨戬_st.spr	飞升杨戬_st.spr	飞升杨戬_run.spr	飞升杨戬_run.spr	飞升杨戬_run.spr		
+幼年飞升姜子牙	姜子牙幼_st.spr	姜子牙幼_st.spr	姜子牙幼_st.spr	姜子牙幼_run.spr	姜子牙幼_run.spr	姜子牙幼_run.spr		
+少年飞升姜子牙	姜子牙小_st.spr	姜子牙小_st.spr	姜子牙小_st.spr	姜子牙小_run.spr	姜子牙小_run.spr	姜子牙小_run.spr		
+青年飞升姜子牙	姜子牙中_st.spr	姜子牙中_st.spr	姜子牙中_st.spr	姜子牙中_run.spr	姜子牙中_run.spr	姜子牙中_run.spr		
+成年飞升姜子牙	飞升姜子牙.spr	飞升姜子牙.spr	飞升姜子牙.spr	飞升姜子牙.spr	飞升姜子牙.spr	飞升姜子牙.spr		
+金胆飞升黄飞虎	飞升黄飞虎黄金.spr	飞升黄飞虎黄金.spr	飞升黄飞虎黄金.spr	飞升黄飞虎黄金.spr	飞升黄飞虎黄金.spr	飞升黄飞虎黄金.spr		
+金身飞升哮天犬	飞升哮天犬黄金.spr	飞升哮天犬黄金.spr	飞升哮天犬黄金.spr	飞升哮天犬黄金_run.spr	飞升哮天犬黄金_run.spr	飞升哮天犬黄金_run.spr		
+金神飞升杨戬	飞升杨戬黄金.spr	飞升杨戬黄金.spr	飞升杨戬黄金.spr	飞升杨戬黄金_run.spr	飞升杨戬黄金_run.spr	飞升杨戬黄金_run.spr		
+金身飞升姜子牙	飞升姜子牙黄金.spr	飞升姜子牙黄金.spr	飞升姜子牙黄金.spr	飞升姜子牙黄金.spr	飞升姜子牙黄金.spr	飞升姜子牙黄金.spr		
+幼年飞升李靖	李靖幼_st.spr	李靖幼_st.spr	李靖幼_st.spr	李靖幼_run.spr	李靖幼_run.spr	李靖幼_run.spr		
+少年飞升李靖	李靖小_st.spr	李靖小_st.spr	李靖小_st.spr	李靖小_run.spr	李靖小_run.spr	李靖小_run.spr		
+青年飞升李靖	李靖中_st.spr	李靖中_st.spr	李靖中_st.spr	李靖中_run.spr	李靖中_run.spr	李靖中_run.spr		
+成年飞升李靖	飞升李靖.spr	飞升李靖.spr	飞升李靖.spr	飞升李靖.spr	飞升李靖.spr	飞升李靖.spr		
+陆压道人	陆压道人_st.spr	陆压道人_st.spr	陆压道人_st.spr	陆压道人_run.spr	陆压道人_run.spr	陆压道人_run.spr		
+金塔飞升李靖	飞升李靖黄金.spr	飞升李靖黄金.spr	飞升李靖黄金.spr	飞升李靖黄金.spr	飞升李靖黄金.spr	飞升李靖黄金.spr		
+赵公明	赵公明.spr	赵公明.spr	赵公明.spr	赵公明.spr	赵公明.spr	赵公明.spr		
+闻仲	闻仲.spr	闻仲.spr	闻仲.spr	闻仲.spr	闻仲.spr	闻仲.spr		
+地覆天翻	地覆天翻.spr	地覆天翻.spr	地覆天翻.spr	地覆天翻.spr	地覆天翻.spr	地覆天翻.spr		
+勇气图腾	courage_totem.spr	courage_totem.spr	courage_totem.spr					
+胜利图腾	victory_totem.spr	victory_totem.spr	victory_totem.spr	victory_totem.spr	victory_totem.spr	victory_totem.spr		
+worldboss	xuanwu_st.spr	xuanwu_st.spr	xuanwu_st.spr	xuanwu_run.spr	xuanwu_at.spr	xuanwu_bat.spr		
+danlu	dan_lu_01.spr	dan_lu_01.spr	dan_lu_01.spr	dan_lu_01.spr	dan_lu_01.spr	dan_lu_01.spr	dan_lu_01.spr	
+huyanshou	hu_yan_shou_st.spr	hu_yan_shou_st.spr	hu_yan_shou_st.spr	hu_yan_shou_st.spr	hu_yan_shou_st.spr	hu_yan_shou_st.spr	hu_yan_shou_st.spr	
+material006	material006.spr	material006.spr	material006.spr					
+jue_chen_gui_wang	jue_chen_gui_wang_st.spr	jue_chen_gui_wang_st.spr	jue_chen_gui_wang_st.spr	jue_chen_gui_wang_run.spr	jue_chen_gui_wang_at.spr	jue_chen_gui_wang_bat.spr		
+男羽雕像	nan_yu_diao_xiang.spr	nan_yu_diao_xiang.spr	nan_yu_diao_xiang.spr	nan_yu_diao_xiang.spr	nan_yu_diao_xiang.spr	nan_yu_diao_xiang.spr		
+女羽雕像	nv_yu_diao_xiang.spr	nv_yu_diao_xiang.spr	nv_yu_diao_xiang.spr	nv_yu_diao_xiang.spr	nv_yu_diao_xiang.spr	nv_yu_diao_xiang.spr		
+男羽雕像0级	nan_yu_diao_xiang_0_ji.spr	nan_yu_diao_xiang_0_ji.spr	nan_yu_diao_xiang_0_ji.spr	nan_yu_diao_xiang_0_ji.spr	nan_yu_diao_xiang_0_ji.spr	nan_yu_diao_xiang_0_ji.spr		
+女羽雕像0级	nv_yu_diao_xiang_0_ji.spr	nv_yu_diao_xiang_0_ji.spr	nv_yu_diao_xiang_0_ji.spr	nv_yu_diao_xiang_0_ji.spr	nv_yu_diao_xiang_0_ji.spr	nv_yu_diao_xiang_0_ji.spr		
+男羽雕像1级	nan_yu_diao_xiang_1_ji.spr	nan_yu_diao_xiang_1_ji.spr	nan_yu_diao_xiang_1_ji.spr	nan_yu_diao_xiang_1_ji.spr	nan_yu_diao_xiang_1_ji.spr	nan_yu_diao_xiang_1_ji.spr		
+女羽雕像1级	nv_yu_diao_xiang_1_ji.spr	nv_yu_diao_xiang_1_ji.spr	nv_yu_diao_xiang_1_ji.spr	nv_yu_diao_xiang_1_ji.spr	nv_yu_diao_xiang_1_ji.spr	nv_yu_diao_xiang_1_ji.spr		
+男羽雕像2级	nan_yu_diao_xiang_2_ji.spr	nan_yu_diao_xiang_2_ji.spr	nan_yu_diao_xiang_2_ji.spr	nan_yu_diao_xiang_2_ji.spr	nan_yu_diao_xiang_2_ji.spr	nan_yu_diao_xiang_2_ji.spr		
+女羽雕像2级	nv_yu_diao_xiang_2_ji.spr	nv_yu_diao_xiang_2_ji.spr	nv_yu_diao_xiang_2_ji.spr	nv_yu_diao_xiang_2_ji.spr	nv_yu_diao_xiang_2_ji.spr	nv_yu_diao_xiang_2_ji.spr		
+男羽雕像3级	nan_yu_diao_xiang_3_ji.spr	nan_yu_diao_xiang_3_ji.spr	nan_yu_diao_xiang_3_ji.spr	nan_yu_diao_xiang_3_ji.spr	nan_yu_diao_xiang_3_ji.spr	nan_yu_diao_xiang_3_ji.spr		
+女羽雕像3级	nv_yu_diao_xiang_3_ji.spr	nv_yu_diao_xiang_3_ji.spr	nv_yu_diao_xiang_3_ji.spr	nv_yu_diao_xiang_3_ji.spr	nv_yu_diao_xiang_3_ji.spr	nv_yu_diao_xiang_3_ji.spr		
+男羽雕像4级	nan_yu_diao_xiang_4_ji.spr	nan_yu_diao_xiang_4_ji.spr	nan_yu_diao_xiang_4_ji.spr	nan_yu_diao_xiang_4_ji.spr	nan_yu_diao_xiang_4_ji.spr	nan_yu_diao_xiang_4_ji.spr		
+女羽雕像4级	nv_yu_diao_xiang_4_ji.spr	nv_yu_diao_xiang_4_ji.spr	nv_yu_diao_xiang_4_ji.spr	nv_yu_diao_xiang_4_ji.spr	nv_yu_diao_xiang_4_ji.spr	nv_yu_diao_xiang_4_ji.spr		
+xian_jing	xian_jing.spr	xian_jing.spr	xian_jing.spr					
+媚骨天成	mei_gu_tian_cheng_st.spr	mei_gu_tian_cheng_st.spr	mei_gu_tian_cheng_st.spr	mei_gu_tian_cheng_run.spr	mei_gu_tian_cheng_run.spr	mei_gu_tian_cheng_run.spr		
+石破天惊	shi_po_tian_jin_st.spr	shi_po_tian_jin_st.spr	shi_po_tian_jin_st.spr	shi_po_tian_jin_run.spr	shi_po_tian_jin_run.spr	shi_po_tian_jin_run.spr		

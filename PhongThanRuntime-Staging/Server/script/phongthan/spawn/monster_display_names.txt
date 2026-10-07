@@ -1,0 +1,101 @@
+; Proposed client display names for the monster templates used by spawn_*.lua (reference only,
+; not loaded by anything). VN names are VNG's own, from the npc_name/mob_name tables in
+; script.pak (templateID+1 indexed) and quest text ('Phi Tho'). Columns: template row, GBK server
+; name, unaccented VN name. Templates without a verified VN name are listed with '-'.
+Template	Name	DisplayName
+0	靖人	Kiem Nhan
+1	雪妖	Tuyet quai
+2	大踵人	Hoa Dien
+3	北海叛军	Xa Than
+4	冰骄虫	Bang Lang
+5	苔妖	Luc Quai
+6	狂鸟	Cuong Dieu
+7	环狗	Hoan Cau
+8	厌火	Yem Hoa
+9	草仙	Thao Tien
+11	夏耕尸	Cot Tinh
+13	甲壳人	Giap Cot
+14	尸蝗	Thiet Trung
+15	鬼驭	Da Xoa
+16	天吴	Thien Hao
+17	沙魂	Sa Hon
+19	武士龟	Luc Quy
+20	刀禽	Dao Cam
+21	火鱼	Hoa Ngu
+22	火离小妖	Lao Ho lo
+23	菌人	Lac Co
+24	旱龟	Giang Quy
+25	荒猪	Tru Tinh
+26	铁盔鱼	Thiet Ngu
+27	冰灵	Bang Linh
+28	岩浆兽	Hoa Ma
+29	英招神	Anh Chieu Than
+30	巨石神	Cu Thach
+31	水参	Hai Sam
+32	飞甲	Phi Giap
+33	夏耕尸王	Cot Tinh Vuong
+34	美女蚌	Ngoc Nu
+35	火邪	Hoa Ta
+36	虾人	Ha Cot
+37	鬼灯	Thanh Hong Dang
+38	开明神	Tien Dao than
+39	磷妖	Lan vu su
+40	长乘神	Son Duong yeu
+41	雷泽神	Loi Trach than
+42	野毛神	Da Mao than
+43	武罗神	Thach than
+44	死灵	Lam Cot
+45	相柳神	Bo Than
+46	幻精	Ma Nu
+47	幻灵	Lam Cot
+48	奢比夫人	Doi Trai
+49	陆吾大神	Luc Ngo Than
+52	倭人	Ai Nhan
+101	叛军队长	-
+102	靖人将军	-
+103	雪原巨兽	-
+104	药篓子	-
+105	草仙婆婆	-
+106	毒苔妖	-
+421	红名岛的怪1	Phi Tho
+422	红名岛的怪2	Phi Tho
+423	红名岛的怪3	Phi Tho
+460	戾	-
+461	狰	-
+462	狞	-
+463	噬狼	-
+546	食气鬼	-
+547	食水鬼	-
+548	疾行鬼	-
+654	山魈	-
+655	无名兽	-
+656	石夷	-
+657	夏后启	-
+658	女祭	-
+659	奇肱	-
+739	戾	-
+740	狰	-
+741	狞	-
+743	仙·钦原	-
+744	魔·离朱	-
+745	仙·离朱	-
+746	噬狼	-
+747	汲血妖	-
+748	仙·风妖	-
+749	魔·风妖	-
+750	仙·风兽山珲	-
+751	魔·风兽山珲	-
+752	天愚	-
+753	夔牛	-
+754	计蒙	-
+783	魔·钦原	-
+930	乘黄	-
+931	仙·犁灵尸	-
+932	魔·犁灵尸	-
+933	山狖	-
+934	烛阴神	-
+935	仙·朱軨	-
+936	魔·朱軨	-
+937	苟芒神	-
+970	<c=g>北海叛军头领<c>	-
+971	<c=g>狂鸟头领<c>	-

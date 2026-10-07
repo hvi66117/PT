@@ -1,0 +1,475 @@
+HOUR	MIN	SCRIPT		DESC
+0	0	\script\vnevent\commons\chaythongbao\kickoff_chay_thong_bao.lua
+0	0	\script\vnevent\commons\kickoff_reset_soxo_nghia_tu.lua
+0	0	\script\彩票\双倍经验优化.lua	循环任务优化
+0	0	\script\活动脚本\元旦活动.lua
+0	0	\script\活动脚本\情人节活动开始.lua
+0	0	\script\活动脚本\年兽.lua
+0	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+0	0	\script\boss刷新\长老1.lua		四象灵犀长老刷新s
+0	0	\script\即时国战\刷守护蛋.lua		即时国战刷守护蛋
+0	0	\script\跨服战场\福地资源刷新.lua		福地资源刷新
+0	0	\script\活动脚本\国家庆典.lua		国家庆典
+0	1	\script\boss刷新\混沌.lua		boss刷新
+0	1 	\script\vnevent\commons\kickoff_nguoi_tuyet_2016.lua
+0	5	\script\祭渊谷\祭渊谷活动开启.lua	祭渊谷
+0	15	\script\boss刷新\长老2.lua		四象灵犀长老刷新s
+0	16	\script\boss刷新\穷奇.lua		boss刷新
+0	30	\script\boss刷新\长老3.lua		四象灵犀长老刷新s
+0	30	\script\vnevent\features\bossnienthu\kickoff_khoi_map_thien_lao.lua
+0	31	\script\boss刷新\饕餮.lua		boss刷新
+0	45	\script\boss刷新\长老4.lua		四象灵犀长老刷新s
+0	46	\script\boss刷新\taowu.lua		boss刷新
+0	55	\script\狱法山\狱法烽烟timetask.lua		狱法烽烟
+0	59	\script\boss刷新\九婴.lua		boss刷新
+1	0	\script\活动脚本\年兽.lua
+1	0	\script\活动脚本\情人节活动开始.lua
+1	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+1	0	\script\即时国战\国家连续卓越次数systimetask.lua	连续荣誉值卓越次数	
+1	58	\script\万仙阵\土review.lua		万仙阵
+1	59	\script\boss刷新\九婴.lua		boss刷新
+2	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+2	0	\script\活动脚本\情人节活动开始.lua
+2	0	\script\万仙阵\土on.lua		万仙阵
+2	3	\script\万仙阵\水review.lua		万仙阵
+2	5	\script\万仙阵\水on.lua		万仙阵
+2	8	\script\万仙阵\火review.lua		万仙阵
+2	10	\script\万仙阵\火on.lua		万仙阵
+2	13	\script\万仙阵\风review.lua		万仙阵
+2	15	\script\万仙阵\风on.lua		万仙阵
+2	18	\script\万仙阵\幻review.lua		万仙阵
+2	20	\script\万仙阵\幻on.lua		万仙阵
+2	20	\script\vnevent\features\thongthientananh\kickoff_boss_thong_thien_tan_anh.lua
+2	59	\script\boss刷新\九婴.lua		boss刷新
+3	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+3	0	\script\活动脚本\情人节活动开始.lua
+3	59	\script\boss刷新\九婴.lua		boss刷新
+4	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+4	0	\script\活动脚本\情人节活动开始.lua
+4	59	\script\boss刷新\九婴.lua		boss刷新
+5	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+5	0	\script\活动脚本\情人节活动开始.lua
+5	59	\script\boss刷新\九婴.lua		boss刷新
+6	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+6	0	\script\活动脚本\情人节活动开始.lua
+6	0	\script\vnevent\commons\kickoffkhoitinhthach.lua
+6	0	\script\vnevent\commons\kickoff_truy_tim_kho_bau.lua
+6	59	\script\boss刷新\九婴.lua		boss刷新
+7	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+7	0	\script\活动脚本\情人节活动开始.lua
+7	59	\script\boss刷新\九婴.lua		boss刷新
+8	0	\script\vnevent\commons\hieu_ung_tuyet_roi.lua	tuyet_roi
+8	0	\script\vnevent\commons\kickoff_boss_giao_long.lua
+8	0	\script\vnevent\commons\hieu_ung_tuyet_roi_2014.lua	tuyet_roi_2014
+8	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+8	0	\script\活动脚本\情人节活动开始.lua
+8	0	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+8	0	\script\vnevent\commons\kickoff_chuyen_sinh.lua
+8	30	\script\vnevent\commons\kickoff_thu_phuc_tru_vuong.lua
+8	55	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+8	59	\script\boss刷新\九婴.lua		boss刷新
+9	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+9	0	\script\活动脚本\情人节活动开始.lua
+9	0	\script\彩票\任务周公告.lua	循环任务优化
+9	0	\script\活动脚本\风火轮提示.lua		风火轮大赛提示
+9	30	\script\活动脚本\每日午间活动.lua	每日午间活动
+9	55	\script\狱法山\狱法烽烟timetask.lua		狱法烽烟
+9	58	\script\万仙阵\土review.lua		万仙阵
+9	59	\script\boss刷新\九婴.lua		boss刷新
+10	0	\script\活动脚本\每日午间活动.lua	每日午间活动
+10	0	\script\活动脚本\情人节活动开始.lua
+10	0	\script\vnevent\npcs\nu_than_cua_quy.lua
+10	0	\script\万仙阵\土on.lua		万仙阵
+10	0	\script\vnevent\commons\kickoff_boss_giao_long.lua
+10	0	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+10	3	\script\万仙阵\水review.lua		万仙阵
+10	5	\script\万仙阵\水on.lua		万仙阵
+10	8	\script\万仙阵\火review.lua		万仙阵
+10	10	\script\万仙阵\火on.lua		万仙阵
+10	13	\script\万仙阵\风review.lua		万仙阵
+10	15	\script\万仙阵\风on.lua		万仙阵
+10	18	\script\万仙阵\幻review.lua		万仙阵
+10	20	\script\万仙阵\幻on.lua		万仙阵
+10	20	\script\vnevent\features\thongthientananh\kickoff_boss_thong_thien_tan_anh.lua
+10	30	\script\活动脚本\每日午间活动.lua	每日午间活动
+10	30	\script\vnevent\commons\kickoff_thu_phuc_tru_vuong.lua
+10	50	\script\活动脚本\每日活动开始提示.lua
+10	50	\script\活动脚本\捉鬼大赛报名on.lua		捉鬼大赛
+10	55	\script\活动脚本\每日活动开始提示.lua
+10	55	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+10	59	\script\boss刷新\九婴.lua		boss刷新
+11	0	\script\活动脚本\纸鸢on.lua		纸鸢大赛
+11	0	\script\活动脚本\情人节活动开始.lua
+11	0	\script\活动脚本\雪球大赛on.lua		雪球大赛
+11	0	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+11	0	\script\彩票\任务周公告.lua	循环任务优化
+11	0	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	5	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	10	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	10	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+11	15	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	20	\script\vnevent\commons\kickoff_camel_race.lua
+11	20	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	20	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+11	25	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	25	\script\活动脚本\每日活动开始提示.lua
+11	30	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	30	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+11	35	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	40	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	40	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+11	45	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	50	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	50	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+11	55	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+11	59	\script\boss刷新\九婴.lua		boss刷新
+12	0	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	0	\script\活动脚本\情人节活动开始.lua
+12	0	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+12	0	\script\boss刷新\长老1.lua		四象灵犀长老刷新s
+12	0	\script\活动脚本\风火轮提示.lua		风火轮大赛提示
+12	0	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+12	0	\script\vnevent\commons\kickoffkhoitinhthach.lua
+12	0	\script\vnevent\commons\kickoff_truy_tim_kho_bau.lua
+12	1	\script\boss刷新\混沌.lua		boss刷新
+12	5	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	10	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	10	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+12	15	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	15	\script\boss刷新\长老2.lua		四象灵犀长老刷新s
+12	16	\script\boss刷新\穷奇.lua		boss刷新
+12	20	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	20	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+12	25	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	30	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	30	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+12	30	\script\boss刷新\长老3.lua		四象灵犀长老刷新s
+12	30	\script\vnevent\commons\timnanghoa\kickoff_tim_nang_hoa.lua
+12	31	\script\boss刷新\饕餮.lua		boss刷新
+12	35	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	40	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	40	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+12	45	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	45	\script\boss刷新\长老4.lua		四象灵犀长老刷新s
+12	46	\script\boss刷新\taowu.lua		boss刷新
+12	50	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+12	50	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+12	55	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+12	58	\script\万仙阵\土review.lua		万仙阵
+12	59	\script\boss刷新\九婴.lua		boss刷新
+13	0	\script\vnevent\commons\mission\kickoff_truy_tim_quai_thu.lua
+13	0	\script\vnevent\commons\halloween\halloween.lua
+13	0	\script\vnevent\commons\kickoff_boss_giao_long.lua
+13	0	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+13	0	\script\活动脚本\情人节活动开始.lua
+13	0	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+13	0	\script\活动脚本\腊八活动公告.lua	腊八活动
+13	0	\script\彩票\任务周公告.lua	循环任务优化
+13	1	\script\万仙阵\土on.lua		万仙阵
+13	3	\script\万仙阵\水review.lua		万仙阵
+13	5	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+13	5	\script\万仙阵\水on.lua		万仙阵
+13	8	\script\万仙阵\火review.lua		万仙阵
+13	10	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+13	10	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+13	10	\script\万仙阵\火on.lua		万仙阵
+13	13	\script\万仙阵\风review.lua		万仙阵
+13	15	\script\万仙阵\风on.lua		万仙阵
+13	15	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+13	18	\script\万仙阵\幻review.lua		万仙阵
+13	20	\script\万仙阵\幻on.lua		万仙阵
+13	20	\script\vnevent\commons\kickoff_camel_race.lua
+13	20	\script\vnevent\features\thongthientananh\kickoff_boss_thong_thien_tan_anh.lua
+13	20	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+13	20	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+13	30	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+13	30	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+13	30	\script\vnevent\commons\kickoff_thu_phuc_tru_vuong.lua
+13	40	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+13	50	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+13	50	\script\活动脚本\每日活动开始提示.lua		捉鬼大赛
+13	50	\script\活动脚本\捉鬼大赛报名on.lua		捉鬼大赛报名
+13	59	\script\boss刷新\九婴.lua		boss刷新
+14	00	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+14	0	\script\vnevent\commons\kickoff_chuyen_sinh.lua
+14	0	\script\vnevent\commons\kickofftruytimnguoithanbi.lua
+14	0	\script\活动脚本\情人节活动开始.lua
+14	0	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛	
+14	0	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+14	55	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+14	55	\script\狱法山\狱法烽烟timetask.lua		狱法烽烟
+14	59	\script\boss刷新\九婴.lua		boss刷新
+15	0	\script\新古战场\远古战场on.lua		商周战场
+15	0	\script\活动脚本\情人节活动开始.lua
+15	0	\script\vnevent\commons\mission\kickoff_truy_tim_quai_thu.lua
+15	0	\script\vnevent\commons\kickoff_boss_giao_long.lua
+15	0	\script\彩票\任务周公告.lua	循环任务优化
+15	0	\script\活动脚本\风火轮提示.lua		风火轮大赛提示
+15	0	\script\活动脚本\腊八活动公告.lua	腊八活动
+15	5	\script\vnevent\hien_thi_thong_bao.lua		hien_thi_thong_bao
+15	35	\script\vnevent\hien_thi_thong_bao_1.lua		hien_thi_thong_bao_1
+15	59	\script\boss刷新\九婴.lua		boss刷新
+16	0	\script\活动脚本\年兽.lua
+16	0	\script\活动脚本\情人节活动开始.lua
+16	0	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+16	0	\script\vnevent\npcs\nu_than_cua_quy.lua
+16	30	\script\vnevent\commons\kickoff_thu_phuc_tru_vuong.lua
+16	55	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋		
+16	59	\script\boss刷新\九婴.lua		boss刷新
+17	0	\script\活动脚本\年兽.lua
+17	0	\script\vnevent\commons\kickoff_boss_giao_long.lua
+17	0	\script\活动脚本\情人节活动开始.lua
+17	0	\script\彩票\任务周公告.lua	循环任务优化
+17	0	\script\活动脚本\元旦活动.lua
+17	0	\script\活动脚本\采集碎片公告.lua	采集碎片公告	
+17	58	\script\万仙阵\土review.lua		万仙阵
+17	59	\script\boss刷新\九婴.lua		boss刷新
+18	0	\script\活动脚本\年兽.lua
+18	0	\script\vnevent\features\bossmoi2023\kickoff_boss_hong_hoang.lua
+18	0	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+18	0	\script\活动脚本\情人节活动开始.lua
+18	0	\script\活动脚本\2010圣诞节活动.lua
+18	0	\script\活动脚本\元旦活动.lua
+18	0	\script\彩票\任务周公告.lua	循环任务优化
+18	0	\script\即时国战\4级城市怪物攻城活动systimetask.lua		4级城市怪物攻城活动
+18	0	\script\活动脚本\采集碎片公告.lua	采集碎片公告	
+18	0	\script\boss刷新\悟真人.lua		boss刷新
+18	0	\script\万仙阵\土on.lua		万仙阵
+18	0	\script\活动脚本\腊八活动公告.lua	腊八活动
+18	0	\script\活动脚本\女人节.lua		女人节活动
+18	2	\script\boss刷新\盘古.lua		boss刷新
+18	3	\script\万仙阵\水review.lua		万仙阵
+18	5	\script\万仙阵\水on.lua		万仙阵
+18	8	\script\万仙阵\火review.lua		万仙阵
+18	10	\script\万仙阵\火on.lua		万仙阵
+18	13	\script\万仙阵\风review.lua		万仙阵
+18	15	\script\万仙阵\风on.lua		万仙阵
+18	18	\script\万仙阵\幻review.lua		万仙阵
+18	20	\script\万仙阵\幻on.lua		万仙阵
+18	20	\script\vnevent\commons\kickoff_camel_race.lua
+18	20	\script\vnevent\features\thongthientananh\kickoff_boss_thong_thien_tan_anh.lua
+18	30	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+18	30	\script\vnevent\commons\kickoff_thu_phuc_tru_vuong.lua
+18	30	\script\vnevent\features\bossmoi2023\kickoff_boss_loichantu.lua
+18	32	\script\boss刷新\大鹏.lua		boss刷新
+18	45	\script\boss刷新\杨戬.lua		boss刷新
+18	50	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+18	50	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+18	55	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋		
+18	55	\script\活动脚本\每日活动开始提示.lua		风火轮大赛，雪球大赛，寻找宝藏
+18	59	\script\boss刷新\九婴.lua		boss刷新
+19	0	\script\活动脚本\年兽.lua
+19	0	\script\活动脚本\情人节活动开始.lua
+19	0	\script\vnevent\mission\ttbl_09_2014\kickoff.lua
+19	0	\script\vnevent\commons\kickoff_boss_giao_long.lua
+19	0	\script\彩票\任务周公告.lua	循环任务优化
+19	0	\script\活动脚本\2010圣诞节活动.lua
+19	0	\script\ontimer\钓鱼timetask.lua	钓鱼事件	
+19	0	\script\活动脚本\采集碎片公告.lua	采集碎片公告	
+19	0	\script\活动脚本\雪球大赛on.lua		雪球大赛
+19	0	\script\即时国战\4级城市怪物攻城活动systimetask.lua		4级城市怪物攻城活动
+19	0	\script\运镖\开启.lua		运镖
+19	0	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+19	0	\script\活动脚本\纸鸢on.lua		清明活动
+19	0	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+19	0	\script\不周天关\渡劫任务systemtimetask.lua		渡劫任务
+19	0	\script\vnevent\commons\kickoff_chuyen_sinh.lua
+19	0	\script\vnevent\commons\kickofftruytimnguoithanbi.lua
+19	0	\script\vnevent\commons\kickofffs_question.lua
+19	0	\script\vnevent\features\thancongbao\thong_bao_than_cong_bao.lua	thongbaothancongbao
+19	0	\script\vnevent\features\huyenvukiemlinh\kickoff_huyen_vu_kiem_linh.lua	
+19	0	\script\vnevent\features\chuyensinh2020\kickoff_male_thanh.lua
+19	10	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+19	10	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+19	15	\script\活动脚本\2010圣诞节活动.lua
+19	15	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+19	20	\script\si_xiang_shen_yu\xuan_wu_shi_lian_on.lua		玄武试炼
+19	20	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+19	29	\script\boss刷新\岁寒地气公告.lua		岁寒地气公告
+19	30	\script\boss刷新\蛟龙.lua		boss刷新
+19	30	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+19	30	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+19	30	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+19	30	\script\活动脚本\国家庆典.lua		国家庆典
+19	30	\script\vnevent\npcs\kickoff_boss_eventfree.lua
+19	30	\script\vnevent\features\chuyensinh2020\kickoff_male_hai.lua
+19	40	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+19	45	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+19	50	\script\活动脚本\每日活动开始提示.lua		捉鬼大赛
+19	50	\script\活动脚本\捉鬼大赛报名on.lua		捉鬼大赛报名
+19	50	\script\boss刷新\螭龙.lua		boss刷新
+19	50	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+19	50	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+19	55	\script\活动脚本\每日活动开始提示.lua		三月岐山
+19	55	\script\即时国战\4级城市怪物攻城活动systimetask.lua		4级城市怪物攻城活动
+19	58	\script\boss刷新\九婴.lua		boss刷新
+19	57	\script\vnevent\mission\tt_09_2014\kickoff.lua		Boss Trung Thu
+19	59	\script\boss刷新\不义侯.lua		boss刷新
+20	0	\script\活动脚本\年兽.lua
+20	0	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋	
+20	0	\script\活动脚本\情人节活动开始.lua
+20	0	\script\ontimer\钓鱼timetask.lua	钓鱼事件	
+20	0	\script\vnevent\commons\kickoff_boss_giao_long.lua
+20	0	\script\vnevent\features\tudaithientien\kickoff_boss_khuongtunha.lua
+20	0	\script\vnevent\features\tudaithientien\kickoff_boss_nhilangthan.lua
+20	0	\script\活动脚本\元旦活动.lua	
+20	0	\script\彩票\任务周公告.lua	循环任务优化
+20	0	\script\活动脚本\采集碎片公告.lua	采集碎片公告	
+20	0	\script\即时国战\4级城市怪物攻城活动systimetask.lua		4级城市怪物攻城活动
+20	0	\script\新古战场\远古战场on.lua		商周战场
+20	0	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	0	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+20	0	\script\跨服战场\跨服战场开启.lua		跨服战场开启
+20	0	\script\跨服战场\福地资源刷新.lua		福地资源刷新
+20	5	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	10	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+20	10	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	15	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	15	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+20	20	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+20	20	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	25	\script\活动脚本\每日活动开始提示.lua		挑战极限
+20	30	\script\ontimer\钓鱼timetask.lua	钓鱼事件	
+20	30	\script\boss刷新\元素神.lua		boss刷新
+20	30	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+20	30	\script\boss刷新\虬龙.lua		boss刷新
+20	30	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	30	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+20	30	\script\vnevent\commons\kickoff_thu_phuc_tru_vuong.lua
+20	30	\script\vnevent\features\thancongbao\kickoff_than_cong_bao.lua	thancongbao
+20	30	\script\vnevent\features\bossmoi2023\kickoff_boss_natra.lua
+20	35	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	40	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+20	40	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	40	\script\即时国战\4级城市怪物攻城活动systimetask.lua		4级城市怪物攻城活动
+20	42	\script\即时国战\4级城市怪物攻城活动systimetask.lua		4级城市怪物攻城活动
+20	45	\script\即时国战\4级城市怪物攻城活动systimetask.lua		4级城市怪物攻城活动
+20	45	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	45	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+20	50	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+20	50	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	55	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋	
+20	55	\script\狱法山\狱法烽烟timetask.lua		狱法烽烟
+20	55	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+20	58	\script\万仙阵\土review.lua		万仙阵
+20	59	\script\boss刷新\九婴.lua		boss刷新
+21	0	\script\活动脚本\年兽.lua
+21	0	\script\活动脚本\情人节活动开始.lua
+21	0	\script\彩票\任务周公告.lua	循环任务优化
+21	0	\script\活动脚本\2010圣诞节活动.lua
+21	0	\script\跨服战场\洞天活动systimetask.lua		洞天争夺战
+21	0	\script\ontimer\钓鱼timetask.lua	钓鱼事件	
+21	0	\script\活动脚本\寻找碎片.lua		国家寻找碎片
+21	0	\script\vnevent\npcs\nu_than_cua_quy.lua
+21	0	\script\万仙阵\土on.lua		万仙阵
+21	0	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+21	0	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	0	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+21	0	\script\boss刷新\激发龙力time.lua		
+21	0	\script\跨服战场\跨服战场开启.lua		跨服战场开启
+21	0	\script\活动脚本\国家庆典.lua		国家庆典
+21	0	\script\即时国战\豪猪.lua	种植事件	
+21	0	\script\vnevent\features\bosspbm\kickoff_tru_tinh.lua
+21	0	\script\vnevent\features\bosspbm\kickoff_thach_tinh.lua
+21	0	\script\vnevent\features\bosspbm\kickoff_lan_tinh.lua
+21	0	\script\vnevent\features\bosstienma\kickoff_boss_tienma_thancongbao.lua
+21	0	\script\vnevent\features\bosstienma\kickoff_boss_tienma_ngudocxa.lua
+21	0	\script\vnevent\features\bosstienma\kickoff_boss_tienma_minhsama.lua
+21	3	\script\万仙阵\水review.lua		万仙阵
+21	5	\script\万仙阵\水on.lua		万仙阵
+21	5	\script\boss刷新\激发龙力time.lua		
+21	5	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	5	\script\跨服战场\洞天活动systimetask.lua		洞天争夺战
+21	8	\script\万仙阵\火review.lua		万仙阵
+21	10	\script\万仙阵\火on.lua		万仙阵
+21	10	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+21	10	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	10	\script\boss刷新\激发龙力time.lua		
+21	13	\script\万仙阵\风review.lua		万仙阵
+21	15	\script\万仙阵\风on.lua		万仙阵
+21	15	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	15	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+21	15	\script\boss刷新\激发龙力time.lua	
+21	18	\script\万仙阵\幻review.lua		万仙阵
+21	20	\script\万仙阵\幻on.lua		万仙阵
+21	20	\script\vnevent\commons\kickoff_camel_race.lua
+21	20	\script\vnevent\features\thongthientananh\kickoff_boss_thong_thien_tan_anh.lua
+21	20	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+21	20	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	20	\script\boss刷新\激发龙力time.lua		
+21	25	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	25	\script\boss刷新\激发龙力time.lua		
+21	30	\script\boss刷新\岁寒地气关闭.lua		岁寒地气关闭公告
+21	30	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+21	30	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	30	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+21	30	\script\vnevent\features\bossnienthu\kickoff_nien_thu.lua
+21	30	\script\vnevent\features\bosshuyenvu\kickoff_boss_huyen_vu.lua
+21	30	\script\vnevent\features\bossphunghoang\kickoff_boss_phung_hoang.lua
+21	30	\script\vnevent\features\bosshacthan\kickoff_hac_than.lua
+21	30	\script\vnevent\features\tudaithientien\kickoff_boss_thien_tien.lua
+21	30	\script\vnevent\features\bosstienma\kickoff_boss_chuc_long.lua
+21	30	\script\vnevent\features\bosstienma\kickoff_boss_huyet_long.lua
+21	30	\script\vnevent\features\bosstienma\kickoff_boss_giao_long.lua
+21	30	\script\vnevent\features\bosstienma\kickoff_boss_ly_long.lua
+21	30	\script\vnevent\features\bosstienma\kickoff_boss_di_long.lua
+21	35	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	40	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+21	40	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	45	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	45	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+21	50	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+21	50	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	55	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+21	59	\script\boss刷新\九婴.lua		boss刷新
+22	0	\script\活动脚本\年兽.lua
+22	0	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋	
+22	0	\script\活动脚本\情人节活动开始.lua
+22	0	\script\vnevent\features\chuyensinh2020\kickoff_male_hong.lua
+22	0	\script\vnevent\commons\mission\kickoff_truy_tim_quai_thu.lua
+22	0	\script\vnevent\commons\kickoff_boss_giao_long.lua
+22	0	\script\vnevent\features\bossluubason\kickoff_boss_bach_ho.lua
+22	0	\script\vnevent\features\bossluubason\kickoff_boss_thanh_long.lua
+22	0	\script\彩票\任务周公告.lua	循环任务优化
+22	0	\script\活动脚本\元旦活动.lua
+22	0	\script\活动脚本\风火轮大赛systemtimetask.lua		风火轮大赛
+22	0	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+22	0	\script\跨服战场\福地资源刷新.lua		福地资源刷新
+22	0	\script\活动脚本\文曲下凡活动systimetask.lua		文曲下凡活动
+22	0	\script\vnevent\commons\kickofftruytimnguoithanbi.lua
+22	0	\script\vnevent\commons\kickoff_soxo_nghia_tu.lua
+22	0	\script\vnevent\commons\halloween\halloween.lua
+22	0	\script\新古战场\远古战场on.lua		商周战场
+22	5	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+22	10	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+22	15	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+22	20	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+22	25	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+22	25	\script\跨服战场\福地资源刷新.lua		福地资源刷新
+22	30	\script\活动脚本\挑战极限活动timer.lua		挑战极限
+22	30	\script\vnevent\commons\kickoff_thu_phuc_tru_vuong.lua
+22	30	\script\vnevent\npcs\kickoff_boss_eventfree.lua
+22	30	\script\vnevent\features\chuyensinh2020\kickoff_male_tho.lua
+22	55	\script\活动脚本\暑期活动systimetask.lua		刷彩蛋
+22	58	\script\万仙阵\土review.lua		万仙阵
+22	59	\script\boss刷新\九婴.lua		boss刷新
+22	59	\script\不周天关\渡劫任务systemtimetask.lua		渡劫任务
+23	0	\script\活动脚本\年兽.lua
+23	0	\script\活动脚本\情人节活动开始.lua
+23	0	\script\即时国战\4级城市怪物攻城活动systimetask.lua	4级城市怪物攻城活动	
+23	0	\script\万仙阵\土on.lua		万仙阵
+23	0	\script\活动脚本\元旦活动.lua
+23	3	\script\万仙阵\水review.lua		万仙阵
+23	5	\script\万仙阵\水on.lua		万仙阵
+23	8	\script\万仙阵\火review.lua		万仙阵
+23	10	\script\万仙阵\火on.lua		万仙阵
+23	13	\script\万仙阵\风review.lua		万仙阵
+23	15	\script\万仙阵\风on.lua		万仙阵
+23	18	\script\万仙阵\幻review.lua		万仙阵
+23	20	\script\万仙阵\幻on.lua		万仙阵
+23	20	\script\vnevent\commons\kickoff_camel_race.lua
+23	20	\script\vnevent\features\thongthientananh\kickoff_boss_thong_thien_tan_anh.lua
+23	55 	\script\vnevent\commons\kickoff_nguoi_tuyet_2014.lua
+23	59	\script\boss刷新\九婴.lua		boss刷新
+23	59	\script\不周山\渡劫任务雷霆起例.lua		渡劫任务
+23	59	\script\活动脚本\寻找碎片结束.lua		国家寻找碎片

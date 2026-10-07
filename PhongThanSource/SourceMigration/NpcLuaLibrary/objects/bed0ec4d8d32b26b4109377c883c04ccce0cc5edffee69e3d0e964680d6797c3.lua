@@ -1,0 +1,5 @@
+function OnDeath(npcidx)
+    AddGlobalCountNews("Anh hÔng c∏i th’ <c=g>" .. GetName() .. "<c>1 chi™u l y <color=blue> ThÒ c p BOSS Hoµng Kim---Nhﬁ Lang Th«n<c>.", 20)
+
+    DelNpc(npcidx)
+end;

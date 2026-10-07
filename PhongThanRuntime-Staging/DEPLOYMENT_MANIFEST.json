@@ -1,0 +1,236 @@
+{
+  "Schema": 2,
+  "CreatedAtUtc": "2026-09-09T10:07:55.1794067Z",
+  "ProjectRoot": "D:\\Lam game phong than\\PhongThanSource",
+  "ContentRoot": "D:\\Lam game phong than\\PhongThanRuntime-Content",
+  "StateRoot": "D:\\Lam game phong than\\PhongThanRuntime-State",
+  "StagingRuntime": "D:\\Lam game phong than\\PhongThanRuntime-Staging",
+  "RuntimeManifestSha256": "BDB8F50C056754CD9F90D0A401BE6C87D5F3198B40397D2941B338DC4CBBF8EE",
+  "ContentStoreManifestSha256": "3F44FCE16A2BF1D85D69F13ECC6740966FD3801DB4E94F566D61DD434CFBD82F",
+  "Artifacts": [
+    {
+      "Role": "Client",
+      "Name": "Game.exe",
+      "Length": 692224,
+      "Sha256": "5B1041D94667F318D5BFA74125747A3EFED43A0CBC85AB70591D4978A8BAC62A"
+    },
+    {
+      "Role": "Client",
+      "Name": "Engine.dll",
+      "Length": 421977,
+      "Sha256": "1865B905A15E80AF38F51AF4DD81B99F6AAC4E06E78D9E2582B58AFDDD26763C"
+    },
+    {
+      "Role": "Client",
+      "Name": "LuaLibDll.dll",
+      "Length": 90112,
+      "Sha256": "A63340388C6B4B3282E667AA1B9548D62683FC93B8133826503ACDECF3F38E96"
+    },
+    {
+      "Role": "Client",
+      "Name": "CoreClient.dll",
+      "Length": 704609,
+      "Sha256": "08683B02E4D031D131C598CD3470F15C383F28F3AAC0F59EA0CEBD0A846F1E48"
+    },
+    {
+      "Role": "Client",
+      "Name": "ExpandPackage.dll",
+      "Length": 204800,
+      "Sha256": "A4D43DBEEB2F55C1BF9A7EBD8CD1A4ACAAD0A78F1AA0B679C123C0C347BE2519"
+    },
+    {
+      "Role": "Client",
+      "Name": "FilterText.dll",
+      "Length": 32865,
+      "Sha256": "2BF20CDA8C6C10A5200EF519DFD374E00B1F2E651E8B9CEFCB943F985ACD0150"
+    },
+    {
+      "Role": "Client",
+      "Name": "Heaven.dll",
+      "Length": 286821,
+      "Sha256": "F95B39860877A178CBE86A129C58BBBCF340531F43B9B907C7F677E93982B5E8"
+    },
+    {
+      "Role": "Client",
+      "Name": "Rainbow.dll",
+      "Length": 155751,
+      "Sha256": "8ECB3C8196AA2DE131D7E4150739B5D0888C848A56D897C1AF8261F8EDB5BE97"
+    },
+    {
+      "Role": "Client",
+      "Name": "Represent2.dll",
+      "Length": 53355,
+      "Sha256": "C888E929412CEB42C49CEE2D79380C8F04C156C16BFBB6F0CD7E5BDA579B800B"
+    },
+    {
+      "Role": "Client",
+      "Name": "Represent3.dll",
+      "Length": 839787,
+      "Sha256": "263EE4438F20F3D84EE7BD57DA039213C503B549DE740C5FA80DB7A26731476B"
+    },
+    {
+      "Role": "Server",
+      "Name": "Engine.dll",
+      "Length": 421977,
+      "Sha256": "1865B905A15E80AF38F51AF4DD81B99F6AAC4E06E78D9E2582B58AFDDD26763C"
+    },
+    {
+      "Role": "Server",
+      "Name": "LuaLibDll.dll",
+      "Length": 90112,
+      "Sha256": "A63340388C6B4B3282E667AA1B9548D62683FC93B8133826503ACDECF3F38E96"
+    },
+    {
+      "Role": "Server",
+      "Name": "CoreServer.dll",
+      "Length": 1073249,
+      "Sha256": "885E52C152DDAD6A4816FAAEA1DA490BAB52EBFE5FEFBA2655A40E39913BAF67"
+    },
+    {
+      "Role": "Server",
+      "Name": "ExpandPackage.dll",
+      "Length": 204800,
+      "Sha256": "A4D43DBEEB2F55C1BF9A7EBD8CD1A4ACAAD0A78F1AA0B679C123C0C347BE2519"
+    },
+    {
+      "Role": "Server",
+      "Name": "FilterText.dll",
+      "Length": 32865,
+      "Sha256": "2BF20CDA8C6C10A5200EF519DFD374E00B1F2E651E8B9CEFCB943F985ACD0150"
+    },
+    {
+      "Role": "Server",
+      "Name": "Heaven.dll",
+      "Length": 286821,
+      "Sha256": "F95B39860877A178CBE86A129C58BBBCF340531F43B9B907C7F677E93982B5E8"
+    },
+    {
+      "Role": "Server",
+      "Name": "Rainbow.dll",
+      "Length": 155751,
+      "Sha256": "8ECB3C8196AA2DE131D7E4150739B5D0888C848A56D897C1AF8261F8EDB5BE97"
+    },
+    {
+      "Role": "Server",
+      "Name": "Bishop.exe",
+      "Length": 348261,
+      "Sha256": "9075AA033F2FA2008175C42730A0DE8516364B62E00C202CA38BCB44B05B500D"
+    },
+    {
+      "Role": "Server",
+      "Name": "Goddess.exe",
+      "Length": 237671,
+      "Sha256": "316D44EE044AEAE7867595F2A0BD6DD6377AE93D722B0C300D915E46BABAA2F6"
+    },
+    {
+      "Role": "Server",
+      "Name": "S3Relay.exe",
+      "Length": 962663,
+      "Sha256": "78B9A18A8BA1A498276759A29C5630798BC0BD5D7FA853B0CD3D7CE0FF3B59AF"
+    },
+    {
+      "Role": "Server",
+      "Name": "GameServer.exe",
+      "Length": 327789,
+      "Sha256": "7EB9389875F5E7259BFD5AE0C24E046A71C1522CFA98E4377D1A41EE9F270860"
+    },
+    {
+      "Role": "Server",
+      "Name": "PhongThanAccountServer.exe",
+      "Length": 131200,
+      "Sha256": "5F6B87F9B13E7866FC222963ABD644E3FFA963BD474CAAEA4CF0470B66558EB3"
+    },
+    {
+      "Role": "Server",
+      "Name": "PhongThanRelayServer.exe",
+      "Length": 131196,
+      "Sha256": "70FA14DDE9813A486EFB7E15A779CEC5A15B09B3620EA93FE1B59F9F287D4BCE"
+    }
+  ],
+  "ContentGroups": [
+    {
+      "Role": "Client",
+      "Path": "data",
+      "FileCount": 22,
+      "Bytes": 4032657144
+    },
+    {
+      "Role": "Client",
+      "Path": "font",
+      "FileCount": 3,
+      "Bytes": 44289
+    },
+    {
+      "Role": "Client",
+      "Path": "maps",
+      "FileCount": 34231,
+      "Bytes": 290612588
+    },
+    {
+      "Role": "Client",
+      "Path": "script",
+      "FileCount": 4762,
+      "Bytes": 5750225
+    },
+    {
+      "Role": "Client",
+      "Path": "settings",
+      "FileCount": 525,
+      "Bytes": 20241981
+    },
+    {
+      "Role": "Client",
+      "Path": "sound",
+      "FileCount": 11,
+      "Bytes": 1503584
+    },
+    {
+      "Role": "Client",
+      "Path": "Spr",
+      "FileCount": 3963,
+      "Bytes": 1012614504
+    },
+    {
+      "Role": "Client",
+      "Path": "Ui",
+      "FileCount": 44,
+      "Bytes": 210450
+    },
+    {
+      "Role": "Client",
+      "Path": "ÓÎÏ·×ÊÔ´",
+      "FileCount": 1413,
+      "Bytes": 147310858
+    },
+    {
+      "Role": "Server",
+      "Path": "maps",
+      "FileCount": 34231,
+      "Bytes": 64104559
+    },
+    {
+      "Role": "Server",
+      "Path": "pak",
+      "FileCount": 0,
+      "Bytes": 0
+    },
+    {
+      "Role": "Server",
+      "Path": "script",
+      "FileCount": 4762,
+      "Bytes": 5750424
+    },
+    {
+      "Role": "Server",
+      "Path": "settings",
+      "FileCount": 525,
+      "Bytes": 20241637
+    },
+    {
+      "Role": "Server",
+      "Path": "datascript",
+      "FileCount": 8,
+      "Bytes": 2636
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+DANH_SACH_BANG_HOI = {}
+Include("/dataScript/banghoi/danhsachbanghoi1.lua")
+Include("/dataScript/banghoi/danhsachbanghoi2.lua")
+Include("/dataScript/banghoi/danhsachbanghoi3.lua")
+Include("/dataScript/banghoi/danhsachbanghoi4.lua")
+Include("/dataScript/banghoi/danhsachbanghoi5.lua")
+Include("/dataScript/banghoi/danhsachbanghoi6.lua")
+Include("/dataScript/banghoi/danhsachbanghoi7.lua")
+Include("/dataScript/banghoi/danhsachbanghoi8.lua")
+Include("/dataScript/banghoi/danhsachbanghoi9.lua")
+Include("/dataScript/banghoi/danhsachbanghoi10.lua")
+Include("/dataScript/banghoi/danhsachbanghoi11.lua")
+Include("/dataScript/banghoi/danhsachbanghoi12.lua")

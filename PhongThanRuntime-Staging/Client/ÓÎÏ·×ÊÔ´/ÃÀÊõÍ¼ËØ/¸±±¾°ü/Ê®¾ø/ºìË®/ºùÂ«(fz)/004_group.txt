@@ -1,0 +1,15 @@
+[MAIN]
+grouptype=normal
+icon=group
+objnum=2
+type=group
+[0]
+elementtype=1004
+objoffset=0.000000,0.000000,0.000000
+planefile=\游戏资源\美术图素\副本包\十绝\红水\葫芦(fz)\004.txt
+planeframe=0
+[1]
+elementtype=1004
+objoffset=1.093750,0.000000,0.000000
+planefile=\游戏资源\美术图素\副本包\十绝\红水\葫芦(fz)\004.txt
+planeframe=1

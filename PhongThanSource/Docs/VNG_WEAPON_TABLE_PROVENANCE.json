@@ -1,0 +1,27 @@
+{
+  "Schema": 1,
+  "VirtualRoot": "\\settings\\item\\001",
+  "ExtractionPolicy": "byte-exact through the runtime package.ini order",
+  "Files": [
+    {
+      "Name": "meleeweapon.txt",
+      "PackageName": "vng00.pak",
+      "PackageIndex": 0,
+      "PackageSha256": "1CEE92FADE53175B360C59D441C8DF33408F5D3316ED088AD10EB24B15D200DB",
+      "EntrySha256": "44E567604C519BC6064AAD1DAA4BFBB094E99C9A7FF4E5F5A2AA88803B22D6A5",
+      "Bytes": 1000986,
+      "Rows": 3411,
+      "HeaderColumns": 70
+    },
+    {
+      "Name": "rangeweapon.txt",
+      "PackageName": "serverlist.pak",
+      "PackageIndex": 14,
+      "PackageSha256": "B45EE3D8CFA4DED0D5A23791140CF9A1AD9652646033AA371C661448D50DB89E",
+      "EntrySha256": "A83907720500C03AEDA8C6C06EFAF0E9CCCDF9B8142FC9C5DEADEED19AB60828",
+      "Bytes": 6678,
+      "Rows": 30,
+      "HeaderColumns": 55
+    }
+  ]
+}

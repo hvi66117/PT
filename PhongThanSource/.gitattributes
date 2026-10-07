@@ -1,0 +1,14 @@
+*.md text eol=crlf
+*.ps1 text eol=crlf
+*.json text eol=crlf
+*.dsp -text
+*.dsw -text
+*.rc -text
+*.cpp -text
+*.c -text
+*.h -text
+*.hpp -text
+*.luax binary
+gameserver/settings/missles.txt binary
+Deploy/LUA_REQUIRE_MODULES.tsv whitespace=-trailing-space
+Deploy/VNG_LUAX_CATALOG.tsv whitespace=-trailing-space

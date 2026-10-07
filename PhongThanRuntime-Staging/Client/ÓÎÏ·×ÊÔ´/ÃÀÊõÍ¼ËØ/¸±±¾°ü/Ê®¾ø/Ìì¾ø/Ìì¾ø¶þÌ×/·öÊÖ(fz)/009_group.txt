@@ -1,0 +1,15 @@
+[MAIN]
+grouptype=normal
+icon=group
+objnum=2
+type=group
+[0]
+elementtype=1004
+objoffset=0.000000,0.000000,0.000000
+planefile=\游戏资源\美术图素\副本包\十绝\天绝\天绝二套\扶手(fz)\009.txt
+planeframe=0
+[1]
+elementtype=1004
+objoffset=0.250000,0.187500,0.000000
+planefile=\游戏资源\美术图素\副本包\十绝\天绝\天绝二套\扶手(fz)\009.txt
+planeframe=1

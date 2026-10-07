@@ -1,0 +1,197 @@
+[
+ {
+  "key": "cuu_linh",
+  "name": "Cửu Linh",
+  "nameCn": "九婴",
+  "map": 1016,
+  "mapName": "Tam Sơn",
+  "level": 40,
+  "template": 86,
+  "dx": 198,
+  "dy": 208,
+  "schedule": [
+   "00:59",
+   "01:59",
+   "02:59",
+   "03:59",
+   "04:59",
+   "05:59",
+   "06:59",
+   "07:59",
+   "08:59",
+   "09:59",
+   "10:59",
+   "11:59",
+   "12:59",
+   "13:59",
+   "14:59",
+   "15:59",
+   "16:59",
+   "17:59",
+   "18:59",
+   "19:58",
+   "20:59",
+   "21:59",
+   "22:59",
+   "23:59"
+  ]
+ },
+ {
+  "key": "thiet_bo",
+  "name": "Thiết Bố",
+  "nameCn": "混沌",
+  "map": 1026,
+  "mapName": "Sa Mạc chết",
+  "level": 60,
+  "template": 90,
+  "dx": 220,
+  "dy": 183,
+  "schedule": [
+   "00:01",
+   "12:01"
+  ]
+ },
+ {
+  "key": "kim_trai",
+  "name": "Kim Trại",
+  "nameCn": "穷奇",
+  "map": 1041,
+  "mapName": "Long Uyên",
+  "level": 60,
+  "template": 87,
+  "dx": 224,
+  "dy": 217,
+  "schedule": [
+   "00:16",
+   "12:16"
+  ]
+ },
+ {
+  "key": "con_boi",
+  "name": "Côn Bối",
+  "nameCn": "饕餮",
+  "map": 1031,
+  "mapName": "Hiên Viên tầng 5",
+  "level": 60,
+  "template": 89,
+  "dx": 248,
+  "dy": 192,
+  "schedule": [
+   "00:31",
+   "12:31"
+  ]
+ },
+ {
+  "key": "lam_ba",
+  "name": "Lam Bá",
+  "nameCn": "梼杌",
+  "map": 1036,
+  "mapName": "Băng Xuyên Cực",
+  "level": 60,
+  "template": 88,
+  "dx": 161,
+  "dy": 204,
+  "schedule": [
+   "00:46",
+   "12:46"
+  ]
+ },
+ {
+  "key": "ban_co",
+  "name": "Bàn Cổ",
+  "nameCn": "盘古",
+  "map": 1051,
+  "mapName": "Khổn Tiên tầng 5",
+  "level": 80,
+  "template": 82,
+  "dx": 197,
+  "dy": 212,
+  "schedule": [
+   "18:02"
+  ]
+ },
+ {
+  "key": "dai_dieu",
+  "name": "Đại Điêu",
+  "nameCn": "大鹏",
+  "map": 1046,
+  "mapName": "Bích Du tầng 5",
+  "level": 80,
+  "template": 85,
+  "dx": 200,
+  "dy": 185,
+  "schedule": [
+   "18:32"
+  ]
+ },
+ {
+  "key": "nhi_lang_than",
+  "name": "Nhị Lang Thần",
+  "nameCn": "杨戬",
+  "map": 1065,
+  "mapName": "Trần Đường",
+  "level": 80,
+  "template": 96,
+  "dx": 219,
+  "dy": 206,
+  "schedule": [
+   "18:45"
+  ]
+ },
+ {
+  "key": "giao_long",
+  "name": "Giao Long",
+  "nameCn": "蛟龙",
+  "map": 1055,
+  "mapName": "Đông Doanh",
+  "level": 100,
+  "template": 97,
+  "dx": 213,
+  "dy": 184,
+  "schedule": [
+   "19:30"
+  ]
+ },
+ {
+  "key": "ly_long",
+  "name": "Ly Long",
+  "nameCn": "螭龙",
+  "map": 1056,
+  "mapName": "Phương Trượng",
+  "level": 100,
+  "template": 98,
+  "dx": 218,
+  "dy": 191,
+  "schedule": [
+   "19:50"
+  ]
+ },
+ {
+  "key": "di_long",
+  "name": "Di Long",
+  "nameCn": "虬龙",
+  "map": 1054,
+  "mapName": "Bồng Lai",
+  "level": 100,
+  "template": 99,
+  "dx": 203,
+  "dy": 186,
+  "schedule": [
+   "20:30"
+  ]
+ },
+ {
+  "key": "bat_nghia_hau",
+  "name": "Bất Nghĩa Hầu",
+  "nameCn": "不义侯",
+  "map": 1062,
+  "mapName": "Ngọc Hư 10 năm sau",
+  "level": 60,
+  "template": 125,
+  "dx": 210,
+  "dy": 202,
+  "schedule": [
+   "19:59"
+  ]
+ }
+]

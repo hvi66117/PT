@@ -1,0 +1,8 @@
+RelativePath	SourcePackage	SourceSha256	RequiredBy
+settings\Missles.txt	D:\Lam game phong than\Settings_PhongTHan\settings\missles.txt	E3B495A27771BA4F268E0B356F0F7170F28315CC96D27B9F318F4C55A031328C	Core InitMissleSetting before STEP 5
+settings\item\001\ibitem.txt	D:\Lam game phong than\Tai nguyen VNG\settings\block_262_id1342098625.txt	88BEA09A3786E037732CA7A976463059B341AD5D010844A009A13DDD701F6FA7	Phong Than VNG IBItem loader and Di Ngoai Phu
+settings\npc\player\level_exp.txt	D:\Lam game phong than\Settings_PhongTHan\settings\npc\player\level_exp.txt	6BC0A7C8A7FE834CDEDD8100324802890356B747953A5A207EF0EF4AF23678D6	Phong Than player level progression
+settings\npc\player\level_add.txt	D:\Lam game phong than\Settings_PhongTHan\settings\npc\player\level_add.txt	97DEE9D0E458D317DB6049629E09EDEAA9A5936053EF53DC5102373A23FD78AF	Phong Than five-series attribute growth
+settings\npc\player\level_lead_exp.txt	D:\Lam game phong than\Settings_PhongTHan\settings\npc\player\level_lead_exp.txt	DFEDA1E33B8923A3F828CCEF75A359B6FF7A9B1280F625FB25CC7C980C6B6E95	Phong Than leadership progression
+settings\npc\player\newplayerbaseattribute.ini	D:\Lam game phong than\Settings_PhongTHan\settings\npc\player\newplayerbaseattribute.ini	CC0775086C2185A95ABBBF76F8A3DD6950A8B07C9D0ACE894F29540997A4F4DA	Phong Than initial five-series attributes
+settings\npc\player\pkpunish.txt	D:\Lam game phong than\Settings_PhongTHan\settings\npc\player\pkpunish.txt	61A7DC49818BEC9EF2F6E868B7B74ADCB00F2D7A82F896ED205328CA0157CE16	Phong Than PK death penalties

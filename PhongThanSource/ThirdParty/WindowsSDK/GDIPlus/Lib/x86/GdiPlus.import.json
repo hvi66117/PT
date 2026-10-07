@@ -1,0 +1,14 @@
+{
+  "Schema": 3,
+  "Source": "Microsoft.Windows.SDK.CPP.x86",
+  "PackageVersion": "10.0.22000.194",
+  "SourceLibrary": "GdiPlus.WinSdk.lib",
+  "SourceSha256": "1FDC0F549B97171FE0F458DEF4BE593C936518CF626571B140C1628CEE48F522",
+  "BuildLibrary": "GdiPlus.lib",
+  "BuildSha256": "1FDC0F549B97171FE0F458DEF4BE593C936518CF626571B140C1628CEE48F522",
+  "Machine": "I386",
+  "LinkerSymbolConvention": "stdcall-decorated",
+  "DllImportNameType": "undecorate",
+  "ValidatedImportCount": 10,
+  "ValidationTool": "D:\\VisualStudio6\\VisualStudio6portable-langman.congdongcviet\\Microsoft Visual Studio\\VC98\\Bin\\DUMPBIN.EXE"
+}

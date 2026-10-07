@@ -1,0 +1,11 @@
+-- Blaze game server startup script
+-- Created in 2006-07-19
+-- by zhujialiang
+
+function OnDeath(npcidx)
+	local a=GetName()
+
+	AddGlobalCountNews("<color=green>"..a.."<color> mét kiÕm h¹ thñ ®Çu lÜnh <color=red>Kho¸c Quû<color> nhËn ®­îc <color=green>tranh b¸t qu¸i<color>.", 20)
+	AddNormalItem(3,87,0,0,0,1)
+	DelNpc(npcidx)
+end;

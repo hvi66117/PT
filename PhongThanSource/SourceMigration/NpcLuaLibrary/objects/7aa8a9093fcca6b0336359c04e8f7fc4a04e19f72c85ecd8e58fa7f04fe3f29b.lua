@@ -1,0 +1,28 @@
+--description: »¤·¨
+--author: mayining
+--date: 2009/1/12
+
+--AS GaoJingwei 2009/08/02 
+--È¡µÃnpcµÄ×´Ì¬
+function GetPlayerTaskState()
+    return 0, 0
+end
+--AE GaoJingwei 2009/08/02 
+
+function main()
+
+    local tasks = {
+        { "Phong thó s¬n hån", "renwu1"; show = 0 },
+    }
+
+    SayTask(" DÞ thó mÆc dï ®· bÞ ¸p chÕ, nh­ng c«ng lùc vÉn cßn rÊt m¹nh. Ph¸p trËn hÇu nh­ s¾p bÞ ph¸ råi, ta e m×nh trÊn thñ kh«ng næi n÷a", tasks)
+
+end;
+
+function renwu1()
+
+end
+
+function no()
+    CloseDialog()
+end;

@@ -1,0 +1,66 @@
+require(" Ù–‘¡È≥Ë.luax")
+require("º◊π«ŒƒªÓ∂Ø.luax")
+CardName = "Na Tra"
+Item_Id = { 6, 1, 1542, 1 }
+TaskTable = Able_Pet.TaskTable_NeZha
+
+cardlevel = 11
+
+function main(nLevel, t, nNpcIdx, nItemId)
+
+    if (FindAValidItemID(nItemId) <= 0) then
+        InfoBox("Kh´ng c„ vÀt ph»m nµy ho∆c vÀt ph»m Æ∑ h’t hπn!")
+        return
+    end
+
+    if (PetIsAdd() == 0) then
+        Talk(1, "no", "Ch≠a c„ Linh ThÛ, kh´ng th” bi’n th©n. ")
+        return
+    elseif (PetIsSleep() == 1) then
+        Talk(1, "no", "Linh ThÛ trong trπng th∏i ngÒ, kh´ng th” bi’n th©n.")
+        return
+    elseif (PetGetTime() < (1 * 60 * 60)) then
+        Talk(1, "no", "Linh ThÛ Æang trong trπng th∏i  p 24h, kh´ng th” bi’n th©n. ")
+        return
+    end
+    local nGen = GetItemGen(nItemId)
+    local nDetail = GetItemDetail(nItemId)
+    local nParticular = GetItemPartByID(nItemId)
+    if not (nGen == Item_Id[1] and nDetail == Item_Id[2] and nParticular == Item_Id[3]) then
+        InfoBox("Kh´ng c„ vÀt ph»m nµy ho∆c vÀt ph»m Æ∑ h’t hπn!")
+        return
+    end
+    local menu = {
+        { "Bi’n h◊nh", "main_pet"; show = 1 },
+        { "Ti÷m tu˙ th©n", "shop"; show = 1 },
+    }
+    SayTask("MÍi l˘a ch‰n:", menu)
+
+end
+function main_pet()
+    Able_Pet.ChangePet()
+    SetTaskByte(Able_Pet.NeZha_Pet, 1, 1)
+    SetTaskByte(Able_Pet.NeZha_Pet, 2, cardlevel)
+
+    Able_Pet.Xuanwu()
+
+    PetSetType(TaskTable[cardlevel].petid)
+    Msg2Player("H◊nh t≠Óng Linh sÒng cÒa ngµi bi’n thµnh Ω…ÌNa Tra.")
+    AddIBBuff(TaskTable[cardlevel].buffid)
+    if (GetTaskByte(Able_Pet.Break_NeZhaPet, 2) == 0) then
+        PetModifyProtect(1)
+        SetTaskByte(Able_Pet.Break_NeZhaPet, 2, 1)
+        Msg2Player("Linh sÒng Na Tra giÛp ngµi t®ng 1 l«n Linh SÒng HÈ ChÒ.")
+    end
+    ORACLEBONE.GetCardWayApply(38, 2)
+    ORACLEBONE.GetCardWayApply(39, 2)
+    no()
+end
+function shop()
+    no()
+    Sale(1)
+end
+
+function no()
+    CloseDialog()
+end;

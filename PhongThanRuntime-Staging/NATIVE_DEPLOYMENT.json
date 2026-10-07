@@ -1,0 +1,302 @@
+﻿{
+    "Schema":  1,
+    "Scope":  "NATIVE_REBUILD_UAT",
+    "CreatedAtUtc":  "2026-09-17T00:57:05.0509112Z",
+    "Artifacts":  [
+                      {
+                          "Role":  "Client",
+                          "Name":  "Game.exe",
+                          "Sha256":  "D8C04D9BCCB833E04EF76A7FB96B32FE440D0AFE88D993B25D15536CFE6D39B9"
+                      },
+                      {
+                          "Role":  "Client",
+                          "Name":  "Engine.dll",
+                          "Sha256":  "43FD360244F12D7B2879876EE0694C20D7A4D9BA11835BE288B8638AB7663C7B"
+                      },
+                      {
+                          "Role":  "Client",
+                          "Name":  "LuaLibDll.dll",
+                          "Sha256":  "53CBC3790ECA54EEE0038721CB291E246161D04DF63969D69BB906F90699D4DC"
+                      },
+                      {
+                          "Role":  "Client",
+                          "Name":  "CoreClient.dll",
+                          "Sha256":  "75422EDD6761CCD30EA436E75AA993F0FE3DE1AEBFAB8ED92E0EACDF00C23600"
+                      },
+                      {
+                          "Role":  "Client",
+                          "Name":  "ExpandPackage.dll",
+                          "Sha256":  "A4D43DBEEB2F55C1BF9A7EBD8CD1A4ACAAD0A78F1AA0B679C123C0C347BE2519"
+                      },
+                      {
+                          "Role":  "Client",
+                          "Name":  "FilterText.dll",
+                          "Sha256":  "2BF20CDA8C6C10A5200EF519DFD374E00B1F2E651E8B9CEFCB943F985ACD0150"
+                      },
+                      {
+                          "Role":  "Client",
+                          "Name":  "Heaven.dll",
+                          "Sha256":  "C53E8A68439C7C5B654108EB80E2BBD838F8DDF97191D80B62527457120303AC"
+                      },
+                      {
+                          "Role":  "Client",
+                          "Name":  "Rainbow.dll",
+                          "Sha256":  "629D0C6079DCE6BE2AC8D87DCD23AD636E3AC0F393D65CD7CD06159331175B1C"
+                      },
+                      {
+                          "Role":  "Client",
+                          "Name":  "Represent2.dll",
+                          "Sha256":  "13CA843F33C068880C6D4A916A158A083963C6B8264B51190CA880A73A00297A"
+                      },
+                      {
+                          "Role":  "Client",
+                          "Name":  "Represent3.dll",
+                          "Sha256":  "263EE4438F20F3D84EE7BD57DA039213C503B549DE740C5FA80DB7A26731476B"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "Engine.dll",
+                          "Sha256":  "43FD360244F12D7B2879876EE0694C20D7A4D9BA11835BE288B8638AB7663C7B"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "LuaLibDll.dll",
+                          "Sha256":  "53CBC3790ECA54EEE0038721CB291E246161D04DF63969D69BB906F90699D4DC"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "CoreServer.dll",
+                          "Sha256":  "6510C35454CF62161A010196D9D220187880C3D492E68D12994177800425AC48"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "ExpandPackage.dll",
+                          "Sha256":  "A4D43DBEEB2F55C1BF9A7EBD8CD1A4ACAAD0A78F1AA0B679C123C0C347BE2519"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "FilterText.dll",
+                          "Sha256":  "2BF20CDA8C6C10A5200EF519DFD374E00B1F2E651E8B9CEFCB943F985ACD0150"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "Heaven.dll",
+                          "Sha256":  "C53E8A68439C7C5B654108EB80E2BBD838F8DDF97191D80B62527457120303AC"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "Rainbow.dll",
+                          "Sha256":  "629D0C6079DCE6BE2AC8D87DCD23AD636E3AC0F393D65CD7CD06159331175B1C"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "Bishop.exe",
+                          "Sha256":  "D6A3E06FC501B50AD60A5C83CF61E5787FD1FD6AEA97F7EF787CBC17104F638A"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "Goddess.exe",
+                          "Sha256":  "316D44EE044AEAE7867595F2A0BD6DD6377AE93D722B0C300D915E46BABAA2F6"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "GameServer.exe",
+                          "Sha256":  "E36D6FC409A4B98C1292E39A89DBA8248B620927D447B83A0B4E6D341DF1999B"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "PhongThanAccountServer.exe",
+                          "Sha256":  "5F6B87F9B13E7866FC222963ABD644E3FFA963BD474CAAEA4CF0470B66558EB3"
+                      },
+                      {
+                          "Role":  "Server",
+                          "Name":  "PhongThanRelay.exe",
+                          "Sha256":  "5CBCC32478CBBAFCBBF74F564321A5208745D64AA4058DB1EED0AB5CAAD27BF1"
+                      }
+                  ],
+    "Configs":  [
+                    {
+                        "Name":  "ServerCfg.ini",
+                        "Sha256":  "ED46398766777084BCB6A7A3B1709D59097221E53413DB6D9E202AF3CA877BFA"
+                    },
+                    {
+                        "Name":  "PhongThanRelay.ini",
+                        "Sha256":  "1CC95BEBDC760570C17BEEA72384A0D498496C69F88CF4F7B1FC22220B5FE5D0"
+                    }
+                ],
+    "PakChain":  {
+                     "Mode":  "PAK_FIRST_LOOSE_FALLBACK",
+                     "PackageCount":  23,
+                     "TotalBytes":  4045187219,
+                     "PackageIniSha256":  "6D0CB2DD17D597E3B8FA4269DC6274C5DD7C9EAE9FCFDEBD3B04662981268B70",
+                     "Entries":  [
+                                     {
+                                         "Priority":  0,
+                                         "Name":  "ptfix.pak",
+                                         "Length":  12530075,
+                                         "Sha256":  "F507080254FB6A8FFBC8B252D51D5062BD0CDDEF64DDF1FD40EFCF17D8790CAB",
+                                         "Storage":  "Copy (Phong Than local override, 2026-09-29)"
+                                     },
+                                     {
+                                         "Priority":  1,
+                                         "Name":  "vng00.pak",
+                                         "Length":  222248737,
+                                         "Sha256":  "1CEE92FADE53175B360C59D441C8DF33408F5D3316ED088AD10EB24B15D200DB",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  2,
+                                         "Name":  "vng.pak",
+                                         "Length":  90088,
+                                         "Sha256":  "A54CD44547E1E1C91C50487FF713D64FE1F1103FFBB1E933BE4DF95CE08AC984",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  3,
+                                         "Name":  "update0_171-171.pak",
+                                         "Length":  1662493508,
+                                         "Sha256":  "BE38AF728AECB01756C6A508C07390079E1A4D446B5261F39CE9511614B8055D",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  4,
+                                         "Name":  "update0_170-170.pak",
+                                         "Length":  1236,
+                                         "Sha256":  "3FBFA8CFD4EB571E590E260595037E6D7BCC2E9292807832A065751ECE4A45AC",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  5,
+                                         "Name":  "update0_169-169.pak",
+                                         "Length":  451138,
+                                         "Sha256":  "9777A60B533A10BB807F5D4AB6CE249800C49979E8B244F58F51559B980209EA",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  6,
+                                         "Name":  "update0_167-168.pak",
+                                         "Length":  110194078,
+                                         "Sha256":  "2B804255604667C2368840B29C5B2981A7777891BF2E445AD72D3E8DEC8121BB",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  7,
+                                         "Name":  "update0_167-167.pak",
+                                         "Length":  109770878,
+                                         "Sha256":  "F342467C7CAF13B8D943AECD12E5E59B96662576FC758B5144BCE1A17CBB39EC",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  8,
+                                         "Name":  "update0_164-166.pak",
+                                         "Length":  515706512,
+                                         "Sha256":  "B67F00AAEB2E2EE5CF0B51EF9C0A6EC3CE2A7CA74A95939F073049359875E6DD",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  9,
+                                         "Name":  "update0_164-165.pak",
+                                         "Length":  528833,
+                                         "Sha256":  "4C9140A9952D964B72266E074CFAE0B5DE2B6DA1E0C5817D49DD5D919368F07D",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  10,
+                                         "Name":  "update0_164-164.pak",
+                                         "Length":  131188,
+                                         "Sha256":  "49A76809F53CD4872FA2C4D39116975493C50071785B2066C9A13D0AA7D32B3F",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  11,
+                                         "Name":  "update0_122-163.pak",
+                                         "Length":  698863622,
+                                         "Sha256":  "33065012E044B511A4B9FF58F30F34E581C321B4FE6F6F956DB8ED37ABB0CCAA",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  12,
+                                         "Name":  "update1.pak",
+                                         "Length":  7620540,
+                                         "Sha256":  "D74B57DBBC732D2B7BC18EE532B6BEF4347C1473A852EAD4E65DC6FD52A99DBC",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  13,
+                                         "Name":  "update.pak",
+                                         "Length":  36257427,
+                                         "Sha256":  "0B67D10DFED1C02A5B442A19287B01224619073EE43E814CA90C86B6B73A03D7",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  14,
+                                         "Name":  "blaze.pak",
+                                         "Length":  124242410,
+                                         "Sha256":  "67903E0B66266681F1ED000DB31B624B5F012C6161EDC5022B308C0C49BE9E37",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  15,
+                                         "Name":  "serverlist.pak",
+                                         "Length":  23615107,
+                                         "Sha256":  "B45EE3D8CFA4DED0D5A23791140CF9A1AD9652646033AA371C661448D50DB89E",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  16,
+                                         "Name":  "spr.pak",
+                                         "Length":  454317275,
+                                         "Sha256":  "FE411BCD9BAC4D027AB8B8DDA2BA733026BB13B635B2D1BD51AE8CF5A3BAC643",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  17,
+                                         "Name":  "maps.pak",
+                                         "Length":  55468990,
+                                         "Sha256":  "DE081207B3D8EBCB8118958E69A52E0F35E935B359FCE5D2513BD821CE722FC7",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  18,
+                                         "Name":  "settings.pak",
+                                         "Length":  484862,
+                                         "Sha256":  "B22CF3F00F3A2E29B1356F3BCDB781465E6C2631A324A75878DCC95ACC9CE7A5",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  19,
+                                         "Name":  "ui.pak",
+                                         "Length":  128735,
+                                         "Sha256":  "4FD0BB46D1095FA163B95FA11F4B3A0D49FB95A3A9B07E245580204D6766AD6B",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  20,
+                                         "Name":  "script.pak",
+                                         "Length":  725489,
+                                         "Sha256":  "DEFABFE3EDDE873012D3C2DA54468DFC57F368724E3795BBDE705704F943CB9D",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  21,
+                                         "Name":  "font.pak",
+                                         "Length":  8916,
+                                         "Sha256":  "0246467F96268D9DB29B679634ECCE9F40892E7812049D5A892DD2006A7875DD",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     },
+                                     {
+                                         "Priority":  22,
+                                         "Name":  "sound.pak",
+                                         "Length":  9307575,
+                                         "Sha256":  "A24DB5A54267E695D46D6E9DE526EF48E776BBA33DADD127717C8CC7EC3F8334",
+                                         "Storage":  "NTFS hardlink to Client\\data"
+                                     }
+                                 ]
+                 },
+    "RemovedObsoleteArtifacts":  [
+
+                                 ],
+    "CharacterStore":  "D:\\Lam game phong than\\PhongThanRuntime-State\\Server\\CharacterStore",
+    "ContentPolicy":  "VNG PAK first by package.ini priority; loose files are whole-file fallback only",
+    "FullProjectAcceptance":  false
+}

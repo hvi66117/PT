@@ -1,0 +1,13 @@
+2026-10-06 07:44:00
+cuu_linh	1	2059	0	759	
+thiet_bo	1	1	0	1201	
+kim_trai	1	16	0	1216	
+con_boi	1	31	0	1231	
+lam_ba	1	46	0	1246	
+ban_co	0	0	0	1802	
+dai_dieu	0	0	0	1832	
+nhi_lang_than	0	0	0	1845	
+giao_long	0	0	0	1930	
+ly_long	0	0	0	1950	
+di_long	1	2030	0	2030	
+bat_nghia_hau	0	0	0	1959	

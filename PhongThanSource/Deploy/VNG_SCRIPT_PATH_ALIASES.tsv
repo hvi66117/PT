@@ -1,0 +1,2 @@
+OriginalBytesHex	OriginalName	RuntimeBasename	Reason	Scope
+9783E8BB	Taowu (GBK: 梼杌)	taowu.lua	VC6 ANSI directory APIs cannot reopen the C1-control mojibake filename under Windows UTF-8 ACP	boss refresh script; transformation item script

@@ -1,0 +1,21 @@
+[MAIN]
+grouptype=normal
+icon=group
+objnum=3
+type=group
+[0]
+elementtype=1004
+objoffset=0.000000,0.000000,0.000000
+planefile=\游戏资源\美术图素\副本包\十绝\落魄\主墙(fz)\017.txt
+planeframe=0
+[1]
+elementtype=1004
+objoffset=3.625000,3.625000,0.000000
+planefile=\游戏资源\美术图素\副本包\十绝\落魄\主墙(fz)\017.txt
+planeframe=1
+[2]
+elementtype=10000
+objoffset=0.000000,0.000000,0.000000
+obstaclepointarray=(0.000000,0.000000,0.000000,) (3.625000,3.625000,0.000000,) (11.531250,-4.250000,0.000000,) (7.890625,-7.890625,0.000000,) (0.000000,0.000000,0.000000,) 
+obstaclepointnum=5
+obstacletype=1

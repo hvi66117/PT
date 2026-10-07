@@ -1,0 +1,47 @@
+Task_Protect_2012 = 1817
+
+Task_Protect_2012_2 = 1818
+
+Task_Protect_KillNum = 1819
+
+G_Buff_Protect = 1406
+
+function GetPlayerTaskState()
+    return 0, 0
+end
+
+function main()
+    if (HaveNormalItem(6, 1, 893, 1) <= 0) then
+        return
+    end
+    local nMap, nX, nY = GetWorldPos()
+    if (nMap ~= 55) then
+        Talk(1, "no", "øπŸ¡¥Û∆Ï÷ªƒ‹‘⁄∂´Â≠µ∫ π”√.")
+        return
+    end
+
+    MsgBox("»∑∂®“™∞—øπŸ¡¥Û∆Ï∑≈÷√µΩ¥À¥¶ sao?", "Yes_Add", "no")
+end
+
+function Yes_Add()
+    no()
+    if (HaveNormalItem(6, 1, 893, 1) <= 0) then
+        return
+    end
+
+    local nMap, nX, nY = GetWorldPos()
+    local nNpcidx = AddNpc(1924, 1, SubWorld, nX * 32, nY * 32)
+    if (nNpcidx > 0) then
+        SetNpcTimer(nNpcidx, "\\script\\ontimer\\…æµÙ◊‘º∫.lua", 30 * 60)
+        SetTaskByte(Task_Protect_2012, 2, 2)
+        TaskNote(1627, 1)
+        Talk(1, "no", "Hoµn thµnh nhi÷m vÙ , ªÿ»•∏ÊÀﬂL˝ Tﬁnh∞….")
+        DelNormalItem(6, 1, 893, 1)
+    else
+        Talk(1, "no", "¥À¥¶≤ªƒ‹ π”√øπŸ¡¥Û∆Ï, ªª∏ˆµÿ∑Ω÷ÿ–¬ ‘ ‘∞….")
+    end
+end
+
+function no()
+    CloseDialog()
+end

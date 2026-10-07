@@ -1,0 +1,96 @@
+require("common.luax")
+
+module("JIYUANGU", package.seeall)
+
+G_ActiveDay = { "2021-10-19", "2021-10-31" }
+G_BeginDay = { 2021, 10, 19, 10 }
+G_EndDay = { 2021, 10, 31 }
+G_DateFlag = 1582
+G_NotOpenServer = "㎙ng H턨"
+
+G_JingLeiFuForbidden = "㎙ng H턨"
+G_LingHunFuForbidden = "㎙ng H턨"
+G_NewRandomServer = "㎙ng H턨"
+
+function IsInActiveDay()
+    if (IsWorldEventExist(8)) then
+        CreateWorldEvent(8, 1, 0, 0)
+    end
+
+    local nLeftTime = 0
+
+    if (G_NotOpenServer ~= "" and GetGameServerName() == G_NotOpenServer) then
+        return nLeftTime
+    end
+    local nYear, nMon, nDay = GetYMD()
+    local nHour, nMin, nSec = GetHMS()
+
+    if (nYear == G_BeginDay[1] and nMon == G_BeginDay[2] and nDay == G_BeginDay[3] and nHour < G_BeginDay[4]) then
+        return 0
+    end
+
+    if (true == COMMON.IsInDateRange(G_ActiveDay[1], G_ActiveDay[2])) then
+        nLeftTime = (G_EndDay[3] - nDay) * 86400 + (23 - nHour) * 3600 + (59 - nMin) * 60 + (60 - nSec)
+    else
+        local GlobalStoreValueRecord = 10
+        local nNowTime = LocalSystemTime()
+        local nEndTime = GetGlobalStoreValue(GlobalStoreValueRecord)
+        if (nEndTime - nNowTime > 0) then
+            nLeftTime = nEndTime - nNowTime
+        end
+    end
+
+    return nLeftTime
+end
+
+function Clear_GlobalValue()
+    SetWorldEventValue(8, 1, 0)
+    local nY, nM, nD = GetYMD()
+    if (nD == G_BeginDay[3]) then
+        SetWorldEventValue(8, 2, 0)
+
+        SetGlobalStoreValueWord(28, 1, 0, 1)
+
+    end
+
+end
+
+function Can_AddDoor(nSysTime)
+    local nYear, nMon, nDay = Time2LocalYMD(nSysTime)
+    local nHour, nMin, nSec = Time2LocalHMS(nSysTime)
+
+    if (nYear == G_BeginDay[1] and nMon == G_BeginDay[2] and nDay == G_BeginDay[3] and nHour == G_BeginDay[4]) then
+        return 1
+    end
+
+    return 0
+end
+
+function Free_Day()
+    local nY, nM, nD = GetYMD()
+    if (nY == G_BeginDay[1] and nM == G_BeginDay[2] and nD >= G_BeginDay[3] and nD <= (G_BeginDay[3] + 2)) then
+        return 1
+    end
+    return 0
+end
+
+function IsJingLeiFuCanUse()
+    if (G_JingLeiFuForbidden ~= "" and GetGameServerName() == G_JingLeiFuForbidden) then
+        return 0
+    end
+    return 1
+end
+
+function IsLingHunFuCanUse()
+    if (G_LingHunFuForbidden ~= "" and GetGameServerName() == G_LingHunFuForbidden) then
+        return 0
+    end
+    return 1
+end
+
+function IsUseNewRandom()
+    if (G_NewRandomServer ~= "" and GetGameServerName() == G_NewRandomServer) then
+        return 1
+    end
+    return 0
+end

@@ -1,0 +1,1857 @@
+{
+  "schema": 1,
+  "generated_at_utc": "2026-09-01T03:35:32.8912942Z",
+  "api_count": 182,
+  "required_and_verified": 122,
+  "not_applicable_with_reason": 60,
+  "state_junctions": 6,
+  "boundaries": [
+    {
+      "name": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership"
+    },
+    {
+      "name": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration"
+    },
+    {
+      "name": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied"
+    },
+    {
+      "name": "role-skill-db",
+      "write_hook": "SavePlayerFightSkillList -> KSkillList::UpdateDBSkillList",
+      "read_hook": "LoadPlayerFightSkillList -> KSkillList::Add"
+    },
+    {
+      "name": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup"
+    }
+  ],
+  "apis": [
+    {
+      "name": "GetDialogNpcName",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "GetFirstPlayerInAll",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "GetGameServerName",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "GetGlobalValueByte",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "GetGlobalValueWord",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "GetHMS",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "GetIPValue",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "GetNextPlayerInAll",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "GetPlayerIndexByName",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "GetSessionNextPlayer",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "GetSubWorldPlayerCount",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "GetSubWorldPlayerIdxByNum",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "GetWeekDay",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "GetYMD",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "InfoBox",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "ipairs",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "IsWarServer",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "Msg2CurMapAnnounce",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "Msg2CurMapAnnounceEx",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "MsgBox",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "NpcSay",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "pcall",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "PlayerIndexToNpcIndex",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "SearchPlayerById",
+      "wave": 1,
+      "persistence_contract": "no",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Read-only/session/UI API has no durable state to save."
+    },
+    {
+      "name": "SetGlobalValueByte",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "SetGlobalValueWord",
+      "wave": 1,
+      "persistence_contract": "global values only",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Legacy global byte/word helpers operate on process-global compatibility values; the audited contract has no restart durability."
+    },
+    {
+      "name": "AbradeEquip",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "AddEventItem",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "AddNormalItemBind",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "AddNormalItemPile",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "ClearItem",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "DelEventItem",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "DelNormalItem",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "DelNormalItemInQuick",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "GetBoxSize",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "GetNormalItemName",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "HaveEventItem",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "HaveEventItemCount",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "HaveItemInAllRoom",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "HaveNormalItem",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "IsEquipItem",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "IsHaveSpaceForTreasure",
+      "wave": 2,
+      "persistence_contract": "role inventory",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-inventory-db",
+      "write_hook": "KPlayer::SavePlayerItemList -> TDBItemData role payload",
+      "read_hook": "KPlayer::LoadPlayerItemList -> authoritative KItemList ownership",
+      "reason": null
+    },
+    {
+      "name": "ActiveTitleFunc",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "ActiveTitleQualify",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "AddAssignedAttrib",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "AddHelpScore",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "AddOwnExtendExp",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "ApplyAssignedAttrib",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "ChangeJusticEvilCredit",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetAssignedAttrib",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetExploit",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetExploitLevel",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetExploitV",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetJusticEvilCredit",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetMantleMasterName",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetMasterPlayerIndex",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetPlayerExtLevel",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetPlayerTarget",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetPlayerType",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetPosterityType",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "GetTeamTask",
+      "wave": 3,
+      "persistence_contract": "team lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Team task state is owned by the current authoritative team and is invalidated when team ownership changes."
+    },
+    {
+      "name": "HaveQualify",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "IsMantleMaster",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "IsMantlePrentice",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "IsMarried",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "IsMasterPRRelation",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "IsPlayerInDeath",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "IsPlayerInsideWeapon",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "PetGetType",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "SetCurTitle",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "SetExploit",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "SetExploitV",
+      "wave": 3,
+      "persistence_contract": "role/relationship state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "SetTeamTask",
+      "wave": 3,
+      "persistence_contract": "team lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Team task state is owned by the current authoritative team and is invalidated when team ownership changes."
+    },
+    {
+      "name": "TeamAction",
+      "wave": 3,
+      "persistence_contract": "team lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "Team task state is owned by the current authoritative team and is invalidated when team ownership changes."
+    },
+    {
+      "name": "AddIBBuff",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "CostIBBuff",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "GetIBBuffCount",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "GetIBBuffLeftTimes",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "GetIBBuffLevel",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "GetIBBuffTimes",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "HaveIBBuff",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "NpcAddIBBuff",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "NpcHaveIBBuff",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "NpcRemoveIBBuff",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "RemoveIBBuff",
+      "wave": 4,
+      "persistence_contract": "player buffs",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-ibbuff-db",
+      "write_hook": "PersistPlayerIBBuffStore -> locked Task_List slots 4900..4995",
+      "read_hook": "RestorePhongThanIBBuffs after complete task payload, expiry checked and native state reapplied",
+      "reason": null
+    },
+    {
+      "name": "FinishNpcCollection",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "IsJEMainTaskComplete",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "IsNewBirthComplete",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "JEMainTaskComplete",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "NewTaskNote",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "RefreshAllNpcTask",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "SayTask",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "SetMateTask",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "SetPlayerTaskState",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "SetSubTask",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "TaskCheck",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "TaskNote",
+      "wave": 5,
+      "persistence_contract": "role task state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-task-db",
+      "write_hook": "KTask SetSaveVal -> KPlayer::SavePlayerTaskList",
+      "read_hook": "KPlayer::LoadPlayerTaskList, including title and Phong Than task state restoration",
+      "reason": null
+    },
+    {
+      "name": "BeginLvSkill",
+      "wave": 6,
+      "persistence_contract": "learned skill state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-skill-db",
+      "write_hook": "SavePlayerFightSkillList -> KSkillList::UpdateDBSkillList",
+      "read_hook": "LoadPlayerFightSkillList -> KSkillList::Add",
+      "reason": null
+    },
+    {
+      "name": "DoSkillAction",
+      "wave": 6,
+      "persistence_contract": "learned skill state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-skill-db",
+      "write_hook": "SavePlayerFightSkillList -> KSkillList::UpdateDBSkillList",
+      "read_hook": "LoadPlayerFightSkillList -> KSkillList::Add",
+      "reason": null
+    },
+    {
+      "name": "GetLiveSkillLevel",
+      "wave": 6,
+      "persistence_contract": "learned skill state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-skill-db",
+      "write_hook": "SavePlayerFightSkillList -> KSkillList::UpdateDBSkillList",
+      "read_hook": "LoadPlayerFightSkillList -> KSkillList::Add",
+      "reason": null
+    },
+    {
+      "name": "Getskill_eventskilllevel",
+      "wave": 6,
+      "persistence_contract": "learned skill state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-skill-db",
+      "write_hook": "SavePlayerFightSkillList -> KSkillList::UpdateDBSkillList",
+      "read_hook": "LoadPlayerFightSkillList -> KSkillList::Add",
+      "reason": null
+    },
+    {
+      "name": "PlayerCastSkill",
+      "wave": 6,
+      "persistence_contract": "learned skill state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-skill-db",
+      "write_hook": "SavePlayerFightSkillList -> KSkillList::UpdateDBSkillList",
+      "read_hook": "LoadPlayerFightSkillList -> KSkillList::Add",
+      "reason": null
+    },
+    {
+      "name": "RemoveSpecialSkill",
+      "wave": 6,
+      "persistence_contract": "learned skill state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-skill-db",
+      "write_hook": "SavePlayerFightSkillList -> KSkillList::UpdateDBSkillList",
+      "read_hook": "LoadPlayerFightSkillList -> KSkillList::Add",
+      "reason": null
+    },
+    {
+      "name": "SetClientLeftSkill",
+      "wave": 6,
+      "persistence_contract": "learned skill state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-skill-db",
+      "write_hook": "SavePlayerFightSkillList -> KSkillList::UpdateDBSkillList",
+      "read_hook": "LoadPlayerFightSkillList -> KSkillList::Add",
+      "reason": null
+    },
+    {
+      "name": "SetClientRightSkill",
+      "wave": 6,
+      "persistence_contract": "learned skill state",
+      "restart_persistence": "required-and-verified",
+      "boundary": "role-skill-db",
+      "write_hook": "SavePlayerFightSkillList -> KSkillList::UpdateDBSkillList",
+      "read_hook": "LoadPlayerFightSkillList -> KSkillList::Add",
+      "reason": null
+    },
+    {
+      "name": "AddMyTrap",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "AddTotemNpc",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "BeginMotion",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "CallMonsterAttacker",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "CancelNpcBelonger",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "CaptureNpc",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "ClearEffectNpc",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "DelBuildingNpc",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "DelNpcTimer",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetBossTargetPlayer",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetCreatureInfo",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetFreeNpcCount",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetGuardLevel",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetHardNpcAttrib",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetMorphType",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetNpcBelonger",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetNpcEnmityCount",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetNpcEnmityItem",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetNpcOwer",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "GetNpcPolyMorph",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "HaveEffectNpc",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "ModifyEffectNpc",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "NpcPolyMorph",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "PolyMorph",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "SetAIScript",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "SetCreatureType",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "SetEffectNpc",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "SetEffectNpcCount",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "SetGuardLevel",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "SetNpcCamp",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "SetNpcTarget",
+      "wave": 7,
+      "persistence_contract": "runtime lifetime",
+      "restart_persistence": "not-applicable-with-reason",
+      "boundary": null,
+      "write_hook": null,
+      "read_hook": null,
+      "reason": "NPC/world extension state is intentionally discarded when the owning runtime object or server process ends."
+    },
+    {
+      "name": "AddTongRes",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "DeleteSiegeWeapon",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetCityGateNpcIdxByNpc",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetCityInfo",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetCityInfoByID",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetCityName",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetCityTaskByID",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetCityTotemNpcIdxByNpc",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetHeavenCityUnion",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetNpcMapCityID",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetSiegeWeaponIndexByNpcIndex",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetSiegeWeaponNpcIndex",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetSiegeWeaponPlayerCount",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetTGuardIndexByCarriageIndex",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetTGuardIndexByPlayerName",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetTGuardInfo",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetTongIDByName",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetTongTask",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetTongTaskByID",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetUnionTongIDByPosterityType",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetUnionTongNameByPosterityType",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "IsInMonsterAttackDay",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "IsOwnerCity",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "IsTongMember",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "ModifyUnionTongWarPowerByName",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "Msg2TongMember",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "Msg2TongMemberByTongName",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "NewSiegeWeapon",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "SetCityTaskByID",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "SetTongTask",
+      "wave": 8,
+      "persistence_contract": "Tong/city ownership",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "AddEvent",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "DeleteSubWorldKindNpcs",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetInstanceActiveInfo",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetInstanceBaseInfo",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetInstanceTempValue",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetWorldEventProgress",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "GetWorldEventValue",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "InstanceMsg2All",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "MonsterOnDeath",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "PlayerInOrOut",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "SetBarrierState",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "SetInstanceTempValue",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "SetMissionV",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "SetWorldEventProgress",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "SetWorldEventValue",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    },
+    {
+      "name": "WorldBossDeath",
+      "wave": 9,
+      "persistence_contract": "world events only",
+      "restart_persistence": "required-and-verified",
+      "boundary": "server-gamedata-db",
+      "write_hook": "PhongThanSetPersistentValue -> GameData.Save plus KCore shutdown flush",
+      "read_hook": "KCore startup GameData.Init -> PhongThanPersistentGroup lookup",
+      "reason": null
+    }
+  ]
+}

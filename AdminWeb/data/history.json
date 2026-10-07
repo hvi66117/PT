@@ -1,0 +1,2402 @@
+[
+    {
+        "id":  "c10052107052",
+        "time":  "2026-10-05 21:07:05",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Tat het bot",
+        "status":  "OK",
+        "detail":  "2026-10-05 21:08:00 bot dang song: 0 / 0"
+    },
+    {
+        "id":  "c10052052121",
+        "time":  "2026-10-05 20:52:12",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Bot: tu do 40 (theo nguoi choi), 0 dia diem, tong 40; to doi bot 7 x 50%",
+        "status":  "OK",
+        "detail":  "2026-10-05 20:53:00 bot dang song: 40 / 40"
+    },
+    {
+        "id":  "c100420442241",
+        "time":  "2026-10-04 20:44:22",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Tat het bot",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:45:01 bot dang song: 0 / 0"
+    },
+    {
+        "id":  "c100420341340",
+        "time":  "2026-10-04 20:34:13",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Bot: tu do 40 (theo nguoi choi), 0 dia diem, tong 40; to doi bot 7 x 50%",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:35:01 bot dang song: 40 / 40"
+    },
+    {
+        "id":  "c100420291739",
+        "time":  "2026-10-04 20:29:17",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Huyền Thiên Nghịch Châu *Hỏa x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:30:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420275438",
+        "time":  "2026-10-04 20:27:54",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Minh Quang lệnh x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:28:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420275437",
+        "time":  "2026-10-04 20:27:54",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Minh Quang Cân x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:28:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420275436",
+        "time":  "2026-10-04 20:27:54",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Minh Quang Lý x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:28:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420275435",
+        "time":  "2026-10-04 20:27:54",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Minh Quang Quán x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:28:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420275434",
+        "time":  "2026-10-04 20:27:54",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Minh Quang Đạo bào x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:28:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420142033",
+        "time":  "2026-10-04 20:14:20",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420142032",
+        "time":  "2026-10-04 20:14:20",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420142031",
+        "time":  "2026-10-04 20:14:20",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420142030",
+        "time":  "2026-10-04 20:14:20",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420141929",
+        "time":  "2026-10-04 20:14:19",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420141928",
+        "time":  "2026-10-04 20:14:19",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420141927",
+        "time":  "2026-10-04 20:14:19",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420141926",
+        "time":  "2026-10-04 20:14:19",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420141825",
+        "time":  "2026-10-04 20:14:19",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420141824",
+        "time":  "2026-10-04 20:14:18",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420141823",
+        "time":  "2026-10-04 20:14:18",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420140822",
+        "time":  "2026-10-04 20:14:08",
+        "type":  "Ruong mo rong",
+        "desc":  "DaoSi1 mo den ruong 6 (offline, file ruong 5 -\u003e 6)",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 online: ruong mo rong 4 -\u003e 5 (mo den ruong 6)"
+    },
+    {
+        "id":  "c100420140421",
+        "time":  "2026-10-04 20:14:04",
+        "type":  "Ruong mo rong",
+        "desc":  "DaoSi1 mo den ruong 5 (offline, file ruong 1 -\u003e 5)",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:15:01 DaoSi1 online: ruong mo rong 0 -\u003e 4 (mo den ruong 5)"
+    },
+    {
+        "id":  "c100420140120",
+        "time":  "2026-10-04 20:14:01",
+        "type":  "Tang tien",
+        "desc":  "DaoSi1 +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 money+100000000"
+    },
+    {
+        "id":  "c100420135619",
+        "time":  "2026-10-04 20:13:56",
+        "type":  "Tang tien dong",
+        "desc":  "DaoSi1 +1000000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 coin+1000000 now=1000000"
+    },
+    {
+        "id":  "c100420135318",
+        "time":  "2026-10-04 20:13:53",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 +50"
+    },
+    {
+        "id":  "c100420133817",
+        "time":  "2026-10-04 20:13:38",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Lenh Bai Dao Si x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420133616",
+        "time":  "2026-10-04 20:13:36",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Lenh Bai Chien Truong Thuong Chu x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420133515",
+        "time":  "2026-10-04 20:13:35",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Lenh Bai Van Tien Tran x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420133414",
+        "time":  "2026-10-04 20:13:34",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Lenh Bai Nhiem Vu x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420133213",
+        "time":  "2026-10-04 20:13:32",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Lenh Bai Luyen Cong x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420133112",
+        "time":  "2026-10-04 20:13:31",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Lenh Bai Boss The Gioi x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420133011",
+        "time":  "2026-10-04 20:13:30",
+        "type":  "Phat do",
+        "desc":  "DaoSi1 \u003c- Lenh Bai Huy Do x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 +1"
+    },
+    {
+        "id":  "c100420132610",
+        "time":  "2026-10-04 20:13:26",
+        "type":  "Tang level",
+        "desc":  "DaoSi1 -\u003e level 1",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 level=1"
+    },
+    {
+        "id":  "c10042013189",
+        "time":  "2026-10-04 20:13:18",
+        "type":  "Tang level",
+        "desc":  "DaoSi1 -\u003e level 90",
+        "status":  "OK",
+        "detail":  "2026-10-04 20:14:01 DaoSi1 level=90"
+    },
+    {
+        "id":  "c10041940058",
+        "time":  "2026-10-04 19:40:05",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Tat het bot",
+        "status":  "OK",
+        "detail":  "2026-10-04 19:41:01 bot dang song: 0 / 0"
+    },
+    {
+        "id":  "c10041939587",
+        "time":  "2026-10-04 19:39:58",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Tat het bot",
+        "status":  "OK",
+        "detail":  "2026-10-04 19:40:01 bot dang song: 0 / 0"
+    },
+    {
+        "id":  "c10041934316",
+        "time":  "2026-10-04 19:34:31",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Lenh Bai Chien Truong Thuong Chu x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 19:35:01 1111111111 +1"
+    },
+    {
+        "id":  "c10041934305",
+        "time":  "2026-10-04 19:34:30",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Lenh Bai Van Tien Tran x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 19:35:01 1111111111 +1"
+    },
+    {
+        "id":  "c10041934284",
+        "time":  "2026-10-04 19:34:28",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Lenh Bai Nhiem Vu x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 19:35:01 1111111111 +1"
+    },
+    {
+        "id":  "c10041934253",
+        "time":  "2026-10-04 19:34:25",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Lenh Bai Luyen Cong x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 19:35:01 1111111111 +1"
+    },
+    {
+        "id":  "c10041934242",
+        "time":  "2026-10-04 19:34:24",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Lenh Bai Boss The Gioi x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 19:35:01 1111111111 +1"
+    },
+    {
+        "id":  "c10041932461",
+        "time":  "2026-10-04 19:32:46",
+        "type":  "Mat do \u0026 hoi quai",
+        "desc":  "Mat do x3, hoi 5 giay, moi ban do co quai",
+        "status":  "OK",
+        "detail":  "2026-10-04 19:33:01 x3, hoi 5s (0 = Npcs.txt), 1=tat ca ban do; cau hinh file; them 0, xoa 0, quai them 0, NPC 13971/44000, dat hoi 0 quai (xong) - cho quai goc sinh xong"
+    },
+    {
+        "id":  "c100417170824",
+        "time":  "2026-10-04 17:17:08",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Kháng Long kết x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:18:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417170823",
+        "time":  "2026-10-04 17:17:08",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Kháng Long Yêu Đái x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:18:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417170822",
+        "time":  "2026-10-04 17:17:08",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Kháng Long Ngoa x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:18:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417170821",
+        "time":  "2026-10-04 17:17:08",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Kháng Long Trụ x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:18:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417170720",
+        "time":  "2026-10-04 17:17:07",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Kháng Long Hộ Giáp x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:18:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417164219",
+        "time":  "2026-10-04 17:16:42",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Hỗn Thiên Bàn Long Phủ x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:17:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417162118",
+        "time":  "2026-10-04 17:16:21",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Lục Hồn Phiên *DN x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:17:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417161917",
+        "time":  "2026-10-04 17:16:19",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Huyền Thiên Nghịch Châu *Lôi x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:17:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417160916",
+        "time":  "2026-10-04 17:16:09",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Bạch Liên Pháp khí x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:17:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417160515",
+        "time":  "2026-10-04 17:16:05",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Thất Bảo Kim LiênDị Nhân x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:17:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417160114",
+        "time":  "2026-10-04 17:16:01",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Pháp Bảo Xuân 2019 x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:17:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417155413",
+        "time":  "2026-10-04 17:15:54",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Phi Tuyết Xuyên Vân Hồ Điệp x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:16:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417155212",
+        "time":  "2026-10-04 17:15:52",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Bạch Kim Nghịch Thiên-Phong Lôi Song Dực  x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:16:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417155111",
+        "time":  "2026-10-04 17:15:51",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Nghịch Lôi x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:16:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100417154910",
+        "time":  "2026-10-04 17:15:49",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Tinh Quân - Phi Xuyên Hồ Điệp Cấp 10 x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:16:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10041715479",
+        "time":  "2026-10-04 17:15:47",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Tinh Quân Diệt Thần Phủ Cấp 10 (+12) x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 17:16:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10041629338",
+        "time":  "2026-10-04 16:29:33",
+        "type":  "Tang level",
+        "desc":  "KyUc1Thoi -\u003e level 120",
+        "status":  "OK",
+        "detail":  "2026-10-04 16:30:01 KyUc1Thoi level=120"
+    },
+    {
+        "id":  "c10041627127",
+        "time":  "2026-10-04 16:27:12",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Kỹ Năng Quyển (Dị Nhân)  x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 16:28:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10041627076",
+        "time":  "2026-10-04 16:27:07",
+        "type":  "Bi kip / ky nang",
+        "desc":  "KyUc1Thoi \u003c- 21 ky nang Di Nhan cap 10",
+        "status":  "OK",
+        "detail":  "2026-10-04 16:28:01 KyUc1Thoi skills=21 lv=10"
+    },
+    {
+        "id":  "c10041626165",
+        "time":  "2026-10-04 16:26:16",
+        "type":  "Tang level",
+        "desc":  "KyUc1Thoi -\u003e level 90",
+        "status":  "OK",
+        "detail":  "2026-10-04 16:27:01 KyUc1Thoi level=90"
+    },
+    {
+        "id":  "c10041601404",
+        "time":  "2026-10-04 16:01:40",
+        "type":  "Van Tien tran",
+        "desc":  "Mo Van Tien tran 1 (Tho)",
+        "status":  "OK",
+        "detail":  "2026-10-04 16:02:01 da mo tran 1 (Tho), 5 phut chuan bi"
+    },
+    {
+        "id":  "c10041542153",
+        "time":  "2026-10-04 15:42:15",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Bot: tu do 40 (theo nguoi choi), 0 dia diem, tong 40; to doi bot 7 x 50%",
+        "status":  "OK",
+        "detail":  "2026-10-04 15:43:01 bot dang song: 40 / 40"
+    },
+    {
+        "id":  "c10041525432",
+        "time":  "2026-10-04 15:25:43",
+        "type":  "Van Tien tran",
+        "desc":  "Mo Van Tien tran 1 (Tho)",
+        "status":  "OK",
+        "detail":  "2026-10-04 15:26:01 da mo tran 1 (Tho), 5 phut chuan bi"
+    },
+    {
+        "id":  "c10041458251",
+        "time":  "2026-10-04 14:58:25",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Lenh Bai Luyen Cong x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:59:02 1111111111 +1"
+    },
+    {
+        "id":  "c100414230015",
+        "time":  "2026-10-04 14:23:00",
+        "type":  "Bi kip / ky nang",
+        "desc":  "KyUc1Thoi \u003c- 4 ky nang Di Nhan cap 10",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:24:00 KyUc1Thoi skills=4 lv=10"
+    },
+    {
+        "id":  "c100414150414",
+        "time":  "2026-10-04 14:15:04",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Tat het bot",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:16:00 bot dang song: 0 / 0"
+    },
+    {
+        "id":  "c100414145613",
+        "time":  "2026-10-04 14:14:56",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Tat het bot",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:15:00 bot dang song: 0 / 0"
+    },
+    {
+        "id":  "c100414132112",
+        "time":  "2026-10-04 14:13:21",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Phi Tuyết Xuyên Vân Hồ Điệp x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:14:00 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100414124511",
+        "time":  "2026-10-04 14:12:45",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Lạc Hồn phủ x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:13:00 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100414123810",
+        "time":  "2026-10-04 14:12:38",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Báo Thần kết x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:13:00 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10041412389",
+        "time":  "2026-10-04 14:12:38",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Báo Thần Yêu Đái x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:13:00 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10041412388",
+        "time":  "2026-10-04 14:12:38",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Báo Thần Ngoa x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:13:00 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10041412387",
+        "time":  "2026-10-04 14:12:38",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Báo Thần Trụ x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:13:00 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10041412386",
+        "time":  "2026-10-04 14:12:38",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Báo Thần Hộ Giáp x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:13:00 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10041412275",
+        "time":  "2026-10-04 14:12:27",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Không Linh Hồ điệp x1",
+        "status":  "OK",
+        "detail":  "2026-10-04 14:13:00 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10032055464",
+        "time":  "2026-10-03 20:55:46",
+        "type":  "Bi kip / ky nang",
+        "desc":  "KyUc1Thoi \u003c- 2 ky nang Di Nhan cap 10",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:56:01 KyUc1Thoi skills=2 lv=10"
+    },
+    {
+        "id":  "c10032052583",
+        "time":  "2026-10-03 20:52:58",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Lenh Bai Luyen Cong x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:53:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10032050342",
+        "time":  "2026-10-03 20:50:34",
+        "type":  "Ruong mo rong",
+        "desc":  "KyUc1Thoi mo den ruong 6 (offline, file ruong 1 -\u003e 6)",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:51:01 KyUc1Thoi online: ruong mo rong 4 -\u003e 5 (mo den ruong 6)"
+    },
+    {
+        "id":  "c10032050301",
+        "time":  "2026-10-03 20:50:30",
+        "type":  "Ruong mo rong",
+        "desc":  "KyUc1Thoi mo den ruong 5 (offline, file ruong 1 -\u003e 5)",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:51:01 KyUc1Thoi online: ruong mo rong 0 -\u003e 4 (mo den ruong 5)"
+    },
+    {
+        "id":  "c100320405016",
+        "time":  "2026-10-03 20:40:50",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Bot: tu do 40 (di dao), 0 dia diem, tong 40; to doi bot 7 x 50%",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:41:00 bot dang song: 40 / 40"
+    },
+    {
+        "id":  "c100320353215",
+        "time":  "2026-10-03 20:35:32",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Bot: tu do 40 (theo nguoi choi), 0 dia diem, tong 40; to doi bot 7 x 50%",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:36:00 bot dang song: 40 / 40"
+    },
+    {
+        "id":  "c100320351214",
+        "time":  "2026-10-03 20:35:12",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Bot: tu do 40 (theo nguoi choi), 0 dia diem, tong 40; to doi bot 4 x 15%",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:36:00 bot dang song: 40 / 40"
+    },
+    {
+        "id":  "c100320314513",
+        "time":  "2026-10-03 20:31:45",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Bot: tu do 40 (di dao), 0 dia diem, tong 40; tat to doi bot",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:32:00 bot dang song: 40 / 40"
+    },
+    {
+        "id":  "c100320305112",
+        "time":  "2026-10-03 20:30:51",
+        "type":  "Bot gia nguoi choi",
+        "desc":  "Bot: tu do 40 (theo nguoi choi), 0 dia diem, tong 40; tat to doi bot",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:31:00 bot dang song: 40 / 40"
+    },
+    {
+        "id":  "c100320261311",
+        "time":  "2026-10-03 20:26:13",
+        "type":  "Nguyen lieu ep sach",
+        "desc":  "KyUc1Thoi \u003c- bo 3 lan ep: Bach Khong Thu x6, Lam Khong Thu x6, Hong Khong Thu x6, Hoang Khong Thu x3, Manh Hong Thuy Tinh x3, Hong Thuy Tinh x3, Hong Bao Thach x12",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:27:00 KyUc1Thoi +39"
+    },
+    {
+        "id":  "c100320253910",
+        "time":  "2026-10-03 20:25:39",
+        "type":  "Nguyen lieu ep sach",
+        "desc":  "KyUc1Thoi \u003c- bo 3 lan ep: Hong Khong Thu x6, Hoang Khong Thu x3, Hong Bao Thach x12",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:26:00 KyUc1Thoi +21"
+    },
+    {
+        "id":  "c10032022129",
+        "time":  "2026-10-03 20:22:12",
+        "type":  "Nguyen lieu ep sach",
+        "desc":  "KyUc1Thoi \u003c- Hong Thuy Tinh x10",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:23:00 KyUc1Thoi +10"
+    },
+    {
+        "id":  "c10032019308",
+        "time":  "2026-10-03 20:19:30",
+        "type":  "Nguyen lieu ep sach",
+        "desc":  "KyUc1Thoi \u003c- Manh Hong Thuy Tinh x10, Hong Thuy Tinh x50, Hong Bao Thach x10",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:20:00 KyUc1Thoi +70"
+    },
+    {
+        "id":  "c10032007427",
+        "time":  "2026-10-03 20:07:42",
+        "type":  "Nguyen lieu ep sach",
+        "desc":  "KyUc1Thoi \u003c- bo 10 lan ep: Bach Khong Thu x20, Lam Khong Thu x20, Hong Khong Thu x20, Hoang Khong Thu x10, Manh Hong Thuy Tinh x10, Hong Thuy Tinh x10, Hong Bao Thach x40",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:08:01 KyUc1Thoi +130"
+    },
+    {
+        "id":  "c10032004426",
+        "time":  "2026-10-03 20:04:42",
+        "type":  "Nguyen lieu ep sach",
+        "desc":  "KyUc1Thoi \u003c- bo 10 lan ep: Bach Khong Thu x20, Lam Khong Thu x20, Hong Khong Thu x20, Hoang Khong Thu x10, Manh Hong Thuy Tinh x10, Hong Thuy Tinh x10, Hong Bao Thach x40",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:05:01 KyUc1Thoi +130"
+    },
+    {
+        "id":  "c10032004385",
+        "time":  "2026-10-03 20:04:38",
+        "type":  "Nguyen lieu ep sach",
+        "desc":  "KyUc1Thoi \u003c- Manh Hong Thuy Tinh x50, Hong Thuy Tinh x50, Hong Bao Thach x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:05:01 KyUc1Thoi +150"
+    },
+    {
+        "id":  "c10032003144",
+        "time":  "2026-10-03 20:03:14",
+        "type":  "Bi kip he phai",
+        "desc":  "KyUc1Thoi \u003c- bi kip 452 x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:04:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10032003093",
+        "time":  "2026-10-03 20:03:09",
+        "type":  "Bi kip he phai",
+        "desc":  "KyUc1Thoi \u003c- bi kip 451 x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 20:04:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10032002492",
+        "time":  "2026-10-03 20:02:49",
+        "type":  "Nguyen lieu ep sach",
+        "desc":  "KyUc1Thoi \u003c- bo 10 lan ep: Bach Khong Thu x20, Lam Khong Thu x20, Hong Khong Thu x20, Hoang Khong Thu x10, Manh Hong Thuy Tinh x10, Hong Thuy Tinh x10, Hong Bao Thach x40",
+        "status":  "FAIL",
+        "detail":  "2026-10-03 20:03:01 offline KyUc1Thoi"
+    },
+    {
+        "id":  "c10032002391",
+        "time":  "2026-10-03 20:02:39",
+        "type":  "Nguyen lieu ep sach",
+        "desc":  "KyUc1Thoi \u003c- Manh Hong Thuy Tinh x50, Hong Thuy Tinh x50, Hong Bao Thach x50",
+        "status":  "FAIL",
+        "detail":  "2026-10-03 20:03:01 offline KyUc1Thoi"
+    },
+    {
+        "id":  "c100319583044",
+        "time":  "2026-10-03 19:58:30",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Kỹ Năng Quyển (Dị Nhân)  x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:59:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100319445543",
+        "time":  "2026-10-03 19:44:55",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Kỹ Năng Quyển (Dị Nhân)  x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:45:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100319440942",
+        "time":  "2026-10-03 19:44:09",
+        "type":  "Bi kip / ky nang",
+        "desc":  "KyUc1Thoi \u003c- 9 ky nang Di Nhan cap 10",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:45:01 KyUc1Thoi skills=9 lv=10"
+    },
+    {
+        "id":  "c100319383341",
+        "time":  "2026-10-03 19:38:33",
+        "type":  "Van Tien tran",
+        "desc":  "Mo Van Tien tran 1 (Tho)",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:39:01 da mo tran 1 (Tho), 5 phut chuan bi"
+    },
+    {
+        "id":  "c100319382340",
+        "time":  "2026-10-03 19:38:23",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Độ Thế phủ x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:39:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100319380839",
+        "time":  "2026-10-03 19:38:08",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Hoàng Vân Hồ điệp x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:39:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100319375638",
+        "time":  "2026-10-03 19:37:56",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375537",
+        "time":  "2026-10-03 19:37:55",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375536",
+        "time":  "2026-10-03 19:37:55",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375535",
+        "time":  "2026-10-03 19:37:55",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375534",
+        "time":  "2026-10-03 19:37:55",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375533",
+        "time":  "2026-10-03 19:37:55",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375532",
+        "time":  "2026-10-03 19:37:55",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375431",
+        "time":  "2026-10-03 19:37:54",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375430",
+        "time":  "2026-10-03 19:37:54",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375429",
+        "time":  "2026-10-03 19:37:54",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375428",
+        "time":  "2026-10-03 19:37:54",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319375427",
+        "time":  "2026-10-03 19:37:54",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +100000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi money+100000000"
+    },
+    {
+        "id":  "c100319374926",
+        "time":  "2026-10-03 19:37:49",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=120000"
+    },
+    {
+        "id":  "c100319374925",
+        "time":  "2026-10-03 19:37:49",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=110000"
+    },
+    {
+        "id":  "c100319374924",
+        "time":  "2026-10-03 19:37:49",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=100000"
+    },
+    {
+        "id":  "c100319374923",
+        "time":  "2026-10-03 19:37:49",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=90000"
+    },
+    {
+        "id":  "c100319374922",
+        "time":  "2026-10-03 19:37:49",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=80000"
+    },
+    {
+        "id":  "c100319374821",
+        "time":  "2026-10-03 19:37:48",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=70000"
+    },
+    {
+        "id":  "c100319374820",
+        "time":  "2026-10-03 19:37:48",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c100319374719",
+        "time":  "2026-10-03 19:37:47",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c100319374718",
+        "time":  "2026-10-03 19:37:47",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c100319374717",
+        "time":  "2026-10-03 19:37:47",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c100319374716",
+        "time":  "2026-10-03 19:37:47",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c100319374715",
+        "time":  "2026-10-03 19:37:47",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c100319374714",
+        "time":  "2026-10-03 19:37:47",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c100319374613",
+        "time":  "2026-10-03 19:37:46",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c100319374612",
+        "time":  "2026-10-03 19:37:46",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c100319374611",
+        "time":  "2026-10-03 19:37:46",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c100319374610",
+        "time":  "2026-10-03 19:37:46",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c10031937469",
+        "time":  "2026-10-03 19:37:46",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c10031937458",
+        "time":  "2026-10-03 19:37:45",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c10031937417",
+        "time":  "2026-10-03 19:37:41",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=60000"
+    },
+    {
+        "id":  "c10031937416",
+        "time":  "2026-10-03 19:37:41",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=50000"
+    },
+    {
+        "id":  "c10031937415",
+        "time":  "2026-10-03 19:37:41",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=40000"
+    },
+    {
+        "id":  "c10031937414",
+        "time":  "2026-10-03 19:37:41",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=30000"
+    },
+    {
+        "id":  "c10031937403",
+        "time":  "2026-10-03 19:37:40",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=20000"
+    },
+    {
+        "id":  "c10031937392",
+        "time":  "2026-10-03 19:37:39",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi coin+10000 now=10000"
+    },
+    {
+        "id":  "c10031937291",
+        "time":  "2026-10-03 19:37:29",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Lenh Bai Huy Do x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 19:38:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100314380926",
+        "time":  "2026-10-03 14:38:09",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Lenh Bai Trieu Hoi x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:39:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100314380225",
+        "time":  "2026-10-03 14:38:02",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Kỹ Năng Quyển (Dị Nhân)  x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:39:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c100314360024",
+        "time":  "2026-10-03 14:36:00",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314360023",
+        "time":  "2026-10-03 14:36:00",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314360022",
+        "time":  "2026-10-03 14:36:00",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314360021",
+        "time":  "2026-10-03 14:36:00",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355920",
+        "time":  "2026-10-03 14:35:59",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355919",
+        "time":  "2026-10-03 14:35:59",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355918",
+        "time":  "2026-10-03 14:35:59",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355917",
+        "time":  "2026-10-03 14:35:59",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355916",
+        "time":  "2026-10-03 14:35:59",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355815",
+        "time":  "2026-10-03 14:35:58",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355814",
+        "time":  "2026-10-03 14:35:58",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355813",
+        "time":  "2026-10-03 14:35:58",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355812",
+        "time":  "2026-10-03 14:35:58",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355711",
+        "time":  "2026-10-03 14:35:57",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c100314355710",
+        "time":  "2026-10-03 14:35:57",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c10031435579",
+        "time":  "2026-10-03 14:35:57",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c10031435578",
+        "time":  "2026-10-03 14:35:57",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c10031435567",
+        "time":  "2026-10-03 14:35:56",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c10031435566",
+        "time":  "2026-10-03 14:35:56",
+        "type":  "Tang tien",
+        "desc":  "KyUc1Thoi +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi money+1000000000"
+    },
+    {
+        "id":  "c10031435505",
+        "time":  "2026-10-03 14:35:50",
+        "type":  "Tang tien dong",
+        "desc":  "KyUc1Thoi +10000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi coin+10000 now=10000"
+    },
+    {
+        "id":  "c10031435484",
+        "time":  "2026-10-03 14:35:48",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi +50"
+    },
+    {
+        "id":  "c10031435363",
+        "time":  "2026-10-03 14:35:36",
+        "type":  "Diem thuoc tinh",
+        "desc":  "KyUc1Thoi +suc manh 5000, than phap 5000, sinh khi 5000, noi cong 5000, tiem nang 0",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:36:01 KyUc1Thoi str=5006 dex=5004 vit=5005 eng=5005 free=0 AR=19988"
+    },
+    {
+        "id":  "c10031434542",
+        "time":  "2026-10-03 14:34:54",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Lenh Bai Boss The Gioi x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:35:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10031434521",
+        "time":  "2026-10-03 14:34:52",
+        "type":  "Phat do",
+        "desc":  "KyUc1Thoi \u003c- Lenh Bai Huy Do x1",
+        "status":  "OK",
+        "detail":  "2026-10-03 14:35:01 KyUc1Thoi +1"
+    },
+    {
+        "id":  "c10022052471",
+        "time":  "2026-10-02 20:52:47",
+        "type":  "Phat do",
+        "desc":  "EmlaAi1 \u003c- Lenh Bai Huy Do x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 20:53:01 EmlaAi1 +1"
+    },
+    {
+        "id":  "c10022038102",
+        "time":  "2026-10-02 20:38:10",
+        "type":  "Phat do",
+        "desc":  "EmlaAi1 \u003c- Thượng Cổ Tinh Quân - Phi Xuyên Hồ Điệp Cấp 6 x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 20:39:01 EmlaAi1 +1"
+    },
+    {
+        "id":  "c10022037491",
+        "time":  "2026-10-02 20:37:49",
+        "type":  "Phat do",
+        "desc":  "EmlaAi1 \u003c- Thú Sinh Nhật Phong Thần 19 x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 20:38:01 EmlaAi1 +1"
+    },
+    {
+        "id":  "c10021019271",
+        "time":  "2026-10-02 10:19:27",
+        "type":  "Diem thuoc tinh",
+        "desc":  "EmlaAi1 +suc manh 5000, than phap 5000, sinh khi 5000, noi cong 5000, tiem nang 10000",
+        "status":  "OK",
+        "detail":  "2026-10-02 10:20:01 EmlaAi1 str=5006 dex=5004 vit=5005 eng=5005 free=10995 AR=19988"
+    },
+    {
+        "id":  "c10020849581",
+        "time":  "2026-10-02 08:49:58",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Lenh Bai Boss The Gioi x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:50:00 1111111111 +1"
+    },
+    {
+        "id":  "c100208372915",
+        "time":  "2026-10-02 08:37:29",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Lenh Bai Boss The Gioi x1",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c100208350414",
+        "time":  "2026-10-02 08:35:04",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Hồng Quân Khai Thiên ấn x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:36:00 1111111111 +1"
+    },
+    {
+        "id":  "c100208345013",
+        "time":  "2026-10-02 08:34:50",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Thanh Liên Pháp Khí (Tiên) x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:35:00 1111111111 +1"
+    },
+    {
+        "id":  "c100208343412",
+        "time":  "2026-10-02 08:34:34",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Pháp bảo Thất Trần Trai (khóa) x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:35:00 1111111111 +1"
+    },
+    {
+        "id":  "c100208343411",
+        "time":  "2026-10-02 08:34:34",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Pháp bảo Thất Trần Trai (có hạn) x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:35:00 1111111111 +1"
+    },
+    {
+        "id":  "c100208343310",
+        "time":  "2026-10-02 08:34:33",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Huyền Thiên Tam Sinh Thạch x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:35:00 1111111111 +1"
+    },
+    {
+        "id":  "c10020834299",
+        "time":  "2026-10-02 08:34:29",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- VinaGame x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:35:00 1111111111 +1"
+    },
+    {
+        "id":  "c10020834058",
+        "time":  "2026-10-02 08:34:05",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Cự Đấu phi phong x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:35:00 1111111111 +1"
+    },
+    {
+        "id":  "c10020834057",
+        "time":  "2026-10-02 08:34:05",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Cự Đấu Yêu Đái x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:35:00 1111111111 +1"
+    },
+    {
+        "id":  "c10020834056",
+        "time":  "2026-10-02 08:34:05",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Cự Đấu Chiến Ngoa x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:35:00 1111111111 +1"
+    },
+    {
+        "id":  "c10020834055",
+        "time":  "2026-10-02 08:34:05",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Cự Đấu Khôi x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:35:00 1111111111 +1"
+    },
+    {
+        "id":  "c10020834054",
+        "time":  "2026-10-02 08:34:05",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Cự Đấu Giáp x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:35:00 1111111111 +1"
+    },
+    {
+        "id":  "c10020833503",
+        "time":  "2026-10-02 08:33:50",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Xích Thố Mã x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:34:00 1111111111 +1"
+    },
+    {
+        "id":  "c10020831242",
+        "time":  "2026-10-02 08:31:24",
+        "type":  "Diem thuoc tinh",
+        "desc":  "EmLaAi2 +suc manh 1000, than phap 1000, sinh khi 1000, noi cong 1000, tiem nang 0",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:32:00 EmLaAi2 str=1005 dex=1003 vit=1005 eng=1007 free=95 AR=3984"
+    },
+    {
+        "id":  "c10020831111",
+        "time":  "2026-10-02 08:31:11",
+        "type":  "Diem thuoc tinh",
+        "desc":  "1111111111 +suc manh 1000, than phap 1000, sinh khi 1000, noi cong 1000, tiem nang 0",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:32:00 1111111111 str=1007 dex=1004 vit=1006 eng=1003 free=95 AR=3988"
+    },
+    {
+        "id":  "c100208280834",
+        "time":  "2026-10-02 08:28:08",
+        "type":  "Tang kinh nghiem",
+        "desc":  "1111111111 +1000000 exp",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c100208280833",
+        "time":  "2026-10-02 08:28:08",
+        "type":  "Tang kinh nghiem",
+        "desc":  "1111111111 +1000000 exp",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c100208280732",
+        "time":  "2026-10-02 08:28:08",
+        "type":  "Tang kinh nghiem",
+        "desc":  "1111111111 +1000000 exp",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c100208280731",
+        "time":  "2026-10-02 08:28:07",
+        "type":  "Tang kinh nghiem",
+        "desc":  "1111111111 +1000000 exp",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c100208280730",
+        "time":  "2026-10-02 08:28:07",
+        "type":  "Tang kinh nghiem",
+        "desc":  "1111111111 +1000000 exp",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c100208272829",
+        "time":  "2026-10-02 08:27:28",
+        "type":  "Tang level",
+        "desc":  "1111111111 -\u003e level 20",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:28:00 1111111111 level=20"
+    },
+    {
+        "id":  "c100208265228",
+        "time":  "2026-10-02 08:26:52",
+        "type":  "Bi kip / ky nang",
+        "desc":  "1111111111 \u003c- 16 ky nang Giap Si cap 10",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 skills=16 lv=10"
+    },
+    {
+        "id":  "c100208262527",
+        "time":  "2026-10-02 08:26:25",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Hóa Huyết đao x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 +1"
+    },
+    {
+        "id":  "c100208261326",
+        "time":  "2026-10-02 08:26:13",
+        "type":  "Tang tien",
+        "desc":  "1111111111 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 money+1000000000"
+    },
+    {
+        "id":  "c100208261325",
+        "time":  "2026-10-02 08:26:13",
+        "type":  "Tang tien",
+        "desc":  "1111111111 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 money+1000000000"
+    },
+    {
+        "id":  "c100208261224",
+        "time":  "2026-10-02 08:26:12",
+        "type":  "Tang tien",
+        "desc":  "1111111111 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 money+1000000000"
+    },
+    {
+        "id":  "c100208261223",
+        "time":  "2026-10-02 08:26:12",
+        "type":  "Tang tien",
+        "desc":  "1111111111 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 money+1000000000"
+    },
+    {
+        "id":  "c100208261222",
+        "time":  "2026-10-02 08:26:12",
+        "type":  "Tang tien",
+        "desc":  "1111111111 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 money+1000000000"
+    },
+    {
+        "id":  "c100208261221",
+        "time":  "2026-10-02 08:26:12",
+        "type":  "Tang tien",
+        "desc":  "1111111111 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 money+1000000000"
+    },
+    {
+        "id":  "c100208261220",
+        "time":  "2026-10-02 08:26:12",
+        "type":  "Tang tien",
+        "desc":  "1111111111 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 money+1000000000"
+    },
+    {
+        "id":  "c100208261119",
+        "time":  "2026-10-02 08:26:11",
+        "type":  "Tang tien",
+        "desc":  "1111111111 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 money+1000000000"
+    },
+    {
+        "id":  "c100208261118",
+        "time":  "2026-10-02 08:26:11",
+        "type":  "Tang tien",
+        "desc":  "1111111111 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 money+1000000000"
+    },
+    {
+        "id":  "c100208261117",
+        "time":  "2026-10-02 08:26:11",
+        "type":  "Tang tien",
+        "desc":  "1111111111 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 money+1000000000"
+    },
+    {
+        "id":  "c100208260816",
+        "time":  "2026-10-02 08:26:08",
+        "type":  "Tang tien dong",
+        "desc":  "1111111111 +1000000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 coin+1000000 now=4000000"
+    },
+    {
+        "id":  "c100208260815",
+        "time":  "2026-10-02 08:26:08",
+        "type":  "Tang tien dong",
+        "desc":  "1111111111 +1000000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 coin+1000000 now=3000000"
+    },
+    {
+        "id":  "c100208260814",
+        "time":  "2026-10-02 08:26:08",
+        "type":  "Tang tien dong",
+        "desc":  "1111111111 +1000000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 coin+1000000 now=2000000"
+    },
+    {
+        "id":  "c100208260713",
+        "time":  "2026-10-02 08:26:07",
+        "type":  "Tang tien dong",
+        "desc":  "1111111111 +1000000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 coin+1000000 now=1000000"
+    },
+    {
+        "id":  "c100208260412",
+        "time":  "2026-10-02 08:26:04",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 +50"
+    },
+    {
+        "id":  "c100208260411",
+        "time":  "2026-10-02 08:26:04",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 +50"
+    },
+    {
+        "id":  "c100208260410",
+        "time":  "2026-10-02 08:26:04",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 +50"
+    },
+    {
+        "id":  "c10020826019",
+        "time":  "2026-10-02 08:26:01",
+        "type":  "Phat do",
+        "desc":  "1111111111 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:27:00 1111111111 +50"
+    },
+    {
+        "id":  "c10020814228",
+        "time":  "2026-10-02 08:14:22",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Vân Trung Tước x1",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c10020811307",
+        "time":  "2026-10-02 08:11:30",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Vân Trung Tước x1",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c10020808246",
+        "time":  "2026-10-02 08:08:24",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- VinaGame x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:09:01 EmLaAi2 +1"
+    },
+    {
+        "id":  "c10020808215",
+        "time":  "2026-10-02 08:08:21",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Hỏa Long Tiêu x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:09:01 EmLaAi2 +1"
+    },
+    {
+        "id":  "c10020808194",
+        "time":  "2026-10-02 08:08:19",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Ngũ Quang thạch x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:09:01 EmLaAi2 +1"
+    },
+    {
+        "id":  "c10020807253",
+        "time":  "2026-10-02 08:07:25",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Lenh Bai Boss The Gioi x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:08:01 EmLaAi2 +1"
+    },
+    {
+        "id":  "c10020807182",
+        "time":  "2026-10-02 08:07:18",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Diệt Diệm kiếm x1",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:08:01 EmLaAi2 +1"
+    },
+    {
+        "id":  "c10020806491",
+        "time":  "2026-10-02 08:06:49",
+        "type":  "Tang level",
+        "desc":  "EmLaAi2 -\u003e level 20",
+        "status":  "OK",
+        "detail":  "2026-10-02 08:07:01 EmLaAi2 level=20"
+    },
+    {
+        "id":  "c100120515393",
+        "time":  "2026-10-01 20:51:53",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Diệt Diệm kiếm x1",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c100120514892",
+        "time":  "2026-10-01 20:51:48",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Tích Lịch kiếm x1",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c100120512191",
+        "time":  "2026-10-01 20:51:21",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Vân Trung Tước x1",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c100120494590",
+        "time":  "2026-10-01 20:49:45",
+        "type":  "Tang level",
+        "desc":  "EmLaAi2 -\u003e level 20",
+        "status":  "PENDING",
+        "detail":  "Cho server xu ly (toi da ~60 giay)"
+    },
+    {
+        "id":  "c100120463389",
+        "time":  "2026-10-01 20:46:33",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Vân Trung lệnh x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:47:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120463388",
+        "time":  "2026-10-01 20:46:33",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Vân Trung Cân x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:47:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120463387",
+        "time":  "2026-10-01 20:46:33",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Vân Trung Lý x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:47:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120463386",
+        "time":  "2026-10-01 20:46:33",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Vân Trung Quán x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:47:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120463385",
+        "time":  "2026-10-01 20:46:33",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Vân Trung Đạo Bào x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:47:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120454384",
+        "time":  "2026-10-01 20:45:43",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Minh Quang lệnh x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:46:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120454383",
+        "time":  "2026-10-01 20:45:43",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Minh Quang Cân x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:46:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120454382",
+        "time":  "2026-10-01 20:45:43",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Minh Quang Lý x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:46:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120454381",
+        "time":  "2026-10-01 20:45:43",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Minh Quang Quán x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:46:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120454380",
+        "time":  "2026-10-01 20:45:43",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Minh Quang Đạo bào x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:46:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120440879",
+        "time":  "2026-10-01 20:44:08",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Minh Quang lệnh x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:45:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120440878",
+        "time":  "2026-10-01 20:44:08",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Minh Quang Cân x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:45:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120440877",
+        "time":  "2026-10-01 20:44:08",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Minh Quang Lý x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:45:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120440876",
+        "time":  "2026-10-01 20:44:08",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Minh Quang Quán x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:45:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120440875",
+        "time":  "2026-10-01 20:44:08",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Minh Quang Đạo bào x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:45:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120424874",
+        "time":  "2026-10-01 20:42:48",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Hư Nghi Lệnh x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:43:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120424873",
+        "time":  "2026-10-01 20:42:48",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Hư Nghi Cân x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:43:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120424872",
+        "time":  "2026-10-01 20:42:48",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Hư Nghi Lý x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:43:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120424871",
+        "time":  "2026-10-01 20:42:48",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Hư Nghi quán x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:43:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120424870",
+        "time":  "2026-10-01 20:42:48",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Hư Nghi Đạo bào x1",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:43:00 EmLaAi2 +1"
+    },
+    {
+        "id":  "c100120401969",
+        "time":  "2026-10-01 20:40:19",
+        "type":  "Tang tien dong",
+        "desc":  "EmLaAi2 +100000 tien dong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:41:00 EmLaAi2 coin+100000 now=110000"
+    },
+    {
+        "id":  "c100120401568",
+        "time":  "2026-10-01 20:40:15",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:41:00 EmLaAi2 +50"
+    },
+    {
+        "id":  "c100120401567",
+        "time":  "2026-10-01 20:40:15",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:41:00 EmLaAi2 +50"
+    },
+    {
+        "id":  "c100120401466",
+        "time":  "2026-10-01 20:40:14",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:41:00 EmLaAi2 +50"
+    },
+    {
+        "id":  "c100120401465",
+        "time":  "2026-10-01 20:40:14",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:41:00 EmLaAi2 +50"
+    },
+    {
+        "id":  "c100120401064",
+        "time":  "2026-10-01 20:40:10",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:41:00 EmLaAi2 +50"
+    },
+    {
+        "id":  "c100120400963",
+        "time":  "2026-10-01 20:40:09",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:41:00 EmLaAi2 +50"
+    },
+    {
+        "id":  "c100120391362",
+        "time":  "2026-10-01 20:39:13",
+        "type":  "Bi kip / ky nang",
+        "desc":  "EmLaAi2 \u003c- 24 ky nang Dao Si cap 10",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 skills=24 lv=10"
+    },
+    {
+        "id":  "c100120390561",
+        "time":  "2026-10-01 20:39:05",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390560",
+        "time":  "2026-10-01 20:39:05",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390459",
+        "time":  "2026-10-01 20:39:04",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390458",
+        "time":  "2026-10-01 20:39:04",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390457",
+        "time":  "2026-10-01 20:39:04",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390456",
+        "time":  "2026-10-01 20:39:04",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390455",
+        "time":  "2026-10-01 20:39:04",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390354",
+        "time":  "2026-10-01 20:39:03",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390353",
+        "time":  "2026-10-01 20:39:03",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390352",
+        "time":  "2026-10-01 20:39:03",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390351",
+        "time":  "2026-10-01 20:39:03",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390250",
+        "time":  "2026-10-01 20:39:02",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390249",
+        "time":  "2026-10-01 20:39:02",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390248",
+        "time":  "2026-10-01 20:39:02",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120390247",
+        "time":  "2026-10-01 20:39:02",
+        "type":  "Tang tien",
+        "desc":  "EmLaAi2 +1000000000 luong",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:40:00 EmLaAi2 money+1000000000"
+    },
+    {
+        "id":  "c100120385946",
+        "time":  "2026-10-01 20:38:59",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:39:00 EmLaAi2 +50"
+    },
+    {
+        "id":  "c100120385945",
+        "time":  "2026-10-01 20:38:59",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:39:00 EmLaAi2 +50"
+    },
+    {
+        "id":  "c100120385944",
+        "time":  "2026-10-01 20:38:59",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:39:00 EmLaAi2 +50"
+    },
+    {
+        "id":  "c100120385843",
+        "time":  "2026-10-01 20:38:58",
+        "type":  "Phat do",
+        "desc":  "EmLaAi2 \u003c- Xu x50",
+        "status":  "OK",
+        "detail":  "2026-10-01 20:39:00 EmLaAi2 +50"
+    },
+    {
+        "id":  "c100120373742",
+        "time":  "2026-10-01 20:37:37",
+        "type":  "Bi kip / ky nang",
+        "desc":  "EmlaAi2 \u003c- 24 ky nang Dao Si cap 10",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:38:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365841",
+        "time":  "2026-10-01 20:36:58",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365840",
+        "time":  "2026-10-01 20:36:58",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365839",
+        "time":  "2026-10-01 20:36:58",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365838",
+        "time":  "2026-10-01 20:36:58",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365737",
+        "time":  "2026-10-01 20:36:57",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365736",
+        "time":  "2026-10-01 20:36:57",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365735",
+        "time":  "2026-10-01 20:36:57",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365734",
+        "time":  "2026-10-01 20:36:57",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365633",
+        "time":  "2026-10-01 20:36:56",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365632",
+        "time":  "2026-10-01 20:36:56",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365631",
+        "time":  "2026-10-01 20:36:56",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365630",
+        "time":  "2026-10-01 20:36:56",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365629",
+        "time":  "2026-10-01 20:36:56",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365528",
+        "time":  "2026-10-01 20:36:55",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365527",
+        "time":  "2026-10-01 20:36:55",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365526",
+        "time":  "2026-10-01 20:36:55",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365525",
+        "time":  "2026-10-01 20:36:55",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365524",
+        "time":  "2026-10-01 20:36:55",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365423",
+        "time":  "2026-10-01 20:36:54",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365422",
+        "time":  "2026-10-01 20:36:54",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365421",
+        "time":  "2026-10-01 20:36:54",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365420",
+        "time":  "2026-10-01 20:36:54",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365419",
+        "time":  "2026-10-01 20:36:54",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365318",
+        "time":  "2026-10-01 20:36:53",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365317",
+        "time":  "2026-10-01 20:36:53",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    },
+    {
+        "id":  "c100120365316",
+        "time":  "2026-10-01 20:36:53",
+        "type":  "Tang tien",
+        "desc":  "EmlaAi2 +1000000000 luong",
+        "status":  "FAIL",
+        "detail":  "2026-10-01 20:37:00 offline EmlaAi2"
+    }
+]

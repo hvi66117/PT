@@ -1,0 +1,29 @@
+动作编号(注意，目前程序支持最大种类是20，超过的话必须通知程序修改)	动作名	资源文件
+1	1 升级	\spr\skill\补充\升级.spr
+2	2 重生	\spr\skill\补充\重生.spr
+3	3 组队	\spr\skill\补充\mag_spe_组队.spr
+4	4 登录	\spr\skill\补充\重生.spr
+5	5 死亡(主角)	\spr\skill\补充\怪重生.spr
+6	6 怪物重生	\spr\skill\补充\怪重生.spr
+7	7 召唤兽传送消失	\spr\skill\补充\怪重生.spr
+8	8 召唤兽出现	\spr\skill\补充\怪重生.spr
+9	9男甲死亡	\spr\skill\补充\die_ani2.spr
+10	10男道死亡	\spr\skill\补充\die_ani2.spr
+11	11男异死亡	\spr\skill\补充\die_ani2.spr
+12	12女甲死亡	\spr\skill\补充\die_ani2.spr
+13	13女道死亡	\spr\skill\补充\die_ani2.spr
+14	14女异死亡	\spr\skill\补充\die_ani2.spr
+15	15小怪死亡	\spr\skill\补充\die_ani2.spr
+16	16大怪死亡	\spr\skill\补充\die_ani2.spr
+17	17使用技能书	\spr\skill\补充\die_ani3.spr
+18	18技能升级	\spr\skill\补充\技能升级.spr
+19	19套装1	\spr\skill\补充\die_ani5.spr
+20	20套装2	\spr\skill\补充\die_ani6.spr
+21	6帧怪物影子	\spr\skill\补充\sd_ani6.spr
+22	7帧小怪影子	\spr\skill\补充\sd_ani7_3.spr
+23	7帧大怪影子	\spr\skill\补充\sd_ani7_3.spr
+24	7帧飞怪影子	\spr\skill\补充\sd_ani7_3.spr
+25	1帧国战影子	\spr\skill\补充\sd_human_1_1.spr
+26	5帧车影子	\spr\skill\补充\sd_human_5.spr
+27	7帧车影子	\spr\skill\补充\sd_human_7_2.spr
+28	宠物影子	\spr\skill\补充\sd_ani_1.spr

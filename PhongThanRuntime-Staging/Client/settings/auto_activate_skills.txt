@@ -1,0 +1,6 @@
+AutoActivateSkillId	Skill1	Skill1Interval	Skill2	Skill2Interval	Skill3	Skill3Interval	Skill4	Skill4Interval	Skill5	Skill5Interval	Skill6	Skill6Interval	Skill7	Skill7Interval	Skill8	Skill8Interval	Skill9	Skill9Interval	Skill10	Skill10Interval
+1	19	1490																		
+2	19	1490	22	1490																
+3	19	1490	22	1490	9	1490														
+4	19	1490	22	1490	9	1490	292	350												
+5	19	1490	22	1490	9	1490	292	350	407	350	288	350								

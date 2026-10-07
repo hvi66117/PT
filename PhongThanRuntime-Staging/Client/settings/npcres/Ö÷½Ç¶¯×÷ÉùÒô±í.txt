@@ -1,0 +1,31 @@
+动作名称	男甲士	女甲士	男术士	女术士	男异人	女异人
+休闲站立						
+休息坐						
+空手待击						
+单手待击						
+双手待击						
+空手跑步	run.wav	run.wav	run.wav	run.wav	run.wav	run.wav
+单手跑步	run.wav	run.wav	run.wav	run.wav	run.wav	run.wav
+双手跑步	run.wav	run.wav	run.wav	run.wav	run.wav	run.wav
+空手攻击	m_at.wav	f_at.wav	m_at.wav	f_at.wav	m_at.wav	f_at.wav
+单手攻击	m_at.wav	f_at.wav	m_at.wav	f_at.wav	m_at.wav	f_at.wav
+双手攻击	m_at.wav	f_at.wav	m_at.wav	f_at.wav	m_at.wav	f_at.wav
+空手受伤	m_bat.wav	f_bat.wav	m_bat.wav	f_bat.wav	m_bat.wav	f_bat.wav
+单手受伤	m_bat.wav	f_bat.wav	m_bat.wav	f_bat.wav	m_bat.wav	f_bat.wav
+双手受伤	m_bat.wav	f_bat.wav	m_bat.wav	f_bat.wav	m_bat.wav	f_bat.wav
+死亡	m_die.wav	f_die.wav	m_die.wav	f_die.wav	m_die.wav	f_die.wav
+奉上						
+骑马空手待击						
+骑马单手待击						
+骑马双手待击						
+骑马空手跑步	js_rr.wav	js_rr.wav	ss_rr.wav	ss_rr.wav	yr_rr.wav	yr_rr.wav
+骑马单手跑步	js_rr.wav	js_rr.wav	ss_rr.wav	ss_rr.wav	yr_rr.wav	yr_rr.wav
+骑马双手跑步	js_rr.wav	js_rr.wav	ss_rr.wav	ss_rr.wav	yr_rr.wav	yr_rr.wav
+骑马空手攻击	jsm_ra.wav	jsf_ra.wav	m_at.wav	f_at.wav	ysm_ra.wav	ysf_ra.wav
+骑马单手攻击	jsm_ra.wav	jsf_ra.wav	m_at.wav	f_at.wav	ysm_ra.wav	ysf_ra.wav
+骑马双手攻击	jsm_ra.wav	jsf_ra.wav	m_at.wav	f_at.wav	ysm_ra.wav	ysf_ra.wav
+骑马空手受伤	jsm_rb.wav	jsf_rb.wav	ssm_rb.wav	ssf_rb.wav	yrm_rb.wav	yrf_rb.wav
+骑马单手受伤	jsm_rb.wav	jsf_rb.wav	ssm_rb.wav	ssf_rb.wav	yrm_rb.wav	yrf_rb.wav
+骑马双手受伤	jsm_rb.wav	jsf_rb.wav	ssm_rb.wav	ssf_rb.wav	yrm_rb.wav	yrf_rb.wav
+骑马死亡	jsm_rdi.wav	jsf_rdi.wav	ssm_rdi.wav	ssf_rdi.wav	yrm_rdi.wav	yrf_rdi.wav
+骑马奉上						

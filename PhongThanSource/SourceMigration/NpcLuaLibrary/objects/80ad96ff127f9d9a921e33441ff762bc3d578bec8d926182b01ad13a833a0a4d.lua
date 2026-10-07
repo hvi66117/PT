@@ -1,0 +1,7 @@
+function OnDeath(npcidx)
+    local a = GetName()
+
+    AddGlobalCountNews("<c=green>" .. a .. "<c> mét ®ao chÐm r¬i ®Çu Tr¶o Nha, nhËn ®­îc <c=g>tranh b¸t qu¸i<c>.", 20)
+    AddNormalItem(3, 87, 0, 0, 0, 1)
+    DelNpc(npcidx)
+end;

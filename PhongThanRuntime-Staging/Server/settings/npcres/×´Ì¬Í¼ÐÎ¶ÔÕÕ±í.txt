@@ -1,0 +1,208 @@
+状态	文件名	类型	播放方式	主角身后开始帧	主角身后结束帧	动画总帧数	动画总方向数	动画帧间隔		
+状态1	特殊	头顶	循环			8	1	50		眩晕
+状态2	特殊	脚底	循环			8	1	50		中毒
+状态3	特殊	身上	循环	0	29	8	1	50		冰冻
+状态4	特殊	身上	循环	10	20	8	1	50		燃烧
+状态5	特殊	身上	循环			8	1	50		混乱
+状态6	\spr\skill\magic\circle-11.spr	身上	循环	4	8	8	1	8	2	长天一色
+状态7	\spr\skill\magic\circle-14.spr	身上	循环	0	4	8	1	8	2	冰肌雪骨
+状态8	\spr\skill\magic\bad-01.spr	头顶	循环	0	0	10	1	18		摧身咒
+状态9	\spr\skill\magic\bad-02.spr	头顶	循环	0	0	8	1	18		破军咒
+状态10	\spr\skill\magic\bad-03.spr	头顶	循环	0	0	7	1	18		迷魂咒
+状态11	\spr\skill\magic\bad-04.spr	头顶	循环	0	0	10	1	15		护心咒
+状态12	\spr\skill\magic\bad-02.spr	头顶	循环	0	0	8	1	18		破甲咒
+状态13	\spr\skill\magic\bad-06.spr	头顶	循环	0	0	8	1	18		破心咒
+状态14	\spr\skill\magic\bad-07.spr	头顶	循环	0	22	10	1	18		斩心咒
+状态15	\spr\skill\magic\circle-08.spr	身上	循环	2	7	10	1	19	3	雷风甲
+状态16	\spr\skill\magic\circle-13.spr	身上	循环	8	8	8	1	12		安魂净土
+状态17	\spr\skill\magic\circle-10.spr	身上	循环	0	3	10	1	10	3	天罡烈火
+状态18	\spr\skill\magic\circle-12.spr	身上	循环	0	2	6	1	18		祝融真气
+状态19	\spr\skill\magic\circle-01.spr	脚底	循环	0	0	10	1	15		凌波微步
+状态20	\spr\skill\magic\circle-07.spr	脚底	循环	0	0	10	1	20		强攻咒
+状态21	\spr\skill\magic\circle-06.spr	脚底	循环	0	0	10	1	15		护心咒
+状态22	\spr\skill\magic\circle-02.spr	脚底	循环	0	0	13	1	15		纯阳护体
+状态23	\spr\skill\magic\circle-15.spr	身上	循环	16	16	16	1	15		回天书
+状态24	\spr\skill\magic\circle-16.spr	身上	循环	16	16	16	1	15		沉醉东风
+状态25	\spr\skill\magic\circle-gulou.spr	身上	循环	3	3	3	1	15		鼓楼
+状态26	\spr\skill\magic\circle-perfect1.spr	身上	循环	0	6	6	1	15		套装特效1
+状态27	\spr\skill\magic\circle-perfect2.spr	身上	循环	0	6	6	1	15		套装特效2
+状态28	\spr\skill\magic\circle-perfect3.spr	身上	循环	0	6	6	1	15		套装特效3
+状态29	\spr\skill\magic\circle-17.spr	脚底	循环	0	0	7	1	15		
+状态30	\spr\skill\magic\circle-18.spr	脚底	循环	0	0	8	1	15		
+状态31	\spr\skill\magic\circle-19.spr	身上	循环	10	10	10	1	15		太清御风丹特效
+状态32	\spr\skill\magic\circle-20.spr	身上	循环	10	10	10	1	15		太清烈焰丹特效
+状态33	\spr\skill\magic\circle-21.spr	身上	循环	10	10	10	1	15		太清玉晶丹特效
+状态34	\spr\skill\magic\circle-22.spr	身上	循环	10	10	10	1	15		太清玄黄丹特效
+状态35	\spr\skill\magic\equipeffect3f1.spr	身上	循环	0	8	8	1	36		3套装12女特效1
+状态36	\spr\skill\magic\equipeffect3m1.spr	身上	循环	0	8	8	1	36		3套装12男特效1
+状态37	\spr\skill\magic\equipeffect5f1.spr	身上	循环	0	8	8	1	36		5套装12女特效1
+状态38	\spr\skill\magic\equipeffect5m1.spr	身上	循环	0	8	8	1	36		5套装12男特效1
+状态39	\spr\skill\magic\weaponeffect1.spr	身上	循环	0	7	16	1	12		武器12特效1
+状态40	\spr\skill\magic\weaponeffect2.spr	身上	循环	0	7	16	1	12		武器12特效2
+状态41	\spr\skill\magic\weaponeffect3.spr	身上	循环	0	7	16	1	12		武器12特效3
+状态42	\spr\skill\magic\weaponeffect4.spr	身上	循环	0	7	16	1	12		武器12特效4
+状态43	\spr\npcres\passerby\NpcS_passerby208.spr	身上	5	0	41	41	1	35		甜蜜特效
+状态44	\spr\skill\magic\circle-perfect4.spr	身上	循环	0	8	8	1	30		橙装特效
+状态45	\spr\skill\magic\circle-perfect5.spr	身上	循环	0	8	8	1	30		橙装特效2
+状态46	\spr\npcres\passerby\NpcS_passerby209.spr	头顶	循环	0	0	37	1	50		情人节特效
+状态47	\spr\npcres\passerby\NpcS_passerby210.spr	身上	循环	0	11	11	1	50		VIP梦绕装
+状态48	\spr\npcres\passerby\NpcS_passerby211.spr	身上	循环	0	11	11	1	50		VIP情牵装
+状态49	\spr\skill\magic\白莲法器技能敌方效果.spr	脚底	循环	0	0	10	1	15		白莲法器技能
+状态50	\spr\skill\magic\白莲法器特效自我效果.spr	脚底	循环	0	0	15	1	15		白莲法器技能
+状态51	\spr\skill\magic\白莲法器特效自我效果.spr	脚底	循环	0	0	15	1	15		白莲法器技能
+状态52	\spr\skill\magic\circle-05.spr	脚底	循环	0	0	15	1	50		明夷技能特效
+状态53	\spr\skill\纸鸢.spr	头顶	1	0	15	15	1	50		纸鸢特效
+状态54	\spr\skill\指南针.spr	脚底	循环	0	19	19	1	50		指南针特效
+状态55	\spr\npcres\passerby\红方脚踩效果.spr	脚底	循环	0	15	15	1	80		雪球大赛红方
+状态56	\spr\npcres\passerby\蓝方脚踩效果.spr	脚底	循环	0	15	15	1	80		雪球大赛蓝方
+状态57	\spr\npcres\passerby\图腾激活特效.spr	身上	循环	0	0	6	1	15		点燃塔
+状态58	\spr\Ui4\表情泡泡\水.spr	头顶	循环	0	30	30	1	50		水
+状态59	\spr\Ui4\表情泡泡\火.spr	头顶	循环	0	30	30	1	50		火
+状态60	\spr\Ui4\表情泡泡\风.spr	头顶	循环	0	10	10	1	50		风
+状态61	\spr\Ui4\表情泡泡\土.spr	头顶	循环	0	30	30	1	50		土
+状态62	\spr\skill\magic\仙魔绿套甲.spr	身上	循环	0	10	10	1	50		甲仙魔套装特效
+状态63	\spr\skill\magic\仙魔绿套道.spr	身上	循环	0	10	10	1	50		道仙魔套装特效
+状态64	\spr\skill\magic\仙魔绿套异.spr	身上	循环	0	10	10	1	50		异仙魔套装特效
+状态65	\spr\skill\magic\天神下凡.spr	身上	循环	0	9	9	1	30		天神下凡
+状态66	\spr\skill\magic\破军长啸.spr	脚底	循环	0	20	20	1	30		破军长啸
+状态67	\spr\skill\magic\定身大法.spr	身上	循环			19	1	30		定身大法
+状态68	\spr\skill\magic\灭绝一击.spr	脚底	循环	0	10	10	1	30		灭绝一击
+状态69	\spr\skill\magic\金刚护体.spr	身上	循环			30	1	30		金刚护体
+状态70	\spr\skill\magic\破釜沉舟.spr	身上	循环			20	1	30		破釜沉舟
+状态71	\spr\skill\magic\风弛电掣.spr	身上	循环			20	1	30		风驰电掣
+状态72	\spr\skill\magic\equipeffect3f2.spr	身上	循环	0	8	8	1	36		3仙魔套装12女特效1
+状态73	\spr\skill\magic\equipeffect3m2.spr	身上	循环	0	8	8	1	36		3仙魔套装12男特效1
+状态74	\spr\npcres\passerby\捉鬼_亮底盘.spr	脚底	循环	0	15	15	1	100		捉鬼绿方
+状态75	\spr\npcres\passerby\捉鬼_暗盘.spr	脚底	循环	0	15	15	1	100		捉鬼紫方
+状态76	\spr\skill\magic\净化.spr	头顶	循环	0	20	20	1	50		怪物净化状态
+状态77	\spr\skill\magic\法柱光.spr	身上	循环	0	6	6	1	80		法柱光环
+状态78	\spr\skill\magic\vongsang19.spr	脚底	循环	0	6	6	1	200		法柱地盘
+状态79	\spr\skill\magic\青莲法器技能敌方效果.spr	脚底	循环	0	0	8	1	15		青莲法器技能
+状态80	\spr\skill\magic\青莲法器特效自我效果.spr	脚底	循环	0	0	14	1	15		青莲法器技能
+状态81	\spr\skill\magic\红莲法器技能敌方效果.spr	脚底	循环	0	0	8	1	15		红莲法器技能
+状态82	\spr\skill\magic\红莲法器特效自我效果.spr	脚底	循环	0	0	14	1	15		红莲法器技能
+状态83	\spr\skill\magic\正确效果.spr	头顶	循环	0	0	21	1	80		正确效果
+状态84	\spr\skill\magic\失败效果.spr	头顶	循环	0	0	51	1	70		失败效果
+状态85	\spr\skill\magic\花雨0200.spr	头顶	循环	0	0	17	1	70		渡劫成功，涅槃升华
+状态86	\spr\Ui4\表情泡泡\图腾亮_01.spr	身上	循环	0	0	2	1	80		成功点亮记忆图腾
+状态87	\spr\npcres\passerby\光环_00001.spr	脚底	循环	0	12	12	1	80		光环1
+状态88	\spr\npcres\passerby\光环_00002.spr	脚底	循环	0	12	12	1	80		光环2
+状态89	\spr\npcres\passerby\光环_00003.spr	脚底	循环	0	12	12	1	80		光环3
+状态90	\spr\npcres\passerby\光环_00004.spr	脚底	循环	0	12	12	1	80		光环4
+状态91	\spr\npcres\passerby\光环_00005.spr	脚底	循环	0	12	12	1	80		光环5
+状态92	\spr\skill\magic\shizhua1.spr	身上	循环	0	0	12	1	60		石爪动画
+状态93	\spr\skill\magic\shizhua3.spr	身上	循环	0	0	1	1	60		石爪固定
+状态94	\spr\skill\magic\风雷护体.spr	身上	循环	0	0	10	1	60		风雷护体
+状态95	\spr\skill\magic\头顶1.spr	头顶	循环	0	0	17	1	40		绝心咒
+状态96	\spr\skill\magic\头顶2.spr	头顶	循环	0	0	17	1	40		惑心咒
+状态97	\spr\skill\magic\头顶3.spr	头顶	循环	0	0	17	1	40		破军咒
+状态98	\spr\skill\magic\天神怒吼.spr	身上	循环	0	0	15	1	60		天神怒吼
+状态99	\spr\skill\magic\福泽天佑.spr	身上	循环	3	7	10	1	20	3	福泽天佑
+状态100	\spr\skill\magic\狂风缠身.spr	身上	循环	5	11	16	1	40		狂风
+状态101	\spr\skill\bomb\金龙礼花.spr	身上	循环	1	13	24	1	40		八卦黄
+状态102	\spr\skill\magic\安魂.spr	身上	循环	5	10	16	1	15		安魂净土
+状态103	\spr\skill\magic\黄金怪蓝.spr	头顶	循环	0	0	5	1	160		黄金怪光环
+状态104	\spr\skill\magic\黄金怪黄.spr	头顶	循环	0	0	5	1	160		黄金怪光环
+状态105	\spr\skill\magic\黄金怪红.spr	头顶	循环	0	0	5	1	160		黄金怪光环
+状态106	\spr\skill\magic\黄金怪绿.spr	头顶	循环	0	0	5	1	160		黄金怪光环
+状态107	\spr\skill\magic\隐藏1.spr	身上	循环	9	16	16	1	40		黄金怪光环
+状态108	\spr\skill\magic\隐藏2.spr	身上	循环	0	0	16	1	40		黄金怪光环
+状态109	\spr\skill\magic\隐藏3.spr	身上	循环	9	16	16	1	40		黄金怪光环
+状态110	\spr\skill\magic\聚华化伤.spr	身上	循环	4	10	18	1	20		聚华化伤
+状态111	\spr\skill\magic\聚华化伤.spr	身上	循环	4	10	18	1	20	2	聚华化伤
+状态112	\spr\skill\magic\聚华化伤.spr	身上	循环	4	10	18	1	20	3	聚华化伤
+状态113	\spr\skill\magic\聚华化伤.spr	身上	循环	4	10	18	1	20	4	聚华化伤
+状态114	\spr\skill\magic\聚华化伤.spr	身上	循环	4	10	18	1	20	5	聚华化伤
+状态115	\spr\skill\magic\混元咒特效.spr	脚底	循环	0	0	10	1	50		混元咒光环
+状态116	\spr\skill\magic\vong_sang_vang_moi.spr	身上	循环	0	0	4	1	15		无敌
+状态117	\spr\item\即时国战图素\国战特效\捆仙令2.spr	身上	循环	0	0	1	1	1		捆仙令
+状态118	\spr\skill\magic\守护神云彩.spr	脚下	循环	0	0	11	1	80		守护神云彩
+状态119	\spr\Ui4\表情泡泡\充沛.spr	头顶	循环	0	0	8	1	100		饱
+状态120	\spr\Ui4\表情泡泡\饿.spr	头顶	循环	0	0	8	1	100		饿
+状态121	\spr\Ui4\表情泡泡\睡.spr	头顶	循环	0	0	25	1	200		睡
+状态122	\spr\item\即时国战图素\国战特效\石仙令31帧.spr	头顶	循环	0	0	31	1	30		石仙令
+状态123	\spr\skill\magic\冰晶重生.spr	身上	循环	0	0	36	1	40		冰晶重生
+状态124	\spr\skill\magic\thunder-06.spr	头顶	循环	0	0	15	1	50		雷动九天
+状态125	\spr\skill\magic\金.spr	头顶	循环	0	0	30	1	50		金
+状态126	\spr\skill\magic\火.spr	头顶	循环	0	0	30	1	50		火
+状态127	\spr\skill\magic\风.spr	头顶	循环	0	0	10	1	50		风
+状态128	\spr\skill\magic\水.spr	头顶	循环	0	0	30	1	50		水
+状态129	\spr\skill\magic\土.spr	头顶	循环	0	0	30	1	50		土
+状态130	\spr\skill\magic\跨服套甲.spr	身上	循环	0	10	4	1	150		甲跨服套装特效
+状态131	\spr\skill\magic\跨服套道.spr	身上	循环	0	10	4	1	150		道跨服套装特效
+状态132	\spr\skill\magic\跨服套异.spr	身上	循环	0	10	4	1	150		异跨服套装特效
+状态133	\spr\item\即时国战图素\国战特效\彩云令.spr	身上	循环	0	0	13	1	45		彩云令
+状态134	\spr\skill\magic\风雷护体.spr	身上	循环	0	0	16	1	40		怪物光环
+状态135	\spr\skill\magic\隐藏1.spr	身上	循环	0	0	10	1	60		怪物光环
+状态136	\spr\ui4\跨服国战\科技产品\太极.spr	脚底	循环	0	0	9	1	100		太极阵效果
+状态137	\spr\ui4\跨服国战\科技产品\少阳大.spr	脚底	循环	0	0	9	1	100		少阳阵效果
+状态138	\spr\ui4\跨服国战\科技产品\少阳小.spr	脚底	循环	0	0	9	1	100		少阳阵小效果
+状态139	\spr\ui4\跨服国战\科技产品\少阴大.spr	脚底	循环	0	0	9	1	100		少阴阵效果
+状态140	\spr\ui4\跨服国战\科技产品\少阴小.spr	脚底	循环	0	0	9	1	100		少阴阵小效果
+状态141	\spr\ui4\跨服国战\科技产品\太阳大.spr	脚底	循环	0	0	5	1	100		太阳阵效果
+状态142	\spr\ui4\跨服国战\科技产品\太阳小.spr	脚底	循环	0	0	5	1	100		太阳阵小效果
+状态143	\spr\ui4\跨服国战\科技产品\太阴大.spr	脚底	循环	0	0	5	1	100		太阴阵效果
+状态144	\spr\ui4\跨服国战\科技产品\太阴小.spr	脚底	循环	0	0	5	1	100		太阴阵小效果
+状态145	\spr\ui4\跨服国战\科技产品\两仪大.spr	脚底	循环	0	0	5	1	100		两仪阵效果
+状态146	\spr\ui4\跨服国战\科技产品\两仪小.spr	脚底	循环	0	0	5	1	100		两仪阵小效果
+状态147	\spr\skill\magic\vongsangnienthu.spr	脚底	循环	0	0	1	1	1		祝福
+状态148	\spr\skill\magic\hauthienthannohong.spr	脚底	循环	0	0	1	1	1		祝福
+状态149	\spr\skill\magic\vongsangxanhsieudep.spr	脚底	循环	0	0	1	1	1		祝福
+状态150	\spr\skill\magic\vongsangxanhdep.spr	脚底	循环	0	0	1	1	1		祝福
+状态151	\spr\skill\magic\vongsangxanh.spr	脚底	循环	0	0	1	1	1		祝福
+状态152	\spr\skill\magic\vongsangvang.spr	脚底	循环	0	0	1	1	1		祝福
+状态153	\spr\skill\bomb\金龙礼花.spr	脚底	循环	0	0	1	1	1		祝福
+状态154	\spr\npcres\passerby\高级祝福200.spr	脚底	循环	0	0	1	1	1		祝福
+状态155	\spr\item\another\彩云.spr	脚底	循环	0	0	12	1	60		彩云
+状态156	\spr\item\another\白云.spr	脚底	循环	0	0	12	1	60		白云
+状态157	\spr\skill\magic\变身特效终.spr	脚底	循环	0	0	22	1	50		接受祝福特效
+状态158	\spr\skill\magic\man_1.spr	身上	循环	0	19	19	1	50		五级橙装特效
+状态159	\spr\skill\magic\nv_1.spr	身上	循环	0	19	19	1	50		五级橙装特效2
+状态160	\spr\skill\magic\man_2.spr	身上	循环	0	19	19	1	50		六级橙装特效
+状态161	\spr\skill\magic\nv_2.spr	身上	循环	0	19	19	1	50		六级橙装特效2
+状态162	\spr\skill\magic\man_3.spr	身上	循环	0	19	19	1	50		七级橙装特效
+状态163	\spr\skill\magic\nv_3.spr	身上	循环	0	19	19	1	50		七级橙装特效2
+状态164	\spr\npcres\passerby\捉鬼_亮底盘.spr	脚底	循环	0	15	15	1	100		捉鬼绿方
+状态165	\spr\npcres\passerby\捉鬼_暗盘.spr	脚底	循环	0	15	15	1	100		捉鬼绿方
+状态166	\spr\skill\magic\流血.spr	头顶	循环	0	0	16	1	30		流血效果
+状态167	\spr\skill\magic\黑莲法器技能敌方效果.spr	脚底	循环	0	0	8	1	15		黑莲法器技能
+状态168	\spr\skill\magic\黑莲法器特效自我效果.spr	脚底	循环	0	0	12	1	15		黑莲法器技能
+状态169	\spr\skill\magic\紫莲法器技能敌方效果.spr	脚底	循环	0	0	7	1	15		紫莲法器技能
+状态170	\spr\skill\magic\紫莲法器特效自我效果.spr	脚底	循环	0	0	12	1	15		紫莲法器技能
+状态171	\spr\skill\magic\年兽光环.spr	脚底	循环	0	20	20	1	20		2014年兽光环
+状态172	\spr\npcres\passerby\属性外装光圈1.spr	脚底	循环	0	11	11	1	50		VIP情牵装
+状态173	\spr\skill\magic\粮车光环.spr	脚底	循环	0	13	13	1	100		金牌押运符粮车特效
+状态174	\spr\Ui4\称号\图片\人见人爱.spr	头顶	循环	0	0	10	1	100		人见人爱称号
+状态175	\spr\skill\magic\火伤害护盾.spr	脚底	循环	0	0	20	1	40		火伤害护盾
+状态176	\spr\skill\magic\土伤害护盾.spr	脚底	循环	0	0	20	1	40		土伤害护盾
+状态177	\spr\skill\magic\雷伤害护盾.spr	脚底	循环	0	0	20	1	40		雷伤害护盾
+状态178	\spr\skill\magic\冰伤害护盾.spr	脚底	循环	0	0	20	1	40		冰伤害护盾
+状态179	\spr\skill\magic\物理伤害护盾.spr	脚底	循环	0	0	20	1	40		物理伤害护盾
+状态180	\spr\skill\magic\神印效果蓝.spr	身上	循环	0	0	448	8	75		神印效果蓝
+状态181	\spr\skill\magic\神印效果红.spr	身上	循环	0	0	448	8	75		神印效果红
+状态182	\spr\skill\magic\神印效果金-甲士.spr	身上	循环	0	0	448	8	75		神印效果金
+状态183	\spr\skill\magic\神佑.spr	身上	循环	0	0	14	1	20		神佑效果
+状态184	\spr\skill\magic\低级甲士.spr	脚底	30	0	0	30	1	80		甲士120坐骑
+状态185	\spr\skill\magic\低级道士.spr	脚底	30	0	0	30	1	80		道士120坐骑
+状态186	\spr\skill\magic\低级异人.spr	脚底	30	0	0	30	1	80		异人120坐骑
+状态187	\spr\skill\magic\神印效果金-道士.spr	身上	循环	0	0	408	8	75		神印效果金
+状态188	\spr\skill\magic\神印效果金-异人.spr	身上	循环	0	400	400	8	65		神印效果金
+状态189	\spr\skill\magic\bad-07红.spr	头顶	循环	0	22	10	1	18		斩心咒强化
+状态190	\spr\skill\magic\元神爆发.spr	脚底	循环	24	24	24	1	60		元神爆发
+状态191	\spr\skill\magic\步履蹒跚.spr	身上	1	10	10	10	1	30		步履蹒跚
+状态192	\spr\skill\magic\心胆俱裂.spr	身上	1	20	20	20	1	40		心胆俱裂
+状态193	\spr\skill\magic\背水一战状态.spr	身上	循环	16	16	16	1	16		背水一战状态
+状态194	\spr\skill\magic\狂风缠身.spr	身上	循环	5	11	16	1	40		画地为牢状态
+状态195	\spr\skill\magic\免疫反弹.spr	身上	1	1	15	15	1	80		免疫反弹
+状态196	\spr\skill\magic\紫莲法器特效自我效果.spr	脚底	循环	0	0	12	1	15		短兵交接技能
+状态197	\spr\skill\magic\天下无双.spr	脚底	循环	0	0	15	1	50		封神之战天下无双
+状态198	\spr\skill\magic\威震四海.spr	脚底	循环	0	0	15	1	50		封神之战威震四海
+状态199	\spr\skill\magic\泰山北斗.spr	脚底	循环	0	0	15	1	50		封神之战泰山北斗
+状态200	\spr\skill\magic\雄霸一方.spr	脚底	循环	0	0	15	1	50		封神之战雄霸一方
+状态201	\spr\skill\magic\江湖豪侠.spr	脚底	循环	0	0	15	1	50		封神之战江湖豪侠
+状态202	\spr\skill\magic\circle-07.spr	脚底	循环	0	0	10	1	20		急救
+状态203	\spr\skill\magic\dian_guang.spr	身上	循环	11	18	24	1	66	1	电光
+状态204	\spr\skill\magic\yu_du.spr	身上	循环	15	22	24	1	66	1	羽毒
+状态205	\spr\skill\magic\luan_shen.spr	身上	循环	11	4	24	1	66	1	乱神
+状态206	\spr\skill\magic\bing_shang_hai_hu_dun.spr	身上	循环	0	4	20	1	40	1	急救
+状态207	\spr\skill\magic\xuemo.spr	身上	循环	0	4	18	1	38	1	猩红追猎

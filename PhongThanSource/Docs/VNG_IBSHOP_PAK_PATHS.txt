@@ -1,0 +1,4 @@
+\Ui\ui3\ibshopcfg.ini
+\Ui\ui3\ibshopautobuy.ini
+\spr\Ui4\∞À±¶»Á“‚∏Û\∞À±¶∏Û∞¥≈•.spr
+\spr\Ui4\∞À±¶»Á“‚∏Û\∞À±¶∏Û∞¥≈•00.spr

@@ -1,0 +1,370 @@
+npcÁĞ±í	Õ¾Á¢	ĞİÏ¢	´ı»÷	ÅÜ²½	¹¥»÷	ÊÜÉË	ËÀÍö	·îÉÏ
+ani001					ani013.wav			
+ani002					ani006.wav			
+ani003					ani009.wav			
+ani004					ani009.wav			
+ani005					ani001.wav			
+ani006					ani001.wav			
+ani007					ani005.wav			
+ani008					ani002.wav			
+ani009					ani004.wav			
+ani010					ani006.wav			
+ani011					ani011.wav			
+ani012					ani006.wav			
+ani013					ani013.wav			
+ani014					ani007.wav			
+ani015					ani005.wav			
+ani016					ani002.wav
+ani017					ani001.wav
+ani018					ani008.wav
+ani019					ani008.wav
+ani020					ani014.wav
+ani021					ani011.wav
+ani022					
+ani023					ani014.wav
+ani024					ani009.wav
+ani025					ani012.wav
+ani026					ani012.wav
+ani027					
+ani028					ani014.wav
+ani029					ani007.wav
+ani030					ani002.wav
+ani031					ani014.wav
+ani032					ani006.wav
+ani033					ani008.wav
+ani034					ani002.wav
+ani035					ani010.wav
+ani036					ani009.wav
+ani037					ani007.wav
+ani038					
+ani039					ani002.wav
+ani040					ani006.wav
+ani041					ani001.wav
+ani042					ani002.wav
+ani043					ani009.wav
+ani044					ani012.wav
+ani045					
+ani046					
+ani047					
+ani048					
+ani049					
+ani050					
+ani051					
+ani052					
+ani053					
+ani054					
+ani055					
+ani056					
+ani057					
+ani058					
+ani059					
+ani060					
+ani061					
+ani062					
+ani063					
+ani064
+ani065
+ani066
+ani067
+ani068
+ani069
+ani070
+ani071
+ani072
+ani073
+ani074
+ani075
+ani076
+ani077
+ani078
+ani079
+ani080
+ani081
+ani082
+ani083
+ani084
+ani085
+ani086
+ani087
+ani088
+ani089
+ani090
+ani091
+ani092
+ani093
+ani094
+ani095
+ani096
+ani097
+ani098
+ani099
+ani100
+ani101
+ani102
+ani103
+ani104
+ani105
+ani106
+ani107
+ani108
+ani109
+ani110
+ani111
+ani112
+ani113
+ani114
+ani115
+ani116
+ani117
+ani118
+ani119
+ani120
+ani121
+ani122
+ani123
+ani124
+ani125
+ani126
+ani127
+ani128
+ani129
+ani130
+ani131
+ani132
+ani133
+ani134
+ani135
+ani136
+ani137
+ani138
+ani139
+ani140
+ani141
+ani142
+ani143
+ani144
+ani145
+ani146
+ani147
+ani148
+ani149
+passerby001
+passerby002
+passerby003
+passerby004
+passerby005
+passerby006
+passerby007
+passerby008
+passerby009
+passerby010
+passerby011
+passerby012
+passerby013
+passerby014
+passerby015
+passerby016
+passerby017
+passerby018
+passerby019
+passerby020
+passerby021
+passerby022
+passerby023
+passerby024
+passerby025
+passerby026
+passerby027
+passerby028
+passerby029
+passerby030
+passerby031
+passerby032
+passerby033
+passerby034
+passerby035
+passerby036
+passerby037
+passerby038
+passerby039
+passerby040
+passerby041
+passerby042
+passerby043
+passerby044
+passerby045
+passerby046
+passerby047
+passerby048
+passerby049
+passerby050
+passerby051
+passerby052
+passerby053
+passerby054
+passerby055
+passerby056
+passerby057
+passerby058
+passerby059
+passerby060
+passerby061
+passerby062
+passerby063
+passerby064
+passerby065
+passerby066
+passerby067
+passerby068
+passerby069
+passerby070
+passerby071
+passerby072
+passerby073
+passerby074
+passerby075
+passerby076
+passerby077
+passerby078
+passerby079
+passerby080
+passerby081
+passerby082
+passerby083
+passerby084
+passerby085
+passerby086
+passerby087
+passerby088
+passerby089
+passerby090
+passerby091
+passerby092
+passerby093
+passerby094
+passerby095
+passerby096
+passerby097
+passerby098
+passerby099
+passerby100
+passerby101
+passerby102
+passerby103
+passerby104
+passerby105
+passerby106
+passerby107
+passerby108
+passerby109
+passerby110
+passerby111
+passerby112
+passerby113
+passerby114
+passerby115
+passerby116
+passerby117
+passerby118
+passerby119
+passerby120
+passerby121
+passerby122
+passerby123
+passerby124
+passerby125
+passerby126
+passerby127
+passerby128
+passerby129
+passerby130
+passerby131
+passerby132
+passerby133
+passerby134
+passerby135
+passerby136
+passerby137
+passerby138
+passerby139
+passerby140
+passerby141
+passerby142
+passerby143
+passerby144
+passerby145
+passerby146
+passerby147
+passerby148
+passerby149
+passerby150
+passerby151
+passerby152
+passerby153
+passerby154
+passerby155
+passerby156
+passerby157
+passerby158
+passerby159
+passerby160
+passerby161
+passerby162
+passerby163
+passerby164
+passerby165
+passerby166
+passerby167
+passerby168
+passerby169
+passerby170
+passerby171
+passerby172
+passerby173
+passerby174
+passerby175
+passerby176
+passerby177
+passerby178
+passerby179
+passerby180
+passerby181
+passerby182
+passerby183
+passerby184
+passerby185
+passerby186
+passerby187
+passerby188
+passerby189
+passerby190
+passerby191
+passerby192
+passerby193
+passerby194
+passerby195
+passerby196
+passerby197
+passerby198
+passerby199
+passerby200
+material001
+material002
+material003
+material004
+material005
+material006
+material007
+material008
+material009
+material010
+battle001
+battle002
+battle003
+battle004
+battle005
+battle006
+battle007
+battle008
+battle009
+battle010

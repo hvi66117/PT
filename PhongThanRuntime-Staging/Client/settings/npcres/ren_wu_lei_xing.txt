@@ -1,0 +1,1200 @@
+人物名称	人物类型	资源文件路经	部件说明文件名	武器行为关联表1	武器行为关联表2	动作贴图顺序表	头部	发型	躯体	披风	左手武器	右手武器	马前	马中	马后	影子	影子信息	CharacterType	ResFilePath	PartFileName	WeaponActionTab1	WeaponActionTab2	ActionRenderOrderTab
+男甲士	特殊npc	spr\npcres\human	主角部件列表.txt	甲士未骑马关联表.txt	甲士骑马关联表.txt	男甲士贴图顺序表.txt	男甲士头部.txt	男甲士发型.txt	男甲士躯体.txt	男甲士披风.txt	男甲士左手武器.txt	男甲士右手武器.txt	男甲士马前.txt	男甲士马中.txt	男甲士马后.txt			SpecialNpc	spr\npcres\human	主角部件列表.txt	甲士未骑马关联表.txt	甲士骑马关联表.txt	男甲士贴图顺序表.txt
+男术士	特殊npc	spr\npcres\human	主角部件列表.txt	术士未骑马关联表.txt	术士骑马关联表.txt	男术士贴图顺序表.txt	男术士头部.txt	男术士发型.txt	男术士躯体.txt	男术士披风.txt	男术士左手武器.txt	男术士右手武器.txt	男术士马前.txt	男术士马中.txt	男术士马后.txt			SpecialNpc	spr\npcres\human	主角部件列表.txt	术士未骑马关联表.txt	术士骑马关联表.txt	男术士贴图顺序表.txt
+男异人	特殊npc	spr\npcres\human	主角部件列表.txt	异人未骑马关联表.txt	异人骑马关联表.txt	男异人贴图顺序表.txt	男异人头部.txt	男异人发型.txt	男异人躯体.txt	男异人披风.txt	男异人左手武器.txt	男异人右手武器.txt	男异人马前.txt	男异人马中.txt	男异人马后.txt			SpecialNpc	spr\npcres\human	主角部件列表.txt	异人未骑马关联表.txt	异人骑马关联表.txt	男异人贴图顺序表.txt
+男羽士	特殊npc	spr\npcres\human	主角部件列表.txt	羽士未骑马关联表.txt	羽士骑马关联表.txt	男羽士贴图顺序表.txt	男羽士头部.txt	男羽士发型.txt	男羽士躯体.txt	男羽士披风.txt	男羽士左手武器.txt	男羽士右手武器.txt	男羽士马前.txt	男羽士马中.txt	男羽士马后.txt			SpecialNpc	spr\npcres\human	主角部件列表.txt	羽士未骑马关联表.txt	羽士骑马关联表.txt	男羽士贴图顺序表.txt
+女甲士	特殊npc	spr\npcres\human	主角部件列表.txt	甲士未骑马关联表.txt	甲士骑马关联表.txt	女甲士贴图顺序表.txt	女甲士头部.txt	女甲士发型.txt	女甲士躯体.txt	女甲士披风.txt	女甲士左手武器.txt	女甲士右手武器.txt	女甲士马前.txt	女甲士马中.txt	女甲士马后.txt			SpecialNpc	spr\npcres\human	主角部件列表.txt	甲士未骑马关联表.txt	甲士骑马关联表.txt	女甲士贴图顺序表.txt
+女术士	特殊npc	spr\npcres\human	主角部件列表.txt	术士未骑马关联表.txt	术士骑马关联表.txt	女术士贴图顺序表.txt	女术士头部.txt	女术士发型.txt	女术士躯体.txt	女术士披风.txt	女术士左手武器.txt	女术士右手武器.txt	女术士马前.txt	女术士马中.txt	女术士马后.txt			SpecialNpc	spr\npcres\human	主角部件列表.txt	术士未骑马关联表.txt	术士骑马关联表.txt	女术士贴图顺序表.txt
+女异人	特殊npc	spr\npcres\human	主角部件列表.txt	异人未骑马关联表.txt	异人骑马关联表.txt	女异人贴图顺序表.txt	女异人头部.txt	女异人发型.txt	女异人躯体.txt	女异人披风.txt	女异人左手武器.txt	女异人右手武器.txt	女异人马前.txt	女异人马中.txt	女异人马后.txt			SpecialNpc	spr\npcres\human	主角部件列表.txt	异人未骑马关联表.txt	异人骑马关联表.txt	女异人贴图顺序表.txt
+女羽士	特殊npc	spr\npcres\human	主角部件列表.txt	羽士未骑马关联表.txt	羽士骑马关联表.txt	女羽士贴图顺序表.txt	女羽士头部.txt	女羽士发型.txt	女羽士躯体.txt	女羽士披风.txt	女羽士左手武器.txt	女羽士右手武器.txt	女羽士马前.txt	女羽士马中.txt	女羽士马后.txt			SpecialNpc	spr\npcres\human	主角部件列表.txt	羽士未骑马关联表.txt	羽士骑马关联表.txt	女羽士贴图顺序表.txt
+ani001	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani002	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani003	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani004	普通npc	spr\npcres\animal														20	"48,8,1"	NormalNpc	spr\npcres\animal				
+ani005	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani006	普通npc	spr\npcres\animal														20	"48,8,1"	NormalNpc	spr\npcres\animal				
+ani007	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani008	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani009	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani010	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani011	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani012	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani013	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani014	普通npc	spr\npcres\animal														20	"48,8,1"	NormalNpc	spr\npcres\animal				
+ani015	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani016	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani017	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani018	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani019	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani020	普通npc	spr\npcres\animal														20	"48,8,1"	NormalNpc	spr\npcres\animal				
+ani021	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani022	普通npc	spr\npcres\animal														20	"48,8,1"	NormalNpc	spr\npcres\animal				
+ani023	普通npc	spr\npcres\animal														20	"48,8,1"	NormalNpc	spr\npcres\animal				
+ani024	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani025	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani026	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani027	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani028	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani029	普通npc	spr\npcres\animal														20	"48,8,1"	NormalNpc	spr\npcres\animal				
+ani030	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani031	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani032	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani033	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani034	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani035	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani036	普通npc	spr\npcres\animal														20	"48,8,1"	NormalNpc	spr\npcres\animal				
+ani037	普通npc	spr\npcres\animal														20	"48,8,1"	NormalNpc	spr\npcres\animal				
+ani038	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani039	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani040	普通npc	spr\npcres\animal														20	"48,8,1"	NormalNpc	spr\npcres\animal				
+ani041	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani042	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani043	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani044	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani045	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani046	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani047	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani048	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani049	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani050	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani051	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani052	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani053	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani054	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani055	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani056	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani057	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani058	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani059	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani060	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani061	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani062	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani063	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani064	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani065	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani066	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani067	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani068	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani069	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani070	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani071	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani072	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani073	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani074	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani075	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani076	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani077	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani078	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani079	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani080	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani081	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani082	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani083	普通npc	spr\npcres\human														21	"56,8,1"	NormalNpc	spr\npcres\human				
+ani084	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani085	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani086	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani087	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani088	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani089	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani090	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani091	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani092	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani093	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani094	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani095	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani096	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani097	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani098	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani099	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani100	普通npc	spr\npcres\animal														27	"1,1,1"	NormalNpc	spr\npcres\animal				
+ani101	普通npc	spr\npcres\animal														27	"1,1,1"	NormalNpc	spr\npcres\animal				
+ani102	普通npc	spr\npcres\animal														27	"1,1,1"	NormalNpc	spr\npcres\animal				
+ani103	普通npc	spr\npcres\animal														27	"1,1,1"	NormalNpc	spr\npcres\animal				
+ani104	普通npc	spr\npcres\animal														27	"1,1,1"	NormalNpc	spr\npcres\animal				
+ani105	普通npc	spr\npcres\animal														27	"1,1,1"	NormalNpc	spr\npcres\animal				
+ani106	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani107	普通npc	spr\npcres\animal														27	"1,1,1"	NormalNpc	spr\npcres\animal				
+ani108	普通npc	spr\npcres\animal														27	"1,1,1"	NormalNpc	spr\npcres\animal				
+ani109	普通npc	spr\npcres\animal														27	"1,1,1"	NormalNpc	spr\npcres\animal				
+ani110	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani111	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani112	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani113	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani114	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani115	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani116	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani117	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani118	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani119	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani120	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani121	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani122	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani123	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani124	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani125	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani126	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani127	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani128	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani129	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani130	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani131	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani132	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani133	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani134	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani135	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani136	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani137	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani138	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani139	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani140	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani141	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani142	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani143	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani144	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani145	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani146	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani147	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani148	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+ani149	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+passerby001	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby002	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby003	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby004	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby005	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby006	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby007	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby008	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby009	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby010	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby011	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby012	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby013	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby014	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby015	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby016	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby017	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby018	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby019	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby020	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby021	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby022	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby023	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby024	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby025	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby026	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby027	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby028	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby029	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby030	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby031	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby032	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby033	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby034	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby035	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby036	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby037	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby038	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby039	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby040	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby041	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby042	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby043	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby044	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby045	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby046	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby047	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby048	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby049	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby050	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby051	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby052	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby053	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby054	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby055	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby056	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby057	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby058	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby059	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby060	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby061	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby062	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby063	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby064	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby065	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby066	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby067	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby068	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby069	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby070	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby071	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby072	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby073	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby074	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby075	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby076	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby077	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby078	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby079	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby080	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby081	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby082	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby083	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby084	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby085	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby086	普通npc	spr\npcres\passerby														21	"56,8,1"	NormalNpc	spr\npcres\passerby				
+passerby087	普通npc	spr\npcres\passerby														21	"56,8,1"	NormalNpc	spr\npcres\passerby				
+passerby088	普通npc	spr\npcres\passerby														24	"1,1,1"	NormalNpc	spr\npcres\passerby				
+passerby089	普通npc	spr\npcres\passerby														24	"1,1,1"	NormalNpc	spr\npcres\passerby				
+passerby090	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby091	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby092	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby093	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby094	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby095	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby096	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby097	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby098	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby099	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby100	普通npc	spr\npcres\passerby														24	"1,1,1"	NormalNpc	spr\npcres\passerby				
+passerby101	普通npc	spr\npcres\passerby														24	"1,1,1"	NormalNpc	spr\npcres\passerby				
+passerby102	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby103	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby104	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby105	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby106	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby107	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby108	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby109	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby110	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby111	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby112	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby113	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby114	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby115	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby116	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby117	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby118	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby119	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby120	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby121	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby122	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby123	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby124	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby125	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby126	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby127	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby128	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby129	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby130	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby131	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby132	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby133	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby134	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby135	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby136	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby137	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby138	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby139	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby140	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby141	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby142	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby143	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby144	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby145	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby146	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby147	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby148	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby149	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby150	普通npc	spr\npcres\passerby														21	"56,8,1"	NormalNpc	spr\npcres\passerby				
+human001	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human002	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human003	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human004	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human005	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human006	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human007	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human008	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human009	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human010	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human011	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human012	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human013	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human014	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human015	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human016	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human017	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human018	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human019	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human020	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human021	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human022	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human023	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human024	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human025	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human026	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human027	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human028	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human029	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human030	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human031	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human032	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human033	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human034	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human035	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human036	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human037	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human038	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human039	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human040	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human041	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human042	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human043	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human044	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human045	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+human046	普通npc	spr\npcres\animal														25	"40,8,1"	NormalNpc	spr\npcres\animal				
+human047	普通npc	spr\npcres\animal														25	"40,8,1"	NormalNpc	spr\npcres\animal				
+human048	普通npc	spr\npcres\animal														25	"40,8,1"	NormalNpc	spr\npcres\animal				
+human049	普通npc	spr\npcres\animal														25	"40,8,1"	NormalNpc	spr\npcres\animal				
+human050	普通npc	spr\npcres\animal														25	"40,8,1"	NormalNpc	spr\npcres\animal				
+material001	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+material002	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+material003	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+material004	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+material005	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+material006	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+material007	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+material008	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+material009	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+material010	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+battle001	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle002	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle003	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle004	普通npc	spr\npcres\battle																NormalNpc	spr\npcres\battle				
+battle005	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle006	普通npc	spr\npcres\battle																NormalNpc	spr\npcres\battle				
+battle007	普通npc	spr\npcres\battle																NormalNpc	spr\npcres\battle				
+battle008	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle009	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle010	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle011	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle012	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle013	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle014	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle015	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle016	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle017	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle018	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle019	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+battle020	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+building001	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building002	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building003	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building004	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building005	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building006	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building007	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building008	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building009	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building010	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building011	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building012	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building013	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building014	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building015	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building016	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building017	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building018	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building019	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building020	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building021	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building022	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building023	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building024	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building025	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building026	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building027	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building028	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building029	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building030	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building031	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building032	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building033	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building034	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+xia001	普通npc	spr\npcres\human														24	"1,1,1"	NormalNpc	spr\npcres\human				
+xia002	普通npc	spr\npcres\human														24	"1,1,1"	NormalNpc	spr\npcres\human				
+xia003	普通npc	spr\npcres\human														24	"1,1,1"	NormalNpc	spr\npcres\human				
+xia004	普通npc	spr\npcres\human														24	"1,1,1"	NormalNpc	spr\npcres\human				
+sale001	普通npc	spr\npcres\sale																NormalNpc	spr\npcres\sale				
+sale002	普通npc	spr\npcres\sale																NormalNpc	spr\npcres\sale				
+sale003	普通npc	spr\npcres\sale																NormalNpc	spr\npcres\sale				
+sale004	普通npc	spr\npcres\sale																NormalNpc	spr\npcres\sale				
+sale005	普通npc	spr\npcres\sale																NormalNpc	spr\npcres\sale				
+sale006	普通npc	spr\npcres\sale																NormalNpc	spr\npcres\sale				
+sale007	普通npc	spr\npcres\sale																NormalNpc	spr\npcres\sale				
+sale008	普通npc	spr\npcres\sale																NormalNpc	spr\npcres\sale				
+sale009	普通npc	spr\npcres\sale																NormalNpc	spr\npcres\sale				
+sale010	普通npc	spr\npcres\sale																NormalNpc	spr\npcres\sale				
+skill001	技能npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+skill002	技能npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+skill003	技能npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+skill004	技能npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+skill005	技能npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby200	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby201	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby202	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby203	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby204	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby205	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby206	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+passerby207	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+ani150	普通npc	spr\npcres\battle																NormalNpc	spr\npcres\battle				
+ani151	普通npc	spr\npcres\battle																NormalNpc	spr\npcres\battle				
+ani152	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+building035	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building036	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+ani153	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani154	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani155	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani156	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani157	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+skill006	技能npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+ani158	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+passerby208	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+ani159	普通npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+ani160	普通npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+ani161	普通npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+battle021	普通npc	\spr\npcres\battle																NormalNpc	\spr\npcres\battle				
+battle022	普通npc	\spr\npcres\battle																NormalNpc	\spr\npcres\battle				
+battle023	普通npc	\spr\npcres\battle																NormalNpc	\spr\npcres\battle				
+battle024	普通npc	\spr\npcres\battle																NormalNpc	\spr\npcres\battle				
+ani162	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani163	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani164	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani165	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani166	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani167	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani168	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+xia005	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+xia006	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+flower001	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+flower002	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+flower003	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+flower004	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+men001	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+tudui001	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+tudui002	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+tudui003	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+qizhi001	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+qizhi002	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+ani167	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ani169	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+hun001	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+hun002	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+flower005	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+flower006	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+fazhen001	普通npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+fazhen002	普通npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+hufa001	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+hufa002	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+shumiao	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+qiaokeli	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+xinxin	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+meigui	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+ani170	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+zhexing	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+fengxi	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+bianshen001	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+bianshen002	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+bianshen003	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+bianshen004	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+bianshen005	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+bianshen006	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+fazhen004	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+fazhen003	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+building003_1	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+mingyi	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+qingtianzy	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+qingtiankz	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+moqi	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+xianqi	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+building002_st2	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building002_st	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+danfang	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+fazhen005	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+雪堆	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+building038	普通npc	\spr\npcres\battle																NormalNpc	\spr\npcres\battle				
+building039	普通npc	\spr\npcres\battle																NormalNpc	\spr\npcres\battle				
+雷电封印	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+xia007	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+xia008	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+NpcS_passerby212	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+NpcS_passerby213	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+NpcS_passerby214	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+NpcS_passerby215	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+NpcS_passerby216	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+NpcS_passerby217	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby220	技能npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+passerby221	技能npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+passerby222	技能npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+passerby223	技能npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+龙公竹1	普通npc	\spr\obj\box																NormalNpc	\spr\obj\box				
+daniao	普通npc	\spr\npcres\human																NormalNpc	\spr\npcres\human				
+jimeng	普通npc	\spr\npcres\animal																NormalNpc	\spr\npcres\animal				
+shanyou	普通npc	\spr\npcres\animal																NormalNpc	\spr\npcres\animal				
+lilingshi	普通npc	\spr\npcres\animal																NormalNpc	\spr\npcres\animal				
+chenghuang	普通npc	\spr\npcres\animal																NormalNpc	\spr\npcres\animal				
+passerby224	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby225	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby226	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby227	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby228	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby229	普通npc	\spr\npcres\human																NormalNpc	\spr\npcres\human				
+passerby230	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby231	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby232	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby233	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby234	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby235	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+passerby236	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+白虎雕像	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+玄虎雕像	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+鹿神站立	普通npc 	\spr\npcres\animal																NormalNpc	\spr\npcres\animal				
+ani171	普通npc	spr\npcres\animal														21	"56,8,1"	NormalNpc	spr\npcres\animal				
+material016	普通npc 	spr\npcres\material																NormalNpc	spr\npcres\material				
+stone	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+quanshui	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+guangqiu	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+hanlongfan	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+shanshen	普通npc	\spr\npcres\animal																NormalNpc	\spr\npcres\animal				
+xia010	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+xia011	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+fen1	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+fen2	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+zhangpeng	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+suipian01	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+suipian02	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+suipian03	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+suipian04	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+suipian05	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+图腾灭	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+连理树	普通npc	\spr\item\other																NormalNpc	\spr\item\other				
+flower	普通npc	\spr\skill\bomb																NormalNpc	\spr\skill\bomb				
+周年图腾1	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+周年图腾2	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+八卦图腾-天	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+八卦图腾-地	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+八卦图腾-火	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+八卦图腾-风	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+八卦图腾-水	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+八卦图腾-山	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+八卦图腾-泽	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+八卦图腾-雷	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+大树	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+枯树	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+绿树	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+shuhun	普通npc	\spr\npcres\animal														27	"1,1,1"	NormalNpc	\spr\npcres\animal				
+眼睛魔	普通npc	\spr\npcres\human																NormalNpc	\spr\npcres\human				
+眼睛仙	普通npc	\spr\npcres\human																NormalNpc	\spr\npcres\human				
+百合obj	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+龙墩	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+国庆花坛	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+月宫月饼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+fbboss	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+fbboss1	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+fbboss2	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+fbboss3	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+fbboss4	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+fbboss5	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+fbboss6	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+fbboss7	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+guangqiang1	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+guangqiang2	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+fengqiang	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+xuanfeng	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+suolian1	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+suolian2	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+petnew01	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+petnew02	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+petnew03	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+petnew04	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+petnew05	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+petnew06	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+petnew07	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+petnew08	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+hongfan	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tianfan	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+difan	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+renfan	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+juedishu	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+renshenjin	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+haozhulaodie	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+xiaohaozhu	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+yuwong	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+honghuang	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+nvchou	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+tianlu	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+pixiu	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+tian1	普通npc	spr\item\生活技能图库\NPC、OBJ图素																NormalNpc	spr\item\生活技能图库\NPC、OBJ图素				
+tian2	普通npc	spr\item\生活技能图库\NPC、OBJ图素																NormalNpc	spr\item\生活技能图库\NPC、OBJ图素				
+tian3	普通npc	spr\item\生活技能图库\NPC、OBJ图素																NormalNpc	spr\item\生活技能图库\NPC、OBJ图素				
+tian4	普通npc	spr\item\生活技能图库\NPC、OBJ图素																NormalNpc	spr\item\生活技能图库\NPC、OBJ图素				
+tian5	普通npc	spr\item\生活技能图库\NPC、OBJ图素																NormalNpc	spr\item\生活技能图库\NPC、OBJ图素				
+tian6	普通npc	spr\item\生活技能图库\NPC、OBJ图素																NormalNpc	spr\item\生活技能图库\NPC、OBJ图素				
+tian7	普通npc	spr\item\生活技能图库\NPC、OBJ图素																NormalNpc	spr\item\生活技能图库\NPC、OBJ图素				
+新传送	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+烁金矿	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+郁木矿	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+善水矿	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+赤火矿	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+瑰土矿	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+雏菊	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+九花塔	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+焚火图腾	普通npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+彩云令	普通npc	spr\item\即时国战图素\国战特效																NormalNpc	spr\item\即时国战图素\国战特效				
+陷阱	普通npc	spr\item\即时国战图素\国战特效																NormalNpc	spr\item\即时国战图素\国战特效				
+拒马	普通npc	spr\item\即时国战图素\国战特效																NormalNpc	spr\item\即时国战图素\国战特效				
+急急如律令	普通npc	spr\item\即时国战图素\国战特效																NormalNpc	spr\item\即时国战图素\国战特效				
+冰封巨鸟	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+熄灭的篝火	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+燃烧的火堆	普通npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+精卫	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+守护神白	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+守护神蓝	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+守护神绿	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+守护神黄	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+守护神红	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+kuafum01	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum02	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum03	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum04	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum11	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum12	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum13	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum14	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum21	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum22	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum23	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafum24	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw01	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw02	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw03	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw04	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw11	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw12	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw13	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw14	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw21	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw22	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw23	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+kuafuw24	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+火图腾	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+冰图腾	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+土图腾	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+雷图腾	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+光阴	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+金山年庆图腾	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+烁金矿小	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+郁木矿小	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+善水矿小	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+赤火矿小	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+瑰土矿小	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+战旗基座	普通npc	spr\Ui4\跨服国战																NormalNpc	spr\Ui4\跨服国战				
+氏族战旗	普通npc	spr\Ui4\跨服国战																NormalNpc	spr\Ui4\跨服国战				
+洞天神碑	普通npc	spr\Ui4\跨服国战																NormalNpc	spr\Ui4\跨服国战				
+少阳阵	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+少阴阵	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+太阳阵	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+太阴阵	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+两仪阵	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+氏族任务1图腾残骸	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+氏族任务1图腾完成形态	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+氏族任务1图腾未完成形态	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+少阳阵小	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+少阴阵小	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+太阳阵小	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+太阴阵小	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+两仪阵小	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+氏族战旗破损	普通npc	spr\Ui4\跨服国战																NormalNpc	spr\Ui4\跨服国战				
+洞天神碑破损	普通npc	spr\Ui4\跨服国战																NormalNpc	spr\Ui4\跨服国战				
+机关鹊奔跑1	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+机关鹊奔跑2	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+机关鹊奔跑3	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+机关鹊奔跑4	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+机关鹊奔跑5	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+机关鹊奔跑6	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+骑马	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+骑马高级	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+四人花轿	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+八人花轿	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+新郎	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+新娘	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+连理树	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+高级连理树	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+牡丹	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+百合	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+茉莉	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+玉兰	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+抱新娘	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+灯笼	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+投石车左一	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+投石车右一	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+投石车左二	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+投石车右二	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+指南车一	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+指南车二	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+王者雕像	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+少阳阵大	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+少阴阵大	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+太阳阵大	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+太阴阵大	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+两仪阵大	普通npc	spr\ui4\跨服国战\科技产品																NormalNpc	spr\ui4\跨服国战\科技产品				
+xueren0	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+xueren1	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+xueren2	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+xueren3	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+祈福牌楼	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+国庆日图腾基座	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+国庆日黑铁图腾	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+国庆日青铜图腾	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+国庆日白银图腾	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+国庆日黄金图腾	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+国庆日碧玉图腾	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+fbboss8	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+阻挡1	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+阻挡2	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+yincang	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+王者雕像1	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+龙血灵芝	普通npc	\spr\item\another																NormalNpc	\spr\item\another				
+金镜北	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+金镜南	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+金镜东	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+金镜西	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+金镜东北	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+金镜西北	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+金镜东南	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+金镜西南	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+光桥	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+红鬼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+绿鬼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+蓝鬼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+师门矿产	普通npc	spr\item\生活技能图库\NPC、OBJ图素																NormalNpc	spr\item\生活技能图库\NPC、OBJ图素				
+大锅	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+鞭炮1	普通npc	\spr\item\other																NormalNpc	\spr\item\other				
+许愿树	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+常青树苗	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+常青树	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+万年常青树	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+火墙1	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+火墙2	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+红水葫芦	普通npc	\spr\npcres\passerby														21	"56,8,1"	NormalNpc	\spr\npcres\passerby				
+赤浪	普通npc	\spr\skill\magic																NormalNpc	\spr\skill\magic				
+句芒神	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+司文郎	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+七彩花篮	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+花苗	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+天堂鸟	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+蓝色妖姬	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+武林图腾	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+空花篮	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+满花篮	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+闪光花篮	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+中秋兔子（跑动）	普通npc	\spr\npcres\animal																NormalNpc	\spr\npcres\animal				
+中秋兔子（对话）	普通npc	\spr\npcres\animal																NormalNpc	\spr\npcres\animal				
+武王	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+红砂阵灵	普通npc	\spr\npcres\animal														21	"56,8,1"	NormalNpc	\spr\npcres\animal				
+红砂箭	普通npc	\spr\skill\magic																NormalNpc	\spr\skill\magic				
+沙球	普通npc	\spr\skill\magic																NormalNpc	\spr\skill\magic				
+沙土监牢	普通npc	\spr\skill\magic																NormalNpc	\spr\skill\magic				
+雕像右上	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+雕像右下	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+雕像左下	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+雕像左上	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+火墙3	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+火墙4	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+采集点	普通npc	\spr\obj																NormalNpc	\spr\obj				
+单色神石	普通npc	\spr\obj																NormalNpc	\spr\obj				
+双色神石	普通npc	\spr\obj																NormalNpc	\spr\obj				
+三色神石	普通npc	\spr\obj																NormalNpc	\spr\obj				
+无用顽石	普通npc	\spr\obj																NormalNpc	\spr\obj				
+4周年图腾	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+七彩琉璃蛋	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+四不像	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+红花兔子	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+白兔	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+玉兔	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金兔	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+年兽	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+游龙金凤男	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+游龙金凤女	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+小祥龙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+圣诞树	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+小火龙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+天外飞仙男	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+天外飞仙女	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+烈焰熔金男	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+烈焰熔金女	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+九霄龙吟男	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+九霄龙吟女	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+青龙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+银龙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金龙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+临风装	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+桃妍装	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+风涯	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幽寂	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+祭渊谷传送门	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+幽寂变身	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+龙龟	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+密道出口	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+炎龙陷阱	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+tuongnamgs	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnamds	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnamdn	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnumgs	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnumds	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnumdn	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+malehong	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+malehai	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+malethanh	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+maletho	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+ngulanphuongy	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+viemlankimbao	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+namnoel	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+nunoel	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+hongoan	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+hoangphihotieu	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+thaccotrung	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+petdacky	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+petlytinhdai	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+pettuhuyen	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+huyenvu	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+nienthu	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+tuongnamgscam	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnamdscam	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnamdncam	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnumgscam	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnumdscam	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnumdncam	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnamgsden	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnamdsden	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnamdnden	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnumgsden	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnumdsden	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+tuongnumdnden	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+petquabong	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+thaihukiemlinh	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+bossbachho	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+bossthanhlong	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+haothienmatuong	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+pettucucmadong	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+petybattuongtruyen	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+pettietgiaotinhnhue	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+muaha_nam	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+muaha_nu	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+muathu_nam	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+muathu_nu	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+muadong_nam	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+muadong_nu	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+huyenvupet	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+玄武神魂	普通npc	\spr\npcres\animal																NormalNpc	\spr\npcres\animal				
+废弃的密道	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+常胜旌旗	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+被斩断的旌旗	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+副旗	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+被斩断的副旗	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+城市卫兵	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+夏装男	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+夏装女	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+重生石	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+黄兔	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+吴刚	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+蟠龙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+毕方	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+旱魃	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+黑图教众	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+黑图主教	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+化蛇	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+火天王	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+火邪	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+句芒	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+傀夫	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+擂台套装男	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+魅影红煞	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+魅影雪芒	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+契狂	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+山晖	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+太虚剑灵	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+天吴	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+万古熔怪	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+夕潭冰魄	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+夕潭水鬼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+夕潭水妖	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+葬仙鬼灵	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+葬仙鬼王	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+葬仙怨灵	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+绽晶镜像	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+诸犍	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+秋装男	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+秋装女	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+圣诞套装男	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+圣诞套装女	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+玄武灵宠	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+年兽2014	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+暮雪男	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+暮雪女	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+迎春殿	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+马上有钱	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+马上有车	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+马上有对象	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+马上有房	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+炎麟金袍	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+御麟凤衣	普通npc	spr\npcres\human																NormalNpc	spr\npcres\human				
+玄武神兽限量	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+武魂	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+勾陈	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+封神荣耀	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+玄武仙兽	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金毛虎	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+白虎	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+魔礼青	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+魔礼海	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+魔礼红	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+魔礼寿	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+魔将之魂	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+高级粮饷车	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+守炉童子	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+法宝炼化炉	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+勾陈灵兽蓝色	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+勾陈灵兽紫色	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+勾陈灵兽金色	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+朱雀神兽绿色	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+风卷残云金刚	普通npc	spr\npcres\battle														24	"1,1,1"	NormalNpc	spr\npcres\battle				
+焚火图腾强化	普通npc	spr\skill\magic																NormalNpc	spr\skill\magic				
+朱雀残魄分身	普通npc	spr\npcres\animal														25	"40,8,1"	NormalNpc	spr\npcres\animal				
+青龙试炼青龙	普通npc	spr\npcres\animal														24	"1,1,1"	NormalNpc	spr\npcres\animal				
+蟠龙宝箱	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+胡喜媚幼体	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+胡喜媚成长	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+胡喜媚化形	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+胡喜媚大成	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+哪吒化莲	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+哪吒幼生	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+哪吒散仙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+哪吒金仙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+蓝色烛神	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+绿色烛神	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+紫色烛神	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金色烛神	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+男甲雕像	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+小猴子	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+雷震子幼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+雷震子小	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+雷震子中	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+雷震子大	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+男甲雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男甲雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男甲雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男甲雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男甲雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+石矶幼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+石矶小	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+石矶中	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+石矶大	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+封二NPC	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+太乙真人幼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+太乙真人小	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+太乙真人中	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+太乙真人大	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金仙太乙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+妲己幼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+妲己小	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+妲己中	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+妲己大	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+申公豹幼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+申公豹小	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+申公豹中	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+申公豹大	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+黄飞虎幼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+黄飞虎小	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+黄飞虎中	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+黄飞虎大	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+封三移民使者	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金鸡胡喜媚	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金身哪吒	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金羽雷震子	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金冠石矶	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+哮天犬幼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+哮天犬小	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+哮天犬中	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+哮天犬大	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+杨戬幼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+杨戬小	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+杨戬中	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+杨戬大	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+姜子牙幼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+姜子牙小	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+姜子牙中	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+姜子牙大	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+李靖幼	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+李靖小	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+李靖中	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+李靖大	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+绝代双娇	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+衣钵相传	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+截教精锐	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+正义之道	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+忠犬随主	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+德高望重	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金狐妲己	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金豹申公豹	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金胆黄飞虎	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金身哮天犬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金神杨戬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金身姜子牙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升胡喜媚	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升胡喜媚	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升胡喜媚	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升胡喜媚	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升哪吒	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升哪吒	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升哪吒	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升哪吒	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升雷震子	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升雷震子	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升雷震子	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升雷震子	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金塔李靖	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金鸡飞升胡喜媚	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金身飞升哪吒	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金羽飞升雷震子	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升石矶	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升石矶	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升石矶	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升石矶	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升太乙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升太乙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升太乙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升太乙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升妲己	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升妲己	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升妲己	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升妲己	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升申公豹	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升申公豹	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升申公豹	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升申公豹	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金冠飞升石矶	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金仙飞升太乙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金狐飞升妲己	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金豹飞升申公豹	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升黄飞虎	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升黄飞虎	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升黄飞虎	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升黄飞虎	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升哮天犬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升哮天犬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升哮天犬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升哮天犬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升杨戬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升杨戬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升杨戬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升杨戬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升姜子牙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升姜子牙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升姜子牙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升姜子牙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金胆飞升黄飞虎	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金身飞升哮天犬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金神飞升杨戬	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金身飞升姜子牙	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+幼年飞升李靖	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+少年飞升李靖	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+青年飞升李靖	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+成年飞升李靖	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+陆压道人	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+金塔飞升李靖	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+赵公明	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+闻仲	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+勇气图腾	普通npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+胜利图腾	普通npc	spr\npcres\passerby														24	"1,1,1"	NormalNpc	spr\npcres\passerby				
+xuanwu	普通npc	\spr\npcres\animal																NormalNpc	\spr\npcres\animal				
+男甲雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男甲雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男甲雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男甲雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男甲雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女甲雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男道雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女道雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男异雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女异雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+worldboss	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+danlu	普通npc	spr\npcres\building																NormalNpc	spr\npcres\building				
+huyanshou	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+material006	普通npc	spr\npcres\material																NormalNpc	spr\npcres\material				
+jue_chen_gui_wang	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+男羽雕像	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女羽雕像	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男羽雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女羽雕像0级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男羽雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女羽雕像1级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男羽雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女羽雕像2级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男羽雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女羽雕像3级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+男羽雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+女羽雕像4级	普通npc	\spr\npcres\passerby																NormalNpc	\spr\npcres\passerby				
+xian_jing	技能npc	spr\npcres\passerby																NormalNpc	spr\npcres\passerby				
+媚骨天成	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				
+石破天惊	普通npc	spr\npcres\animal																NormalNpc	spr\npcres\animal				

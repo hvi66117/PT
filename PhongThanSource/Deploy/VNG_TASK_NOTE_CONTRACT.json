@@ -1,0 +1,38 @@
+{
+  "Schema": 1,
+  "Wave": 5,
+  "TaskNote": {
+    "OfficialRuntimeCall": "\\script\\npcdeath\\九婴.lua:25 TaskNote(908, 2)",
+    "AuditedFileReferences": 162,
+    "ExtractedCallCount": 951,
+    "RequiredArguments": ["taskId", "step"],
+    "OptionalArguments": "Dynamic template values at positions 3..N",
+    "WireProjection": "UI_NOTEINFO",
+    "JournalHeaderCount": 36,
+    "HeaderMapping": "abs(taskId) modulo 36",
+    "Actions": {
+      "stepLessThanZero": "finish",
+      "stepZero": "explain",
+      "stepGreaterThanZero": "perform"
+    }
+  },
+  "NpcCollection": {
+    "VirtualPath": "\\settings\\npccollection.txt",
+    "EntryId": "0x170570FA",
+    "Pak": "serverlist.pak",
+    "PakSha256": "F3AC02DC1E7CC8F4841DA0D1C0BF5C65E4A57C8F3B2D448E91AF32494C065E89",
+    "PayloadSha256": "13DCA1784C896DE6E71C46CAB2CAA075751DCFCC6FFB77A048EBAA1FE22C2C6E",
+    "DataRowCount": 30,
+    "Columns": ["id", "name", "description", "icon", "isBoss", "group"]
+  },
+  "SayTask": {
+    "Signature": "SayTask(message, options)",
+    "OptionShape": ["label", "callback", "show"],
+    "MaximumVisibleOptions": "MAX_ANSWERNUM"
+  },
+  "JusticeEvilMainTask": {
+    "SupportedIds": "1..128",
+    "PersistenceTaskRange": "4996..4999",
+    "BitsPerTaskValue": 32
+  }
+}

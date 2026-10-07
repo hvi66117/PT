@@ -1,0 +1,68 @@
+nType	nTypeInfo	BeginTimePreDay	EndTimePreDay	InitTime	TaskContent	TaskInfo	MapID	NpcX	NpcY	IsNewAction	IsHaveStar	FixBeginTime	FixEndTime	nLevel
+1	1440	0	0	2008,12,1,0,0	#ThiÕt Bè gi¸ng thÕ	#Sa m¹c chÕt Èn hiÖn	26	220	183	0	0	0	0	#CÊp 60
+1	5	0	1439	2008,12,1,0,0	#TÇm Di	#NguyÖt L·o	52	201	199	1	1	0	0	#CÊp 50
+1	1440	15	0	2008,12,1,0,0	#Kim Tr¹i gi¸ng thÕ	#§«ng H¶i Long Uyªn Èn hiÖn	41	224	217	0	0	0	0	#CÊp 60
+1	1440	30	0	2008,12,1,0,0	#C«n Bèi gi¸ng thÕ	#TÇng 5 Hiªn Viªn ®éng Èn hiÖn	31	248	192	0	0	0	0	#CÊp 60
+1	1440	45	0	2008,12,1,0,0	#Lam B¸ gi¸ng thÕ	#B¨ng Xuyªn Cùc Èn hiÖn	36	161	204	0	0	0	0	#CÊp 60
+1	1440	60	1380	2008,12,1,0,0	#Cöu Linh gi¸ng thÕ	#Tam S¬n Èn hiÖn	16	198	208	0	0	0	0	#CÊp 40
+1	1440	120	155	2008,12,1,0,0	#V¹n Tiªn trËn [Thæ]	# më ë Sïng thµnh doanh	0	0	0	0	0	0	0	#CÊp 31-50
+1	1440	125	160	2008,12,1,0,0	#V¹n Tiªn trËn [Thuû]	# më ë Xi V­u mé	0	0	0	0	0	0	0	#CÊp 51-70
+1	1440	130	165	2008,12,1,0,0	#V¹n Tiªn trËn [Ho¶]	# më ë Ngäc H­ cung	0	0	0	0	0	0	0	#CÊp 71-90
+1	1440	135	170	2008,12,1,0,0	#V¹n Tiªn trËn [Phong]	# më ë Phong thÇn ®µi	0	0	0	0	0	0	0	#CÊp 91-120
+1	1440	600	635	2008,12,1,0,0	#V¹n Tiªn trËn [Thæ]	# më ë Sïng thµnh doanh	0	0	0	0	0	0	0	#CÊp 31-50
+1	1440	605	640	2008,12,1,0,0	#V¹n Tiªn trËn [Thuû]	# më ë Xi V­u mé	0	0	0	0	0	0	0	#CÊp 51-70
+1	1440	610	645	2008,12,1,0,0	#V¹n Tiªn trËn [Ho¶]	# më ë Ngäc H­ cung	0	0	0	0	0	0	0	#CÊp 71-90
+1	1440	615	650	2008,12,1,0,0	#V¹n Tiªn trËn [Phong]	# më ë Phong thÇn ®µi	0	0	0	0	0	0	0	#CÊp 91-120
+1	1440	720	1440	2009.10.13.0.0	#Thñ lÜnh gi¸ng thÕ	#C¸c thñ lÜnh ®Õn c¸c ®¹i mª cung	0	0	0	0	0	0	0	 --
+1	1440	720	1440	2008,12,1,0,0	#ChiÕnTr­êng	#TruyÒn LÖnh Quan chiÕn tr­êng	0	0	0	0	0	0	0	#CÊp 50
+1	1440	720	0	2008,12,1,0,0	#ThiÕt Bè gi¸ng thÕ	#Sa m¹c chÕt Èn hiÖn	26	220	183	0	0	0	0	#CÊp 60
+1	1440	735	0	2008,12,1,0,0	#Kim Tr¹i gi¸ng thÕ	#§«ng H¶i Long Uyªn Èn hiÖn	41	224	217	0	0	0	0	#CÊp 60
+1	1440	750	0	2008,12,1,0,0	#C«n Bèi gi¸ng thÕ	#TÇng 5 Hiªn Viªn ®éng Èn hiÖn	31	248	192	0	0	0	0	#CÊp 60
+1	1440	765	0	2008,12,1,0,0	#Lam B¸ gi¸ng thÕ	#B¨ng Xuyªn Cùc Èn hiÖn	36	161	204	0	0	0	0	#CÊp 60
+1	1440	780	815	2008,12,1,0,0	#V¹n Tiªn trËn [Thæ]	# më ë Sïng thµnh doanh	0	0	0	0	0	0	0	#CÊp 31-50
+1	1440	785	820	2008,12,1,0,0	#V¹n Tiªn trËn [Thuû]	# më ë Xi V­u mé	0	0	0	0	0	0	0	#CÊp 51-70
+1	1440	790	825	2008,12,1,0,0	#V¹n Tiªn trËn [Ho¶]	# më ë Ngäc H­ cung	0	0	0	0	0	0	0	#CÊp 71-90
+1	1440	795	830	2008,12,1,0,0	#V¹n Tiªn trËn [Phong]	# më ë Phong thÇn ®µi	0	0	0	0	0	0	0	#CÊp 91-120
+1	60	900	975	2008,12,1,0,0	#ChiÕn tr­êng	#Bia thÇn	0	0	0	0	1	0	0	#CÊp 50
+1	1440	1080	0	2008,12,1,0,0	#Bµn cæ gi¸ng thÕ	#Khæn Tiªn cung tÇng 5 Èn hiÖn	51	198	212	0	0	0	0	#CÊp 80
+1	1440	1080	1115	2008,12,1,0,0	#V¹n Tiªn trËn [Thæ]	# më ë Sïng thµnh doanh	0	0	0	0	0	0	0	#CÊp 31-50
+1	1440	1085	1120	2008,12,1,0,0	#V¹n Tiªn trËn [Thuû]	# më ë Xi V­u mé	0	0	0	0	0	0	0	#CÊp 51-70
+1	1440	1090	1125	2008,12,1,0,0	#V¹n Tiªn trËn [Ho¶]	# më ë Ngäc H­ cung	0	0	0	0	0	0	0	#CÊp 71-90
+1	1440	1095	1130	2008,12,1,0,0	#V¹n Tiªn trËn [Phong]	# më ë Phong thÇn ®µi	0	0	0	0	0	0	0	#CÊp 91-120
+1	1440	1112	0	2008,12,1,0,0	#§¹i §iªu gi¸ng thÕ	#BÝch Du cung tÇng 5 Èn hiÖn	46	200	185	0	0	0	0	#CÊp 80
+1	1440	1125	0	2008,12,1,0,0	#D­¬ng TiÓn gi¸ng thÕ	#TrÇn §­êng	0	0	0	0	0	0	0	#CÊp 80
+0	1	1140	1320	2008,12,1,0,0	#PhongHáaL«i§µi	#TriÒu Ca-LÔ quan	21	219	191	1	1	0	0	#CÊp 50
+1	1440	1140	1380	2008,12,1,0,0	#Tiªu Xa l·nh ®Þa	#TuyÖt Long LÜnh-Tiªu ®Çu thÇn bÝ	0	0	0	0	0	0	0	 --
+1	1440	1140	1380	2008,12,1,0,0	#L·nh §Þa-giíi nghiªm	#l·nh ®Þa ®· vµo giai ®o¹n giíi nghiªm	0	0	0	0	0	0	0	 --
+1	1440	1170	1290	2008,12,1,0,0	#TuÕ Hµn §Þa KhÝ	#§ång Quan-H¹c l·o nh©n	14	187	215	0	0	0	0	#CÊp 90
+1	1440	1170	1350	2008,12,1,0,0	#Giao Long gi¸ng thÕ	#§«ng Doanh §¶o Èn hiÖn	55	214	173	0	0	0	0	#CÊp 110
+1	1440	1190	1370	2008,12,1,0,0	#Ly Long gi¸ng thÕ	#V©n Long §¶o Èn hiÖn	56	219	190	0	0	0	0	#CÊp 130
+1	1440	1230	1410	2009,1,1,0,1	#Giao Long gi¸ng thÕ	#Bång Lai ®¶o Èn hiÖn	54	202	186	0	0	0	0	#CÊp 150
+1	5760	1195	1230	2008,12,3,0,0	#Ma v­¬ng c«ng thµnh	#Tù x©y thµnh	0	0	0	0	1	0	0	 --
+1	1440	1200	0	2008,12,1,0,0	#BÊt NghÜa HÇu gi¸ng thÕ	#Ngäc H­ 10 n¨m sau	0	0	0	0	0	0	0	#CÊp 80
+1	60	1200	1275	2008,12,1,0,0	#ChiÕn tr­êng	#Bia thÇn	0	0	0	0	1	0	0	#CÊp 50
+1	1440	1260	1295	2008,12,1,0,0	#V¹n Tiªn trËn [Thæ]	# më ë Sïng thµnh doanh	0	0	0	0	0	0	0	#CÊp 31-50
+1	1440	1265	1300	2008,12,1,0,0	#V¹n Tiªn trËn [Thuû]	# më ë Xi V­u mé	0	0	0	0	0	0	0	#CÊp 51-70
+1	1440	1270	1305	2008,12,1,0,0	#V¹n Tiªn trËn [Ho¶]	# më ë Ngäc H­ cung	0	0	0	0	0	0	0	#CÊp 71-90
+1	1440	1275	1310	2008,12,1,0,0	#V¹n Tiªn trËn [Phong]	# më ë Phong thÇn ®µi	0	0	0	0	0	0	0	#CÊp 91-120
+1	1440	1380	1415	2008,12,1,0,0	#V¹n Tiªn trËn [Thæ]	# më ë Sïng thµnh doanh	0	0	0	0	0	0	0	#CÊp 31-50
+1	1440	1385	1420	2008,12,1,0,0	#V¹n Tiªn trËn [Thuû]	# më ë Xi V­u mé	0	0	0	0	0	0	0	#CÊp 51-70
+1	1440	1390	1425	2008,12,1,0,0	#V¹n Tiªn trËn [Ho¶]	# më ë Ngäc H­ cung	0	0	0	0	0	0	0	#CÊp 71-90
+1	1440	1395	1430	2008,12,1,0,0	#V¹n Tiªn trËn [Phong]	# më ë Phong thÇn ®µi	0	0	0	0	0	0	0	#CÊp 91-120
+0	4	1200	1380	2009,3,9,0,0	#Tam NguyÖt Kú S¬n	#LÔ quan ë TriÒu Ca, T©y Kú ph©n ph¸t	0	0	0	1	1	0	0	#30
+0	6	1140	1320	2009,4,1,0,1	#ChØ Diªn khiªu chiÕn	#LÔ quan ë Xi V­u Mé th«ng b¸o	4	200	207	1	1	0	0	#CÊp 50
+0	3	1140	1320	2009,4,15,0,0	#Thi nÐm TuyÕt	#LÔ quan ë Ngäc H­ Cung th«ng b¸o	3	220	197	1	1	0	0	#CÊp 50
+0	2	1230	1350	2009,4,15,0,0	#Cuéc thi khiªu chiÕn gíi h¹n	#LÔ quan ë TriÒu Ca th«ng b¸o	21	219	191	1	1	0	0	#30
+2	1,15	1140	1320	2009,5,1,0,0	#V¨n Khóc h¹ phµm	#Xin ®Õn LÔ quan ë T©y Kú ®Ó hái	20	183	190	1	1	0	0	#CÊp 55
+0	0	830	960	2009,5,20,0,0	#Trãc Quû ®èi kh¸ng	#LÔ quan ë Sïng Thµnh th«ng b¸o	2	200	197	1	1	0	0	#30
+1	0	1190	1320	2009,5,20,0,0	#Trãc Quû ®èi kh¸ng	#LÔ quan ë Sïng Thµnh th«ng b¸o	2	200	197	0	1	0	0	#30
+0	5	1140	1440	2009,7,20,0,0	#T×m b¶o tµng	#LÔ quan ë Ngäc H­ Cung th«ng b¸o	3	220	197	1	1	0	0	#CÊp 40
+1	11520	1260	1440	2009,8,5,0,0	#Thu thËp	#TriÒu Ca	21	221	179	1	1	0	0	#30
+1	1440	660	840	20010,9,1,0,0	#Ho¹t ®éng buæi tr­a	#Ho¹t ®éng tuÇn (buæi tr­a)	0	0	0	0	0	0	0	 --
+1	1440	1260	1380	2010,12,1,0,0	#Th¸i Th¹ch LuyÖn S¬n	#Ng­êi Tiªn Ma Giíi cã thÓ tham dù t¹i Chu BÊt Thiªn				0	0	0	0	#CÊp 31-50
+1	1440	140	175	2008,12,1,0,0	#v¹n Tiªn TrËn [HuyÔn]	#Më T©y Kú	0	0	0	0	0	0	0	#CÊp 121
+1	1440	620	655	2008,12,1,0,0	#v¹n Tiªn TrËn [HuyÔn]	#Më T©y Kú	0	0	0	0	0	0	0	#CÊp 121
+1	1440	800	835	2008,12,1,0,0	#v¹n Tiªn TrËn [HuyÔn]	#Më T©y Kú	0	0	0	0	0	0	0	#CÊp 121
+1	1440	1100	1135	2008,12,1,0,0	#v¹n Tiªn TrËn [HuyÔn]	#Më T©y Kú	0	0	0	0	0	0	0	#CÊp 121
+1	1440	1280	1315	2008,12,1,0,0	#v¹n Tiªn TrËn [HuyÔn]	#Më T©y Kú	0	0	0	0	0	0	0	#CÊp 121
+1	1440	1400	1435	2008,12,1,0,0	#v¹n Tiªn TrËn [HuyÔn]	#Më T©y Kú	0	0	0	0	0	0	0	#CÊp 121

@@ -1,0 +1,16 @@
+状态	图形文件名	小地图文件名
+队伍开放状态	\spr\npcres\style\menustate01.spr	
+交易开放状态	\spr\npcres\style\menustate02.spr	
+交易进行状态	\spr\npcres\style\menustate03.spr	
+睡眠状态	\spr\npcres\style\menustate04.spr	
+		
+		
+		
+队伍开放状态平均模式	\spr\npcres\style\menustate05.spr	
+可接任务Npc（5级以内）	\spr\Ui4\表情泡泡\动画\黄卷轴.spr	\spr\Ui4\表情泡泡\图标\小黄卷轴.spr
+可接任务Npc（5级以外）	\spr\Ui4\表情泡泡\动画\蓝卷轴.spr	\spr\Ui4\表情泡泡\图标\小蓝卷轴.spr
+等待任务完成Npc（5级以内）	\spr\Ui4\表情泡泡\动画\灰卷轴开.spr	\spr\Ui4\表情泡泡\图标\小灰卷轴开.spr
+等待任务完成Npc（5级以外）	\spr\Ui4\表情泡泡\动画\灰卷轴开.spr	\spr\Ui4\表情泡泡\图标\小灰卷轴开.spr
+可交任务Npc（5级以内）	\spr\Ui4\表情泡泡\动画\黄卷轴开.spr	\spr\Ui4\表情泡泡\图标\小黄卷轴开.spr
+可交任务Npc（5级以外）	\spr\Ui4\表情泡泡\动画\蓝卷轴开.spr	\spr\Ui4\表情泡泡\图标\小蓝卷轴开.spr
+队长助手状态	\Spr\Ui4\组队\旗子黄.spr	

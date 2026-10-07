@@ -1,0 +1,25 @@
+-- AUTHORED NPC 1003_13; not a claim of original appearance.
+function pt_guard()
+    local w = GetWorldPos()
+    if w ~= 1003 then CloseDialog(); return 0 end
+    return 1
+end
+function main()
+    if pt_guard() == 0 then return end
+    Say("Thuong Nhan Tay Vuc - Ngoc Hu cung (212/202)", 4, "Vai tro va huong dan/pt_about", "NPC lien quan/pt_routes", "Trang thai chuc nang/pt_status", "Dong/pt_close")
+end
+function pt_about()
+    if pt_guard() == 0 then return end
+    Say("Thuong nhan trong danh muc tan thu. Ban tai dung cung cap dia chi va tra cuu NPC; chua gan cong thuc thu cuoi cua NPC Tay Ky vao day.", 2, "Quay lai/main", "Dong/pt_close")
+end
+function pt_routes()
+    if pt_guard() == 0 then return end
+    Say("Lao Rua (212/203); Kim Ha Dong Tu (212/204); Sinh Hoat Su (217/202); Xich Tinh Tu (213/197); Chuyen Sinh Lao Lao (212/196)", 2, "Quay lai/main", "Dong/pt_close")
+end
+function pt_status()
+    if pt_guard() == 0 then return end
+    Say("Dang mo: doi thoai, huong dan va tra cuu. Nhan/tra nhiem vu, doi thuong va giao dich chua mo khi chua du ma du lieu.", 2, "Quay lai/main", "Dong/pt_close")
+end
+function pt_close()
+    CloseDialog()
+end

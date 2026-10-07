@@ -1,0 +1,2092 @@
+SearchItemList	AdditionKeyCount	AdditionKey_1	AdditionKey_2	AdditionKey_3	AdditionKey_4	AdditionKey_5	AdditionKey_6	AdditionKey_7	AdditionKey_8	AdditionKey_9	AdditionKey_10
+#§ång thau	1	#Nguyªn liÖu									
+#Háa vò	3	#Thu thËp tµi liÖu	#Lôc §¹o	#Nguyªn liÖu							
+#Ngäc cèt	3	#Thu thËp tµi liÖu	#Lôc §¹o	#Nguyªn liÖu							
+#§o¶n KiÕm	3	#Thu thËp tµi liÖu	#Lôc §¹o	#Nguyªn liÖu							
+#M¶nh Gi¸p	3	#Thu thËp tµi liÖu	#Lôc §¹o	#Nguyªn liÖu							
+#MÆt Quû	3	#Thu thËp tµi liÖu	#Lôc §¹o	#Nguyªn liÖu							
+#B¨ng c¬	3	#Thu thËp tµi liÖu	#Lôc §¹o	#Nguyªn liÖu							
+#QuÎ Cµn	1	#Nguyªn liÖu									
+#QuÎ Kh«n	1	#Nguyªn liÖu									
+#QuÎ Kh¶m	1	#Nguyªn liÖu									
+#QuÎ Ly	1	#Nguyªn liÖu									
+#QuÎ CÊn	1	#Nguyªn liÖu									
+#QuÎ §oµi	1	#Nguyªn liÖu									
+#QuÎ Tèn	1	#Nguyªn liÖu									
+#QuÎ ChÊn	1	#Nguyªn liÖu									
+#§Şa t©m	3	#VËt liÖu Tø t­îng	#Tø T­îng	#Nguyªn liÖu							
+#Phong lÖ	3	#VËt liÖu Tø t­îng	#Tø T­îng	#Nguyªn liÖu							
+#Thñy hån	3	#VËt liÖu Tø t­îng	#Tø T­îng	#Nguyªn liÖu							
+#Háa linh	3	#VËt liÖu Tø t­îng	#Tø T­îng	#Nguyªn liÖu							
+#Tr­êng Sinh cèc	1	#Kh¸c									
+#KÑo QuÕ hoa	1	#Kh¸c									
+#Hång thñy tinh	1	#Nguyªn liÖu									
+#B¸ L¹c Nh·n cÊp 1	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 2	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 3	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 4	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 5	2	#Nh·n t×nh	#Nguyªn liÖu								
+#S¸ch ch­ hÇu	1	#Nguyªn liÖu									
+#Lam b¶o th¹ch	1	#Nguyªn liÖu									
+#B¸ L¹c Nh·n cÊp 6	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 7	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 8	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 9	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 10	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 11	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 12	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 13	2	#Nh·n t×nh	#Nguyªn liÖu								
+#S¸ch ch­ hÇu (khëi)	1	#Nguyªn liÖu									
+#S¸ch ch­ hÇu (thõa)	1	#Nguyªn liÖu									
+#S¸ch ch­ hÇu (chuyÓn)	1	#Nguyªn liÖu									
+#S¸ch ch­ hÇu (hîp)	1	#Nguyªn liÖu									
+#Thæ linh phï	1	#Nguyªn liÖu									
+#Thñy linh phï	1	#Nguyªn liÖu									
+#Háa linh phï	1	#Nguyªn liÖu									
+#Phong linh phï	1	#Nguyªn liÖu									
+#M¶nh Hång thñy tinh	1	#Nguyªn liÖu									
+#M¶nh Lam thñy tinh	1	#Nguyªn liÖu									
+#Hång b¶o th¹ch	1	#Nguyªn liÖu									
+#Lam thñy tinh	1	#Nguyªn liÖu									
+#S¬n th¹ch	1	#Nguyªn liÖu									
+#Ngäc tû	1	#Nguyªn liÖu									
+#M¶nh tranh b¸t qu¸i	1	#Nguyªn liÖu									
+#Tranh b¸t qu¸i	1	#Nguyªn liÖu									
+#T­íng Qu©n lÖnh	1	#Nguyªn liÖu									
+#Khİ	1	#Nguyªn liÖu									
+#Thñy	1	#Nguyªn liÖu									
+#Lùc	1	#Nguyªn liÖu									
+#§Şa T©m	3	#VËt liÖu Tø t­îng	#Tø T­îng	#Nguyªn liÖu							
+#Phong LÖ	3	#VËt liÖu Tø t­îng	#Tø T­îng	#Nguyªn liÖu							
+#Thñy Hån	3	#VËt liÖu Tø t­îng	#Tø T­îng	#Nguyªn liÖu							
+#Háa Linh	3	#VËt liÖu Tø t­îng	#Tø T­îng	#Nguyªn liÖu							
+#Thu thËp	3	#Thu thËp tµi liÖu	#Lôc §¹o	#Nguyªn liÖu							
+#Tø Tinh	3	#VËt liÖu Tø t­îng	#Tø T­îng	#Nguyªn liÖu							
+#§¹i ®Şa nh·n	3	#TrËn nh·n	#Nh·n t×nh	#Nguyªn liÖu							
+#Hoµn Quan nh·n	3	#TrËn nh·n	#Nh·n t×nh	#Nguyªn liÖu							
+#LiÖt DiÖm nh·n	3	#TrËn nh·n	#Nh·n t×nh	#Nguyªn liÖu							
+#Phong B¹o nh·n	3	#TrËn nh·n	#Nh·n t×nh	#Nguyªn liÖu							
+#Hçn §én	1	#Nguyªn liÖu									
+#Khèn Kú	1	#Nguyªn liÖu									
+#Thao ThiÕt	1	#Nguyªn liÖu									
+#§µo C¬	1	#Nguyªn liÖu									
+#Hoµn Nguyªn Th¹ch	1	#Kh¸c									
+#Thøc ¨n cña gia sóc	1	#Nguyªn liÖu									
+#Lß tinh luyÖn s¬ cÊp	1	#Nguyªn liÖu									
+#Lß tinh luyÖn trung cÊp	1	#Nguyªn liÖu									
+#Ên Kı quÎ Kh«n	1	#Nguyªn liÖu									
+#Ên Kı quÎ Kh¶m	1	#Nguyªn liÖu									
+#Ên Kı quÎ Ly	1	#Nguyªn liÖu									
+#Ên Kı quÎ CÊn	1	#Nguyªn liÖu									
+#Ên Kı quÎ §oµi	1	#Nguyªn liÖu									
+#Ên Kı quÎ Tèn	1	#Nguyªn liÖu									
+#Ên Kı quÎ ChÊn	1	#Nguyªn liÖu									
+#Tø t­îng tinh th¹ch	1	#Nguyªn liÖu									
+#Dung tinh lé	1	#Nguyªn liÖu									
+#th¨m	1	#Kh¸c									
+#Håi Nguyªn phï	1	#Kh¸c									
+#Ph¸o tÕt	1	#Kh¸c									
+#§å Phæ:Linh khİ*L©m Binh Kh«i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh khİ*Cöu Cung qu¸n	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh khİ*Hæ ®Çu trô	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*L©m Binh Kh«i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Cöu Cung qu¸n	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Hæ ®Çu trô	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*L©m Binh yªu ®¸i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Cöu Cung c©n	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Hæ ®Çu yªu ®¸i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa khİ*L©m Binh Yªu ®¸i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Cöu Cung C©n	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh Khİ*Hæ §Çu Yªu ®¸i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh Khİ*L©m Binh ChiÕn Ngoa	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh Khİ*Cöu Cung Lı	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh Khİ*Hæ §Çu ngoa	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*L©m Binh ChiÕn Ngoa	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Cöu Cung Lı	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Hæ §Çu ngoa	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*L©m Binh phi phong	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Cöu Cung lÖnh	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Hæ ®Çu kÕt	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh Khİ*L©m Binh Phi Phong	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh Khİ*Cöu Cung LÖnh	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh Khİ*Hæ §Çu KÕt	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh Khİ*Thanh §ång L©m Binh Gi¸p	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh Khİ*Cöu Cung §¹o Bµo	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Linh Khİ*Hæ ®Çu Hé Gi¸p	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Thanh §ång L©m Binh Gi¸p	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Cöu Cung §¹o Bµo	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:NghÜa Khİ*Hæ ®Çu Hé Gi¸p	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*Kú L©n Kh«i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*ChuÈn §Ò Qu¸n	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*Kim Ng­u Trô	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*Kú L©n Kh«i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*ChuÈn §Ò Qu¸n	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*Kim Ng­u Trô	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*Kú L©n Kh«i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*ChuÈn §Ò Qu¸n	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*Kim Ng­u Trô	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*Kú L©n Yªu ®¸i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*ChuÈn §Ò C©n	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*Kim Ng­u Yªu §¸i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*Kú L©n yªu ®¸i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*ChuÈn §Ò C©n	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*Kim Ng­u yªu ®¸i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*Kú L©n yªu ®¸i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*ChuÈn §Ò C©n	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*Kim Ng­u yªu ®¸i	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*Kú L©n ChiÕn Ngoa	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*ChuÈn §Ò Lı	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*Kim Ng­u Ngoa	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*Kú L©n ChiÕn Ngoa	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*ChuÈn §Ò Lı	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*Kim Ng­u Ngoa	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*Kú L©n ChiÕn Ngoa	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*ChuÈn §Ò Lı	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*Kim Ng­u Ngoa	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*Kú L©n Phi Phong	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*ChuÈn §Ò LÖnh	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*Kim Ng­u KÕt	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*Kú L©n phi phong	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*ChuÈn §Ò lÖnh	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*Kim Ng­u kÕt	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*Kú L©n phi phong	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*ChuÈn §Ò lÖnh	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*Kim Ng­u kÕt	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*HuyÒn ThiÕt Kú L©n Gi¸p	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*ChuÈn §Ò ®¹o bµo	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Quy Nguyªn*Kim Ng­u Hé gi¸p	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*HuyÒn ThiÕt Kú L©n Gi¸p	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*ChuÈn §Ò ®¹o bµo	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Phôc ma*Kim Ng­u Hé gi¸p	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*HuyÒn ThiÕt Kú L©n Gi¸p	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*ChuÈn §Ò ®¹o bµo	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å Phæ:Hµo KiÖt*Kim Ng­u Hé gi¸p	2	#§å phæ trang bŞ cam	#§å phæ								
+#§å phæ:Ph¸ Qu©n*Tr¶m Long Kh«i	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*Nguyªn Thñy Qu¸n	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*ThÇn ¦ng Trô	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*Tr¶m Long Yªu §¸i	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*Nguyªn thñy C©n	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*ThÇn ¦ng Yªu §¸i	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*Tr¶m Long chiÕn ngoa	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*Nguyªn Thñy Lı	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*ThÇn ¦ng Ngoa	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*Tr¶m Long phi phong	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*Nguyªn Thñy lÖnh	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*ThÇn ¦ng kÕt	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*Tr¶m Long Gi¸p	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*Nguyªn Thñy ®¹o bµo	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#§å phæ:Ph¸ Qu©n*ThÇn ¦ng Hé Gi¸p	3	#§å phæ trang bŞ cam	#Ph¸ Qu©n	#§å phæ							
+#Hoa hång	1	#Kh¸c									
+#Tói quµ BiÕn th©n phï	1	#Kh¸c									
+#TiÓu Hång ®¬n	1	#D­îc phÈm									
+#Trung Hång ®¬n	1	#D­îc phÈm									
+#§¹i Hång ®¬n	1	#D­îc phÈm									
+#TiÓu Hoµn ®¬n	1	#D­îc phÈm									
+#Trung Hoµn ®¬n	1	#D­îc phÈm									
+#§¹i Hoµn ®¬n	1	#D­îc phÈm									
+#S« C« La	1	#D­îc phÈm									
+#Dao Tinh t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Dao Cam t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Dao Hãa t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Dao §Şnh t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Dao ¸ch t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Dao Tr¶m t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Dao Hµn t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Dao Né t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Dao HuyÒn t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc Tinh t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc Cam t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc Hãa t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc §Şnh t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc ¸ch t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc Tr¶m t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc DiÖm t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc Hoµng t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Thanh Lé (tiÓu)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ch©n Khİ (tiÓu)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#ChØ Nam Ch©u	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#Hoa ThÇn Thñ ph¸ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Chuéc Hån Ch©u	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Quan ¢m Thñy	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Thanh Lé (tiÓu)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ch©n Khİ (tiÓu)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#ChØ Nam Ch©u	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Hoa ThÇn Thñ ph¸ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Chuéc Hån Ch©u	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Quan ¢m Thñy	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Di ngo¹i phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#M«n bµi Thµnh thŞ	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Phè §Êu gi¸- lÖnh bµi B¹c	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Phóc Hé phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc N÷ Phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Phi Thè phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#BiÕn Th©n Phï *Love*	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#T©m t©m t­¬ng ¸nh phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#§Şa Linh	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#LiÖu Nguyªn	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#Truy Phong	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#H¶i Hån	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#TËt §iÖn	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#V¹n TŞch	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#ThÇn CÈu phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#ChØ nh©n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Phi Mao phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tói hµng	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Th­ëng Kim Bµi	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#B¹ch Kh«ng th­	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Lam Kh«ng Th­	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Hång Kh«ng Th­	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Hoµng Kh«ng th­	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#D­îc thñy	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Thæ Linh Th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Thñy Linh Th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Háa Linh Th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Phong Linh Th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Bµo th­¬ng lÖnh	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Thanh Lé	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ch©n Khİ	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#NhËt NguyÖt ®¬n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Th¸i Cùc §¬n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Lam D­¬ng §¬n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#B¸ L¹c Kİnh cÊp 10	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#B¸ L¹c Kİnh cÊp 11	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#B¸ L¹c Kİnh cÊp 12	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#B¸ L¹c Kİnh cÊp 13	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc H­ Lé	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Méc nh©n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Linh Phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Vò khİ s¬ cÊp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Trang bŞ s¬ cÊp (m¶nh)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Vò khİ s¬ cÊp (nguyªn)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#trang bŞ s¬ cÊp (nguyªn)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#TrÇm §iÖn	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#S¸ch ch­ hÇu (m¶nh)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ph¸o hoa	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Chuéc Hån ®¨ng	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Quy hån ch©u	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#B¶o T¸ Thanh lé	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#S¬n Thñy ch©n khİ	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Quy ch©n th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Håi §Şa phï	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#Thiªn Tiªn thñy	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Lß luyÖn ®¬n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ma Lôc	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#H.Qu©n LÖnh	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Phong tiªm	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#V« ¶nh Kh­¬ng Tö Nha	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#V« ¶nh NhŞ Lang ThÇn	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Quy ch©n ®¬n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#La H¸n hiÖu gi¸c	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Hoµng Ngäc	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Hoµng Ngäc cao cÊp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Hoµng Ngäc ®Æc biÖt	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Lôc Tïng Th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Lôc Tïng Th¹ch cao cÊp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Lôc Tïng Th¹ch ®Æc biÖt	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tru yªu lÖnh bµi	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Bïa khai kho¸ng	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Kim kİch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ng©n kİch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#§ång kİch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#C©y ph¸t tµi	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tö Kim hå l«	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Bµo th­¬ng håi thµnh phï	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#Hoa Thanh Lé	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Khao qu©n lÖnh	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#m¶nh v¶i	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#v¶i dÇy	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Bµn Cæ phï (tæ ®éi)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Khİ Nguyªn (cao cÊp)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Trang Nguyªn (cao cÊp)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tói Lôc ®¹o	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tói Tø T­îng	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#tói Ph¸p b¶o	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#tói ThÊt Qu¶i	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Quµ Chİ t«n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Håi thµnh phï (Siªu cÊp)	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#Cöu chuyÓn Cµn Kh«n ®¬n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#LÔ bao Lam B¶o Th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Linh Hån Kú	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Dô Hån H­¬ng	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ch×a khãa Linh Tª	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#L©m Tiªn Lé	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Cê tËp hîp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Linh Tinh Th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Lß tinh luyÖn cao cÊp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Hu©n Ma H­¬ng	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Khİ Tinh (s¬ cÊp)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Trang Tinh (s¬ cÊp)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Khİ Tinh (cao cÊp)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Trang Tinh (cao cÊp)	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Dao Tiªn t¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngäc Thanh T¸n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#L­u Ly B«i	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#ThÇn ThuËt	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#N÷ Oa Th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Thiªn Lı Nh·n	3	# TiÒn ®ång	#ChuyÓn tiÕp	# VËt phÈm tiÒn §ång							
+#Phôc Ma Linh	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ph¸c Ngäc	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tô Linh Ch©u	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#HÊp hån hå l«	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#TiÓu ®éi v« ¶nh h¾c s¸t phong	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#TiÓu ®éi v« ¶nh khuÈn nh©n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Ngò Quang th¹ch	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 10								
+#H×nh Thiªn Ên	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 10								
+#Cµn Kh«n Xİch	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 10								
+#Hçn Thiªn L¨ng	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 10								
+#B×nh L­u Ly	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 10								
+#Háa Long Tiªu	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 10								
+#¢m D­¬ng Kİnh	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 30								
+#Tói Ng« Phong	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 30								
+#Bİch Tú Bµ	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 30								
+#Kim Cang Ph¸ch	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 30								
+#Th¸i D­¬ng Ch©m	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 50								
+#Bµn Cæ ph­ín	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 50								
+#D©y Ph­îc Long	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 50								
+#Êm V¹n Nha	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 50								
+#D©y Khæn Tiªn	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 70								
+#ChÊn Thiªn Cung	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 70								
+#Kim B¸t Vu	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 70								
+#Linh Lung Th¸p	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 70								
+#Toµn T©m §inh	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#L¹c Hån Chung	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Hång Hå L«	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Ngäc H­ Phï	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Cäc §én Long	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Kİnh ChiÕu Yªu	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Phong Háa Lu©n	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Kim Quang Táa	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#H¹nh Hoµng Kú	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Cµn Kh«n Khuyªn	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#B¹ch Cèt Ph­ín	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#§Şnh Phong Ch©u	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Kinh Vu lan	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 50								
+#Hçn nguyªn ch©u	2	#Ph¸p B¶o	#Ph¸p B¶o cÊp 70								
+#HuyÒn Vò Gi¸p	1	#Trang bŞ									
+#Cù §Êu Gi¸p	1	#Trang bŞ									
+#§Êu TrËn Gi¸p	1	#Trang bŞ									
+#Vò Khóc Gi¸p	1	#Trang bŞ									
+#L©m Binh Gi¸p	1	#Trang bŞ									
+#Tinh Cang Gi¸p	1	#Trang bŞ									
+#Kú L©n Gi¸p	1	#Trang bŞ									
+#Khai Thiªn Gi¸p	1	#Trang bŞ									
+#Tr¶m Long Gi¸p	1	#Trang bŞ									
+#Hoµng Kim ChÊn §¸n  Gi¸p	1	#Trang bŞ									
+#Thiªn QuyÒn §¹o Bµo	1	#Trang bŞ									
+#V©n Trung §¹o Bµo	1	#Trang bŞ									
+#Qu¶ng Thµnh §¹o Bµo	1	#Trang bŞ									
+#Xİch Tïng §¹o Bµo	1	#Trang bŞ									
+#Cöu Cung §¹o Bµo	1	#Trang bŞ									
+#Th¸i Êt §¹o Bµo	1	#Trang bŞ									
+#ChuÈn §Ò §¹o Bµo	1	#Trang bŞ									
+#Th«ng Thiªn §¹o Bµo	1	#Trang bŞ									
+#Nguyªn Thñy ®¹o bµo	1	#Trang bŞ									
+#Hång Qu©n ®¹o bµo	1	#Trang bŞ									
+#Lang Nha Hé Gi¸p	1	#Trang bŞ									
+#KhuyÓn V¨n Hé Gi¸p	1	#Trang bŞ									
+#Tham Lang Hé Gi¸p	1	#Trang bŞ									
+#B¸o ThÇn Hé Gi¸p	1	#Trang bŞ									
+#Hæ §Çu Hé Gi¸p	1	#Trang bŞ									
+#Gi¸c Thó Hé Gi¸p	1	#Trang bŞ									
+#Kim Ng­u Hé Gi¸p	1	#Trang bŞ									
+#Lam §iªu Hé Gi¸p	1	#Trang bŞ									
+#ThÇn ¦ng Hé Gi¸p	1	#Trang bŞ									
+#Kh¸ng Long Hé Gi¸p	1	#Trang bŞ									
+#HuyÒn Vò Yªu §¸i	1	#Trang bŞ									
+#Cù §Êu Yªu §¸i	1	#Trang bŞ									
+#§Êu TrËn Yªu §¸i	1	#Trang bŞ									
+#Vò Khóc Yªu §¸i	1	#Trang bŞ									
+#L©m Binh Yªu §¸i	1	#Trang bŞ									
+#Tinh Cang Yªu §¸i	1	#Trang bŞ									
+#Kú L©n Yªu §¸i	1	#Trang bŞ									
+#Khai Thiªn Yªu §¸i	1	#Trang bŞ									
+#Tr¶m Long Yªu §¸i	1	#Trang bŞ									
+#ChÊn §¸n  Yªu §¸i	1	#Trang bŞ									
+#Thiªn QuyÒn C©n	1	#Trang bŞ									
+#V©n Trung C©n	1	#Trang bŞ									
+#Qu¶ng Thµnh C©n	1	#Trang bŞ									
+#Xİch Tïng C©n	1	#Trang bŞ									
+#Cöu Cung C©n	1	#Trang bŞ									
+#Th¸i Êt C©n	1	#Trang bŞ									
+#ChuÈn §Ò C©n	1	#Trang bŞ									
+#Th«ng Thiªn C©n	1	#Trang bŞ									
+#Nguyªn Thñy C©n	1	#Trang bŞ									
+#Hång Qu©n C©n	1	#Trang bŞ									
+#Lang Nha Yªu §¸i	1	#Trang bŞ									
+#KhuyÓn V¨n Yªu §¸i	1	#Trang bŞ									
+#Tham Lang Yªu §¸i	1	#Trang bŞ									
+#B¸o ThÇn Yªu §¸i	1	#Trang bŞ									
+#Hæ §Çu Yªu §¸i	1	#Trang bŞ									
+#Gi¸c Thó Yªu §¸i	1	#Trang bŞ									
+#Kim Ng­u Yªu §¸i	1	#Trang bŞ									
+#Lam §iªu Yªu §¸i	1	#Trang bŞ									
+#ThÇn ¦ng Yªu §¸i	1	#Trang bŞ									
+#Kh¸ng Long Yªu §¸i	1	#Trang bŞ									
+#HuyÒn Vò ChiÕn Ngoa	1	#Trang bŞ									
+#Cù §Êu ChiÕn Ngoa	1	#Trang bŞ									
+#§Êu TrËn ChiÕn Ngoa	1	#Trang bŞ									
+#Vò Khóc ChiÕn Ngoa	1	#Trang bŞ									
+#L©m Binh ChiÕn Ngoa	1	#Trang bŞ									
+#Tinh Cang ChiÕn Ngoa	1	#Trang bŞ									
+#Kú L©n ChiÕn Ngoa	1	#Trang bŞ									
+#Khai Thiªn ChiÕn Ngoa	1	#Trang bŞ									
+#Tr¶m Long ChiÕn Ngoa	1	#Trang bŞ									
+#ChÊn §¸n ChiÕn Ngoa	1	#Trang bŞ									
+#Thiªn QuyÒn Lı	1	#Trang bŞ									
+#V©n Trung Lı	1	#Trang bŞ									
+#Qu¶ng Thµnh Lı	1	#Trang bŞ									
+#Xİch Tïng Lı	1	#Trang bŞ									
+#Cöu Cung Lı	1	#Trang bŞ									
+#Th¸i Êt  Lı	1	#Trang bŞ									
+#ChuÈn §Ò Lı	1	#Trang bŞ									
+#Th«ng Thiªn Lı	1	#Trang bŞ									
+#Nguyªn Thñy Lı	1	#Trang bŞ									
+#Hång Qu©n lı	1	#Trang bŞ									
+#Lang Nha Ngoa	1	#Trang bŞ									
+#KhuyÓn V¨n Ngoa	1	#Trang bŞ									
+#Tham Lang Ngoa	1	#Trang bŞ									
+#B¸o ThÇn Ngoa	1	#Trang bŞ									
+#Hæ §Çu Ngoa	1	#Trang bŞ									
+#Gi¸c Thó Ngoa	1	#Trang bŞ									
+#Kim Ng­u Ngoa	1	#Trang bŞ									
+#Lam §iªu Ngoa	1	#Trang bŞ									
+#ThÇn ¦ng Ngoa	1	#Trang bŞ									
+#Kh¸ng Long Ngoa	1	#Trang bŞ									
+#Linh khİ*L©m Binh Kh«i	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh khİ*Cöu Cung qu¸n	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh khİ*Hæ ®Çu trô	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*L©m Binh Kh«i	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Cöu Cung qu¸n	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Hæ ®Çu trô	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*L©m Binh yªu ®¸i	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Cöu Cung c©n	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Hæ ®Çu yªu ®¸i	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh khİ*L©m Binh Yªu ®¸i	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*Cöu Cung C©n	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*Hæ §Çu Yªu ®¸i	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*L©m Binh ChiÕn Ngoa	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*Cöu Cung Lı	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*Hæ §Çu ngoa	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*L©m Binh ChiÕn Ngoa	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Cöu Cung Lı	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Hæ §Çu ngoa	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*L©m Binh phi phong	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Cöu Cung lÖnh	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Hæ ®Çu kÕt	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*L©m Binh Phi Phong	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*Cöu Cung LÖnh	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*Hæ §Çu KÕt	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*Thanh §ång L©m Binh Gi¸p	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*Cöu Cung §¹o Bµo	2	#Trang bŞ Cam	#Trang bŞ								
+#Linh Khİ*Hæ ®Çu Hé Gi¸p	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Thanh §ång L©m Binh Gi¸p	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Cöu Cung §¹o Bµo	2	#Trang bŞ Cam	#Trang bŞ								
+#NghÜa Khİ*Hæ ®Çu Hé Gi¸p	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*Kú L©n Kh«i	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*ChuÈn §Ò Qu¸n	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*Kim Ng­u Trô	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*Kú L©n Kh«i	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*ChuÈn §Ò Qu¸n	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*Kim Ng­u Trô	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*Kú L©n Kh«i	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*ChuÈn §Ò Qu¸n	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*Kim Ng­u Trô	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*Kú L©n Yªu ®¸i	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*ChuÈn §Ò C©n	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*Kim Ng­u Yªu §¸i	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*Kú L©n yªu ®¸i	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*ChuÈn §Ò C©n	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*Kim Ng­u yªu ®¸i	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*Kú L©n yªu ®¸i	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*ChuÈn §Ò C©n	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*Kim Ng­u yªu ®¸i	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*Kú L©n ChiÕn Ngoa	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*ChuÈn §Ò Lı	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*Kim Ng­u Ngoa	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*Kú L©n ChiÕn Ngoa	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*ChuÈn §Ò Lı	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*Kim Ng­u Ngoa	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*Kú L©n ChiÕn Ngoa	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*ChuÈn §Ò Lı	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*Kim Ng­u Ngoa	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*Kú L©n Phi Phong	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*ChuÈn §Ò LÖnh	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*Kim Ng­u KÕt	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*Kú L©n phi phong	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*ChuÈn §Ò lÖnh	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*Kim Ng­u kÕt	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*Kú L©n phi phong	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*ChuÈn §Ò lÖnh	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*Kim Ng­u kÕt	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*HuyÒn ThiÕt Kú L©n Gi¸p	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*ChuÈn §Ò ®¹o bµo	2	#Trang bŞ Cam	#Trang bŞ								
+#Quy Nguyªn*Kim Ng­u Hé gi¸p	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*HuyÒn ThiÕt Kú L©n Gi¸p	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*ChuÈn §Ò ®¹o bµo	2	#Trang bŞ Cam	#Trang bŞ								
+#Phôc ma*Kim Ng­u Hé gi¸p	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*HuyÒn ThiÕt Kú L©n Gi¸p	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*ChuÈn §Ò ®¹o bµo	2	#Trang bŞ Cam	#Trang bŞ								
+#Hµo KiÖt*Kim Ng­u Hé gi¸p	2	#Trang bŞ Cam	#Trang bŞ								
+#Ph¸ Qu©n*Tr¶m Long Kh«i	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*Nguyªn Thñy Qu¸n	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*ThÇn ¦ng Trô	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*Tr¶m Long Yªu §¸i	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*Nguyªn Thñy C©n	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*ThÇn ¦ng Yªu §¸i	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*Tr¶m Long chiÕn ngoa	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*Nguyªn Thñy Lı	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*ThÇn ¦ng Ngoa	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*Tr¶m Long phi phong	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*Nguyªn Thñy lÖnh	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*ThÇn ¦ng kÕt	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*Tr¶m Long Gi¸p	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*Nguyªn Thñy ®¹o bµo	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#Ph¸ Qu©n*ThÇn ¦ng Hé Gi¸p	3	#Trang bŞ Cam	#Trang bŞ	#Ph¸ Qu©n							
+#HuyÒn Vò Kh«i	1	#Trang bŞ									
+#Cù §Êu Kh«i	1	#Trang bŞ									
+#§Êu TrËn Kh«i	1	#Trang bŞ									
+#Vò Khóc Kh«i	1	#Trang bŞ									
+#L©m Binh Kh«i	1	#Trang bŞ									
+#Tinh Cang Kh«i	1	#Trang bŞ									
+#Kú L©n Kh«i	1	#Trang bŞ									
+#Khai Thiªn Kh«i	1	#Trang bŞ									
+#Tr¶m Long Kh«i	1	#Trang bŞ									
+#ChÊn §¸n  Kh«i	1	#Trang bŞ									
+#Thiªn QuyÒn Qu¸n	1	#Trang bŞ									
+#V©n Trung Qu¸n	1	#Trang bŞ									
+#Qu¶ng Thµnh Qu¸n	1	#Trang bŞ									
+#Xİch Tïng Qu¸n	1	#Trang bŞ									
+#Cöu Cung Qu¸n	1	#Trang bŞ									
+#Th¸i Êt Qu¸n	1	#Trang bŞ									
+#ChuÈn §Ò Qu¸n	1	#Trang bŞ									
+#Th«ng Thiªn Qu¸n	1	#Trang bŞ									
+#Nguyªn Thñy Qu¸n	1	#Trang bŞ									
+#Hång Qu©n qu¸n	1	#Trang bŞ									
+#Lang Nha  Trô	1	#Trang bŞ									
+#KhuyÓn V¨n Trô	1	#Trang bŞ									
+#Tham Lang  Trô	1	#Trang bŞ									
+#B¸o ThÇn Trô	1	#Trang bŞ									
+#Hæ §Çu  Trô	1	#Trang bŞ									
+#Gi¸c Thó  Trô	1	#Trang bŞ									
+#Kim Ng­u Trô	1	#Trang bŞ									
+#Lam §iªu Trô	1	#Trang bŞ									
+#ThÇn ¦ng Trô	1	#Trang bŞ									
+#Kh¸ng Long Trô	1	#Trang bŞ									
+#Hoµng Phiªu M·	1	#C­ìi thó									
+#Thanh T«ng M·	1	#C­ìi thó									
+#Xİch Thè M·	1	#C­ìi thó									
+#§éc Gi¸c Thó	1	#C­ìi thó									
+#ThiÕt Gi¸p Lang	1	#C­ìi thó									
+#M·nh Tö lang	1	#C­ìi thó									
+#U Hån Lang	1	#C­ìi thó									
+#§«ng B¾c Hæ	1	#C­ìi thó									
+#Phi Gi¸c hæ	1	#C­ìi thó									
+#Xİch DiÖm Hæ	1	#C­ìi thó									
+#L©m Gian T­íc	1	#C­ìi thó									
+#Bİch Ngäc T­íc	1	#C­ìi thó									
+#V©n Trung T­íc	1	#C­ìi thó									
+#Th­¬ng ¦ng	1	#C­ìi thó									
+#§an §Ønh H¹c	1	#C­ìi thó									
+#Thõa Phong H¹c	1	#C­ìi thó									
+#Phiªu TuyÕt H¹c	1	#C­ìi thó									
+#§¹i §iªu	1	#C­ìi thó									
+#§­¬ng Hç §iÓu	1	#C­ìi thó									
+#Thùc Háa §iÓu	1	#C­ìi thó									
+#Hoµng V©n Hå ®iÖp	1	#C­ìi thó									
+#Lôc Ngäc hå ®iÖp	1	#C­ìi thó									
+#Hång V©n hå ®iÖp	1	#C­ìi thó									
+#B¹ch V©n hå ®iÖp	1	#C­ìi thó									
+#Phong V©n hå ®iÖp	1	#C­ìi thó									
+#Thanh V©n hå ®iÖp	1	#C­ìi thó									
+#TrÇm H­¬ng hå ®iÖp	1	#C­ìi thó									
+#Xuyªn V©n hå ®iÖp	1	#C­ìi thó									
+#L¨ng V©n hå ®iÖp	1	#C­ìi thó									
+#Kh«ng Linh Hå ®iÖp	1	#C­ìi thó									
+#Ngäc Kú L©n	1	#C­ìi thó									
+#Ngò s¾c ThÇn Ng­u	1	#C­ìi thó									
+#Tø BÊt T­íng	1	#C­ìi thó									
+#Kim Phông Hoµng	1	#C­ìi thó									
+#Thanh Loan	1	#C­ìi thó									
+#Chu T­íc	1	#C­ìi thó									
+#Hoµng Linh Hå ®iÖp	1	#C­ìi thó									
+#Khæng T­íc Linh	1	#C­ìi thó									
+#Minh V­¬ng hå ®iÖp	1	#C­ìi thó									
+#Xİch DiÖm Kú L©n	1	#C­ìi thó									
+#øng Long	1	#C­ìi thó									
+#Phong L«i Hå ®iÖp	1	#C­ìi thó									
+#Xİch L©n											
+#Xuyªn ®iÖp											
+#øng Long	1	#C­ìi thó									
+#Phi M·	1	#C­ìi thó									
+#Phi Lang	1	#C­ìi thó									
+#Phi Hæ	1	#C­ìi thó									
+#Phi L©n	1	#C­ìi thó									
+#Xİch L©n	1	#C­ìi thó									
+#Phi T­íc	1	#C­ìi thó									
+#Phi ¦ng	1	#C­ìi thó									
+#Phi §iªu	1	#C­ìi thó									
+#Ph­îng Hoµng	1	#C­ìi thó									
+#øng Long	1	#C­ìi thó									
+#Phi ®iÖp	1	#C­ìi thó									
+#V©n ®iÖp	1	#C­ìi thó									
+#Phi Xuyªn ®iÖp	1	#C­ìi thó									
+#Linh ®iÖp	1	#C­ìi thó									
+#L«i ®iÖp	1	#C­ìi thó									
+#Tr¸c M·	1	#C­ìi thó									
+#Tr¸c Lang	1	#C­ìi thó									
+#Tr¸c Hæ	1	#C­ìi thó									
+#Tr¸c L©n	1	#C­ìi thó									
+#Siªu phµm L©n	1	#C­ìi thó									
+#Chİ L©n	1	#C­ìi thó									
+#ViÖt L©n	1	#C­ìi thó									
+#Chİ L©n	1	#C­ìi thó									
+#NghŞch L©n	1	#C­ìi thó									
+#Tr¸c T­íc	1	#C­ìi thó									
+#Tr¸c ¦ng	1	#C­ìi thó									
+#Tr¸c §iªu	1	#C­ìi thó									
+#Chİ §iªu	1	#C­ìi thó									
+#Tr¸c Ph­îng	1	#C­ìi thó									
+#Chİ Ph­îng	1	#C­ìi thó									
+#Tr¸c Long	1	#C­ìi thó									
+#Chİ Long	1	#C­ìi thó									
+#NghŞch Long	1	#C­ìi thó									
+#Tr¸c ®iÖp	1	#C­ìi thó									
+#ViÖt ®iÖp	1	#C­ìi thó									
+#Phi ®iÖp	1	#C­ìi thó									
+#Chİ ®iÖp	1	#C­ìi thó									
+#Tr¸c Linh	1	#C­ìi thó									
+#Siªu Linh	1	#C­ìi thó									
+#Chİ Linh	1	#C­ìi thó									
+#Tr¸c L«i	1	#C­ìi thó									
+#Chİ L«i	1	#C­ìi thó									
+#NghŞch L«i	1	#C­ìi thó									
+#Phi TuyÕt Xİch DiÖm Kú L©n	1	#C­ìi thó									
+#Phi TuyÕt øng Long	1	#C­ìi thó									
+#Phi TuyÕt Xuyªn V©n Hå §iÖp	1	#C­ìi thó									
+#Tr¶m T­íng ®ao	1	#Vò khİ									
+#Hãa HuyÕt ®ao	1	#Vò khİ									
+#§·ng Ma ®ao	1	#Vò khİ									
+#Xİch §ång ®ao	1	#Vò khİ									
+#Hµng Ma ®ao	1	#Vò khİ									
+#Giao H¶i ®ao	1	#Vò khİ									
+#§¶ ThÇn tiªn	1	#Vò khİ									
+#§o¹t Cung ®ao	1	#Vò khİ									
+#Trôc NhËt kiÕm	1	#Vò khİ									
+#Viªm §Õ kiÕm	1	#Vò khİ									
+#Tam Tiªm ®ao	1	#Vò khİ									
+#TÊn ThiÕt m©u	1	#Vò khİ									
+#Ng©n M·ng ®ao	1	#Vò khİ									
+#TiÕu Thiªn ®ao	1	#Vò khİ									
+#S¸ng ThÕ kİch	1	#Vò khİ									
+#Ng©n Tiªm kİch	1	#Vò khİ									
+#§iÓm T­íng kİch	1	#Vò khİ									
+#Tuyªn Hoa phñ	1	#Vò khİ									
+#Khai Thiªn phñ	1	#Vò khİ									
+#Tr¹m Kim phñ	1	#Vò khİ									
+#Tİch LŞch kiÕm	1	#Vò khİ									
+#DiÖt DiÖm kiÕm	1	#Vò khİ									
+#V©n Thñy kiÕm	1	#Vò khİ									
+#Tö D­¬ng kiÕm	1	#Vò khİ									
+#C«n Ng« kiÕm	1	#Vò khİ									
+#§én Long kiÕm	1	#Vò khİ									
+#Cù KhuyÕt kiÕm	1	#Vò khİ									
+#Ng« C©u kiÕm	1	#Vò khİ									
+#Kim Quang kiÕm	1	#Vò khİ									
+#Th¸i Cùc kiÕm	1	#Vò khİ									
+#§é ThÕ phñ	1	#Vò khİ									
+#Tr­êng Sinh  phñ	1	#Vò khİ									
+#Ly Cung phñ	1	#Vò khİ									
+#Phôc ThÕ phñ	1	#Vò khİ									
+#L¹c Hån phñ	1	#Vò khİ									
+#ThÊt b¶o phñ	1	#Vò khİ									
+#Tô Tiªn phñ	1	#Vò khİ									
+#TuyÖt Tiªn phñ	1	#Vò khİ									
+#Hçn Thiªn phñ	1	#Vò khİ									
+#DiÖt ThÇn phñ	1	#Vò khİ									
+#Cuèc chim	1	#Vò khİ									
+#Cuèc chim cÊp 2	1	#Vò khİ									
+#Cuèc chim cÊp 3	1	#Vò khİ									
+#Cuèc chim cÊp 4	1	#Vò khİ									
+#Cuèc chim cÊp 5	1	#Vò khİ									
+#Cuèc chim cÊp 6	1	#Vò khİ									
+#Cuèc chim cÊp 7	1	#Vò khİ									
+#Cuèc chim cÊp 8	1	#Vò khİ									
+#Cuèc chim cÊp 9	1	#Vò khİ									
+#Cuèc chim cÊp 10	1	#Vò khİ									
+#§¹i ®ao	1	#Vò khİ									
+#Ph¸p kiÕm	1	#Vò khİ									
+#Hçn thÕ phñ	1	#Vò khİ									
+#Lç Ban phñ	1	#Vò khİ									
+#Lç Ban phñ cÊp 2	1	#Vò khİ									
+#Lç Ban phñ cÊp 3	1	#Vò khİ									
+#Lç Ban phñ cÊp 4	1	#Vò khİ									
+#Lç Ban phñ cÊp 5	1	#Vò khİ									
+#Lç Ban phñ cÊp 6	1	#Vò khİ									
+#Lç Ban phñ cÊp 7	1	#Vò khİ									
+#Lç Ban phñ cÊp 8	1	#Vò khİ									
+#Lç Ban phñ cÊp 9	1	#Vò khİ									
+#Lç Ban phñ cÊp 10	1	#Vò khİ									
+#HuyÒn Vò phi phong	1	#Trang bŞ									
+#Cù §Êu phi phong	1	#Trang bŞ									
+#§Êu TrËn phi phong	1	#Trang bŞ									
+#Vò Khóc phi phong	1	#Trang bŞ									
+#L©m Binh phi phong	1	#Trang bŞ									
+#Tinh Cang phi phong	1	#Trang bŞ									
+#Kú L©n phi phong	1	#Trang bŞ									
+#Khai Thiªn phi phong	1	#Trang bŞ									
+#Tr¶m Long phi phong	1	#Trang bŞ									
+#ChÊn §¸n phi phong	1	#Trang bŞ									
+#Thiªn QuyÒn lÖnh	1	#Trang bŞ									
+#V©n Trung lÖnh	1	#Trang bŞ									
+#Qu¶ng Thµnh lÖnh	1	#Trang bŞ									
+#Xİch Tïng lÖnh	1	#Trang bŞ									
+#Cöu Cung lÖnh	1	#Trang bŞ									
+#Th¸i Êt lÖnh	1	#Trang bŞ									
+#ChuÈn §Ò lÖnh	1	#Trang bŞ									
+#Th«ng Thiªn lÖnh	1	#Trang bŞ									
+#Nguyªn Thñy lÖnh	1	#Trang bŞ									
+#Hång Qu©n lÖnh	1	#Trang bŞ									
+#Lang Nha kÕt	1	#Trang bŞ									
+#KhuyÓn V¨n kÕt	1	#Trang bŞ									
+#Tham Lang kÕt	1	#Trang bŞ									
+#B¸o ThÇn kÕt	1	#Trang bŞ									
+#Hæ §Çu kÕt	1	#Trang bŞ									
+#Gi¸c Thó kÕt	1	#Trang bŞ									
+#Kim Ng­u kÕt	1	#Trang bŞ									
+#Lam §iªu kÕt	1	#Trang bŞ									
+#ThÇn ¦ng kÕt	1	#Trang bŞ									
+#Kh¸ng Long kÕt	1	#Trang bŞ									
+#Ch­ëng T©m L«i	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#L­u Tinh Th¹ch	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#B¨ng TuyÕt ®¹n	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tİch LŞch Háa	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tinh Th«ng L«i HÖ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Thiªn Phong §Şa NhËn	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#B¨ng C¬ TuyÕt Cèt	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Phong l©m háa s¬n	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#H¹n §Şa L«i	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tinh Th«ng Thæ HÖ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#ThiÕt M· B¨ng Qua	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tinh Th«ng Háa HÖ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Phong V©n L«i §éng	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Ngò Nh¹c TriÒu T«ng	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tinh Th«ng B¨ng HÖ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#ThËp Ph­¬ng LiÖt Háa	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#L«i Phong Gi¸p	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Thiªn B¨ng ®Şa liÖt	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#B¨ng Phong B¹o	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Chóc Dung Ch©n Khİ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#L«i §éng Cöu thiªn	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#HuyÒn N÷ Bæ Thiªn	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#B¨ng Phong V¹n Lı	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tam Muéi Ch©n Háa	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#TÕ HuyÕt tr¶m	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#L¨ng Ba Vi Bé	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Khai s¬n tr¶m	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Håi Phong Tr¶m	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#§iÖn Quang Tr¶m	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Hoµnh Kh«ng Tr¶m	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tinh Th«ng §o¶n §ao	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tinh Th«ng Tr­êng §ao	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tam §Çu Lôc Thñ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#HuyÒn B¨ng tr¶m	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Háa Quang Tr¶m	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Liªn Hoµn Tr¶m	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#L¹c §Şa Tr¶m	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#ThuÇn D­¬ng Hé ThÓ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Thiªn Qu©n Tr¶m	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Khuynh Thµnh NhÊt Kİch	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Kim Cang chó	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Th«i Th©n Chó	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Bæ T©m Chó	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#C­êng C«ng chó	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Ph¸ Gi¸p chó	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Bå §Ò chó	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tr¶m T©m Chó	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#TËt Phong chó	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#V¹n Cèt Toµn Kh«	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Lùc SÜ tÕ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Tr­êng Cung tÕ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Thiªn Vò tÕ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Liªn Nç TÕ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Háa L«i TÕ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#To¸i Cèt tÕ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#L­u Tinh tÕ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Truy Hån tÕ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Phong QuyÓn Tµn V©n	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Bµn Cæ khai thiªn	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Ban M«n Léng Phñ	2	#Kü n¨ng	#S¸ch kü n¨ng								
+#Håi thµnh phï	2	#ChuyÓn tiÕp	#Kh¸c								
+#TuyÕt Qu¸i Phï	1	#Kh¸c									
+#Háa DiÖn Phï	1	#Kh¸c									
+#KiÕm Nh©n Phï	1	#Kh¸c									
+#Di ngo¹i phï siªu cÊp	2	#ChuyÓn tiÕp	#Kh¸c								
+#LiÔu méc	1	#Nguyªn liÖu									
+#Siªu Ph­îng	1	#C­ìi thó									
+#B¸nh İt ®Æc biÖt	1	#Nguyªn liÖu									
+#B¸nh İt lín	1	#Nguyªn liÖu									
+#B¸nh İt	1	#Nguyªn liÖu									
+#§å phæ: Thiªn Tø*Tr¶m Long Kh«i	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*Nguyªn Thñy qu¸n	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*ThÇn ¦ng trô	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*Tr¶m Long Yªu ®¸i	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*Nguyªn Thñy C©n	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*ThÇn ¦ng Yªu ®¸i	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*Tr¶m Long ChiÕn Ngoa	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*Nguyªn Thñy Lı	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*ThÇn ¦ng Ngoa	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*Tr¶m Long Phi phong	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*Nguyªn Thñy lÖnh	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*ThÇn ¦ng KÕt	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*HuyÒn thiÕt Tr¶m Long gi¸p	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*Nguyªn Thñy §¹o Bµo	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#§å phæ: Thiªn Tø*ThÇn ¦ng Hé Gi¸p	3	#§å phæ trang bŞ cam	#Thiªn Tø	#§å phæ							
+#Thiªn Tø*Tr¶m Long Kh«i	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*Nguyªn Thñy qu¸n	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*ThÇn ¦ng trô	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*Tr¶m Long Yªu ®¸i	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*Nguyªn Thñy C©n	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*ThÇn ¦ng Yªu ®¸i	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*Tr¶m Long ChiÕn Ngoa	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*Nguyªn Thñy Lı	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*ThÇn ¦ng Ngoa	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*Tr¶m Long Phi phong	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*Nguyªn Thñy lÖnh	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*ThÇn ¦ng KÕt	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*HuyÒn thiÕt Tr¶m Long gi¸p	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*Nguyªn Thñy §¹o Bµo	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Thiªn Tø*ThÇn ¦ng Hé Gi¸p	3	#Trang bŞ Cam	#Thiªn Tø	#Trang bŞ							
+#Ph¸ Qu©n*Tr¶m Long Yªu §¸i	3	#Trang bŞ Cam	#Ph¸ Qu©n	#Trang bŞ							
+#Ph¸ Qu©n*Nguyªn Thñy C©n	3	#Trang bŞ Cam	#Ph¸ Qu©n	#Trang bŞ							
+#Ph¸ Qu©n*ThÇn ¦ng Yªu §¸i	3	#Trang bŞ Cam	#Ph¸ Qu©n	#Trang bŞ							
+#Ph¸ Qu©n*Tr¶m Long chiÕn ngoa	3	#Trang bŞ Cam	#Ph¸ Qu©n	#Trang bŞ							
+#Ph¸ Qu©n*Nguyªn Thñy Lı	3	#Trang bŞ Cam	#Ph¸ Qu©n	#Trang bŞ							
+#Ph¸ Qu©n*ThÇn ¦ng Ngoa	3	#Trang bŞ Cam	#Ph¸ Qu©n	#Trang bŞ							
+#Ph¸ Qu©n*Tr¶m Long Gi¸p	3	#Trang bŞ Cam	#Ph¸ Qu©n	#Trang bŞ							
+#Ph¸ Qu©n*Nguyªn Thñy ®¹o bµo	3	#Trang bŞ Cam	#Ph¸ Qu©n	#Trang bŞ							
+#Ph¸ Qu©n*ThÇn ¦ng Hé Gi¸p	3	#Trang bŞ Cam	#Ph¸ Qu©n	#Trang bŞ							
+#TÕ Tæ bµi	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Bao quµ Thøc ¨n	3	# TiÒn ®ång	# VËt phÈm tiÒn §ång	#Thøc ¨n cña gia sóc							
+#Tinh chÕ ChuyÓn Long Xu	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Cöu Tinh Tø §µn Ch©u	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#ChuyÓn Long Xu	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#D¹ Hµnh Y	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Cuèc thuèc	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tói Ph¸p B¶o trung cÊp	3	# TiÒn ®ång	# VËt phÈm tiÒn §ång	#Ph¸p B¶o							
+#Tói Ph¸p B¶o cao cÊp	3	# TiÒn ®ång	# VËt phÈm tiÒn §ång	#Ph¸p B¶o							
+#Long Hæ lÖnh	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#M¶nh Hoµng thñy tinh	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Hoµng thñy tinh	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Hoµng b¶o th¹ch	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#M¶nh Lôc Thñy tinh	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Lôc Thñy tinh	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Lôc B¶o th¹ch	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Lôc Bİch tû	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Hoµng Bİch tû	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm to¸i ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm Phµm ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm L­¬ng Ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm Danh Ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm Ngäc Tinh (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm Ngäc T©m (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm Ngäc H«n (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh to¸i ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh Phµm ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh L­¬ng Ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh Danh Ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh Ngäc Tinh (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh Ngäc T©m (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh Ngäc Hån (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ to¸i ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ Phµm ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ L­¬ng Ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ Danh Ngäc (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ Ngäc Tinh (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ Ngäc T©m (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ Ngäc Hån (ch­a mµi)	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm to¸i ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm Phµm ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm L­¬ng Ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm Danh Ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm Ngäc Tinh	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm Ngäc t©m	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Xİch Viªm Ngäc hån	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh to¸i ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh Phµm ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh L­¬ng Ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh Danh Ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh Ngäc Tinh	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh Ngäc t©m	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Thanh Minh Ngäc hån	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ to¸i ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ Phµm ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ L­¬ng Ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ Danh Ngäc	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ Ngäc Tinh	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ Ngäc t©m	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#Tö Hµ Ngäc hån	2	#Nguyªn liÖu	#B¶o Th¹ch								
+#M¹n ®µ lµ hoa	1	#Nguyªn liÖu									
+#M¹n ch©u sa hoa	1	#Nguyªn liÖu									
+#ThÇn L«i Gi¸c	2	#C­ìi thó	#Thó c­ìi Tiªn Ma								
+#Tø Dùc Minh	2	#C­ìi thó	#Thó c­ìi Tiªn Ma								
+#LiÖt Kh«ng Dùc	2	#C­ìi thó	#Thó c­ìi Tiªn Ma								
+#Doanh Tinh Linh-Th­êng	3	#Linh th¹ch	#Ph¸p khİ	#Nguyªn liÖu							
+#Doanh Tinh Linh-Tèt	3	#Linh th¹ch	#Ph¸p khİ	#Nguyªn liÖu							
+#H¹o NguyÖt Linh-Th­êng	3	#Linh th¹ch	#Ph¸p khİ	#Nguyªn liÖu							
+#H¹o NguyÖt Linh-Tèt	3	#Linh th¹ch	#Ph¸p khİ	#Nguyªn liÖu							
+#Cùc phÈm Doanh tinh linh th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Cùc phÈm H¹o NguyÖt linh th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#ThÊt S¾c Bèi	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#tu th©n quyÕt	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tinh th¹ch s¬ cÊp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tinh th¹ch trung cÊp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tinh th¹ch cao cÊp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Di Quang kİnh	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#LuyÖn hãa ®¬n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#TrÊn quèc Hæ phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#T­íng Ên	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Thiªn NhËn	2	#Vò khİ	#Tiªn MaVò khİ								
+#Xİch Háa KiÕm	2	#Vò khİ	#Tiªn MaVò khİ								
+#Thiªn Mé phñ	2	#Vò khİ	#Tiªn MaVò khİ								
+#V©n Kİch	2	#Vò khİ	#Tiªn MaVò khİ								
+#HuyÒn Khung Yªu ®¸i	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Minh Quang C©n	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Thiªn Léc Yªu ®¸i	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#HuyÒn Khung Phi Phong	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Minh Quang lÖnh	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Thiªn Léc KÕt	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#ThÇn Phôc HuyÒn Khung Gi¸p	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Minh Quang §¹o bµo	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Thiªn Léc Hé gi¸p	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#HuyÒn Khung Kh«i	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Minh Quang Qu¸n	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Thiªn Léc Trô	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#HuyÒn Khung ChiÕn ngoa	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Minh Quang Lı	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Thiªn Léc Ngoa	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Bæ T©m ®¬n	1	#D­îc phÈm									
+#Bæ T©m ®¬n (trung)	1	#D­îc phÈm									
+#Bæ T©m ®¬n (®¹i)	1	#D­îc phÈm									
+#Håi Nguyªn ®¬n	1	#D­îc phÈm									
+#Håi Nguyªn ®¬n (trung)	1	#D­îc phÈm									
+#Håi Nguyªn ®¬n (®¹i)	1	#D­îc phÈm									
+#B¸ L¹c Kİnh cÊp 14	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tru Tµ KiÕm	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tr©m H÷u Hoµng Ngäc	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tr©m H÷u Lôc Tïng th¹ch	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Chu T­íc lÖnh bµi	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Thiªn Chuú B¸ch LuyÖn	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#LÔ bao M¹n §µ la hoa	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#LÔ bao M¹n Ch©u Sa hoa	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#§Çu Minh gi¶n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Bèc qu¸i phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#H·n T­íng T©m §¾c	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#DiÖm Quang Phæ	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Kı Hån Phï	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Tö Kim Ên	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#V©n Ban B¶o §iÓn	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Trİ ®a tinh	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#V« Tæn Hoµn Hån ®¬n	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Chiªu bµi *TiÒn tµi nh­ n­íc	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Linh Quang B¶o Kİnh	2	#Mµi s¸ng	#Nguyªn liÖu								
+#Hçn §én B¶o Kİnh	2	#Mµi s¸ng	#Nguyªn liÖu								
+#BÊt Chu HuyÒn ThiÕt	1	#Nguyªn liÖu									
+#BÊt Chu Tinh Cang	1	#Nguyªn liÖu									
+#Vi Quang Qu¸i Phï (ch­a mµi)	3	#Nguyªn liÖu	#Qu¸i phï	#Huy Quang							
+#Vi Quang Qu¸i phï <thiªn>	3	#Nguyªn liÖu	#Qu¸i phï	#Huy Quang							
+#Vi Quang Qu¸i phï <®Şa>	3	#Nguyªn liÖu	#Qu¸i phï	#Huy Quang							
+#Vi Quang Qu¸i phï <thñy>	3	#Nguyªn liÖu	#Qu¸i phï	#Huy Quang							
+#Vi Quang Qu¸i phï <háa>	3	#Nguyªn liÖu	#Qu¸i phï	#Huy Quang							
+#Vi Quang Qu¸i phï <s¬n>	3	#Nguyªn liÖu	#Qu¸i phï	#Huy Quang							
+#Vi Quang Qu¸i phï <tr¹ch>	3	#Nguyªn liÖu	#Qu¸i phï	#Huy Quang							
+#Vi Quang Qu¸i phï <phong>	3	#Nguyªn liÖu	#Qu¸i phï	#Huy Quang							
+#Vi Quang Qu¸i phï <l«i>	3	#Nguyªn liÖu	#Qu¸i phï	#Huy Quang							
+#Tinh Th¸i Qu¸i phï (ch­a mµi)	3	#Nguyªn liÖu	#Qu¸i phï	#Tinh Th¸i							
+#Tinh Th¸i Qu¸i phï <thiªn>	3	#Nguyªn liÖu	#Qu¸i phï	#Tinh Th¸i							
+#Tinh Th¸i Qu¸i phï <®Şa>	3	#Nguyªn liÖu	#Qu¸i phï	#Tinh Th¸i							
+#Tinh Th¸i Qu¸i phï <thñy>	3	#Nguyªn liÖu	#Qu¸i phï	#Tinh Th¸i							
+#Tinh Th¸i Qu¸i phï <háa>	3	#Nguyªn liÖu	#Qu¸i phï	#Tinh Th¸i							
+#Tinh Th¸i Qu¸i phï <s¬n>	3	#Nguyªn liÖu	#Qu¸i phï	#Tinh Th¸i							
+#Tinh Th¸i Qu¸i phï <tr¹ch>	3	#Nguyªn liÖu	#Qu¸i phï	#Tinh Th¸i							
+#Tinh Th¸i Qu¸i phï <phong>	3	#Nguyªn liÖu	#Qu¸i phï	#Tinh Th¸i							
+#Tinh Th¸i Qu¸i phï <l«i>	3	#Nguyªn liÖu	#Qu¸i phï	#Tinh Th¸i							
+#NguyÖt Hoa Qu¸i phï (ch­a mµi)	3	#Nguyªn liÖu	#Qu¸i phï	#NguyÖt Hoa							
+#NguyÖt Hoa Qu¸i phï <thiªn>	3	#Nguyªn liÖu	#Qu¸i phï	#NguyÖt Hoa							
+#NguyÖt Hoa Qu¸i phï <®Şa>	3	#Nguyªn liÖu	#Qu¸i phï	#NguyÖt Hoa							
+#NguyÖt Hoa Qu¸i phï <thñy>	3	#Nguyªn liÖu	#Qu¸i phï	#NguyÖt Hoa							
+#NguyÖt Hoa Qu¸i phï <háa>	3	#Nguyªn liÖu	#Qu¸i phï	#NguyÖt Hoa							
+#NguyÖt Hoa Qu¸i phï <s¬n>	3	#Nguyªn liÖu	#Qu¸i phï	#NguyÖt Hoa							
+#NguyÖt Hoa Qu¸i phï <tr¹ch>	3	#Nguyªn liÖu	#Qu¸i phï	#NguyÖt Hoa							
+#NguyÖt Hoa Qu¸i phï <phong>	3	#Nguyªn liÖu	#Qu¸i phï	#NguyÖt Hoa							
+#NguyÖt Hoa Qu¸i phï <l«i>	3	#Nguyªn liÖu	#Qu¸i phï	#NguyÖt Hoa							
+#Kim ¤ Qu¸i phï (ch­a mµi)	3	#Nguyªn liÖu	#Qu¸i phï	#Kim ¤							
+#Kim ¤ Qu¸i phï <thiªn>	3	#Nguyªn liÖu	#Qu¸i phï	#Kim ¤							
+#Kim ¤ Qu¸i phï <®Şa>	3	#Nguyªn liÖu	#Qu¸i phï	#Kim ¤							
+#Kim ¤ Qu¸i phï <thñy>	3	#Nguyªn liÖu	#Qu¸i phï	#Kim ¤							
+#Kim ¤ Qu¸i phï <háa>	3	#Nguyªn liÖu	#Qu¸i phï	#Kim ¤							
+#Kim ¤ Qu¸i phï <s¬n>	3	#Nguyªn liÖu	#Qu¸i phï	#Kim ¤							
+#Kim ¤ Qu¸i phï <tr¹ch>	3	#Nguyªn liÖu	#Qu¸i phï	#Kim ¤							
+#Kim ¤ Qu¸i phï <phong>	3	#Nguyªn liÖu	#Qu¸i phï	#Kim ¤							
+#Kim ¤ Qu¸i phï <l«i>	3	#Nguyªn liÖu	#Qu¸i phï	#Kim ¤							
+#Tranh Qu¸i Phï s¬ cÊp	2	#Nguyªn liÖu	#Qu¸i phï								
+#HuyÒn Khung Lôc Tinh Th¹ch	3	#Hîp thµnh	#Nguyªn liÖu	#Tinh Th¹ch							
+#Minh Quang Lôc Tinh Th¹ch	3	#Hîp thµnh	#Nguyªn liÖu	#Tinh Th¹ch							
+#Thiªn Léc Lôc Tinh Th¹ch	3	#Hîp thµnh	#Nguyªn liÖu	#Tinh Th¹ch							
+#Khu«n hé gi¸p	3	#Hîp thµnh	#Nguyªn liÖu	#Khu«n							
+#Khu«n phi phong	3	#Hîp thµnh	#Nguyªn liÖu	#Khu«n							
+#Thuèc nhém mµu xanh	3	#Hîp thµnh	#Nguyªn liÖu	#Thuèc nhuém							
+#Thuèc nhém mµu vµng	3	#Hîp thµnh	#Nguyªn liÖu	#Thuèc nhuém							
+#Hång tuyÕn	1	#Nguyªn liÖu									
+#Thanh tuyÕn	1	#Nguyªn liÖu									
+#B¹ch tuyÕn	1	#Nguyªn liÖu									
+#H¾c tuyÕn	1	#Nguyªn liÖu									
+#Hoµng tuyÕn	1	#Nguyªn liÖu									
+#L¸ gãi b¸nh	1	#Nguyªn liÖu									
+#Cµn	2	#Nguyªn liÖu	#Qu¸i*QuyÓn								
+#§oµi	2	#Nguyªn liÖu	#Qu¸i*QuyÓn								
+#Ly	2	#Nguyªn liÖu	#Qu¸i*QuyÓn								
+#ChÊn	2	#Nguyªn liÖu	#Qu¸i*QuyÓn								
+#Tèn	2	#Nguyªn liÖu	#Qu¸i*QuyÓn								
+#Kh¶m	2	#Nguyªn liÖu	#Qu¸i*QuyÓn								
+#CÊn	2	#Nguyªn liÖu	#Qu¸i*QuyÓn								
+#Kh«n	2	#Nguyªn liÖu	#Qu¸i*QuyÓn								
+#Hép nguyªn liÖu	1	#Nguyªn liÖu									
+#Cöu Tİch §ao	2	#Vò khİ	#Tiªn MaVò khİ								
+#C©u TrÇn Phñ	2	#Vò khİ	#Tiªn MaVò khİ								
+#Th¸i Linh KiÕm	2	#Vò khİ	#Tiªn MaVò khİ								
+#VÜnh D¹ Phñ	2	#Vò khİ	#Tiªn MaVò khİ								
+#Th¸nh DiÖu Kh«i	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#H­ Nghi qu¸n	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Loan Vò Trô	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Th¸nh DiÖu Yªu ®¸i	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#H­ Nghi C©n	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Loan Vò Yªu ®¸i	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Th¸nh DiÖu ChiÕn ngoa	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#H­ Nghi Lı	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Loan Vò Ngoa	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Th¸nh DiÖu Phi Phong	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#H­ Nghi LÖnh	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Loan Vò KÕt	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Thiªn C­¬ng Th¸nh DiÖu Gi¸p	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#H­ Nghi §¹o bµo	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Loan Vò Hé gi¸p	2	#Trang bŞ	#Trang bŞ Tiªn Ma								
+#Mai danh Èn tİnh	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Cao CÊp Tö Kim Ên	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Linh Hån Táa Liªn	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Thanh V©n KiÕm	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Ngäc Nh­ ı 	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Háa Tú Bµ	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#An MÖnh Phï	2	#Ph¸p B¶o	#Hîp thµnh Ph¸p B¶o								
+#Tİn hµm bé l¹c	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#B¸ L¹c Kİnh cÊp 15	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#B¸ L¹c Nh·n cÊp 14	2	#Nh·n t×nh	#Nguyªn liÖu								
+#B¸ L¹c Nh·n cÊp 15	2	#Nh·n t×nh	#Nguyªn liÖu								
+#Dò T©m Th¶o	1	#Nguyªn liÖu									
+#Tôc MÖnh Hoa	1	#Nguyªn liÖu									
+#Th¸nh DiÖu Lôc Tinh Th¹ch	3	#Hîp thµnh	#Nguyªn liÖu	#Trang bŞ Tiªn Ma							
+#H­ Nghi Lôc Tinh Th¹ch	3	#Hîp thµnh	#Nguyªn liÖu	#Trang bŞ Tiªn Ma							
+#Loan Vò Lôc Tinh Th¹ch	3	#Hîp thµnh	#Nguyªn liÖu	#Trang bŞ Tiªn Ma							
+#ThÇn Hµnh Vò Ngoa	3	#Hîp thµnh	#Nguyªn liÖu	#Trang bŞ Tiªn Ma							
+#Ngäc §Ønh Kim Kh«i	3	#Hîp thµnh	#Nguyªn liÖu	#Trang bŞ Tiªn Ma							
+#T­¬ng Ngäc Cæn §¸i	3	#Hîp thµnh	#Nguyªn liÖu	#Trang bŞ Tiªn Ma							
+#Qu¶ ¢m D­¬ng	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Khø Lai phï	2	#ChuyÓn tiÕp	#Kh¸c								
+#§Şnh Hån Th¹ch	3	#Hîp thµnh	#Nguyªn liÖu	#Ho¸n hån 							
+#Kiªn Qu©n Phï	3	#Hîp thµnh	#Nguyªn liÖu	#Ho¸n hån 							
+#Lîi Binh Lôc	3	#Hîp thµnh	#Nguyªn liÖu	#Ho¸n hån 							
+#Ngù Long Phï	3	#Hîp thµnh	#Nguyªn liÖu	#Ho¸n hån 							
+#ChiÕn Long Lôc	3	#Hîp thµnh	#Nguyªn liÖu	#Ho¸n hån 							
+#Thiªn T­êng Phï	3	#Hîp thµnh	#Nguyªn liÖu	#Ho¸n hån 							
+#Thiªn Né Lôc	3	#Hîp thµnh	#Nguyªn liÖu	#Ho¸n hån 							
+#Hån Tinh s¬ cÊp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Hån Tinh trung cÊp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Hån Tinh cao cÊp	2	# TiÒn ®ång	# VËt phÈm tiÒn §ång								
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §o¹n Kh«ng Tr¶m cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång T©m Tr¶m cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång T©m Tr¶m cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång T©m Tr¶m cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång T©m Tr¶m cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång T©m Tr¶m cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång T©m Tr¶m cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång T©m Tr¶m cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Hµn Tr¶m cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn ThÇn Né Hèng cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Bİch NguyÖt Tr¶m cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Bİch NguyÖt Tr¶m cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Bİch NguyÖt Tr¶m cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Bİch NguyÖt Tr¶m cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Bİch NguyÖt Tr¶m cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Bİch NguyÖt Tr¶m cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Bİch NguyÖt Tr¶m cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÖ ¶nh L«i Quang cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phong L«i Hé ThÓ cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phong L«i Hé ThÓ cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phong L«i Hé ThÓ cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phong L«i Hé ThÓ cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phong L«i Hé ThÓ cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phong L«i Hé ThÓ cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phong L«i Hé ThÓ cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phi Sa TÈu Th¹ch cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: An Hån TŞnh Thæ cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: An Hån TŞnh Thæ cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: An Hån TŞnh Thæ cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: An Hån TŞnh Thæ cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: An Hån TŞnh Thæ cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: An Hån TŞnh Thæ cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: An Hån TŞnh Thæ cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §Şa Háa PhÇn Thiªn cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §Şa Háa PhÇn Thiªn cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §Şa Háa PhÇn Thiªn cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §Şa Háa PhÇn Thiªn cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §Şa Háa PhÇn Thiªn cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §Şa Háa PhÇn Thiªn cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: §Şa Háa PhÇn Thiªn cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÕt Vò B¨ng Phong cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: B¨ng Tinh Trïng Sinh cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Lı Truy Hån cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Lı Truy Hån cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Lı Truy Hån cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Lı Truy Hån cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Lı Truy Hån cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Lı Truy Hån cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Thiªn Lı Truy Hån cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TŞch DiÖt Ch©n Háa cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TŞch DiÖt Ch©n Háa cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TŞch DiÖt Ch©n Háa cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TŞch DiÖt Ch©n Háa cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TŞch DiÖt Ch©n Háa cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TŞch DiÖt Ch©n Háa cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TŞch DiÖt Ch©n Háa cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÇn Háa §å §»ng cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÇn Háa §å §»ng cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÇn Háa §å §»ng cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÇn Háa §å §»ng cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÇn Háa §å §»ng cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÇn Háa §å §»ng cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: PhÇn Háa §å §»ng cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Háa Tinh §äa L¹c cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Háa Tinh §äa L¹c cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Háa Tinh §äa L¹c cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Háa Tinh §äa L¹c cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Háa Tinh §äa L¹c cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Háa Tinh §äa L¹c cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Háa Tinh §äa L¹c cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång §µo TÕ cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång §µo TÕ cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång §µo TÕ cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång §µo TÕ cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång §µo TÕ cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång §µo TÕ cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Cuång §µo TÕ cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ngù SËu B¹o Phong cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ngù SËu B¹o Phong cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ngù SËu B¹o Phong cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ngù SËu B¹o Phong cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ngù SËu B¹o Phong cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ngù SËu B¹o Phong cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ngù SËu B¹o Phong cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÖt T©m Chó cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÖt T©m Chó cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÖt T©m Chó cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÖt T©m Chó cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÖt T©m Chó cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÖt T©m Chó cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: TuyÖt T©m Chó cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: HoÆc T©m Chó cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: HoÆc T©m Chó cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: HoÆc T©m Chó cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: HoÆc T©m Chó cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: HoÆc T©m Chó cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: HoÆc T©m Chó cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: HoÆc T©m Chó cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ph¸ Qu©n Chó cÊp 1	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ph¸ Qu©n Chó cÊp 2	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ph¸ Qu©n Chó cÊp 3	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ph¸ Qu©n Chó cÊp 4	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ph¸ Qu©n Chó cÊp 5	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ph¸ Qu©n Chó cÊp 6	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#Hån Chó: Ph¸ Qu©n Chó cÊp 7	3	#Hîp thµnh	#Hån Chó	#Kh¸c							
+#B¹ch Trµ	2	#Nguyªn liÖu	#Th¶o D­îc								
+#§Şa Hoµng	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Huyªn th¶o	2	#Nguyªn liÖu	#Th¶o D­îc								
+#C¸t C¨n	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Liªn KiÒu	2	#Nguyªn liÖu	#Th¶o D­îc								
+#L¹c Th¹ch §»ng	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Tiªn H¹c Th¶o	2	#Nguyªn liÖu	#Th¶o D­îc								
+#B¹ch Phô Tö	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Hµ Thñ ¤	2	#Nguyªn liÖu	#Th¶o D­îc								
+#MÆc Long Quy	2	#Nguyªn liÖu	#Th¶o D­îc								
+#MÆc Long §¶m	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Phôc ThÇn Tö	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Tr­êng B¹ch S©m	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Tiªn V©n L·o S©m	2	#Nguyªn liÖu	#Th¶o D­îc								
+#TuyÕt Chi Phôc Linh	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Long HuyÕt Linh Chi	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Cá 2 L¸ May M¾n	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Cá 3 L¸ May M¾n	2	#Nguyªn liÖu	#Th¶o D­îc								
+#Hoµng ®ång	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#§ång ®á	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#Xİch ®ång	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#Hµn thiÕt	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#B¹ch kim	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#Xİch Kim	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#Kim C­¬ng Th¹ch	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#NguyÖt Quang Th¹ch	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#Nguyªn Linh Th¹ch	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#HuyÔn Hãa Th¹ch	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#LŞch Diªm	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#Th« Diªm	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#Thanh Diªm	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#Th¹ch Bèi Diªm	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#TuyÕt Sa Diªm	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#Kim H­¬ng Diªm	2	#Nguyªn liÖu	#Kho¸ng Th¹ch								
+#T«m xanh	2	#Nguyªn liÖu	#C©u c¸								
+#T«m hïm	2	#Nguyªn liÖu	#C©u c¸								
+#Ca diÕt	2	#Nguyªn liÖu	#C©u c¸								
+#Hång Lı	2	#Nguyªn liÖu	#C©u c¸								
+#C¸ ng¸t	2	#Nguyªn liÖu	#C©u c¸								
+#Bµn §Çu Liªn	2	#Nguyªn liÖu	#C©u c¸								
+#Kim Bang Lı	2	#Nguyªn liÖu	#C©u c¸								
+#Ng©n TuyÕt B¹ng	2	#Nguyªn liÖu	#C©u c¸								
+#CÈm V©n Ng­	2	#Nguyªn liÖu	#C©u c¸								
+#Phi Ng©n TuyÕt Ng­	2	#Nguyªn liÖu	#C©u c¸								
+#Tinh Ban §iªu Ng­	2	#Nguyªn liÖu	#C©u c¸								
+#Cöu VÜ Long Ng­	2	#Nguyªn liÖu	#C©u c¸								
+#B¹ch Trµ Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#§Şa Hoµng Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#Huyªn Th¶o Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#C¸t C¨n Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#Liªn KiÒu Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#L¹c Th¹ch §»ng Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#Tiªn H¹c Th¶o Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#B¹ch Phô Tö Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#Hµ Thñ ¤ Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#MÆc Long Quy Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#MÆc Long §¶m Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#Phôc ThÇn Tö Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#Tr­êng B¹ch S©m Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#Tiªn V©n L·o S©m Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#TuyÕt Chi Phôc Linh Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#Long HuyÕt Linh Chi Tinh Hoa	2	#Nguyªn liÖu	#Tinh Hoa								
+#ThŞt T«m xanh	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt T«m hïm	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt c¸ diÕc	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt Hång Lı	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt C¸ ng¸t	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt Bµn §Çu Liªn	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt Kim Bang Lı	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt Ng©n TuyÕt B¹ng	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt CÈm V©n Ng­	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt Phi Ng©n TuyÕt Ng­	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt Tinh Ban §iªu Ng­	2	#Nguyªn liÖu	#ThŞt								
+#ThŞt Cöu VÜ Long Ng­	2	#Nguyªn liÖu	#ThŞt								
+#Hoµng ®ång sa	1	#Nguyªn liÖu									
+#Hoµng ®ång khèi	1	#Nguyªn liÖu									
+#Hoµng ®ång ®Ünh	1	#Nguyªn liÖu									
+#Tö ®ång sa	1	#Nguyªn liÖu									
+#Tö ®ång khèi	1	#Nguyªn liÖu									
+#Tö ®ång ®Ünh	1	#Nguyªn liÖu									
+#Xİch ®ång sa	1	#Nguyªn liÖu									
+#Xİch ®ång khèi	1	#Nguyªn liÖu									
+#Xİch ®ång ®Ünh	1	#Nguyªn liÖu									
+#HuyÒn ®ång	1	#Nguyªn liÖu									
+#Ngäc Hµn thiÕt	1	#Nguyªn liÖu									
+#Ng©n quang ®ång	1	#Nguyªn liÖu									
+#Xİch v©n ®ång	1	#Nguyªn liÖu									
+#V©n C­¬ng Kim	1	#Nguyªn liÖu									
+#Tr¶m NguyÖt Kim	1	#Nguyªn liÖu									
+#Nguyªn Linh Kim	1	#Nguyªn liÖu									
+#HuyÒn Hoa Kim	1	#Nguyªn liÖu									
+#Hång Thñy Tinh Nguyªn Th¹ch	1	#Nguyªn liÖu									
+#Lôc Thñy Tinh Nguyªn Th¹ch	1	#Nguyªn liÖu									
+#Lam Thñy Tinh Nguyªn Th¹ch	1	#Nguyªn liÖu									
+#Hoµng thñy Tinh Nguyªn Th¹ch	1	#Nguyªn liÖu									
+#H¹t May M¾n	1	#Nguyªn liÖu									
+#§Şa Tøc	1	#Nguyªn liÖu									
+#Thñy Linh	1	#Nguyªn liÖu									
+#Tiªn Lé	1	#Nguyªn liÖu									
+#ChØ HuyÕt Lé	2	#D­îc phÈm	#LuyÖn ®¬n								
+#İch thÇn lé	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Thiªn Lang §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Chu T­íc §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#B¹ch Hæ §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Thanh Long §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#HuyÒn Vò §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Hé Sinh Lé	2	#D­îc phÈm	#LuyÖn ®¬n								
+#L¹c ThÇn Lé	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Né Phong T¸n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Ngäc B¹ch T¸n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#LÖ Ma T¸n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#LiÖt B¹ch T¸n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#DiÖu Sinh Lé	2	#D­îc phÈm	#LuyÖn ®¬n								
+#DiÖu ThÇn Lé	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Dung B¨ng Hoµn	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Ng­ng S­¬ng Hoµn	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Chóc Dung ThÇn §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#LiÖt §iÖn ThÇn §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#HËu Thæ ThÇn §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Céng C«ng ThÇn §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Cöu ChuyÓn Hoµn MÖnh §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Cöu ChuyÓn Hoµn ThÇn §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#ChØ HuyÕt Lé (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#İch thÇn lé (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Thiªn Lang §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Chu T­íc §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#B¹ch Hæ §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Thanh Long §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#HuyÒn Vò §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Hé Sinh Lé (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#L¹c ThÇn Lé (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Né Phong T¸n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Ngäc B¹ch T¸n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#LÖ Ma T¸n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#LiÖt B¹ch T¸n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#DiÖu Sinh Lé (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#DiÖu ThÇn Lé (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Dung B¨ng Hoµn (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Ng­ng S­¬ng Hoµn (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Chóc Dung ThÇn §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#LiÖt §iÖn ThÇn §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#HËu Thæ ThÇn §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Céng C«ng ThÇn §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Cöu ChuyÓn Hoµn MÖnh §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Cöu ChuyÓn Hoµn ThÇn §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#T«m xµo	2	#Thøc ¨n	#NÊu N­íng								
+#Canh su«ng	2	#Thøc ¨n	#NÊu N­íng								
+#T«m kho	2	#Thøc ¨n	#NÊu N­íng								
+#Canh c¸ diÕc	2	#Thøc ¨n	#NÊu N­íng								
+#C¸ chĞp sèt chua ngät	2	#Thøc ¨n	#NÊu N­íng								
+#C¸ viªn chiªn	2	#Thøc ¨n	#NÊu N­íng								
+#C¸ ng¸t hÊp	2	#Thøc ¨n	#NÊu N­íng								
+#§Çu c¸ hÊp tiªu	2	#Thøc ¨n	#NÊu N­íng								
+#C¸ giÊm T©y Hå	2	#Thøc ¨n	#NÊu N­íng								
+#Ng©n TuyÕt Bao	2	#Thøc ¨n	#NÊu N­íng								
+#V­ît Vò M«n	2	#Thøc ¨n	#NÊu N­íng								
+#Canh B¸ch Bæ	2	#Thøc ¨n	#NÊu N­íng								
+#ThÇn Tiªn Thiªn Cöu Sİ	2	#Thøc ¨n	#NÊu N­íng								
+#CÈm Y Du Long Bao 	2	#Thøc ¨n	#NÊu N­íng								
+#§an Ch©u Phï Dung §ç 	2	#Thøc ¨n	#NÊu N­íng								
+#Háa Vò §µo Hoa Sİ	2	#Thøc ¨n	#NÊu N­íng								
+#B¨ng TrÊn Long §¶m Töu	2	#Thøc ¨n	#NÊu N­íng								
+#Song Long Hı Ch©u Bao	2	#Thøc ¨n	#NÊu N­íng								
+#T«m xµo (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#Canh su«ng (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#T«m kho (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#Canh c¸ diÕc (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#C¸ chĞp sèt chua ngät (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#C¸ viªn chiªn (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#C¸ ng¸t hÊp (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#§Çu c¸ hÊp tiªu (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#C¸ giÊm T©y Hå (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#Ng©n TuyÕt Bao (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#V­ît Vò M«n (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#Canh B¸ch Bæ (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#ThÇn Tiªn Thiªn Cöu Sİ (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#CÈm Y Du Long Bao (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#§an Ch©u Phï Dung §ç (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#Háa Vò §µo Hoa Sİ (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#B¨ng TrÊn Long §¶m Töu (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#Song Long Hı Ch©u Bao (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#TËt Phong §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#B¨ng T©m §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Ph¸ ThuÉn §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#TuyÖt B¨ng §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#TËt §iÖn §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Thanh Háa §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Thæ ThuÉn §¬n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#C¸nh Cùc Háa §µo Hoa	2	#Thøc ¨n	#NÊu N­íng								
+#Cùc Kh«n Phï Dung §ç 	2	#Thøc ¨n	#NÊu N­íng								
+#Cùc §iÖn Long Ch©u Bao	2	#Thøc ¨n	#NÊu N­íng								
+#Cùc B¨ng Long §¶m Töu	2	#Thøc ¨n	#NÊu N­íng								
+#TËt Phong §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#B¨ng T©m §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Ph¸ ThuÉn §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#TuyÖt B¨ng §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#TËt §iÖn §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Thanh Háa §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Thæ ThuÉn §¬n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#C¸nh Cùc Háa §µo Hoa (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#Cùc Kh«n Phï Dung §ç  (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#Cùc §iÖn Long Ch©u Bao (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#Cùc B¨ng Long §¶m Töu (Tinh)	2	#Thøc ¨n	#NÊu N­íng								
+#Tô L«i T¸n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Tô B¨ng T¸n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Tô Háa T¸n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Tô Thæ T¸n	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Tô L«i T¸n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Tô B¨ng T¸n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Tô Háa T¸n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Tô Thæ T¸n (Tinh)	2	#D­îc phÈm	#LuyÖn ®¬n								
+#Háa Ngäc Tñy	2	#Nguyªn liÖu	#Ngäc Tñy								
+#B¨ng Ngäc Tñy	2	#Nguyªn liÖu	#Ngäc Tñy								
+#Thæ Ngäc Tñy	2	#Nguyªn liÖu	#Ngäc Tñy								
+#L«i Ngäc Tñy	2	#Nguyªn liÖu	#Ngäc Tñy								
+#Kim Ngäc Tñy	2	#Nguyªn liÖu	#Ngäc Tñy								
+#Thanh Linh Ngäc Béi	2	#Trang bŞ	#Ngäc Béi								
+#HuyÒn Vò Ngäc Béi	2	#Trang bŞ	#Ngäc Béi								
+#Phôc Hæ Ngäc Béi	2	#Trang bŞ	#Ngäc Béi								
+#Hoµng HuyÕt Ngäc Béi	2	#Trang bŞ	#Ngäc Béi								
+#Long Hån Ngäc Béi	2	#Trang bŞ	#Ngäc Béi								
+#TÈy Tñy Ch©u	2	# TiÒn ®ång	#Ngäc Béi								
+#DÉn Lé Linh §¨ng	2	# TiÒn ®ång	#LÖnh bµi Phã b¶n								
+#Phèi ph­¬ng: TËt Phong §¬n	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: B¨ng T©m §¬n	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Ph¸ ThuÉn §¬n	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: TuyÖt B¨ng §¬n	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: TËt §iÖn §¬n	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Thanh Háa §¬n	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Thæ ThuÉn §¬n	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: C¸nh Cùc Háa §µo Hoa	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Cùc Kh«n Phï Dung §ç 	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Cùc §iÖn Long Ch©u Bao	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Cùc B¨ng Long §¶m Töu	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Hîp thµnh m¶nh Hoµng thñy tinh	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Tô L«i T¸n	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Tô B¨ng T¸n	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Tô Háa T¸n	1	#Phèi ph­¬ng									
+#Phèi ph­¬ng: Tô Thæ T¸n	1	#Phèi ph­¬ng									
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 1	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 2	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 3	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 4	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 5	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 6	2	#Hån Chó	#Hîp thµnh								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 7	2	#Hån Chó	#Hîp thµnh								
+#Phèi ph­¬ng: TËt Phong §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: B¨ng T©m §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Ph¸ ThuÉn §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: TuyÖt B¨ng §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: TËt §iÖn §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Thanh Háa §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Thæ ThuÉn §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: C¸nh Cùc Háa §µo Hoa	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Cùc Kh«n Phï Dung §ç 	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Cùc §iÖn Long Ch©u Bao	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Cùc B¨ng Long §¶m Töu	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Hîp thµnh m¶nh Hoµng thñy tinh	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Tô L«i T¸n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Tô B¨ng T¸n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Tô Háa T¸n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Tô Thæ T¸n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#T«m xµo	2	#Thøc ¨n	#Nguyªn liÖu								
+#Canh su«ng	2	#Thøc ¨n	#Nguyªn liÖu								
+#T«m kho	2	#Thøc ¨n	#Nguyªn liÖu								
+#Canh c¸ diÕc	2	#Thøc ¨n	#Nguyªn liÖu								
+#C¸ chĞp sèt chua ngät	2	#Thøc ¨n	#Nguyªn liÖu								
+#C¸ viªn chiªn	2	#Thøc ¨n	#Nguyªn liÖu								
+#C¸ ng¸t hÊp	2	#Thøc ¨n	#Nguyªn liÖu								
+#§Çu c¸ hÊp tiªu	2	#Thøc ¨n	#Nguyªn liÖu								
+#C¸ giÊm T©y Hå	2	#Thøc ¨n	#Nguyªn liÖu								
+#Ng©n TuyÕt Bao	2	#Thøc ¨n	#Nguyªn liÖu								
+#V­ît Vò M«n	2	#Thøc ¨n	#Nguyªn liÖu								
+#Canh B¸ch Bæ	2	#Thøc ¨n	#Nguyªn liÖu								
+#ThÇn Tiªn Thiªn Cöu Sİ	2	#Thøc ¨n	#Nguyªn liÖu								
+#CÈm Y Du Long Bao 	2	#Thøc ¨n	#Nguyªn liÖu								
+#§an Ch©u Phï Dung §ç 	2	#Thøc ¨n	#Nguyªn liÖu								
+#Háa Vò §µo Hoa Sİ	2	#Thøc ¨n	#Nguyªn liÖu								
+#B¨ng TrÊn Long §¶m Töu	2	#Thøc ¨n	#Nguyªn liÖu								
+#Song Long Hı Ch©u Bao	2	#Thøc ¨n	#Nguyªn liÖu								
+#T«m xµo (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#Canh su«ng (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#T«m kho (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#Canh c¸ diÕc (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#C¸ chĞp sèt chua ngät (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#C¸ viªn chiªn (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#C¸ ng¸t hÊp (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#§Çu c¸ hÊp tiªu (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#C¸ giÊm T©y Hå (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#Ng©n TuyÕt Bao (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#V­ît Vò M«n (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#Canh B¸ch Bæ (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#ThÇn Tiªn Thiªn Cöu Sİ (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#CÈm Y Du Long Bao (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#§an Ch©u Phï Dung §ç (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#Háa Vò §µo Hoa Sİ (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#B¨ng TrÊn Long §¶m Töu (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#Song Long Hı Ch©u Bao (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#TÈy Tñy Ch©u	2	# TiÒn ®ång	#Nguyªn liÖu								
+#DÉn Lé Linh §¨ng	2	# TiÒn ®ång	#Nguyªn liÖu								
+#Phèi ph­¬ng: TËt Phong §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: B¨ng T©m §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Ph¸ ThuÉn §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: TuyÖt B¨ng §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: TËt §iÖn §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Thanh Háa §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Thæ ThuÉn §¬n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: C¸nh Cùc Háa §µo Hoa	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Cùc Kh«n Phï Dung §ç 	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Cùc §iÖn Long Ch©u Bao	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Cùc B¨ng Long §¶m Töu	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Hîp thµnh m¶nh Hoµng thñy tinh	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Tô L«i T¸n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Tô B¨ng T¸n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Tô Háa T¸n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Phèi ph­¬ng: Tô Thæ T¸n	1	#Phèi ph­¬ng	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §o¹n Kh«ng Tr¶m cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Tô Hoa Hãa Th­¬ng cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång T©m Tr¶m cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Hµn Tr¶m cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn ThÇn Né Hèng cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Bİch NguyÖt Tr¶m cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÖ ¶nh L«i Quang cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phong L«i Hé ThÓ cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: LuyÖn Ngôc ThiÓm §iÖn cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phi Sa TÈu Th¹ch cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: An Hån TŞnh Thæ cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: §Şa Háa PhÇn Thiªn cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÕt Vò B¨ng Phong cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: B¨ng Tinh Trïng Sinh cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Thiªn Lı Truy Hån cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TŞch DiÖt Ch©n Háa cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: PhÇn Háa §å §»ng cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Háa Tinh §äa L¹c cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Cuång §µo TÕ cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Phóc Tr¹ch Thiªn Hùu cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ngù SËu B¹o Phong cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: TuyÖt T©m Chó cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 6	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: HoÆc T©m Chó cÊp 7	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 1	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 2	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 3	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 4	2	#Hån Chó	#Nguyªn liÖu								
+#Ngò S¾c Hån Chó: Ph¸ Qu©n Chó cÊp 5	2	#Hån Chó	#Nguyªn liÖu								
+#C¸nh Cùc Háa §µo Hoa (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#Cùc Kh«n Phï Dung §ç  (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#Cùc §iÖn Long Ch©u Bao (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#Cùc B¨ng Long §¶m Töu (Tinh)	2	#Thøc ¨n	#Nguyªn liÖu								
+#C¸nh Cùc Háa §µo Hoa	2	#Thøc ¨n	#Nguyªn liÖu								
+#Cùc Kh«n Phï Dung §ç 	2	#Thøc ¨n	#Nguyªn liÖu								
+#Cùc §iÖn Long Ch©u Bao	2	#Thøc ¨n	#Nguyªn liÖu								
+#Cùc B¨ng Long §¶m Töu	2	#Thøc ¨n	#Nguyªn liÖu								
+#Méng NhiÔu Trang	1	#Trang bŞ									
+#Hån Khiªn trang	1	#Trang bŞ									

@@ -1,0 +1,13 @@
+ExpandID	Count	AttrType_0	AttrValue_0	AttrProbability_0	AttrType_1	AttrValue_1	AttrProbability_1	AttrType_2	AttrValue_2	AttrProbability_2	AttrType_3	AttrValue_3	AttrProbability_3	AttrType_4	AttrValue_4	AttrProbability_4	AttrType_5	AttrValue_5	AttrProbability_5	AttrType_6	AttrValue_6	AttrProbability_6	AttrType_7	AttrValue_7	AttrProbability_7	AttrType_8	AttrValue_8	AttrProbability_8	AttrType_9	AttrValue_9	AttrProbability_9	AttrType_10	AttrValue_10	AttrProbability_10	AttrType_11	AttrValue_11	AttrProbability_11	AttrType_12	AttrValue_12	AttrProbability_12	AttrType_13	AttrValue_13	AttrProbability_13
+1	9	118	1	5	120	1	5	104	3	9	113	5	9	295	1	9	146	2	9	204	2	9	337	5	9	58	3	36															
+2	9	118	2	5	120	1	5	104	4	9	113	6	9	295	2	9	146	3	9	204	3	9	337	6	9	58	4	36															
+3	9	118	3	5	120	1	5	104	5	9	113	7	9	295	3	9	146	4	9	204	4	9	337	7	9	58	5	36															
+4	11	118	1	4	120	1	4	104	3	8	113	5	8	295	1	8	146	2	8	204	2	8	337	5	8	58	3	36	198	2	4	205	2	4									
+5	11	118	2	4	120	1	4	104	4	8	113	6	8	295	2	8	146	3	8	204	3	8	337	6	8	58	4	36	198	3	4	205	3	4									
+6	11	118	3	4	120	1	4	104	5	8	113	7	8	295	3	8	146	4	8	204	4	8	337	7	8	58	5	36	198	4	4	205	4	4									
+7	13	118	1	4	120	1	4	104	3	8	113	5	8	295	1	6	146	2	6	204	2	8	337	5	8	58	3	32	198	2	4	205	2	4	320	2	4	319	1	4			
+8	13	118	2	4	120	1	4	104	4	8	113	6	8	295	2	6	146	3	6	204	3	8	337	6	8	58	4	32	198	3	4	205	3	4	320	3	4	319	2	4			
+9	13	118	3	4	120	1	4	104	5	8	113	7	8	295	3	6	146	4	6	204	4	8	337	7	8	58	5	32	198	4	4	205	4	4	320	4	4	319	3	4			
+10	14	118	1	4	120	1	4	104	3	8	113	5	8	295	1	4	146	2	4	204	2	8	337	5	8	58	3	32	198	2	4	205	2	4	320	2	4	319	1	4	233	5	4
+11	14	118	2	4	120	1	4	104	4	8	113	6	8	295	2	4	146	3	4	204	3	8	337	6	8	58	4	32	198	3	4	205	3	4	320	3	4	319	2	4	233	6	4
+12	14	118	3	4	120	1	4	104	5	8	113	7	8	295	3	4	146	4	4	204	4	8	337	7	8	58	5	32	198	4	4	205	4	4	320	4	4	319	3	4	233	7	4

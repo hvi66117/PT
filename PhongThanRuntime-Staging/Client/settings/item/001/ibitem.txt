@@ -1,0 +1,220 @@
+Ãû³Æ	µÀ¾ßÖÖÀà	¾ßÌåÀà±ğ	ÏêÏ¸Àà±ğ	¶¯»­ÎÄ¼şÃû	¶ÔÓ¦Îï¼şË÷Òı	¿í¶È	¸ß¶È	ËµÃ÷ÎÄ×Ö	Ê¹ÓÃ´ÎÊı	ÊÇ·ñµş·Å	¸ºÖØ	½Å±¾	ÊôĞÔ1	ÊôĞÔ1ÊıÖµ	ÊôĞÔ2	ÊôĞÔ2ÊıÖµ	ÊôĞÔÊ±¼ä(ÓÎÏ·Ñ­»·Êı£©	"Ê±¼äÀàĞÍ(0Îªµã¿¨,ÆäËûÎªÔÂ¿¨)"	Ğ§¹û·Ö×é	ÊÇ·ñ¿É¼û	ÊÇ·ñ¿ÉÒÔÈ¡Ïû	PKÕóÓªÕóÓª	ÊÇ·ñ¿É·Å¿ì½İÀ¸	ÊÇ·ñ¿ÉÒÔ¶ªÆú	ÊÇ·ñ¿ÉÒÔ½»»»	ÊÇ·ñ¿ÉÒÔ¶Ä²©	ÊÇ·ñ°ÚÌ¯	PKÕóÓªµôÂä±ê¼Ç	ÓĞĞ§ÆÚ
+#Dao Tinh t¸n	8	0	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£Óñ¾§É¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê sinh lùc + 400. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	85	400			3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao Nghi t¸n	8	1	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£ÒÇĞşÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê Néi lùc + 400. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE			89	400	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao Cam t¸n	8	2	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£¸ÊÂ¶É¢.spr	38	1	1	#<enter><color=cyan>Kh¸ng háa + 40%, duy tr× 1 giê. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	102	40	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao Hãa t¸n	8	3	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£»¯¶³É¢.spr	38	1	1	#<enter><color=cyan>Kh¸ng b¨ng + 40%, duy tr× 1 giê. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	105	40	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao §Şnh t¸n	8	4	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£¶¨·çÉ¢.spr	38	1	1	#<enter><color=cyan>Kh¸ng Thæ + 40%, duy tr× 1 giê. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	176	40	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao ¸ch t¸n	8	5	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£±Ù¶òÉ¢.spr	38	1	1	#<enter><color=cyan>Kh¸ng L«i + 40%, duy tr× 1 giê. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	103	40	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao Tr¶m t¸n	8	6	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£¼²Õ¶É¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê STCB + 50 ®iÓm. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	121	50	88	6	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao DiÖm t¸n	8	7	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£ÁÒÑæÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê Háa s¸t + 50 ®iÓm. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	122	50	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao Hµn t¸n	8	8	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£º®±ùÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê B¨ng s¸t + 50 ®iÓm. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	123	50	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao Sa t¸n	8	9	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£¿ñÉ³É¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê Thæ s¸t +50 ®iÓm. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	177	50	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao Né t¸n	8	10	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£Å­À×É¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê L«i s¸t + 50 ®iÓm. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	124	50	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao HuyÒn t¸n	8	11	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£Ğş»ÆÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê Phßng thñ + 100 ®iÓm, néi lùc 6 ®iÓm. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	179	100	92	6	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao Linh t¸n	8	12	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£Óñ¾§É¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê håi sinh lùc + 10. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	88	10	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Dao Tô t¸n	8	13	0	\spr\item\ibitem\listofxiaoyao\åĞÒ£ÒÇĞşÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê håi Néi lùc + 10. Kh«ng dïng chung víi Ngäc Thanh T¸n	10	1	5	NONE	92	10	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Tinh t¸n	8	14	0	\spr\item\ibitem\ÓñÇåÓñ¾§É¢.spr	38	1	1	#<enter><color=cyan>Néi 3 phót Sinh lùc + 600. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	85	600			600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Nghi t¸n	8	15	0	\spr\item\ibitem\ÓñÇåÒÇĞşÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót Néi lùc + 600. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE			89	600	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Cam t¸n	8	16	0	\spr\item\ibitem\ÓñÇå±Ù¶òÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót kh¸ng Háa + 15%. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	102	15	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Hãa t¸n	8	17	0	\spr\item\ibitem\ÓñÇå±Ù¶òÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót kh¸ng B¨ng + 15%. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	105	15	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc §Şnh t¸n	8	18	0	\spr\item\ibitem\ÓñÇå±Ù¶òÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót kh¸ng Thæ + 15%. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	176	15	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc ¸ch t¸n	8	19	0	\spr\item\ibitem\ÓñÇå±Ù¶òÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót kh¸ng L«i + 15%. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	103	15	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Tr¶m t¸n	8	20	0	\spr\item\ibitem\ÓñÇåÁÒÑæÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót STCB 80 ®iÓm. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	121	80	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc DiÖm t¸n	8	21	0	\spr\item\ibitem\ÓñÇåÁÒÑæÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót Háa s¸t + 80 ®iÓm. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	122	80	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Hµn t¸n	8	22	0	\spr\item\ibitem\ÓñÇåÁÒÑæÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót B¨ng s¸t + 80 ®iÓm. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	123	80	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Sa t¸n	8	23	0	\spr\item\ibitem\ÓñÇåÁÒÑæÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót Thæ s¸t +80 ®iÓm. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	177	80	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Né t¸n	8	24	0	\spr\item\ibitem\ÓñÇåÁÒÑæÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót L«i s¸t + 80 ®iÓm. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	124	80	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Hoµng t¸n	8	25	0	\spr\item\ibitem\ÓñÇåĞş»ÆÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót Phßng thñ + 70 ®iÓm. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	179	70	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Linh t¸n	8	26	0	\spr\item\ibitem\ÓñÇå¾ÛÁéÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 10 phót håi sinh lùc + 20. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	88	20	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Ngäc Tùu t¸n	8	27	0	\spr\item\ibitem\ÓñÇå¾ÛÆøÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 3 phót håi Néi lùc + 20. Thay thÕ Tiªu Dao T¸n cïng thuéc tİnh	10	1	5	NONE	92	20	0	0	600	0	0	1	1	1	1	1	1	1	1	1	183
+#Thanh Lé (tiÓu)	8	28	3	\spr\item\ibitem\Ğ¡çÎç¿ÇåÂ¶.spr	38	1	1	#Mçi gi©y phôc håi 50 ®iÓm sinh lùc, tèi ®a 50000 ®iÓm	50000	1	10	NONE	153	50	0	0	0	0	0	1	1	1	1	1	1	1	1	1	183
+#Ch©n Khİ	8	29	4	\spr\item\ibitem\Ğ¡ÈÕÔÂÕæÆø.spr	38	1	1	#Mçi gi©y phôc håi 50 ®iÓm Néi lùc, tèi ®a 50000 ®iÓm	50000	1	10	NONE	154	50	0	0	0	0	0	1	1	1	1	1	1	1	1	1	183
+#ChØ Nam Ch©u	8	30	2	\spr\item\ibitem\Ö¸ÄÏÖé1.spr	38	1	1	#ChuyÓn ®Õn n¬i ®· ghi nhí	10	1	1	\script\item\ibitem\Ö¸ÄÏÖé.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Hoa ThÇn Thñ ph¸ch	8	31	2	\spr\item\ibitem\ĞÒÔË»¨ÉñÊÖÅÁ.spr	38	1	1	#T×m n¬i tró ngô cña Hoa ThÇn	50	1	1	\script\item\ibitem\»¨ÉñÊÖÅÁ.lua	0	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1	183
+#Chuéc Hån Ch©u	8	32	5	\spr\item\ibitem\Êê»êÖé.spr	38	1	1	#Gi÷ ®iÓm kinh nghiÖm khi träng th­¬ng	1	1	1	\script\item\ibitem\spiritbead.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Quan ¢m Thñy	8	33	2	\spr\item\ibitem\¹ÛÒôË®.spr	38	1	1	#Sö dông <enter><color=cyan>gi¶m 2 ®iÓm PK.	1	1	1	\script\item\ibitem\¹ÛÒôË®.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Ngäc Bå §Ò	8	34	1	\spr\item\ibitem\ÓñÆĞÌá.spr	38	1	1	#Phôc håi ®iÓm kinh nghiÖm ©m	1	1	1	NONE	191	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Di ngo¹i phï	8	35	2	\spr\item\ibitem\´«ËÍ·û2.spr	38	1	1	#ChuyÓn ®Õn khu vùc luyÖn c«ng s¬ cÊp	10	1	1	\script\item\ibitem\wildsuper.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Dao Tinh t¸n	8	36	0	\spr\item\ibitem\åĞÒ£Óñ¾§É¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê sinh lùc + 200. Phe PK kh«ng dïng	5	1	1	\script\item\ibitem\pill1.lua	85	200	0	0	600	0	2	1	1	1	1	1	1	1	1	1	183
+#Dao Nghi t¸n	8	37	0	\spr\item\ibitem\åĞÒ£ÒÇĞşÉ¢.spr	38	1	1	#<enter><color=cyan>Néi 1 giê néi lùc + 200. Phe PK kh«ng dïng	5	1	1	\script\item\ibitem\pill2.lua	89	200	0	0	600	0	2	1	1	1	1	1	1	1	1	1	183
+#TriÒu Ca M«n Bµi	8	38	0	\spr\item\ibitem\»õ1.spr	38	1	1	#Néi 48 giê cã thÓ bµy b¸n ë TriÒu Ca, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	21	0	0	172800	0	0	1	1	1	0	1	1	1	1	1	183
+#T©y Kú M«n Bµi	8	39	0	\spr\item\ibitem\»õ2.spr	38	1	1	#Néi 48 giê cã thÓ bµy b¸n ë T©y Kú, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	20	0	0	172800	0	0	1	1	1	0	1	1	1	1	1	183
+#Diªu Tr× M«n Bµi	8	40	0	\spr\item\ibitem\»õ3.spr	38	1	1	#Néi 48 giê cã thÓ bµy b¸n ë Diªu Tr×, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	52	0	0	172800	0	0	1	1	1	0	1	1	1	1	1	183
+#Phong ThÇn ®µi M«n Bµi	8	41	0	\spr\item\ibitem\»õ4.spr	38	1	1	#Néi 48 giê cã thÓ bµy b¸n ë Phong ThÇn §µi, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	1	0	0	172800	0	0	1	1	1	0	1	1	1	1	1	183
+#Thæ trËn M«n Bµi	8	42	0	\spr\item\ibitem\»õ5.spr	38	1	1	#Néi 48 giê cã thÓ bµy b¸n ë Thæ trËn, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	67	0	0	172800	0	0	1	1	1	0	1	1	1	1	1	183
+#Thñy trËn M«n Bµi	8	43	0	\spr\item\ibitem\»õ6.spr	38	1	1	#Néi 48 giê cã thÓ bµy b¸n ë Thñy trËn, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	68	0	0	172800	0	0	1	1	1	0	1	1	1	1	1	183
+#Háa trËn M«n Bµi	8	44	0	\spr\item\ibitem\»õ7.spr	38	1	1	#Néi 48 giê cã thÓ bµy b¸n ë Háa trËn, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	69	0	0	172800	0	0	1	1	1	0	1	1	1	1	1	183
+#Phong trËn M«n Bµi	8	45	0	\spr\item\ibitem\»õ8.spr	38	1	1	#Néi 48 giê cã thÓ bµy b¸n ë Phong trËn, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	70	0	0	172800	0	0	1	1	1	0	1	1	1	1	1	183
+#Phong L«i Trang	8	46	2	\spr\item\other\Å®1.spr	38	1	1	#Rùc s¸ng nh­ háa diÖm. <color=cyan>N÷ trang<color>	1	1	5	\script\item\ibitem\fenglei.lua	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	1	183
+#Háa L«i Trang	8	47	2	\spr\item\other\ÄĞ1.spr	38	1	1	#Rùc s¸ng nh­ háa diÖm. <color=cyan>N÷ trang<color>	1	1	5	\script\item\ibitem\huolei.lua	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	1	183
+#Phóc Hé phï	8	48	2	\spr\item\ibitem\¼ªÏé±äÉí·û.spr	38	1	1	#Trong 60 phót kh«ng bŞ qu¸i vËt vµ ng­êi kh¸c tÊn c«ng.	1	1	5	\script\item\ibitem\jixiangshen.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Lai Khø Nh­ ı bao	8	49	2	\spr\item\ibitem\°ü¸¤.spr	38	1	1	#chøa Phiªu lé, Ch©n Khİ, Di Ngo¹i phï (10 lÇn), Dao Tr¶m t¸n	1	1	10	\script\item\ibitem\libao1.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#C«n Bèi phï	8	50	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh C«n Bèi trong 30 phót	1	1	1	\script\item\±äÉí·û\÷Ò÷Ñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Ly Long Phï	8	51	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Ly Long trong 30 phót	1	1	1	\script\item\±äÉí·û\ó¤Áú.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Di Long Phï	8	52	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Di Long  trong 30 phót	1	1	1	\script\item\±äÉí·û\ò°Áú.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Giao long Phï	8	53	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Giao Long trong 30 phót	1	1	1	\script\item\±äÉí·û\òÔÁú.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#¶i Nh©n Phï	8	54	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh ¶i Nh©n trong 30 phót	1	1	1	\script\item\±äÉí·û\ÙÁÈË.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Anh Chiªu Phï	8	55	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Anh Chiªu ThÇn trong 30 phót	1	1	1	\script\item\±äÉí·û\Ó¢ÕĞÉñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#D· Mao Phï	8	56	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh D· Mao trong 30 phót	1	1	1	\script\item\±äÉí·û\Ò°Ã«Éñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#TuyÕt Qu¸i Phï	8	57	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh TuyÕt Qu¸i trong 30 phót	1	1	1	\script\item\±äÉí·û\Ñ©Ñı.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Háa Ma Phï	8	58	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Háa Ma trong 30 phót	1	1	1	\script\item\±äÉí·û\ÑÒ½¬ÊŞ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#YÕm Háa Phï	8	59	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh YÕm Háa trong 30 phót	1	1	1	\script\item\±äÉí·û\Ñá»ğ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Hµ Cèt Phï	8	60	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Hµ Cèt trong 30 phót	1	1	1	\script\item\±äÉí·û\ÏºÈË.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Bè ThÇn Phï	8	61	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Bè ThÇn trong 30 phót	1	1	1	\script\item\±äÉí·û\ÏàÁøÉñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Cèt Tinh V­¬ng Phï	8	62	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Cèt Tinh V­¬ng trong 30 phót	1	1	1	\script\item\±äÉí·û\ÏÄ¸ûÊ¬Íõ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Cèt Tinh Phï	8	63	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Cèt Tinh trong 30 phót	1	1	1	\script\item\±äÉí·û\ÏÄ¸ûÊ¬.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Lôc Quy Phï	8	64	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Lôc Quy trong 30 phót	1	1	1	\script\item\±äÉí·û\ÎäÊ¿¹ê.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Vò La thÇn phï	8	65	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Vò La ThÇn trong 30 phót	1	1	1	\script\item\±äÉí·û\ÎäÂŞÉñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Lôc Qu¸i Phï	8	66	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Lôc Qu¸i trong 30 phót	1	1	1	\script\item\±äÉí·û\Ì¦Ñı.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Thiªn H¹o Phï	8	67	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Thiªn H¹o trong 30 phót	1	1	1	\script\item\±äÉí·û\ÌìÎâ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#ThiÕt Ng­ Phï	8	68	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh ThiÕt Ng­ trong 30 phót	1	1	1	\script\item\±äÉí·û\Ìú¿øÓã.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Lam Cèt BiÕn Th©n Phï	8	69	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Lam Cèt trong 30 phót	1	1	1	\script\item\±äÉí·û\ËÀÁé.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#H¶i S©m Phï	8	70	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh H¶i S©m trong 30 phót	1	1	1	\script\item\±äÉí·û\Ë®²Î.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#ThiÕt Trïng Phï	8	71	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh ThiÕt Trïng trong 30 phót	1	1	1	\script\item\±äÉí·û\Ê¬»È.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Sa Hån BiÕn Th©n Phï	8	72	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Sa Hån trong 30 phót	1	1	1	\script\item\±äÉí·û\É³»ê.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#§íi Tr¹i Phï	8	73	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh §íi Tr¹i trong 30 phót	1	1	1	\script\item\±äÉí·û\Éİ±È·òÈË.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Kim Tr¹i Phï	8	74	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Kim Tr¹i trong 30 phót	1	1	1	\script\item\±äÉí·û\ÇîÆæ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Bµn Cæ Phï	8	75	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Bµn Cæ trong 30 phót	1	1	1	\script\item\±äÉí·û\ÅÌ¹Å.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Ngäc N÷ Phï	8	76	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Ngäc N÷ trong 30 phót	1	1	1	\script\item\±äÉí·û\ÃÀÅ®°ö.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Lôc Ng« ThÇn Phï	8	77	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Lôc Ng« ThÇn trong 30 phót  	1	1	1	\script\item\±äÉí·û\Â½Îá´óÉñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Lam Qu¸i BiÕn Th©n Phï	8	78	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Lam Qu¸i trong 30 phót 	1	1	1	\script\item\±äÉí·û\Á×Ñı.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#L«i Tr¹ch Phï	8	79	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh L«i Tr¹ch thÇn trong 30 phót	1	1	1	\script\item\±äÉí·û\À×ÔóÉñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Cuång §iªu Phï	8	80	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Cuång §iªu trong 30 phót	1	1	1	\script\item\±äÉí·û\¿ñÄñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#TiÓn §ao Phï	8	81	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh TiÔn §ao thÇn trong 30 phót	1	1	1	\script\item\±äÉí·û\¿ªÃ÷Éñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Cöu Linh BiÕn Th©n Phï	8	82	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Cöu Linh trong 30 phót	1	1	1	\script\item\±äÉí·û\¾ÅÓ¤.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Cù Th¹ch Phï	8	83	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Cù Th¹ch trong 30 phót	1	1	1	\script\item\±äÉí·û\¾ŞÊ¯Éñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#L¹c C¬ Phï	8	84	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh L¹c C¬ trong 30 phót	1	1	1	\script\item\±äÉí·û\¾úÈË.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#KiÕm Nh©n Phï	8	85	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh KiÕm Nh©n trong 30 phót	1	1	1	\script\item\±äÉí·û\¾¸ÈË.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Gi¸p Cèt Phï	8	86	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Gi¸p Cèt trong 30 phót	1	1	1	\script\item\±äÉí·û\¼×¿ÇÈË.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#ThiÕt Bè Phï	8	87	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh ThiÕt Bè trong 30 phót	1	1	1	\script\item\±äÉí·û\»ìãç.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Tr­ Tinh Phï	8	88	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Tr­ Tinh trong 30 phót	1	1	1	\script\item\±äÉí·û\»ÄÖí.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Háa Ng­ Phï	8	89	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Háa Ng­ trong 30 phót	1	1	1	\script\item\±äÉí·û\»ğÓã.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Háa Tµ Phï	8	90	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Háa Tµ trong 30 phót	1	1	1	\script\item\±äÉí·û\»ğĞ°.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#HuyÔn Linh Phï	8	91	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh HuyÔn Linh trong 30 phót	1	1	1	\script\item\±äÉí·û\»ÃÁé.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Hå l« Phï	8	92	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh L·o Hå l« trong 30 phót	1	1	1	\script\item\±äÉí·û\»ğÀëĞ¡Ñı.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Ma N÷ Phï	8	93	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Ma N÷ trong 30 phót	1	1	1	\script\item\±äÉí·û\»Ã¾«.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Hoµn CÈu Phï	8	94	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Hoµn CÈu trong 30 phót	1	1	1	\script\item\±äÉí·û\»·¹·.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#H¾c Phong Phï	8	95	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh H¾c Phong trong 30 phót	1	1	1	\script\item\±äÉí·û\ºÚÉ··ä.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Ng­u S¸t Phï	8	96	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Ng­u S¸t trong 30 phót	1	1	1	\script\item\±äÉí·û\ºìÉ·.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Giang Quy BiÕn Th©n Phï	8	97	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Giang Quy trong 30 phót	1	1	1	\script\item\±äÉí·û\ºµ¹ê.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#D¹ Xoa Phï	8	98	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh D¹ Xoa trong 30 phót	1	1	1	\script\item\±äÉí·û\¹íÔ¦.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#§¨ng Hån Phï	8	99	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh §¨ng Hån trong 30 phót	1	1	1	\script\item\±äÉí·û\¹íµÆ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Cæ §iªu Phï	8	100	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Cæ §iªu trong 30 phót	1	1	1	\script\item\±äÉí·û\¹Æµñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Phi Thè Phï	8	101	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Phi Thè trong 30 phót	1	1	1	\script\item\±äÉí·û\·ÉÊó.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Phi Gi¸p Phï	8	102	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Phi Gi¸p trong 30 phót	1	1	1	\script\item\±äÉí·û\·É¼×.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#§ao CÇm Phï	8	103	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh §ao CÇm trong 30 phót	1	1	1	\script\item\±äÉí·û\µ¶Çİ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Háa DiÖn Phï	8	104	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Háa DiÖn trong 30 phót	1	1	1	\script\item\±äÉí·û\´óõàÈË.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#§¹i §iªu Phï	8	105	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh §¹i §iªu trong 30 phót	1	1	1	\script\item\±äÉí·û\´óÅô.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#S¬n D­¬ng  Phï	8	106	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh S¬n D­¬ng yªu trong 30 phót	1	1	1	\script\item\±äÉí·û\³¤³ËÉñ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Th¶o Tiªn Phï	8	107	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Th¶o Tiªn trong 30 phót	1	1	1	\script\item\±äÉí·û\²İÏÉ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#H­¬ng D©n Phï	8	108	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh H­¬ng D©n trong 30 phót	1	1	1	\script\item\±äÉí·û\²¢·â.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#B¨ng Linh Phï	8	109	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh B¨ng Linh trong 30 phót	1	1	1	\script\item\±äÉí·û\±ùÁé.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#B¨ng Lang Phï	8	110	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh B¨ng Lang trong 30 phót	1	1	1	\script\item\±äÉí·û\±ù½¾³æ.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#X¹ ThÇn Phï	8	111	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh X¹ ThÇn trong 30 phót	1	1	1	\script\item\±äÉí·û\±±º£ÅÑ¾ü.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Lam Ph¸ch Phï	8	112	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Lam Ph¸ch trong 30 phót	1	1	1	\script\item\±äÉí·û\—ƒè».lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Hæ Nh©n Phï	8	113	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Hæ Nh©n trong 30 phót	1	1	1	\script\item\±äÉí·û\»¢ÈË.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Méng NhiÔu Trang	8	114	2	\spr\item\other\ÄĞ2.spr	38	1	1	#Trang phôc dµnh cho nh÷ng ng­êi ®ang yªu. <color=cyan>Nam<color>	1	1	1	\script\item\ibitem\hunqian.lua	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	1	30
+#T×nh Khiªn Trang	8	115	2	\spr\item\other\Å®2.spr	38	1	1	#Trang phôc dµnh cho nh÷ng ng­êi ®ang yªu. <color=cyan>N÷<color>	1	1	1	\script\item\ibitem\mengrao.lua	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	1	30
+#T©n lang phôc	8	116	2	\spr\item\ibitem\ĞÂÀÉÀñ·ş.spr	38	1	1	#LÔ phôc T©n lang mÆc khi cö hµnh h«n lÔ	1	1	1	\script\item\ibitem\xinlang.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	30
+#T©n n­¬ng phôc	8	117	2	\spr\item\ibitem\ĞÂÄïÀñ·ş.spr	38	1	1	#LÔ phôc T©n n­¬ng mÆc khi cö hµnh h«n lÔ	1	1	1	\script\item\ibitem\xinniang.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	30
+#Gi¸ng sinh m·o	8	118	2	\spr\item\other\Ê¥µ®Ã±.spr	38	1	1	#BiÕn thµnh «ng giµ Noel	1	1	1	\script\item\Ê¥µ®Ã±.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#§Şa Linh	8	119	2	\spr\item\other\µØÁé.spr	38	1	1	#Sö dông cã thÓ chuyÓn ®Õn <color=Cyan>Hoang m¹c<color>	10	1	1	\script\item\ÈçÒâ·û\ÈçÒâ·û_»ÄÄ®.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#LiÖu Nguyªn	8	120	2	\spr\item\other\ÁÇÔ­.spr	38	1	1	#Sö dông cã thÓ chuyÓn ®Õn <color=Cyan>Hiªn Viªn ®éng<color>	10	1	1	\script\item\ÈçÒâ·û\ÈçÒâ·û_ĞùÔ¯¶´.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Truy Phong	8	121	2	\spr\item\other\×··ç.spr	38	1	1	#Sö dông cã thÓ chuyÓn ®Õn <color=Cyan>B¨ng Xuyªn<color>	10	1	1	\script\item\ÈçÒâ·û\ÈçÒâ·û_±ù´¨.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#H¶i Hån	8	122	2	\spr\item\other\º£»ê.spr	38	1	1	#Sö dông cã thÓ chuyÓn ®Õn <color=Cyan>§«ng H¶i<color>	10	1	1	\script\item\ÈçÒâ·û\ÈçÒâ·û_¶«º£.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#TËt §iÖn	8	123	2	\spr\item\other\¼²µç.spr	38	1	1	#Sö dông cã thÓ chuyÓn ®Õn <color=Cyan>Bİch Du cung<color>	10	1	1	\script\item\ÈçÒâ·û\ÈçÒâ·û_±ÌÓÎ¹¬.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#V¹n TŞch	8	124	2	\spr\item\other\¼²µç.spr	38	1	1	#Sö dông cã thÓ chuyÓn ®Õn <color=Cyan>Khæn Tiªn Cung<color>	10	1	1	\script\item\ÈçÒâ·û\ÈçÒâ·û_À¦ÏÉ¹¬.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#TriÒu Ca M«n Bµi	8	125	0	\spr\item\ibitem\»õ1.spr	38	1	1	#Néi 144 giê cã thÓ bµy b¸n ë TriÒu Ca, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	21	0	0	518400	0	0	1	1	1	0	1	1	1	1	1	183
+#T©y Kú M«n Bµi	8	126	0	\spr\item\ibitem\»õ2.spr	38	1	1	#Néi 144 giê cã thÓ bµy b¸n ë T©y Kú, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	20	0	0	518400	0	0	1	1	1	0	1	1	1	1	1	183
+#Diªu Tr× M«n Bµi	8	127	0	\spr\item\ibitem\»õ3.spr	38	1	1	#Néi 144 giê cã thÓ bµy b¸n ë Diªu Tr×, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	52	0	0	518400	0	0	1	1	1	0	1	1	1	1	1	183
+#Phong ThÇn ®µi M«n Bµi	8	128	0	\spr\item\ibitem\»õ4.spr	38	1	1	#Néi 144 giê cã thÓ bµy b¸n ë Phong ThÇn §µi, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	1	0	0	518400	0	0	1	1	1	0	1	1	1	1	1	183
+#Thæ trËn M«n Bµi	8	129	0	\spr\item\ibitem\»õ5.spr	38	1	1	#Néi 144 giê cã thÓ bµy b¸n ë Thæ trËn, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	67	0	0	518400	0	0	1	1	1	0	1	1	1	1	1	183
+#Thñy trËn M«n Bµi	8	130	0	\spr\item\ibitem\»õ6.spr	38	1	1	#Néi 144 giê cã thÓ bµy b¸n ë Thñy trËn, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	68	0	0	518400	0	0	1	1	1	0	1	1	1	1	1	183
+#Háa trËn M«n Bµi	8	131	0	\spr\item\ibitem\»õ7.spr	38	1	1	#Néi 144 giê cã thÓ bµy b¸n ë Háa trËn, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	69	0	0	518400	0	0	1	1	1	0	1	1	1	1	1	183
+#Phong trËn M«n Bµi	8	132	0	\spr\item\ibitem\»õ8.spr	38	1	1	#Néi 144 giê cã thÓ bµy b¸n ë Phong trËn, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	70	0	0	518400	0	0	1	1	1	0	1	1	1	1	1	183
+#ThÇn CÈu phï	8	133	0	\spr\item\ibitem\Éñ¾Ô·û.spr	38	1	1	#Néi 1 giê tèc ®é di chuyÓn khi c­ìi thó 20%	1	1	1	NONE	111	20	0	0	3600	0	0	1	1	1	0	1	1	1	1	1	183
+#§éi Tr­ëng Chiªu TËp lÖnh	8	134	2	\spr\item\ibitem\¶Ó³¤ÕÙ¼¯Áî.spr	38	1	1	#§éi Tr­ëng cã thÓ triÖu tËp toµn tæ ®éi vÒ 1 chç	1	1	1	\script\item\ibitem\grouptrans.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#H×nh thÕ th©n	8	135	2	\spr\item\ibitem\ÌæÉíÖ½ÈË.spr	38	1	1	#Dïng ®Ó ®èt cóng tÕ ng­êi chÕt	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Phi Mao phï	8	136	2	\spr\item\ibitem\·ÉÃ«ÍÈ.spr	38	1	1	#T¨ng tèc cho L¹c ®µ	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Tói hµng	8	137	2	\spr\item\ibitem\»õÎï´ü.spr	38	1	1	#Cã thÓ nhËn th­¬ng vô nhiÒu lÇn.	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Th­ëng Kim Bµi	8	138	2	\spr\item\ibitem\ÉÍ½ğÑüÅÆ.spr	38	1	1	#Mçi ngµy cã thÓ nhËn nhiÖm vô V¹n Tiªn trËn t¹i Thiªn Hïng	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#B¹ch Kh«ng th­	8	139	2	\spr\item\ibitem\°×É«¿Õ°×ÊéÒ³.spr	38	1	1	#Ghi c¸c vâ c«ng ®éc m«n, chØ vâ s­ ë T©y Kú míi cã thÓ ®äc	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Lam Kh«ng Th­	8	140	2	\spr\item\ibitem\À¶É«¿Õ°×ÊéÒ³.spr	38	1	1	#Ghi c¸c vâ c«ng ®éc m«n, chØ vâ s­ ë T©y Kú míi cã thÓ ®äc	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Hång Kh«ng Th­	8	141	2	\spr\item\ibitem\ºìÉ«¿Õ°×ÊéÒ³.spr	38	1	1	#Ghi c¸c vâ c«ng ®éc m«n, chØ vâ s­ ë T©y Kú míi cã thÓ ®äc	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Hoµng Kh«ng th­	8	142	2	\spr\item\ibitem\»ÆÉ«¿Õ°×ÊéÒ³.spr	38	1	1	#Ghi c¸c vâ c«ng ®éc m«n, chØ vâ s­ ë T©y Kú míi cã thÓ ®äc	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#D­îc thñy	8	143	2	\spr\item\ibitem\¶à²ÊÒ©Ë®.spr	38	1	1	#Khi ®¼ng cÊp bµy b¸n trªn 2, cã thÓ ®æi mµu m«n bµi bµy b¸n	1	1	1	\script\item\ibitem\painting.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Thæ Linh Th¹ch	8	144	2	\spr\item\ibitem\ÍÁÁéÊ¯.spr	38	1	1	#Sö dông sÏ kh«ng h¹n chÕ sè lÇn vµo V¹n Tiªn trËn (Thæ)	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Thñy Linh Th¹ch	8	145	2	\spr\item\ibitem\Ë®ÁéÊ¯.spr	38	1	1	#Sö dông sÏ kh«ng h¹n chÕ sè lÇn vµo V¹n Tiªn trËn (Thñy)	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Háa Linh Th¹ch	8	146	2	\spr\item\ibitem\»ğÁéÊ¯.spr	38	1	1	#Sö dông sÏ kh«ng h¹n chÕ sè lÇn vµo V¹n Tiªn trËn (Háa)	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Phong Linh Th¹ch	8	147	2	\spr\item\ibitem\·çÁéÊ¯.spr	38	1	1	#Sö dông sÏ kh«ng h¹n chÕ sè lÇn vµo V¹n Tiªn trËn (Phong)	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#M«n bµi giao dŞch	8	148	2	\spr\item\ibitem\ÅÜÉÌĞí¿É.spr	38	1	1	#Cã thÓ giao dŞch trong 2 giê	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Chiªu bµi *V¹n sù nh­ ı	8	149	0	\spr\item\ibitem\ÕĞÅÆ1.spr	38	1	1	#Chiªu bµi trong 7 ngµy	1	1	1	NONE	193	519	0	0	604800	0	0	1	1	1	0	1	1	1	1	1	183
+#Chiªu bµi *T©m t­ëng sù thµnh	8	150	0	\spr\item\ibitem\ÕĞÅÆ2.spr	38	1	1	#Chiªu bµi trong 7 ngµy	1	1	1	NONE	193	520	0	0	604800	0	0	1	1	1	0	1	1	1	1	1	183
+#Chiªu bµi *TiÒn tµi nh­ n­íc	8	151	0	\spr\item\ibitem\ÕĞÅÆ3.spr	38	1	1	#Chiªu bµi trong 7 ngµy	1	1	1	NONE	193	521	0	0	604800	0	0	1	1	1	0	1	1	1	1	1	183
+#Chiªu bµi *Khai tr­¬ng hång ph¸t	8	152	0	\spr\item\ibitem\ÕĞÅÆ4.spr	38	1	1	#Chiªu bµi trong 7 ngµy	1	1	1	NONE	193	522	0	0	604800	0	0	1	1	1	0	1	1	1	1	1	183
+#Chiªu bµi *Mét vèn v¹n lêi	8	153	0	\spr\item\ibitem\ÕĞÅÆ5.spr	38	1	1	#Chiªu bµi trong 7 ngµy	1	1	1	NONE	193	523	0	0	604800	0	0	1	1	1	0	1	1	1	1	1	183
+#Chiªu bµi *Mét vèn v¹n lêi	8	154	0	\spr\item\ibitem\ÕĞÅÆ6.spr	38	1	1	#Chiªu bµi trong 7 ngµy	1	1	1	NONE	193	524	0	0	604800	0	0	1	1	1	0	1	1	1	1	1	183
+#Chiªu bµi *Mét vèn v¹n lêi	8	155	0	\spr\item\ibitem\ÕĞÅÆ7.spr	38	1	1	#Chiªu bµi trong 7 ngµy	1	1	1	NONE	193	525	0	0	604800	0	0	1	1	1	0	1	1	1	1	1	183
+#Chiªu bµi *Mét vèn v¹n lêi	8	156	0	\spr\item\ibitem\ÕĞÅÆ8.spr	38	1	1	#Chiªu bµi trong 7 ngµy	1	1	1	NONE	193	526	0	0	604800	0	0	1	1	1	0	1	1	1	1	1	183
+#Chiªu bµi *Mét vèn v¹n lêi	8	157	0	\spr\item\ibitem\ÕĞÅÆ9.spr	38	1	1	#Chiªu bµi trong 7 ngµy	1	1	1	NONE	193	527	0	0	604800	0	0	1	1	1	0	1	1	1	1	1	183
+#Chiªu bµi *Mét vèn v¹n lêi	8	158	0	\spr\item\ibitem\ÕĞÅÆ10.spr	38	1	1	#Chiªu bµi trong 7 ngµy	1	1	1	NONE	193	528	0	0	604800	0	0	1	1	1	0	1	1	1	1	1	183
+#Di ngo¹i phï (Siªu cÊp)	8	159	2	\spr\item\ibitem\³¬¼¶Ò°Íâ´«ËÍ.spr	38	1	1	#ChuyÓn ®Õn khu vùc luyÖn c«ng	50	1	1	\script\item\ibitem\bigwildsuper.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Tr¹ng th¸i giao dŞch	8	160	0	\spr\item\ibitem\ÅÜÉÌĞí¿É.spr	38	1	1	#Kh«ng thuyÕt minh	1	1	1	NONE	85	1	0	0	7200	0	0	1	1	1	0	1	1	1	1	1	183
+#BiÕn Th©n Phï T×nh yªu	8	161	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh tr¸i tim trong 30 phót	1	1	1	\script\item\±äÉí·û\ÎÒ°®Äã.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#sinh lùc Thanh Lé	8	162	3	\spr\item\ibitem\ÖĞçÎç¿ÇåÂ¶.spr	38	1	1	#Mçi nöa gi©y phôc håi sinh lùc 50 ®iÓm, tèi ®a 20w ®iÓm	200000	1	10	NONE	153	50	0	0	0	0	0	1	1	1	1	1	1	1	1	1	183
+#Ch©n Khİ	8	163	4	\spr\item\ibitem\ÖĞÈÕÔÂÕæÆø.spr	38	1	1	#Mçi nöa gi©y phôc håi néi lùc 50 ®iÓm, tèi ®a 20w ®iÓm	200000	1	10	NONE	154	50	0	0	0	0	0	1	1	1	1	1	1	1	1	1	183
+#NhËt NguyÖt ®¬n	8	164	0	\spr\item\ibitem\°Ë¾°ÈÕÔÂµ¤.spr	38	1	1	#Trong 30 ngµy, rêi m¹ng vÉn nhËn ®­îc ®iÓm kinh nghiÖm	1	1	1	NONE	85	1	0	0	2592000	1	0	1	0	1	0	1	1	1	1	1	183
+#Th¸i Cùc §¬n	8	165	2	\spr\item\ibitem\°Ë¾°Ì«¼«µ¤.spr	38	1	1	#Rêi m¹ng t¨ng ®iÓm kinh nghiÖm kü n¨ng	10	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Lam D­¬ng §¬n	8	166	2	\spr\item\ibitem\°Ë¾°À¶Ñôµ¤.spr	38	1	1	#VËt phÈm ñy th¸c rêi m¹ng, mçi giê sÏ hao 1 viªn	10	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#B¸ L¹c Kİnh cÊp 10	8	167	2	\spr\item\ibitem\10¼¶²®ÀÖÖ®¾µ.spr	38	1	1	#BiÕn thó c­ìi cÊp 55 thµnh B¸ L¹c nh·n, chØ cã Hoµng Minh ë TriÒu ca míi lµm ®­îc.	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#B¸ L¹c Kİnh cÊp 11	8	168	2	\spr\item\ibitem\11¼¶²®ÀÖÖ®¾µ.spr	38	1	1	#BiÕn thó c­ìi cÊp 60 thµnh B¸ L¹c nh·n, chØ cã Hoµng Minh ë TriÒu ca míi lµm ®­îc.	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#B¸ L¹c Kİnh cÊp 12	8	169	2	\spr\item\ibitem\12¼¶²®ÀÖÖ®¾µ.spr	38	1	1	#BiÕn thó c­ìi cÊp 70 thµnh B¸ L¹c nh·n, chØ cã Hoµng Minh ë TriÒu ca míi lµm ®­îc.	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#B¸ L¹c Kİnh cÊp 13	8	170	2	\spr\item\ibitem\13¼¶²®ÀÖÖ®¾µ.spr	38	1	1	#BiÕn thó c­ìi cÊp 80 thµnh B¸ L¹c nh·n, chØ cã Hoµng Minh ë TriÒu ca míi lµm ®­îc.	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Chuéc Hån Ch©u cao cÊp	8	171	5	\spr\item\ibitem\¸ß¼¶Êê»êÖé.spr	38	1	1	#Sö dông sÏ kh«ng mÊt kinh nghiÖm khi bŞ träng th­¬ng, cã thÓ sö dông 10 lÇn	10	1	1	\script\item\ibitem\spiritbead.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#®iÓm kinh nghiÖm rêi m¹ng	8	172	0	\spr\item\ibitem\°Ë¾°ÈÕÔÂµ¤.spr	38	1	1	#Trong 30 ngµy, rêi m¹ng vÉn nhËn ®­îc ®iÓm kinh nghiÖm	1	1	1	NONE	85	1	0	0	2592000	0	0	1	1	1	0	1	1	1	1	1	183
+#Ngäc H­ Lé	8	173	2	\spr\item\ibitem\¶à²ÊÒ©Ë®2.spr	38	1	1	#Gióp h¹t thÇn bİ lín nhanh	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#C©y ThÕ th©n	8	174	2	\spr\item\ibitem\ÌæÉíÄ¾ÈË.spr	38	1	1	#HÊp thu chÊn ®éng tõ Cµn Kh«n lu©n	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Nh©n ®«i ®iÓm kinh nghiÖm	8	175	0	\spr\item\ibitem\¾µ×ÓÀ¶.spr	38	1	1	#Nh©n ®«i ®iÓm kinh nghiÖm	1	1	1	NONE	181	100	0	0	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Nh©n 1.5 ®iÓm kinh nghiÖm	8	176	0	\spr\item\ibitem\¾µ×ÓÀ¶.spr	38	1	1	#Nh©n 1.5 ®iÓm kinh nghiÖm	1	1	1	NONE	181	50	0	0	7200	0	0	1	1	1	1	1	1	1	1	1	183
+#Linh Phï	8	177	2	\spr\item\ibitem\Ó¦Ç©01.spr	38	1	1	#Cã thÓ hÊp thu löa trêi	1	1	1	\script\item\ibitem\huoqian.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#H×nh thÕ th©n	8	178	2	\spr\item\ibitem\Ç¿»¯ÌæÉíÖ½ÈË.spr	38	1	1	#HÊp thu chÊn ®éng tõ Cµn Kh«n lu©n	10	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#C©y thÕ th©n	8	179	2	\spr\item\ibitem\Ç¿»¯ÌæÉíÄ¾ÈË.spr	38	1	1	#HÊp thu chÊn ®éng tõ Cµn Kh«n lu©n	10	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#§Şa Phñ Chó O¸n	8	180	0	\spr\item\ibitem\µØ¸®ÖäÔ¹1.spr	38	1	1	#Kinh nghiÖm gi¶m 1/2, M¸u gi¶m 20%	1	1	1	NONE	181	-50	86	-20	3600	0	0	1	0	1	1	1	1	1	1	1	183
+#§Şa Phñ Chó O¸n	8	181	0	\spr\item\ibitem\µØ¸®ÖäÔ¹2.spr	38	1	1	#Kinh nghiÖm gi¶m 1/2, C«ng kİch gi¶m 50%	1	1	1	NONE	181	-50	121	-50	3600	0	0	1	0	1	1	1	1	1	1	1	183
+#§Şa Phñ Chó O¸n	8	182	0	\spr\item\ibitem\µØ¸®ÖäÔ¹3.spr	38	1	1	#Kinh nghiÖm gi¶m 1/2, phßng ngù gi¶m 50 ®iÓm	1	1	1	NONE	181	-50	179	-50	3600	0	0	1	0	1	1	1	1	1	1	1	183
+#Hoa ThÇn chóc phóc	8	183	0	\spr\item\ibitem\»¨Éñ×£¸£1.spr	38	1	1	#Kinh nghiÖm t¨ng 1,5. sinh lùc 20%	1	1	1	NONE	181	50	86	20	1800	0	0	1	1	1	1	1	1	1	1	1	183
+#Hoa ThÇn chóc phóc	8	184	0	\spr\item\ibitem\»¨Éñ×£¸£2.spr	38	1	1	#Kinh nghiÖm t¨ng 1,5. tÊn c«ng c¬ b¶n 50%	1	1	1	NONE	181	50	121	50	1800	0	0	1	1	1	1	1	1	1	1	1	183
+#Hoa ThÇn chóc phóc	8	185	0	\spr\item\ibitem\»¨Éñ×£¸£3.spr	38	1	1	#Kinh nghiÖm t¨ng 1,5. phßng ngù t¨ng 50 ®iÓm	1	1	1	NONE	181	50	179	50	1800	0	0	1	1	1	1	1	1	1	1	1	183
+#M«n bµi Thµnh thŞ 	8	186	0	\spr\item\ibitem\»õ4.spr	38	1	1	#Néi 48 giê t¹i c¸c Thµnh thŞ, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	65535	0	0	172800	0	0	1	1	1	0	1	1	1	1	1	183
+#Vò khİ s¬ cÊp	8	187	2	\spr\item\ibitem\¾«ÖÂ¿óÊ¯01.spr	38	1	1	#Khi th¨ng cÊp vò khİ lÇn thø 4,5,6 x¸c xuÊt thµnh c«ng 10%, mçi lÇn sö dông tèi ®a 3 viªn tû lÖ thµnh c«ng 30%	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Trang bŞ s¬ cÊp (m¶nh)	8	188	2	\spr\item\ibitem\¾«ÖÂ¿óÊ¯02.spr	38	1	1	#Khi th¨ng cÊp trang bŞ lÇn thø 4,5,6 x¸c xuÊt thµnh c«ng 10%, mçi lÇn sö dông tèi ®a 3 viªn tû lÖ thµnh c«ng 30%	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Vò khİ s¬ cÊp (nguyªn)	8	189	2	\spr\item\ibitem\¾«ÖÂ¿óÊ¯03.spr	38	1	1	#Khi th¨ng cÊp vò khİ lÇn thø 7, 8, 9 x¸c xuÊt thµnh c«ng 10%, mçi lÇn sö dông tèi ®a 3 viªn tû lÖ thµnh c«ng 30%	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#trang bŞ s¬ cÊp (nguyªn)	8	190	2	\spr\item\ibitem\¾«ÖÂ¿óÊ¯04.spr	38	1	1	#Khi th¨ng cÊp trang bŞ lÇn thø 7, 8, 9 x¸c xuÊt thµnh c«ng 10%, mçi lÇn sö dông tèi ®a 3 viªn tû lÖ thµnh c«ng 30%	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#TrÇm §iÖn	8	191	2	\spr\item\ibitem\¿óÊ¯1.spr	38	1	1	#Muèn æn ®Şnh ®¼ng cÊp trang bŞ cÇn ph¸p b¶o thÇn kú, chØ cã Xİch Tïng Tö míi biÕt c¸ch	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#M«n bµi Thµnh thŞ 	8	192	0	\spr\item\ibitem\»õ4.spr	38	1	1	#Néi 144 giê cã thÓ bµy b¸n ë tÊt c¶ c¸c Thµnh thŞ, miÔn thuÕ, kh«ng tİnh thêi gian rêi m¹ng	1	1	5	NONE	192	65535	0	0	518400	0	0	1	1	1	0	1	1	1	1	1	183
+#S¸ch ch­ hÇu (m¶nh)	8	193	5	\spr\item\ibitem\ÖîºîÖ®ÊéËéÆ¬.spr	38	1	1	#Giao cho Lı TŞnh ë Phong thÇn ®µi ®Ó nhËn ®iÓm tİch lòy l·nh ®Şa	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#T©m t©m t­¬ng ¸nh phï	8	194	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh h×nh tr¸i tim trong 30 phót	1	1	1	\script\item\±äÉí·û\ĞÄĞÄÏàÓ¡.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#LÔ hoa	8	195	2	\spr\item\other\ÀñÆ·ºĞ1.spr	38	1	1	#NhËn ®­îc 6 lÔ Hoa	1	1	1	\script\item\»éÀñÀñ»¨°ü.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Chuéc Hån ®¨ng	8	196	2	\spr\item\ibitem\ĞÂ°æÊê»êÖé.spr	38	1	1	#VËt phÈm tÕ tæ	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Quy hån ch©u	8	197	2	\spr\item\ibitem\¹é»êÖé.spr	38	1	1	#Quay l¹i n¬i võa bŞ tö vong	1	1	1	\script\item\ibitem\guihunzhu.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#T¸ Thanh lé (tiÓu)	8	198	3	\spr\item\ibitem\´óçÎç¿ÇåÂ¶.spr	38	1	1	#Mçi gi©y håi phôc 100 ®iÓm Sinh lùc, tèi ®a 20000 ®iÓm	20000	1	10	NONE	153	100	0	0	0	0	0	1	1	1	1	1	1	1	1	1	183
+#Thñy Ch©n Khİ (tiÓu)	8	199	4	\spr\item\ibitem\´óÈÕÔÂÕæÆø.spr	38	1	1	#Mçi gi©y håi phôc 100 ®iÓm Néi lùc, tèi ®a 20000 ®iÓm	20000	1	10	NONE	154	100	0	0	0	0	0	1	1	1	1	1	1	1	1	1	183
+#ChiÕn hån (hç trî)	8	200	0	\spr\item\ibitem\»¨Éñ×£¸£3.spr	38	1	1	#Néi 1 giê: xuÊt chiªu vò khİ t¨ng 30%, xuÊt chiªu ma ph¸p t¨ng 30%.	1	1	1	NONE	115	30	116	30	3600	0	0	1	1	1	1	1	1	1	1	1	183
+#Quy ch©n th¹ch	8	201	5	\spr\item\ibitem\¿óÊ¯2.spr	38	1	1	#Gióp c¸c trang bŞ trë l¹i tr¹ng th¸i nguyªn thñy ban ®Çu	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#GM phï	8	202	2	\spr\item\ibitem\Ò°Íâ´«ËÍ·û1.spr	38	1	1	#BiÕn thµnh Bµn Cæ trong 30 phót	1	1	1	\script\item\±äÉí·û\gm.lua	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	183
+#Di vËt cña Ph­¬ng BËt	8	203	0	\spr\item\ibitem\»¨Éñ×£¸£4.spr	38	1	1	#Di vËt cña Ph­¬ng BËt	1	1	1	NONE	114	10	0	0	1200	0	0	1	1	1	1	1	1	1	1	1	183
+#Di vËt cña Ph­¬ng T­íng	8	204	0	\spr\item\ibitem\»¨Éñ×£¸£2.spr	38	1	1	#Di vËt cña Ph­¬ng T­íng	1	1	1	NONE	124	25	0	0	1200	0	0	1	1	1	1	1	1	1	1	1	183
+#Håi §Şa phï	8	205	2	\spr\item\ibitem\»Ø¹ú·û.spr	38	1	1	#VÒ l·nh ®Şa cña m×nh.	10	1	1	\script\item\ibitem\gohome.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Thiªn Tiªn thñy	8	206	5	\spr\item\ibitem\ÌìÏÉË®.spr	38	1	1	#Con ch¸u Long V­¬ng míi ®­îc uèng	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Lß luyÖn ®¬n	8	207	5	\spr\item\ibitem\Á¶µ¤Â¯.spr	38	1	1	#Lß luyÖn ®¬n ë nói C«n L«n	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Ma Lôc	8	208	5	\spr\item\ibitem\Ììî¸·şÄ§Â¼.spr	38	1	1	#Chøa 36 Thiªn C­¬ng Tinh	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#H­¬ng liÖu 	8	209	5	\spr\item\ibitem\ÏãÁÏ.spr	38	1	1	#VËt liÖu Thµnh thŞ	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Méc liÖu 	8	210	5	\spr\item\ibitem\Ä¾²Ä.spr	38	1	1	#VËt liÖu Thµnh thŞ	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#HuyÒn thiÕt 	8	211	5	\spr\item\ibitem\ĞşÌú.spr	38	1	1	#VËt liÖu Thµnh thŞ	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Hoµng Kim 	8	212	5	\spr\item\ibitem\»Æ½ğ.spr	38	1	1	#VËt liÖu Thµnh thŞ	1	1	1	NONE	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Tø ®ång th¹ch	8	213	2	\spr\item\other\Çà¾ú¾ŞÊ¯.spr	38	1	1	#Chøa 100 ®ång thau.	1	1	1	\script\item\ibitem\citongshi.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Hµnh qu©n lÖnh	8	214	2	\spr\item\ibitem\Ó¦Ç©02.spr	38	1	1	#Sö dông nhËn ®­îc <color=green>5 ®iÓm<color> nhiÖm vô lİnh thuª	1	1	1	\script\item\ibitem\xingjunling.lua	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	183
+#Nh©n gi¶	8	215	0	\spr\item\other\»ÆµÛÄÚ¾­.spr	38	1	1	#Vßng s¸ng nhiÖm vô s­ ®å	1	1	1	NONE	181	100	0	0	1800	1	0	1	0	1	0	1	1	1	1	1	183
+#Dòng gi¶	8	216	0	\spr\item\other\ò¿ÓÈÉñÆ÷.spr	38	1	1	#Vßng s¸ng nhiÖm vô s­ ®å	1	1	1	NONE	86	20	111	-20	1800	1	0	1	0	1	0	1	1	1	1	1	183
+#HiÒn gi¶	8	217	0	\spr\item\other\·âÉñ°ñ.spr	38	1	1	#Vßng s¸ng nhiÖm vô s­ ®å	1	1	1	NONE	85	1	0	0	1800	1	0	1	0	1	0	1	1	1	1	1	183
+#Ph¶n M«n Gi¶	8	218	0	\spr\item\other\°ÙÁéá¦.spr	38	1	1	#Tr¸nh ®­îc sù trõng ph¹t cña s­ phô	1	1	1	NONE	85	1	0	0	43200	1	0	1	0	1	0	1	1	1	1	1	183

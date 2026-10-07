@@ -1,0 +1,13 @@
+装备名称	休闲站立	休息坐	空手待击	单手待击	双手待击	空手跑步	单手跑步	双手跑步	空手攻击	单手攻击	双手攻击	空手受伤	单手受伤	双手受伤	死亡	奉上	骑马空手待击	骑马单手待击	骑马双手待击	骑马空手跑步	骑马单手跑步	骑马双手跑步	骑马空手攻击	骑马单手攻击	骑马双手攻击	骑马空手受伤	骑马单手受伤	骑马双手受伤	骑马死亡	骑马奉上
+坐骑1																	jsx01_hh_rs0.spr	jsx01_hh_rs0.spr	jsx01_hh_rs0.spr	jsx01_hh_rr0.spr	jsx01_hh_rr0.spr	jsx01_hh_rr0.spr		jsx01_hh_ra0.spr	jsx01_hh_ra0.spr	jsx01_hh_rb0.spr	jsx01_hh_rb0.spr	jsx01_hh_rb0.spr		
+坐骑2																	jsx02_hh_rs0.spr	jsx02_hh_rs0.spr	jsx02_hh_rs0.spr	jsx02_hh_rr0.spr	jsx02_hh_rr0.spr	jsx02_hh_rr0.spr		jsx02_hh_ra0.spr	jsx02_hh_ra0.spr	jsx02_hh_rb0.spr	jsx02_hh_rb0.spr	jsx02_hh_rb0.spr		
+坐骑3																	jsx03_hh_rs0.spr	jsx03_hh_rs0.spr	jsx03_hh_rs0.spr	jsx03_hh_rr0.spr	jsx03_hh_rr0.spr	jsx03_hh_rr0.spr		jsx03_hh_ra0.spr	jsx03_hh_ra0.spr	jsx03_hh_rb0.spr	jsx03_hh_rb0.spr	jsx03_hh_rb0.spr		
+坐骑4																	jsx04_hh_rs0.spr	jsx04_hh_rs0.spr	jsx04_hh_rs0.spr	jsx04_hh_rr0.spr	jsx04_hh_rr0.spr	jsx04_hh_rr0.spr		jsx04_hh_ra0.spr	jsx04_hh_ra0.spr	jsx04_hh_rb0.spr	jsx04_hh_rb0.spr	jsx04_hh_rb0.spr		
+坐骑5																	jsx05_hh_rs0.spr	jsx05_hh_rs0.spr	jsx05_hh_rs0.spr	jsx05_hh_rr0.spr	jsx05_hh_rr0.spr	jsx05_hh_rr0.spr		jsx05_hh_ra0.spr	jsx05_hh_ra0.spr	jsx05_hh_rb0.spr	jsx05_hh_rb0.spr	jsx05_hh_rb0.spr		
+坐骑6																	jsx06_hh_rs0.spr	jsx06_hh_rs0.spr	jsx06_hh_rs0.spr	jsx06_hh_rr0.spr	jsx06_hh_rr0.spr	jsx06_hh_rr0.spr		jsx06_hh_ra0.spr	jsx06_hh_ra0.spr	jsx06_hh_rb0.spr	jsx06_hh_rb0.spr	jsx06_hh_rb0.spr		
+坐骑7																	jsx07_hh_rs0.spr	jsx07_hh_rs0.spr	jsx07_hh_rs0.spr	jsx07_hh_rr0.spr	jsx07_hh_rr0.spr	jsx07_hh_rr0.spr		jsx07_hh_ra0.spr	jsx07_hh_ra0.spr	jsx07_hh_rb0.spr	jsx07_hh_rb0.spr	jsx07_hh_rb0.spr		
+坐骑8																	jsx08_hh_rs0.spr	jsx08_hh_rs0.spr	jsx08_hh_rs0.spr	jsx08_hh_rr0.spr	jsx08_hh_rr0.spr	jsx08_hh_rr0.spr		jsx08_hh_ra0.spr	jsx08_hh_ra0.spr	jsx08_hh_rb0.spr	jsx08_hh_rb0.spr	jsx08_hh_rb0.spr		
+坐骑9																	jsx09_hh_rs0.spr	jsx09_hh_rs0.spr	jsx09_hh_rs0.spr	jsx09_hh_rr0.spr	jsx09_hh_rr0.spr	jsx09_hh_rr0.spr		jsx09_hh_ra0.spr	jsx09_hh_ra0.spr	jsx09_hh_rb0.spr	jsx09_hh_rb0.spr	jsx09_hh_rb0.spr		
+坐骑10																	jsx10_hh_rs0.spr	jsx10_hh_rs0.spr	jsx10_hh_rs0.spr	jsx10_hh_rr0.spr	jsx10_hh_rr0.spr	jsx10_hh_rr0.spr		jsx10_hh_ra0.spr	jsx10_hh_ra0.spr	jsx10_hh_rb0.spr	jsx10_hh_rb0.spr	jsx10_hh_rb0.spr		
+坐骑11																	jsx11_hh_rs0.spr	jsx11_hh_rs0.spr	jsx11_hh_rs0.spr	jsx11_hh_rr0.spr	jsx11_hh_rr0.spr	jsx11_hh_rr0.spr		jsx11_hh_ra0.spr	jsx11_hh_ra0.spr	jsx11_hh_rb0.spr	jsx11_hh_rb0.spr	jsx11_hh_rb0.spr		
+坐骑12																	jsx12_hh_rs0.spr	jsx12_hh_rs0.spr	jsx12_hh_rs0.spr	jsx12_hh_rr0.spr	jsx12_hh_rr0.spr	jsx12_hh_rr0.spr		jsx12_hh_ra0.spr	jsx12_hh_ra0.spr	jsx12_hh_rb0.spr	jsx12_hh_rb0.spr	jsx12_hh_rb0.spr		

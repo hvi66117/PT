@@ -1,0 +1,72 @@
+-- PHONG THAN VNG WILDERNESS TALISMAN
+-- Generated from the active WorldSet and verified Region_C/Region_S files.
+
+__FUNCTION_PREFIX___MAPS = {
+__MAP_ROWS__
+}
+
+__FUNCTION_PREFIX___PER_PAGE = 7
+
+function GetDesc(nItemIdx)
+    return "<color=yellow>Click phai de mo danh sach dich chuyen.<color><enter>Chi tru phu khi dich chuyen thanh cong."
+end
+
+function main(itemID)
+    __FUNCTION_PREFIX__Page(1)
+    SetExeState(0)
+end
+
+function __FUNCTION_PREFIX__Page(nPage)
+    if nPage == nil or nPage < 1 then nPage = 1 end
+    local nCount = getn(__FUNCTION_PREFIX___MAPS)
+    local nFirst = (nPage - 1) * __FUNCTION_PREFIX___PER_PAGE + 1
+    if nFirst > nCount then
+        nPage = 1
+        nFirst = 1
+    end
+
+    local nLast = nFirst + __FUNCTION_PREFIX___PER_PAGE - 1
+    if nLast > nCount then nLast = nCount end
+    local tbSay = {}
+    local i = 0
+    for i = nFirst, nLast do
+        tinsert(tbSay, __FUNCTION_PREFIX___MAPS[i][4].."/__FUNCTION_PREFIX__Go("..i..")")
+    end
+    if nPage > 1 then
+        tinsert(tbSay, "Trang truoc/__FUNCTION_PREFIX__Page("..(nPage - 1)..")")
+    end
+    if nLast < nCount then
+        tinsert(tbSay, "Trang sau/__FUNCTION_PREFIX__Page("..(nPage + 1)..")")
+    end
+    tinsert(tbSay, "Dong/no")
+    Say("Di Ngoai Phu - trang "..nPage, getn(tbSay), tbSay)
+end
+
+function __FUNCTION_PREFIX__Go(nIndex)
+    if nIndex == nil or nIndex < 1 or nIndex > getn(__FUNCTION_PREFIX___MAPS) then
+        Msg2Player("Ban do khong hop le.")
+        CloseDialog()
+        return
+    end
+
+    local nItem = FindAValidIBItem(8, __ITEM_DETAIL__, 2, 0)
+    if nItem == nil or nItem == 0 then
+        Msg2Player("Khong tim thay Di Ngoai Phu con hieu luc.")
+        CloseDialog()
+        return
+    end
+
+    local tbMap = __FUNCTION_PREFIX___MAPS[nIndex]
+    SetFightState(0)
+    local nMoved = NewWorld(tbMap[1], tbMap[2], tbMap[3])
+    if nMoved ~= nil and nMoved ~= 0 then
+        CostIBItem(nItem)
+    else
+        Msg2Player("Dich chuyen that bai. Ban do chua san sang.")
+    end
+    CloseDialog()
+end
+
+function no()
+    CloseDialog()
+end

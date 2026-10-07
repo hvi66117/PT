@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "policy": "User accepted all previously collected coordinates on 2026-09-13. Coordinates do not prove template identity or dialogue identity. Never guess either. First coordinate is the selected position; alternatives are retained for review. PAK spawns take precedence over duplicate web names.",
+  "sources": {
+    "profession": "https://phongthan.zing.vn/cam-nang/gioi-thieu/tam-gioi-giap-si.html",
+    "dao": "https://phongthan.zing.vn/cam-nang/gioi-thieu/tam-gioi-dao-si.html",
+    "di": "https://phongthan.zing.vn/cam-nang/gioi-thieu/tam-gioi-di-nhan.html",
+    "tayky": "https://phongthan.zing.vn/cam-nang/nhiem-vu/tay-ky.html",
+    "trieuca": "https://phongthan.zing.vn/cam-nang/nhiem-vu/trieu-ca.html",
+    "chuyensinh": "https://phongthan.zing.vn/cam-nang/tinh-nang/chuyen-sinh.html",
+    "dieutri": "https://phongthan.zing.vn/su-kien/trang-bi-va-vu-khi-tinh-quan/trang-bi-tinh-quan-cap-1.html",
+    "dokiep": "https://phongthan.zing.vn/cam-nang/nhiem-vu/do-kiep-cap-30.html",
+    "dokiep50": "https://phongthan.zing.vn/cam-nang/nhiem-vu/do-kiep-cap-50.html"
+  },
+  "columns": ["VietnameseName", "OriginalName", "X", "Y", "Note"],
+  "maps": {
+    "1001": [["Bia Than phe Chu", "", 212, 215, "interaction object; unresolved NPC identity"], ["Bia Than phe Thuong", "", 189, 191, "interaction object; unresolved NPC identity"]],
+    "1002": [
+      ["To Ho", "苏护", 200, 204, "profession"], ["Thu Kho", "仓库管理员", 202, 198, "profession"],
+      ["Lo Hung", "鲁雄", 194, 199, "profession"], ["Au Thien Hoa", "殷天华", 206, 196, "alternative 206/193"],
+      ["Sung Ung Buu", "崇应彪", 211, 198, "profession"], ["Sung Ung Loan", "崇应鸾", 212, 198, "alternative 212/199"],
+      ["Trieu Dien", "晁田", 218, 198, "profession"], ["Trieu Loi", "晁雷", 216, 197, "profession"],
+      ["Sung Hau Ho", "崇侯虎", 212, 193, "alternative 213/194"], ["Sung Hac Ho", "崇黑虎", 213, 200, "profession"],
+      ["Trinh Luan", "郑伦", 200, 203, "profession"], ["Tap Hoa Thuong Nhan", "杂货商", 207, 198, "profession"],
+      ["Khao Co Hoc", "", 196, 196, "web; original identity unresolved"], ["Thuong Diem", "", 218, 197, "web; original identity unresolved"],
+      ["Chuyen Sinh Lao Lao", "", 202, 199, "chuyensinh"], ["Tan Thu Thi Luyen", "", 200, 199, "web"],
+      ["Thuong Nhan Tay Vuc", "", 199, 199, "web"], ["Ho Tro Tan Thu", "", 210, 200, "web"],
+      ["Sinh Hoat Su", "生活技能老师（大营）", 199, 200, "web"], ["Lao Rua", "", 202, 197, "web"],
+      ["Pham Nghia", "", 210, 200, "web"], ["Nguyen Lam", "", 197, 197, "web"]
+    ],
+    "1003": [
+      ["Tu Hang Dao Nhan", "慈航道人", 206, 196, "dao"], ["Xich Tinh Tu", "赤精子", 213, 197, "dao"],
+      ["Linh Bao Dai Phap Su", "灵宝大法师", 206, 195, "dao"], ["Nam Cuc Tien Ong", "南极仙翁", 209, 191, "alternative 210/191"],
+      ["Hoang Long Chan Nhan", "黄龙真人", 204, 195, "alternative 204/198"], ["Nhien Dang Dao Nhan", "燃灯道人", 206, 192, "dao"],
+      ["Van Trung Tu", "云中子", 215, 194, "dao"], ["Khao Co Hoc", "", 208, 194, "web"],
+      ["Thuong Diem", "", 200, 200, "web"], ["Chuyen Sinh Lao Lao", "", 212, 196, "chuyensinh"],
+      ["Kim Ha Dong Tu", "金霞童子", 212, 204, "dao"], ["Lao Rua", "", 212, 203, "web"],
+      ["Tan Thu Thi Luyen", "", 207, 195, "web"], ["Thuong Nhan Tay Vuc", "", 212, 202, "web"],
+      ["Ho Tro Tan Thu", "", 205, 197, "web"], ["Sinh Hoat Su", "生活技能老师（玉虚）", 217, 202, "web"]
+    ],
+    "1004": [
+      ["Thieu Hao", "少昊", 198, 204, "di"], ["Hau Tho", "后土", 202, 204, "di"],
+      ["Phong Ba", "风伯", 195, 204, "di"], ["Chuc Dung", "祝融", 193, 204, "di"],
+      ["Cong Cong", "共工氏", 192, 204, "di"], ["Hinh Thien", "刑天", 194, 200, "di"],
+      ["Cao Giac", "高觉", 205, 197, "di"], ["Cao Minh", "高明", 206, 198, "di"],
+      ["Khao Co Hoc", "", 189, 198, "web"], ["Thuong Diem", "", 195, 208, "web"],
+      ["Chuyen Sinh Lao Lao", "", 196, 202, "chuyensinh"], ["Lao Rua", "", 200, 202, "web"],
+      ["Tan Thu Thi Luyen", "", 192, 200, "web"], ["Thuong Nhan Tay Vuc", "", 200, 200, "web"],
+      ["Ho Tro Tan Thu", "", 194, 205, "web"], ["Sinh Hoat Su", "生活技能老师（蚩尤墓）", 200, 200, "web"]
+    ],
+    "1014": [["Dai Phu", "医生", 197, 210, "PAK already has NPC"], ["Van Thai Su", "闻太师", 193, 208, "PAK already has NPC"], ["Hac Lao Nhan", "鹤老人", 187, 215, "di"]],
+    "1015": [["Dai Phu", "医生", 192, 212, "minimap MPS 49264/109216"], ["Phong Lam", "风林", 192, 212, "minimap MPS 49200/108512"], ["Ngo Long", "吴龙", 209, 195, "minimap MPS 53344/100928"], ["Thuong Hao", "常昊", 206, 195, "minimap MPS 52944/100384"]],
+    "1016": [["Dai Phu", "医生", 204, 200, "PAK already has NPC"], ["Dang Cuu Cong", "邓九公", 204, 197, "PAK already has NPC"]],
+    "1020": [
+      ["Khuong Tu Nha", "姜子牙", 158, 189, "alternative 163/187"], ["Duong Tien", "二郎神", 165, 185, "tayky"],
+      ["Vo Vuong", "武王", 159, 189, "tayky"], ["Nguoi Tay Vuc", "", 185, 192, "tayky"],
+      ["Thay Tuong So", "算命先生", 174, 188, "tayky"], ["Vo Cat", "武吉", 181, 195, "tayky"],
+      ["Chuan De Dao Nhan", "准提道人", 185, 193, "tayky"], ["Phu An Su", "", 173, 198, "web"],
+      ["Thong That Tau", "", 192, 194, "web"], ["A Tai", "", 178, 189, "web"],
+      ["Thuong Diem", "", 195, 189, "web"], ["Chuyen Sinh Lao Lao", "", 182, 192, "web"],
+      ["Nham Dai Ca", "任大哥", 170, 195, "tayky"], ["Nham Dai Tau", "任大嫂", 170, 195, "tayky"],
+      ["Tieu Bao", "小宝", 182, 194, "tayky"], ["Loi Chan Tu", "雷震子", 163, 187, "tayky"]
+    ],
+    "1021": [
+      ["Hoang Phi Ho", "黄飞虎", 231, 185, "trieuca"], ["Dac Ky", "妲己", 220, 179, "trieuca"],
+      ["Ho Hy Mi", "胡喜媚", 205, 184, "alternative 213/185"], ["Thay Tuong So", "算命先生", 214, 195, "alternative 214/194"],
+      ["Con Bac", "赌徒", 204, 196, "trieuca"], ["Chu Tiem Cam Do", "当铺老板", 209, 198, "trieuca"],
+      ["Tong Di Nhan", "宋异人", 191, 189, "trieuca"], ["Chu Tuu Diem", "酒店老板", 227, 195, "trieuca"],
+      ["Cu Luu Ton", "惧留孙", 206, 197, "trieuca"], ["Phu An Su", "", 225, 191, "web"],
+      ["A Tai", "", 217, 188, "web"], ["Thong That Tau", "", 222, 192, "web"],
+      ["Thuong Diem", "", 211, 198, "web"], ["Chuyen Sinh Lao Lao", "", 212, 190, "web"],
+      ["Tru Vuong", "纣王", 237, 180, "dialog NPC, not event boss"], ["Tho Hanh Ton", "土行孙", 213, 184, "trieuca"],
+      ["Hoang Thien Hoa", "黄天化", 214, 184, "trieuca"]
+    ],
+    "1052": [
+      ["Tay Vuong Mau", "西王母", 221, 188, "PAK already has NPC"], ["Xich Tung Tu", "赤松子", 195, 196, "PAK already has NPC"],
+      ["Thai Thuong Lao Quan", "太上老君", 188, 200, "dieutri"], ["An An Tien Tu", "", 195, 200, "event; identity unresolved"],
+      ["Nu Oa Nuong Nuong", "女娲娘娘", 200, 196, "event; do not reuse different-map Lua"],
+      ["NPC Vang Bac Dong", "", 192, 200, "event"], ["NPC Trao Thuong", "", 195, 201, "event"],
+      ["Bao An Tien Sinh", "", 203, 197, "life-skill quest"], ["Hong Ty", "", 188, 201, "adoption feature"],
+      ["Yen Van", "", 197, 197, "Tan Trung Lai"], ["NPC VIP", "", 190, 200, "VIP feature"],
+      ["Nguoi Than Bi 3", "", 186, 188, "scheduled event; alternatives 199/189,221/189,212/198,202/203"]
+    ],
+    "1065": [["Ly Tinh", "李靖", 193, 207, "profession"]],
+    "1071": [
+      ["Nguyen Soai", "", 237, 190, "battle mission; alternatives 237/200,237/220"],
+      ["Tuong Linh Thuong", "", 231, 191, "battle mission; alternatives 231/201,231/219"],
+      ["Tuong Linh Chu", "", 242, 190, "battle mission; alternatives 242/204,242/224"],
+      ["Tiep Dan Thuong", "", 178, 203, "battle mission"], ["Tiep Dan Chu", "", 290, 206, "battle mission"]
+    ],
+    "1073": [
+      ["Cuu Thien Huyen Nu", "九天玄女", 249, 203, "dokiep"], ["Huyen Do Dai Phap Su", "玄都大法师", 205, 242, "alternative 204/241"],
+      ["Lien Dang Ho Su", "莲花守护者", 241, 228, "alternate camp 205/206; identity needs confirmation"],
+      ["Tu Hanh Su Tien", "修行师", 249, 236, "camp-specific script"], ["Tu Hanh Su Ma", "修行师", 201, 200, "camp-specific script"],
+      ["Dac Ky", "妲己", 244, 206, "dokiep"], ["Tao Bao", "曹宝", 244, 236, "dokiep"]
+    ],
+    "1074": [
+      ["Ngo Chan Nhan", "", 212, 222, "dokiep50; original identity unresolved"],
+      ["Tu Hanh Su Tien", "修行师", 215, 222, "camp-specific script"], ["Tu Hanh Su Ma", "修行师", 206, 220, "camp-specific script"],
+      ["Son Than Hong Bac", "山神鸿搏", 209, 199, "dokiep50"], ["Ly Nhau Ton Gia", "离垢尊者", 203, 226, "dokiep50"],
+      ["Nam Minh Tu", "南冥子", 219, 232, "dokiep50"]
+    ],
+    "1075": [
+      ["Yen Thuc Di", "偃叔夷", 233, 214, "web"], ["Yen Ba Ich", "偃伯益", 235, 214, "web"],
+      ["Tu Hanh Su Tien", "修行师", 230, 223, "camp-specific script"], ["Tu Hanh Su Ma", "修行师", 235, 209, "camp-specific script"],
+      ["Mat Tham Tien Gioi", "仙界密探", 241, 226, "web"], ["Mat Tham Ma Gioi", "魔界密探", 224, 209, "web"],
+      ["Tieu Loi", "", 261, 208, "quest monster identity; not a static dialogue NPC"]
+    ],
+    "1076": [
+      ["Duoc Su Ma", "", 209, 203, "camp-specific script"], ["Duoc Su Tien", "", 239, 238, "camp-specific script"],
+      ["Tu Hanh Su Ma", "修行师", 205, 202, "camp-specific script"], ["Tu Hanh Su Tien", "修行师", 247, 238, "camp-specific script"],
+      ["Khuong Ngu Tich", "", 212, 204, "web"], ["Y Giap Tien", "", 243, 236, "web"], ["Y Giap Ma", "", 210, 201, "web"]
+    ]
+  }
+}

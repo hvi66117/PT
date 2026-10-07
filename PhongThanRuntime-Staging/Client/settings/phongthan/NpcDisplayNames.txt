@@ -1,0 +1,187 @@
+Name	DisplayName
+A Tai	A Tai
+An An Tien Tu	An An Tien Tu
+Bao An Tien Sinh	Bao An Tien Sinh
+Bia Than phe Chu	Bia Than phe Chu
+Bia Than phe Thuong	Bia Than phe Thuong
+Chuyen Sinh Lao Lao	Chuyen Sinh Lao Lao
+Duoc Su Ma	Duoc Su Ma
+Duoc Su Tien	Duoc Su Tien
+Ho Tro Tan Thu	Ho Tro Tan Thu
+Hong Ty	Hong Ty
+Khao Co Hoc	Khao Co Hoc
+Khuong Ngu Tich	Khuong Ngu Tich
+Lao Rua	Lao Rua
+NPC Trao Thuong	NPC Trao Thuong
+NPC VIP	NPC VIP
+NPC Vang Bac Dong	NPC Vang Bac Dong
+Ngo Chan Nhan	Ngo Chan Nhan
+Nguoi Tay Vuc	Nguoi Tay Vuc
+Nguoi Than Bi 3	Nguoi Than Bi 3
+Nguyen Lam	Nguyen Lam
+Nguyen Soai	Nguyen Soai
+Pham Nghia	Pham Nghia
+Phu An Su	Phu An Su
+Tan Thu Thi Luyen	Tan Thu Thi Luyen
+Thong That Tau	Thong That Tau
+Thuong Diem	Thuong Diem
+Thuong Nhan Tay Vuc	Thuong Nhan Tay Vuc
+Tiep Dan Chu	Tiep Dan Chu
+Tiep Dan Thuong	Tiep Dan Thuong
+Tieu Loi	Tieu Loi
+Tu Hanh Su Ma	Tu Hanh Su Ma
+Tu Hanh Su Tien	Tu Hanh Su Tien
+Tuong Linh Chu	Tuong Linh Chu
+Tuong Linh Thuong	Tuong Linh Thuong
+Y Giap Ma	Y Giap Ma
+Y Giap Tien	Y Giap Tien
+Yen Van	Yen Van
+九天玄女	Cuu Thien Huyen Nu
+云中子	Van Trung Tu
+仓库管理员	Thu Kho
+仙界密探	Mat Tham Tien Gioi
+任大哥	Nham Dai Ca
+任大嫂	Nham Dai Tau
+偃伯益	Yen Ba Ich
+偃叔夷	Yen Thuc Di
+共工图腾	Cong Cong
+准提道人	Chuan De Dao Nhan
+刑天	Hinh Thien
+医生	Dai Phu
+南冥子	Nam Minh Tu
+南极仙翁	Nam Cuc Tien Ong
+后土图腾	Hau Tho
+吴龙	Ngo Long
+土行孙	Tho Hanh Ton
+太上老君	Thai Thuong Lao Quan
+女娲娘娘	Nu Oa Nuong Nuong
+妲己	Dac Ky
+姜子牙	Khuong Tu Nha
+宋异人	Tong Di Nhan
+小宝	Tieu Bao
+少昊图腾	Thieu Hao
+山神鸿搏	Son Than Hong Bac
+崇侯虎	Sung Hau Ho
+崇应彪	Sung Ung Buu
+崇应鸾	Sung Ung Loan
+崇黑虎	Sung Hac Ho
+常昊	Thuong Hao
+当铺老板	Chu Tiem Cam Do
+惧留孙	Cu Luu Ton
+慈航道人	Tu Hang Dao Nhan
+晁田	Trieu Dien
+晁雷	Trieu Loi
+曹宝	Tao Bao
+杂货商	Tap Hoa Thuong Nhan
+李靖	Ly Tinh
+杨戬	Duong Tien
+武吉	Vo Cat
+武王	Vo Vuong
+灵宝大法师	Linh Bao Dai Phap Su
+燃灯道人	Nhien Dang Dao Nhan
+玄都大法师	Huyen Do Dai Phap Su
+生活技能老师（大营）	Sinh Hoat Su
+生活技能老师（玉虚）	Sinh Hoat Su
+生活技能老师（蚩尤墓）	Sinh Hoat Su
+祝融图腾	Chuc Dung
+离垢尊者	Ly Nhau Ton Gia
+算命先生	Thay Tuong So
+纣王	Tru Vuong
+胡喜媚	Ho Hy Mi
+苏护	To Ho
+莲花守护者	Lien Dang Ho Su
+赌徒	Con Bac
+赤精子	Xich Tinh Tu
+邬文化	Au Thien Hoa
+郑伦	Trinh Luan
+酒店老板	Chu Tuu Diem
+金霞童子	Kim Ha Dong Tu
+雷震子	Loi Chan Tu
+风伯图腾	Phong Ba
+风林	Phong Lam
+高明	Cao Minh
+高觉	Cao Giac
+魔界密探	Mat Tham Ma Gioi
+鲁雄	Lo Hung
+鹤老人	Hac Lao Nhan
+黄天化	Hoang Thien Hoa
+黄飞虎	Hoang Phi Ho
+黄龙真人	Hoang Long Chan Nhan
+夸父图腾	Khoa Phu
+多宝道人	Da Bao Dao Nhan
+神农	Than Nong
+轩辕	Hien Vien
+蚩尤	Xi Vuu
+元始天尊	Nguyen Thuy Thien Ton
+年少妲己	Dac Ky Luc Nho
+邓九公	Dang Cuu Cong
+闻太师	Van Thai Su
+西王母	Tay Vuong Mau
+Cong Dich Chuyen 1	Cong di Sung Thanh
+Cong Dich Chuyen 2	Cong di Bac Hai
+Cong Dich Chuyen 3	Cong di Yen Son
+Cong Dich Chuyen 4	Cong di Chan nui Con Lon
+Cong Dich Chuyen 5	Cong di Tay Con Lon
+Cong Dich Chuyen 6	Cong di Thu Duong son
+Cong Dich Chuyen 7	Cong di Khoang truong
+Cong Dich Chuyen 8	Cong di Du Hon
+Cong Dich Chuyen 9	Cong di Mieu Cuong
+Cong Dich Chuyen 10	Cong di Cu Loc
+Truyen Tong Tran 1	Truyen Tong Tran
+Truyen Tong Tran 2	Truyen Tong Tran
+Truyen Tong Tran 3	Truyen Tong Tran
+靖人	Kiem Nhan
+雪妖	Tuyet quai
+大踵人	Hoa Dien
+北海叛军	Xa Than
+冰骄虫	Bang Lang
+苔妖	Luc Quai
+狂鸟	Cuong Dieu
+环狗	Hoan Cau
+厌火	Yem Hoa
+草仙	Thao Tien
+夏耕尸	Cot Tinh
+甲壳人	Giap Cot
+尸蝗	Thiet Trung
+鬼驭	Da Xoa
+天吴	Thien Hao
+沙魂	Sa Hon
+武士龟	Luc Quy
+刀禽	Dao Cam
+火鱼	Hoa Ngu
+火离小妖	Lao Ho lo
+菌人	Lac Co
+旱龟	Giang Quy
+荒猪	Tru Tinh
+铁盔鱼	Thiet Ngu
+冰灵	Bang Linh
+岩浆兽	Hoa Ma
+英招神	Anh Chieu Than
+巨石神	Cu Thach
+水参	Hai Sam
+飞甲	Phi Giap
+夏耕尸王	Cot Tinh Vuong
+美女蚌	Ngoc Nu
+火邪	Hoa Ta
+虾人	Ha Cot
+鬼灯	Thanh Hong Dang
+开明神	Tien Dao than
+磷妖	Lan vu su
+长乘神	Son Duong yeu
+雷泽神	Loi Trach than
+野毛神	Da Mao than
+武罗神	Thach than
+死灵	Lam Cot
+相柳神	Bo Than
+幻精	Ma Nu
+幻灵	Lam Cot
+奢比夫人	Doi Trai
+陆吾大神	Luc Ngo Than
+倭人	Ai Nhan
+红名岛的怪1	Phi Tho
+红名岛的怪2	Phi Tho
+红名岛的怪3	Phi Tho
+铜匠	Tho Dong
+跑商	Bao Thuong
+骆驼	Lac Da
+太岁师	Can Khon Luan

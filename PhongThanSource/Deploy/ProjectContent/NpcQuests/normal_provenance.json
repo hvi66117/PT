@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "logical": "\\script\\phongthan\\npc_quests\\normal.lua",
+  "source": {
+    "path": "\\script\\npcdeath\\normal.lua",
+    "evidence": {
+      "pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak",
+      "source_kind": "ACTIVE_VNG_CHAIN",
+      "entry": 378,
+      "id": "510083B1",
+      "sha256": "44655595cd21f0748a44cf58270376d68d2b0e5cad3a709f0273d395d07ce438",
+      "bytes": 6195,
+      "index_sha256": "554b9f2e909f73cb85a9ebdcf75ff7f4f757bd57e6989fce560b2cc7382d3472"
+    },
+    "root": true,
+    "object": "objects/44655595cd21f0748a44cf58270376d68d2b0e5cad3a709f0273d395d07ce438.lua",
+    "dependencies": [],
+    "dynamic_dependencies": [],
+    "runtime_enabled": false,
+    "review": "NOT_FUNCTIONALLY_REVIEWED"
+  },
+  "source_sha256": "44655595cd21f0748a44cf58270376d68d2b0e5cad3a709f0273d395d07ce438",
+  "patch_sha256": "9ab1df3669be4edf92631b207d153a62ccad6bc05191b70c8d97cc69f7837880",
+  "bytes": 9334,
+  "sha256": "6b29ff733f2c777b67ea0efc22ee6c5763c1627951433491b2cacdd4b08c7186",
+  "edits": [
+    "solo/team-zero context",
+    "snapshot live team",
+    "per-member target and map",
+    "capped/repeat progress",
+    "atomic byte updates",
+    "template-name fallback"
+  ],
+  "original_pak_modified": false,
+  "quest_rules_changed": false
+}

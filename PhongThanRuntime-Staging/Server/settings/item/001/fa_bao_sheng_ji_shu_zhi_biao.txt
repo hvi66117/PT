@@ -1,0 +1,157 @@
+¹æÔò	Éý¼¶ÊôÐÔ¹æÔò	Éý¼¶1´Î	Éý¼¶2´Î	Éý¼¶3´Î	Éý¼¶4´Î	Éý¼¶5´Î	Éý¼¶6´Î	Éý¼¶7´Î	Éý¼¶8´Î	Éý¼¶9´Î	Éý¼¶10´Î	Éý¼¶11´Î	Éý¼¶12´Î	Ãû³Æ
+2000	176	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o
+2000	177	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2001	103	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o
+2001	124	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2002	102	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o
+2002	122	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2003	105	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o
+2003	123	2	2	2	2	2	2	4	4	4	5	5	5	#Th¨ng cÊp ph¸p b¶o
+2004	99	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2004	176	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o
+2005	98	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2005	103	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o
+2006	97	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2006	102	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o
+2007	100	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2007	105	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o
+2008	99	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2008	177	4	4	4	4	4	4	8	8	8	8	8	8	#Th¨ng cÊp ph¸p b¶o
+2009	98	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2009	124	4	4	4	4	4	4	8	8	8	8	8	8	#Th¨ng cÊp ph¸p b¶o
+2010	97	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2010	122	4	4	4	4	4	4	8	8	8	8	8	8	#Th¨ng cÊp ph¸p b¶o
+2011	100	4	4	4	4	4	4	8	8	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2011	123	2	2	2	2	2	2	4	4	4	4	4	4	#Th¨ng cÊp ph¸p b¶o
+2012	121	3	3	3	3	3	3	4	4	4	4	4	4	#Th¨ng cÊp ph¸p b¶o
+2012	179	3	3	3	3	3	3	4	4	4	5	5	5	#Th¨ng cÊp ph¸p b¶o
+2013	124	3	3	3	3	3	3	4	4	4	5	5	5	#Th¨ng cÊp ph¸p b¶o
+2013	177	3	3	3	3	3	3	4	4	4	5	5	5	#Th¨ng cÊp ph¸p b¶o
+2013	161	1	1	1	2	2	2	2	2	2	2	2	3	#Th¨ng cÊp ph¸p b¶o
+2013	162	1	1	1	2	2	2	2	2	2	2	2	3	#Th¨ng cÊp ph¸p b¶o
+2013	36	4	4	4	4	4	4	4	4	4	4	4	4	#Th¨ng cÊp ph¸p b¶o
+2014	104	1	2	1	2	1	2	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o
+2014	99	5	5	5	5	5	5	5	5	5	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2015	36	0	0	0	10	0	0	10	0	0	10	0	0	#Th¨ng cÊp ph¸p b¶o
+2015	179	3	3	4	3	3	4	3	3	4	5	5	5	#Th¨ng cÊp ph¸p b¶o
+2015	114	0	0	0	0	0	0	3	3	4	1	1	1	#Th¨ng cÊp ph¸p b¶o
+2015	86	0	0	0	3	3	4	0	0	0	0	2	3	#Th¨ng cÊp ph¸p b¶o
+2016	179	10	10	10	12	12	12	18	18	18	40	0	0	#Th¨ng cÊp Ph¸p b¶o Tiªn Ma
+2016	219	2	2	2	2	2	2	2	2	2	2	0	0	#Th¨ng cÊp Ph¸p b¶o Tiªn Ma
+2017	179	8	8	8	10	10	10	12	12	12	30	0	0	#Th¨ng cÊp Ph¸p b¶o Tiªn Ma
+2017	219	2	2	2	2	2	2	2	2	2	2	0	0	#Th¨ng cÊp Ph¸p b¶o Tiªn Ma
+2018	124	3	3	3	3	3	3	6	6	6	8	8	8	#Th¨ng cÊp ph¸p b¶o
+2018	121	3	3	3	3	3	3	6	6	6	8	8	8	#Th¨ng cÊp ph¸p b¶o
+2018	182	0	0	3	0	0	3	0	0	4	2	2	2	#Th¨ng cÊp ph¸p b¶o
+2019	123	2	2	2	2	2	2	4	4	4	5	5	5	#Th¨ng cÊp ph¸p b¶o
+2019	150	5	5	5	5	5	5	10	10	10	12	12	12	#Th¨ng cÊp ph¸p b¶o
+2019	114	0	0	1	0	0	1	0	0	3	1	1	1	#Th¨ng cÊp ph¸p b¶o
+2020	122	3	3	3	3	3	3	6	6	6	8	8	8	#Th¨ng cÊp ph¸p b¶o
+2020	166	5	5	5	5	5	5	10	10	10	12	12	12	#Th¨ng cÊp ph¸p b¶o
+2020	216	0	0	5	0	0	5	0	0	10	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2021	177	3	3	3	3	3	3	6	6	8	8	8	8	#Th¨ng cÊp ph¸p b¶o
+2021	179	3	3	3	3	3	3	6	6	8	10	10	10	#Th¨ng cÊp ph¸p b¶o
+2021	118	0	0	2	0	0	2	0	0	4	2	2	3	#Th¨ng cÊp ph¸p b¶o
+2022	179	3	3	3	3	3	3	3	3	3	3	3	3	#Th¨ng cÊp Ph¸p b¶o Tiªn Ma
+2022	219	1	1	1	1	1	1	1	1	1	1	1	1	#Th¨ng cÊp Ph¸p b¶o Tiªn Ma
+2023	114	0	0	2	0	0	2	0	0	2	0	0	2	#Th¨ng cÊp Kim S¬n Ph¸p B¶o
+2023	85	15	15	15	15	15	15	30	30	30	40	40	40	#Th¨ng cÊp Kim S¬n Ph¸p B¶o
+2023	150	5	5	5	5	5	5	10	10	10	12	12	12	#Th¨ng cÊp Kim S¬n Ph¸p B¶o
+2024	85	10	10	10	10	10	10	10	10	10	20	20	20	#Th¨ng cÊp ThÊt TrÇn Trai Ph¸p B¶o
+2024	115	1	0	1	1	0	2	2	1	2	4	2	4	#Th¨ng cÊp ThÊt TrÇn Trai Ph¸p B¶o
+2024	234	0	1	1	0	1	1	0	1	1	0	2	2	#Th¨ng cÊp ThÊt TrÇn Trai Ph¸p B¶o
+2025	85	10	10	10	10	10	10	10	10	10	20	20	20	#Th¨ng cÊp ThÊt TrÇn Trai Ph¸p B¶o
+2025	116	1	0	1	1	0	2	2	1	2	4	2	4	#Th¨ng cÊp ThÊt TrÇn Trai Ph¸p B¶o
+2025	235	0	1	1	0	1	1	0	1	1	0	2	2	#Th¨ng cÊp ThÊt TrÇn Trai Ph¸p B¶o
+2026	115	0	0	1	0	0	1	0	0	1	0	0	2	#N©ng cÊp ThÊt B¶o Kim Liªn#Gi¸p SÜ Ph¸p B¶o
+2026	99	4	4	4	4	4	4	5	5	5	7	8	8	#N©ng cÊp ThÊt B¶o Kim Liªn#Gi¸p SÜ Ph¸p B¶o
+2026	97	3	3	3	4	4	4	5	5	5	6	6	7	#N©ng cÊp ThÊt B¶o Kim Liªn#Gi¸p SÜ Ph¸p B¶o
+2027	116	0	0	1	0	0	1	0	0	1	0	0	2	#N©ng cÊp ThÊt B¶o Kim Liªn#§¹o SÜ Ph¸p B¶o
+2027	99	2	2	2	3	3	3	4	5	5	5	5	6	#N©ng cÊp ThÊt B¶o Kim Liªn#§¹o SÜ Ph¸p B¶o
+2027	122	4	4	4	4	5	5	6	6	6	7	7	7	#N©ng cÊp ThÊt B¶o Kim Liªn#§¹o SÜ Ph¸p B¶o
+2028	111	0	0	1	0	0	1	0	0	1	0	0	2	#N©ng cÊp ThÊt B¶o Kim Liªn#DÞ Nh©n Ph¸p B¶o
+2028	121	4	4	4	4	4	4	5	5	5	7	7	7	#N©ng cÊp ThÊt B¶o Kim Liªn#DÞ Nh©n Ph¸p B¶o
+2028	85	5	5	5	7	7	7	9	9	9	12	12	13	#N©ng cÊp ThÊt B¶o Kim Liªn#DÞ Nh©n Ph¸p B¶o
+2029	106	0	0	2	0	0	2	0	0	2	1	1	2	#N©ng cÊp Tam Sinh Th¹ch Ph¸p B¶o
+2029	113	1	1	1	1	1	1	1	1	1	2	2	2	#N©ng cÊp Tam Sinh Th¹ch Ph¸p B¶o
+2029	182	2	2	3	2	2	3	2	3	2	2	3	4	#N©ng cÊp Tam Sinh Th¹ch Ph¸p B¶o
+2061	104	6	2	1	2	1	2	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o trÊn hån th¸p 
+2061	99	5	5	5	5	5	5	5	5	5	10	10	10	#Th¨ng cÊp ph¸p b¶o trÊn hån th¸p 
+2062	104	6	2	1	2	1	2	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o trÊn hån th¸p 
+2062	99	5	5	5	5	5	5	5	5	5	10	10	10	#Th¨ng cÊp ph¸p b¶o trÊn hån th¸p 
+2062	182	1	2	1	2	2	2	2	3	3	3	3	3	#Th¨ng cÊp ph¸p b¶o trÊn hån th¸p 
+2062	86	2	3	2	3	3	4	4	4	4	5	6	5	#Th¨ng cÊp ph¸p b¶o trÊn hån th¸p 
+2063	106	1	1	1	1	1	1	1	1	2	2	2	2	#Th¨ng cÊp ph¸p b¶o QAH11
+2063	113	2	2	2	2	2	2	2	2	1	1	1	1	#Th¨ng cÊp ph¸p b¶o QAH11
+2063	182	1	1	1	3	3	3	3	3	3	3	3	3	#Th¨ng cÊp ph¸p b¶o QAH11
+2063	233	0	0	0	0	0	0	0	0	5	0	0	5	#Th¨ng cÊp ph¸p b¶o QAH11
+2064	106	1	1	1	1	1	1	1	1	2	2	2	2	#Th¨ng cÊp ph¸p b¶o QAH11 Siªu CÊp
+2064	113	2	2	2	2	2	2	2	2	1	1	1	1	#Th¨ng cÊp ph¸p b¶o QAH11 Siªu CÊp
+2064	86	0	0	0	0	5	0	0	0	10	0	0	10	#Th¨ng cÊp ph¸p b¶o QAH11 Siªu CÊp
+2064	182	1	1	1	3	3	3	3	3	3	3	3	8	#Th¨ng cÊp ph¸p b¶o QAH11 Siªu CÊp
+2064	233	0	0	0	0	0	5	0	0	5	0	0	5	#Th¨ng cÊp ph¸p b¶o QAH11 Siªu CÊp
+2065	86	0	0	0	5	0	0	5	0	0	5	5	5	#Th¨ng cÊp ph¸p b¶o ThÊt ThÇn Trai
+2065	182	0	0	0	5	0	0	5	0	0	5	5	20	#Th¨ng cÊp ph¸p b¶o ThÊt ThÇn Trai
+2066	106	0	0	1	1	1	1	1	1	1	1	1	1	#Th¨ng cÊp HuyÒn Thiªn Linh B¶o
+2066	113	1	1	1	1	1	2	1	1	2	1	1	2	#Th¨ng cÊp HuyÒn Thiªn Linh B¶o
+2066	182	1	1	1	1	1	2	1	1	2	1	1	2	#Th¨ng cÊp HuyÒn Thiªn Linh B¶o
+2066	233	0	0	0	0	0	0	0	0	0	0	0	0	#Th¨ng cÊp HuyÒn Thiªn Linh B¶o
+2066	85	0	0	0	0	0	0	0	0	0	0	0	600	#Th¨ng cÊp HuyÒn Thiªn Linh B¶o
+2067	106	0	0	2	2	2	2	2	2	2	2	2	2	#Th¨ng cÊp HuyÒn Thiªn B¶o §Ønh
+2067	113	1	1	1	2	2	4	2	2	2	2	2	4	#Th¨ng cÊp HuyÒn Thiªn B¶o §Ønh
+2067	182	2	2	4	2	2	4	2	2	4	3	3	5	#Th¨ng cÊp HuyÒn Thiªn B¶o §Ønh
+2067	233	0	0	2	1	1	2	1	1	2	1	1	3	#Th¨ng cÊp HuyÒn Thiªn B¶o §Ønh
+2067	85	0	0	0	0	0	600	0	0	0	0	0	600	#Th¨ng cÊp HuyÒn Thiªn B¶o §Ønh
+2068	106	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp HuyÒn Thiªn Tam Sinh Th¹ch
+2068	113	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp HuyÒn Thiªn Tam Sinh Th¹ch
+2068	182	2	2	2	2	2	2	3	3	3	3	3	3	#Th¨ng cÊp HuyÒn Thiªn Tam Sinh Th¹ch
+2068	85	10	10	10	10	10	10	20	20	20	20	20	20	#Th¨ng cÊp HuyÒn Thiªn Tam Sinh Th¹ch
+2069	86	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ph¸p b¶o §¶ ThÇn Tiªn
+2069	182	2	2	2	2	2	2	2	2	2	2	2	2	#Th¨ng cÊp Ph¸p b¶o §¶ ThÇn Tiªn
+2069	113	2	2	2	2	2	2	3	3	3	3	3	3	#Th¨ng cÊp Ph¸p b¶o §¶ ThÇn Tiªn
+2069	206	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ph¸p b¶o §¶ ThÇn Tiªn
+2070	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ph¸p b¶o Lôc Hån Phiªn
+2071	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn Kú Lôc Hån Phiªn
+2071	126	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn Kú Lôc Hån Phiªn
+2072	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn Kú Lôc Hån Phiªn
+2072	162	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn Kú Lôc Hån Phiªn
+2073	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn Kú Lôc Hån Phiªn
+2073	126	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn Kú Lôc Hån Phiªn
+2074	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn T«n Lôc Hån Phiªn
+2074	126	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn T«n Lôc Hån Phiªn
+2074	113	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn T«n Lôc Hån Phiªn
+2075	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn T«n Lôc Hån Phiªn
+2075	162	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn T«n Lôc Hån Phiªn
+2075	113	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn T«n Lôc Hån Phiªn
+2076	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn T«n Lôc Hån Phiªn
+2076	126	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn T«n Lôc Hån Phiªn
+2076	113	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp ThÇn T«n Lôc Hån Phiªn
+2077	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2077	126	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2077	113	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2077	205	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2078	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2078	162	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2078	113	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2078	204	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2079	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2079	126	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2079	113	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2079	205	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hùu Lôc Hån Phiªn
+2080	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2080	126	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2080	113	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2080	205	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2081	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2081	162	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2081	113	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2081	204	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2082	182	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2082	126	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2082	113	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2082	205	1	1	1	1	1	1	2	2	2	2	2	2	#Th¨ng cÊp Ma Hoµng Lôc Hån Phiªn
+2083	106	0	0	2	2	2	2	2	2	2	2	2	2	#Th¨ng cÊp HuyÒn Thiªn KÝnh
+2083	113	2	2	2	2	2	5	2	2	2	2	2	5	#Th¨ng cÊp HuyÒn Thiªn KÝnh
+2083	182	2	2	4	2	2	4	2	2	5	5	5	5	#Th¨ng cÊp HuyÒn Thiªn KÝnh
+2083	233	0	0	2	1	1	2	1	1	2	1	1	3	#Th¨ng cÊp HuyÒn Thiªn KÝnh
+2083	85	100	0	0	0	0	600	0	0	0	0	0	600	#Th¨ng cÊp HuyÒn Thiªn KÝnh

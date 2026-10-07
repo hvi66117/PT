@@ -1,0 +1,21 @@
+Ãû³Æ	µÀ¾ßÖÖÀà	¾ßÌåÀà±ğ	ÏêÏ¸Àà±ğ	¶¯»­ÎÄ¼şÃû	¶ÔÓ¦Îï¼şË÷Òı	¿í¶È	¸ß¶È	ËµÃ÷ÎÄ×Ö	ÎåĞĞÊôĞÔ	¼Û¸ñ	µÈ¼¶	ÊÇ·ñµş·Å	»ù´¡ÊôĞÔ1ÀàĞÍ	»ù´¡ÊôĞÔ1×îĞ¡Öµ	»ù´¡ÊôĞÔ1×î´óÖµ	»ù´¡ÊôĞÔ2ÀàĞÍ	»ù´¡ÊôĞÔ2×îĞ¡Öµ	»ù´¡ÊôĞÔ2×î´óÖµ	»ù´¡ÊôĞÔ3ÀàĞÍ	»ù´¡ÊôĞÔ3×îĞ¡Öµ	»ù´¡ÊôĞÔ3×î´óÖµ	»ù´¡ÊôĞÔ4ÀàĞÍ	»ù´¡ÊôĞÔ4×îĞ¡Öµ	»ù´¡ÊôĞÔ4×î´óÖµ	»ù´¡ÊôĞÔ5ÀàĞÍ	»ù´¡ÊôĞÔ5×îĞ¡Öµ	»ù´¡ÊôĞÔ5×î´óÖµ	»ù´¡ÊôĞÔ6ÀàĞÍ	»ù´¡ÊôĞÔ6×îĞ¡Öµ	»ù´¡ÊôĞÔ6×î´óÖµ	»ù´¡ÊôĞÔ7ÀàĞÍ	»ù´¡ÊôĞÔ7×îĞ¡Öµ	»ù´¡ÊôĞÔ7×î´óÖµ	»ù´¡ÊôĞÔ8ÀàĞÍ	»ù´¡ÊôĞÔ8×îĞ¡Öµ	»ù´¡ÊôĞÔ8×î´óÖµ	»ù´¡ÊôĞÔ9ÀàĞÍ	»ù´¡ÊôĞÔ9×îĞ¡Öµ	»ù´¡ÊôĞÔ9×î´óÖµ	»ù´¡ÊôĞÔ10ÀàĞÍ	»ù´¡ÊôĞÔ10×îĞ¡Öµ	»ù´¡ÊôĞÔ10×î´óÖµ	ĞèÇóÊôĞÔ5ÊıÖµ	ĞèÇóÊôĞÔ6ÀàĞÍ	ĞèÇóÊôĞÔ6ÊıÖµ
+#Thanh §ång Thñ Tr¹c	0	8	0	\spr\item\equip\bangle\obj-bangle01.spr	35	1	2	#HiÖu qu¶ phßng ngù kh«ng cao.		100	1	0	30	13	13	31	20	20																									1		
+#LuyÖn §ång Thñ Tr¹c	0	8	0	\spr\item\equip\bangle\obj-bangle02.spr	35	1	2	#§óc tõ ®ång thau, cã t¸c dông phßng ngù		300	2	0	30	22	22	31	20	20																									1		
+#TÊn Binh Hé UyÓn	0	8	0	\spr\item\equip\bangle\obj-bangle03.spr	35	1	2	#HiÖu qu¶ phßng thñ cùc cao		600	3	0	30	33	33	31	20	20																									1		
+#Ng©n T¬ Tr¹c	0	8	0	\spr\item\equip\bangle\obj-bangle04.spr	35	1	2	#Lµm tõ b¹ch kim, thİch hîp víi giíi quan quyÒn		1000	4	0	30	45	45	31	20	20																									1		
+#Kim T¬ Tr¹c	0	8	0	\spr\item\equip\bangle\obj-bangle05.spr	35	1	2	#Võa trang søc võa ®Ó phßng thñ		1800	5	0	30	56	56	31	20	20																									1		
+#B¹ch Ngäc Tr¹c	0	8	0	\spr\item\equip\bangle\obj-bangle06.spr	35	1	2	#B¹ch ngäc tinh chÕ, sang träng quı ph¸i		2600	6	0	30	67	67	31	20	20																									1		
+#PhØ Thóy Ngäc Tr¹c	0	8	0	\spr\item\equip\bangle\obj-bangle07.spr	35	1	2	#Sang träng quı ph¸i, İt ai cã ®­îc		3600	7	0	30	78	78	31	20	20																									1		
+#¤n L­¬ng Ngäc Tr¹c	0	8	0	\spr\item\equip\bangle\obj-bangle08.spr	35	1	2	#Hµm chøa ©m d­¬ng linh khİ, ®«ng Êm hÌ l¹nh		4900	8	0	30	89	89	31	20	20																									1		
+#B¨ng Ph¸ch Hµn Ngäc Tr¹c	0	8	0	\spr\item\equip\bangle\obj-bangle09.spr	35	1	2	#B¨ng tinh ngµn n¨m mµi thµnh, hµn khİ kinh ng­êi		6400	9	0	30	100	100	31	20	20																									1		
+#Long Phông HuyÕt Ngäc Tr¹c	0	8	0	\spr\item\equip\bangle\obj-bangle10.spr	35	1	2	#Ngäc tr¹c chøa ®ùng søc m¹nh thÇn bİ tù nhiªn.		8100	10	0	30	111	111	31	20	20																									1		
+#Ng­u B× Hé UyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle11.spr	34	1	2	#Cã chót t¸c dông phßng thñ		100	1	0	30	13	13	31	20	20																									0		
+#Lang B× Hé UyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle12.spr	34	1	2	#Lµm tõ da Sµi Lang, mÒm dÎo bÒn ch¾c.		300	2	0	30	22	22	31	20	20																									0		
+#¤ §»ng Hé UyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle13.spr	34	1	2	#Lµm tõ d©y m©y ngµn n¨m, tinh x¶o, bÒn ch¸c		600	3	0	30	33	33	31	20	20																									0		
+#M·ng B× Hé UyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle14.spr	34	1	2	#Lµm tõ da r¾n, bÒn ch¾c v« song		1000	4	0	30	45	45	31	20	20																									0		
+#Ng¹c B× Hé UyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle15.spr	34	1	2	#Lµm tõ da c¸ sÊu, kh¶ n¨ng phßng thñ cùc tèt.		1800	5	0	30	56	56	31	20	20																									0		
+#T­îng B× Hé UyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle16.spr	34	1	2	#lµm tõ da voi, dµy vµ ch¾c ch¾n		2600	6	0	30	67	67	31	20	20																									0
+#Sa B× Hé UyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle17.spr	34	1	2	#Lµm tõ da c¸ mËp, ®ao tªn khã xuyªn		3600	7	0	30	78	78	31	20	20																									0
+#Tª Gi¸c Hé UyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle18.spr	34	1	2	#§ao kiÕm khã xuyªn		4900	8	0	30	89	89	31	20	20																									0
+#Long L©n Hé UyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle19.spr	34	1	2	#B¶o vÖ c¶ c¸nh tay, phßng thñ cùc tèt		6400	9	0	30	100	100	31	20	20																									0
+#Thiªn Tµm Hé UyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle20.spr	34	1	2	#Lµm tõ t¬ Thiªn Tµm, ®ao th­¬ng thñy háa bÊt nhËp		8100	10	0	30	111	111	31	20	20																									0

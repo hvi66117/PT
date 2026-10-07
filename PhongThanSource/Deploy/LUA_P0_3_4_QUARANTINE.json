@@ -1,0 +1,47 @@
+{
+  "Schema": 1,
+  "Stage": "P0.3.4",
+  "Policy": "Only APIs with a verified runtime data contract may leave quarantine.",
+  "NativeContracts": {
+    "AddNormalItem": {
+      "SupportedVngTuples": [
+        "genre=3, detail>=0, particular=0 (material.txt)",
+        "genre=4, detail>=0 (questkey.txt)",
+        "genre=6, detail=1, particular>0 (magicscript.txt)"
+      ],
+      "Rejected": "Every other genre, including IBItem genre 8."
+    },
+    "IsExistItem": "Counts owned items by the mapped VNG table identity, including stack size.",
+    "GetNpcLevel": "Returns Npc[index].m_Level for a bounded runtime NPC index.",
+    "ThrowItem": "Creates and drops only the same verified genre 3/4/6 normal-item tuples; the unverified ninth bind flag is rejected.",
+    "TaskNote": "Projects VNG task id, step and dynamic arguments through the existing UI_NOTEINFO journal protocol without changing its ordinal.",
+    "FinishNpcCollection": "Reads the official VNG \\settings\\npccollection.txt rows and emits the completed collection record.",
+    "SayTask": "Reads VNG nested option rows {label, callback; show=n} and exposes only enabled callbacks.",
+    "JEMainTaskComplete": "Persists 128 Justice/Evil main-task completion bits in locked task values 4996-4999."
+  },
+  "BlockedDataContracts": {
+    "AddEventItem": "No verified eventitem.txt payload is available.",
+    "GetHardNpcAttrib": "Missing hard-NPC attribute registry contract.",
+    "AddTotemNpc": "Summon/totem ownership and skill-target contract is not yet verified.",
+    "SetAIScript": "AI script field and lifecycle contract is not yet verified.",
+    "Getskill_eventskilllevel": "Event-skill level registry contract is not yet verified.",
+    "AddMyTrap": "VNG trap signature and ownership semantics do not match legacy AddTrap."
+  },
+  "OfficialRuntimeQuarantine": [
+    "\\script\\npcdeath\\九婴.lua",
+    "\\script\\npcdeath\\方弼之魂.lua",
+    "\\script\\npcdeath\\方相之魂.lua",
+    "\\script\\npcdeath\\苟芒神.lua",
+    "\\script\\skill\\huanhun\\焚火图腾.lua",
+    "\\script\\skill\\huanhun\\狂涛祭1.lua",
+    "\\script\\skill\\yushi\\trap.lua",
+    "\\script\\skill\\yushi\\trap_du_ci_5.lua",
+    "\\script\\skill\\yushi\\trap_du_ci_6.lua",
+    "\\script\\skill\\yushi\\trap_du_ci_7.lua",
+    "\\script\\skill\\yushi\\trap_shu_fu_1.lua",
+    "\\script\\skill\\yushi\\trap_shu_fu_2.lua",
+    "\\script\\skill\\yushi\\trap_shu_fu_3.lua",
+    "\\script\\skill\\yushi\\trap_shu_fu_4.lua",
+    "\\script\\怪物\\不义侯.lua"
+  ]
+}

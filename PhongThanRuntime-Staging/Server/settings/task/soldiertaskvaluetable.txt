@@ -1,0 +1,36 @@
+TASK_VALUE	INF_ID	LEVEL	NPC
+1	0	5	#Sïng HÇu Hæ
+2	1	5	#TrÞnh Lu©n
+10	2	5	#Sïng HÇu Hæ
+11	3	15	#Sïng H¾c Hæ
+20	4	15	#Hoµng Phi Hæ
+21	5	25	#Hoµng Phi Hæ
+22	6	25	#Lý TÞnh
+23	7	25	#§Æng Cöu C«ng
+24	8	25	#Lý TÞnh/§Æng Cöu C«ng
+25	9	25	#Hoµng Phi Hæ
+26	10	25	#TrÊn T­íng qu©n
+27	11	25	#Hoµng Phi Hæ
+30	12	25	#Kh­¬ng Tö Nha
+31	13	35	#D­¬ng TiÔn
+32	14	35	#ThÇn Long
+40	15	35	#Hå Hû MÞ
+41	16	45	#§¾c Kû
+42	17	45	#T©y V­¬ng MÉu
+43	18	45	#Cù D·
+50	19	45	#T©y V­¬ng MÉu
+51	20	55	#ThÇn N«ng
+52	21	55	#Tr¹nh Nanh ThÇn Thó
+53	22	55	#ThÇn N«ng
+61	23	65	#§¾c Kû
+62	24	65	#Kh­¬ng Tö Nha
+63	25	65	#Vâ V­¬ng
+70	26	65	#Vâ V­¬ng
+71	27	75	#T©y V­¬ng MÉu
+72	28	75	#§¾c Kû
+73	29	75	#Thiªn T«n
+74	30	75	#Bé §Çu
+80	31	75	#Thiªn T«n
+81	32	85	#§¾c Kû lóc nhá
+83	33	85	#Kh­¬ng Tö Nha lóc nhá
+0	34	85	#Sïng øng B­u

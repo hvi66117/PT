@@ -1,0 +1,61 @@
+module("DOUBLE11", package.seeall)
+
+Double11ShoppingCard = { { 2016, 11, 11 }, { 2016, 11, 17 } }
+Double11ActiveTimesFlag = 1
+
+function Pub_IsBachelorBox()
+    local yr, mo, day = GetYMD()
+    local HH, MM, SS = GetHMS()
+
+    local nIsOpen = GetGlobalStoreValueByte(71, 2)
+    local OpenTime = GetGlobalStoreValue(69)
+    local CloseTime = GetGlobalStoreValue(70)
+
+    if (HH == 20 and MM <= 5 and nIsOpen == 1) then
+        if mo < 10 then
+            mo = "0" .. mo
+        end
+        if day < 10 then
+            day = "0" .. day
+        end
+        local NowTime = string.format("%s%s%s", yr, mo, day)
+        OpenTime = string.format("%s", OpenTime)
+        CloseTime = string.format("%s", CloseTime)
+        if (NowTime >= OpenTime and NowTime <= CloseTime) then
+            return 1
+        else
+            return 0
+        end
+    else
+        return 0
+    end
+end
+
+function Pub_IsReliefWooden()
+    local yr, mo, day = GetYMD()
+    local OpenTime = GetGlobalStoreValue(72)
+    local CloseTime = GetGlobalStoreValue(73)
+    if mo < 10 then
+        mo = "0" .. mo
+    end
+    if day < 10 then
+        day = "0" .. day
+    end
+    local NowTime = string.format("%s%s%s", yr, mo, day)
+    OpenTime = string.format("%s", OpenTime)
+    CloseTime = string.format("%s", CloseTime)
+    if (NowTime >= OpenTime and NowTime <= CloseTime) then
+        return 1
+    else
+        return 0
+    end
+end
+
+function Pub_IsShoppingCard()
+    local time1 = LocalYMD2Time(Double11ShoppingCard[1][1], Double11ShoppingCard[1][2], Double11ShoppingCard[1][3]) - SystemTime()
+    local time2 = LocalYMD2Time(Double11ShoppingCard[2][1], Double11ShoppingCard[2][2], Double11ShoppingCard[2][3] + 1) - SystemTime()
+    if (time1 <= 0 and time2 > 0) then
+        return time2
+    end
+    return 0
+end

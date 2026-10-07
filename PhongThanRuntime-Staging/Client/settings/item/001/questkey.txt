@@ -1,0 +1,319 @@
+Ãû³Æ	µÀ¾ßÖÖÀà	¾ßÌåÀà±ğ	¶¯»­ÎÄ¼şÃû	¶ÔÓ¦Îï¼şË÷Òı	¿í¶È	¸ß¶È	ËµÃ÷ÎÄ×Ö	ÏêÏ¸Àà±ğ	ÊÇ·ñµş·Å	¸ºÖØ	ÊÇ·ñÓĞÌØÊâÍ¼Æ¬	ÊÇ·ñÓĞÌØÊâĞÔ±ğ	ÊÇ·ñ¿ÉÒÔ¶ªÆú	ÊÇ·ñ¿ÉÒÔ½»»»	ÊÇ·ñ¿ÉÒÔ¶Ä²©	ÊÇ·ñ°ÚÌ¯	PKµôÂä±ê¼Ç	´æÔÚÊ±¼ä
+#Th­ tiÕn cö	4	0	\spr\item\other\ÍÆ¼öĞÅ.spr	39	1	1	#Th­ Hoµng Long ch©n nh©n tiÕn cö b¹n víi Kh­¬ng Tö Nha	0	0	0	0	0	1	0	0	0	1	
+#ThÇn Oanh	4	1	\spr\item\other\½ğÑÛÉñİº.spr	39	1	1	#ThÇn Oanh ë B¾c h¶i, cã b¶n lÜnh hµng phôc hå ly	0	0	0	0	0	1	0	0	0	1	
+#ThÇn méc	4	2	\spr\item\other\²»ËÀµÄÉñÄ¾.spr	39	1	1	#PhÇn th­ëng cña nhiÖm vô chñ tuyÕn. CÇn chó ı b¶o qu¶n!	0	0	0	0	0	1	0	0	0	1	
+#An C­ ®å	4	3	\spr\item\other\°²¾ÓÍ¼.spr	39	1	1	#PhÇn th­ëng cña nhiÖm vô chñ tuyÕn. CÇn chó ı b¶o qu¶n!	0	0	0	0	0	1	0	0	0	1	
+#ThÇn Dô Kİnh	4	4	\spr\item\other\ÉñÚÍÖ®¾µ.spr	39	1	1	#Th­îng cæ thÇn khİ, cã søc m¹nh thay ®æi thêi gian, vËt phÈm quan träng trong N.v chñ tuyÕn	0	0	0	0	0	1	0	0	0	1	
+#ThÇn Dô Kİnh	4	5	\spr\item\other\ÉñÚÍÖ®¾µ.spr	39	1	1	#Cã søc m¹nh thay ®æi thêi gian	0	0	0	0	0	1	0	0	0	1	
+#HuyÒn N÷ binh ph¸p	4	6	\spr\item\other\ĞşÅ®±ø·¨.spr	39	1	1	#ViÕt vÒ c¸c chiÕn thuËt chiÕn ®Êu	0	0	0	0	0	1	0	0	0	1	
+#Huúnh §Õ néi kinh	4	7	\spr\item\other\»ÆµÛÄÚ¾­.spr	39	1	1	#ViÕt vÒ y thuËt	0	0	0	0	0	1	0	0	0	1	
+#LuyÖn Kim thuËt	4	8	\spr\item\other\Ò±ÌúÆª.spr	39	1	1	#ViÕt vÒ thuËt luyÖn kim	0	0	0	0	0	1	0	0	0	1	
+#Phong ThÇn b¶ng	4	9	\spr\item\other\·âÉñ°ñ.spr	39	1	1	#PhÇn th­ëng cña nhiÖm vô chñ tuyÕn. CÇn chó ı b¶o qu¶n!	0	0	0	0	0	1	0	0	0	1	
+#Tróc gi¶n	4	10	\spr\item\other\¹ÅÀÏµÄÖñ¼ò.spr	39	1	1	#ThÎ tre cæ trong Ngäc H­ cung, cã søc m¹nh quay ng­îc thêi gian	0	0	0	0	0	1	0	0	0	1	
+#HuyÕt th­	4	11	\spr\item\other\ÑªÊé.spr	39	1	1	#TrŞnh Lu©n göi cho Sïng HÇu Hæ	0	0	0	0	0	1	0	0	0	1	
+#Ên tİn cña Vâ Thµnh v­¬ng	4	12	\spr\item\other\Îä³ÉÍõµÄÓ¡ĞÅ.spr	39	1	1	#Cã thÓ ®iÒu ®éng 10 v¹n binh lİnh ë TriÒu Ca	0	0	0	0	0	1	0	0	0	1	
+#R©u ThÇn long	4	13	\spr\item\other\ÉñÁúµÄºúĞë.spr	39	1	1	#PhÇn th­ëng cña nhiÖm vô chñ tuyÕn. CÇn chó ı b¶o qu¶n!	0	0	0	0	0	1	0	0	0	1	
+#ThÇn Dô Kİnh	4	14	\spr\item\other\ÉñÚÍÖ®¾µ.spr	39	1	1	#Cã søc m¹nh thay ®æi thêi gian	0	0	0	0	0	1	0	0	0	1	
+#ThiÕp mêi	4	15	\spr\item\other\ÑûÇëº¯.spr	39	1	1	#§¾c Kû mêi ng­êi trong bé téc Xi V­u ®Õn Léc ®µi dù tiÖc	0	0	0	0	0	1	0	0	0	1	
+#Canh tØnh r­îu	4	16	\spr\item\other\ĞÑ¾ÆÌÀ.spr	39	1	1	#Gióp ng­êi say r­îu lËp tøc tØnh t¸o	0	0	0	0	0	1	0	0	0	1	
+#Dòng sÜ giíi chØ	4	17	\spr\item\other\ÓÂÊ¿µÄÖ¸»·.spr	39	1	1	#Tİn vËt cña dòng sÜ téc Xi V­u	0	0	0	0	0	0	0	0	0	1	
+#Kim Hµ qu¸n	4	18	\spr\item\other\½ğÏ¼¹Ú.spr	39	1	1	#Kim qu¸n cña Háa Linh th¸nh mÉu, bŞ thÊt l¹c ë M¹nh T©n	0	0	0	0	0	1	0	0	0	1	
+#Ma huyÕt	4	19	\spr\item\other\ÉÏ¹Å¾ŞÄ§µÄÑª.spr	39	1	1	#PhÇn th­ëng cña nhiÖm vô chñ tuyÕn. CÇn chó ı b¶o qu¶n!.	0	0	0	0	0	1	0	0	0	1	
+#Háa th¹ch	4	20	\spr\item\other\¿ÕÖĞ»ğ.spr	39	1	1	#Thiªn th¹ch tõ trªn trêi r¬i xuèng, cã søc m¹nh hñy diÖt	0	0	0	0	0	0	0	0	0	1	
+#L­ìi ®ao	4	21	\spr\item\other\µ¶ÈĞ.spr	39	1	1	#Dòng sÜ th­êng dïng	0	0	0	0	0	0	0	0	0	1	
+#Th©n ®ao	4	22	\spr\item\other\µ¶±³.spr	39	1	1	#Dòng sÜ th­êng dïng	0	0	0	0	0	0	0	0	0	1	
+#C¸n ®ao	4	23	\spr\item\other\µ¶±ú.spr	39	1	1	#Dòng sÜ th­êng dïng	0	0	0	0	0	0	0	0	0	1	
+#Dòng §ao	4	24	\spr\item\other\ÓÂÊ¿Ö®ÈĞ.spr	39	1	1	#B¶o ®ao dòng sÜ Sïng thµnh 300 n¨m tr­íc tõng sö dông	0	0	0	0	0	0	0	0	0	1	
+#Cuèc	4	25	\spr\item\other\³úÍ·.spr	39	1	1	#Lo¹i cuèc b×nh th­êng, dïng ®Ó khai th¸c kho¸ng	0	0	0	0	0	1	0	0	0	1	
+#Hép gÊm	4	26	\spr\item\other\½õºĞ.spr	39	1	1	#Kh¶m nhiÒu ngäc quı, rÊt cã gi¸ trŞ	0	0	0	0	0	1	0	0	0	1	
+#ThÇn Khİ	4	27	\spr\item\other\ò¿ÓÈÉñÆ÷.spr	39	1	1	#Téc Xi V­u th­êng dïng trong lÔ tÕ tæ	0	0	0	0	0	0	0	0	0	1	
+#M¶nh ThÇn Khİ	4	28	\spr\item\other\ò¿ÓÈÉñÆ÷²ĞÆ¬.spr	39	1	1	#Téc Xi V­u th­êng dïng trong lÔ tÕ tæ	0	0	0	0	0	0	0	0	0	1	
+#Thiªn lı nh·n	4	29	\spr\item\other\Ç§ÀïÑÛµÄÇé±¨.spr	39	1	1	#Mãn quµ Cao Minh tÆng cho H×nh Thiªn	0	0	0	0	0	1	0	0	0	1	
+#Thøc ¨n cña DŞ nh©n	4	30	\spr\item\other\ÒìÈËµÄÊ³Îï.spr	39	1	1	#Thøc ¨n cña téc Xi V­u	0	0	0	0	0	1	0	0	0	1	
+#Tö Kim hå l«	4	31	\spr\item\other\×Ï½ğºùÂ«.spr	39	1	1	#Hå l« dïng ®Ó chøa c¸c linh hån	0	0	0	0	0	1	0	0	0	1	
+#Linh Hån Hå l«	4	32	\spr\item\other\Áé»êµÄºùÂ«.spr	39	1	1	#Hå l« chøa c¸c hån ma	0	0	0	0	0	1	0	0	0	1	
+#§Şnh H¶i b¶o ch©u	4	33	\spr\item\other\¶¨º£±¦Öé.spr	39	1	1	#Mét trong 24 viªn §Şnh H¶i b¶o ch©u chiÕu s¸ng HuyÒn §«	0	0	0	0	0	1	0	0	0	1	
+#Chóc Ng­ huyÕt	4	34	\spr\item\other\ÓãµÄÑªÒº.spr	39	1	1	#M¸u cña qu¸i ng­, mµu s¾c ©m u	0	0	0	0	0	1	0	0	0	1	
+#Thè Ng­ huyÕt	4	35	\spr\item\other\ÓãµÄÑªÒº.spr	39	1	1	#M¸u cña qu¸i ng­, mµu s¾c ©m u	0	0	0	0	0	1	0	0	0	1	
+#ThÓ Ng­ huyÕt	4	36	\spr\item\other\ÓãµÄÑªÒº.spr	39	1	1	#M¸u cña qu¸i ng­, mµu s¾c ©m u	0	0	0	0	0	1	0	0	0	1	
+#M¶nh L­u tinh	4	37	\spr\item\other\Á÷ĞÇËéÆ¬.spr	39	1	1	#C¸c m¶nh l­u tinh rÊt hiÕm thÊy	0	0	0	0	0	1	0	0	0	1	
+#Huyªn th¶o	4	38	\spr\item\other\İæ²İ.spr	39	1	1	#Loµi cá cã hoa mµu Tİm	0	0	0	0	0	1	0	0	0	1	
+#LiÔu méc	4	39	\spr\item\other\ÁøÄ¾.spr	39	1	1	#Mét nh¸nh LiÔu chøa nhiÒu bİ Èn	1	10	0	0	0	1	1	1	1	1	
+#C«n L«n kİnh	4	40	\spr\item\other\À¥ÂØ¾µ.spr	39	1	1	#Cã thÓ t¹o ra mét kh«ng gian kú bİ	0	0	0	0	0	1	0	0	0	1	
+#§Ìn thÇn	4	41	\spr\item\other\²»ÃğÉñµÆ.spr	39	1	1	#§Ìn thÇn tr­íc mé Xi V­u, kh«ng bao giê t¾t	0	0	0	0	0	1	0	0	0	1	
+#B¸ch Linh Ph­ín (phong Ên)	4	42	\spr\item\other\·âÓ¡µÄ°ÙÁéá¦.spr	39	1	1	#Lo¹i cê dïng ®Ó triÖu hån, phong Ên trªn ®ã cã thÓ më th¸p	0	0	0	0	0	1	0	0	0	1	
+#B¸ch Linh ph­ín	4	43	\spr\item\other\°ÙÁéá¦.spr	39	1	1	#Dïng ®Ó thu phôc Thiªn C­¬ng ma tinh	0	0	0	0	0	1	0	0	0	1	
+#Thiªn C­¬ng ch©n khİ	4	44	\spr\item\other\Ììî¸ÕæÆø.spr	39	1	1	#Ch©n khİ sau khi thu phôc ®­îc Thiªn C­¬ng Ma Tinh, chøng minh 1 Thiªn C­¬ng Tinh ®· bŞ b¹n thu phôc.	0	0	0	0	0	1	0	0	0	1	
+#Gç trÇm h­¬ng	4	45	\spr\item\other\³ÁÏãÄ¾.spr	39	1	1	#Lo¹i gç quİ dïng trang trİ trong Léc ®µi	0	0	0	0	0	1	0	0	0	1	
+#Nguyªn b¶o	4	46	\spr\item\other\Ôª±¦.spr	39	1	1	#Dïng ®Ó ®æi ra TiÒn ®ång	1	0	0	0	0	0	1	1	1	1	
+#Xu	4	47	\spr\item\other\Í­Ç®.spr	39	1	1	#Dïng ®Ó mua nh÷ng vËt phÈm ®Æc biÖt	1	100	0	0	0	0	1	1	1	1	
+#H¹t thÇn bİ	4	48	\spr\item\other\ÖÖ×Ó.spr	39	1	1	#NhŞ Lang thÇn tÆng b¹n h¹t gièng Èn chøa n¨ng lùc thÇn kú!	0	10	0	0	0	1	1	1	1	1	
+#MÇm c©y thÇn bİ	4	49	\spr\item\other\Ê÷Ãç.spr	39	1	1	#N¶y mÇm tõ h¹t thÇn bİ	0	0	0	0	0	1	0	0	0	1	
+#§ång T©m táa	4	50	\spr\item\other\Í¬ĞÄËø.spr	39	1	1	#T­îng tr­ng cho t×nh yªu.	0	0	0	0	0	1	0	0	0	1	
+#¸c Linh phñ	4	51	\spr\item\other\¶ñÁé¸«.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#YÓm Háa <vËt chøng>	4	52	\spr\item\other\Í­Ç®.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Th¶o Tiªn <vËt chøng>	4	53	\spr\item\other\Í­Ç®.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Cuång KhuyÓn Th­¬ng	4	54	\spr\item\other\¿ñÈ®Ç¹.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Cæ §iªu <vËt chøng>	4	55	\spr\item\other\Í­Ç®.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Phong Sµo	4	56	\spr\item\other\·äÖ®³²Ñ¨.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Ma ThuÉn Bµi	4	57	\spr\item\other\Ä§¶ÜÅÆ.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#TŞnh Phong Gi¸c	4	58	\spr\item\other\²¢·â½Ç.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Kim BiÕt Cù Ch­ëng	4	59	\spr\item\other\½ğ±î¾ŞÕÆ.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#¸c Quû Tinh Phan	4	60	\spr\item\other\¶ñ¹íìºá¦.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Thanh KhuÈn Cù Th¹ch	4	61	\spr\item\other\Çà¾ú¾ŞÊ¯.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Quû §¨ng HuyÒn ¶nh	4	62	\spr\item\other\¹íµÆ»ÃÓ°.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#§«ng Ph­¬ng Trµo TiÕu	4	63	\spr\item\other\¶«·½µÄ³°Ğ¦.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#B¸t Qu¸i C«n	4	64	\spr\item\other\ÉñÖ®°ËØÔ¹÷.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Thi V­¬ng Phñ	4	65	\spr\item\other\Ê¬Íõ¸«.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Lam Qu¸i Hån	4	66	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Tİch LŞch Song Chïy	4	67	\spr\item\other\Åùö¨Ë«´¸.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Thñy Tinh Kh« L©u §Çu	4	68	\spr\item\other\Ë®¾§÷¼÷ÃÍ·.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#T­¬ng LiÔu §¹i §ao	4	69	\spr\item\other\ÏàÁø´óµ¶.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Hoan Tinh Phiªu §¸i	4	70	\spr\item\other\»Ã¾«Æ®´ø.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Xa TØ Lang Nha Bæng	4	71	\spr\item\other\Éİ±ÈÀÇÑÀ°ô.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Tam Tiªm Xoa	4	72	\spr\item\other\ÉñÖ®Èı¼â²æ.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#§ao CÇm <linh hån>	4	73	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Háa Ng­ <linh hån>	4	74	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#L·o Hå l« <linh hån>	4	75	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#L¹c C¬ <linh hån>	4	76	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Hoa Tr­ <linh hån>	4	77	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#ThiÕt Ng­ <linh hån>	4	78	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Háa Ma <linh hån>	4	79	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#B¨ng Linh <linh hån>	4	80	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Chiªu ThÇn <linh hån>	4	81	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Cù Th¹ch <linh hån>	4	82	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#H¶i S©m <linh hån>	4	83	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Phi Gi¸p <linh hån>	4	84	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Cèt Tinh V­¬ng <linh hån>	4	85	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Ngäc n÷ <linh hån>	4	86	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Háa Tµ <linh hån>	4	87	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Hµ Cèt <linh hån>	4	88	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#§¨ng Hån <linh hån>	4	89	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#TiÔn §ao thÇn <linh hån>	4	90	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#S¬n D­¬ng yªu <linh hån>	4	91	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Lam Qu¸i <linh hån>	4	92	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#L«i Tr¹ch thÇn <linh hån>	4	93	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#D· Mao thÇn <linh hån>	4	94	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Th¹ch thÇn <linh hån>	4	95	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Lam Cèt <linh hån>	4	96	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Bè ThÇn <linh hån>	4	97	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Ma N÷ <linh hån>	4	98	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#§íi Tr¹i <linh hån>	4	99	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#Lôc Ng« thÇn <linh hån>	4	100	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#VËt phÈm nhiÖm vô s¸t thñ	1	100	0	0	0	1	0	0	0	1	
+#G­¬ng ChiÕu mÖnh	4	101	\spr\item\other\¶¨º£±¦Öé.spr	39	1	1	#Mét trong 24 viªn §Şnh H¶i b¶o ch©u chiÕu s¸ng HuyÒn §«	0	0	0	0	0	1	0	0	0	1	
+#G­¬ng tiªn ®o¸n	4	102	\spr\item\other\À¥ÂØ¾µ.spr	39	1	1	#Cã thÓ t¹o ra mét kh«ng gian kú bİ	0	0	0	0	0	1	0	0	0	1	
+#G­¬ng chóc phóc	4	103	\spr\item\other\ÉñÚÍÖ®¾µ.spr	39	1	1	#Cã søc m¹nh thay ®æi thêi gian	0	0	0	0	0	1	0	0	0	1	
+#Linh Quy huyÕt	4	104	\spr\item\other\Í­Ç®.spr	39	1	1	#Dïng ®Ó tÕ tæ, t¨ng n¨ng lùc chiÕn ®Êu	1	100	0	0	0	1	0	0	0	1	
+#Ch©u b¸u	4	105	\spr\item\other\¶¨º£±¦Öé.spr	39	1	1	#Mµu s¾c lÊp l¸nh, t­îng tr­ng cho phó quı.	0	0	0	0	0	1	1	1	1	1	
+#Binh phï	4	106	\spr\item\other\±ø·û.spr	39	1	1	#Dïng ®Ó thèng lÜnh tam qu©n	0	0	0	0	0	1	0	0	0	1	
+#Th«ng hµnh lÖnh	4	107	\spr\item\other\Í¨¹ØÁîÅÆ.spr	39	1	1	#Dïng ®Ó qua c¸c cöa ¶i	0	0	0	0	0	1	0	0	0	1	
+#Hé th©n phï	4	108	\spr\item\other\»¤ÉíÁé·û.spr	39	1	1	#Lo¹i bïa dïng ®Ó b¶o vÖ th©n x¸c	0	0	0	0	0	1	0	0	0	1	
+#Th­ cña YÓn B¸ İch	4	109	\spr\item\other\ÊéĞÅ.spr	39	1	1	#Th­ viÕt cho tæng binh ®ang trÊn gi÷ ¶i	0	0	0	0	0	1	0	0	0	1	
+#Th­ cña §Æng Cöu C«ng	4	110	\spr\item\other\ÊéĞÅ.spr	39	1	1	#Th­ viÕt cho Vâ v­¬ng vµ Trô v­¬ng	0	0	0	0	0	1	0	0	0	1	
+#Tiªn Th¶o lé	4	111	\spr\item\other\ÏÉ²İÂ¶.spr	39	1	1	#Nguyªn liÖu ®Ó luyÖn Di Tiªn t¸n	0	0	0	0	0	1	0	0	0	1	
+#Hoµn Linh §¬n	4	112	\spr\item\other\»¹Áéµ¤.spr	39	1	1	#LuyÖn tõ linh ®¬n, nguyªn liÖu ®Ó luyÖn Di Tiªn t¸n	0	0	0	0	0	1	0	0	0	1	
+#Di Tiªn T¸n	4	113	\spr\item\other\ÒÄÏÉÉ¢.spr	39	1	1	#Linh d­îc gi¶i déc ®­îc ghi chĞp trªn s¸ch cæ bé téc Di.	0	0	0	0	0	1	0	0	0	1	
+#M¶nh ph¸p khİ	4	114	\spr\item\other\·¨Æ÷²ĞÆ¬.spr	39	1	1	#M¶nh ph¸p khİ cò n¸t	0	0	0	0	0	1	0	0	0	1	
+#BÊt diÖt Ly lung	4	115	\spr\item\other\²»ÃğÁáççÕµ.spr	39	1	1	#§Ìn thÇn b¶o vÖ Xi V­u mé	0	0	0	0	0	1	0	0	0	1	
+#Th¸i H­ thÇn bót	4	116	\spr\item\other\Ì«ĞéÉñ±Ê.spr	39	1	1	#Bót thÇn kú cã thÓ biÕn tranh thµnh vËt thËt	0	0	0	0	0	1	0	0	0	1	
+#Tö Thô Kim nghiªng	4	117	\spr\item\other\×Ïç·½ğÑâ.spr	39	1	1	#B¶o vËt trong truyÒn thuyÕt	0	0	0	0	0	1	0	0	0	1	
+#Phong Ên phï	4	118	\spr\item\other\·âÓ¡Áé·û.spr	39	1	1	#Bïa dïng ®Ó phong Ên Thiªn TiÓu Quû	0	0	0	0	0	1	0	0	0	1	
+#TuyÖt Tiªn kiÕm	4	119	\spr\item\other\¾øÏÉ½£.spr	39	1	1	#Mét trong nh÷ng b¶o kiÕm trÊn Tru Tiªn TrËn	0	0	0	0	0	1	0	0	0	1	
+#Lôc Tiªn kiÕm	4	120	\spr\item\other\Â¾ÏÉ½£.spr	39	1	1	#Mét trong c¸c b¶o kiÕm trÊn gi÷ Chu Tiªn trËn	0	0	0	0	0	1	0	0	0	1	
+#Kháa Tiªn kiÕm	4	121	\spr\item\other\ÏİÏÉ½£.spr	39	1	1	#Mét trong c¸c b¶o kiÕm trÊn gi÷ Chu Tiªn trËn	0	0	0	0	0	1	0	0	0	1	
+#Chu Tiªn kiÕm	4	122	\spr\item\other\ÖïÏÉ½£.spr	39	1	1	#GiÕt ®­îc c¶ quû thÇn, lµ ch×a khãa dïng ®Ó vµo Chu Tiªn trËn	0	0	0	0	0	1	0	0	0	1	
+#Tiªu khÕ	4	123	\spr\item\other\ÍÆ¼öĞÅ.spr	39	1	1	#Tİn vËt ®Ó vËn chuyÓn tiªu xa	0	0	0	0	0	1	0	0	0	1	
+#Tiªu chøng	4	124	\spr\item\other\ÍÆ¼öĞÅ.spr	39	1	1	#Tİn vËt x¸c nhËn ®· chuyÓn tiªu thµnh c«ng	0	0	0	0	0	1	0	0	0	1	
+#Linh Ch©u	4	125	\spr\item\other\¶¨º£±¦Öé.spr	39	1	1	#TiÒm chøa nhiÒu bİ Èn	0	0	0	0	0	1	0	0	0	1	
+#Linh Méc	4	126	\spr\item\other\ÁøÄ¾.spr	39	1	1	#TiÒm chøa nhiÒu bİ Èn	0	0	0	0	0	1	0	0	0	1	
+#S¬n phï	4	127	\spr\item\other\»¤Éí·û.spr	39	1	1	#Hé th©n phï cña Linh s¬n l·o «ng	0	0	0	0	0	1	0	0	0	1	
+#Thi Hµi	4	128	\spr\item\other\Ë®¾§÷¼÷ÃÍ·.spr	39	1	1	#1 thi hµi bİ Èn	0	0	0	0	0	1	0	0	0	1	
+#Ngäc Béi	4	129	\spr\item\other\ÓñÅå.spr	39	1	1	#Ngäc béi trªn thi hµi	0	0	0	0	0	1	0	0	0	1	
+#Bæn Hån ®¬n	4	130	\spr\item\other\Á÷ĞÇËéÆ¬.spr	39	1	1	#DiÖt trõ Bæn Hån cã c¬ héi nhËn ®­îc, tiÒm chøa chót İt Ma lùc.	0	0	0	0	0	1	0	0	0	1	
+#Th­ thÇn bİ	4	131	\spr\item\other\ÑªÊé.spr	39	1	1	#NguyÖt Du göi cho Kh«ng Tang l·o nh©n.	0	0	0	0	0	1	0	0	0	1	
+#B¨ng ¢m HuyÕt	4	132	\spr\item\other\ÉÏ¹Å¾ŞÄ§µÄÑª.spr	39	1	1	#Linh huyÕt, diÖt trõ B¨ng ¢m Hñy cã c¬ héi nhËn ®­îc.	0	0	0	0	0	1	0	0	0	0	
+#D­¬ng Háa HuyÕt	4	133	\spr\item\other\ÉÏ¹Å¾ŞÄ§µÄÑª.spr	39	1	1	#Linh huyÕt, diÖt trõ D­¬ng Háa Hñy cã c¬ héi nhËn ®­îc.	0	0	0	0	0	1	0	0	0	0	
+#LÖ Th¶o	4	134	\spr\item\other\İæ²İ.spr	39	1	1	#Cã thÓ ¨n ®­îc.	0	100	0	0	0	1	0	0	0	0	
+#MÆt n¹ vì	4	135	\spr\item\other\ò¿ÓÈÉñÆ÷²ĞÆ¬.spr	39	1	1	#§éi che mÆt trong lóc chiÕn ®Êu	0	100	0	0	0	1	0	0	0	0	
+#Tæ ong	4	136	\spr\item\other\·äÖ®³²Ñ¨.spr	39	1	1	#Ninh Miªu lµm thó nu«i	0	100	0	0	0	1	0	0	0	0	
+#Lang Nha	4	137	\spr\item\other\²¢·â½Ç.spr	39	1	1	#R¨ng sãi	0	100	0	0	0	1	0	0	0	0	
+#¸c Linh Bæng	4	138	\spr\item\other\Éİ±ÈÀÇÑÀ°ô.spr	39	1	1	#Vò khİ cña ThiÕt Cèt	0	100	0	0	0	1	0	0	0	0	
+#¸c Quû Tinh Phan	4	139	\spr\item\other\¶ñ¹íìºá¦.spr	39	1	1	#VËt c­ìi cña HuyÕt Yªu.	0	100	0	0	0	1	0	0	0	0	
+#Ma ThuÉn	4	140	\spr\item\other\Ä§¶ÜÅÆ.spr	39	1	1	#VËt phßng th©n cña ThiÕt Tinh.	0	100	0	0	0	1	0	0	0	0	
+#CÈu Mang Hån	4	141	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#Hån cña CÈu Mang	0	100	0	0	0	1	0	0	0	0	
+#Chóc ¢m Hån	4	142	\spr\item\other\Á×Ñı»ê.spr	39	1	1	#Hån cña Chóc ThÇn	0	100	0	0	0	1	0	0	0	0	
+#Yªu qua	4	143	\spr\item\other\¿ñÈ®Ç¹.spr	39	1	1	#VËt bÊt ly th©n cña Thiªn Thï	0	100	0	0	0	1	0	0	0	0	
+#Cù Phñ	4	144	\spr\item\other\Ê¬Íõ¸«.spr	39	1	1	#Vò khİ cña Quú Ng­u	0	100	0	0	0	1	0	0	0	0	
+#Tam Tiªm Xoa	4	145	\spr\item\other\ÉñÖ®Èı¼â²æ.spr	39	1	1	#Vò khİ cña KÕ M«ng	0	100	0	0	0	1	0	0	0	0	
+#Linh S¬n Ph¸ch	4	146	\spr\item\other\µØÁé.spr	39	1	1	#Cã kh¶ n¨ng hµng phôc yªu ma	0	0	0	0	0	0	0	0	0	0	
+#TrÊn Hæ Phï	4	147	\spr\item\other\±ø·û.spr	39	1	1	#Ên ch­¬ng C«ng tr¹ng cña triÒu ®×nh	0	0	0	0	0	0	0	0	0	0	
+#Trõ Ma ®ao	4	148	\spr\item\other\ÓÂÊ¿Ö®ÈĞ.spr	39	1	1	#Cã thÓ trÊn ¸p yªu ma	0	0	0	0	0	0	0	0	0	0	
+#Tr­êng Sinh  T¸n (bá)	4	149	\spr\item\other\³¤ÉúÉ¢.spr	39	1	1	#Rêi m¹ng t¨ng ®iÓm kinh nghiÖm	1	100	0	0	0	0	1	1	1	1	
+#V« Cùc T¸n (bá)	4	150	\spr\item\other\ÎŞ¼«É¢.spr	39	1	1	#Rêi m¹ng t¨ng kü n¨ng.	1	100	0	0	0	0	1	1	1	1	
+#Kú Phóc T¸n (bá)	4	151	\spr\item\other\Æí¸£É¢.spr	39	1	1	#Rêi m¹ng khai kho¸ng	1	100	0	0	0	0	1	1	1	1	
+#Tuyªn chiÕn bµi	4	152	\spr\item\other\¹úÕ½ĞÅÎï.spr	39	1	1	#Dïng ®Ó tuyªn chiÕn víi l·nh ®Şa ®èi ph­¬ng.	1	1	0	0	0	0	0	0	0	1	
+#§Çu Giao Long	4	153	\spr\item\other\ÁúÍ·.spr	39	1	1	#BiÓu t­îng cña ¶i Nh©n	0	0	0	0	0	0	0	0	0	0	
+#Hoa Ch­ HÇu	4	154	\spr\item\other\¿µÄËÜ°.spr	39	1	1	#§em ®Õn may m¾n cho l·nh ®Şa	0	0	0	0	0	0	0	0	0	0	
+#Cù Méc bµi	4	155	\spr\item\other\ÉñÖ®Èı¼â²æ.spr	39	1	1	#§Ó më Cù Méc m«n	0	0	0	0	0	1	0	0	0	0	
+#Quy Linh Ch©u	4	156	\spr\item\other\¹êÎÆÁéÖé.spr	39	1	1	#Dïng ®Ó bãi tr­íc kiÕt hung	0	0	0	0	0	0	0	0	0	1	
+#Nguyªn b¶o	4	157	\spr\item\other\Ôª±¦.spr	39	1	1	#T­¬ng ®­¬ng víi thÎ <color=Cyan>1500 <color> ®iÓm	1	0	0	0	0	0	1	1	1	1	
+#Quy Linh Ch©u nøt	4	158	\spr\item\other\¹êÎÆÁéÖé.spr	39	1	1	#Viªn Linh Ch©u nµy lµ thÇn minh chØ dÉn ph­¬ng h­íng cho bé téc trong t­¬ng lai. Cã thÓ mang ®Õn Phong ThÇn ®µi hiÕn tÆng cho Th­¬ng Thang.	0	0	0	0	0	0	0	0	0	1	
+#§Şa	4	159	\spr\item\other\µØÁé.spr	39	1	1	#Tinh hoa cña ®Êt	0	0	0	0	0	0	0	0	0	1	
+#Phong	4	160	\spr\item\other\ÁÇÔ­.spr	39	1	1	#Tinh hoa cña giã	0	0	0	0	0	0	0	0	0	1	
+#Thñy	4	161	\spr\item\other\×··ç.spr	39	1	1	#Tinh hoa cña n­íc	0	0	0	0	0	0	0	0	0	1	
+#Háa	4	162	\spr\item\other\º£»ê.spr	39	1	1	#Tinh hoa cña löa	0	0	0	0	0	0	0	0	0	1	
+#Long huyÕt	4	163	\spr\item\other\ÉñÁúÑª.spr	39	1	1	#M¸u rång	0	0	0	0	0	0	0	0	0	1	
+#MÇmC©yKimXİch	4	164	\spr\item\ibitem\¸ß¼¶Ê÷Ãç.spr	39	1	1	#MÇm h¹t thÇn bİ	0	0	0	0	0	1	0	0	0	1	
+#Long Th¹ch	4	165	\spr\item\other\Çà¾ú¾ŞÊ¯.spr	39	1	1	#Th­îng cæ Thñ Hé ThÇn sau khi bŞ S¸t Ma tiªu diÖt, Linh Hån ng­ng tô mµ thµnh.	0	0	0	0	0	1	0	0	0	1	
+#§Çu Lam B¸	4	166	\spr\item\other\Í·1.spr	39	1	1	#§Çu Lam B¸	0	10	0	0	0	1	1	1	1	1	
+#§Çu ThiÕt Bè	4	167	\spr\item\other\Í·2.spr	39	1	1	#§Çu ThiÕt Bè	0	10	0	0	0	1	1	1	1	1	
+#§Çu Kim Tr¹i	4	168	\spr\item\other\Í·3.spr	39	1	1	#§Çu Kim Tr¹i	0	10	0	0	0	1	1	1	1	1	
+#§Çu C«n Bèi	4	169	\spr\item\other\Í·4.spr	39	1	1	#§Çu C«n Bèi	0	10	0	0	0	1	1	1	1	1	
+#§Çu §¹i §iªu	4	170	\spr\item\other\Í·5.spr	39	1	1	#§Çu §¹i §iªu	0	10	0	0	0	1	1	1	1	1	
+#§Çu NhŞ Lang ThÇn	4	171	\spr\item\other\Í·6.spr	39	1	1	#§Çu NhŞ Lang ThÇn	0	10	0	0	0	1	1	1	1	1	
+#§Çu Bµn Cæ	4	172	\spr\item\other\Í·7.spr	39	1	1	#§Çu Bµn Cæ	0	10	0	0	0	1	1	1	1	1	
+#§Çu Giao long	4	173	\spr\item\other\Í·8.spr	39	1	1	#§Çu Giao long	0	10	0	0	0	1	1	1	1	1	
+#Hµn B¨ng nguyªn khİ	4	174	\spr\skill\Í¼±ê\±ù·ç±©.spr	39	1	1	#KhiÕn tÊt c¶ mäi vËt ®Òu ®ãng b¨ng.	0	1	0	0	0	0	0	0	0	1	
+#Bµn Cæ thÇn khİ	4	175	\spr\item\other\Åùö¨Ë«´¸.spr	39	1	1	#T­îng tr­ng cho søc m¹nh v« biªn cña Bµn Cæ	0	1	0	0	0	1	0	0	0	1	
+#Tham lam	4	176	\spr\item\other\Ö½Ç®.spr	344	1	1	#T­îng tr­ng cho sù tµ ¸c	0	1	0	0	0	1	0	0	0	1	
+#V« tri	4	177	\spr\item\other\Ç§ÀïÑÛµÄÇé±¨.spr	344	1	1	#T­îng tr­ng cho sù tµ ¸c	0	1	0	0	0	1	0	0	0	1	
+#Tµn nhÉn	4	178	\spr\item\other\¶ñÁé¸«.spr	344	1	1	#T­îng tr­ng cho sù tµ ¸c	0	1	0	0	0	1	0	0	0	1	
+#Tinh Cang Kh«i ®­îc nhËp hån	4	179	\spr\item\another\Í·ÊÎ1.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#Tinh Cang yªu ®¸i ®­îc nhËp hån	4	180	\spr\item\other\ÓÂÊ¿µÄÖ¸»·.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#Tinh Cang chiÕn ngoa ®­îc nhËp hån	4	181	\spr\item\another\²¼Ğ¬.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#Th¸i Êt Qu¸n ®­îc nhËp hån	4	182	\spr\item\another\Í·ÊÎ1.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#Th¸i Êt C©n ®­îc nhËp hån	4	183	\spr\item\other\ÓÂÊ¿µÄÖ¸»·.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#Th¸i Êt Lı ®­îc nhËp hån	4	184	\spr\item\another\²¼Ğ¬.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#Gi¸c Thó Trô ®­îc nhËp hån	4	185	\spr\item\another\Í·ÊÎ1.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#Gi¸c Thó yªu ®¸i ®­îc nhËp hån	4	186	\spr\item\other\ÓÂÊ¿µÄÖ¸»·.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#Gi¸c Thó ngoa ®­îc nhËp hån	4	187	\spr\item\another\²¼Ğ¬.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#TuyÕt Lé	4	188	\spr\item\another\Ñ©Â¶.spr	344	1	1	#cho T« Hé	0	1	0	0	0	0	0	0	0	1	
+#Th­ t¹o ph¶n	4	189	\spr\item\another\ÅÑ¾üÊÖ²á.spr	344	1	1	#Ghi chó c¸c kÕ s¸ch cña X¹ Nh©n	0	1	0	0	0	0	0	0	0	1	
+#T­íng Qu©n LÖnh	4	190	\spr\item\another\ÁîÅÆ1.spr	344	1	1	#LÖnh bµi cña Hoµn CÈu V­¬ng: <color=cyan>Hoµn CÈu Tinh [235,208], Hoµn CÈu So¸i [221,192]	0	1	0	0	0	0	0	0	0	1	
+#H¹p §»ng	4	191	\spr\item\another\î§ÌÙ×Ó.spr	344	1	1	#Nguyªn liÖu quan träng §¹i phu ë M¹nh T©n ®ang cÇn	1	100	0	0	0	1	1	1	1	1	
+#Nguyªn S©m	4	192	\spr\item\another\Ôª²Î.spr	344	1	1	#§¹i phu cÇn mét sè D­îc liÖu quan träng, cã thÓ ®Õn Tam S¬n quan ®Ó thu thËp!	1	100	0	0	0	1	1	1	1	1	
+#Lı	4	193	\spr\item\another\»ÆÖĞÀî.spr	344	1	1	#Trªn qu¶ thÇn kú cã ghi: D­íi gèc c©y cã nhiÒu <color=Cyan>TrÇm<color>. (Täa ®é [180,200])	1	100	0	0	0	1	1	1	1	1	
+#TrÇm	4	194	\spr\item\another\²»³ÁÄ¾.spr	344	1	1	#Trªn c©y thÇn kú Èn hiÖn dßng ch÷: §Õn Tam S¬n quan gÆp <color=Cyan>§Æng ThiÒn Ngäc<color> ®æi nh÷ng mãn ®å cao cÊp	1	100	0	0	0	1	1	1	1	1	
+#Nham	4	195	\spr\item\another\ÈıµºÑÒ.spr	344	1	1	#Trªn Nham th¹ch thÇn kú Èn hiÖn dßng ch÷: §Õn Tam S¬n quan gÆp <color=Cyan>§Æng ThiÒn Ngäc<color> sÏ cã huyÒn c¬!	1	100	0	0	0	1	1	1	1	1	
+#Ch©u	4	196	\spr\item\another\Ò¹Ã÷Öé.spr	344	1	1	#Khi cÇm trªn tay sÏ thÊy 1 hµng ch÷: D¹ Quang Ch©u cã thÓ gi¶ m¹o <color=Cyan>Cöu Khóc Ch©u<color>!	1	100	0	0	0	1	1	1	1	1	
+#CÇm	4	197	\spr\item\another\ÎåÏÒÇÙ.spr	344	1	1	#Trªn ®µn cã kh¾c ch÷: <color=Cyan>Gi¸p Cèt<color> ®· lÊy ®i <color=Cyan>D¹ Quang Ch©u<color>!	1	100	0	0	0	1	1	1	1	1	
+#T¶o	4	198	\spr\item\another\ºùÂ«Ôæ.spr	344	1	1	#CÇm lÊy T¶o, nghe ph¶ng phÊt giäng nãi: <color=Cyan>QuÕ<color> nµy cÇn ph¶i trång	1	100	0	0	0	1	1	1	1	1	
+#QuÕ	4	199	\spr\item\another\ÔÂ¹ğ×Ó.spr	344	1	1	#QuÕ l¾c ®Çu nãi: D¹ Xoa trªn Kú S¬n míi cã nhiÒu <color=Cyan>Cæ<color>	1	100	0	0	0	1	1	1	1	1	
+#Cæ	4	200	\spr\item\another\Å£Æ¤¹Ä.spr	344	1	1	#Trèng lµm b»ng da bß	1	100	0	0	0	1	1	1	1	1	
+#S¬n Xuyªn LiÔu	4	201	\spr\item\another\É½´¨Áø.spr	344	1	1	#Nguyªn liÖu §¹i phu §ång Quan cÇn ®· ®­îc phôc håi!	1	100	0	0	0	1	1	1	1	1	
+#Gµ	4	202	\spr\item\vgevent\ga.spr	39	1	1	#Thùc vËt th­êng thÊy trong nh©n gian	0	1	1	0	0	1	1	1	1	1	
+#M¶nh tranh 1	4	203	\spr\item\vgevent\hangnga1.spr	39	1	1	#Ng­êi ch¬i cã thÓ thu thËp, ®ñ <color=Cyan>6<color> tê sÏ nhËn ®­îc 1 bøc tranh	0	1	1	0	0	1	1	1	1	1	
+#M¶nh tranh 2	4	204	\spr\item\vgevent\hangnga2.spr	39	1	1	#Ng­êi ch¬i cã thÓ thu thËp, ®ñ <color=Cyan>6<color> tê sÏ nhËn ®­îc 1 bøc tranh	0	1	1	0	0	1	1	1	1	1	
+#M¶nh tranh 3	4	205	\spr\item\vgevent\hangnga3.spr	39	1	1	#Ng­êi ch¬i cã thÓ thu thËp, ®ñ <color=Cyan>6<color> tê sÏ nhËn ®­îc 1 bøc tranh	0	1	1	0	0	1	1	1	1	1	
+#M¶nh tranh 4	4	206	\spr\item\vgevent\hangnga4.spr	39	1	1	#Ng­êi ch¬i cã thÓ thu thËp, ®ñ <color=Cyan>6<color> tê sÏ nhËn ®­îc 1 bøc tranh	0	1	1	0	0	1	1	1	1	1	
+#M¶nh tranh 5	4	207	\spr\item\vgevent\hangnga5.spr	39	1	1	#Ng­êi ch¬i cã thÓ thu thËp, ®ñ <color=Cyan>6<color> tê sÏ nhËn ®­îc 1 bøc tranh	0	1	1	0	0	1	1	1	1	1	
+#M¶nh tranh 6	4	208	\spr\item\vgevent\hangnga6.spr	39	1	1	#Ng­êi ch¬i cã thÓ thu thËp, ®ñ <color=Cyan>6<color> tê sÏ nhËn ®­îc 1 bøc tranh	0	1	1	0	0	1	1	1	1	1	
+#§µo méc	4	209	\spr\item\other\ËÉÖ¦.spr	39	1	1	#Tİn vËt cña Th©n C«ng B¸o	0	100	0	0	0	0	0	0	0	1	
+#TrÊn ma ph­ín	4	210	\spr\item\newbeta\ÕòÄ§Æì.spr	39	1	1	#VËt phÈm ®Ó nhËn nhiÖm vô H« Ma th¸p	0	0	0	0	0	0	0	0	0	1	
+#To¶ Tiªn bµi	4	211	\spr\item\newbeta\ËøÑıÅÆ.spr	39	1	1	#VËt phÈm ®Ó nhËn nhiÖm vô H« Tiªn th¸p	0	0	0	0	0	0	0	0	0	1	
+#DiÖp tö  tiÕu	4	212	\spr\item\vgevent\la_tra.spr	344	1	1	#Thæi lªn sÏ dô ®­îc Linh xµ rêi æ	0	1	0	0	0	0	0	0	0	1	
+#V¶y r¾n	4	213	\spr\item\another\¶¾Éß.spr	344	1	1	#V¶y Linh Xµ, máng nh­ x¸c ve	0	1	0	0	0	0	0	0	0	1	
+#Ly Háa néi ®¬n	4	214	\spr\item\ibitem\µ¤Ò©5.spr	39	1	1	#Néiu hoµn do ThÇn thó Ly Ch©u tù tay luyÖn nªn	0	1	0	0	0	0	0	0	0	1	
+#Nh©n Hån Ch©u	4	215	\spr\item\newbeta\Ê¯Í·_µÍ.spr	39	1	1	#B¶o vËt cña Ninh Miªu r¬i ra ë BÊt Chu Thiªn quan. Thiªn To¸n Tö ë BÊt Chu S¬n biÕt c¸ch sö dông!	0	1	0	0	0	0	0	0	0	1	
+#§Şa Hån Ch©u	4	216	\spr\item\newbeta\Ê¯Í·_ÖĞ.spr	39	1	1	#B¶o vËt cña Phong Yªu r¬i ra ë BÊt Chu S¬n. Thiªn To¸n Tö ë BÊt Chu S¬n biÕt c¸ch sö dông!	0	1	0	0	0	0	0	0	0	1	
+#Thiªn Hån Ch©u	4	217	\spr\item\newbeta\Ê¯Í·_¸ß.spr	39	1	1	#B¶o vËt cña Sãi r¬i ra ë BÊt Chu S¬n. Thiªn To¸n Tö ë BÊt Chu S¬n biÕt c¸ch sö dông!	0	1	0	0	0	0	0	0	0	1	
+#BÊt Chu S¬n th¹ch	4	218	\spr\item\other\Ê¯Í·ËéÆ¬.spr	39	1	1	#BÊt Chu S¬n khi ®øt g·y sinh ra. Th«ng qua tinh luyÖn sÏ trë thµnh b¸u vËt nh©n gian	0	100	0	0	0	0	0	0	0	2	
+#V« ¶nh Thİch	4	219	\spr\item\another\¹í¼ıÓğ.spr	39	1	1	#Vò khİ cña H¾c Phong	1	1	0	0	0	0	0	0	0	1	
+#Quû Hå L«	4	220	\spr\item\other\»Æ¾Æ.spr	39	1	1	#VËt tuú th©n cña D¹ Xoa	1	1	0	0	0	0	0	0	0	1	
+#§éc huyÕt	4	221	\spr\item\another\ÎåĞóÑª.spr	39	1	1	#M¸u ®éc cña Thæ Hµnh T«n	1	1	0	0	0	0	0	0	0	1	
+#Ng­u S¸t huyÕt	4	222	\spr\item\another\ÎåĞóÑª.spr	39	1	1	#M¸u t­¬i cña Ng­u S¸t	1	1	0	0	0	0	0	0	0	1	
+#Thuèc gi¶i ®éc	4	223	\spr\item\another\±¦Ïäb4.spr	39	1	1	#Gi¶i ®­îc §éc Cæ	1	1	0	0	0	0	0	0	0	1	
+#B¹ch Th¹ch Hån	4	224	\spr\item\newbeta\°×É«ÍÁ»ê.spr	39	1	1	#Hån tinh Hung thó (Kim)	1	1	0	0	0	0	0	0	0	1	
+#Thanh Th¹ch Hån	4	225	\spr\item\newbeta\ÇàÉ«ÍÁ»ê.spr	39	1	1	#Hån tinh Hung thó (Méc)	1	1	0	0	0	0	0	0	0	1	
+#HuyÒn Th¹ch Hån	4	226	\spr\item\newbeta\ĞşÉ«ÍÁ»ê.spr	39	1	1	#Hån tinh Hung thó (Thñy)	1	1	0	0	0	0	0	0	0	1	
+#Xİch Th¹ch Hån	4	227	\spr\item\newbeta\ºìÉ«Ê¯Í·.spr	39	1	1	#Hån tinh Hung thó (Háa)	1	1	0	0	0	0	0	0	0	1	
+#Hoµng Th¹ch Hån	4	228	\spr\item\newbeta\»ÆÉ«ÍÁ»ê.spr	39	1	1	#Hån tinh Hung thó (Thæ)	1	1	0	0	0	0	0	0	0	1	
+#Tö Linh Minh Ch©u	4	229	\spr\item\other\¶¨º£±¦Öé.spr	39	1	1	#N÷ Oa N­¬ng N­¬ng lóc v¸ trêi lµm r¬i l¹c, cã thÓ phong Ên Linh hån	0	1	0	0	0	0	0	0	0	1	
+#Hång Th»ng	4	230	\spr\item\other\»Ã¾«Æ®´ø.spr	39	1	1	#Ng­êi h¸i thuèc míi biÕt ®­îc c«ng dông cña vËt nµy	0	1	0	0	0	0	0	0	0	1	
+#U Minh Th¶o	4	231	\spr\item\another\Ôª²Î.spr	39	1	1	#Lo¹i d­îc th¶o cã ©m tİnh	1	1	0	0	0	0	0	0	0	1	
+#Cöu ChuyÓn Tiªn §¬n	4	232	\spr\item\other\¶¨º£±¦Öé.spr	39	1	1	#Nam Cùc Tiªn ¤ng ®iÒu chÕ, cã thÓ trŞ b¸ch bÖnh	1	1	0	0	0	0	0	0	0	1	
+#Hån Ph¸ch Chi Tinh	4	233	\spr\item\other\¶¨º£±¦Öé.spr	39	1	1	#Cã thÓ gióp c¸c ®¹o h÷u Tiªn Ma Håi hån quy vŞ.	1	1	0	0	0	0	0	0	0	1	
+#Háa Ly Tinh Ph¸ch	4	234	\spr\item\other\¿ÕÖĞ»ğ.spr	39	1	1	#Tinh Ph¸ch cña L·o Hå l«, Chóc Dung hiÓu ®­îc hµm nghÜa	1	1	0	0	0	0	0	0	0	1	
+#Cuång §iÓu Chi UÕ	4	235	\spr\item\other\½ğÑÛÉñİº.spr	344	1	1	#Nguyªn liÖu cÇn thiÕt ®Ó luyÖn hãa b¶o d­îc.	1	1	0	0	0	0	0	0	0	1	
+#Lôc Qu¸i Chi LÖ	4	236	\spr\item\other\·çÖ®Àá.spr	344	1	1	#Nguyªn liÖu cÇn thiÕt ®Ó luyÖn hãa b¶o d­îc.	1	1	0	0	0	0	0	0	0	1	
+#Thiªn Niªn B¶o T©n §an	4	237	\spr\item\other\Ê¯Í·ËéÆ¬£¨ÂÌ£©.spr	344	1	1	#Gióp t¨ng gÊp r­ìi hiÖu qu¶ thµnh c«ng khi luyÖn ®¬n	1	1	0	0	0	0	0	0	0	1	
+#Minh ¢m CÇm	4	238	\spr\item\another\ÎåÏÒÇÙ.spr	39	1	1	#Cæ cÇm, trªn cã kh¾c: Ch©n Long Kú trong bông cña ®Çu lÜnh B¨ng Lang	1	1	0	0	0	0	0	0	0	1	
+#Ch©n Long Kú	4	239	\spr\item\other\Á÷ĞÇËéÆ¬.spr	39	1	1	#Cæ kú chøa ®Çy Linh khİ	1	1	0	0	0	0	0	0	0	1	
+#Nam Hoa Kinh	4	240	\spr\item\other\¹ÅÀÏµÄÖñ¼ò.spr	39	1	1	#Kinh v¨n néi dung th©m thóy, ®· l­u truyÒn h¬n ngh×n n¨m.	1	1	0	0	0	0	0	0	0	1	
+#Tiªn C¬ Häa	4	241	\spr\item\vgevent\hangnga1.spr	39	1	1	#Trong vÏ mü n÷ tuyÖt s¾c	1	1	0	0	0	0	0	0	0	1	
+#MËt Tİn	4	242	\spr\item\other\ÊéĞÅ.spr	39	1	1	#MËt Tİn ph¶n qu©n göi cho Néi gi¸n, trong viÕt c¸c thæ ©m kú bİ	1	1	0	0	0	0	0	0	0	1	
+#Bót kı 1 bŞ r¸ch	4	243	\spr\item\other\¹ÅÀÏµÄÖñ¼ò.spr	39	1	1	#Bót kı cña D­ Kh¸nh, ®å ®Ö V¨n Th¸i S­. <color=Cyan>§i t×m D­ Kh¸nh t×m hiÓu thªm!	1	1	0	0	0	0	0	0	0	1	
+#Bót kı 2 bŞ r¸ch	4	244	\spr\item\other\¹ÅÀÏµÄÖñ¼ò.spr	39	1	1	#Bót kı cña D­ Kh¸nh, ®å ®Ö V¨n Th¸i S­. <color=Cyan>§i t×m D­ Kh¸nh t×m hiÓu thªm!	1	1	0	0	0	0	0	0	0	1	
+#Bót kı 3 bŞ r¸ch	4	245	\spr\item\other\¹ÅÀÏµÄÖñ¼ò.spr	39	1	1	#Bót kı cña D­ Kh¸nh, ®å ®Ö V¨n Th¸i S­. <color=Cyan>§i t×m D­ Kh¸nh t×m hiÓu thªm!	1	1	0	0	0	0	0	0	0	1	
+#M¶nh Quan Tinh gi¶n	4	246	\spr\item\other\¹ÛĞÇÍ²ËéÆ¬.spr	39	1	1	#B¶o vËt thÊt l¹c cña qu¸n tinh	0	0	0	0	0	0	0	0	0	1	
+#MËt Tİn	4	247	\spr\item\other\ÃÜĞÅ1.spr	39	1	1	#Trªn cã viÕt hµng ch÷:Tinh Quan ë T©y Kú kh¶i bót.	0	0	0	0	0	0	0	0	0	1	
+#VÕt ch÷ nhuèm m¸u	4	248	\spr\item\other\ÑªÊé.spr	39	1	1	#VÕt ch÷ nhuèm m¸u	0	0	0	0	0	0	0	0	0	1	
+#Tinh T­îng ®å	4	249	\spr\item\other\°²¾ÓÍ¼.spr	39	1	1	#Hµm chøa c«ng lùc cña §¹i phu TuyÖt Long LÜnh	0	0	0	0	0	0	0	0	0	1	
+#Canh Håi Hån	4	250	\spr\item\other\»Æ¾Æ.spr	39	1	1	#D­îc th¶o tinh chÕ cña YÓn Phong, cã thÓ gi¶i cøu t¹m thêi ¸c tËt cña téc nh©n	0	0	0	0	0	0	0	0	0	1	
+#Ng­ H×nh th¶o	4	251	\spr\item\ibitem\ÖÖ×ÓÔÔÅà¼Á.spr	39	1	1	#Lo¹i thùc vËt lµ gièng nh­ m×nh c¸, thÕ gian hiÕm thÊy	0	0	0	0	0	0	0	0	0	1	
+#Long Ng¹n th¶o	4	252	\spr\item\flower\Ë®ÏÉ.spr	39	1	1	#Lo¹i thùc vËt lµ gièng nh­ m×nh rång, thÕ gian hiÕm thÊy	0	0	0	0	0	0	0	0	0	1	
+#§éc lan th¶o	4	253	\spr\item\another\¸½×Ó.spr	39	1	1	#Lo¹i thùc vËt chøa chÊt kŞch ®éc, chØ mäc ë nh÷ng n¬i rõng thiªng n­íc ®éc	0	0	0	0	0	0	0	0	0	1	
+#Long thiÖt lan	4	254	\spr\item\another\»Æ¾«.spr	39	1	1	#Lo¹i thùc vËt chøa chÊt kŞch ®éc	0	0	0	0	0	0	0	0	0	1	
+#Minh Lan T¸n	4	255	\spr\item\another\Í¨ÂöËÄÄæÌÀ.spr	39	1	1	#Võa lµ thuèc ®éc võa lµ thuèc gi¶i ®éc	0	0	0	0	0	0	0	0	0	1	
+#Thanh Hoa töu	4	256	\spr\item\other\¾Æ.spr	39	1	1	#R­îu do YÓn Phong ch­ng cÊt, mïi th¬m ngµo ng¹t, c¸c chiÕn sÜ bé l¹c §«ng Di rÊt thİch. B×nh r­îu nµy ®ñ cho 2 ng­êi uèng 3 lÇn.	0	0	0	0	0	0	0	0	0	1	
+#M¶nh Cæ ®å	4	257	\spr\item\newbeta\Ö½ÕÅ001.spr	39	1	1	#Nghe nãi cã chøa bİ mËt vÒ ph¸p khİ thÊt l¹c ë Ngôc Ph¸p S¬n	0	0	0	0	0	0	0	0	0	1	
+#Th­ hµng cña B¨ng Linh	4	258	\spr\item\other\ÃÜĞÅ1.spr	39	1	1	#D­ Kh¸nh cho biÕt ®©y lµ hµng th­ cña B¨ng Linh n¨m x­a, ®i t×m B¨ng Linh ®Ó chøng thùc.	0	0	0	0	0	0	0	0	0	1	
+#Th­ hµng cña Háa Ma	4	259	\spr\item\other\ÃÜĞÅ1.spr	39	1	1	#D­ Kh¸nh cho biÕt ®©y lµ hµng th­ cña Háa Ma n¨m x­a, ®i t×m Háa Ma ®Ó chøng thùc.	0	0	0	0	0	0	0	0	0	1	
+#Hµng BiÓu	4	260	\spr\item\other\¹ÅÀÏµÄÖñ¼ò.spr	39	1	1	#Hµng th­ cña yªu ma tø ph­¬ng göi cho V¨n Th¸i S­, mang cho D­ Kh¸nh xem!	0	0	0	0	0	0	0	0	0	1	
+#Y Gi¸p C¬ HuyÒn Phong	4	261	\spr\item\another\Ìú¼×.spr	39	1	1	#Y Gi¸p cña C¬ HuyÒn Phong thêi th­îng cæ, c¸c vÕt tİch trªn ®ã chøng tá chñ nh©n lµ mét dòng sÜ thùc thô.	0	0	0	0	0	0	0	0	0	1	
+#Y Gi¸p Kh­¬ng Ngu Tİch	4	262	\spr\item\another\±¡¼×.spr	39	1	1	#Y Gi¸p cña Kh­¬ng Ngu Tİch thêi th­îng cæ, c¸c vÕt tİch trªn ®ã chøng tá chñ nh©n lµ mét dòng sÜ thùc thô.	0	0	0	0	0	0	0	0	0	1	
+#Tôc Cèt Sinh C¬ Liªn	4	263	\spr\item\flower\³û¾Õ.spr	39	1	1	#Mét lo¹i d­îc liÖu cao quı, cã thÓ c¶i tö hoµn sinh.	0	0	0	0	0	0	0	0	0	1	
+#Minh Ph¸ch Linh Th¹ch	4	264	\spr\item\another\ÁéÉßÂÑ2.spr	39	1	1	#Mét m¶nh Linh Th¹ch ph¸t ra søc m¹nh thÇn bİ, lµ tİn vËt ®Ó tiÕp nhËn kh¶o nghiÖm Th¸nh TuyÒn.	0	0	0	0	0	0	0	0	0	1	
+#Hoµn Ch©n Qu¶	4	265	\spr\item\another\»¹Õæ¹ûÊµ1.spr	39	1	1	#Th­êng l¹c ng· tŞnh chung thµnh h­ ¶o, khø trõ ®iªn ®¶o hoµn ®¾c ch©n ng·.	0	0	0	0	0	0	0	0	0	1	
+#Tam Sinh Th¹ch	4	266	\spr\item\newbeta\ºìÉ«Ê¯Í·.spr	39	1	1	#Thiªn b¸ch niªn lai, v©n v©n chóng sinh cô h÷u khæ d÷ l¹c, bi d÷ hoan, tiÕu d÷ lÖ.	0	1	0	0	0	0	0	0	0	1	
+#Méng Lı Hoa	4	267	\spr\item\flower\ğ°Î²»¨.spr	39	1	1	#HÊp thu tinh hoa ®Êt trêi, 60 n¨m nÈy mÇm 1 lÇn, 60 n¨m në hoa 1 lÇn, lµ thÇn liÖu ®Ó luyÖn thuèc tr­êng sinh bÊt l·o.	0	1	0	0	0	0	0	0	0	1	
+#Kı øc Háa Chñng	4	268	\spr\item\another\buff-1.spr	39	1	1	#Chøa c¸c kı øc tiÒn thÕ, dïng ®Ó lÇn l­ît gióp VËt tæ t¸i hiÖn Kı øc.	0	1	0	0	0	0	0	0	0	1	
+#M¶nh M¾t Rång s¸ng	4	269	\spr\item\another\Ò«Ä¿.spr	39	1	1	#M¶nh M¾t Rång sung m·n linh lùc, mang theo nã ®Ó ®¸nh thøc TrÇm Miªn Nh·n.	0	0	0	0	0	0	0	0	0	2	
+#Long Hån Tinh Ph¸ch	4	270	\spr\item\another\Áú»ê¾«ÆÇ.spr	39	1	1	#Tinh ph¸ch ®¸nh b¹i Long Hån nhËn ®­îc, mang nã cïng víi M¶nh M¾t Rång ¶m §¹m giao cho Tu Hµnh S­	0	1	0	0	0	0	0	0	0	1	
+#Ngäc Béi	4	271	\spr\item\other\ÓñÅå1.spr	39	1	1	#Ngäc Béi ph¸t ra nh÷ng tia s¸ng kú bİ.	0	1	0	0	0	0	0	0	0	1	
+#Th¸nh §Şa B¸ch Hîp	4	272	\spr\item\another\°ÙºÏÍ¼±ê.spr	39	1	1	#B¸ch Hîp sinh tr­ëng n¬i Th¸nh §Şa, cã c«ng dông c¶i tö hoµn sinh.	0	5	0	0	0	0	0	0	0	1	
+#Bét b¸nh trung thu	4	273	\spr\item\ibitem\ÔÂ±ıÃæ·Û.spr	39	1	1	#VËt phÈm tham gia ho¹t ®éng Trung thu, t×m thªm 2 mãn: Khu«n b¸nh trung thu vµ Nh©n b¸nh trung thu, mang ®Õn chç B¸nh cung tr¨ng ë T©y Kú sÏ nhËn ®­îc mét thiÖp c¶m ¬n cña Ngäc Thè!	0	10	0	0	0	1	0	0	0	1	
+#Khu«n b¸nh trung thu	4	274	\spr\item\ibitem\ÔÂ±ıÄ£¾ß.spr	39	1	1	#VËt phÈm tham gia ho¹t ®éng Trung thu, t×m thªm 2 mãn: Bét b¸nh trung thu, Nh©n b¸nh trung thu mang ®Õn chç B¸nh cung tr¨ng ë T©y Kú sÏ nhËn ®­îc mét thiÖp c¶m ¬n cña Ngäc Thè!	0	0	0	0	0	1	0	0	0	1	
+#Nh©n b¸nh trung thu	4	275	\spr\item\ibitem\ÔÂ±ıÏÚÁÏ.spr	39	1	1	#VËt phÈm tham gia ho¹t ®éng Trung thu, t×m thªm 2 mãn: Khu«n b¸nh trung thu, Bét b¸nh trung thu mang ®Õn chç B¸nh cung tr¨ng ë T©y Kú sÏ nhËn ®­îc thiÖp c¶m ¬n cña Ngäc Thè!	0	0	0	0	0	1	0	0	0	1	
+#ThiÖp c¶m ¬n	4	276	\spr\item\another\·ûÎÄ3.spr	39	1	1	#PhÇn th­ëng dŞp Trung thu cña Ngäc Thè tiªn tö, mang ®Õn LÔ Quan ë T©y Kú ®Ó ®æi phÇn th­ëng!	0	100	0	0	0	1	0	0	0	1	
+#Hinh H­¬ng Lam	4	277	\spr\item\ibitem\ÆßÇİÉÈ.spr	39	1	1	#B¶o vËt dïng h­¬ng liÖu ®Ó luyÖn chÕ, vËn chuyÓn nã sÏ gióp thµnh thŞ t¨ng thªm h­¬ng liÖu. Phong L©m ë M¹nh T©n míi biÕt c«ng dông cña vËt nµy.	0	0	0	0	0	0	0	0	0	1	4
+#ThÇn Méc	4	278	\spr\item\other\Ò©Ê¦ÊÖÔı.spr	39	1	1	#B¶o vËt luyÖn chÕ tõ gç, vËn chuyÓn nã sÏ gióp thµnh thŞ t¨ng thªm gç. Phong L©m ë M¹nh T©n míi biÕt c«ng dông cña vËt nµy. <c=g>Dïng cho thµnh thŞ cÊp 2<c>.	0	0	0	0	0	0	0	0	0	1	4
+#HuyÒn ThiÕt §Ønh	4	279	\spr\item\other\·ÙÏãÂ¯.spr	39	1	1	#B¶o vËt luyÖn chÕ tõ HuyÒn ThiÕt, vËn chuyÓn nã sÏ gióp thµnh thŞ t¨ng HuyÒn ThiÕt. Phong L©m ë M¹nh T©n míi biÕt c«ng dông cña vËt nµy. <c=g>Dïng cho thµnh thŞ cÊp 3<c>.	0	0	0	0	0	0	0	0	0	1	4
+#Hoµng Kim Chung	4	280	\spr\item\other\½ğ¶¦.spr	39	1	1	#B¶o vËt luyÖn chÕ tõ Hoµng Kim, vËn chuyÓn nã sÏ gióp thµnh thŞ t¨ng Hoµng Kim. Phong L©m ë M¹nh T©n míi biÕt c«ng dông cña vËt nµy. <c=g>Dïng cho thµnh thŞ cÊp 4<c>.	0	0	0	0	0	0	0	0	0	1	4
+#Qu©n t­-Hinh H­¬ng Lam	4	281	\spr\item\ibitem\ÔÂ±ıÃæ·Û.spr	39	1	1	#1	0	0	0	0	0	0	0	0	0	1	1
+#Qu©n t­-ThÇn Méc Chi	4	282	\spr\item\ibitem\ÔÂ±ıÄ£¾ß.spr	39	1	1	#2	0	0	0	0	0	0	0	0	0	1	1
+#Qu©n t­-HuyÒn ThiÕt §Ønh	4	283	\spr\item\ibitem\ÔÂ±ıÏÚÁÏ.spr	39	1	1	#3	0	0	0	0	0	0	0	0	0	1	1
+#Qu©n t­-Hoµng Kim Chung	4	284	\spr\item\another\·ûÎÄ3.spr	39	1	1	#4	0	0	0	0	0	0	0	0	0	1	1
+#Hån Ph¸ch Hå L«	4	285	\spr\item\ibitem\Á¶µ¤Â¯.spr	39	1	1	#Hå l« chøa 1 hån 1 ph¸ch cña Kh­¬ng Tö Nha, ph¶i hÕt søc b¶o vÖ nã!	0	0	0	0	0	0	0	0	0	1	
+#MËt LÖnh	4	286	\spr\item\ibitem\À¶É«¿Õ°×ÊéÒ³.spr	39	1	1	#ThËp Thiªn Qu©n dïng ®Ó th«ng b¸o tin tøc, v¨n tù rÊt kú l¹.	0	0	0	0	0	0	0	0	0	1	
+#V¶y Linh Thó-Kim	4	287	\spr\item\¿ç·ş¹úÕ½\ÆäËû\ÌìÂ»ÁÛÆ¬½ğ.spr	39	1	1	#L©n phiÕn Ngò ®¹i phóc ®Şa Linh Thó <c=g>Thiªn Léc Linh Thó-Kim<c>, ng­êi cã L©n phiÕn nµy sÏ cã t­ c¸ch g¸nh v¸c träng tr¸ch ph¸t huy thŞ téc!	0	0	0	0	0	0	0	0	0	1	
+#V¶y Linh Thó-Méc	4	288	\spr\item\¿ç·ş¹úÕ½\ÆäËû\ÌìÂ»ÁÛÆ¬Ä¾.spr	39	1	1	#L©n phiÕn Ngò ®¹i phóc ®Şa Linh Thó <c=g>Thiªn Léc Linh Thó-Méc<c>, ng­êi cã L©n phiÕn nµy sÏ cã t­ c¸ch g¸nh v¸c träng tr¸ch ph¸t huy thŞ téc!	0	0	0	0	0	0	0	0	0	1	
+#V¶y Linh Thó-Thñy	4	289	\spr\item\¿ç·ş¹úÕ½\ÆäËû\ÌìÂ»ÁÛÆ¬Ë®.spr	39	1	1	#L©n phiÕn Ngò ®¹i phóc ®Şa Linh Thó <c=g>Thiªn Léc Linh Thó-Thñy<c>, ng­êi cã L©n phiÕn nµy sÏ cã t­ c¸ch g¸nh v¸c träng tr¸ch ph¸t huy thŞ téc!	0	0	0	0	0	0	0	0	0	1	
+#V¶y Linh Thó-Háa	4	290	\spr\item\¿ç·ş¹úÕ½\ÆäËû\ÌìÂ»ÁÛÆ¬»ğ.spr	39	1	1	#L©n phiÕn Ngò ®¹i phóc ®Şa Linh Thó <c=g>Thiªn Léc Linh Thó-Háa<c>, ng­êi cã L©n phiÕn nµy sÏ cã t­ c¸ch g¸nh v¸c träng tr¸ch ph¸t huy thŞ téc!	0	0	0	0	0	0	0	0	0	1	
+#V¶y Linh Thó-Thæ	4	291	\spr\item\¿ç·ş¹úÕ½\ÆäËû\ÌìÂ»ÁÛÆ¬ÍÁ.spr	39	1	1	#L©n phiÕn Ngò ®¹i phóc ®Şa Linh Thó <c=g>Thiªn Léc Linh Thó-Thæ<c>, ng­êi cã L©n phiÕn nµy sÏ cã t­ c¸ch g¸nh v¸c träng tr¸ch ph¸t huy thŞ téc!	0	0	0	0	0	0	0	0	0	1	
+#B¶o vËt bŞ trém	4	292	\spr\item\another\Àñ°ü3.spr	39	1	1	#B¶o vËt cña thŞ téc, bŞ Tú H­u tham ¨n ¨n mÊt. Ph¶i mang vÒ thŞ téc giao cho hËu duÖ cña Ngò §Õ.	0	0	0	0	0	1	0	0	0	1	1
+#Ch©n dung Hång Hoang	4	293	\spr\item\another\Áú»ê¾«ÆÇ.spr	39	1	1	#§¸nh b¹i Hång Hoang ThÇn Thó sÏ nhËn ®­îc, mang ®Õn Phong ThÇn ®µi giao cho V¨n Thï Qu¶ng Ph¸p Thiªn T«n sÏ nhËn danh hiÖu vÜnh viÔn "Hång Hoang Dòng SÜ".	0	0	0	0	0	0	0	0	0	0	
+# ChiÕn Kú ThŞ Téc	4	294	\spr\item\newbeta\ÕòÄ§Æì	39	1	1	#T­îng tr­ng qu©n lùc thŞ téc, c¾m nã trªn t­íng ®µi ngoµi §éng Thiªn, chøng minh ®· tuyªn chiÕn thµnh c«ng víi §éng Thiªn!	0	0	0	0	0	1	0	0	0	1	1
+#T­ LÔ Yªu Bµi	4	295	\spr\item\ibitem\Ó¦Ç©06.spr	39	1	1	#Vâ V­¬ng ban cho, mang theo ®Ó thay thÕ nhiÖm vô cña T­ LÔ T­íng Qu©n.	0	5	0	0	0	0	0	0	0	1	
+#Di Th­ dİnh m¸u	4	296	\spr\item\another\Óù·ç£¨ºì£©.spr	39	1	1	#Mét bøc Di Th­ dİnh m¸u, xem ra ®©y th­ tuyÖt mÖnh cña chiÕn sÜ bé l¹c §«ng Di gÆp n¹n. H·y mang vÒ cho YÓn V©n.	0	0	0	0	0	0	0	0	0	1	
+#Trang søc Dòng Gi¶	4	297	\spr\item\other\±ø·û.spr	39	1	1	#Trang søc Dòng Gi¶ cña bé l¹c §«ng Di, chñ nh©n cña nã ch¾c ®· gÆp n¹n. H·y mang vÒ cho YÓn V©n.	0	0	0	0	0	0	0	0	0	1	
+#Ngäc Béi vì	4	298	\spr\item\another\Éã»ê·û.spr	39	1	1	#Cã lÏ lµ di vËt cña mét thµnh viªn bé l¹c §«ng Di gÆp n¹n. H·y mang vÒ cho YÓn V©n.	0	0	0	0	0	0	0	0	0	1	
+#Th­ QuyÓn Cæ	4	299	\spr\item\other\ÀëÉ§.spr	39	1	1	#H×nh nh­ cã l­u l¹i huyÕt tİch kú bİ. H·y mang vÒ cho YÓn V©n.	0	0	0	0	0	0	0	0	0	1	
+#Long Xµ Th¶o	4	300	\spr\item\other\Öñ.spr	39	1	1	#Th¶o D­îc quı hiÕm, cã thÓ tiªu trõ ®éc khİ	0	0	0	0	0	0	0	0	0	1	
+#S­ Kinh (th­îng)	4	301	\spr\item\other\¹ÅÀÏµÄÖñ¼ò.spr	39	1	1	#Mét quyÓn Th­ QuyÓn Cæ, t­¬ng truyÒn do Tö D­¬ng Ch©n Nh©n viÕt.	0	0	0	0	0	0	0	0	0	1	
+#S­ Kinh (h¹)	4	302	\spr\item\other\¹ÅÀÏµÄÖñ¼ò.spr	39	1	1	#Mét quyÓn Th­ QuyÓn Cæ, t­¬ng truyÒn do Tö D­¬ng Ch©n Nh©n viÕt.	0	0	0	0	0	0	0	0	0	1	
+#Phôc Ma Gi¶n	4	303	\spr\item\another\Ä¾Ì¿.spr	39	1	1	#B¶o khİ cã thÓ hÊp thô linh hån yªu ma, khiÕn yªu ma ph¶i hiÖn th©n.	0	0	0	0	0	0	0	0	0	1	
+#Hµng Yªu Lôc	4	304	\spr\item\newbeta\ËøÑıÅÆ.spr	39	1	1	#B¶o khİ cã thÓ hÊp thô linh hån yªu ma, khiÕn yªu ma ph¶i hiÖn th©n.	0	0	0	0	0	0	0	0	0	1	
+#Kú Tr©n Kho¸ng Th¹ch	4	305	\spr\item\other\Ê¯Í·ËéÆ¬.spr	39	1	1	#Mét miÕng Kho¸ng Th¹ch thÇn bİ, ph¸t ra mét luång søc m¹nh kú l¹.	0	0	0	0	0	0	0	0	0	1	
+#Kú Tr©n Kho¸ng Th¹ch	4	306	\spr\item\other\Çà¾ú¾ŞÊ¯.spr	39	1	1	#Mét miÕng Kho¸ng Th¹ch thÇn bİ, ph¸t ra mét luång søc m¹nh kú l¹.	0	0	0	0	0	0	0	0	0	1	
+#Kú Tr©n Kho¸ng Th¹ch	4	307	\spr\item\newbeta\Ê¯Í·_ÖĞ.spr	39	1	1	#Mét miÕng Kho¸ng Th¹ch thÇn bİ, ph¸t ra mét luång søc m¹nh kú l¹.	0	0	0	0	0	0	0	0	0	1	
+#Kú Tr©n Kho¸ng Th¹ch	4	308	\spr\item\another\ÁéÉßÂÑ2.spr	39	1	1	#Mét miÕng Kho¸ng Th¹ch thÇn bİ, ph¸t ra mét luång søc m¹nh kú l¹.	0	0	0	0	0	0	0	0	0	1	
+#V¹n Niªn Tiªn Th¶o	4	309	\spr\item\flower\ğ°Î²»¨.spr	39	1	1	#Th¶o D­îc thÇn bİ, h×nh nh­ cã thÓ trŞ ®­îc b¸ch bÖnh.	0	0	0	0	0	0	0	0	0	1	
+#S­ Kinh TÇm Phï (th­îng)	4	310	\spr\item\another\ÁîÅÆ2.spr	39	1	1	#Hoµng Thiªn Hãa tÆng. Mang ®Õn T©y Kú cho NhËm ®¹i ca sÏ ®­îc tÆng S­ Kinh (th­îng)	0	0	0	0	0	0	0	0	0	1	
+#S­ Kinh TÇm Phï (h¹)	4	311	\spr\item\another\ÁîÅÆ2.spr	39	1	1	#Hoµng Thiªn Hãa tÆng. Mang ®Õn Diªu Tr× cho TrÊn Nguyªn sÏ ®­îc tÆng S­ Kinh (h¹).	0	0	0	0	0	0	0	0	0	1	
+#H×nh Nh©n	4	312	\spr\item\ibitem\ÌæÉíÄ¾ÈË.spr	39	1	1	#H×nh Nh©n cã kh¾c tªn Kh­¬ng Tö Nha, cÇn b¶o qu¶n cÈn thËn	0	0	0	0	0	0	0	0	0	1	
+#Hån	4	313	\spr\item\»½»ê\¸ß¼¶»ê¾§.spr	39	1	1	#Hån Kh­¬ng Tö Nha, cÇn b¶o qu¶n cÈn thËn	0	10	0	0	0	0	0	0	0	1	
+#Ph¸ch	4	314	\spr\item\»½»ê\³õ¼¶»ê¾§.spr	39	1	1	#Ph¸ch Kh­¬ng Tö Nha, cÇn b¶o qu¶n cÈn thËn!	0	10	0	0	0	0	0	0	0	1	
+#Dòng LiÖt M©u NhËp Hån	4	315	\spr\item\another\Í·ÊÎ1.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#Dòng LiÖt Hé Yªu NhËp Hån	4	316	\spr\item\other\ÓÂÊ¿µÄÖ¸»·.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	
+#Dòng LiÖt ChiÕn Ngoa NhËp Hån	4	317	\spr\item\another\²¼Ğ¬.spr	344	1	1	#Chøa ®ùng linh hån cña Th­îng Cæ ChiÕn ThÇn.	0	1	0	0	0	1	0	0	0	1	

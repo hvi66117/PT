@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "logical": "\\script\\phongthan\\npc_services\\xich_tung_tu.lua",
+  "source": {
+    "logical": "\\script\\瑶池\\赤松子.lua",
+    "pak": "script.pak",
+    "entry": 987,
+    "id": "D02B148D",
+    "sha256": "9256ed9983f95ddb163564be7889171a0e60f54837f17c9e6bdef67016c06a49",
+    "bytes": 7422
+  },
+  "region": {
+    "logical": "\\maps\\瑶池\\v_098\\097_region_s.dat",
+    "pak": "maps.pak",
+    "entry": 25358,
+    "id": "90F0B8EF",
+    "sha256": "0dd5b61fafe3e3155349b88d7e0c5a4b6fffd945f1d639436ce5735bc5d38e27",
+    "bytes": 2196
+  },
+  "npc": {
+    "template": 206,
+    "world": 1052,
+    "x": 49965,
+    "y": 100773
+  },
+  "material": {
+    "logical": "\\settings\\item\\001\\material.txt",
+    "pak": "vng00.pak",
+    "entry": 3152,
+    "id": "9A6E5BAA",
+    "sha256": "4626320a05fc1bc968a41646b1fda11042e51196a60e6567030489e394f34be5",
+    "bytes": 963943
+  },
+  "item_spr": {
+    "logical": "\\spr\\item\\other\\他山之石.spr",
+    "pak": "spr.pak",
+    "entry": 405,
+    "id": "17DDAAC9",
+    "bytes": 1313,
+    "validation": "PAK_INDEX_AND_STORED_SPR_HEADER",
+    "flags": 285213962
+  },
+  "original_sha256": "9256ed9983f95ddb163564be7889171a0e60f54837f17c9e6bdef67016c06a49",
+  "sha256": "094ba522d53f5b1dc740ddc971f65ba50e6777bbb4d6c8a92f6b6a4ae7d4c4d9",
+  "appendix_sha256": "db960f558403699c55246e1f41efc8d9d170b523f72f00e8b8540db51134688a",
+  "original_pak_modified": false,
+  "original_map_modified": false,
+  "rules": {
+    "credit": 10,
+    "reward": {
+      "genre": 3,
+      "detail": 82,
+      "particular": 0,
+      "count": 1
+    }
+  },
+  "equipment": {
+    "max_upgrade": 12,
+    "recipe_types": [
+      1,
+      7
+    ],
+    "exact_pak_rule_and_rate": true,
+    "preserves_item_id_and_base_roll": true,
+    "persisted_rule": true
+  },
+  "remaining": "Bracket-qualified recipes, non-equipment probabilistic composition, and upgrades 13..15 require further rules; not enabled"
+}

@@ -1,0 +1,191 @@
+{
+  "scope": "ORIGINAL_LUA4_STATE_API_TESTS_NOT_RUNTIME_VALIDATION",
+  "originals": [
+    {
+      "fixture": "to_ho.lua",
+      "logical": "\\script\\崇城大营\\苏护.lua",
+      "pak": "script.pak",
+      "entry": 922,
+      "id": "C23BF2BC",
+      "sha256": "c44b9f6b28692d77a4a4c6f51d35ebb6a509241e0be102d7b7c78eb4b026460c",
+      "bytes": 1044,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "thu_kho.lua",
+      "logical": "\\script\\崇城大营\\仓库管理员.lua",
+      "pak": "script.pak",
+      "entry": 426,
+      "id": "5D8BD60A",
+      "sha256": "dde542e8bc01c5b40f13f745b8618fbde527e1220f078474ba29a1de5fbccc6b",
+      "bytes": 5761,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "sung_ung_loan.lua",
+      "logical": "\\script\\崇城大营\\崇应鸾.lua",
+      "pak": "script.pak",
+      "entry": 1026,
+      "id": "D8CDC24D",
+      "sha256": "250af754a2eaeda76691306f72cf55c5560b15519814ca2637ba9877dceffc7d",
+      "bytes": 2040,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "trieu_loi.lua",
+      "logical": "\\script\\崇城大营\\晁雷.lua",
+      "pak": "script.pak",
+      "entry": 1109,
+      "id": "E7F3EA12",
+      "sha256": "03e37d97ede7cb5aa6619d69dfd05e74894a92f79ec5b7c18d7d98382d0c3608",
+      "bytes": 1802,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "trieu_dien.lua",
+      "logical": "\\script\\崇城大营\\晁田.lua",
+      "pak": "script.pak",
+      "entry": 260,
+      "id": "365E819A",
+      "sha256": "2559782be5f4ec96c9bdabc0fd4bce014108a9d0e57090abff88b23e90aeb453",
+      "bytes": 2119,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "nam_cuc.lua",
+      "logical": "\\script\\玉虚宫\\南极仙翁.lua",
+      "pak": "script.pak",
+      "entry": 219,
+      "id": "2D519F0B",
+      "sha256": "26209860b2a07437a5bc357ca4e704a3afaf619a9d5d82a6f4c33a91d6ccaefc",
+      "bytes": 2216,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "hoang_long.lua",
+      "logical": "\\script\\玉虚宫\\黄龙真人.lua",
+      "pak": "script.pak",
+      "entry": 1120,
+      "id": "EA6D4D65",
+      "sha256": "c23fd7c3e0408431d1c3fa06e50bf172b78d3a690ea26c97a95a55896ce9edd9",
+      "bytes": 914,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "nhien_dang.lua",
+      "logical": "\\script\\玉虚宫\\燃灯道人.lua",
+      "pak": "script.pak",
+      "entry": 432,
+      "id": "5E7611CC",
+      "sha256": "11cd7b389ac66d1193fd0ec0ad5f018747199c2bd0744624718a580fa6e51f18",
+      "bytes": 1603,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "hau_tho.lua",
+      "logical": "\\script\\蚩尤墓\\后土图腾.lua",
+      "pak": "script.pak",
+      "entry": 76,
+      "id": "0E218796",
+      "sha256": "fd1c827a45a1c8c51beac848546da9df44533a9e9a3f0de85b097ec7a4515bd2",
+      "bytes": 1049,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "cao_giac.lua",
+      "logical": "\\script\\蚩尤墓\\高觉.lua",
+      "pak": "script.pak",
+      "entry": 113,
+      "id": "17E03323",
+      "sha256": "34b949ffe3af63562451290b92def36cef0f60a757616973eaec544a72d24312",
+      "bytes": 3488,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "cao_minh.lua",
+      "logical": "\\script\\蚩尤墓\\高明.lua",
+      "pak": "script.pak",
+      "entry": 699,
+      "id": "962D5317",
+      "sha256": "648a274ff21001f7ab3ab8e32f55b6f2637805bbb6fd2f0875fbff522c4c718e",
+      "bytes": 1315,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    },
+    {
+      "fixture": "hinh_thien.lua",
+      "logical": "\\script\\蚩尤墓\\刑天.lua",
+      "pak": "script.pak",
+      "entry": 134,
+      "id": "1B0929A3",
+      "sha256": "36270790f2c28c515e234be6a65aa5f9d4a42024c64fc27e31bba9214e935ca5",
+      "bytes": 14316,
+      "source_pak": "D:\\Lam game phong than\\PhongThanRuntime-Content\\Client\\data\\script.pak"
+    }
+  ],
+  "derived": {
+    "fixture": "to_ho_transactional.lua",
+    "original": "to_ho.lua",
+    "appendix": "Deploy\\ProjectContent\\NpcRestoration\\quest_overrides\\to_ho_task20.lua",
+    "appendix_sha256": "de028dc4f7882acaf609c2984624202b49b0d2c2bf16298f28b8ccff398a7396",
+    "sha256": "956a43fa3cc36374e382bda0f19953f55d27d8e66164fed8f3280c423894daac"
+  },
+  "chains": [
+    {
+      "world": 1002,
+      "task": 20,
+      "states": [
+        0,
+        1,
+        10,
+        17,
+        18,
+        19
+      ],
+      "note": "Between 10 and 17, notify bits 1/2/4 in any order."
+    },
+    {
+      "world": 1003,
+      "task": 11,
+      "states": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "world": 1004,
+      "task": 31,
+      "states": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "world": 1002,
+      "task": 23,
+      "states": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "world": 1002,
+      "task": 26,
+      "states": [
+        0,
+        10,
+        0
+      ],
+      "note": "Repeatable collect10: deterministic event39 reward branch exercised."
+    }
+  ]
+}

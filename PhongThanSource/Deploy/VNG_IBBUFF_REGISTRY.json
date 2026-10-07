@@ -1,0 +1,22 @@
+{
+  "Schema": 1,
+  "Registry": "Phong Than VNG bufferconfig.ini",
+  "SourcePak": "autoupdate\\data\\vng00.pak",
+  "SourcePakSha256": "839DB12D3C0339E13F7F486A7069C295E7E05ACDFF2F384D7B94846C7A7D50D8",
+  "EntryId": "0xFF0CD8FA",
+  "SourcePayloadSha256": "9C0ABBD41BD3DE29D59CB6AFB849BEF3E500EDCA9F39689EF9A303BC1702F038",
+  "SourcePayloadBytes": 1074077,
+  "MaxBufWnd": 48,
+  "BuffInfoCount": 9999,
+  "PopulatedSectionCount": 6346,
+  "UniqueSectionCount": 6343,
+  "HighestPopulatedId": 9325,
+  "RuntimeContract": {
+    "StateOwner": "CoreServer authoritative IBBuff store",
+    "Persistence": "Task_List slots 4900-4995, 48 pairs",
+    "IdentityBits": 14,
+    "LevelBits": 8,
+    "ChargeBits": 10,
+    "ClientSync": "native state-skill packet and UiPlayerControlBar BuffList lookup"
+  }
+}
